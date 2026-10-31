@@ -56,6 +56,9 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+*.swo
+*.orig
+*.rej
 
 # vcpkg
 vcpkg_installed/
@@ -66,3 +69,24 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Local ASR corpora / test text (do not upload)
+clean_txt/
+whisper_txt/
+data/sample_document.txt
+
+# Local test logs
+log/
+
+# Local tooling / workspace artifacts
+.qoder-credits/
+.qoder/
+.verify/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
