@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(text_clean VERSION 1.0.0 LANGUAGES CXX)
+project(text_clean VERSION 1.2.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -42,6 +42,9 @@ target_link_libraries(tc_lexicon PUBLIC tc_utf8)
 tc_library(tc_word_maintaining src/word_maintaining.cpp)
 target_link_libraries(tc_word_maintaining PUBLIC tc_utf8)
 
+tc_library(tc_word_frequency src/word_frequency.cpp)
+target_link_libraries(tc_word_frequency PUBLIC tc_utf8)
+
 tc_library(tc_text_split src/text_split.cpp)
 target_link_libraries(tc_text_split PUBLIC tc_utf8)
 
@@ -49,9 +52,16 @@ tc_library(tc_word_review src/word_review.cpp)
 target_link_libraries(tc_word_review
   PUBLIC tc_word_maintaining tc_text_split tc_utf8)
 
+tc_library(tc_video_context src/video_context.cpp)
+target_link_libraries(tc_video_context PUBLIC tc_ac tc_utf8)
+
+tc_library(tc_vocabulary src/vocabulary.cpp)
+target_link_libraries(tc_vocabulary PUBLIC tc_utf8)
+
 tc_library(tc_pipeline src/text_cleaner.cpp)
 target_link_libraries(tc_pipeline
-  PUBLIC tc_ac tc_pinyin_index tc_edit_distance tc_pinyin_dict tc_lexicon tc_utf8)
+  PUBLIC tc_vocabulary tc_video_context tc_ac tc_pinyin_index tc_edit_distance tc_pinyin_dict tc_lexicon
+         tc_word_frequency tc_word_maintaining tc_utf8)
 
 add_executable(text_clean src/main.cpp)
 target_link_libraries(text_clean
@@ -78,6 +88,23 @@ tc_test(test_pinyin_dict tc_pinyin_dict)
 target_compile_definitions(test_pinyin_dict PRIVATE TC_DATA_DIR="${TC_DATA_DIR}")
 tc_test(test_lexicon tc_lexicon)
 tc_test(test_word_maintaining tc_word_maintaining)
+tc_test(test_word_frequency tc_word_frequency)
 tc_test(test_text_split tc_text_split)
 tc_test(test_word_review tc_word_review)
 tc_test(test_text_cleaner tc_pipeline)
+tc_test(test_tone_correction tc_pipeline)
+target_compile_definitions(test_tone_correction PRIVATE TC_DATA_DIR="${TC_DATA_DIR}")
+
+tc_test(test_video_context tc_pipeline)
+target_compile_definitions(test_video_context PRIVATE TC_DATA_DIR="${TC_DATA_DIR}")
+
+find_package(Python3 COMPONENTS Interpreter QUIET)
+if(Python3_Interpreter_FOUND)
+  add_test(NAME test_ngram_veto COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_ngram_veto.py)
+  add_test(NAME test_cli_context COMMAND ${Python3_EXECUTABLE}
+    ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_cli_context.py $<TARGET_FILE:text_clean>
+    ${CMAKE_CURRENT_BINARY_DIR})
+endif()
+
+tc_test(test_priority tc_pipeline)
+target_compile_definitions(test_priority PRIVATE TC_DATA_DIR="${TC_DATA_DIR}")

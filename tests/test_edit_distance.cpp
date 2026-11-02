@@ -1,5 +1,6 @@
 #include "test_framework.h"
 
+#include <cctype>
 #include <string>
 #include <vector>
 
@@ -79,6 +80,25 @@ void test_bounded_matches_full() {
     CHECK(true);
 }
 
+void test_bounded_with_custom_equality() {
+    const auto ci = [](char a, char b) {
+        return std::tolower(static_cast<unsigned char>(a)) ==
+               std::tolower(static_cast<unsigned char>(b));
+    };
+    using text_clean::levenshtein_bounded_if;
+    CHECK_EQ(levenshtein_bounded_if(std::string("ABC"), std::string("abc"), 0, ci),
+             std::size_t{0});
+    CHECK_EQ(levenshtein_bounded_if(std::string("ABC"), std::string("abd"), 1, ci),
+             std::size_t{1});
+    CHECK_EQ(levenshtein_bounded_if(std::string("ABC"), std::string("xyz"), 1, ci),
+             std::size_t{2});
+    CHECK_EQ(levenshtein_bounded_if(std::string("ABC"), std::string("xyz"), 3, ci),
+             std::size_t{3});
+    CHECK_EQ(levenshtein_bounded_if(std::string("Kitten"), std::string("SITTING"), 3,
+                                    ci),
+             levenshtein(std::string("kitten"), std::string("sitting")));
+}
+
 void test_bounded_edge_cases() {
     CHECK_EQ(levenshtein_bounded(std::string("kitten"), std::string("sitting"), 0),
              std::size_t{1});
@@ -101,6 +121,7 @@ int main() {
     test_syllable_distance();
     test_chinese_characters();
     test_bounded_matches_full();
+    test_bounded_with_custom_equality();
     test_bounded_edge_cases();
     return test::finish("test_edit_distance");
 }

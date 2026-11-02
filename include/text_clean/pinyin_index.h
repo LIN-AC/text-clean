@@ -29,6 +29,11 @@ public:
     };
 
     void add(EntryId id, std::vector<std::string> syllables);
+    using Readings = std::vector<std::vector<std::string>>;
+    void add_readings(EntryId id, Readings readings);
+    // Length bucket + positional shared bases, with all polyphone readings.
+    std::vector<Candidate> find_aligned_candidates(const Readings& query,
+        std::size_t limit = 64, bool require_first = true) const;
     void build();
 
     bool empty() const { return entries_.empty(); }
@@ -48,6 +53,8 @@ private:
     std::unordered_map<EntryId, std::vector<std::string>> entries_;
     std::unordered_map<std::string, std::vector<EntryId>> exact_;
     std::unordered_map<std::string, std::vector<EntryId>> postings_;
+    std::unordered_map<EntryId, Readings> readings_;
+    std::unordered_map<std::size_t, std::unordered_map<std::string, std::vector<EntryId>>> length_postings_;
     bool built_ = false;
 };
 

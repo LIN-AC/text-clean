@@ -73,7 +73,17 @@ Testing/
 # Local ASR corpora / test text (do not upload)
 clean_txt/
 whisper_txt/
+temp_txt/
 data/sample_document.txt
+
+# Local ASR artifacts (audio, subtitles, metadata)
+asr/
+
+# Data files (dictionaries, word lists, corpora) are supplied separately
+data/
+
+# Local runtime config / credentials
+config/
 
 # Local test logs
 log/

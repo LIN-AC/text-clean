@@ -21,6 +21,7 @@
 #include "text_clean/text_cleaner.h"
 #include "text_clean/text_split.h"
 #include "text_clean/utf8.h"
+#include "text_clean/word_frequency.h"
 #include "text_clean/word_maintaining.h"
 #include "text_clean/word_review.h"
 
@@ -32,14 +33,20 @@ struct Options {
     std::string lexicon_path;
     std::string pinyin_path;
     std::string word_path;
+    std::string word_freq_path;
+    std::string vocabulary_path;
     std::string input_path;
+    std::string title, description, title_path, description_path;
+    bool video_context = false;
     bool enable_pinyin = true;
     bool review = false;
     bool verbose = false;
     bool help = false;
-    std::size_t max_distance = 1;
-    std::size_t min_fuzzy = 3;
+    std::size_t max_distance = 2;
+    std::size_t min_fuzzy = 2;
     std::size_t min_unknown = 2;
+    double distance_penalty = 0.65;
+    double modification_threshold = 0.70;
     char32_t mask_char = U'*';
     std::vector<std::string> words;
 };
@@ -68,13 +75,21 @@ void print_help() {
         << "选项:\n"
         << "  --lexicon <path>       动作/拼音词表 (默认 data/lexicon.txt)\n"
         << "  --word-file <path>     AC 精确词表 (默认 data/word.txt)\n"
+        << "  --vocabulary <path>    合法词汇集合（默认 data/dict.txt；不参与评分）\n"
+        << "  --word-freq <path>     词频表 (默认 data/word_freq.txt)\n"
         << "  --pinyin-dict <path>   拼音字表 (默认 data/pinyin_dict.txt)\n"
+        << "  --title <text>        视频标题（启用临时上下文）\n"
+        << "  --title-file <path>   UTF-8 标题文件（优先于 --title）\n"
+        << "  --description-file <path> UTF-8 简介文件（优先于 --description）\n"
+        << "  --description <text>  视频简介（正文作为低可信 ASR 证据）\n"
         << "  --review               清洗前审核标题/简介中的未收录词语 (交互)\n"
         << "  --input-file <path>    从文件读取待清洗文档 (审核时推荐)\n"
         << "  --min-unknown <n>      待审核词语最短长度 (默认 2)\n"
         << "  --no-pinyin            关闭拼音近似匹配，仅用 AC 精确锁定\n"
-        << "  --max-distance <n>     拼音编辑距离阈值 (默认 1)\n"
-        << "  --min-fuzzy <n>        允许模糊匹配的最短音节数 (默认 3)\n"
+        << "  --max-distance <n>     拼音编辑距离阈值 (默认 2)\n"
+        << "  --min-fuzzy <n>        允许模糊匹配的最短音节数 (默认 2)\n"
+        << "  --lambda <x>           声调距离惩罚 λ (默认 0.65)\n"
+        << "  --mu <x>               修改门槛 μ (默认 0.70)\n"
         << "  --mask-char <char>     掩码字符 (默认 *)\n"
         << "  -v, --verbose          向 stderr 输出匹配明细与 AC 词表来源\n"
         << "  -h, --help             显示帮助\n\n"
@@ -85,7 +100,7 @@ void print_help() {
 }
 
 bool read_text_file(const std::string& path, std::string* text, std::string* error) {
-    std::ifstream input(path, std::ios::binary);
+    std::ifstream input(fs::u8path(path), std::ios::binary);
     if (!input) {
         *error = "cannot open input file: " + path;
         return false;
@@ -104,6 +119,22 @@ bool parse_size(const std::string& value, std::size_t* out, std::string* error) 
             return false;
         }
         *out = static_cast<std::size_t>(parsed);
+        return true;
+    } catch (const std::exception&) {
+        *error = "not a number: " + value;
+        return false;
+    }
+}
+
+bool parse_double(const std::string& value, double* out, std::string* error) {
+    try {
+        std::size_t consumed = 0;
+        const double parsed = std::stod(value, &consumed);
+        if (consumed != value.size()) {
+            *error = "not a number: " + value;
+            return false;
+        }
+        *out = parsed;
         return true;
     } catch (const std::exception&) {
         *error = "not a number: " + value;
@@ -137,8 +168,34 @@ bool parse_options(const std::vector<std::string>& args, Options* options,
             if (!next_value(&options->lexicon_path)) return false;
         } else if (arg == "--word-file") {
             if (!next_value(&options->word_path)) return false;
+        } else if (arg == "--vocabulary") {
+            if (!next_value(&options->vocabulary_path)) return false;
+        } else if (arg == "--word-freq") {
+            if (!next_value(&options->word_freq_path)) return false;
+        } else if (arg == "--lambda") {
+            std::string value;
+            if (!next_value(&value)) return false;
+            if (!parse_double(value, &options->distance_penalty, error)) return false;
+        } else if (arg == "--mu") {
+            std::string value;
+            if (!next_value(&value)) return false;
+            if (!parse_double(value, &options->modification_threshold, error)) {
+                return false;
+            }
         } else if (arg == "--input-file") {
             if (!next_value(&options->input_path)) return false;
+        } else if (arg == "--title-file") {
+            if (!next_value(&options->title_path)) return false;
+            options->video_context = true;
+        } else if (arg == "--description-file") {
+            if (!next_value(&options->description_path)) return false;
+            options->video_context = true;
+        } else if (arg == "--title") {
+            if (!next_value(&options->title)) return false;
+            options->video_context = true;
+        } else if (arg == "--description") {
+            if (!next_value(&options->description)) return false;
+            options->video_context = true;
         } else if (arg == "--review") {
             options->review = true;
         } else if (arg == "--min-unknown") {
@@ -224,7 +281,11 @@ void print_matches(const text_clean::CleanResult& result) {
                   << match.end << " \"" << text_clean::utf8::encode(match.matched)
                   << "\" -> \"" << text_clean::utf8::encode(match.replacement) << "\""
                   << " entry=" << match.entry_id << " distance=" << match.distance
-                  << " action=" << action_name(match.action) << "\n";
+                  << " score=" << match.score << " logR=" << match.log_ratio
+                  << " fC=" << match.candidate_frequency
+                  << " fO=" << match.original_frequency
+                  << " action=" << action_name(match.action)
+                  << " context_bonus=" << match.context_bonus << "\n";
     }
 }
 
@@ -334,6 +395,25 @@ int run(const std::vector<std::string>& args) {
         return 2;
     }
 
+    if (options.word_freq_path.empty()) {
+        options.word_freq_path = find_data_file(program, "word_freq.txt");
+    }
+    if (options.word_freq_path.empty()) {
+        std::cerr << "error: word frequency table not found, use --word-freq <path>\n";
+        return 2;
+    }
+    text_clean::WordFrequency word_frequency;
+    if (!word_frequency.load_file(options.word_freq_path, &error)) {
+        std::cerr << "error: " << error << "\n";
+        return 2;
+    }
+
+    if (options.vocabulary_path.empty()) options.vocabulary_path = find_data_file(program, "dict.txt");
+    text_clean::Vocabulary vocabulary;
+    if (options.vocabulary_path.empty() || !vocabulary.load_file(options.vocabulary_path, &error)) {
+        std::cerr << "error: " << (error.empty() ? "vocabulary not found, use --vocabulary <path>" : error) << "\n";
+        return 2;
+    }
     std::string text;
     if (!options.input_path.empty()) {
         if (!read_text_file(options.input_path, &text, &error)) {
@@ -354,6 +434,11 @@ int run(const std::vector<std::string>& args) {
                     std::istreambuf_iterator<char>());
     }
 
+    if ((!options.title_path.empty() && !read_text_file(options.title_path, &options.title, &error)) ||
+        (!options.description_path.empty() && !read_text_file(options.description_path, &options.description, &error))) {
+        std::cerr << "error: " << error << "\n";
+        return 2;
+    }
     if (options.review) {
         const std::vector<text_clean::Section> sections =
             text_clean::TextSplitter::split(text);
@@ -369,18 +454,27 @@ int run(const std::vector<std::string>& args) {
     config.enable_pinyin = options.enable_pinyin;
     config.max_pinyin_distance = options.max_distance;
     config.min_syllables_for_fuzzy = options.min_fuzzy;
+    config.distance_penalty = options.distance_penalty;
+    config.modification_threshold = options.modification_threshold;
     config.mask_char = options.mask_char;
 
     std::optional<std::vector<std::u32string>> ac_words = word_table.words();
     text_clean::TextCleaner cleaner(std::move(lexicon), pinyin, config,
-                                    std::move(ac_words));
+                                    std::move(ac_words), std::move(word_frequency), std::move(vocabulary));
 
     if (options.verbose) {
         std::cerr << "ac source: word file (" << word_table.size()
                   << " words) " << options.word_path << "\n";
+        std::cerr << "word frequency: " << options.word_freq_path << "\n";
+        std::cerr << "tone scoring: lambda=" << config.distance_penalty
+                  << " mu=" << config.modification_threshold << "\n";
     }
 
-    const text_clean::CleanResult result = cleaner.clean(text);
+    const auto context = options.video_context
+        ? cleaner.prepare_context(options.title, options.description, text)
+        : text_clean::VideoContext{};
+    const text_clean::CleanResult result = options.video_context
+        ? cleaner.clean(text, context) : cleaner.clean(text);
     std::cout << result.text;
     if (result.text.empty() || result.text.back() != '\n') std::cout << '\n';
 

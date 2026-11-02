@@ -2,11 +2,13 @@
 """Generate data/pinyin_dict.txt from the locally installed pypinyin package.
 
 Format: <hex codepoint><TAB><syllable>[,<syllable>...]
-Readings are tone-less, lowercase ASCII, with "v" standing for "ü".
+Readings are lowercase ASCII with a tone number 1-5; neutral tone is 5 and
+"v" stands for "ü".
 """
 
 import json
 import os
+import re
 import sys
 
 try:
@@ -31,10 +33,12 @@ def is_han(cp: int) -> bool:
 
 def readings_for(char: str):
     readings = []
-    for raw in pinyin(char, style=Style.NORMAL, heteronym=True)[0]:
+    for raw in pinyin(char, style=Style.TONE3, heteronym=True)[0]:
         syllable = raw.strip().lower()
-        if not syllable or not syllable.isascii() or not syllable.isalpha():
+        if not re.fullmatch(r"[a-z]+[1-5]?", syllable):
             continue
+        if syllable[-1] not in "12345":
+            syllable += "5"  # pypinyin omits the neutral-tone digit
         if syllable not in readings:
             readings.append(syllable)
     return readings
@@ -60,7 +64,7 @@ def main() -> None:
         f"{version} (MIT License).",
         "# Source: https://github.com/mozillazg/python-pinyin",
         "# Format: <hex codepoint><TAB><syllable>[,<syllable>...]",
-        "# Syllables are tone-less lowercase ASCII; v represents the vowel ü.",
+        "# Syllables are lowercase ASCII with tone 1-5 (5 = neutral); v = ü.",
         "",
     ]
     with open(OUTPUT, "w", encoding="utf-8", newline="\n") as handle:

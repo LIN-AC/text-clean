@@ -1,5 +1,6 @@
 #include "test_framework.h"
 
+#include <optional>
 #include <string>
 #include <utility>
 #include <vector>
@@ -8,6 +9,7 @@
 #include "text_clean/pinyin_dict.h"
 #include "text_clean/text_cleaner.h"
 #include "text_clean/utf8.h"
+#include "text_clean/word_frequency.h"
 
 namespace {
 
@@ -20,6 +22,7 @@ using text_clean::MatchKind;
 using text_clean::MatchStatus;
 using text_clean::PinyinDict;
 using text_clean::TextCleaner;
+using text_clean::WordFrequency;
 using text_clean::utf8::decode;
 
 std::u32string U(const char* text) {
@@ -42,6 +45,7 @@ PinyinDict make_dict() {
     add_readings(dict, U'支', {"zhi"});
     add_readings(dict, U'付', {"fu"});
     add_readings(dict, U'宝', {"bao"});
+    add_readings(dict, U'包', {"bao"});
     add_readings(dict, U'知', {"zhi"});
     add_readings(dict, U'福', {"fu"});
     add_readings(dict, U'报', {"bao"});
@@ -92,14 +96,26 @@ Lexicon make_lexicon() {
     return lexicon;
 }
 
+WordFrequency make_frequency() {
+    WordFrequency frequency;
+    frequency.add_word_utf8("微信", 100000);
+    frequency.add_word_utf8("支付宝", 10000);
+    frequency.add_word_utf8("字节跳动", 1000);
+    frequency.add_word_utf8("敏感词", 1000);
+    frequency.add_word_utf8("华为", 373);
+    frequency.add_word_utf8("薇信宝", 1000);
+    return frequency;
+}
+
 TextCleaner make_cleaner(const PinyinDict& dict, CleanerConfig config = {}) {
-    return TextCleaner(make_lexicon(), dict, config);
+    return TextCleaner(make_lexicon(), dict, config, std::nullopt, make_frequency());
 }
 
 TextCleaner make_cleaner_with_words(const PinyinDict& dict,
                                     std::vector<std::u32string> words,
                                     CleanerConfig config = {}) {
-    return TextCleaner(make_lexicon(), dict, config, std::move(words));
+    return TextCleaner(make_lexicon(), dict, config, std::move(words),
+                       make_frequency());
 }
 
 void test_exact_canonical() {
@@ -146,11 +162,17 @@ void test_pinyin_homophone() {
     CHECK(result.matches[0].status == MatchStatus::None);
     CHECK_EQ(result.matches[0].matched, U("薇信"));
     CHECK_EQ(result.matches[0].replacement, U("微信"));
+    CHECK(result.matches[0].score > 0.0);
+    CHECK(result.matches[0].log_ratio > 0.0);
+    CHECK_EQ(result.matches[0].candidate_frequency, std::size_t{100000});
+    CHECK_EQ(result.matches[0].original_frequency, std::size_t{0});
 }
 
-void test_short_fuzzy_is_rejected() {
+void test_short_fuzzy_guard_is_configurable() {
     const auto dict = make_dict();
-    auto cleaner = make_cleaner(dict);
+    CleanerConfig config;
+    config.min_syllables_for_fuzzy = 3;
+    auto cleaner = make_cleaner(dict, config);
 
     const CleanResult result = cleaner.clean(u8"用韦星加我");
     CHECK_EQ(result.text, std::string(u8"用韦星加我"));
@@ -165,7 +187,7 @@ void test_long_fuzzy_match() {
     CHECK_EQ(result.text, std::string(u8"字节跳动"));
     CHECK_EQ(result.matches.size(), std::size_t{1});
     CHECK(result.matches[0].kind == MatchKind::Fuzzy);
-    CHECK_EQ(result.matches[0].distance, std::size_t{1});
+    CHECK_EQ(result.matches[0].distance, std::size_t{2});
     CHECK(result.matches[0].status == MatchStatus::None);
     CHECK_EQ(result.matches[0].matched, U("字节调洞"));
     CHECK_EQ(result.matches[0].replacement, U("字节跳动"));
@@ -181,15 +203,6 @@ void test_long_exact_pinyin() {
     CHECK(result.matches[0].kind == MatchKind::Pinyin);
     CHECK_EQ(result.matches[0].distance, std::size_t{0});
     CHECK(result.matches[0].status == MatchStatus::None);
-}
-
-void test_fuzzy_limited_by_distance() {
-    const auto dict = make_dict();
-    auto cleaner = make_cleaner(dict);
-
-    const CleanResult result = cleaner.clean(u8"字典掉洞");
-    CHECK_EQ(result.text, std::string(u8"字典掉洞"));
-    CHECK(result.matches.empty());
 }
 
 void test_fuzzy_threshold_is_configurable() {
@@ -309,9 +322,9 @@ void test_external_ac_word_list() {
     const auto dict = make_dict();
 
     // The automaton is built only from the supplied list. 微信 is absent, so
-    // it is found later by the pinyin stage instead of being locked by AC.
+    // the homophone 薇信 is found later by the pinyin stage.
     auto cleaner = make_cleaner_with_words(dict, {U("支付宝")});
-    const CleanResult pinyin = cleaner.clean(u8"微信");
+    const CleanResult pinyin = cleaner.clean(u8"薇信");
     CHECK_EQ(pinyin.text, std::string(u8"微信"));
     CHECK_EQ(pinyin.matches.size(), std::size_t{1});
     CHECK(pinyin.matches[0].kind == MatchKind::Pinyin);
@@ -356,16 +369,15 @@ void test_ac_lock_blocks_later_stages() {
     CHECK_EQ(result.matches[0].matched, U("威信"));
     CHECK_EQ(result.matches[0].entry_id, std::uint32_t{0});
 
-    // Without the locked alias, a homophone variant is still corrected by the
-    // pinyin + edit distance stages.
-    const CleanResult unlocked = cleaner.clean(u8"用薇星宝");
-    CHECK_EQ(unlocked.text, std::string(u8"用薇信宝"));
+    // Outside a locked span the pinyin stage still corrects unlocked text.
+    const CleanResult unlocked = cleaner.clean(u8"用支付包");
+    CHECK_EQ(unlocked.text, std::string(u8"用支付宝"));
     CHECK_EQ(unlocked.matches.size(), std::size_t{1});
-    CHECK(unlocked.matches[0].kind == MatchKind::Fuzzy);
+    CHECK(unlocked.matches[0].kind == MatchKind::Pinyin);
     CHECK(unlocked.matches[0].status == MatchStatus::None);
     CHECK_EQ(unlocked.matches[0].begin, std::size_t{1});
     CHECK_EQ(unlocked.matches[0].end, std::size_t{4});
-    CHECK_EQ(unlocked.matches[0].replacement, U("薇信宝"));
+    CHECK_EQ(unlocked.matches[0].replacement, U("支付宝"));
 }
 
 void test_no_match() {
@@ -413,10 +425,9 @@ int main() {
     test_exact_canonical();
     test_exact_alias();
     test_pinyin_homophone();
-    test_short_fuzzy_is_rejected();
+    test_short_fuzzy_guard_is_configurable();
     test_long_fuzzy_match();
     test_long_exact_pinyin();
-    test_fuzzy_limited_by_distance();
     test_fuzzy_threshold_is_configurable();
     test_fuzzy_requires_first_syllable();
     test_zero_distance_config();

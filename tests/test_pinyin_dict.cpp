@@ -120,6 +120,49 @@ void test_load_file() {
     CHECK(error.find("cannot open") != std::string::npos);
 }
 
+bool has_toned(const PinyinDict& dict, char32_t ch, const char* base, int tone) {
+    const auto* readings = dict.toned_readings(ch);
+    if (readings == nullptr) return false;
+    for (const auto& reading : *readings) {
+        if (reading.base == base && reading.tone == tone) return true;
+    }
+    return false;
+}
+
+void test_tone_aware_distance() {
+    PinyinDict dict;
+    std::string error;
+    const std::string path = std::string(TC_DATA_DIR) + "/pinyin_dict.txt";
+    CHECK(dict.load_file(path, &error));
+
+    const auto can_hai = dict.to_toned_syllables(decode(u8"残害"));
+    const auto can_hai2 = dict.to_toned_syllables(decode(u8"残骸"));
+    CHECK_EQ(can_hai.size(), std::size_t{2});
+    CHECK_EQ(can_hai2.size(), std::size_t{2});
+    CHECK_EQ(PinyinDict::toned_distance(can_hai, can_hai2, 3), std::size_t{1});
+
+    const auto quan_li = dict.to_toned_syllables(decode(u8"权利"));
+    const auto quan_li2 = dict.to_toned_syllables(decode(u8"权力"));
+    CHECK_EQ(PinyinDict::toned_distance(quan_li, quan_li2, 3), std::size_t{0});
+
+    // Polyphone: 长 reads zhang3/chang2, so 常 (chang2) matches an alternate.
+    const auto chang = dict.to_toned_syllables(decode(u8"长"));
+    const auto often = dict.to_toned_syllables(decode(u8"常"));
+    const auto zhang = dict.to_toned_syllables(decode(u8"张"));
+    CHECK(has_toned(dict, U'长', "zhang", 3));
+    CHECK(has_toned(dict, U'长', "chang", 2));
+    CHECK_EQ(PinyinDict::toned_distance(chang, often, 3), std::size_t{0});
+    CHECK_EQ(PinyinDict::toned_distance(chang, zhang, 3), std::size_t{1});
+
+    // Neutral tone 5: 的 and 得 share de5, while 德 de2 differs.
+    const auto de = dict.to_toned_syllables(decode(u8"的"));
+    const auto de2 = dict.to_toned_syllables(decode(u8"得"));
+    const auto de2b = dict.to_toned_syllables(decode(u8"德"));
+    CHECK(has_toned(dict, U'的', "de", 5));
+    CHECK_EQ(PinyinDict::toned_distance(de, de2, 3), std::size_t{0});
+    CHECK_EQ(PinyinDict::toned_distance(de, de2b, 3), std::size_t{1});
+}
+
 void test_real_data() {
     PinyinDict dict;
     std::string error;
@@ -139,6 +182,10 @@ void test_real_data() {
     CHECK_EQ(dict.primary_reading(U'长'), std::string("zhang"));
     CHECK_EQ(dict.primary_reading(U'绿'), std::string("lv"));
     CHECK_EQ(dict.primary_reading(U'女'), std::string("nv"));
+    CHECK(has_toned(dict, U'长', "zhang", 3));
+    CHECK(has_toned(dict, U'长', "chang", 2));
+    CHECK(has_toned(dict, U'的', "de", 5));
+    CHECK(has_toned(dict, U'绿', "lv", 4));
 }
 
 }  // namespace
@@ -150,5 +197,6 @@ int main() {
     test_load_errors_are_atomic();
     test_load_file();
     test_real_data();
+    test_tone_aware_distance();
     return test::finish("test_pinyin_dict");
 }
