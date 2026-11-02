@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(text_clean VERSION 1.2.1 LANGUAGES CXX)
+project(text_clean VERSION 1.2.2 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -108,3 +108,6 @@ endif()
 
 tc_test(test_priority tc_pipeline)
 target_compile_definitions(test_priority PRIVATE TC_DATA_DIR="${TC_DATA_DIR}")
+
+tc_test(test_word_pronunciation tc_pipeline)
+target_compile_definitions(test_word_pronunciation PRIVATE TC_DATA_DIR="${TC_DATA_DIR}")

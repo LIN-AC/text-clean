@@ -17,3 +17,14 @@ with tempfile.TemporaryDirectory() as directory:
     p = subprocess.run([exe, "--description-file", str(path) + ".missing"], input=b"", capture_output=True)
     assert p.returncode == 2 and p.stdout == b""
 print("CLI metadata / adapter / missing file / Unicode path: PASS")
+
+# User-reported ASR sentence must survive misleading topic metadata too.
+assert clean_subtitles(exe, "微信", "微信教程", "这个颜色要略微深一点") == "这个颜色要略微深一点\n"
+# Optional local real-corpus regression: corpus is intentionally not committed.
+corpus = pathlib.Path(__file__).resolve().parents[1] / "whisper_txt" / "BV1ghec66Eau.txt"
+if corpus.exists():
+    original = corpus.read_bytes().decode("utf-8")
+    assert "这个颜色要略微深一点" in original
+    result = subprocess.run([exe], input=original.encode("utf-8"), capture_output=True, check=True)
+    expected = original if original.endswith("\n") else original + "\n"
+    assert result.stdout.decode("utf-8") == expected

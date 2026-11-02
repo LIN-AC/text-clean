@@ -143,22 +143,22 @@ struct TextCleaner::Impl {
 
             std::vector<PinyinDict::TonedSyllable> toned =
                 dict->to_toned_syllables(entry.canonical);
-            bool usable = toned.size() == entry.pinyin.size();
-            for (const auto& syllable : toned) {
-                if (!syllable.known) {
-                    usable = false;
-                    break;
-                }
-            }
-            if (!usable) {
-                toned.clear();
-                toned.reserve(entry.pinyin.size());
-                for (const auto& base : entry.pinyin) {
-                    PinyinDict::TonedSyllable syllable;
-                    syllable.known = true;
-                    syllable.readings.push_back(PinyinDict::TonedReading{base, 0});
-                    toned.push_back(std::move(syllable));
-                }
+            // The lexicon supplies the pronunciation of this WORD. A character's
+            // other bases (including historical/rare readings) are not alternative
+            // pronunciations of every word containing it. Reuse this constrained
+            // sequence for indexing, distance and the near-sound gate alike.
+            toned.resize(entry.pinyin.size());
+            for (std::size_t k = 0; k < entry.pinyin.size(); ++k) {
+                auto& syllable = toned[k];
+                auto& readings = syllable.readings;
+                readings.erase(std::remove_if(readings.begin(), readings.end(),
+                    [&](const PinyinDict::TonedReading& r) {
+                        return r.base != entry.pinyin[k];
+                    }), readings.end());
+                // Explicit lexicon bases remain authoritative even if the char
+                // table lacks that reading. Tone 0 records missing tone evidence.
+                if (readings.empty()) readings.push_back({entry.pinyin[k], 0});
+                syllable.known = true;
             }
             entry_toned[entry.id] = std::move(toned);
 
