@@ -3,7 +3,10 @@ import subprocess
 import sys
 import tempfile
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "tools"))
-from bili2md_text_clean import clean_subtitles
+from bili2md_text_clean import clean_subtitles as _clean_subtitles
+# Freeze the legacy count-frequency fixture; the new default rejects Zipf scoring.
+def clean_subtitles(executable, title, description, text):
+    return _clean_subtitles(executable,title,description,text,extra_args=["--legacy-data", "--no-char-baseline"])
 exe = str(pathlib.Path(sys.argv[1]).resolve())
 tempfile.tempdir = str(pathlib.Path(sys.argv[2]).resolve())
 assert clean_subtitles(exe, "微信", "微信教程", "薇星") == "微信\n"
@@ -12,9 +15,9 @@ assert clean_subtitles(exe, "华为华为", "华为", "谈话核实、花了很�
 with tempfile.TemporaryDirectory() as directory:
     path = pathlib.Path(directory) / "中文标题.txt"
     path.write_text("微信", encoding="utf-8")
-    p = subprocess.run([exe, "--title-file", str(path), "--description", "微信", "薇星"], capture_output=True, check=True)
+    p = subprocess.run([exe, "--legacy-data", "--no-char-baseline", "--title-file", str(path), "--description", "微信", "薇星"], capture_output=True, check=True)
     assert p.stdout.decode().strip() == "微信"
-    p = subprocess.run([exe, "--description-file", str(path) + ".missing"], input=b"", capture_output=True)
+    p = subprocess.run([exe, "--legacy-data", "--no-char-baseline", "--description-file", str(path) + ".missing"], input=b"", capture_output=True)
     assert p.returncode == 2 and p.stdout == b""
 print("CLI metadata / adapter / missing file / Unicode path: PASS")
 
@@ -25,6 +28,6 @@ corpus = pathlib.Path(__file__).resolve().parents[1] / "whisper_txt" / "BV1ghec6
 if corpus.exists():
     original = corpus.read_bytes().decode("utf-8")
     assert "这个颜色要略微深一点" in original
-    result = subprocess.run([exe], input=original.encode("utf-8"), capture_output=True, check=True)
+    result = subprocess.run([exe, "--legacy-data"], input=original.encode("utf-8"), capture_output=True, check=True)
     expected = original if original.endswith("\n") else original + "\n"
     assert result.stdout.decode("utf-8") == expected

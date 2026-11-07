@@ -17,8 +17,9 @@
 namespace text_clean {
 namespace {
 
-bool is_valid_mask(char32_t ch) {
-    return ch != 0 && ch <= 0x10FFFF && !(ch >= 0xD800 && ch <= 0xDFFF);
+bool numeric_character(char32_t ch) {
+    const std::u32string digits=U"0123456789０１２３４５６７８９零〇一二两三四五六七八九十百千万亿";
+    return digits.find(ch)!=std::u32string::npos;
 }
 
 }  // namespace
@@ -36,11 +37,11 @@ struct TextCleaner::Impl {
         std::size_t candidate_frequency = 0;
         std::size_t original_frequency = 0;
         double context_bonus = 0.0;
+        std::optional<double> candidate_zipf = std::nullopt, original_zipf = std::nullopt;
     };
 
     static constexpr std::uint32_t kAcLockedTag =
         static_cast<std::uint32_t>(MatchStatus::LockedByAc);
-    static constexpr std::size_t kHotwordFrequencyFloor = 3;
 
     struct Window {
         std::size_t begin;
@@ -54,32 +55,35 @@ struct TextCleaner::Impl {
     const PinyinDict* dict;
     CleanerConfig config;
     WordFrequency frequencies;
+    CharFrequency char_frequency;
     Vocabulary vocabulary;
     WordMaintainer segmenter;
     AcAutomaton ac;
     PinyinInvertedIndex index;
     std::vector<std::uint32_t> pattern_entry;
     std::vector<std::vector<PinyinDict::TonedSyllable>> entry_toned;
+    std::vector<std::vector<std::vector<PinyinDict::TonedSyllable>>> word_variants;
     std::size_t max_syllables = 0;
     std::unordered_set<std::string> first_bases;
 
     Impl(Lexicon source, const PinyinDict& dictionary, CleanerConfig settings,
          std::optional<std::vector<std::u32string>> ac_words,
-         WordFrequency frequency_table, Vocabulary recognized)
+         WordFrequency frequency_table, Vocabulary recognized,
+         CharFrequency character_frequency)
         : lexicon(std::move(source)),
           dict(&dictionary),
           config(settings),
-          frequencies(std::move(frequency_table)), vocabulary(std::move(recognized)) {
+          frequencies(std::move(frequency_table)),
+          char_frequency(std::move(character_frequency)),
+          vocabulary(std::move(recognized)) {
         std::vector<std::u32string> words;
         if (ac_words.has_value()) {
             words = std::move(*ac_words);
         } else {
-            for (const auto& entry : lexicon.entries()) {
-                if (!entry.canonical.empty()) words.push_back(entry.canonical);
-                for (const auto& alias : entry.aliases) {
-                    if (!alias.empty()) words.push_back(alias);
-                }
-            }
+            // Legacy Keep entries are protection requests; aliases and targets
+            // never gain locking or replacement authority through AC.
+            for (const auto& entry : lexicon.entries())
+                if(entry.action==Action::Keep) words.push_back(entry.canonical);
         }
         build(words);
         build_segmenter(words);
@@ -93,8 +97,8 @@ struct TextCleaner::Impl {
             }
             segmenter.add_word(word);
         };
-        for (const auto& entry : frequencies.entries()) {
-            add_if_han(entry.first);
+        for (const auto& word : vocabulary.words()) {
+            add_if_han(word);
         }
         // word.txt may have been extended after word_freq.txt was generated.
         for (const auto& word : ac_words) {
@@ -103,43 +107,18 @@ struct TextCleaner::Impl {
     }
 
     void build(const std::vector<std::u32string>& words) {
-        std::unordered_map<std::u32string, std::uint32_t> owner;
-        for (const auto& entry : lexicon.entries()) {
-            if (!entry.canonical.empty()) owner.emplace(entry.canonical, entry.id);
-        }
-        // Canonical forms win over aliases when the same text is registered
-        // more than once.
-        for (const auto& entry : lexicon.entries()) {
-            for (const auto& alias : entry.aliases) {
-                if (!alias.empty()) owner.emplace(alias, entry.id);
-            }
-        }
-
         std::unordered_set<std::u32string> seen;
-        seen.reserve(words.size());
-        for (const auto& word : words) {
-            if (word.empty() || !seen.insert(word).second) continue;
-
-            std::uint32_t entry_id = 0;
-            const auto it = owner.find(word);
-            if (it != owner.end()) {
-                entry_id = it->second;
-            } else {
-                LexiconEntry synthetic;
-                synthetic.canonical = word;
-                synthetic.action = Action::Keep;
-                lexicon.add_entry(std::move(synthetic));
-                entry_id = lexicon.entries().back().id;
-                owner.emplace(word, entry_id);
-            }
-
-            ac.add_pattern(word, kAcLockedTag);
-            pattern_entry.push_back(entry_id);
+        for(const auto& word:words) {
+            if(word.empty() || !seen.insert(word).second) continue;
+            LexiconEntry lock; lock.canonical=word; lock.action=Action::Keep;
+            lexicon.add_entry(std::move(lock));
+            ac.add_pattern(word,kAcLockedTag);
+            pattern_entry.push_back(lexicon.entries().back().id);
         }
-
         entry_toned.assign(lexicon.entries().size(), {});
+        word_variants.resize(lexicon.entries().size());
         for (const auto& entry : lexicon.entries()) {
-            if (entry.pinyin.empty()) continue;
+            if (entry.action != Action::Replace || entry.pinyin.empty()) continue;
 
             std::vector<PinyinDict::TonedSyllable> toned =
                 dict->to_toned_syllables(entry.canonical);
@@ -160,6 +139,27 @@ struct TextCleaner::Impl {
                 if (readings.empty()) readings.push_back({entry.pinyin[k], 0});
                 syllable.known = true;
             }
+            auto& variants=word_variants[entry.id];
+            for(const auto& pronunciation:entry.pronunciations) {
+                if(pronunciation.size()!=entry.canonical.size()) continue;
+                PinyinDict word;
+                // Use distinct synthetic character keys to preserve repeated
+                // characters having different readings at different positions.
+                std::u32string keys;
+                for(std::size_t k=0;k<pronunciation.size();++k) {
+                    auto key=static_cast<char32_t>(0x4e00+k); keys+=key;
+                    word.add_char(key,{pronunciation[k]});
+                }
+                variants.push_back(word.to_toned_syllables(keys));
+            }
+            if(variants.empty()) variants.push_back(toned);
+            else {
+                toned=variants.front();
+                for(std::size_t v=1;v<variants.size();++v)
+                    for(std::size_t k=0;k<toned.size();++k)
+                        for(const auto& r:variants[v][k].readings)
+                            if(std::find(toned[k].readings.begin(),toned[k].readings.end(),r)==toned[k].readings.end()) toned[k].readings.push_back(r);
+            }
             entry_toned[entry.id] = std::move(toned);
 
             PinyinInvertedIndex::Readings bases;
@@ -173,7 +173,15 @@ struct TextCleaner::Impl {
         }
 
         ac.build();
-        index.build();
+        std::string identity;
+        for(const auto& entry:lexicon.entries()) if(entry.action==Action::Replace) {
+            identity+=utf8::encode(entry.canonical)+"\n";
+            for(const auto& alias:entry.aliases) identity+=utf8::encode(alias)+"\t";
+            for(const auto& source:entry.sources) identity+=source+"\t";
+            for(const auto& variant:entry.pronunciations) for(const auto& syllable:variant) identity+=syllable+" ";
+            identity+="\n";
+        }
+        index.build_cached(config.index_cache_path,identity);
     }
 
     bool has_base(char32_t ch, const std::unordered_set<std::string>& bases) const {
@@ -189,14 +197,11 @@ struct TextCleaner::Impl {
 
     std::vector<Selected> select_exact(const std::u32string& text) const {
         std::vector<Selected> selected;
-        std::size_t last_end = 0;
         for (const auto& match : ac.find_all(text)) {
-            if (match.begin < last_end) continue;
             const auto& entry = lexicon.entries()[pattern_entry[match.pattern]];
             selected.push_back(Selected{match.begin, match.end, entry.id,
                                         MatchKind::Exact, 0,
                                         static_cast<MatchStatus>(match.tag)});
-            last_end = match.end;
         }
         return selected;
     }
@@ -244,7 +249,9 @@ struct TextCleaner::Impl {
         // One symmetric permission check, independent of candidate generation.
         auto permit = [&](std::size_t begin, std::size_t end, bool& edge) {
             const auto li = owner[begin], ri = owner[end - 1];
-            if (ri - li >= kMaxCrossTokens) return false;
+            if (ri - li >= kMaxCrossTokens) {
+                for(auto i=li;i<=ri;++i) if(tokens[i].known) return false;
+            }
             const auto& left = tokens[li];
             const auto& right = tokens[ri];
             const bool cut_left = left.known && begin != left.begin;
@@ -260,11 +267,11 @@ struct TextCleaner::Impl {
             const auto re = cut_left ? begin : right.end;
             const bool opposite_unknown = cut_left ? !right.known : !left.known;
             if (re - rb == 1 && opposite_unknown) return true;
-            if (re - rb >= 2 && frequencies.count(run.substr(rb, re - rb))) return true;
+            if (re - rb >= 2 && vocabulary.contains(run.substr(rb, re - rb))) return true;
             // Residual may join immediate outside context, equally on either side.
             for (std::size_t n = 1; n <= max_syllables; ++n) {
-                if (cut_left && rb >= n && frequencies.count(run.substr(rb - n, re - rb + n))) return true;
-                if (cut_right && re + n <= run.size() && frequencies.count(run.substr(rb, re - rb + n))) return true;
+                if (cut_left && rb >= n && vocabulary.contains(run.substr(rb - n, re - rb + n))) return true;
+                if (cut_right && re + n <= run.size() && vocabulary.contains(run.substr(rb, re - rb + n))) return true;
             }
             return false;
         };
@@ -290,68 +297,85 @@ struct TextCleaner::Impl {
         for (const Window& window : windows) {
             const std::size_t length = window.end - window.begin;
             if (length < config.min_syllables_for_exact_pinyin) continue;
-            // Locked spans are authoritative: never build or evaluate a
-            // candidate that touches one.
-            if (overlaps_locked(locked, window.begin, window.end)) continue;
+            // Locks constrain changed positions, not the evidence window.
+
 
             if (config.require_first_syllable_match && !has_base(text[window.begin], first_bases)) continue;
             const std::u32string original =
                 text.substr(window.begin, length);
-            if (vocabulary.contains(original)) continue;
+            // Dictionary membership is contextual evidence, never an error verdict.
             PinyinInvertedIndex::Readings query;
             for (auto ch : original) query.push_back(*dict->readings(ch));
             const auto candidates = index.find_aligned_candidates(query,
                 config.max_candidates_per_window, config.require_first_syllable_match);
             if (candidates.empty()) continue;
             const std::size_t original_frequency = frequencies.count(original);
+            // An unattested original is not evidence of an error: common
+            // character sequences (的+一, 有+信) are missing from the word
+            // table by construction. Estimate its chance frequency under
+            // character independence so both sides of the ratio use the same
+            // unit and a rewrite needs positive evidence (a candidate that is
+            // more frequent than chance).
+            const double original_estimate =
+                original_frequency > 0
+                    ? static_cast<double>(original_frequency)
+                    : char_frequency.expected_count(original);
+            const auto original_zipf = frequencies.zipf(original);
+            if(frequencies.is_zipf() && !original_zipf) continue; // no fabricated evidence for KEEP
             const auto original_toned = dict->to_toned_syllables(original);
 
             for (const auto& candidate : candidates) {
                 if (index.syllable_count(candidate.id) != length) continue;
                 if (candidate.id >= entry_toned.size()) continue;
                 const auto& entry = lexicon.entries()[candidate.id];
-                if (entry.canonical == original) continue;
-                const auto& candidate_toned = entry_toned[candidate.id];
-                if (candidate_toned.size() != length) continue;
-
+                if (entry.action != Action::Replace || entry.canonical.size()!=length) continue;
+                if (entry.canonical == original) continue; // KEEP remains the explicit zero-score option.
+                bool protected_change=false;
+                for(std::size_t k=0;k<length;++k)
+                    if(locked[window.begin+k] && original[k]!=entry.canonical[k]) protected_change=true;
+                if(protected_change) continue;
                 if (window.edge) {
-                    if (entry.canonical.size() != length || candidate.shared_syllables != length) continue;
-                    std::size_t changed = 0;
-                    for (std::size_t k = 0; k < length; ++k)
-                        changed += original[k] != entry.canonical[k];
-                    if (changed != 1) continue;
+                    if(candidate.shared_syllables!=length) continue;
+                    std::size_t changed=0;
+                    for(std::size_t k=0;k<length;++k) changed+=original[k]!=entry.canonical[k];
+                    if(changed!=1) continue;
                 }
-                const std::size_t distance = PinyinDict::aligned_distance(
-                    original_toned, candidate_toned, config.max_pinyin_distance);
-                if (distance > config.max_pinyin_distance || (window.edge && distance > 1)) continue;
-                if (distance > 0) {
-                    if (length < config.min_syllables_for_fuzzy) continue;
+                std::size_t distance=config.max_pinyin_distance+1;
+                for(const auto& candidate_toned:word_variants[candidate.id]) {
+                    if(candidate_toned.size()!=length) continue;
+                    bool near=true;
+                    for(std::size_t k=0;k<length && near;++k) {
+                        bool shared=false;
+                        for(const auto& a:original_toned[k].readings)
+                            for(const auto& b:candidate_toned[k].readings)
+                                shared=shared || levenshtein_bounded(a.base,b.base,1)<=1;
+                        near=shared;
+                    }
+                    if(near) distance=std::min(distance,PinyinDict::aligned_distance(original_toned,candidate_toned,config.max_pinyin_distance));
                 }
-
-                // A whole unrelated syllable is not a near-sound error.
-                bool near = true;
-                for (std::size_t k = 0; k < length && near; ++k) {
-                    bool shared = false;
-                    for (const auto& a : original_toned[k].readings)
-                        for (const auto& b : candidate_toned[k].readings)
-                            shared = shared || levenshtein_bounded(a.base, b.base, 1) <= 1;
-                    near = shared;
-                }
-                if (!near) continue;
-                const std::size_t candidate_frequency = std::max(
-                    frequencies.count(entry.canonical), kHotwordFrequencyFloor);
-                const double log_ratio =
-                    std::log((1.0 + static_cast<double>(candidate_frequency)) /
-                             (1.0 + static_cast<double>(original_frequency)));
+                if(distance>config.max_pinyin_distance || (window.edge && distance>1)) continue;
+                if(distance>0 && length<config.min_syllables_for_fuzzy) continue;
+                const std::size_t candidate_frequency = frequencies.count(entry.canonical);
+                const auto candidate_zipf=frequencies.zipf(entry.canonical);
+                if(frequencies.is_zipf() && !candidate_zipf) continue;
+                const double log_ratio = frequencies.is_zipf()
+                    ? 2.302585 * (*candidate_zipf - *original_zipf)
+                    : std::log((1.0 + static_cast<double>(candidate_frequency)) /
+                             (1.0 + original_estimate));
                 const double static_score =
                     log_ratio -
                     config.distance_penalty * static_cast<double>(distance) -
                     config.modification_threshold;
                 // Context cannot overturn a static veto on an attested word.
-                const double bonus = context && original_frequency == 0
+                const double bonus = context && !frequencies.is_zipf() && original_frequency == 0
                     ? context->bonus(entry.canonical) : 0.0;
                 const double score = static_score + bonus;
                 if (!(score > 0.0)) continue;
+                // Membership is not a lock: static positive evidence can still
+                // replace an attested word. Metadata alone must not overturn a
+                // static veto on a word supported by the reference vocabulary.
+                // Keep all score terms unchanged; this is decision admission.
+                if (static_score <= 0.0 && vocabulary.contains(original)) continue;
 
                 Selected selected{window.begin,
                                   window.end,
@@ -364,6 +388,7 @@ struct TextCleaner::Impl {
                                   log_ratio,
                                   candidate_frequency,
                                   original_frequency, bonus};
+                selected.candidate_zipf=candidate_zipf; selected.original_zipf=original_zipf;
                 local.push_back(selected);
             }
         }
@@ -379,7 +404,8 @@ struct TextCleaner::Impl {
                 ++j;
             }
             auto best = i;
-            double runner = -1.0;
+            const double keep_score = 0.0; // KEEP is always available, including single-candidate components.
+            double runner = keep_score;
             for (auto k = i + 1; k < j; ++k) {
                 if (local[k].score > local[best].score) {
                     runner = std::max(runner, local[best].score);
@@ -387,7 +413,8 @@ struct TextCleaner::Impl {
                 } else runner = std::max(runner, local[k].score);
             }
             // Reuse the modification threshold as a required evidence margin.
-            if (j == i + 1 || local[best].score - runner > config.modification_threshold)
+            if (local[best].score > keep_score &&
+                (j == i + 1 || local[best].score - runner > config.modification_threshold))
                 out.push_back(local[best]);
             i = j;
         }
@@ -401,13 +428,13 @@ struct TextCleaner::Impl {
             return selected;
         }
 
-        // Only contiguous runs of unlocked, pinyin-known Han characters are
+        // Only contiguous runs of pinyin-known Han characters are
         // handed to the inverted index / edit distance stages.
         std::size_t i = 0;
         while (i < text.size()) {
-            while (i < text.size() && (locked[i] || !eligible(text[i]))) ++i;
+            while (i < text.size() && !eligible(text[i])) ++i;
             const std::size_t run_begin = i;
-            while (i < text.size() && !locked[i] && eligible(text[i])) ++i;
+            while (i < text.size() && eligible(text[i])) ++i;
             if (i - run_begin >= 2) scan_run(text, run_begin, i, locked, selected, context);
         }
         return selected;
@@ -417,71 +444,48 @@ struct TextCleaner::Impl {
         CleanResult result;
         if (text.empty()) return result;
 
-        std::vector<Selected> selected = select_exact(text);
-        const std::vector<bool> locked = build_lock_mask(text.size(), selected);
-        const auto approximate = select_approximate(text, locked, context);
-        selected.insert(selected.end(), approximate.begin(), approximate.end());
-        std::sort(selected.begin(), selected.end(),
-                  [](const Selected& a, const Selected& b) { return a.begin < b.begin; });
-
-        std::u32string output;
-        output.reserve(text.size());
-        std::size_t cursor = 0;
-
-        for (const auto& match : selected) {
-            if (match.begin < cursor) continue;
-            // Belt-and-braces enforcement: a later-stage hit may never
-            // overlap an AC-locked span.
-            if (match.status == MatchStatus::None &&
-                overlaps_locked(locked, match.begin, match.end)) {
-                continue;
+        auto selected=select_exact(text);
+        auto locked=build_lock_mask(text.size(),selected);
+        for(std::size_t i=0;i<text.size();++i) if(numeric_character(text[i])) locked[i]=true;
+        auto approximate=select_approximate(text,locked,context);
+        selected.insert(selected.end(),approximate.begin(),approximate.end());
+        std::u32string output=text;
+        for(const auto& match:selected) {
+            const auto& entry=lexicon.entries()[match.entry];
+            const auto original=text.substr(match.begin,match.end-match.begin);
+            const bool keep=match.status==MatchStatus::LockedByAc;
+            const auto replacement=keep?original:entry.canonical;
+            if(!keep) {
+                if(entry.action!=Action::Replace || replacement.size()!=original.size()) continue;
+                bool permitted=true;
+                for(std::size_t k=0;k<original.size();++k)
+                    if(locked[match.begin+k] && replacement[k]!=original[k]) permitted=false;
+                if(!permitted) continue;
+                output.replace(match.begin,original.size(),replacement);
             }
-            output.append(text, cursor, match.begin - cursor);
-
-            const auto& entry = lexicon.entries()[match.entry];
             MatchRecord record;
-            record.kind = match.kind;
-            record.status = match.status;
-            record.begin = match.begin;
-            record.end = match.end;
-            record.entry_id = entry.id;
-            record.distance = match.distance;
-            record.score = match.score;
-            record.log_ratio = match.log_ratio;
-            record.context_bonus = match.context_bonus;
-            record.candidate_frequency = match.candidate_frequency;
-            record.original_frequency = match.original_frequency;
-            record.matched = text.substr(match.begin, match.end - match.begin);
-            record.action = entry.action;
-
-            if (entry.action == Action::Mask) {
-                const char32_t mask =
-                    is_valid_mask(config.mask_char) ? config.mask_char : U'*';
-                output.append(match.end - match.begin, mask);
-                record.replacement.assign(match.end - match.begin, mask);
-            } else if (entry.action == Action::Keep) {
-                output += record.matched;
-                record.replacement = record.matched;
-            } else {
-                output += entry.canonical;
-                record.replacement = entry.canonical;
-            }
-
+            record.kind=match.kind; record.status=match.status;
+            record.begin=match.begin; record.end=match.end; record.entry_id=entry.id;
+            record.candidate_zipf=match.candidate_zipf; record.original_zipf=match.original_zipf;
+            record.distance=match.distance; record.score=match.score;
+            record.log_ratio=match.log_ratio; record.context_bonus=match.context_bonus;
+            record.candidate_frequency=match.candidate_frequency; record.original_frequency=match.original_frequency;
+            record.matched=original; record.replacement=replacement; record.action=keep?Action::Keep:Action::Replace;
             result.matches.push_back(std::move(record));
-            cursor = match.end;
         }
-
-        output.append(text, cursor, text.size() - cursor);
-        result.text = utf8::encode(output);
+        std::stable_sort(result.matches.begin(),result.matches.end(),[](const MatchRecord& a,const MatchRecord& b){return a.begin<b.begin;});
+        result.text=utf8::encode(output);
         return result;
     }
 };
 
 TextCleaner::TextCleaner(Lexicon lexicon, const PinyinDict& dict, CleanerConfig config,
                          std::optional<std::vector<std::u32string>> ac_words,
-                         WordFrequency frequencies, Vocabulary vocabulary)
+                         WordFrequency frequencies, Vocabulary vocabulary,
+                         CharFrequency char_frequency)
     : impl_(std::make_unique<Impl>(std::move(lexicon), dict, config,
-                                   std::move(ac_words), std::move(frequencies), std::move(vocabulary))) {}
+                                   std::move(ac_words), std::move(frequencies),
+                                   std::move(vocabulary), std::move(char_frequency))) {}
 
 TextCleaner::~TextCleaner() = default;
 TextCleaner::TextCleaner(TextCleaner&&) noexcept = default;

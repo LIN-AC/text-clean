@@ -95,7 +95,7 @@ PinyinDict make_dict() {
 }
 
 TextCleaner make_cleaner(const PinyinDict& dict, CleanerConfig config = {}) {
-    return TextCleaner(make_lexicon(), dict, config, std::nullopt,
+    return TextCleaner(make_lexicon(), dict, config, std::vector<std::u32string>{U"权力",U"残骸"},
                        make_frequency());
 }
 
@@ -206,8 +206,10 @@ void test_hotwords_are_recalled() {
 
 void test_word_boundary_windows() {
     const auto dict = make_dict();
+    text_clean::Vocabulary reference;
+    for(auto w:{U"谈话",U"核实",U"支付",U"支付宝"}) reference.add(w);
     TextCleaner cleaner(make_boundary_lexicon(), dict, {}, std::nullopt,
-                        make_boundary_frequency());
+                        make_boundary_frequency(),reference);
 
     // 谈话/核实 are complete dictionary words. The old sliding window could
     // extract 话核 and rewrite it to 话盒; boundary-aligned windows must not.

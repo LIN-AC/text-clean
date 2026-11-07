@@ -1,6 +1,10 @@
 #include "text_clean/pinyin_index.h"
 
 #include <algorithm>
+#include <filesystem>
+#include <fstream>
+#include <map>
+#include <iterator>
 #include <cctype>
 #include <stdexcept>
 #include <unordered_set>
@@ -58,6 +62,60 @@ void PinyinInvertedIndex::build() {
         }
     }
     built_ = true;
+}
+
+
+namespace {
+void put32(std::string& out, std::uint32_t x) {for(int i=0;i<4;++i) out.push_back(static_cast<char>((x>>(8*i))&255));}
+void putstr(std::string& out,const std::string& x) {put32(out,static_cast<std::uint32_t>(x.size()));out+=x;}
+struct BinReader {
+    const std::string& bytes;std::size_t pos=0;
+    std::uint32_t number(){if(bytes.size()-pos<4)throw std::runtime_error("truncated cache");std::uint32_t n=0;for(int i=0;i<4;++i)n|=static_cast<std::uint32_t>(static_cast<unsigned char>(bytes[pos++]))<<(8*i);return n;}
+    std::string string(){auto n=number();if(n>bytes.size()-pos)throw std::runtime_error("invalid cache string");auto r=bytes.substr(pos,n);pos+=n;return r;}
+};
+std::uint32_t checksum(const std::string& s){std::uint32_t h=2166136261u;for(unsigned char c:s){h^=c;h*=16777619u;}return h;}
+}
+bool PinyinInvertedIndex::build_cached(const std::string& path,const std::string& identity) {
+    if(path.empty()){build();return false;}
+    std::string key="TC_INDEX_V1";putstr(key,identity);
+    std::map<EntryId,Readings> ordered(readings_.begin(),readings_.end());
+    for(const auto& item:ordered){put32(key,item.first);put32(key,item.second.size());for(const auto& rs:item.second){put32(key,rs.size());for(const auto& r:rs)putstr(key,r);}}
+    using Posts=std::unordered_map<std::string,std::vector<EntryId>>;
+    auto encode=[](std::string& out,const Posts& posts){
+        std::map<std::string,std::vector<EntryId>> sorted(posts.begin(),posts.end());put32(out,sorted.size());
+        for(const auto& item:sorted){putstr(out,item.first);put32(out,item.second.size());for(auto id:item.second)put32(out,id);}
+    };
+    auto decode=[&](BinReader& in){
+        Posts posts;auto count=in.number();if(count>in.bytes.size()/8)throw std::runtime_error("invalid cache count");
+        for(std::uint32_t i=0;i<count;++i){auto k=in.string();auto n=in.number();if(n>in.bytes.size()/4)throw std::runtime_error("invalid posting count");std::vector<EntryId> ids;
+            for(std::uint32_t j=0;j<n;++j){auto id=in.number();if(!entries_.count(id))throw std::runtime_error("invalid cache id");ids.push_back(id);}if(!posts.emplace(k,std::move(ids)).second)throw std::runtime_error("duplicate cache key");}
+        return posts;
+    };
+    try {
+        const auto file=std::filesystem::u8path(path);
+        if(std::filesystem::file_size(file)<=64*1024*1024) {
+            std::ifstream input(file,std::ios::binary);std::string bytes((std::istreambuf_iterator<char>(input)),{});BinReader r{bytes};
+            if(r.string()==key) {
+                auto digest=r.number();auto payload=r.string();
+                if(r.pos==bytes.size() && checksum(payload)==digest) {
+                    BinReader p{payload};auto ex=decode(p),po=decode(p);decltype(length_postings_) lengths;
+                    auto n=p.number();if(n>entries_.size())throw std::runtime_error("invalid bucket count");
+                    for(std::uint32_t i=0;i<n;++i){auto length=p.number();auto posts=decode(p);for(const auto& item:posts)for(auto id:item.second)if(syllable_count(id)!=length)throw std::runtime_error("wrong length bucket");if(!lengths.emplace(length,std::move(posts)).second)throw std::runtime_error("duplicate length");}
+                    if(p.pos!=payload.size())throw std::runtime_error("trailing cache payload");
+                    exact_=std::move(ex);postings_=std::move(po);length_postings_=std::move(lengths);built_=true;return true;
+                }
+            }
+        }
+    } catch(const std::exception&) { /* cache is disposable; source remains authoritative */ }
+    build();
+    std::string payload;encode(payload,exact_);encode(payload,postings_);
+    std::map<std::size_t,Posts> lengths(length_postings_.begin(),length_postings_.end());put32(payload,lengths.size());
+    for(const auto& bucket:lengths){put32(payload,bucket.first);encode(payload,bucket.second);}
+    std::string bytes;putstr(bytes,key);put32(bytes,checksum(payload));putstr(bytes,payload);
+    // Best effort. A partial/concurrent write fails checksum and rebuilds next time.
+    std::ofstream output(std::filesystem::u8path(path),std::ios::binary|std::ios::trunc);
+    if(output)output.write(bytes.data(),static_cast<std::streamsize>(bytes.size()));
+    return false;
 }
 
 void PinyinInvertedIndex::require_built() const {

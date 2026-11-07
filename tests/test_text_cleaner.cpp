@@ -108,7 +108,7 @@ WordFrequency make_frequency() {
 }
 
 TextCleaner make_cleaner(const PinyinDict& dict, CleanerConfig config = {}) {
-    return TextCleaner(make_lexicon(), dict, config, std::nullopt, make_frequency());
+    return TextCleaner(make_lexicon(), dict, config, std::vector<std::u32string>{U"微信", U"支付宝"}, make_frequency());
 }
 
 TextCleaner make_cleaner_with_words(const PinyinDict& dict,
@@ -128,7 +128,7 @@ void test_exact_canonical() {
     CHECK(result.matches[0].kind == MatchKind::Exact);
     CHECK_EQ(result.matches[0].begin, std::size_t{2});
     CHECK_EQ(result.matches[0].end, std::size_t{4});
-    CHECK_EQ(result.matches[0].entry_id, std::uint32_t{0});
+    CHECK_EQ(result.matches[0].entry_id, std::uint32_t{6});
     CHECK_EQ(result.matches[0].distance, std::size_t{0});
     CHECK(result.matches[0].status == MatchStatus::LockedByAc);
     CHECK_EQ(result.matches[0].matched, U("微信"));
@@ -142,12 +142,12 @@ void test_exact_alias() {
     const CleanResult result = cleaner.clean(u8"用威信加我");
     CHECK_EQ(result.text, std::string(u8"用微信加我"));
     CHECK_EQ(result.matches.size(), std::size_t{1});
-    CHECK(result.matches[0].kind == MatchKind::Exact);
+    CHECK(result.matches[0].kind == MatchKind::Pinyin);
     CHECK_EQ(result.matches[0].matched, U("威信"));
     CHECK_EQ(result.matches[0].replacement, U("微信"));
     CHECK_EQ(result.matches[0].begin, std::size_t{1});
     CHECK_EQ(result.matches[0].end, std::size_t{3});
-    CHECK(result.matches[0].status == MatchStatus::LockedByAc);
+    CHECK(result.matches[0].status == MatchStatus::None);
 }
 
 void test_pinyin_homophone() {
@@ -260,35 +260,20 @@ void test_pinyin_disabled() {
     CHECK(result.matches.empty());
 
     const CleanResult alias = cleaner.clean(u8"用威信加我");
-    CHECK_EQ(alias.text, std::string(u8"用微信加我"));
-    CHECK_EQ(alias.matches.size(), std::size_t{1});
+    CHECK_EQ(alias.text, std::string(u8"用威信加我"));
+    CHECK(alias.matches.empty());
 }
 
+// Mask remains parseable for migration, but has no correction permission.
 void test_mask_exact() {
-    const auto dict = make_dict();
-    auto cleaner = make_cleaner(dict);
-
-    const CleanResult result = cleaner.clean(u8"这是敏感词测试");
-    CHECK_EQ(result.text, std::string(u8"这是***测试"));
-    CHECK_EQ(result.matches.size(), std::size_t{1});
-    CHECK(result.matches[0].action == Action::Mask);
-    CHECK_EQ(result.matches[0].matched, U("敏感词"));
-    CHECK_EQ(result.matches[0].replacement, U("***"));
-    CHECK_EQ(result.matches[0].begin, std::size_t{2});
-    CHECK_EQ(result.matches[0].end, std::size_t{5});
-    CHECK(result.matches[0].status == MatchStatus::LockedByAc);
+    const auto dict=make_dict(); auto cleaner=make_cleaner(dict);
+    const auto result=cleaner.clean("这是敏感词测试");
+    CHECK_EQ(result.text,std::string("这是敏感词测试")); CHECK(result.matches.empty());
 }
-
 void test_custom_mask_char() {
-    const auto dict = make_dict();
-    CleanerConfig config;
-    config.mask_char = U'#';
-    auto cleaner = make_cleaner(dict, config);
-
-    const CleanResult result = cleaner.clean(u8"敏感词");
-    CHECK_EQ(result.text, std::string("###"));
-    CHECK_EQ(result.matches.size(), std::size_t{1});
-    CHECK_EQ(result.matches[0].replacement, U("###"));
+    const auto dict=make_dict(); CleanerConfig config; config.mask_char=U'#';
+    auto cleaner=make_cleaner(dict,config);
+    CHECK_EQ(cleaner.clean("敏感词").text,std::string("敏感词"));
 }
 
 void test_multiple_matches() {
@@ -298,10 +283,10 @@ void test_multiple_matches() {
     const CleanResult result = cleaner.clean(u8"我用微信和支付宝");
     CHECK_EQ(result.text, std::string(u8"我用微信和支付宝"));
     CHECK_EQ(result.matches.size(), std::size_t{2});
-    CHECK_EQ(result.matches[0].entry_id, std::uint32_t{0});
+    CHECK_EQ(result.matches[0].entry_id, std::uint32_t{6});
     CHECK_EQ(result.matches[0].begin, std::size_t{2});
     CHECK_EQ(result.matches[0].end, std::size_t{4});
-    CHECK_EQ(result.matches[1].entry_id, std::uint32_t{1});
+    CHECK_EQ(result.matches[1].entry_id, std::uint32_t{7});
     CHECK_EQ(result.matches[1].begin, std::size_t{5});
     CHECK_EQ(result.matches[1].end, std::size_t{8});
     CHECK(result.matches[0].status == MatchStatus::LockedByAc);
@@ -330,14 +315,14 @@ void test_external_ac_word_list() {
     CHECK(pinyin.matches[0].kind == MatchKind::Pinyin);
     CHECK(pinyin.matches[0].status == MatchStatus::None);
 
-    // An alias present in the external list keeps the lexicon action.
+    // Explicit protection always keeps the original, even if it is an alias.
     auto alias_cleaner = make_cleaner_with_words(dict, {U("威信")});
     const CleanResult alias = alias_cleaner.clean(u8"威信");
-    CHECK_EQ(alias.text, std::string(u8"微信"));
+    CHECK_EQ(alias.text, std::string(u8"威信"));
     CHECK_EQ(alias.matches.size(), std::size_t{1});
     CHECK(alias.matches[0].kind == MatchKind::Exact);
     CHECK(alias.matches[0].status == MatchStatus::LockedByAc);
-    CHECK(alias.matches[0].action == Action::Replace);
+    CHECK(alias.matches[0].action == Action::Keep);
 
     // A word that is only in the external list gets a synthetic Keep entry:
     // it is locked, but the text is left byte-for-byte unchanged.
@@ -354,20 +339,20 @@ void test_external_ac_word_list() {
 
 void test_ac_lock_blocks_later_stages() {
     const auto dict = make_dict();
-    auto cleaner = make_cleaner(dict);
+    auto cleaner = make_cleaner_with_words(dict, {U("威信")});
 
     // "威信" is an exact alias and gets locked. Without the lock, the
     // three-character window "威信宝" would match "薇信宝" by pinyin and
     // rewrite the locked alias. The pinyin stage must never see it.
     const CleanResult result = cleaner.clean(u8"用威信宝");
-    CHECK_EQ(result.text, std::string(u8"用微信宝"));
+    CHECK_EQ(result.text, std::string(u8"用威信宝"));
     CHECK_EQ(result.matches.size(), std::size_t{1});
     CHECK(result.matches[0].kind == MatchKind::Exact);
     CHECK(result.matches[0].status == MatchStatus::LockedByAc);
     CHECK_EQ(result.matches[0].begin, std::size_t{1});
     CHECK_EQ(result.matches[0].end, std::size_t{3});
     CHECK_EQ(result.matches[0].matched, U("威信"));
-    CHECK_EQ(result.matches[0].entry_id, std::uint32_t{0});
+    CHECK_EQ(result.matches[0].entry_id, std::uint32_t{6});
 
     // Outside a locked span the pinyin stage still corrects unlocked text.
     const CleanResult unlocked = cleaner.clean(u8"用支付包");
@@ -406,7 +391,7 @@ void test_mixed_offsets() {
     CHECK_EQ(result.matches[1].end, std::size_t{6});
     CHECK_EQ(result.matches[0].matched, U("威信"));
     CHECK_EQ(result.matches[1].matched, U("微信"));
-    CHECK(result.matches[0].status == MatchStatus::LockedByAc);
+    CHECK(result.matches[0].status == MatchStatus::None);
     CHECK(result.matches[1].status == MatchStatus::LockedByAc);
 }
 

@@ -35,6 +35,9 @@ public:
     std::vector<Candidate> find_aligned_candidates(const Readings& query,
         std::size_t limit = 64, bool require_first = true) const;
     void build();
+    // Exact source identity + bounded binary payload; invalid caches rebuild.
+    // Returns true on a cache hit. Failure to write a cache is non-fatal.
+    bool build_cached(const std::string& path, const std::string& identity = {});
 
     bool empty() const { return entries_.empty(); }
     bool is_built() const { return built_; }

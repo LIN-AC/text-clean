@@ -21,6 +21,9 @@ struct LexiconEntry {
     std::vector<std::u32string> aliases;
     std::vector<std::string> pinyin;  // tone-less syllables, may be empty
     Action action = Action::Replace;
+    // Complete, tone-bearing word pronunciations from the new TSV sources.
+    std::vector<std::vector<std::string>> pronunciations;
+    std::vector<std::string> sources;
 };
 
 // Tab-separated lexicon:

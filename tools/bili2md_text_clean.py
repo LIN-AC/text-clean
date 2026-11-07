@@ -4,7 +4,8 @@ import subprocess
 import tempfile
 
 
-def clean_subtitles(executable: str, title: str, description: str, raw_asr: str) -> str:
+def clean_subtitles(executable: str, title: str, description: str, raw_asr: str,
+                    *, extra_args=()) -> str:
     """Return UTF-8 subtitles; raise CalledProcessError on CLI failure.
 
     The CLI adds a final newline, as in its legacy interface. For exact byte
@@ -17,7 +18,7 @@ def clean_subtitles(executable: str, title: str, description: str, raw_asr: str)
         title_file.write_text(title, encoding="utf-8")
         description_file.write_text(description, encoding="utf-8")
         result = subprocess.run(
-            [executable, "--title-file", str(title_file),
+            [executable, *extra_args, "--title-file", str(title_file),
              "--description-file", str(description_file)],
             input=raw_asr.encode("utf-8"), stdout=subprocess.PIPE,
             stderr=subprocess.PIPE, check=True,

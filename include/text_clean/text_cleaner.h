@@ -8,6 +8,7 @@
 #include <string_view>
 #include <vector>
 
+#include "text_clean/char_frequency.h"
 #include "text_clean/lexicon.h"
 #include "text_clean/video_context.h"
 #include "text_clean/vocabulary.h"
@@ -19,6 +20,7 @@ class PinyinDict;
 
 struct CleanerConfig {
     bool enable_pinyin = true;
+    std::string index_cache_path; // optional generated cache; never a candidate source
 
     // Maximum aligned tone-aware substitution distance accepted for a pinyin candidate. Tone-only
     // differences cost 1 and are searched by default; base differences cost 2.
@@ -37,9 +39,13 @@ struct CleanerConfig {
     bool require_first_syllable_match = true;
 
     // Differential score:
-    //   ΔS = ln((1+f(C))/(1+f(O))) - λ*D(O,C) - μ
+    //   Zipf mode: ΔS = 2.302585*(ZipfC-ZipfO) - λ*D(O,C) - μ
+    //   Legacy counts: ΔS = ln((1+f(C))/(1+f(O))) - λ*D(O,C) - μ
     // A candidate needs ΔS > 0; overlapping alternatives also require a
-    // margin > modification_threshold. Recognized original words are protected.
+    // margin > modification_threshold. AC-locked characters are protected.
+    // f(C) is the candidate's raw table frequency; f(O) is the original's raw
+    // frequency when attested, otherwise its chance frequency under character
+    // independence (see CharFrequency). Neither side is floored.
     double distance_penalty = 0.65;        // λ
     double modification_threshold = 0.70;  // μ
 
@@ -48,14 +54,12 @@ struct CleanerConfig {
 };
 
 enum class MatchKind {
-    Exact,   // canonical form or alias found by the Aho-Corasick automaton
+    Exact,   // explicit protection found by the Aho-Corasick automaton
     Pinyin,  // same pinyin as a dictionary entry (distance 0)
     Fuzzy,   // close pinyin accepted by the edit distance fallback
 };
 
-// Status attached to a match. An exact AC hit is LockedByAc: its span is
-// authoritative and the pinyin/edit-distance stages must not inspect or
-// modify it again.
+// AC hits preserve their original characters, which remain usable as context.
 enum class MatchStatus : std::uint32_t {
     None = 0,
     LockedByAc = 1u << 0,
@@ -71,6 +75,7 @@ struct MatchRecord {
     double score = 0.0;    // ΔS for pinyin/fuzzy; 0 for exact AC hits
     double log_ratio = 0.0;
     double context_bonus = 0.0;
+    std::optional<double> candidate_zipf = std::nullopt, original_zipf = std::nullopt;
     std::size_t candidate_frequency = 0;
     std::size_t original_frequency = 0;
     std::u32string matched;
@@ -83,33 +88,18 @@ struct CleanResult {
     std::vector<MatchRecord> matches;
 };
 
-// Orchestrates the cleaning modules:
-//   1. exact word matching with the Aho-Corasick automaton; every hit carries
-//      MatchStatus::LockedByAc
-//   2. locked spans are excluded from all later stages
-//   3. pinyin lookup + tone-aware edit distance only run on the remaining
-//      text; candidate windows follow static-dictionary segmentation, with
-//      limited cross-word windows around unknown spans; each candidate is
-//      scored with word-frequency evidence and the highest score above zero
-//      wins
-//   4. locked hits apply their dictionary action (replace/mask/keep); pinyin
-//      and fuzzy hits can never overlap them
-//
-// When ac_words is provided (even as an empty list), the automaton is built
-// exclusively from those words. Words that are a canonical form or alias of a
-// lexicon entry reuse that entry's action; all other words become Keep entries
-// and are locked without being rewritten. When ac_words is omitted, patterns
-// are gathered from the lexicon for backwards compatibility.
-//
-// Pinyin scoring requires a WordFrequency table. With an empty table the
-// pinyin/fuzzy stage is skipped; AC locking still works.
+// AC only locks original characters. Candidate windows may include locks,
+// but every changed position must be unlocked. Only Replace candidates enter
+// pronunciation/scoring; legacy Mask actions have no execution permission.
+// Vocabulary provides segmentation/reference, not an unconditional veto.
+// With no count-frequency table, no replacements are proposed.
 class TextCleaner {
 public:
-    // Vocabulary is independent of priors/segmentation. Supply it explicitly
-    // for low-frequency word protection (CLI loads data/dict.txt by default).
+    // Vocabulary supplies segmentation/reference only; AC words alone lock.
     TextCleaner(Lexicon lexicon, const PinyinDict& dict, CleanerConfig config = {},
                 std::optional<std::vector<std::u32string>> ac_words = std::nullopt,
-                WordFrequency frequencies = {}, Vocabulary vocabulary = {});
+                WordFrequency frequencies = {}, Vocabulary vocabulary = {},
+                CharFrequency char_frequency = {});
     ~TextCleaner();
 
     TextCleaner(TextCleaner&&) noexcept;

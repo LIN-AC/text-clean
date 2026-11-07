@@ -8,7 +8,7 @@ cmake --build build-release --config Release
 ctest --test-dir build-release -C Release --output-on-failure
 ```
 
-旧 CLI 和 `TextCleaner::clean(text)` 保持可用。CLI 另加载独立合法词汇集合 `data/dict.txt`（可用 `--vocabulary` 指定一词一行或 jieba 格式），部署时需要携带；缺失时明确报错，避免悄悄失去保护。默认数据为 `data/word_freq.txt`、`data/pinyin_dict.txt`、`data/lexicon.txt`、`data/word.txt`；可用既有参数指定文件。AC 中明确配置的别名替换及掩码仍是权威动作，不受动态评分限制。
+旧 CLI 和 `TextCleaner::clean(text)` 保持可用。CLI 另加载独立合法词汇集合 `data/dict.txt`（可用 `--vocabulary` 指定一词一行或 jieba 格式），部署时需要携带；缺失时明确报错，避免悄悄失去保护。同一文件还可作为**单字频率表**读入（`--char-freq`，默认 `data/dict.txt`），用于未收录原文的概率基线；该表缺失或只有词表时退回旧口径。默认数据为 `data/word_freq.txt`、`data/pinyin_dict.txt`、`data/lexicon.txt`、`data/word.txt`；可用既有参数指定文件。AC 中明确配置的别名替换及掩码仍是权威动作，不受动态评分限制。
 
 ## bili2md 调用
 
@@ -48,7 +48,7 @@ for (const auto& cue : cues) {
 
 ## 评分与安全边界
 
-静态分数仍为 `log((1+fC)/(1+fO)) - lambda*distance - mu`。标题与简介中对规范候选的精确出现数合并为 m，ASR 中精确出现数为 a。仅对静态词频为零的原窗口附加：
+静态分数为 `log((1+fC)/(1+fO)) - lambda*distance - mu`，两侧同口径：`fC` 是候选词的**真实**词频（不再有热词地板），`fO` 是原文窗口的词频；原文未收录时 `fO` 取字符独立期望次数 `total * Π (count(c)+0.5)/(total+0.5)`（`CharFrequency`，数据来自单字频率表）。因此「候选词比按字独立假设更该出现」是改写的必要条件，零证据不再能靠地板得到正分。`--no-char-baseline` 可退回旧的 `fO=0` 口径。标题与简介中对规范候选的精确出现数合并为 m，ASR 中精确出现数为 a。仅对静态词频为零的原窗口附加：
 
 `bonus = log(1 + min(m,2)/2) + log(1 + min(a,3)/12)`，且 m=0 时 bonus=0。
 
@@ -64,7 +64,7 @@ for (const auto& cue : cues) {
 
 所有通过评分的候选参与重叠连通组比较。最高分对次高分的优势必须大于已有修改阈值 mu，否则整组保留原文。不会因为更早开始就优先修改；完全同分的不同候选也不会由词表编号决定结果。
 
-字符 N-gram 目前只有 `tools/ngram_veto.py` 离线实验，不加载到 C++ 流水线。它只评价已有的等长候选是否应被否决，不产生新候选或写回文本；支持不足时放弃判断。详见 `PRIORITY_IMPLEMENTATION.md`。
+字符 bigram 仍只有 `tools/ngram_veto.py` 离线实验，不加载到 C++ 流水线；C++ 内的新增项只有上面的单字独立基线（一阶近似，不含 bigram 共现）。`tools/ngram_veto.py` 只评价已有的等长候选是否应被否决，不产生新候选或写回文本；支持不足时放弃判断。详见 `PRIORITY_IMPLEMENTATION.md`。
 
 ## 回归
 
@@ -77,3 +77,52 @@ python tools/refactor_benchmark.py build-gcc/text_clean.exe log/refactor_context
 ```
 
 本机基线可执行文件保存在 `.verify/refactor/baseline.exe`（不提交）；基线是本次开始时的工作区构建，不是 Git HEAD。基准脚本复用现有 `v2error_report.py` 的 27 条注入样例，固定两篇 ASR，保留语料／词典 SHA256、输出改写明细和计时样本。详见 `REFACTOR_REPORT.md`。
+
+## 词库来源与生成（2026-11-06 数据迁移后新增）
+
+上面各节描述的 `data/lexicon.txt`、`data/word.txt`、`data/word_freq.txt`、`data/pinyin_dict.txt`、`data/dict.txt` 是**迁移前**的路径，历史记录保持不改；这些文件现已归档到 `data/old/`。当前正式词库按 `agents/DECISIONS.md` 的目录结构放在 `data/` 下，全部为 UTF-8 TSV（LF 换行、无 BOM），由 `tools/normalize_dicts.py` 从 `data/raw/` 生成。**源码尚未适配新路径**，仍按上面的旧文件名加载，改源码另行批准。
+
+| 正式词库 | 职责 | 数据来源 | 版本 | 许可 |
+|---|---|---|---|---|
+| `data/ac/ac_lock.tsv` | AC 精确锁定（只有 LOCK 一种动作） | `data/raw/AC_word.txt`（人工维护） | — | 项目自产 |
+| `data/vocabulary/vocabulary.tsv` | 普通词汇参考 | rime-ice `base.dict.yaml` | 上游未声明 | 待确认 |
+| `data/vocabulary/extvocabulary.tsv` | 拓展词汇参考 | rime-ice `ext.dict.yaml` | 上游未声明 | 待确认 |
+| `data/pronunciation/pronunciation.tsv` | 词级带调读音（**权威**） | CC-CEDICT | 文件头 | CC BY-SA 4.0 |
+| `data/pronunciation/pronunciation_char.tsv` | 单字带调读音 | CC-CEDICT + pypinyin 生成表 | pypinyin 0.55.0 | CC BY-SA 4.0 + MIT |
+| `data/frequency/word_freq.tsv` | 词频：通用列 + 本项目领域列 | wordfreq（多源合并）+ 本项目 `asr/*.gt.txt`、`temp_txt/*.txt` | wordfreq 3.1.1 | 代码 Apache-2.0，**数据 CC BY-SA 4.0** |
+| `data/frequency/char_freq.tsv` | 字频：通用列 + 本项目领域列 | 同上 | wordfreq 3.1.1 | 同上 |
+| `data/correction/candidates.tsv` | 候选词库（目标词 + 别名，一别名一行） | `data/old/lexicon.txt` 人工条目 | — | 项目自产 |
+| `data/generated/` | 程序自动重建的索引（如 `pinyin_index.bin`） | 由候选词库 + 读音表推导 | — | 禁止人工编辑 |
+
+逐文件的来源、版本、许可与 SHA256 记在 **`data/PROVENANCE.tsv`**。
+
+三条已生效的数据策略（园长拍板）：
+
+1. **读音以 CEDICT 为准，罕见异读删除**：有 CEDICT 记录的字只保留 CEDICT 读音；仅 pypinyin 覆盖的字只保留其首个常用读音。累计删除异读 10,791 个（例：`有` 的 `wei3`、`信` 的 `shen1`），被删项写在 `dropped` 列，可审计可回退。
+2. **词频通用底库换成 wordfreq**：`general` 列是 **zipf 指数**（log10 尺度，越大越常见）不是次数，换算关系 `ln(fC/fO) = 2.3026 × (zipfC − zipfO)`。SUBTLEX-CH 保留在 `data/raw/` 作对照与回退源（`--check` 之外可回退，见脚本）。
+3. **允许词频动态变更**：`ours_count`／`ours_per_million`／`sources` 三列来自本项目语料（当前 77,395 字，jieba 分词统计），语料增长后重跑脚本即可刷新，不改通用列。
+
+重新生成（需带 `wordfreq[cjk]` 的 Python，本机为 `py`）：
+
+```powershell
+py -m pip install --user "wordfreq[cjk]"
+py tools/normalize_dicts.py          # 全量重写 data/ 下 8 张 TSV + PROVENANCE.tsv
+py tools/normalize_dicts.py --check  # 只报数不写文件
+```
+
+`wordfreq` 数据是 CC BY-SA 4.0：对外分发由它派生的词库时，必须署名并采用同许可；仅内部研究使用不受影响。SUBTLEX-CH 原始数据仅限学术用途，不随仓库对外分发。
+
+
+## 2026-11-07 新架构开发状态（未发布）
+
+TSV数据接口和AC保护流程已经重构，但正确文本回归仍有2项失败，不能视为发布版本。公式未改，新Zipf词频不会自动送入旧次数公式。检查数据用 `text_clean --check-data`；原样基线用 `text_clean --no-candidates`；旧格式显式选 `--legacy-data`。新候选配合显式次数表的调用、兼容边界和完整测试见 [E021记录](experiments/E021/README.md)。bili2md适配器保留原4参数，可用 `extra_args=["--no-candidates"]` 选择基线。不要将历史默认调用示例误认为新TSV已完成评分接入。
+
+
+同日后续验证：上述2项失败已通过“词典收录原文的静态否决不能仅靠元数据加分推翻”这一准入修复解决，公式不变，最终22/22测试通过。不是恢复无条件词典锁；静态证据充分仍可替换。新频率评分接入与独立纠错收益验证仍未完成，开发版本未发布。最终明细见E021的tests_admission.txt。
+
+
+## 2026-11-07 E022：新词频已接入（工程基线，非质量达标版本）
+
+新TSV默认频率项已按批准改为 `2.302585*(ZipfC-ZipfO)`，λ=.65、μ=.70不变；缺失任一词频保留原文，领域计数不参与。现在默认CLI可以运行，无需再显式提供旧次数表；旧 `--word-freq` 次数表与 `--legacy-data` 仍保留兼容路径。不要混加两种单位。
+
+23项工程测试通过，但七篇开卷12处改对、45处误改、7处错到错，总错误量高于零操作，不适合作为质量达标发布。详情见 [E022工程与开卷记录](experiments/E022/README.md)。[Claude模型方案](docs/CLAUDE_FORMULA_EXPERIMENT_PLAN.md)尚未实施，不改变当前评分。

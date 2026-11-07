@@ -1,0 +1,37 @@
+{
+  "word": {
+    "rows": 921129,
+    "sha256": "9aab525a01ce062ccabf347ec8457e8b9b8229c1eb4f702cd4d7f7a65610f0f9",
+    "known_positive_zipf": 854257,
+    "zero": 66872,
+    "sources": {
+      "wordfreq": 846491,
+      "none": 66854,
+      "wordfreq+ours": 7766,
+      "ours": 18
+    },
+    "nonzero_domain_counts": 7784
+  },
+  "char": {
+    "rows": 8416,
+    "sha256": "c99a41d2f5e400997425678fbc7c734bfb22bc6375112b4caac3d0728c8d946c",
+    "known_positive_zipf": 7652,
+    "zero": 764,
+    "sources": {
+      "wordfreq+ours": 2274,
+      "none": 763,
+      "wordfreq": 5378,
+      "ours": 1
+    },
+    "nonzero_domain_counts": 2275
+  },
+  "domain_denominator": "77395 raw text characters; not word tokens; includes gt.txt and temp_txt",
+  "domain_used_in_scoring": false,
+  "missing_policy": "KEEP if either Zipf prior missing; no zero substitution or count/character fallback",
+  "candidate_coverage": {
+    "targets": 336,
+    "targets_with_zipf": 221,
+    "aliases": 357,
+    "aliases_with_zipf": 123
+  }
+}

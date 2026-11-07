@@ -1,0 +1,31 @@
+# 统一数据格式要求：每份外部数据记录来源、版本、许可和 SHA256
+path	role	source	license	sha256	size_bytes	updated_at
+data/raw/AC_word.txt	AC 锁定词源	人工维护	无外部许可	7fa121871456d90b1b26efe206da0e52ebbfabc481d9770369f17b1319bda2f2	1116	2026-11-06T03:11:45
+data/raw/target_lexion.txt	候选词库格式样例（仅注释，无数据）	人工维护	无外部许可	ff521ac93704b332fab3343b7bce3e1e4cdd8014dbab6f8821ab7619826b0142	239	2026-11-06T03:11:45
+data/raw/cedict_ts.u8	词/字读音源	CC-CEDICT (MDBG)	CC BY-SA 4.0	35581f5c03e0b907b9bddb3c1c3b206b67118439e6331844ffbdfb9f7817f713	9871584	2026-11-06T03:11:45
+data/raw/SUBTLEX-CH-WF.xlsx	词频对照/回退源（通用底库已换 wordfreq）	SUBTLEX-CH	仅限学术用途	4b0c91f11dd5b4195759b3ccb7a1f9d200ba741ee494948e1ee98ea7224bf326	4302603	2026-11-06T03:11:45
+data/raw/SUBTLEX-CH-CHR.xlsx	字频对照/回退源（通用底库已换 wordfreq）	SUBTLEX-CH	仅限学术用途	b3d55eed8ae02fbd6ea0bda734f0c899de3fe25c8d2f9f8455f434aa7f321854	306597	2026-11-06T03:11:45
+data/raw/rime/base.dict.yaml	基础词典源	iDvel/rime-ice	上游未声明，待确认	551cad93c2e74c7325599e0d23afbf71c2d2e57df9af3f8f6fa16d87e60290a3	16606808	2026-11-06T03:11:45
+data/raw/rime/ext.dict.yaml	拓展词典源	iDvel/rime-ice	上游未声明，待确认	d2d52bf75f7bcdd8a4afb036ab879415a7e620e529a4ecebc71780fe7ccdf648	11923564	2026-11-06T03:11:45
+data/old/lexicon.txt	旧动作词表（candidates 数据来源）	本项目人工维护	项目自产	8b114342e87b906f4b45a61ccbe06308b9bd267091a36e30cd581bbb6da256e1	576	2026-11-06T03:11:45
+data/old/pinyin_dict.txt	单字读音源（pypinyin 0.55.0，heteronym）	mozillazg/python-pinyin	MIT	513c558690e71ab1d034764c6793d6b3faf1faca453527b35da1f62d81bd3553	492024	2026-11-06T03:11:45
+data/old/word_freq.txt	旧词频表（由 jieba dict.txt 派生）	jieba dict.txt	MIT	d6198ce837a803acbc0cc56c42b875d45221cf1f7f0289cd8f8c176dd8fb8c1a	1176298	2026-11-06T03:11:45
+data/old/dict.txt	旧通用词典（jieba）	fxsjy/jieba	MIT	7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8	5071852	2026-11-06T03:11:45
+data/old/SUBTLEX-CH-WF	词频源文本版（GB18030 编码）	SUBTLEX-CH	仅限学术用途	086536450b1f77d0c7ff3ac0fc8375897162ace807d3167bec48b4c493434077	3230773	2026-11-06T03:11:45
+data/old/THUOCL_chengyu.txt	成语词表（实验用，未进生产）	THUOCL (thuopen)	待确认	c339d5d6e37d4f8ecdcb82f2a02b7fdfc66796f0a5215155f2aff8a77e89a7eb	166549	2026-11-06T03:11:45
+data/old/THUOCL_diming.txt	地名词表（实验用，未进生产）	THUOCL (thuopen)	待确认	ca5574399da5750a2c36dc373f36e31a66ed1f8a4b21646df6ca44ec0b888d89	640673	2026-11-06T03:11:45
+data/old/word.txt.seed.bak	旧 AC 词表备份	本项目人工维护	项目自产	0866fe4904746129dd139d7d458174b752ee624bcce984a274913440187b95f0	158	2026-11-06T03:11:45
+data/old/sample_document.txt	用途不明（全仓零引用）	未知	待确认	dac55d344ab7fdfd5f3124fa6eec454143c98173e6453d3c72b3282f18a84220	230	2026-11-06T03:11:45
+# --- 外部程序库（非文件，SHA256 由 pip 元数据管理）---
+wordfreq	通用词频/字频底库（zipf 指数）	rspeer/wordfreq，多源合并	代码 Apache-2.0，数据 CC BY-SA 4.0	version=3.1.1	0	2026-11-06T03:11:45
+jieba	领域语料分词（只用于统计我方语料）	fxsjy/jieba	MIT	见 pip 元数据	0	2026-11-06T03:11:45
+asr/*.gt.txt + temp_txt/*.txt	领域语料（本项目人工真值与参考正文）	本项目	真值不得外发	77395 字	0	2026-11-06T03:11:45
+# --- 生成的正式词库 ---
+data/ac/ac_lock.tsv	生成物 118 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	dff6232d8081b5c14c659059626e825f0d2ee9f9a9bc389a4d65187af286ad65	2543	2026-11-06T03:11:45
+data/vocabulary/vocabulary.tsv	生成物 542239 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	3c6506c6a0db6c06130a73b6e72b43ac142f4876e514f5f88f9cbaeddc9a599d	8438999	2026-11-06T03:11:45
+data/vocabulary/extvocabulary.tsv	生成物 338209 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	89f157bcbcaf52f0fcfecfbd375519494315067de679dc06abccae510ba8e74b	6048082	2026-11-06T03:11:45
+data/pronunciation/pronunciation.tsv	生成物 110814 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	5c66fd4645c782fe42339b7aca7f6b011d00a61e3f36e421deb9d799a5da3560	2402588	2026-11-06T03:11:45
+data/pronunciation/pronunciation_char.tsv	生成物 41671 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	e5bd3477a2c54ab56bcc3012d0f9d664366ddc5a16628416ae714542bd91f11c	1608954	2026-11-06T03:11:45
+data/frequency/word_freq.tsv	生成物 921129 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	9aab525a01ce062ccabf347ec8457e8b9b8229c1eb4f702cd4d7f7a65610f0f9	26734825	2026-11-06T03:11:45
+data/frequency/char_freq.tsv	生成物 8416 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	c99a41d2f5e400997425678fbc7c734bfb22bc6375112b4caac3d0728c8d946c	195542	2026-11-06T03:11:45
+data/correction/candidates.tsv	生成物 1034 行	由 tools/normalize_dicts.py 从 data/raw+data/old 转换	派生许可见来源	5e3b9d518b6d637b47cfbf5493e955831122bee9dd9f7341644f254449d66f66	35347	2026-11-06T03:11:45

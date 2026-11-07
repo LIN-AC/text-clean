@@ -5,6 +5,7 @@
 #include <string>
 #include <string_view>
 #include <unordered_map>
+#include <optional>
 
 namespace text_clean {
 
@@ -24,9 +25,15 @@ public:
     std::uint64_t count(const std::u32string& word) const;
     std::uint64_t count_utf8(std::string_view word) const;
 
-    std::size_t size() const { return counts_.size(); }
-    bool empty() const { return counts_.empty(); }
-    void clear() { counts_.clear(); }
+    std::size_t size() const { return zipf_mode_ ? zipfs_.size() : counts_.size(); }
+    bool empty() const { return zipf_mode_ ? zipfs_.empty() : counts_.empty(); }
+    void clear() { counts_.clear(); zipfs_.clear(); zipf_mode_=false; }
+    // Zipf=log10(occurrences per billion tokens). Missing is not zero.
+    // This mode does not consume domain counts or character-independence counts.
+    void use_zipf() { clear(); zipf_mode_=true; }
+    bool is_zipf() const { return zipf_mode_; }
+    void add_zipf(std::u32string word, double value);
+    std::optional<double> zipf(const std::u32string& word) const;
 
     const std::unordered_map<std::u32string, std::uint64_t>& entries() const {
         return counts_;
@@ -34,6 +41,8 @@ public:
 
 private:
     std::unordered_map<std::u32string, std::uint64_t> counts_;
+    std::unordered_map<std::u32string, double> zipfs_;
+    bool zipf_mode_ = false;
 };
 
 }  // namespace text_clean

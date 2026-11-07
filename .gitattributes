@@ -1,0 +1,2 @@
+# Preserve dictionary bytes so experiment SHA256 values survive checkout.
+data/** -text

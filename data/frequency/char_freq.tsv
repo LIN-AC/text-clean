@@ -1,0 +1,8424 @@
+# role: 字频：通用底库 + 本项目语料字计数（领域列可动态重算）
+# source: wordfreq（单字 zipf）
+# source_license: wordfreq 数据 CC BY-SA 4.0；SUBTLEX 仅限学术用途
+# columns: char	general	ours_count	ours_per_million	sources
+# note: general 为 zipf 指数；领域列来自本项目 asr 真值 + temp_txt，共 77395 字。
+# generated_by: tools/normalize_dicts.py
+# generated_at: 2026-11-06T03:11:41
+char	general	ours_count	ours_per_million	sources
+〇	3.69	1	12.9	wordfreq+ours
+㑊	0.0	0		none
+㓥	1.84	0		wordfreq
+㔾	0.0	0		none
+㕮	0.0	0		none
+㖏	0.0	0		none
+㘎	0.0	0		none
+㛹	0.0	0		none
+㞎	0.0	0		none
+㞘	0.0	0		none
+㧟	0.0	0		none
+㨃	0.0	0		none
+㰀	0.0	0		none
+㳇	0.0	0		none
+㵐	0.0	0		none
+㵲	0.0	0		none
+㶉	1.41	0		wordfreq
+㸆	0.0	0		none
+㹢	0.0	0		none
+㹭	0.0	0		none
+㹴	0.0	0		none
+㺀	0.0	0		none
+㺄	0.0	0		none
+㺢	0.0	0		none
+㻋	0.0	0		none
+㻬	0.0	0		none
+㽏	0.0	0		none
+䁖	0.0	0		none
+䃰	0.0	0		none
+䅟	0.0	0		none
+䇲	1.46	0		wordfreq
+䌷	2.22	0		wordfreq
+䍁	1.5	0		wordfreq
+䏡	0.0	0		none
+䐛	0.0	0		none
+䓖	0.0	0		none
+䓞	0.0	0		none
+䓫	0.0	0		none
+䓬	0.0	0		none
+䕷	0.0	0		none
+䗃	0.0	0		none
+䗖	0.0	0		none
+䗛	0.0	0		none
+䗪	0.0	0		none
+䘃	0.0	0		none
+䜣	1.98	0		wordfreq
+䜺	0.0	0		none
+䝙	0.0	0		none
+䞍	0.0	0		none
+䢺	0.0	0		none
+䦃	0.0	0		none
+䰀	0.0	0		none
+䲜	0.0	0		none
+䲟	1.77	0		wordfreq
+䲠	0.0	0		none
+䲢	1.4	0		wordfreq
+䳢	0.0	0		none
+䴓	1.24	0		wordfreq
+䴔	0.0	0		none
+䴕	1.18	0		wordfreq
+䴖	0.0	0		none
+䴘	1.9	0		wordfreq
+䴙	1.92	0		wordfreq
+䶮	0.0	0		none
+一	6.27	1091	14096.5	wordfreq+ours
+丁	4.46	22	284.3	wordfreq+ours
+七	4.81	14	180.9	wordfreq+ours
+丄	1.6	0		wordfreq
+万	5.7	100	1292.1	wordfreq+ours
+丈	3.08	6	77.5	wordfreq+ours
+三	5.98	127	1640.9	wordfreq+ours
+上	6.55	271	3501.5	wordfreq+ours
+下	6.1	275	3553.2	wordfreq+ours
+不	6.76	716	9251.2	wordfreq+ours
+与	6.64	114	1473.0	wordfreq+ours
+丐	2.47	0		wordfreq
+丑	4.21	1	12.9	wordfreq+ours
+专	4.67	31	400.5	wordfreq+ours
+且	5.21	16	206.7	wordfreq+ours
+丕	2.91	1	12.9	wordfreq+ours
+世	4.62	55	710.6	wordfreq+ours
+丘	3.77	0		wordfreq
+丙	3.36	0		wordfreq
+业	4.78	124	1602.2	wordfreq+ours
+丛	3.59	1	12.9	wordfreq+ours
+东	5.17	40	516.8	wordfreq+ours
+丝	4.46	4	51.7	wordfreq+ours
+丞	3.42	0		wordfreq
+丟	4.77	0		wordfreq
+丢	4.77	1	12.9	wordfreq+ours
+两	5.67	136	1757.2	wordfreq+ours
+严	4.3	109	1408.4	wordfreq+ours
+並	6.29	0		wordfreq
+丧	3.35	3	38.8	wordfreq+ours
+个	6.35	431	5568.8	wordfreq+ours
+丫	3.53	0		wordfreq
+中	6.65	377	4871.1	wordfreq+ours
+丰	3.9	16	206.7	wordfreq+ours
+串	4.04	1	12.9	wordfreq+ours
+临	4.42	19	245.5	wordfreq+ours
+丸	3.9	0		wordfreq
+丹	4.25	1	12.9	wordfreq+ours
+为	6.69	307	3966.7	wordfreq+ours
+主	5.15	179	2312.8	wordfreq+ours
+丼	2.51	0		wordfreq
+丽	4.2	4	51.7	wordfreq+ours
+举	4.57	34	439.3	wordfreq+ours
+乂	2.3	0		wordfreq
+乃	4.5	4	51.7	wordfreq+ours
+久	4.98	12	155.0	wordfreq+ours
+么	5.64	155	2002.7	wordfreq+ours
+义	4.82	80	1033.7	wordfreq+ours
+之	6.1	233	3010.5	wordfreq+ours
+乌	4.26	1	12.9	wordfreq+ours
+乍	3.35	1	12.9	wordfreq+ours
+乎	3.95	23	297.2	wordfreq+ours
+乏	3.36	1	12.9	wordfreq+ours
+乐	4.78	10	129.2	wordfreq+ours
+乒	2.46	0		wordfreq
+乓	2.6	0		wordfreq
+乔	4.26	0		wordfreq
+乖	3.76	0		wordfreq
+乘	4.34	1	12.9	wordfreq+ours
+乙	4.0	0		wordfreq
+乜	3.07	0		wordfreq
+九	4.77	6	77.5	wordfreq+ours
+乞	3.39	0		wordfreq
+也	6.7	198	2558.3	wordfreq+ours
+习	4.31	65	839.8	wordfreq+ours
+乡	5.07	30	387.6	wordfreq+ours
+书	5.38	117	1511.7	wordfreq+ours
+乩	2.69	0		wordfreq
+买	5.58	30	387.6	wordfreq+ours
+乱	4.86	29	374.7	wordfreq+ours
+乳	3.86	0		wordfreq
+乸	1.51	0		wordfreq
+乾	5.52	3	38.8	wordfreq+ours
+了	7.14	478	6176.1	wordfreq+ours
+予	3.9	4	51.7	wordfreq+ours
+争	4.58	80	1033.7	wordfreq+ours
+事	5.79	182	2351.6	wordfreq+ours
+二	5.39	80	1033.7	wordfreq+ours
+亍	2.67	0		wordfreq
+于	6.31	177	2287.0	wordfreq+ours
+亏	4.24	7	90.4	wordfreq+ours
+云	5.0	1	12.9	wordfreq+ours
+互	4.19	14	180.9	wordfreq+ours
+亓	1.95	0		wordfreq
+五	5.13	41	529.7	wordfreq+ours
+井	3.98	1	12.9	wordfreq+ours
+亘	2.23	1	12.9	wordfreq+ours
+亚	5.01	16	206.7	wordfreq+ours
+些	5.25	126	1628.0	wordfreq+ours
+亟	2.8	0		wordfreq
+亠	1.27	0		wordfreq
+亡	3.9	23	297.2	wordfreq+ours
+亢	2.25	0		wordfreq
+交	4.85	42	542.7	wordfreq+ours
+亥	3.07	1	12.9	wordfreq+ours
+亦	5.38	0		wordfreq
+产	4.94	78	1007.8	wordfreq+ours
+亨	3.66	0		wordfreq
+亩	4.3	24	310.1	wordfreq+ours
+享	3.78	9	116.3	wordfreq+ours
+京	4.48	11	142.1	wordfreq+ours
+亭	3.95	0		wordfreq
+亮	4.28	20	258.4	wordfreq+ours
+亲	4.73	19	245.5	wordfreq+ours
+亳	2.45	0		wordfreq
+亵	2.61	0		wordfreq
+亶	2.41	0		wordfreq
+亸	0.0	0		none
+亹	2.07	0		wordfreq
+人	6.74	501	6473.3	wordfreq+ours
+亻	1.91	0		wordfreq
+亿	5.23	21	271.3	wordfreq+ours
+什	4.34	93	1201.6	wordfreq+ours
+仁	3.97	4	51.7	wordfreq+ours
+仂	0.0	0		none
+仃	1.32	0		wordfreq
+仄	2.84	0		wordfreq
+仅	5.17	31	400.5	wordfreq+ours
+仆	3.67	1	12.9	wordfreq+ours
+仇	3.94	1	12.9	wordfreq+ours
+今	4.98	43	555.6	wordfreq+ours
+介	3.93	15	193.8	wordfreq+ours
+仍	5.41	14	180.9	wordfreq+ours
+从	6.25	223	2881.3	wordfreq+ours
+仑	3.33	1	12.9	wordfreq+ours
+仓	4.02	6	77.5	wordfreq+ours
+仔	4.1	1	12.9	wordfreq+ours
+仕	3.31	0		wordfreq
+他	6.68	229	2958.8	wordfreq+ours
+仗	3.81	8	103.4	wordfreq+ours
+付	4.5	18	232.6	wordfreq+ours
+仙	3.92	1	12.9	wordfreq+ours
+仚	0.0	0		none
+仝	1.7	0		wordfreq
+仞	1.65	0		wordfreq
+仟	2.59	0		wordfreq
+仡	1.5	0		wordfreq
+代	4.7	120	1550.5	wordfreq+ours
+令	5.13	23	297.2	wordfreq+ours
+以	6.24	327	4225.1	wordfreq+ours
+仨	2.99	0		wordfreq
+仪	4.16	2	25.8	wordfreq+ours
+仫	0.0	0		none
+们	5.88	237	3062.2	wordfreq+ours
+仰	3.21	7	90.4	wordfreq+ours
+仲	3.31	2	25.8	wordfreq+ours
+仳	1.76	0		wordfreq
+仵	1.27	0		wordfreq
+件	5.14	56	723.6	wordfreq+ours
+价	4.52	70	904.5	wordfreq+ours
+任	5.18	105	1356.7	wordfreq+ours
+份	4.93	22	284.3	wordfreq+ours
+仿	3.76	3	38.8	wordfreq+ours
+企	3.93	15	193.8	wordfreq+ours
+伈	1.44	0		wordfreq
+伉	1.24	0		wordfreq
+伊	4.61	0		wordfreq
+伋	1.39	0		wordfreq
+伍	3.72	15	193.8	wordfreq+ours
+伎	2.92	0		wordfreq
+伏	3.91	3	38.8	wordfreq+ours
+伐	3.8	7	90.4	wordfreq+ours
+休	4.04	12	155.0	wordfreq+ours
+伕	2.72	0		wordfreq
+众	4.59	100	1292.1	wordfreq+ours
+优	4.44	47	607.3	wordfreq+ours
+伙	4.15	7	90.4	wordfreq+ours
+会	6.48	200	2584.1	wordfreq+ours
+伛	1.22	0		wordfreq
+伞	4.0	1	12.9	wordfreq+ours
+伟	3.63	20	258.4	wordfreq+ours
+传	5.01	28	361.8	wordfreq+ours
+伡	1.96	0		wordfreq
+伢	1.9	0		wordfreq
+伣	1.65	0		wordfreq
+伤	4.69	3	38.8	wordfreq+ours
+伥	0.0	0		none
+伦	4.11	4	51.7	wordfreq+ours
+伧	2.55	0		wordfreq
+伪	4.34	0		wordfreq
+伫	1.75	0		wordfreq
+伯	4.21	4	51.7	wordfreq+ours
+估	3.71	7	90.4	wordfreq+ours
+伴	4.07	0		wordfreq
+伶	3.07	0		wordfreq
+伷	0.0	0		none
+伸	3.85	6	77.5	wordfreq+ours
+伺	2.3	0		wordfreq
+似	4.28	18	232.6	wordfreq+ours
+伽	3.66	0		wordfreq
+伾	1.53	0		wordfreq
+佃	2.48	4	51.7	wordfreq+ours
+但	6.32	104	1343.8	wordfreq+ours
+佈	4.79	0		wordfreq
+佉	1.77	0		wordfreq
+位	5.46	56	723.6	wordfreq+ours
+低	5.21	24	310.1	wordfreq+ours
+住	5.39	46	594.4	wordfreq+ours
+佐	3.8	2	25.8	wordfreq+ours
+佑	3.76	0		wordfreq
+体	5.0	174	2248.2	wordfreq+ours
+何	4.58	40	516.8	wordfreq+ours
+佗	2.38	0		wordfreq
+佘	2.31	0		wordfreq
+余	4.63	22	284.3	wordfreq+ours
+佚	2.55	0		wordfreq
+佛	4.3	3	38.8	wordfreq+ours
+作	5.46	245	3165.6	wordfreq+ours
+佝	1.48	0		wordfreq
+佞	1.73	1	12.9	wordfreq+ours
+佟	2.96	0		wordfreq
+你	6.7	113	1460.0	wordfreq+ours
+佣	3.8	1	12.9	wordfreq+ours
+佤	1.94	0		wordfreq
+佥	2.95	0		wordfreq
+佧	1.08	0		wordfreq
+佩	3.77	0		wordfreq
+佪	0.0	0		none
+佬	3.76	0		wordfreq
+佯	2.25	0		wordfreq
+佰	2.42	0		wordfreq
+佲	1.4	0		wordfreq
+佳	4.24	0		wordfreq
+佶	1.63	0		wordfreq
+佷	2.63	0		wordfreq
+佹	1.09	0		wordfreq
+佺	2.62	0		wordfreq
+佻	1.55	0		wordfreq
+佼	2.21	0		wordfreq
+佾	1.7	0		wordfreq
+使	5.7	30	387.6	wordfreq+ours
+侃	2.49	0		wordfreq
+侄	3.11	0		wordfreq
+來	6.45	0		wordfreq
+侈	2.48	0		wordfreq
+侉	1.22	0		wordfreq
+侊	1.55	0		wordfreq
+例	4.63	44	568.5	wordfreq+ours
+侍	3.37	0		wordfreq
+侎	1.03	0		wordfreq
+侏	2.59	0		wordfreq
+侐	0.0	0		none
+侑	2.26	0		wordfreq
+侔	1.84	0		wordfreq
+侗	2.9	0		wordfreq
+侘	1.96	0		wordfreq
+供	4.84	23	297.2	wordfreq+ours
+依	4.69	58	749.4	wordfreq+ours
+侠	4.13	0		wordfreq
+侣	3.21	0		wordfreq
+侥	2.88	0		wordfreq
+侦	3.34	0		wordfreq
+侧	4.18	0		wordfreq
+侨	3.39	5	64.6	wordfreq+ours
+侩	2.24	0		wordfreq
+侪	2.15	0		wordfreq
+侬	3.28	0		wordfreq
+侮	2.17	0		wordfreq
+侯	3.86	6	77.5	wordfreq+ours
+侵	3.92	5	64.6	wordfreq+ours
+便	5.53	32	413.5	wordfreq+ours
+促	4.04	13	168.0	wordfreq+ours
+俄	4.67	2	25.8	wordfreq+ours
+俅	2.48	0		wordfreq
+俊	3.77	0		wordfreq
+俎	2.43	0		wordfreq
+俏	3.31	0		wordfreq
+俐	1.91	0		wordfreq
+俑	2.63	0		wordfreq
+俗	3.63	0		wordfreq
+俘	3.52	2	25.8	wordfreq+ours
+俙	0.0	0		none
+俚	2.62	0		wordfreq
+俜	2.15	0		wordfreq
+保	4.63	59	762.3	wordfreq+ours
+俞	3.38	0		wordfreq
+俟	2.88	0		wordfreq
+俠	4.13	0		wordfreq
+信	5.14	87	1124.1	wordfreq+ours
+俣	2.56	0		wordfreq
+俦	2.4	0		wordfreq
+俨	2.93	0		wordfreq
+俩	4.6	0		wordfreq
+俪	2.51	0		wordfreq
+俬	4.21	0		wordfreq
+俭	2.78	3	38.8	wordfreq+ours
+修	4.65	24	310.1	wordfreq+ours
+俯	2.71	1	12.9	wordfreq+ours
+俱	3.91	0		wordfreq
+俳	2.86	0		wordfreq
+俵	1.52	0		wordfreq
+俶	2.42	0		wordfreq
+俸	3.1	1	12.9	wordfreq+ours
+俺	4.36	0		wordfreq
+俾	2.92	0		wordfreq
+倆	4.6	0		wordfreq
+個	6.35	0		wordfreq
+倌	2.23	0		wordfreq
+倍	4.89	7	90.4	wordfreq+ours
+倏	1.97	0		wordfreq
+們	5.88	0		wordfreq
+倒	5.1	18	232.6	wordfreq+ours
+倓	2.34	0		wordfreq
+倔	2.67	0		wordfreq
+倖	3.82	0		wordfreq
+倘	2.59	0		wordfreq
+候	3.93	42	542.7	wordfreq+ours
+倚	3.25	0		wordfreq
+倜	1.8	0		wordfreq
+借	4.66	29	374.7	wordfreq+ours
+倡	2.99	1	12.9	wordfreq+ours
+値	2.71	0		wordfreq
+倥	1.57	0		wordfreq
+倦	2.82	0		wordfreq
+倨	1.64	0		wordfreq
+倩	2.74	0		wordfreq
+倪	3.35	0		wordfreq
+倬	2.08	0		wordfreq
+倭	3.18	1	12.9	wordfreq+ours
+倴	0.0	0		none
+债	4.06	17	219.7	wordfreq+ours
+倻	1.57	0		wordfreq
+值	4.99	30	387.6	wordfreq+ours
+倾	4.0	5	64.6	wordfreq+ours
+偁	2.11	0		wordfreq
+偃	2.85	0		wordfreq
+假	5.04	6	77.5	wordfreq+ours
+偈	2.93	0		wordfreq
+偌	2.17	1	12.9	wordfreq+ours
+偎	1.78	0		wordfreq
+偏	4.28	18	232.6	wordfreq+ours
+偕	3.49	0		wordfreq
+做	6.08	119	1537.6	wordfreq+ours
+停	4.7	12	155.0	wordfreq+ours
+健	4.04	37	478.1	wordfreq+ours
+偬	1.94	0		wordfreq
+偭	1.02	0		wordfreq
+偲	1.49	0		wordfreq
+側	4.18	0		wordfreq
+偶	3.8	7	90.4	wordfreq+ours
+偷	4.53	1	12.9	wordfreq+ours
+偻	1.73	0		wordfreq
+偾	1.84	0		wordfreq
+偿	3.49	5	64.6	wordfreq+ours
+傀	1.97	0		wordfreq
+傅	3.49	0		wordfreq
+傈	1.52	0		wordfreq
+傍	2.82	0		wordfreq
+傑	4.14	0		wordfreq
+傒	1.9	0		wordfreq
+傕	2.67	0		wordfreq
+傢	5.64	0		wordfreq
+傣	3.09	0		wordfreq
+傥	1.82	0		wordfreq
+傧	2.01	0		wordfreq
+储	3.69	3	38.8	wordfreq+ours
+傩	2.57	0		wordfreq
+催	3.92	2	25.8	wordfreq+ours
+傲	3.23	0		wordfreq
+債	4.06	0		wordfreq
+傺	1.82	0		wordfreq
+傻	4.53	0		wordfreq
+僇	1.43	0		wordfreq
+像	5.7	30	387.6	wordfreq+ours
+僖	2.35	0		wordfreq
+僚	2.85	21	271.3	wordfreq+ours
+僝	0.0	0		none
+僧	3.65	1	12.9	wordfreq+ours
+僬	1.57	0		wordfreq
+僭	3.15	0		wordfreq
+僮	2.73	0		wordfreq
+僰	2.03	0		wordfreq
+僳	1.1	0		wordfreq
+僵	3.58	6	77.5	wordfreq+ours
+僻	2.65	0		wordfreq
+僽	0.0	0		none
+僾	1.06	0		wordfreq
+儀	4.16	0		wordfreq
+儁	3.77	0		wordfreq
+儃	0.0	0		none
+儆	2.6	0		wordfreq
+儇	1.48	0		wordfreq
+儋	1.59	0		wordfreq
+儒	3.45	17	219.7	wordfreq+ours
+償	3.49	0		wordfreq
+儡	1.87	0		wordfreq
+儦	1.21	0		wordfreq
+儿	4.82	18	232.6	wordfreq+ours
+兀	3.03	0		wordfreq
+允	3.79	3	38.8	wordfreq+ours
+元	5.61	55	710.6	wordfreq+ours
+兄	3.77	1	12.9	wordfreq+ours
+充	4.17	21	271.3	wordfreq+ours
+兆	3.88	1	12.9	wordfreq+ours
+兇	4.03	0		wordfreq
+先	5.4	100	1292.1	wordfreq+ours
+光	4.97	33	426.4	wordfreq+ours
+克	4.95	24	310.1	wordfreq+ours
+免	4.33	26	335.9	wordfreq+ours
+兑	4.08	3	38.8	wordfreq+ours
+兔	4.0	0		wordfreq
+兕	1.93	0		wordfreq
+兖	2.75	0		wordfreq
+党	5.53	554	7158.1	wordfreq+ours
+兜	3.72	1	12.9	wordfreq+ours
+兢	2.5	0		wordfreq
+入	5.08	118	1524.6	wordfreq+ours
+內	5.88	0		wordfreq
+全	5.31	184	2377.4	wordfreq+ours
+八	4.73	20	258.4	wordfreq+ours
+公	4.72	67	865.7	wordfreq+ours
+六	4.97	24	310.1	wordfreq+ours
+兮	3.6	0		wordfreq
+兰	4.44	1	12.9	wordfreq+ours
+共	5.3	54	697.7	wordfreq+ours
+关	5.14	149	1925.2	wordfreq+ours
+兴	4.32	44	568.5	wordfreq+ours
+兵	4.47	42	542.7	wordfreq+ours
+其	5.96	85	1098.3	wordfreq+ours
+具	4.75	55	710.6	wordfreq+ours
+典	4.02	6	77.5	wordfreq+ours
+兹	4.23	0		wordfreq
+养	4.66	50	646.0	wordfreq+ours
+兼	4.97	37	478.1	wordfreq+ours
+兽	4.52	0		wordfreq
+冀	3.51	0		wordfreq
+冁	0.0	0		none
+冂	1.56	0		wordfreq
+内	5.88	100	1292.1	wordfreq+ours
+円	2.88	0		wordfreq
+冇	3.27	0		wordfreq
+冈	3.75	0		wordfreq
+冉	3.1	0		wordfreq
+冊	4.45	0		wordfreq
+册	4.45	18	232.6	wordfreq+ours
+再	5.89	104	1343.8	wordfreq+ours
+冒	4.39	2	25.8	wordfreq+ours
+冓	1.13	0		wordfreq
+冕	2.66	0		wordfreq
+冖	1.14	0		wordfreq
+冗	2.84	2	25.8	wordfreq+ours
+写	5.61	93	1201.6	wordfreq+ours
+冚	1.84	0		wordfreq
+军	5.41	77	994.9	wordfreq+ours
+农	4.43	108	1395.4	wordfreq+ours
+冠	4.02	6	77.5	wordfreq+ours
+冢	3.71	0		wordfreq
+冤	3.62	0		wordfreq
+冥	3.27	0		wordfreq
+冧	2.22	0		wordfreq
+冫	1.47	0		wordfreq
+冬	3.84	1	12.9	wordfreq+ours
+冯	3.94	2	25.8	wordfreq+ours
+冰	4.27	1	12.9	wordfreq+ours
+冲	4.84	17	219.7	wordfreq+ours
+决	4.57	141	1821.8	wordfreq+ours
+况	3.8	39	503.9	wordfreq+ours
+冶	3.22	0		wordfreq
+冷	4.63	5	64.6	wordfreq+ours
+冻	3.76	1	12.9	wordfreq+ours
+冼	2.4	0		wordfreq
+冽	1.54	0		wordfreq
+净	4.27	4	51.7	wordfreq+ours
+凄	2.68	0		wordfreq
+准	4.68	47	607.3	wordfreq+ours
+凇	2.15	0		wordfreq
+凉	4.04	0		wordfreq
+凊	0.0	0		none
+凋	2.25	3	38.8	wordfreq+ours
+凌	3.66	1	12.9	wordfreq+ours
+减	4.4	14	180.9	wordfreq+ours
+凑	4.07	4	51.7	wordfreq+ours
+凓	0.0	0		none
+凖	1.91	0		wordfreq
+凛	3.25	0		wordfreq
+凝	3.28	10	129.2	wordfreq+ours
+几	5.09	71	917.4	wordfreq+ours
+凡	4.45	6	77.5	wordfreq+ours
+凤	3.44	0		wordfreq
+凪	2.16	0		wordfreq
+凫	2.74	0		wordfreq
+凭	4.67	8	103.4	wordfreq+ours
+凯	3.94	0		wordfreq
+凰	2.92	0		wordfreq
+凱	3.94	0		wordfreq
+凳	2.81	3	38.8	wordfreq+ours
+凵	2.02	0		wordfreq
+凶	4.03	0		wordfreq
+凸	3.54	1	12.9	wordfreq+ours
+凹	3.43	0		wordfreq
+出	5.92	242	3126.8	wordfreq+ours
+击	4.17	15	193.8	wordfreq+ours
+凼	2.16	0		wordfreq
+函	3.77	0		wordfreq
+凿	3.35	1	12.9	wordfreq+ours
+刀	4.61	20	258.4	wordfreq+ours
+刁	3.24	0		wordfreq
+刃	3.49	3	38.8	wordfreq+ours
+分	5.59	184	2377.4	wordfreq+ours
+切	4.44	39	503.9	wordfreq+ours
+刈	2.98	0		wordfreq
+刊	3.61	0		wordfreq
+刍	2.18	0		wordfreq
+刎	1.63	1	12.9	wordfreq+ours
+刑	3.9	6	77.5	wordfreq+ours
+划	4.45	13	168.0	wordfreq+ours
+刓	1.43	0		wordfreq
+刖	1.95	0		wordfreq
+列	4.64	9	116.3	wordfreq+ours
+刘	4.61	10	129.2	wordfreq+ours
+则	5.73	102	1317.9	wordfreq+ours
+刚	5.12	41	529.7	wordfreq+ours
+创	4.58	42	542.7	wordfreq+ours
+初	4.95	22	284.3	wordfreq+ours
+删	4.01	0		wordfreq
+判	4.19	10	129.2	wordfreq+ours
+刨	3.49	0		wordfreq
+利	4.7	70	904.5	wordfreq+ours
+别	5.38	64	826.9	wordfreq+ours
+刬	1.43	0		wordfreq
+刭	1.87	0		wordfreq
+刮	4.14	1	12.9	wordfreq+ours
+到	6.48	304	3927.9	wordfreq+ours
+刳	1.9	0		wordfreq
+制	5.42	286	3695.3	wordfreq+ours
+刷	4.52	1	12.9	wordfreq+ours
+券	4.09	1	12.9	wordfreq+ours
+刹	2.94	2	25.8	wordfreq+ours
+刺	4.35	6	77.5	wordfreq+ours
+刻	4.04	30	387.6	wordfreq+ours
+刽	2.02	0		wordfreq
+刿	1.82	0		wordfreq
+剀	1.64	0		wordfreq
+剁	3.42	0		wordfreq
+剂	4.28	3	38.8	wordfreq+ours
+剃	3.69	0		wordfreq
+剅	1.11	0		wordfreq
+削	3.56	2	25.8	wordfreq+ours
+剋	4.95	0		wordfreq
+剌	3.59	0		wordfreq
+前	5.93	124	1602.2	wordfreq+ours
+剐	3.04	0		wordfreq
+剑	4.64	2	25.8	wordfreq+ours
+剔	2.54	0		wordfreq
+剖	2.65	1	12.9	wordfreq+ours
+剛	5.12	0		wordfreq
+剜	2.48	1	12.9	wordfreq+ours
+剞	1.5	0		wordfreq
+剡	2.13	0		wordfreq
+剥	3.7	7	90.4	wordfreq+ours
+剧	4.59	7	90.4	wordfreq+ours
+剩	4.43	8	103.4	wordfreq+ours
+剪	4.16	0		wordfreq
+剮	3.04	0		wordfreq
+副	5.44	3	38.8	wordfreq+ours
+割	4.13	9	116.3	wordfreq+ours
+剽	1.67	1	12.9	wordfreq+ours
+剿	3.08	1	12.9	wordfreq+ours
+劁	1.51	0		wordfreq
+劂	1.82	0		wordfreq
+劃	4.45	0		wordfreq
+劄	2.1	0		wordfreq
+劈	3.72	0		wordfreq
+劐	0.0	0		none
+劓	2.23	0		wordfreq
+力	4.88	230	2971.8	wordfreq+ours
+劝	4.3	0		wordfreq
+办	5.18	50	646.0	wordfreq+ours
+功	4.18	44	568.5	wordfreq+ours
+加	5.22	144	1860.6	wordfreq+ours
+务	4.25	93	1201.6	wordfreq+ours
+劢	1.93	0		wordfreq
+劣	3.17	4	51.7	wordfreq+ours
+动	5.17	148	1912.3	wordfreq+ours
+助	4.38	21	271.3	wordfreq+ours
+努	3.86	2	25.8	wordfreq+ours
+劫	3.87	8	103.4	wordfreq+ours
+劬	1.89	0		wordfreq
+劭	2.22	0		wordfreq
+励	3.34	18	232.6	wordfreq+ours
+劲	4.3	4	51.7	wordfreq+ours
+劳	4.13	8	103.4	wordfreq+ours
+劵	3.03	0		wordfreq
+劻	2.63	0		wordfreq
+劼	1.58	0		wordfreq
+劾	2.83	2	25.8	wordfreq+ours
+势	4.34	27	348.9	wordfreq+ours
+勁	4.3	0		wordfreq
+勃	3.61	1	12.9	wordfreq+ours
+勇	4.01	9	116.3	wordfreq+ours
+勉	2.9	0		wordfreq
+勋	3.67	2	25.8	wordfreq+ours
+勍	1.19	0		wordfreq
+勐	2.45	0		wordfreq
+勒	4.45	1	12.9	wordfreq+ours
+勖	2.27	0		wordfreq
+勘	3.36	0		wordfreq
+勚	0.0	0		none
+勛	3.67	0		wordfreq
+勞	4.13	0		wordfreq
+募	2.93	1	12.9	wordfreq+ours
+勠	1.43	0		wordfreq
+勤	3.71	2	25.8	wordfreq+ours
+勰	1.75	0		wordfreq
+勷	0.0	0		none
+勸	4.3	0		wordfreq
+勺	3.25	0		wordfreq
+勾	3.68	5	64.6	wordfreq+ours
+勿	3.99	0		wordfreq
+匀	3.23	0		wordfreq
+包	4.96	17	219.7	wordfreq+ours
+匆	2.07	0		wordfreq
+匈	3.43	20	258.4	wordfreq+ours
+匋	1.8	0		wordfreq
+匍	1.97	0		wordfreq
+匏	2.33	0		wordfreq
+匐	2.35	0		wordfreq
+匕	2.4	1	12.9	wordfreq+ours
+化	4.96	178	2299.9	wordfreq+ours
+北	4.98	74	956.1	wordfreq+ours
+匙	3.1	1	12.9	wordfreq+ours
+匚	2.08	0		wordfreq
+匝	2.68	0		wordfreq
+匠	3.24	2	25.8	wordfreq+ours
+匡	3.35	0		wordfreq
+匣	3.32	0		wordfreq
+匦	2.58	0		wordfreq
+匪	3.69	0		wordfreq
+匮	2.49	0		wordfreq
+匸	0.0	0		none
+匹	3.91	4	51.7	wordfreq+ours
+区	5.64	27	348.9	wordfreq+ours
+医	4.1	32	413.5	wordfreq+ours
+匾	3.24	0		wordfreq
+匿	3.05	8	103.4	wordfreq+ours
+區	5.64	0		wordfreq
+十	4.74	69	891.5	wordfreq+ours
+千	4.52	40	516.8	wordfreq+ours
+卅	2.88	0		wordfreq
+升	4.63	24	310.1	wordfreq+ours
+午	3.36	1	12.9	wordfreq+ours
+卉	2.38	0		wordfreq
+半	4.97	43	555.6	wordfreq+ours
+卍	2.55	0		wordfreq
+华	4.7	21	271.3	wordfreq+ours
+协	3.97	19	245.5	wordfreq+ours
+卐	2.39	0		wordfreq
+卑	3.27	14	180.9	wordfreq+ours
+卒	4.21	3	38.8	wordfreq+ours
+卓	3.51	1	12.9	wordfreq+ours
+单	4.99	48	620.2	wordfreq+ours
+卖	5.17	30	387.6	wordfreq+ours
+南	5.06	89	1149.9	wordfreq+ours
+博	4.28	6	77.5	wordfreq+ours
+卜	3.84	1	12.9	wordfreq+ours
+卞	3.32	0		wordfreq
+卟	2.67	0		wordfreq
+占	5.4	17	219.7	wordfreq+ours
+卡	5.0	6	77.5	wordfreq+ours
+卢	4.12	0		wordfreq
+卣	2.32	0		wordfreq
+卤	3.33	0		wordfreq
+卦	3.19	4	51.7	wordfreq+ours
+卧	3.44	0		wordfreq
+卨	1.55	0		wordfreq
+卩	1.61	0		wordfreq
+卫	4.31	4	51.7	wordfreq+ours
+卬	2.0	0		wordfreq
+卮	2.32	0		wordfreq
+卯	2.95	0		wordfreq
+印	4.45	11	142.1	wordfreq+ours
+危	3.6	21	271.3	wordfreq+ours
+即	5.56	17	219.7	wordfreq+ours
+却	5.88	60	775.2	wordfreq+ours
+卵	3.65	0		wordfreq
+卷	4.95	9	116.3	wordfreq+ours
+卸	3.3	2	25.8	wordfreq+ours
+卺	1.85	0		wordfreq
+卼	0.0	0		none
+卿	3.73	2	25.8	wordfreq+ours
+厂	4.88	1	12.9	wordfreq+ours
+厄	3.85	0		wordfreq
+厅	4.78	2	25.8	wordfreq+ours
+历	4.48	73	943.2	wordfreq+ours
+厉	3.05	4	51.7	wordfreq+ours
+压	4.64	46	594.4	wordfreq+ours
+厌	3.16	1	12.9	wordfreq+ours
+厍	3.01	0		wordfreq
+厓	2.0	0		wordfreq
+厕	3.22	0		wordfreq
+厘	3.59	1	12.9	wordfreq+ours
+厚	4.2	9	116.3	wordfreq+ours
+厝	2.9	0		wordfreq
+原	5.26	95	1227.5	wordfreq+ours
+厢	3.45	0		wordfreq
+厣	2.51	0		wordfreq
+厥	3.1	4	51.7	wordfreq+ours
+厦	3.14	1	12.9	wordfreq+ours
+厨	3.48	0		wordfreq
+厩	2.99	0		wordfreq
+厭	3.16	0		wordfreq
+厮	2.74	0		wordfreq
+厶	2.19	0		wordfreq
+去	6.16	73	943.2	wordfreq+ours
+厾	0.0	0		none
+县	5.49	7	90.4	wordfreq+ours
+叁	3.15	0		wordfreq
+参	4.61	10	129.2	wordfreq+ours
+叅	0.0	0		none
+叆	1.79	0		wordfreq
+叇	0.0	0		none
+又	6.14	49	633.1	wordfreq+ours
+叉	3.95	1	12.9	wordfreq+ours
+及	6.08	48	620.2	wordfreq+ours
+友	4.15	3	38.8	wordfreq+ours
+双	4.98	5	64.6	wordfreq+ours
+反	5.35	75	969.1	wordfreq+ours
+发	5.52	170	2196.5	wordfreq+ours
+叒	1.63	0		wordfreq
+叔	3.79	0		wordfreq
+叕	2.4	0		wordfreq
+取	4.91	42	542.7	wordfreq+ours
+受	5.49	26	335.9	wordfreq+ours
+变	5.31	102	1317.9	wordfreq+ours
+叙	3.91	3	38.8	wordfreq+ours
+叛	3.23	6	77.5	wordfreq+ours
+叟	2.71	0		wordfreq
+叠	3.72	2	25.8	wordfreq+ours
+叡	2.64	0		wordfreq
+口	4.92	91	1175.8	wordfreq+ours
+古	4.7	31	400.5	wordfreq+ours
+句	4.61	116	1498.8	wordfreq+ours
+另	5.54	24	310.1	wordfreq+ours
+叨	2.99	0		wordfreq
+叩	3.08	0		wordfreq
+只	5.94	109	1408.4	wordfreq+ours
+叫	5.58	16	206.7	wordfreq+ours
+召	3.85	7	90.4	wordfreq+ours
+叭	3.3	0		wordfreq
+叮	3.54	0		wordfreq
+可	5.98	228	2945.9	wordfreq+ours
+台	5.4	19	245.5	wordfreq+ours
+叱	2.88	0		wordfreq
+史	4.98	80	1033.7	wordfreq+ours
+右	4.59	5	64.6	wordfreq+ours
+叵	2.13	0		wordfreq
+叶	4.55	3	38.8	wordfreq+ours
+号	5.82	21	271.3	wordfreq+ours
+司	4.56	12	155.0	wordfreq+ours
+叹	3.74	5	64.6	wordfreq+ours
+叻	3.13	0		wordfreq
+叼	3.55	0		wordfreq
+叽	2.97	0		wordfreq
+吁	3.47	1	12.9	wordfreq+ours
+吃	5.65	20	258.4	wordfreq+ours
+各	5.47	54	697.7	wordfreq+ours
+吆	2.68	0		wordfreq
+合	4.92	85	1098.3	wordfreq+ours
+吉	4.45	4	51.7	wordfreq+ours
+吊	4.13	0		wordfreq
+吋	3.47	0		wordfreq
+同	5.41	155	2002.7	wordfreq+ours
+名	5.52	28	361.8	wordfreq+ours
+后	6.33	185	2390.3	wordfreq+ours
+吏	3.06	6	77.5	wordfreq+ours
+吐	4.41	2	25.8	wordfreq+ours
+向	5.94	112	1447.1	wordfreq+ours
+吒	2.78	0		wordfreq
+吓	4.69	0		wordfreq
+吔	2.05	0		wordfreq
+吕	3.95	1	12.9	wordfreq+ours
+吖	2.84	0		wordfreq
+吗	6.53	7	90.4	wordfreq+ours
+君	4.29	6	77.5	wordfreq+ours
+吝	1.57	1	12.9	wordfreq+ours
+吞	4.02	7	90.4	wordfreq+ours
+吟	3.33	0		wordfreq
+吠	3.24	0		wordfreq
+吡	2.67	0		wordfreq
+吣	1.5	0		wordfreq
+否	3.89	6	77.5	wordfreq+ours
+吧	5.98	4	51.7	wordfreq+ours
+吨	4.73	0		wordfreq
+吩	2.25	0		wordfreq
+含	4.67	6	77.5	wordfreq+ours
+听	5.69	28	361.8	wordfreq+ours
+吭	2.67	0		wordfreq
+吮	2.76	0		wordfreq
+启	3.99	2	25.8	wordfreq+ours
+吰	0.0	0		none
+吱	2.62	1	12.9	wordfreq+ours
+吲	1.72	0		wordfreq
+吳	4.32	0		wordfreq
+吴	4.32	1	12.9	wordfreq+ours
+吵	4.13	1	12.9	wordfreq+ours
+吶	4.01	0		wordfreq
+吷	0.0	0		none
+吸	4.39	10	129.2	wordfreq+ours
+吹	4.65	0		wordfreq
+吻	4.59	0		wordfreq
+吼	3.86	0		wordfreq
+吽	2.34	0		wordfreq
+吾	4.28	0		wordfreq
+呀	5.07	2	25.8	wordfreq+ours
+呃	3.99	0		wordfreq
+呆	4.53	0		wordfreq
+呈	4.64	0		wordfreq
+告	4.36	18	232.6	wordfreq+ours
+呋	2.1	0		wordfreq
+呎	3.39	0		wordfreq
+呐	4.01	0		wordfreq
+呒	2.78	0		wordfreq
+呓	1.93	0		wordfreq
+呔	2.31	0		wordfreq
+呕	3.19	0		wordfreq
+呖	2.29	0		wordfreq
+呗	3.97	0		wordfreq
+员	5.09	116	1498.8	wordfreq+ours
+呛	3.73	0		wordfreq
+呜	4.1	1	12.9	wordfreq+ours
+呡	0.0	0		none
+呢	5.76	76	982.0	wordfreq+ours
+呣	1.66	0		wordfreq
+呤	2.34	0		wordfreq
+呦	3.95	0		wordfreq
+周	4.99	8	103.4	wordfreq+ours
+呯	2.56	0		wordfreq
+呱	2.53	0		wordfreq
+呲	2.79	0		wordfreq
+味	4.35	23	297.2	wordfreq+ours
+呴	1.84	0		wordfreq
+呵	4.03	0		wordfreq
+呶	1.85	0		wordfreq
+呷	3.03	0		wordfreq
+呸	3.54	0		wordfreq
+呻	1.49	0		wordfreq
+呼	4.03	6	77.5	wordfreq+ours
+命	4.76	49	633.1	wordfreq+ours
+咀	3.41	0		wordfreq
+咂	2.56	0		wordfreq
+咄	2.71	0		wordfreq
+咆	1.69	0		wordfreq
+咇	1.35	0		wordfreq
+咈	0.0	0		none
+咉	0.0	0		none
+咋	4.29	0		wordfreq
+和	6.86	382	4935.7	wordfreq+ours
+咍	1.27	0		wordfreq
+咎	2.79	0		wordfreq
+咏	3.73	0		wordfreq
+咐	1.92	0		wordfreq
+咒	3.66	2	25.8	wordfreq+ours
+咔	3.34	0		wordfreq
+咕	3.05	0		wordfreq
+咖	3.69	0		wordfreq
+咘	1.7	0		wordfreq
+咙	1.94	0		wordfreq
+咚	3.26	0		wordfreq
+咛	1.8	0		wordfreq
+咝	2.75	0		wordfreq
+咣	2.65	0		wordfreq
+咤	2.78	0		wordfreq
+咥	1.03	0		wordfreq
+咦	3.9	0		wordfreq
+咧	3.7	0		wordfreq
+咨	3.62	0		wordfreq
+咩	3.43	0		wordfreq
+咪	3.9	0		wordfreq
+咫	1.58	0		wordfreq
+咬	4.45	1	12.9	wordfreq+ours
+咭	2.89	0		wordfreq
+咯	4.04	0		wordfreq
+咱	4.14	0		wordfreq
+咲	2.41	0		wordfreq
+咳	3.44	0		wordfreq
+咴	1.63	0		wordfreq
+咸	3.83	3	38.8	wordfreq+ours
+咹	0.0	0		none
+咻	2.87	0		wordfreq
+咽	3.31	1	12.9	wordfreq+ours
+咿	2.43	0		wordfreq
+哀	3.36	1	12.9	wordfreq+ours
+品	4.49	26	335.9	wordfreq+ours
+哂	2.92	0		wordfreq
+哄	3.93	1	12.9	wordfreq+ours
+哆	3.84	0		wordfreq
+哇	4.62	1	12.9	wordfreq+ours
+哈	4.71	0		wordfreq
+哉	3.54	0		wordfreq
+哌	2.27	0		wordfreq
+响	4.48	15	193.8	wordfreq+ours
+哎	4.36	1	12.9	wordfreq+ours
+哏	2.23	0		wordfreq
+哐	2.83	0		wordfreq
+哑	3.46	1	12.9	wordfreq+ours
+哒	3.71	0		wordfreq
+哓	1.14	0		wordfreq
+哔	3.35	0		wordfreq
+哕	1.95	0		wordfreq
+哗	3.47	2	25.8	wordfreq+ours
+哙	1.44	0		wordfreq
+哚	2.09	0		wordfreq
+哝	2.69	0		wordfreq
+哞	2.68	0		wordfreq
+哟	4.3	0		wordfreq
+員	5.09	0		wordfreq
+哥	4.62	0		wordfreq
+哦	5.23	3	38.8	wordfreq+ours
+哧	1.92	0		wordfreq
+哨	3.2	0		wordfreq
+哩	3.93	0		wordfreq
+哪	5.41	31	400.5	wordfreq+ours
+哬	0.0	0		none
+哭	4.84	0		wordfreq
+哮	2.08	0		wordfreq
+哱	1.83	0		wordfreq
+哲	3.97	2	25.8	wordfreq+ours
+哳	1.71	0		wordfreq
+哺	3.0	0		wordfreq
+哼	4.31	0		wordfreq
+哽	1.79	0		wordfreq
+唁	1.85	0		wordfreq
+唄	3.97	0		wordfreq
+唅	0.0	0		none
+唆	2.58	0		wordfreq
+唇	3.84	0		wordfreq
+唉	4.35	0		wordfreq
+唏	2.34	0		wordfreq
+唐	4.37	43	555.6	wordfreq+ours
+唑	2.61	0		wordfreq
+唔	4.1	0		wordfreq
+唗	0.0	0		none
+唛	2.94	0		wordfreq
+唠	2.79	0		wordfreq
+唢	0.0	0		none
+唣	0.0	0		none
+唤	2.99	4	51.7	wordfreq+ours
+唦	1.09	0		wordfreq
+唧	1.93	0		wordfreq
+唪	1.14	0		wordfreq
+唬	3.2	0		wordfreq
+售	3.8	0		wordfreq
+唯	4.15	17	219.7	wordfreq+ours
+唰	2.38	0		wordfreq
+唱	4.69	0		wordfreq
+唳	1.55	0		wordfreq
+唵	2.44	0		wordfreq
+唷	3.52	0		wordfreq
+唸	4.53	0		wordfreq
+唻	2.05	0		wordfreq
+唼	0.0	0		none
+唾	2.38	0		wordfreq
+啁	1.38	0		wordfreq
+啃	3.68	2	25.8	wordfreq+ours
+啄	3.19	0		wordfreq
+商	4.57	99	1279.2	wordfreq+ours
+啉	2.23	0		wordfreq
+啊	5.92	8	103.4	wordfreq+ours
+啐	2.67	0		wordfreq
+啕	0.0	0		none
+啖	2.76	0		wordfreq
+啜	2.72	0		wordfreq
+啡	2.86	0		wordfreq
+啤	3.22	0		wordfreq
+啥	4.83	0		wordfreq
+啦	5.34	7	90.4	wordfreq+ours
+啧	3.11	0		wordfreq
+啨	0.0	0		none
+啪	4.17	0		wordfreq
+啫	2.07	0		wordfreq
+啬	2.42	0		wordfreq
+啭	2.01	0		wordfreq
+啮	2.69	0		wordfreq
+啰	3.76	0		wordfreq
+啴	1.03	0		wordfreq
+啵	3.29	0		wordfreq
+啶	2.15	0		wordfreq
+啷	2.23	0		wordfreq
+啸	2.74	1	12.9	wordfreq+ours
+啻	1.79	0		wordfreq
+啼	2.5	0		wordfreq
+啾	3.16	0		wordfreq
+喀	3.68	0		wordfreq
+喁	1.72	0		wordfreq
+喂	4.42	2	25.8	wordfreq+ours
+喃	2.48	0		wordfreq
+善	4.4	46	594.4	wordfreq+ours
+喆	2.18	0		wordfreq
+喇	3.32	0		wordfreq
+喈	1.46	0		wordfreq
+喉	3.25	0		wordfreq
+喊	4.53	3	38.8	wordfreq+ours
+喋	1.71	0		wordfreq
+喏	2.7	0		wordfreq
+喑	1.66	0		wordfreq
+喔	4.42	0		wordfreq
+喘	3.75	0		wordfreq
+喙	3.14	0		wordfreq
+喚	2.99	0		wordfreq
+喜	4.21	9	116.3	wordfreq+ours
+喝	5.0	1	12.9	wordfreq+ours
+喟	1.91	0		wordfreq
+喤	0.0	0		none
+喦	1.77	0		wordfreq
+喧	2.4	0		wordfreq
+喪	3.35	0		wordfreq
+喫	5.65	0		wordfreq
+喯	0.0	0		none
+喰	2.66	0		wordfreq
+喱	1.87	0		wordfreq
+喲	4.3	0		wordfreq
+喳	2.42	0		wordfreq
+喵	3.93	0		wordfreq
+喷	4.23	1	12.9	wordfreq+ours
+喹	2.06	0		wordfreq
+喻	3.31	4	51.7	wordfreq+ours
+喼	1.01	0		wordfreq
+喽	3.72	0		wordfreq
+喾	2.47	0		wordfreq
+嗄	2.48	0		wordfreq
+嗅	3.37	0		wordfreq
+嗆	3.73	0		wordfreq
+嗉	2.05	0		wordfreq
+嗌	2.24	0		wordfreq
+嗍	1.6	0		wordfreq
+嗐	1.59	0		wordfreq
+嗑	3.49	0		wordfreq
+嗒	3.38	0		wordfreq
+嗓	2.36	1	12.9	wordfreq+ours
+嗔	2.72	0		wordfreq
+嗖	2.49	0		wordfreq
+嗙	2.2	0		wordfreq
+嗜	3.42	0		wordfreq
+嗝	2.72	0		wordfreq
+嗞	1.66	0		wordfreq
+嗟	2.81	0		wordfreq
+嗡	2.69	0		wordfreq
+嗣	3.58	0		wordfreq
+嗤	2.79	0		wordfreq
+嗥	1.47	0		wordfreq
+嗦	2.76	0		wordfreq
+嗨	4.25	0		wordfreq
+嗪	2.22	0		wordfreq
+嗫	1.84	0		wordfreq
+嗬	2.9	0		wordfreq
+嗯	4.86	0		wordfreq
+嗱	1.69	0		wordfreq
+嗲	2.79	0		wordfreq
+嗳	2.85	0		wordfreq
+嗵	2.09	0		wordfreq
+嗷	3.44	0		wordfreq
+嗽	2.28	0		wordfreq
+嗾	2.07	0		wordfreq
+嘀	2.58	0		wordfreq
+嘁	2.42	0		wordfreq
+嘈	2.79	0		wordfreq
+嘉	4.02	0		wordfreq
+嘌	1.59	0		wordfreq
+嘎	3.75	0		wordfreq
+嘏	2.06	0		wordfreq
+嘒	0.0	0		none
+嘘	3.65	0		wordfreq
+嘙	0.0	0		none
+嘚	2.46	0		wordfreq
+嘛	5.11	4	51.7	wordfreq+ours
+嘞	3.14	0		wordfreq
+嘟	3.08	0		wordfreq
+嘡	0.0	0		none
+嘢	3.02	0		wordfreq
+嘣	2.69	0		wordfreq
+嘤	3.31	0		wordfreq
+嘦	0.0	0		none
+嘧	1.56	0		wordfreq
+嘬	2.64	0		wordfreq
+嘭	2.87	0		wordfreq
+嘱	2.69	0		wordfreq
+嘲	2.63	0		wordfreq
+嘴	4.69	1	12.9	wordfreq+ours
+嘶	3.06	0		wordfreq
+嘹	1.76	0		wordfreq
+嘻	3.73	2	25.8	wordfreq+ours
+嘿	3.94	0		wordfreq
+噀	0.0	0		none
+噁	4.44	0		wordfreq
+噌	2.72	0		wordfreq
+噍	1.56	0		wordfreq
+噎	2.82	0		wordfreq
+噓	3.65	0		wordfreq
+噔	1.93	0		wordfreq
+噗	3.55	0		wordfreq
+噘	2.19	0		wordfreq
+噙	2.21	0		wordfreq
+噚	1.27	0		wordfreq
+噜	3.38	0		wordfreq
+噢	4.31	0		wordfreq
+噤	1.3	0		wordfreq
+器	4.74	22	284.3	wordfreq+ours
+噩	1.82	0		wordfreq
+噪	2.98	2	25.8	wordfreq+ours
+噫	2.75	0		wordfreq
+噬	2.88	1	12.9	wordfreq+ours
+噱	1.82	0		wordfreq
+噴	4.23	0		wordfreq
+噶	3.39	0		wordfreq
+噻	2.1	0		wordfreq
+噼	1.82	0		wordfreq
+嚄	0.0	0		none
+嚅	1.82	0		wordfreq
+嚆	1.37	0		wordfreq
+嚇	4.69	0		wordfreq
+嚎	3.05	0		wordfreq
+嚏	1.63	0		wordfreq
+嚐	3.91	0		wordfreq
+嚓	1.99	0		wordfreq
+嚚	0.0	0		none
+嚣	2.09	0		wordfreq
+嚨	1.94	0		wordfreq
+嚯	2.82	0		wordfreq
+嚱	0.0	0		none
+嚴	4.3	0		wordfreq
+嚷	3.01	0		wordfreq
+嚼	3.79	0		wordfreq
+囊	3.68	2	25.8	wordfreq+ours
+囍	2.11	0		wordfreq
+囔	0.0	0		none
+囗	2.33	0		wordfreq
+囚	3.3	1	12.9	wordfreq+ours
+四	5.18	42	542.7	wordfreq+ours
+囝	2.2	0		wordfreq
+回	5.38	76	982.0	wordfreq+ours
+囟	2.44	0		wordfreq
+因	5.61	83	1072.4	wordfreq+ours
+囡	2.16	0		wordfreq
+团	5.09	34	439.3	wordfreq+ours
+囤	2.9	6	77.5	wordfreq+ours
+囧	3.61	0		wordfreq
+囫	0.0	0		none
+园	4.41	7	90.4	wordfreq+ours
+困	4.25	26	335.9	wordfreq+ours
+囱	1.97	0		wordfreq
+围	4.26	33	426.4	wordfreq+ours
+囵	1.22	0		wordfreq
+囷	1.94	0		wordfreq
+囹	1.17	0		wordfreq
+固	3.79	12	155.0	wordfreq+ours
+国	5.66	484	6253.6	wordfreq+ours
+图	5.58	21	271.3	wordfreq+ours
+囿	2.68	0		wordfreq
+圃	2.8	0		wordfreq
+圄	0.0	0		none
+圆	4.32	2	25.8	wordfreq+ours
+圈	4.74	5	64.6	wordfreq+ours
+圉	2.48	0		wordfreq
+圊	0.0	0		none
+國	5.66	0		wordfreq
+圐	0.0	0		none
+團	5.09	0		wordfreq
+圙	0.0	0		none
+圜	3.19	0		wordfreq
+圞	1.22	0		wordfreq
+土	4.46	86	1111.2	wordfreq+ours
+圡	0.0	0		none
+圣	4.71	4	51.7	wordfreq+ours
+在	7.16	453	5853.1	wordfreq+ours
+圩	3.04	0		wordfreq
+圪	2.62	0		wordfreq
+圬	1.66	0		wordfreq
+圭	3.67	0		wordfreq
+圮	2.11	0		wordfreq
+圯	1.74	0		wordfreq
+地	6.08	249	3217.3	wordfreq+ours
+圳	2.99	0		wordfreq
+圹	2.3	0		wordfreq
+场	5.25	100	1292.1	wordfreq+ours
+圻	1.66	0		wordfreq
+圾	2.47	0		wordfreq
+址	3.64	1	12.9	wordfreq+ours
+坂	2.99	0		wordfreq
+均	5.32	25	323.0	wordfreq+ours
+坊	4.03	2	25.8	wordfreq+ours
+坌	2.04	0		wordfreq
+坍	2.17	0		wordfreq
+坎	3.84	1	12.9	wordfreq+ours
+坏	4.93	5	64.6	wordfreq+ours
+坐	5.01	12	155.0	wordfreq+ours
+坑	4.49	0		wordfreq
+坖	0.0	0		none
+块	4.95	15	193.8	wordfreq+ours
+坚	3.86	129	1666.8	wordfreq+ours
+坛	3.76	2	25.8	wordfreq+ours
+坜	1.16	0		wordfreq
+坝	3.64	2	25.8	wordfreq+ours
+坞	3.32	1	12.9	wordfreq+ours
+坟	3.85	0		wordfreq
+坠	3.6	1	12.9	wordfreq+ours
+坡	3.97	2	25.8	wordfreq+ours
+坤	3.73	0		wordfreq
+坦	4.11	2	25.8	wordfreq+ours
+坨	3.31	0		wordfreq
+坩	1.62	0		wordfreq
+坪	4.06	0		wordfreq
+坬	0.0	0		none
+坭	2.16	0		wordfreq
+坯	2.35	0		wordfreq
+坰	1.31	0		wordfreq
+坳	2.82	0		wordfreq
+坷	1.69	0		wordfreq
+坻	1.53	0		wordfreq
+坼	1.73	0		wordfreq
+垂	3.6	4	51.7	wordfreq+ours
+垃	2.26	0		wordfreq
+垄	3.08	9	116.3	wordfreq+ours
+垅	2.68	0		wordfreq
+垆	1.69	0		wordfreq
+型	5.24	36	465.1	wordfreq+ours
+垌	1.77	0		wordfreq
+垒	3.76	3	38.8	wordfreq+ours
+垓	2.47	0		wordfreq
+垕	1.95	0		wordfreq
+垚	2.66	0		wordfreq
+垛	2.97	0		wordfreq
+垝	0.0	0		none
+垞	0.0	0		none
+垟	2.07	0		wordfreq
+垠	1.58	0		wordfreq
+垡	2.32	0		wordfreq
+垢	2.64	0		wordfreq
+垣	3.05	0		wordfreq
+垤	1.66	0		wordfreq
+垦	2.9	1	12.9	wordfreq+ours
+垧	1.37	0		wordfreq
+垩	2.23	0		wordfreq
+垫	4.01	1	12.9	wordfreq+ours
+垭	2.1	0		wordfreq
+垮	3.56	4	51.7	wordfreq+ours
+垱	2.03	0		wordfreq
+垴	1.81	0		wordfreq
+垵	2.34	0		wordfreq
+垸	2.46	0		wordfreq
+埂	2.41	0		wordfreq
+埃	4.41	1	12.9	wordfreq+ours
+埇	2.1	0		wordfreq
+埈	0.0	0		none
+埋	4.24	2	25.8	wordfreq+ours
+埌	1.49	0		wordfreq
+城	5.1	39	503.9	wordfreq+ours
+埒	1.85	0		wordfreq
+埔	3.64	0		wordfreq
+埕	2.4	0		wordfreq
+埗	2.86	0		wordfreq
+埘	2.09	0		wordfreq
+埙	1.87	0		wordfreq
+埚	2.08	0		wordfreq
+埝	1.79	0		wordfreq
+域	4.06	31	400.5	wordfreq+ours
+埠	3.08	0		wordfreq
+埤	2.64	0		wordfreq
+埪	0.0	0		none
+埭	2.3	0		wordfreq
+埯	2.34	0		wordfreq
+埴	2.42	0		wordfreq
+埵	2.16	0		wordfreq
+埸	2.59	0		wordfreq
+培	3.6	20	258.4	wordfreq+ours
+基	4.75	128	1653.9	wordfreq+ours
+埼	2.94	0		wordfreq
+埽	2.45	0		wordfreq
+堀	2.19	0		wordfreq
+堂	4.43	13	168.0	wordfreq+ours
+堃	2.26	0		wordfreq
+堄	0.0	0		none
+堆	4.17	2	25.8	wordfreq+ours
+堇	2.53	0		wordfreq
+堉	1.93	0		wordfreq
+堋	2.77	0		wordfreq
+堌	1.16	0		wordfreq
+堍	1.98	0		wordfreq
+堎	1.69	0		wordfreq
+堑	2.32	0		wordfreq
+堕	3.49	1	12.9	wordfreq+ours
+堙	2.12	0		wordfreq
+堞	1.63	0		wordfreq
+堠	1.82	0		wordfreq
+堡	4.18	2	25.8	wordfreq+ours
+堤	3.47	2	25.8	wordfreq+ours
+堪	3.44	4	51.7	wordfreq+ours
+堰	2.65	0		wordfreq
+報	5.23	0		wordfreq
+堵	4.04	8	103.4	wordfreq+ours
+堺	2.84	0		wordfreq
+堼	0.0	0		none
+堽	0.0	0		none
+塄	1.49	0		wordfreq
+塅	1.05	0		wordfreq
+塊	4.95	0		wordfreq
+塌	3.68	6	77.5	wordfreq+ours
+塍	1.36	0		wordfreq
+塑	3.36	2	25.8	wordfreq+ours
+塔	4.68	0		wordfreq
+塘	3.59	0		wordfreq
+塚	3.71	0		wordfreq
+塝	0.0	0		none
+塞	4.52	3	38.8	wordfreq+ours
+填	4.14	4	51.7	wordfreq+ours
+塬	2.58	0		wordfreq
+塱	1.31	0		wordfreq
+塽	2.38	0		wordfreq
+塾	2.52	1	12.9	wordfreq+ours
+墀	1.67	0		wordfreq
+墁	1.54	0		wordfreq
+境	4.31	21	271.3	wordfreq+ours
+墅	2.55	0		wordfreq
+墉	1.81	0		wordfreq
+墐	0.0	0		none
+墒	2.11	0		wordfreq
+墓	4.27	0		wordfreq
+墕	1.37	0		wordfreq
+増	2.16	0		wordfreq
+墘	1.04	0		wordfreq
+墙	4.66	4	51.7	wordfreq+ours
+增	4.39	65	839.8	wordfreq+ours
+墟	3.19	3	38.8	wordfreq+ours
+墠	1.44	0		wordfreq
+墨	3.77	1	12.9	wordfreq+ours
+墩	3.43	1	12.9	wordfreq+ours
+墳	3.85	0		wordfreq
+墼	1.71	0		wordfreq
+壁	3.79	9	116.3	wordfreq+ours
+壅	2.66	0		wordfreq
+壑	2.69	0		wordfreq
+壕	3.31	0		wordfreq
+壤	2.95	2	25.8	wordfreq+ours
+士	4.42	30	387.6	wordfreq+ours
+壬	3.27	0		wordfreq
+壮	3.73	6	77.5	wordfreq+ours
+声	4.81	16	206.7	wordfreq+ours
+壳	4.18	0		wordfreq
+壶	3.74	0		wordfreq
+壸	1.6	0		wordfreq
+壹	3.68	0		wordfreq
+壽	3.77	0		wordfreq
+夂	2.3	0		wordfreq
+处	5.48	60	775.2	wordfreq+ours
+备	4.46	20	258.4	wordfreq+ours
+复	4.89	50	646.0	wordfreq+ours
+夏	4.42	2	25.8	wordfreq+ours
+夔	3.27	0		wordfreq
+夕	3.32	1	12.9	wordfreq+ours
+外	5.45	57	736.5	wordfreq+ours
+夙	2.11	0		wordfreq
+多	6.21	173	2235.3	wordfreq+ours
+夜	4.55	11	142.1	wordfreq+ours
+够	4.85	31	400.5	wordfreq+ours
+夤	2.26	0		wordfreq
+夥	4.15	0		wordfreq
+大	6.23	340	4393.0	wordfreq+ours
+天	5.55	132	1705.5	wordfreq+ours
+太	5.64	36	465.1	wordfreq+ours
+夫	4.59	20	258.4	wordfreq+ours
+夬	1.13	0		wordfreq
+夭	2.67	0		wordfreq
+央	3.2	49	633.1	wordfreq+ours
+夯	3.1	2	25.8	wordfreq+ours
+失	4.41	38	491.0	wordfreq+ours
+头	5.07	72	930.3	wordfreq+ours
+夷	3.55	2	25.8	wordfreq+ours
+夸	3.96	5	64.6	wordfreq+ours
+夹	4.25	2	25.8	wordfreq+ours
+夺	4.17	22	284.3	wordfreq+ours
+夼	2.05	0		wordfreq
+夾	4.25	0		wordfreq
+夿	0.0	0		none
+奁	1.83	0		wordfreq
+奂	2.69	0		wordfreq
+奄	2.67	0		wordfreq
+奇	4.58	6	77.5	wordfreq+ours
+奈	3.95	1	12.9	wordfreq+ours
+奉	4.09	7	90.4	wordfreq+ours
+奋	3.32	8	103.4	wordfreq+ours
+奎	3.29	0		wordfreq
+奏	3.96	3	38.8	wordfreq+ours
+契	3.61	8	103.4	wordfreq+ours
+奓	1.32	0		wordfreq
+奔	4.08	0		wordfreq
+奕	3.61	0		wordfreq
+奖	5.06	2	25.8	wordfreq+ours
+套	4.65	50	646.0	wordfreq+ours
+奘	2.18	0		wordfreq
+奚	2.98	0		wordfreq
+奠	2.86	2	25.8	wordfreq+ours
+奡	1.53	0		wordfreq
+奢	2.75	2	25.8	wordfreq+ours
+奤	0.0	0		none
+奥	4.64	1	12.9	wordfreq+ours
+奧	4.64	0		wordfreq
+奭	2.48	0		wordfreq
+奮	3.32	0		wordfreq
+女	5.48	6	77.5	wordfreq+ours
+奴	4.15	20	258.4	wordfreq+ours
+奶	4.16	0		wordfreq
+奸	3.66	4	51.7	wordfreq+ours
+她	6.23	0		wordfreq
+好	6.24	155	2002.7	wordfreq+ours
+妁	1.08	0		wordfreq
+如	5.66	123	1589.2	wordfreq+ours
+妃	4.0	0		wordfreq
+妄	3.02	4	51.7	wordfreq+ours
+妆	3.8	0		wordfreq
+妇	3.93	1	12.9	wordfreq+ours
+妈	5.02	0		wordfreq
+妊	2.47	0		wordfreq
+妍	3.19	0		wordfreq
+妒	2.45	1	12.9	wordfreq+ours
+妓	3.62	0		wordfreq
+妖	4.09	0		wordfreq
+妗	2.55	0		wordfreq
+妘	1.92	0		wordfreq
+妙	3.77	2	25.8	wordfreq+ours
+妞	3.83	0		wordfreq
+妣	2.04	0		wordfreq
+妤	2.65	0		wordfreq
+妥	3.68	5	64.6	wordfreq+ours
+妨	2.55	1	12.9	wordfreq+ours
+妩	0.0	0		none
+妪	1.92	0		wordfreq
+妫	2.71	0		wordfreq
+妮	3.95	0		wordfreq
+妯	1.53	0		wordfreq
+妲	3.31	0		wordfreq
+妳	4.47	0		wordfreq
+妹	4.11	0		wordfreq
+妺	2.69	0		wordfreq
+妻	4.14	2	25.8	wordfreq+ours
+妼	0.0	0		none
+妾	3.65	0		wordfreq
+姃	1.45	0		wordfreq
+姆	4.38	0		wordfreq
+姊	3.57	0		wordfreq
+始	4.35	60	775.2	wordfreq+ours
+姐	4.07	0		wordfreq
+姑	3.19	1	12.9	wordfreq+ours
+姒	2.59	0		wordfreq
+姓	4.45	43	555.6	wordfreq+ours
+委	4.3	49	633.1	wordfreq+ours
+姕	0.0	0		none
+姗	2.46	0		wordfreq
+姘	2.17	0		wordfreq
+姚	3.59	1	12.9	wordfreq+ours
+姛	0.0	0		none
+姜	3.93	0		wordfreq
+姝	3.14	0		wordfreq
+姣	2.87	0		wordfreq
+姤	1.26	0		wordfreq
+姥	2.41	0		wordfreq
+姨	3.36	0		wordfreq
+姪	2.47	0		wordfreq
+姫	1.78	0		wordfreq
+姬	4.0	1	12.9	wordfreq+ours
+姮	2.14	0		wordfreq
+姱	0.0	0		none
+姹	2.14	0		wordfreq
+姻	2.65	0		wordfreq
+姽	1.01	0		wordfreq
+姿	3.4	0		wordfreq
+威	4.19	13	168.0	wordfreq+ours
+娃	4.0	0		wordfreq
+娄	3.15	0		wordfreq
+娅	3.54	0		wordfreq
+娆	2.59	0		wordfreq
+娇	3.47	1	12.9	wordfreq+ours
+娈	1.95	0		wordfreq
+娉	2.07	0		wordfreq
+娌	1.87	0		wordfreq
+娑	2.95	0		wordfreq
+娓	2.94	0		wordfreq
+娘	4.3	0		wordfreq
+娜	4.26	0		wordfreq
+娟	3.1	0		wordfreq
+娠	1.39	0		wordfreq
+娣	2.82	0		wordfreq
+娥	3.71	0		wordfreq
+娩	2.29	0		wordfreq
+娭	0.0	0		none
+娱	3.17	5	64.6	wordfreq+ours
+娲	2.8	0		wordfreq
+娴	3.06	0		wordfreq
+娵	0.0	0		none
+娶	4.37	1	12.9	wordfreq+ours
+娼	3.08	0		wordfreq
+婀	1.69	0		wordfreq
+婆	3.55	0		wordfreq
+婉	2.69	0		wordfreq
+婊	3.2	0		wordfreq
+婌	1.08	0		wordfreq
+婕	2.81	0		wordfreq
+婗	1.11	0		wordfreq
+婚	4.09	0		wordfreq
+婢	2.5	2	25.8	wordfreq+ours
+婦	3.93	0		wordfreq
+婧	2.11	0		wordfreq
+婪	1.92	0		wordfreq
+婫	0.0	0		none
+婳	1.61	0		wordfreq
+婴	3.45	0		wordfreq
+婵	2.5	0		wordfreq
+婶	3.6	0		wordfreq
+婷	2.99	0		wordfreq
+婺	2.2	0		wordfreq
+婿	2.55	0		wordfreq
+媒	3.62	0		wordfreq
+媚	3.17	0		wordfreq
+媛	2.85	0		wordfreq
+媞	1.75	0		wordfreq
+媪	2.23	0		wordfreq
+媲	2.02	0		wordfreq
+媳	2.91	0		wordfreq
+媵	1.58	0		wordfreq
+媸	2.16	0		wordfreq
+媾	1.66	0		wordfreq
+嫁	4.31	6	77.5	wordfreq+ours
+嫂	3.4	0		wordfreq
+嫄	1.9	0		wordfreq
+嫉	2.79	0		wordfreq
+嫌	4.08	0		wordfreq
+嫏	0.0	0		none
+嫑	2.15	0		wordfreq
+嫔	3.18	0		wordfreq
+嫕	0.0	0		none
+嫖	3.46	0		wordfreq
+嫘	1.63	0		wordfreq
+嫚	2.1	0		wordfreq
+嫛	0.0	0		none
+嫜	1.64	0		wordfreq
+嫠	2.04	0		wordfreq
+嫡	3.04	0		wordfreq
+嫣	2.78	0		wordfreq
+嫦	1.96	0		wordfreq
+嫩	4.11	0		wordfreq
+嫪	1.21	0		wordfreq
+嫫	1.97	0		wordfreq
+嫱	1.93	0		wordfreq
+嫲	2.32	0		wordfreq
+嬅	0.0	0		none
+嬉	2.71	0		wordfreq
+嬖	2.59	0		wordfreq
+嬗	2.06	0		wordfreq
+嬛	2.84	0		wordfreq
+嬢	1.98	0		wordfreq
+嬥	0.0	0		none
+嬴	3.0	0		wordfreq
+嬷	1.59	0		wordfreq
+嬿	2.22	0		wordfreq
+孀	1.88	0		wordfreq
+子	5.15	98	1266.2	wordfreq+ours
+孑	2.15	0		wordfreq
+孓	1.23	0		wordfreq
+孔	4.1	4	51.7	wordfreq+ours
+孕	3.5	0		wordfreq
+孖	2.95	0		wordfreq
+字	5.17	57	736.5	wordfreq+ours
+存	4.43	34	439.3	wordfreq+ours
+孙	4.33	3	38.8	wordfreq+ours
+孚	2.73	0		wordfreq
+孛	3.02	0		wordfreq
+孜	2.99	0		wordfreq
+孝	3.8	9	116.3	wordfreq+ours
+孟	3.8	0		wordfreq
+孢	2.43	0		wordfreq
+季	4.48	0		wordfreq
+孤	3.5	1	12.9	wordfreq+ours
+孥	2.19	0		wordfreq
+学	5.39	111	1434.2	wordfreq+ours
+孩	3.5	2	25.8	wordfreq+ours
+孪	2.44	0		wordfreq
+孫	4.33	0		wordfreq
+孬	2.57	0		wordfreq
+孭	1.54	0		wordfreq
+孰	3.06	0		wordfreq
+孱	1.56	0		wordfreq
+孳	2.51	0		wordfreq
+孵	2.51	1	12.9	wordfreq+ours
+孺	2.27	0		wordfreq
+孽	3.3	1	12.9	wordfreq+ours
+宀	2.22	0		wordfreq
+宁	4.28	10	129.2	wordfreq+ours
+它	6.02	106	1369.6	wordfreq+ours
+宄	1.58	0		wordfreq
+宅	4.07	1	12.9	wordfreq+ours
+宇	3.62	1	12.9	wordfreq+ours
+守	4.38	48	620.2	wordfreq+ours
+安	4.92	70	904.5	wordfreq+ours
+宋	4.22	53	684.8	wordfreq+ours
+完	5.2	63	814.0	wordfreq+ours
+宍	1.21	0		wordfreq
+宏	3.68	11	142.1	wordfreq+ours
+宓	2.16	0		wordfreq
+宕	2.48	0		wordfreq
+宗	4.22	32	413.5	wordfreq+ours
+官	4.96	81	1046.6	wordfreq+ours
+宙	2.73	0		wordfreq
+定	5.05	135	1744.3	wordfreq+ours
+宛	2.49	0		wordfreq
+宜	3.95	2	25.8	wordfreq+ours
+宝	4.66	6	77.5	wordfreq+ours
+实	4.83	308	3979.6	wordfreq+ours
+宠	3.81	0		wordfreq
+审	4.33	9	116.3	wordfreq+ours
+客	4.57	10	129.2	wordfreq+ours
+宣	4.16	7	90.4	wordfreq+ours
+室	4.8	4	51.7	wordfreq+ours
+宥	2.95	0		wordfreq
+宦	2.37	1	12.9	wordfreq+ours
+宪	3.51	0		wordfreq
+宫	4.53	6	77.5	wordfreq+ours
+宬	2.0	0		wordfreq
+宮	4.53	0		wordfreq
+宰	3.76	2	25.8	wordfreq+ours
+害	4.56	11	142.1	wordfreq+ours
+宴	3.55	1	12.9	wordfreq+ours
+宵	2.98	1	12.9	wordfreq+ours
+家	5.64	290	3747.0	wordfreq+ours
+宸	2.71	0		wordfreq
+容	4.2	69	891.5	wordfreq+ours
+宼	0.0	0		none
+宽	4.67	7	90.4	wordfreq+ours
+宾	4.02	0		wordfreq
+宿	3.56	1	12.9	wordfreq+ours
+寂	2.92	0		wordfreq
+寄	4.41	1	12.9	wordfreq+ours
+寅	2.92	0		wordfreq
+密	4.31	9	116.3	wordfreq+ours
+寇	3.5	0		wordfreq
+富	4.37	69	891.5	wordfreq+ours
+寐	2.67	0		wordfreq
+寒	3.46	1	12.9	wordfreq+ours
+寓	3.01	1	12.9	wordfreq+ours
+寝	3.11	0		wordfreq
+寞	1.88	0		wordfreq
+察	3.88	26	335.9	wordfreq+ours
+寡	3.0	3	38.8	wordfreq+ours
+寤	2.42	0		wordfreq
+寥	2.32	0		wordfreq
+寨	3.99	0		wordfreq
+審	4.33	0		wordfreq
+寮	4.06	0		wordfreq
+寰	3.3	0		wordfreq
+寸	3.9	2	25.8	wordfreq+ours
+对	6.63	210	2713.4	wordfreq+ours
+寺	4.39	3	38.8	wordfreq+ours
+寻	4.03	7	90.4	wordfreq+ours
+导	4.17	112	1447.1	wordfreq+ours
+対	2.15	0		wordfreq
+寿	3.77	1	12.9	wordfreq+ours
+封	4.68	8	103.4	wordfreq+ours
+射	4.71	5	64.6	wordfreq+ours
+将	6.29	37	478.1	wordfreq+ours
+尉	3.05	0		wordfreq
+尊	3.98	3	38.8	wordfreq+ours
+小	5.89	66	852.8	wordfreq+ours
+少	5.22	43	555.6	wordfreq+ours
+尓	1.74	0		wordfreq
+尔	4.96	6	77.5	wordfreq+ours
+尕	2.7	0		wordfreq
+尖	3.93	6	77.5	wordfreq+ours
+尘	3.59	4	51.7	wordfreq+ours
+尚	4.62	11	142.1	wordfreq+ours
+尜	0.0	0		none
+尝	3.91	2	25.8	wordfreq+ours
+尢	1.97	0		wordfreq
+尤	4.24	6	77.5	wordfreq+ours
+尥	1.6	0		wordfreq
+尧	3.21	0		wordfreq
+尨	1.77	0		wordfreq
+尪	2.19	0		wordfreq
+尬	2.72	0		wordfreq
+就	6.6	346	4470.6	wordfreq+ours
+尴	2.31	0		wordfreq
+尸	3.91	0		wordfreq
+尹	3.61	0		wordfreq
+尺	3.77	11	142.1	wordfreq+ours
+尻	3.32	0		wordfreq
+尼	4.65	0		wordfreq
+尽	4.97	25	323.0	wordfreq+ours
+尾	4.28	18	232.6	wordfreq+ours
+尿	4.42	0		wordfreq
+局	4.83	36	465.1	wordfreq+ours
+屁	4.11	0		wordfreq
+层	4.88	127	1640.9	wordfreq+ours
+屃	1.84	0		wordfreq
+屄	3.33	0		wordfreq
+居	4.55	54	697.7	wordfreq+ours
+屈	3.39	0		wordfreq
+屉	1.78	0		wordfreq
+届	5.16	2	25.8	wordfreq+ours
+屋	4.44	55	710.6	wordfreq+ours
+屌	3.9	0		wordfreq
+屍	3.91	0		wordfreq
+屎	4.1	0		wordfreq
+屏	3.95	8	103.4	wordfreq+ours
+屐	1.89	0		wordfreq
+屑	3.17	0		wordfreq
+展	4.4	79	1020.7	wordfreq+ours
+屙	2.46	0		wordfreq
+属	5.19	15	193.8	wordfreq+ours
+屠	3.42	2	25.8	wordfreq+ours
+屡	3.73	0		wordfreq
+屣	1.6	0		wordfreq
+履	3.36	16	206.7	wordfreq+ours
+屦	1.65	0		wordfreq
+屧	0.0	0		none
+屯	3.68	0		wordfreq
+山	4.99	19	245.5	wordfreq+ours
+屲	0.0	0		none
+屳	1.17	0		wordfreq
+屹	1.55	0		wordfreq
+屺	1.65	0		wordfreq
+屿	3.22	0		wordfreq
+岀	2.83	0		wordfreq
+岁	5.65	7	90.4	wordfreq+ours
+岂	4.03	0		wordfreq
+岈	1.9	0		wordfreq
+岌	1.88	0		wordfreq
+岐	2.73	0		wordfreq
+岑	2.62	0		wordfreq
+岔	2.6	0		wordfreq
+岖	1.43	0		wordfreq
+岗	3.9	11	142.1	wordfreq+ours
+岘	3.11	0		wordfreq
+岙	2.07	0		wordfreq
+岚	3.01	0		wordfreq
+岛	4.85	1	12.9	wordfreq+ours
+岜	2.23	0		wordfreq
+岞	0.0	0		none
+岢	2.11	0		wordfreq
+岣	2.49	0		wordfreq
+岩	4.01	0		wordfreq
+岫	2.65	0		wordfreq
+岬	3.16	0		wordfreq
+岭	4.37	2	25.8	wordfreq+ours
+岱	3.56	0		wordfreq
+岳	3.85	0		wordfreq
+岵	2.13	0		wordfreq
+岷	2.42	0		wordfreq
+岸	3.91	4	51.7	wordfreq+ours
+岿	0.0	0		none
+峁	2.74	0		wordfreq
+峄	2.56	0		wordfreq
+峇	3.6	0		wordfreq
+峋	1.9	0		wordfreq
+峒	2.15	0		wordfreq
+峙	3.09	1	12.9	wordfreq+ours
+峠	0.0	0		none
+峡	3.29	0		wordfreq
+峣	2.63	0		wordfreq
+峤	2.23	0		wordfreq
+峥	2.05	0		wordfreq
+峦	2.78	0		wordfreq
+峨	2.76	0		wordfreq
+峪	2.97	0		wordfreq
+峬	0.0	0		none
+峭	1.86	0		wordfreq
+峰	4.2	4	51.7	wordfreq+ours
+島	4.85	0		wordfreq
+峻	3.0	3	38.8	wordfreq+ours
+崀	1.41	0		wordfreq
+崁	2.25	0		wordfreq
+崂	1.7	0		wordfreq
+崃	2.25	0		wordfreq
+崄	2.06	0		wordfreq
+崆	2.27	0		wordfreq
+崇	3.43	6	77.5	wordfreq+ours
+崎	3.09	0		wordfreq
+崑	3.68	0		wordfreq
+崔	3.99	0		wordfreq
+崖	3.52	5	64.6	wordfreq+ours
+崗	3.9	0		wordfreq
+崚	2.12	0		wordfreq
+崛	2.59	5	64.6	wordfreq+ours
+崞	2.31	0		wordfreq
+崟	1.62	0		wordfreq
+崤	2.31	0		wordfreq
+崦	2.29	0		wordfreq
+崧	2.76	0		wordfreq
+崩	3.66	18	232.6	wordfreq+ours
+崭	3.02	1	12.9	wordfreq+ours
+崮	2.31	0		wordfreq
+崴	2.67	0		wordfreq
+崽	2.99	0		wordfreq
+崾	2.43	0		wordfreq
+崿	0.0	0		none
+嵇	1.7	0		wordfreq
+嵊	2.41	0		wordfreq
+嵌	3.51	0		wordfreq
+嵎	1.7	0		wordfreq
+嵖	1.18	0		wordfreq
+嵘	2.71	0		wordfreq
+嵚	1.33	0		wordfreq
+嵛	1.75	0		wordfreq
+嵝	2.61	0		wordfreq
+嵩	2.6	0		wordfreq
+嵫	1.72	0		wordfreq
+嵬	2.45	0		wordfreq
+嵯	2.35	0		wordfreq
+嵲	0.0	0		none
+嵴	2.57	0		wordfreq
+嶂	2.46	0		wordfreq
+嶋	2.71	0		wordfreq
+嶌	0.0	0		none
+嶒	1.5	0		wordfreq
+嶕	0.0	0		none
+嶙	1.82	0		wordfreq
+嶝	2.09	0		wordfreq
+嶷	1.96	0		wordfreq
+巅	2.51	2	25.8	wordfreq+ours
+巇	0.0	0		none
+巉	1.54	0		wordfreq
+巍	2.36	0		wordfreq
+巔	2.51	0		wordfreq
+巛	1.17	0		wordfreq
+川	4.29	1	12.9	wordfreq+ours
+州	5.04	12	155.0	wordfreq+ours
+巡	3.79	20	258.4	wordfreq+ours
+巢	3.55	0		wordfreq
+工	4.53	150	1938.1	wordfreq+ours
+左	4.85	9	116.3	wordfreq+ours
+巧	3.84	2	25.8	wordfreq+ours
+巨	4.18	18	232.6	wordfreq+ours
+巩	3.08	6	77.5	wordfreq+ours
+巫	3.61	0		wordfreq
+差	4.94	20	258.4	wordfreq+ours
+巯	1.89	0		wordfreq
+己	4.21	79	1020.7	wordfreq+ours
+已	5.92	37	478.1	wordfreq+ours
+巳	3.54	0		wordfreq
+巴	4.7	1	12.9	wordfreq+ours
+巷	3.57	2	25.8	wordfreq+ours
+巻	2.51	0		wordfreq
+巽	2.83	0		wordfreq
+巾	3.35	1	12.9	wordfreq+ours
+币	4.59	61	788.2	wordfreq+ours
+市	5.47	45	581.4	wordfreq+ours
+布	4.79	15	193.8	wordfreq+ours
+帅	4.18	2	25.8	wordfreq+ours
+帆	3.19	0		wordfreq
+师	4.97	18	232.6	wordfreq+ours
+希	4.37	6	77.5	wordfreq+ours
+帏	2.08	0		wordfreq
+帐	4.32	1	12.9	wordfreq+ours
+帑	2.26	0		wordfreq
+帔	1.15	0		wordfreq
+帕	4.08	0		wordfreq
+帖	3.93	0		wordfreq
+帘	3.17	0		wordfreq
+帙	1.98	0		wordfreq
+帚	2.54	0		wordfreq
+帛	3.16	1	12.9	wordfreq+ours
+帜	2.81	0		wordfreq
+帝	4.33	241	3113.9	wordfreq+ours
+帡	1.36	0		wordfreq
+帢	0.0	0		none
+帥	4.18	0		wordfreq
+带	5.66	43	555.6	wordfreq+ours
+帧	3.66	8	103.4	wordfreq+ours
+帨	0.0	0		none
+席	4.35	6	77.5	wordfreq+ours
+帮	5.17	16	206.7	wordfreq+ours
+帱	0.0	0		none
+帷	2.39	1	12.9	wordfreq+ours
+常	5.04	101	1305.0	wordfreq+ours
+帻	1.87	0		wordfreq
+帼	1.82	0		wordfreq
+帽	3.83	2	25.8	wordfreq+ours
+幂	3.53	0		wordfreq
+幄	1.46	0		wordfreq
+幅	4.25	1	12.9	wordfreq+ours
+幌	3.2	1	12.9	wordfreq+ours
+幔	2.39	0		wordfreq
+幕	3.97	24	310.1	wordfreq+ours
+幛	1.74	0		wordfreq
+幞	1.88	0		wordfreq
+幡	3.05	0		wordfreq
+幢	3.63	0		wordfreq
+幣	4.59	0		wordfreq
+幧	0.0	0		none
+幪	1.56	0		wordfreq
+幰	0.0	0		none
+干	5.52	204	2635.8	wordfreq+ours
+平	4.78	92	1188.7	wordfreq+ours
+年	6.64	225	2907.2	wordfreq+ours
+并	6.29	67	865.7	wordfreq+ours
+幸	3.82	4	51.7	wordfreq+ours
+幺	3.3	0		wordfreq
+幻	3.37	0		wordfreq
+幼	3.8	1	12.9	wordfreq+ours
+幽	3.33	1	12.9	wordfreq+ours
+广	4.61	17	219.7	wordfreq+ours
+広	3.06	0		wordfreq
+庄	4.18	7	90.4	wordfreq+ours
+庆	4.03	2	25.8	wordfreq+ours
+庇	3.2	4	51.7	wordfreq+ours
+床	4.57	2	25.8	wordfreq+ours
+庋	2.28	0		wordfreq
+序	3.84	32	413.5	wordfreq+ours
+庐	2.81	0		wordfreq
+庑	3.04	0		wordfreq
+库	4.63	20	258.4	wordfreq+ours
+应	5.54	65	839.8	wordfreq+ours
+底	4.52	56	723.6	wordfreq+ours
+庖	2.53	0		wordfreq
+店	4.83	1	12.9	wordfreq+ours
+庙	4.29	1	12.9	wordfreq+ours
+庚	3.23	1	12.9	wordfreq+ours
+府	4.8	29	374.7	wordfreq+ours
+庞	3.54	9	116.3	wordfreq+ours
+废	4.36	15	193.8	wordfreq+ours
+庠	2.64	0		wordfreq
+庥	1.84	0		wordfreq
+度	4.99	254	3281.9	wordfreq+ours
+座	4.82	3	38.8	wordfreq+ours
+庫	4.63	0		wordfreq
+庭	3.81	17	219.7	wordfreq+ours
+庳	1.3	0		wordfreq
+庵	3.67	0		wordfreq
+庶	3.34	1	12.9	wordfreq+ours
+康	4.16	14	180.9	wordfreq+ours
+庸	3.25	11	142.1	wordfreq+ours
+庹	2.07	0		wordfreq
+庾	2.49	0		wordfreq
+廁	3.22	0		wordfreq
+廂	3.45	0		wordfreq
+廆	1.99	0		wordfreq
+廉	3.44	19	245.5	wordfreq+ours
+廊	3.77	0		wordfreq
+廋	1.6	0		wordfreq
+廑	1.43	0		wordfreq
+廒	1.75	0		wordfreq
+廓	2.66	0		wordfreq
+廖	3.43	0		wordfreq
+廚	3.48	0		wordfreq
+廛	1.34	0		wordfreq
+廠	4.88	0		wordfreq
+廪	2.62	0		wordfreq
+廴	2.1	0		wordfreq
+延	3.84	9	116.3	wordfreq+ours
+廷	3.73	89	1149.9	wordfreq+ours
+廹	0.0	0		none
+建	4.89	152	1964.0	wordfreq+ours
+廻	1.68	0		wordfreq
+廾	1.73	0		wordfreq
+廿	3.06	0		wordfreq
+开	5.63	149	1925.2	wordfreq+ours
+弁	2.96	0		wordfreq
+异	4.4	9	116.3	wordfreq+ours
+弃	4.05	9	116.3	wordfreq+ours
+弄	4.8	5	64.6	wordfreq+ours
+弇	2.28	0		wordfreq
+弈	2.35	0		wordfreq
+弊	3.47	5	64.6	wordfreq+ours
+弋	2.04	0		wordfreq
+式	5.2	61	788.2	wordfreq+ours
+弑	3.09	0		wordfreq
+弓	3.76	0		wordfreq
+引	4.61	55	710.6	wordfreq+ours
+弗	4.19	2	25.8	wordfreq+ours
+弘	3.4	22	284.3	wordfreq+ours
+弛	2.79	1	12.9	wordfreq+ours
+弟	3.85	1	12.9	wordfreq+ours
+张	5.18	75	969.1	wordfreq+ours
+弢	2.18	0		wordfreq
+弥	3.61	2	25.8	wordfreq+ours
+弦	3.98	1	12.9	wordfreq+ours
+弧	3.46	1	12.9	wordfreq+ours
+弨	0.0	0		none
+弩	3.03	0		wordfreq
+弭	2.59	0		wordfreq
+弯	3.94	1	12.9	wordfreq+ours
+弱	4.37	18	232.6	wordfreq+ours
+張	5.18	0		wordfreq
+強	5.19	0		wordfreq
+弸	0.0	0		none
+弹	4.46	6	77.5	wordfreq+ours
+强	5.19	251	3243.1	wordfreq+ours
+弼	2.71	0		wordfreq
+彀	2.27	0		wordfreq
+彈	4.46	0		wordfreq
+彌	3.61	0		wordfreq
+彐	1.45	0		wordfreq
+归	4.74	20	258.4	wordfreq+ours
+当	5.89	149	1925.2	wordfreq+ours
+录	4.55	10	129.2	wordfreq+ours
+彖	2.01	0		wordfreq
+彗	2.43	0		wordfreq
+彘	2.23	0		wordfreq
+彛	2.0	0		wordfreq
+彝	3.06	0		wordfreq
+彟	1.88	0		wordfreq
+彡	1.86	0		wordfreq
+形	4.61	61	788.2	wordfreq+ours
+彤	2.7	0		wordfreq
+彦	3.63	1	12.9	wordfreq+ours
+彧	2.8	0		wordfreq
+彩	4.24	2	25.8	wordfreq+ours
+彪	3.25	0		wordfreq
+彬	3.22	0		wordfreq
+彭	4.02	0		wordfreq
+彰	3.17	3	38.8	wordfreq+ours
+影	4.4	17	219.7	wordfreq+ours
+彳	2.02	0		wordfreq
+彵	0.0	0		none
+彷	3.25	0		wordfreq
+役	4.0	28	361.8	wordfreq+ours
+彻	3.69	35	452.2	wordfreq+ours
+彼	3.72	1	12.9	wordfreq+ours
+彽	0.0	0		none
+彿	4.3	0		wordfreq
+往	5.02	44	568.5	wordfreq+ours
+征	4.42	59	762.3	wordfreq+ours
+徂	2.3	0		wordfreq
+径	3.76	20	258.4	wordfreq+ours
+待	4.92	8	103.4	wordfreq+ours
+徇	2.4	0		wordfreq
+很	6.27	92	1188.7	wordfreq+ours
+徉	1.42	0		wordfreq
+徊	2.43	0		wordfreq
+律	4.08	48	620.2	wordfreq+ours
+後	6.33	0		wordfreq
+徐	4.12	0		wordfreq
+徑	3.76	0		wordfreq
+徒	3.86	3	38.8	wordfreq+ours
+徕	2.83	0		wordfreq
+得	6.04	191	2467.9	wordfreq+ours
+徘	1.77	0		wordfreq
+徙	3.56	2	25.8	wordfreq+ours
+徜	1.3	0		wordfreq
+御	4.1	3	38.8	wordfreq+ours
+徨	2.54	0		wordfreq
+復	4.89	0		wordfreq
+循	3.64	11	142.1	wordfreq+ours
+徬	1.51	0		wordfreq
+徭	2.32	13	168.0	wordfreq+ours
+微	4.66	9	116.3	wordfreq+ours
+徯	1.22	0		wordfreq
+徳	3.12	0		wordfreq
+徵	4.42	0		wordfreq
+德	5.06	25	323.0	wordfreq+ours
+徹	3.69	0		wordfreq
+徼	1.93	0		wordfreq
+徽	3.22	3	38.8	wordfreq+ours
+心	5.36	121	1563.4	wordfreq+ours
+忄	1.47	0		wordfreq
+必	4.68	77	994.9	wordfreq+ours
+忆	3.46	8	103.4	wordfreq+ours
+忈	0.0	0		none
+忉	1.37	0		wordfreq
+忌	3.68	2	25.8	wordfreq+ours
+忍	4.16	2	25.8	wordfreq+ours
+忏	2.47	0		wordfreq
+忐	1.46	0		wordfreq
+忑	1.33	0		wordfreq
+忒	3.56	0		wordfreq
+忖	1.07	0		wordfreq
+志	4.5	20	258.4	wordfreq+ours
+忘	4.83	2	25.8	wordfreq+ours
+忙	4.87	2	25.8	wordfreq+ours
+忝	2.14	0		wordfreq
+忞	1.55	0		wordfreq
+忠	3.97	10	129.2	wordfreq+ours
+忡	1.35	0		wordfreq
+忤	2.52	0		wordfreq
+忧	3.77	6	77.5	wordfreq+ours
+忪	1.03	0		wordfreq
+快	5.79	18	232.6	wordfreq+ours
+忭	1.69	0		wordfreq
+忮	1.5	0		wordfreq
+忱	2.61	0		wordfreq
+忳	1.33	0		wordfreq
+念	4.53	22	284.3	wordfreq+ours
+忸	1.67	0		wordfreq
+忺	0.0	0		none
+忻	2.36	0		wordfreq
+忽	3.54	13	168.0	wordfreq+ours
+忾	2.33	0		wordfreq
+忿	2.49	0		wordfreq
+怀	4.09	17	219.7	wordfreq+ours
+态	4.28	45	581.4	wordfreq+ours
+怂	3.23	0		wordfreq
+怃	0.0	0		none
+怄	1.5	0		wordfreq
+怅	1.93	0		wordfreq
+怆	2.07	0		wordfreq
+怊	0.0	0		none
+怍	2.02	0		wordfreq
+怎	4.51	56	723.6	wordfreq+ours
+怏	1.75	0		wordfreq
+怒	4.09	1	12.9	wordfreq+ours
+怔	2.41	0		wordfreq
+怕	4.95	5	64.6	wordfreq+ours
+怖	2.81	0		wordfreq
+怙	2.04	0		wordfreq
+怛	2.39	0		wordfreq
+怜	2.98	2	25.8	wordfreq+ours
+思	4.17	78	1007.8	wordfreq+ours
+怠	2.77	3	38.8	wordfreq+ours
+怡	3.26	1	12.9	wordfreq+ours
+急	4.65	27	348.9	wordfreq+ours
+怦	1.84	0		wordfreq
+性	5.33	132	1705.5	wordfreq+ours
+怨	3.62	2	25.8	wordfreq+ours
+怩	0.0	0		none
+怪	4.74	7	90.4	wordfreq+ours
+怫	1.19	0		wordfreq
+怯	2.66	0		wordfreq
+怵	1.96	0		wordfreq
+总	5.55	36	465.1	wordfreq+ours
+怼	3.21	0		wordfreq
+怿	1.25	0		wordfreq
+恁	3.16	0		wordfreq
+恂	2.17	0		wordfreq
+恃	2.86	0		wordfreq
+恋	4.17	0		wordfreq
+恍	2.64	0		wordfreq
+恐	3.9	0		wordfreq
+恒	3.69	12	155.0	wordfreq+ours
+恓	1.75	0		wordfreq
+恕	3.78	0		wordfreq
+恙	1.78	0		wordfreq
+恚	2.85	0		wordfreq
+恝	0.0	0		none
+恢	3.81	10	129.2	wordfreq+ours
+恣	2.17	0		wordfreq
+恤	3.96	4	51.7	wordfreq+ours
+恥	3.46	0		wordfreq
+恧	1.14	0		wordfreq
+恨	4.57	0		wordfreq
+恩	4.5	1	12.9	wordfreq+ours
+恪	3.06	0		wordfreq
+恫	1.65	0		wordfreq
+恬	2.27	0		wordfreq
+恭	3.5	1	12.9	wordfreq+ours
+息	3.94	34	439.3	wordfreq+ours
+恰	3.75	18	232.6	wordfreq+ours
+恳	2.81	0		wordfreq
+恵	2.69	0		wordfreq
+恶	4.44	4	51.7	wordfreq+ours
+恸	2.48	0		wordfreq
+恹	0.0	0		none
+恺	3.01	0		wordfreq
+恻	1.89	0		wordfreq
+恼	2.79	0		wordfreq
+恽	2.05	0		wordfreq
+恿	2.53	0		wordfreq
+悃	1.7	0		wordfreq
+悄	2.9	3	38.8	wordfreq+ours
+悉	3.35	3	38.8	wordfreq+ours
+悌	2.35	0		wordfreq
+悍	2.96	0		wordfreq
+悒	0.0	0		none
+悔	3.46	0		wordfreq
+悖	3.09	1	12.9	wordfreq+ours
+悚	2.68	0		wordfreq
+悛	1.39	0		wordfreq
+悝	1.61	0		wordfreq
+悟	3.55	5	64.6	wordfreq+ours
+悠	3.15	0		wordfreq
+患	4.17	5	64.6	wordfreq+ours
+悦	3.49	0		wordfreq
+您	5.5	0		wordfreq
+悫	1.89	0		wordfreq
+悬	3.67	2	25.8	wordfreq+ours
+悭	2.08	0		wordfreq
+悯	2.49	0		wordfreq
+悰	1.88	0		wordfreq
+悱	1.25	0		wordfreq
+悲	3.63	6	77.5	wordfreq+ours
+悴	1.64	0		wordfreq
+悸	1.77	0		wordfreq
+悻	0.0	0		none
+悼	2.92	0		wordfreq
+情	4.79	84	1085.3	wordfreq+ours
+惆	1.97	0		wordfreq
+惇	2.58	0		wordfreq
+惊	4.12	4	51.7	wordfreq+ours
+惋	1.87	0		wordfreq
+惑	3.25	4	51.7	wordfreq+ours
+惕	2.55	0		wordfreq
+惘	1.48	0		wordfreq
+惙	0.0	0		none
+惚	1.77	0		wordfreq
+惛	1.37	0		wordfreq
+惜	3.2	1	12.9	wordfreq+ours
+惝	0.0	0		none
+惟	3.66	0		wordfreq
+惠	3.98	9	116.3	wordfreq+ours
+惡	4.44	0		wordfreq
+惦	2.38	1	12.9	wordfreq+ours
+惧	3.62	2	25.8	wordfreq+ours
+惨	4.22	3	38.8	wordfreq+ours
+惩	3.24	7	90.4	wordfreq+ours
+惫	2.2	0		wordfreq
+惬	1.71	0		wordfreq
+惭	2.1	0		wordfreq
+惮	2.18	0		wordfreq
+惯	3.76	6	77.5	wordfreq+ours
+惰	2.65	0		wordfreq
+想	6.03	100	1292.1	wordfreq+ours
+惴	1.1	0		wordfreq
+惶	1.97	0		wordfreq
+惹	4.38	2	25.8	wordfreq+ours
+惺	2.6	0		wordfreq
+愀	1.79	0		wordfreq
+愁	3.72	3	38.8	wordfreq+ours
+愆	1.89	0		wordfreq
+愈	4.44	3	38.8	wordfreq+ours
+愉	3.06	0		wordfreq
+愊	0.0	0		none
+愍	2.33	0		wordfreq
+愎	1.47	0		wordfreq
+意	4.8	121	1563.4	wordfreq+ours
+愐	0.0	0		none
+愒	0.0	0		none
+愕	2.34	0		wordfreq
+愚	3.37	0		wordfreq
+感	4.77	20	258.4	wordfreq+ours
+愠	1.94	0		wordfreq
+愣	3.64	0		wordfreq
+愤	2.91	1	12.9	wordfreq+ours
+愦	1.64	0		wordfreq
+愧	2.73	3	38.8	wordfreq+ours
+愫	1.4	0		wordfreq
+愿	4.78	11	142.1	wordfreq+ours
+慇	1.65	0		wordfreq
+慈	3.32	0		wordfreq
+慉	0.0	0		none
+慊	1.95	0		wordfreq
+慌	3.81	0		wordfreq
+慎	3.31	4	51.7	wordfreq+ours
+慑	2.51	3	38.8	wordfreq+ours
+慕	3.33	1	12.9	wordfreq+ours
+慘	4.22	0		wordfreq
+慜	1.71	0		wordfreq
+慝	1.82	0		wordfreq
+慠	0.0	0		none
+慢	4.63	8	103.4	wordfreq+ours
+慥	1.13	0		wordfreq
+慧	3.59	4	51.7	wordfreq+ours
+慨	2.47	1	12.9	wordfreq+ours
+慰	3.38	1	12.9	wordfreq+ours
+慵	2.47	0		wordfreq
+慷	2.1	0		wordfreq
+憋	3.79	0		wordfreq
+憎	2.63	0		wordfreq
+憔	1.36	0		wordfreq
+憝	1.44	0		wordfreq
+憧	2.38	0		wordfreq
+憨	3.27	0		wordfreq
+憩	2.49	0		wordfreq
+憬	2.39	0		wordfreq
+憶	3.46	0		wordfreq
+憷	1.64	0		wordfreq
+憺	1.54	0		wordfreq
+憾	2.81	0		wordfreq
+懂	5.05	2	25.8	wordfreq+ours
+懇	2.81	0		wordfreq
+懈	2.69	4	51.7	wordfreq+ours
+懊	1.89	0		wordfreq
+懋	2.8	0		wordfreq
+懑	1.25	0		wordfreq
+懒	4.01	2	25.8	wordfreq+ours
+懔	1.99	0		wordfreq
+懦	2.26	0		wordfreq
+懲	3.24	0		wordfreq
+懵	3.1	0		wordfreq
+懸	3.67	0		wordfreq
+懽	1.88	0		wordfreq
+懿	3.1	0		wordfreq
+戆	2.38	0		wordfreq
+戈	3.9	0		wordfreq
+戊	2.74	0		wordfreq
+戋	2.08	0		wordfreq
+戌	2.71	1	12.9	wordfreq+ours
+戍	2.59	1	12.9	wordfreq+ours
+戎	3.18	1	12.9	wordfreq+ours
+戏	4.62	3	38.8	wordfreq+ours
+成	5.61	233	3010.5	wordfreq+ours
+我	6.95	252	3256.0	wordfreq+ours
+戒	3.99	6	77.5	wordfreq+ours
+戕	2.22	0		wordfreq
+或	6.12	27	348.9	wordfreq+ours
+戗	2.05	0		wordfreq
+战	4.93	104	1343.8	wordfreq+ours
+戚	2.92	0		wordfreq
+戛	2.19	0		wordfreq
+戟	3.07	0		wordfreq
+戡	1.81	0		wordfreq
+戢	2.02	0		wordfreq
+戥	1.59	0		wordfreq
+截	3.59	11	142.1	wordfreq+ours
+戬	1.52	0		wordfreq
+戮	3.02	0		wordfreq
+戳	4.03	1	12.9	wordfreq+ours
+戴	4.72	1	12.9	wordfreq+ours
+户	4.71	63	814.0	wordfreq+ours
+戸	1.88	0		wordfreq
+戽	1.7	0		wordfreq
+戾	2.73	0		wordfreq
+房	4.76	3	38.8	wordfreq+ours
+所	6.04	108	1395.4	wordfreq+ours
+扁	3.95	0		wordfreq
+扃	1.45	0		wordfreq
+扅	0.0	0		none
+扆	2.01	0		wordfreq
+扇	4.07	0		wordfreq
+扈	2.09	0		wordfreq
+扉	2.41	0		wordfreq
+扊	0.0	0		none
+手	5.26	90	1162.9	wordfreq+ours
+才	5.87	67	865.7	wordfreq+ours
+扎	4.43	4	51.7	wordfreq+ours
+扑	4.19	8	103.4	wordfreq+ours
+扒	4.0	0		wordfreq
+打	5.6	68	878.6	wordfreq+ours
+扔	4.4	0		wordfreq
+托	4.72	7	90.4	wordfreq+ours
+扛	3.77	11	142.1	wordfreq+ours
+扞	1.9	0		wordfreq
+扡	0.0	0		none
+扣	4.25	7	90.4	wordfreq+ours
+扦	2.21	0		wordfreq
+执	4.14	69	891.5	wordfreq+ours
+扩	3.96	17	219.7	wordfreq+ours
+扪	2.49	0		wordfreq
+扫	4.17	4	51.7	wordfreq+ours
+扬	4.04	9	116.3	wordfreq+ours
+扭	3.71	4	51.7	wordfreq+ours
+扮	3.8	1	12.9	wordfreq+ours
+扯	4.34	0		wordfreq
+扰	3.39	4	51.7	wordfreq+ours
+扳	3.22	0		wordfreq
+扶	4.18	2	25.8	wordfreq+ours
+批	4.53	8	103.4	wordfreq+ours
+扺	1.5	0		wordfreq
+扼	2.62	0		wordfreq
+扽	0.0	0		none
+找	5.51	19	245.5	wordfreq+ours
+承	4.25	36	465.1	wordfreq+ours
+技	4.05	19	245.5	wordfreq+ours
+抃	0.0	0		none
+抄	4.03	6	77.5	wordfreq+ours
+抉	2.17	0		wordfreq
+把	6.17	253	3268.9	wordfreq+ours
+抑	3.25	7	90.4	wordfreq+ours
+抒	2.68	0		wordfreq
+抓	5.18	36	465.1	wordfreq+ours
+抔	1.44	0		wordfreq
+投	4.9	13	168.0	wordfreq+ours
+抖	3.74	0		wordfreq
+抗	4.38	8	103.4	wordfreq+ours
+折	4.3	11	142.1	wordfreq+ours
+抚	3.7	6	77.5	wordfreq+ours
+抛	4.1	4	51.7	wordfreq+ours
+抟	2.27	0		wordfreq
+抠	3.65	0		wordfreq
+抡	3.12	0		wordfreq
+抢	4.8	15	193.8	wordfreq+ours
+护	4.3	29	374.7	wordfreq+ours
+报	5.23	31	400.5	wordfreq+ours
+抨	2.0	0		wordfreq
+披	3.98	0		wordfreq
+抬	4.08	0		wordfreq
+抮	0.0	0		none
+抱	4.74	4	51.7	wordfreq+ours
+抵	3.91	10	129.2	wordfreq+ours
+抷	0.0	0		none
+抹	4.24	1	12.9	wordfreq+ours
+抺	1.59	0		wordfreq
+抻	2.21	0		wordfreq
+押	3.92	0		wordfreq
+抽	4.53	20	258.4	wordfreq+ours
+抿	2.52	0		wordfreq
+拂	2.83	0		wordfreq
+拃	1.09	0		wordfreq
+拄	2.6	0		wordfreq
+担	4.06	34	439.3	wordfreq+ours
+拆	4.24	1	12.9	wordfreq+ours
+拇	2.63	0		wordfreq
+拈	2.68	0		wordfreq
+拉	5.22	13	168.0	wordfreq+ours
+拊	2.06	0		wordfreq
+拋	4.1	0		wordfreq
+拌	3.6	0		wordfreq
+拍	5.21	1	12.9	wordfreq+ours
+拎	3.47	1	12.9	wordfreq+ours
+拏	1.84	0		wordfreq
+拐	3.57	0		wordfreq
+拒	4.15	3	38.8	wordfreq+ours
+拓	3.49	25	323.0	wordfreq+ours
+拔	4.02	16	206.7	wordfreq+ours
+拖	4.56	10	129.2	wordfreq+ours
+拗	2.86	0		wordfreq
+拘	3.37	2	25.8	wordfreq+ours
+拙	2.6	2	25.8	wordfreq+ours
+拚	3.33	0		wordfreq
+招	4.43	11	142.1	wordfreq+ours
+拜	4.62	2	25.8	wordfreq+ours
+拟	4.43	3	38.8	wordfreq+ours
+拢	3.1	1	12.9	wordfreq+ours
+拣	3.3	0		wordfreq
+拤	0.0	0		none
+拥	3.84	10	129.2	wordfreq+ours
+拦	3.65	1	12.9	wordfreq+ours
+拧	3.57	1	12.9	wordfreq+ours
+拨	4.18	5	64.6	wordfreq+ours
+择	3.77	20	258.4	wordfreq+ours
+括	3.42	5	64.6	wordfreq+ours
+拭	2.51	0		wordfreq
+拮	1.23	0		wordfreq
+拯	2.13	0		wordfreq
+拱	3.57	1	12.9	wordfreq+ours
+拳	3.97	0		wordfreq
+拴	3.21	0		wordfreq
+拶	1.92	0		wordfreq
+拷	3.32	1	12.9	wordfreq+ours
+拼	4.32	6	77.5	wordfreq+ours
+拽	3.82	1	12.9	wordfreq+ours
+拾	3.86	0		wordfreq
+拿	5.42	16	206.7	wordfreq+ours
+持	4.58	148	1912.3	wordfreq+ours
+挂	4.9	1	12.9	wordfreq+ours
+指	5.33	20	258.4	wordfreq+ours
+挈	1.99	0		wordfreq
+按	5.24	35	452.2	wordfreq+ours
+挌	1.33	0		wordfreq
+挎	2.37	0		wordfreq
+挑	4.33	10	129.2	wordfreq+ours
+挓	0.0	0		none
+挕	0.0	0		none
+挖	4.38	7	90.4	wordfreq+ours
+挚	2.33	0		wordfreq
+挛	2.76	0		wordfreq
+挝	2.98	0		wordfreq
+挞	2.92	0		wordfreq
+挟	2.93	1	12.9	wordfreq+ours
+挠	3.59	1	12.9	wordfreq+ours
+挡	4.33	1	12.9	wordfreq+ours
+挢	1.96	0		wordfreq
+挣	4.18	0		wordfreq
+挤	4.25	6	77.5	wordfreq+ours
+挥	4.03	24	310.1	wordfreq+ours
+挦	1.03	0		wordfreq
+挨	3.96	1	12.9	wordfreq+ours
+挪	3.54	4	51.7	wordfreq+ours
+挫	3.2	0		wordfreq
+振	3.5	10	129.2	wordfreq+ours
+挲	1.89	0		wordfreq
+挹	2.12	0		wordfreq
+挺	4.85	1	12.9	wordfreq+ours
+挻	1.42	0		wordfreq
+挼	1.85	0		wordfreq
+挽	3.23	2	25.8	wordfreq+ours
+挾	2.93	0		wordfreq
+捂	3.37	0		wordfreq
+捃	1.15	0		wordfreq
+捅	3.9	1	12.9	wordfreq+ours
+捆	3.71	1	12.9	wordfreq+ours
+捉	4.11	0		wordfreq
+捋	2.93	0		wordfreq
+捍	2.85	0		wordfreq
+捎	3.17	0		wordfreq
+捏	4.02	1	12.9	wordfreq+ours
+捐	3.97	5	64.6	wordfreq+ours
+捕	3.82	0		wordfreq
+捞	4.0	1	12.9	wordfreq+ours
+损	3.91	2	25.8	wordfreq+ours
+捡	4.29	1	12.9	wordfreq+ours
+换	5.03	27	348.9	wordfreq+ours
+捣	3.51	0		wordfreq
+捧	4.01	0		wordfreq
+捩	1.59	0		wordfreq
+捫	2.49	0		wordfreq
+捭	0.0	0		none
+据	5.39	38	491.0	wordfreq+ours
+捯	1.15	0		wordfreq
+捱	3.96	0		wordfreq
+捶	3.21	0		wordfreq
+捷	3.49	2	25.8	wordfreq+ours
+捺	2.29	0		wordfreq
+捻	3.05	0		wordfreq
+掀	3.48	1	12.9	wordfreq+ours
+掂	2.68	0		wordfreq
+掃	4.17	0		wordfreq
+掇	1.6	0		wordfreq
+授	4.14	5	64.6	wordfreq+ours
+掉	4.93	11	142.1	wordfreq+ours
+掊	1.66	0		wordfreq
+掌	3.98	27	348.9	wordfreq+ours
+掎	1.06	0		wordfreq
+掏	3.57	4	51.7	wordfreq+ours
+掐	3.5	1	12.9	wordfreq+ours
+排	4.57	11	142.1	wordfreq+ours
+掖	2.84	0		wordfreq
+掘	3.53	2	25.8	wordfreq+ours
+掛	4.9	0		wordfreq
+掟	1.72	0		wordfreq
+掠	3.54	22	284.3	wordfreq+ours
+採	4.41	0		wordfreq
+探	4.19	5	64.6	wordfreq+ours
+掣	3.38	2	25.8	wordfreq+ours
+接	4.93	115	1485.9	wordfreq+ours
+控	4.44	45	581.4	wordfreq+ours
+推	4.87	115	1485.9	wordfreq+ours
+掩	3.33	1	12.9	wordfreq+ours
+措	3.07	17	219.7	wordfreq+ours
+掬	2.01	0		wordfreq
+掮	1.1	1	12.9	wordfreq+ours
+掯	0.0	0		none
+掰	3.7	0		wordfreq
+掳	3.43	0		wordfreq
+掴	3.22	0		wordfreq
+掷	3.83	0		wordfreq
+掸	3.15	1	12.9	wordfreq+ours
+掺	3.38	0		wordfreq
+掼	2.11	0		wordfreq
+掾	2.54	0		wordfreq
+揄	2.03	0		wordfreq
+揆	2.74	0		wordfreq
+揉	3.97	0		wordfreq
+揍	3.85	0		wordfreq
+揎	0.0	0		none
+描	3.37	4	51.7	wordfreq+ours
+提	5.14	141	1821.8	wordfreq+ours
+插	4.52	2	25.8	wordfreq+ours
+揖	2.8	0		wordfreq
+換	5.03	0		wordfreq
+揞	1.29	0		wordfreq
+揠	0.0	0		none
+握	4.08	32	413.5	wordfreq+ours
+揣	3.06	1	12.9	wordfreq+ours
+揩	3.08	0		wordfreq
+揪	3.72	1	12.9	wordfreq+ours
+揭	3.86	2	25.8	wordfreq+ours
+揳	0.0	0		none
+援	3.74	4	51.7	wordfreq+ours
+揶	0.0	0		none
+揸	2.54	0		wordfreq
+揽	3.53	2	25.8	wordfreq+ours
+揾	2.65	0		wordfreq
+揿	2.14	0		wordfreq
+搀	2.58	0		wordfreq
+搁	3.48	0		wordfreq
+搂	3.71	0		wordfreq
+搅	3.74	0		wordfreq
+搋	1.35	0		wordfreq
+搌	0.0	0		none
+搏	3.44	0		wordfreq
+搐	1.86	0		wordfreq
+搓	3.47	0		wordfreq
+搔	3.17	0		wordfreq
+搖	3.93	0		wordfreq
+搛	1.26	0		wordfreq
+搜	4.46	2	25.8	wordfreq+ours
+搞	5.27	16	206.7	wordfreq+ours
+搠	1.85	0		wordfreq
+搡	2.41	0		wordfreq
+搢	0.0	0		none
+搤	0.0	0		none
+搦	1.82	0		wordfreq
+搧	2.3	0		wordfreq
+搪	2.08	0		wordfreq
+搬	4.59	3	38.8	wordfreq+ours
+搭	4.66	1	12.9	wordfreq+ours
+搰	0.0	0		none
+搴	1.84	0		wordfreq
+搶	4.8	0		wordfreq
+携	3.96	2	25.8	wordfreq+ours
+搽	2.99	0		wordfreq
+搾	2.1	0		wordfreq
+摁	3.11	0		wordfreq
+摄	4.46	0		wordfreq
+摅	1.69	0		wordfreq
+摆	4.6	5	64.6	wordfreq+ours
+摇	3.93	4	51.7	wordfreq+ours
+摈	2.07	0		wordfreq
+摊	3.77	13	168.0	wordfreq+ours
+摒	2.01	2	25.8	wordfreq+ours
+摔	4.2	1	12.9	wordfreq+ours
+摘	4.0	0		wordfreq
+摛	0.0	0		none
+摞	2.73	0		wordfreq
+摧	2.92	1	12.9	wordfreq+ours
+摩	4.04	2	25.8	wordfreq+ours
+摭	1.92	0		wordfreq
+摯	2.33	0		wordfreq
+摸	4.57	6	77.5	wordfreq+ours
+摹	2.87	0		wordfreq
+摺	4.3	0		wordfreq
+摽	2.02	0		wordfreq
+撂	2.66	0		wordfreq
+撄	1.79	0		wordfreq
+撅	3.33	0		wordfreq
+撇	3.22	1	12.9	wordfreq+ours
+撈	4.0	0		wordfreq
+撑	4.3	13	168.0	wordfreq+ours
+撒	4.3	1	12.9	wordfreq+ours
+撕	3.85	2	25.8	wordfreq+ours
+撘	2.06	0		wordfreq
+撙	1.23	0		wordfreq
+撞	4.54	1	12.9	wordfreq+ours
+撤	4.24	1	12.9	wordfreq+ours
+撧	0.0	0		none
+撩	3.46	3	38.8	wordfreq+ours
+撬	3.21	0		wordfreq
+播	4.18	0		wordfreq
+撮	3.47	1	12.9	wordfreq+ours
+撰	3.75	0		wordfreq
+撵	3.02	0		wordfreq
+撷	2.15	0		wordfreq
+撸	4.27	0		wordfreq
+撺	0.0	0		none
+撼	2.5	0		wordfreq
+撿	4.29	0		wordfreq
+擀	2.37	0		wordfreq
+擂	2.56	0		wordfreq
+擅	3.49	3	38.8	wordfreq+ours
+操	4.91	5	64.6	wordfreq+ours
+擎	2.78	1	12.9	wordfreq+ours
+擐	1.43	0		wordfreq
+擒	3.56	0		wordfreq
+擖	0.0	0		none
+擗	1.16	0		wordfreq
+擘	2.15	0		wordfreq
+擞	2.39	0		wordfreq
+擢	2.99	0		wordfreq
+擤	2.32	0		wordfreq
+擦	4.38	2	25.8	wordfreq+ours
+擬	4.43	0		wordfreq
+擭	1.62	0		wordfreq
+擳	0.0	0		none
+擸	0.0	0		none
+擾	3.39	0		wordfreq
+擿	1.23	0		wordfreq
+攀	3.6	1	12.9	wordfreq+ours
+攉	1.49	0		wordfreq
+攒	3.46	3	38.8	wordfreq+ours
+攘	2.04	0		wordfreq
+攥	3.11	1	12.9	wordfreq+ours
+攫	2.42	0		wordfreq
+攮	1.03	0		wordfreq
+支	4.64	48	620.2	wordfreq+ours
+收	4.88	108	1395.4	wordfreq+ours
+攸	3.31	0		wordfreq
+改	5.03	107	1382.5	wordfreq+ours
+攻	4.16	10	129.2	wordfreq+ours
+放	5.21	63	814.0	wordfreq+ours
+政	4.37	333	4302.6	wordfreq+ours
+故	4.87	4	51.7	wordfreq+ours
+效	3.67	85	1098.3	wordfreq+ours
+敉	2.07	0		wordfreq
+敌	4.44	3	38.8	wordfreq+ours
+敏	3.61	1	12.9	wordfreq+ours
+救	4.96	18	232.6	wordfreq+ours
+敕	3.29	0		wordfreq
+敖	3.01	0		wordfreq
+敗	4.16	0		wordfreq
+教	5.07	53	684.8	wordfreq+ours
+敛	2.55	6	77.5	wordfreq+ours
+敝	3.21	3	38.8	wordfreq+ours
+敞	2.98	1	12.9	wordfreq+ours
+敢	4.84	36	465.1	wordfreq+ours
+散	4.33	13	168.0	wordfreq+ours
+敦	3.58	3	38.8	wordfreq+ours
+敬	4.01	4	51.7	wordfreq+ours
+数	5.1	59	762.3	wordfreq+ours
+敲	4.09	4	51.7	wordfreq+ours
+整	4.41	100	1292.1	wordfreq+ours
+敵	4.44	0		wordfreq
+敷	3.71	4	51.7	wordfreq+ours
+斃	3.74	0		wordfreq
+文	4.99	187	2416.2	wordfreq+ours
+斋	3.71	0		wordfreq
+斌	3.33	0		wordfreq
+斐	3.41	1	12.9	wordfreq+ours
+斑	3.85	0		wordfreq
+斓	3.18	0		wordfreq
+斗	4.38	26	335.9	wordfreq+ours
+料	4.5	17	219.7	wordfreq+ours
+斛	2.83	0		wordfreq
+斜	3.89	2	25.8	wordfreq+ours
+斝	1.78	0		wordfreq
+斟	2.58	0		wordfreq
+斠	1.23	0		wordfreq
+斡	2.99	0		wordfreq
+斤	3.97	3	38.8	wordfreq+ours
+斥	3.42	3	38.8	wordfreq+ours
+斧	3.35	0		wordfreq
+斨	0.0	0		none
+斩	4.14	3	38.8	wordfreq+ours
+斫	2.51	0		wordfreq
+断	4.56	63	814.0	wordfreq+ours
+斮	0.0	0		none
+斯	4.99	4	51.7	wordfreq+ours
+新	6.09	169	2183.6	wordfreq+ours
+斶	1.01	0		wordfreq
+方	4.91	170	2196.5	wordfreq+ours
+於	6.31	0		wordfreq
+施	4.27	19	245.5	wordfreq+ours
+旁	4.46	1	12.9	wordfreq+ours
+旂	4.2	0		wordfreq
+旃	2.38	0		wordfreq
+旄	2.17	0		wordfreq
+旅	4.27	0		wordfreq
+旆	2.55	0		wordfreq
+旋	3.57	1	12.9	wordfreq+ours
+旌	2.4	0		wordfreq
+旎	1.4	0		wordfreq
+族	4.7	78	1007.8	wordfreq+ours
+旒	1.9	0		wordfreq
+旖	1.6	0		wordfreq
+旗	4.2	2	25.8	wordfreq+ours
+无	5.65	65	839.8	wordfreq+ours
+既	5.09	29	374.7	wordfreq+ours
+日	6.3	36	465.1	wordfreq+ours
+旦	3.52	20	258.4	wordfreq+ours
+旧	5.01	20	258.4	wordfreq+ours
+旨	3.85	7	90.4	wordfreq+ours
+早	5.16	8	103.4	wordfreq+ours
+旬	3.12	0		wordfreq
+旭	3.37	0		wordfreq
+旮	1.7	0		wordfreq
+旯	1.88	0		wordfreq
+旰	1.76	0		wordfreq
+旱	3.15	2	25.8	wordfreq+ours
+旵	0.0	0		none
+时	6.18	297	3837.5	wordfreq+ours
+旷	2.62	0		wordfreq
+旸	2.75	0		wordfreq
+旺	3.8	1	12.9	wordfreq+ours
+旻	2.95	0		wordfreq
+旼	1.47	0		wordfreq
+旽	0.0	0		none
+昀	2.61	0		wordfreq
+昂	3.63	1	12.9	wordfreq+ours
+昃	1.73	0		wordfreq
+昄	1.06	0		wordfreq
+昆	3.68	0		wordfreq
+昇	4.63	0		wordfreq
+昈	0.0	0		none
+昉	2.56	0		wordfreq
+昊	2.8	0		wordfreq
+昌	3.49	1	12.9	wordfreq+ours
+明	4.98	100	1292.1	wordfreq+ours
+昏	3.66	1	12.9	wordfreq+ours
+易	4.6	36	465.1	wordfreq+ours
+昔	3.18	0		wordfreq
+昕	2.72	0		wordfreq
+昙	3.32	0		wordfreq
+昚	1.36	0		wordfreq
+昝	1.68	0		wordfreq
+星	4.7	0		wordfreq
+映	3.53	6	77.5	wordfreq+ours
+昤	0.0	0		none
+春	4.33	2	25.8	wordfreq+ours
+昧	2.73	0		wordfreq
+昨	3.28	1	12.9	wordfreq+ours
+昭	3.56	5	64.6	wordfreq+ours
+是	7.17	976	12610.6	wordfreq+ours
+昰	2.02	0		wordfreq
+昱	2.49	0		wordfreq
+昳	0.0	0		none
+昴	2.85	0		wordfreq
+昵	2.73	0		wordfreq
+昶	2.09	0		wordfreq
+昺	1.99	0		wordfreq
+昼	2.53	0		wordfreq
+昽	1.24	0		wordfreq
+显	4.57	14	180.9	wordfreq+ours
+晁	2.17	0		wordfreq
+時	6.18	0		wordfreq
+晃	3.85	0		wordfreq
+晋	3.98	13	168.0	wordfreq+ours
+晌	1.83	0		wordfreq
+晏	3.35	0		wordfreq
+晒	4.4	0		wordfreq
+晓	3.68	0		wordfreq
+晔	2.22	0		wordfreq
+晕	4.15	0		wordfreq
+晖	2.8	0		wordfreq
+晗	2.03	0		wordfreq
+晙	1.4	0		wordfreq
+晚	4.74	5	64.6	wordfreq+ours
+晞	2.62	0		wordfreq
+晟	2.92	0		wordfreq
+晡	1.77	0		wordfreq
+晤	2.8	0		wordfreq
+晦	2.98	0		wordfreq
+晧	1.57	0		wordfreq
+晨	3.43	0		wordfreq
+普	4.33	10	129.2	wordfreq+ours
+景	4.0	26	335.9	wordfreq+ours
+晰	2.16	5	64.6	wordfreq+ours
+晴	3.85	0		wordfreq
+晶	3.29	1	12.9	wordfreq+ours
+晷	2.22	0		wordfreq
+晸	1.63	0		wordfreq
+智	4.13	6	77.5	wordfreq+ours
+晼	0.0	0		none
+晾	3.31	0		wordfreq
+暂	4.19	1	12.9	wordfreq+ours
+暄	2.01	0		wordfreq
+暇	2.53	0		wordfreq
+暋	0.0	0		none
+暌	1.99	0		wordfreq
+暏	0.0	0		none
+暑	2.33	0		wordfreq
+暖	4.27	4	51.7	wordfreq+ours
+暗	4.36	8	103.4	wordfreq+ours
+暝	2.55	0		wordfreq
+暧	2.44	0		wordfreq
+暨	4.4	0		wordfreq
+暪	1.23	0		wordfreq
+暫	4.19	0		wordfreq
+暮	3.55	0		wordfreq
+暱	3.24	0		wordfreq
+暴	3.66	8	103.4	wordfreq+ours
+暸	1.81	0		wordfreq
+暹	2.64	0		wordfreq
+暻	2.45	0		wordfreq
+暾	1.96	0		wordfreq
+曈	0.0	0		none
+曉	3.68	0		wordfreq
+曌	1.39	0		wordfreq
+曙	3.01	0		wordfreq
+曚	1.47	0		wordfreq
+曛	1.81	0		wordfreq
+曜	2.75	0		wordfreq
+曝	3.47	1	12.9	wordfreq+ours
+曦	2.76	0		wordfreq
+曧	1.29	0		wordfreq
+曩	2.31	0		wordfreq
+曰	4.57	0		wordfreq
+曱	0.0	0		none
+曲	4.36	3	38.8	wordfreq+ours
+曳	2.93	0		wordfreq
+更	6.06	147	1899.3	wordfreq+ours
+曷	2.3	0		wordfreq
+曹	4.21	2	25.8	wordfreq+ours
+曼	4.27	0		wordfreq
+曾	5.58	10	129.2	wordfreq+ours
+替	4.79	13	168.0	wordfreq+ours
+最	6.03	171	2209.4	wordfreq+ours
+月	6.44	28	361.8	wordfreq+ours
+有	6.83	459	5930.6	wordfreq+ours
+朊	2.23	0		wordfreq
+朋	3.49	1	12.9	wordfreq+ours
+服	4.35	87	1124.1	wordfreq+ours
+朏	1.19	0		wordfreq
+朐	2.34	0		wordfreq
+朓	1.74	0		wordfreq
+朔	3.33	0		wordfreq
+朕	4.04	0		wordfreq
+朗	4.14	2	25.8	wordfreq+ours
+朘	0.0	0		none
+朙	1.07	0		wordfreq
+望	4.49	15	193.8	wordfreq+ours
+朝	4.73	195	2519.5	wordfreq+ours
+期	5.32	74	956.1	wordfreq+ours
+朣	0.0	0		none
+朤	0.0	0		none
+朦	1.5	0		wordfreq
+朧	2.79	0		wordfreq
+木	4.37	3	38.8	wordfreq+ours
+未	5.46	36	465.1	wordfreq+ours
+末	4.38	24	310.1	wordfreq+ours
+本	5.52	193	2493.7	wordfreq+ours
+札	3.82	3	38.8	wordfreq+ours
+术	4.6	15	193.8	wordfreq+ours
+朱	4.3	4	51.7	wordfreq+ours
+朲	1.11	0		wordfreq
+朳	0.0	0		none
+朴	3.79	3	38.8	wordfreq+ours
+朵	3.75	0		wordfreq
+朷	0.0	0		none
+机	5.05	111	1434.2	wordfreq+ours
+朽	2.58	0		wordfreq
+朿	0.0	0		none
+杀	5.4	6	77.5	wordfreq+ours
+杂	4.09	14	180.9	wordfreq+ours
+权	5.09	114	1473.0	wordfreq+ours
+杄	0.0	0		none
+杆	3.96	3	38.8	wordfreq+ours
+杈	2.31	0		wordfreq
+杉	3.73	0		wordfreq
+杋	0.0	0		none
+杌	2.15	0		wordfreq
+李	4.96	17	219.7	wordfreq+ours
+杏	3.6	0		wordfreq
+材	4.04	12	155.0	wordfreq+ours
+村	4.97	27	348.9	wordfreq+ours
+杓	2.78	0		wordfreq
+杖	3.4	2	25.8	wordfreq+ours
+杙	1.41	0		wordfreq
+杜	4.19	4	51.7	wordfreq+ours
+杞	2.71	0		wordfreq
+束	3.77	10	129.2	wordfreq+ours
+杠	3.55	2	25.8	wordfreq+ours
+条	5.35	75	969.1	wordfreq+ours
+来	6.45	369	4767.7	wordfreq+ours
+杧	1.99	0		wordfreq
+杨	4.59	5	64.6	wordfreq+ours
+杩	1.98	0		wordfreq
+杪	2.16	0		wordfreq
+杬	1.95	0		wordfreq
+杭	3.75	0		wordfreq
+杯	4.66	0		wordfreq
+杰	4.14	3	38.8	wordfreq+ours
+東	5.17	0		wordfreq
+杲	2.06	0		wordfreq
+杳	2.22	0		wordfreq
+杵	3.07	0		wordfreq
+杷	1.98	0		wordfreq
+杼	1.89	0		wordfreq
+松	4.53	9	116.3	wordfreq+ours
+板	4.61	12	155.0	wordfreq+ours
+极	4.93	33	426.4	wordfreq+ours
+构	3.88	52	671.9	wordfreq+ours
+枇	1.71	0		wordfreq
+枉	3.03	0		wordfreq
+枋	2.54	0		wordfreq
+析	3.63	21	271.3	wordfreq+ours
+枕	3.67	0		wordfreq
+林	4.79	8	103.4	wordfreq+ours
+枘	1.8	0		wordfreq
+枚	4.24	4	51.7	wordfreq+ours
+果	4.45	68	878.6	wordfreq+ours
+枝	3.53	0		wordfreq
+枞	1.75	0		wordfreq
+枢	2.9	1	12.9	wordfreq+ours
+枣	3.17	0		wordfreq
+枥	1.73	0		wordfreq
+枧	2.32	0		wordfreq
+枨	2.05	0		wordfreq
+枪	4.92	1	12.9	wordfreq+ours
+枫	3.44	1	12.9	wordfreq+ours
+枭	3.36	0		wordfreq
+枯	3.31	2	25.8	wordfreq+ours
+枰	3.1	0		wordfreq
+枱	2.1	0		wordfreq
+枳	2.28	0		wordfreq
+枵	1.56	0		wordfreq
+架	4.63	11	142.1	wordfreq+ours
+枷	2.71	2	25.8	wordfreq+ours
+枸	1.81	0		wordfreq
+枹	1.94	0		wordfreq
+柁	1.61	0		wordfreq
+柃	1.25	0		wordfreq
+柄	3.85	0		wordfreq
+柆	0.0	0		none
+柊	2.68	0		wordfreq
+柏	3.63	0		wordfreq
+某	4.98	4	51.7	wordfreq+ours
+柑	3.3	0		wordfreq
+柒	2.0	0		wordfreq
+染	3.91	3	38.8	wordfreq+ours
+柔	3.55	5	64.6	wordfreq+ours
+柘	2.31	0		wordfreq
+柙	1.82	0		wordfreq
+柚	2.67	0		wordfreq
+柛	0.0	0		none
+柜	3.8	0		wordfreq
+柝	1.86	0		wordfreq
+柞	2.02	0		wordfreq
+柠	2.33	0		wordfreq
+柢	2.37	0		wordfreq
+查	4.93	60	775.2	wordfreq+ours
+柩	2.11	0		wordfreq
+柬	3.31	0		wordfreq
+柮	0.0	0		none
+柯	3.91	0		wordfreq
+柰	2.2	0		wordfreq
+柱	3.93	2	25.8	wordfreq+ours
+柳	3.91	0		wordfreq
+柴	3.65	0		wordfreq
+柷	1.62	0		wordfreq
+柺	3.57	0		wordfreq
+柽	1.71	0		wordfreq
+柿	2.85	0		wordfreq
+栀	1.94	0		wordfreq
+栃	2.3	0		wordfreq
+栅	3.03	0		wordfreq
+标	4.38	44	568.5	wordfreq+ours
+栈	3.38	0		wordfreq
+栉	2.48	0		wordfreq
+栊	2.02	0		wordfreq
+栋	4.05	0		wordfreq
+栌	2.02	0		wordfreq
+栎	3.03	0		wordfreq
+栏	3.87	1	12.9	wordfreq+ours
+树	4.66	4	51.7	wordfreq+ours
+栒	0.0	0		none
+栓	3.02	0		wordfreq
+栖	3.17	0		wordfreq
+栗	3.6	0		wordfreq
+栝	1.51	0		wordfreq
+栟	1.45	0		wordfreq
+校	4.3	4	51.7	wordfreq+ours
+栩	1.63	0		wordfreq
+株	3.73	0		wordfreq
+栱	2.01	0		wordfreq
+栲	1.86	0		wordfreq
+栳	1.41	0		wordfreq
+样	4.54	106	1369.6	wordfreq+ours
+核	4.49	42	542.7	wordfreq+ours
+根	4.67	75	969.1	wordfreq+ours
+格	4.95	40	516.8	wordfreq+ours
+栽	3.52	1	12.9	wordfreq+ours
+栾	2.54	0		wordfreq
+桀	2.41	0		wordfreq
+桁	2.35	0		wordfreq
+桂	3.49	0		wordfreq
+桃	3.62	0		wordfreq
+桄	1.7	0		wordfreq
+桅	2.73	0		wordfreq
+框	3.87	3	38.8	wordfreq+ours
+案	4.97	31	400.5	wordfreq+ours
+桉	2.36	0		wordfreq
+桊	0.0	0		none
+桌	3.79	2	25.8	wordfreq+ours
+桎	1.18	0		wordfreq
+桐	2.92	0		wordfreq
+桑	4.05	21	271.3	wordfreq+ours
+桓	3.19	2	25.8	wordfreq+ours
+桔	3.08	0		wordfreq
+桕	1.66	0		wordfreq
+桖	1.17	0		wordfreq
+桜	2.43	0		wordfreq
+桠	1.94	0		wordfreq
+桡	2.75	0		wordfreq
+桢	2.39	0		wordfreq
+档	4.41	3	38.8	wordfreq+ours
+桤	2.2	0		wordfreq
+桥	4.61	4	51.7	wordfreq+ours
+桦	3.38	0		wordfreq
+桧	2.52	0		wordfreq
+桨	3.48	0		wordfreq
+桩	3.85	0		wordfreq
+桫	0.0	0		none
+桯	1.76	0		wordfreq
+桲	1.85	0		wordfreq
+桴	2.15	0		wordfreq
+桶	4.02	0		wordfreq
+桷	1.72	0		wordfreq
+梁	4.34	6	77.5	wordfreq+ours
+梃	1.82	0		wordfreq
+梅	4.27	0		wordfreq
+梆	2.57	0		wordfreq
+梏	0.0	0		none
+梓	3.27	0		wordfreq
+梗	3.62	0		wordfreq
+梢	3.08	1	12.9	wordfreq+ours
+梦	5.01	1	12.9	wordfreq+ours
+梧	2.33	0		wordfreq
+梨	3.97	0		wordfreq
+梫	0.0	0		none
+梭	3.12	0		wordfreq
+梯	3.37	2	25.8	wordfreq+ours
+械	3.76	1	12.9	wordfreq+ours
+梱	1.8	0		wordfreq
+梳	3.42	5	64.6	wordfreq+ours
+梵	3.18	0		wordfreq
+梶	1.94	0		wordfreq
+梼	2.12	0		wordfreq
+梾	2.01	0		wordfreq
+梿	2.67	0		wordfreq
+检	3.95	24	310.1	wordfreq+ours
+棁	1.69	0		wordfreq
+棂	2.51	0		wordfreq
+棅	1.32	0		wordfreq
+棉	3.83	0		wordfreq
+棋	3.83	0		wordfreq
+棍	3.73	0		wordfreq
+棒	4.73	0		wordfreq
+棓	1.78	0		wordfreq
+棕	3.42	0		wordfreq
+棘	3.34	0		wordfreq
+棚	3.52	1	12.9	wordfreq+ours
+棠	3.21	0		wordfreq
+棣	3.45	1	12.9	wordfreq+ours
+棨	1.67	0		wordfreq
+棫	2.19	0		wordfreq
+棬	0.0	0		none
+森	4.26	2	25.8	wordfreq+ours
+棰	1.89	0		wordfreq
+棱	3.78	0		wordfreq
+棲	3.17	0		wordfreq
+棵	3.72	0		wordfreq
+棶	2.01	0		wordfreq
+棹	2.34	0		wordfreq
+棺	3.37	0		wordfreq
+棻	2.49	0		wordfreq
+棼	1.38	0		wordfreq
+棽	1.13	0		wordfreq
+椀	1.25	0		wordfreq
+椁	2.21	0		wordfreq
+椅	3.4	0		wordfreq
+椇	1.44	0		wordfreq
+椋	2.9	0		wordfreq
+椌	0.0	0		none
+植	3.57	6	77.5	wordfreq+ours
+椎	3.17	0		wordfreq
+椐	1.8	0		wordfreq
+椑	0.0	0		none
+椒	3.21	0		wordfreq
+椟	1.8	0		wordfreq
+椠	1.19	0		wordfreq
+椤	2.89	0		wordfreq
+椪	1.43	0		wordfreq
+椭	2.56	0		wordfreq
+椰	2.7	0		wordfreq
+椴	2.59	0		wordfreq
+椹	1.88	0		wordfreq
+椽	2.59	0		wordfreq
+椿	3.15	0		wordfreq
+楂	1.94	0		wordfreq
+楊	4.59	0		wordfreq
+楔	2.85	0		wordfreq
+楗	1.61	0		wordfreq
+楙	2.29	0		wordfreq
+楚	4.21	9	116.3	wordfreq+ours
+楝	2.7	0		wordfreq
+楞	3.55	0		wordfreq
+楠	3.1	0		wordfreq
+楢	1.7	0		wordfreq
+楣	2.6	0		wordfreq
+楤	0.0	0		none
+楦	2.3	0		wordfreq
+楪	1.48	0		wordfreq
+楫	2.29	0		wordfreq
+楬	1.14	0		wordfreq
+楮	2.02	0		wordfreq
+楯	2.06	0		wordfreq
+楳	0.0	0		none
+極	4.93	0		wordfreq
+楷	2.71	0		wordfreq
+楸	2.49	0		wordfreq
+楹	2.82	0		wordfreq
+楼	4.82	4	51.7	wordfreq+ours
+楽	2.95	0		wordfreq
+榀	1.59	0		wordfreq
+概	3.27	6	77.5	wordfreq+ours
+榄	3.01	0		wordfreq
+榅	1.77	0		wordfreq
+榆	2.88	0		wordfreq
+榇	2.42	0		wordfreq
+榈	2.28	0		wordfreq
+榉	2.76	0		wordfreq
+榊	1.12	0		wordfreq
+榍	1.86	0		wordfreq
+榎	1.67	0		wordfreq
+榔	2.29	0		wordfreq
+榕	2.85	0		wordfreq
+榖	2.65	0		wordfreq
+榘	3.24	0		wordfreq
+榚	1.31	0		wordfreq
+榛	3.0	0		wordfreq
+榜	4.27	5	64.6	wordfreq+ours
+榧	2.49	0		wordfreq
+榨	3.04	4	51.7	wordfreq+ours
+榫	2.77	0		wordfreq
+榭	3.31	1	12.9	wordfreq+ours
+榮	3.97	0		wordfreq
+榱	1.68	0		wordfreq
+榴	3.21	0		wordfreq
+榷	2.54	0		wordfreq
+榻	2.71	1	12.9	wordfreq+ours
+榾	0.0	0		none
+槁	1.8	0		wordfreq
+槃	2.9	0		wordfreq
+槅	1.61	0		wordfreq
+槊	2.41	0		wordfreq
+槌	3.34	0		wordfreq
+槎	2.75	0		wordfreq
+槐	2.81	0		wordfreq
+槔	2.08	0		wordfreq
+様	2.97	0		wordfreq
+槙	1.71	0		wordfreq
+槚	1.37	0		wordfreq
+槛	2.64	0		wordfreq
+槜	1.29	0		wordfreq
+槟	2.91	0		wordfreq
+槠	2.6	0		wordfreq
+槭	3.01	0		wordfreq
+槲	2.37	0		wordfreq
+槻	2.35	0		wordfreq
+槽	4.17	1	12.9	wordfreq+ours
+槿	2.42	0		wordfreq
+樊	3.01	0		wordfreq
+樋	2.22	0		wordfreq
+樑	4.34	0		wordfreq
+樗	2.54	0		wordfreq
+樘	2.39	0		wordfreq
+樟	2.94	0		wordfreq
+模	4.07	26	335.9	wordfreq+ours
+樣	4.54	0		wordfreq
+樨	0.0	0		none
+横	3.93	9	116.3	wordfreq+ours
+樫	2.17	0		wordfreq
+樯	2.3	0		wordfreq
+樱	3.66	0		wordfreq
+樵	3.27	0		wordfreq
+樽	3.13	0		wordfreq
+樾	2.3	0		wordfreq
+橄	2.1	0		wordfreq
+橇	2.81	0		wordfreq
+橐	2.94	0		wordfreq
+橑	0.0	0		none
+橘	3.23	0		wordfreq
+橙	3.67	0		wordfreq
+橛	2.32	0		wordfreq
+橡	3.07	0		wordfreq
+橦	1.79	0		wordfreq
+橫	3.93	0		wordfreq
+橱	2.94	0		wordfreq
+橹	3.33	0		wordfreq
+橼	1.69	0		wordfreq
+檀	3.11	0		wordfreq
+檄	2.67	0		wordfreq
+檎	1.56	0		wordfreq
+檐	2.83	0		wordfreq
+檑	0.0	0		none
+檗	1.36	0		wordfreq
+檞	1.96	0		wordfreq
+檠	2.02	0		wordfreq
+檩	2.01	0		wordfreq
+檫	2.24	0		wordfreq
+檬	2.53	0		wordfreq
+檵	1.46	0		wordfreq
+櫃	3.8	0		wordfreq
+櫈	1.63	0		wordfreq
+櫜	0.0	0		none
+櫽	0.0	0		none
+欂	0.0	0		none
+權	5.09	0		wordfreq
+欠	4.37	6	77.5	wordfreq+ours
+次	5.46	63	814.0	wordfreq+ours
+欢	3.79	13	168.0	wordfreq+ours
+欣	3.53	0		wordfreq
+欤	2.56	0		wordfreq
+欧	4.69	4	51.7	wordfreq+ours
+欲	4.71	4	51.7	wordfreq+ours
+欸	3.13	0		wordfreq
+欹	1.79	0		wordfreq
+欺	3.52	1	12.9	wordfreq+ours
+欻	1.23	0		wordfreq
+款	4.74	15	193.8	wordfreq+ours
+歃	1.21	0		wordfreq
+歆	2.19	0		wordfreq
+歇	3.79	3	38.8	wordfreq+ours
+歉	3.14	2	25.8	wordfreq+ours
+歊	1.06	0		wordfreq
+歌	4.78	0		wordfreq
+歐	4.69	0		wordfreq
+歙	2.31	0		wordfreq
+歠	0.0	0		none
+止	4.23	32	413.5	wordfreq+ours
+正	5.54	179	2312.8	wordfreq+ours
+此	5.68	54	697.7	wordfreq+ours
+步	4.58	38	491.0	wordfreq+ours
+武	4.14	55	710.6	wordfreq+ours
+歧	2.98	1	12.9	wordfreq+ours
+歩	3.06	0		wordfreq
+歪	3.89	3	38.8	wordfreq+ours
+歹	2.07	0		wordfreq
+死	5.59	45	581.4	wordfreq+ours
+歼	3.6	0		wordfreq
+殁	3.0	0		wordfreq
+殂	2.31	0		wordfreq
+殃	2.06	1	12.9	wordfreq+ours
+殄	1.72	0		wordfreq
+殆	2.62	1	12.9	wordfreq+ours
+殇	2.99	0		wordfreq
+殉	2.77	1	12.9	wordfreq+ours
+殊	3.35	7	90.4	wordfreq+ours
+残	4.04	7	90.4	wordfreq+ours
+殍	0.0	1	12.9	ours
+殒	2.05	0		wordfreq
+殓	2.77	0		wordfreq
+殖	3.19	3	38.8	wordfreq+ours
+殚	1.48	0		wordfreq
+殛	2.06	0		wordfreq
+殡	2.42	0		wordfreq
+殢	1.12	0		wordfreq
+殣	0.0	0		none
+殪	1.23	0		wordfreq
+殭	3.58	0		wordfreq
+殳	1.88	0		wordfreq
+殴	3.39	0		wordfreq
+段	5.15	125	1615.1	wordfreq+ours
+殷	3.31	0		wordfreq
+殺	5.4	0		wordfreq
+殻	4.18	0		wordfreq
+殿	4.17	1	12.9	wordfreq+ours
+毁	4.59	2	25.8	wordfreq+ours
+毂	2.11	0		wordfreq
+毅	3.23	1	12.9	wordfreq+ours
+毋	2.81	0		wordfreq
+母	4.4	0		wordfreq
+毎	2.9	0		wordfreq
+每	5.48	62	801.1	wordfreq+ours
+毐	1.28	0		wordfreq
+毑	0.0	0		none
+毒	4.44	9	116.3	wordfreq+ours
+毓	2.93	0		wordfreq
+比	5.78	74	956.1	wordfreq+ours
+毕	4.13	0		wordfreq
+毖	2.33	1	12.9	wordfreq+ours
+毗	3.15	0		wordfreq
+毙	3.74	1	12.9	wordfreq+ours
+毛	4.89	6	77.5	wordfreq+ours
+毡	3.11	0		wordfreq
+毪	1.09	0		wordfreq
+毫	3.61	0		wordfreq
+毯	3.13	0		wordfreq
+毰	0.0	0		none
+毳	1.5	0		wordfreq
+毵	0.0	0		none
+毸	0.0	0		none
+毹	0.0	0		none
+毽	1.86	0		wordfreq
+氅	0.0	0		none
+氆	0.0	0		none
+氇	0.0	0		none
+氍	0.0	0		none
+氏	4.14	4	51.7	wordfreq+ours
+氐	3.15	0		wordfreq
+民	4.58	251	3243.1	wordfreq+ours
+氓	2.18	0		wordfreq
+气	4.75	26	335.9	wordfreq+ours
+氕	1.28	0		wordfreq
+氖	3.09	0		wordfreq
+氘	2.38	0		wordfreq
+氙	2.31	0		wordfreq
+氚	2.44	0		wordfreq
+氛	2.79	9	116.3	wordfreq+ours
+氟	3.5	0		wordfreq
+氡	2.57	0		wordfreq
+氢	3.82	0		wordfreq
+氣	4.75	0		wordfreq
+氤	1.8	0		wordfreq
+氦	3.31	0		wordfreq
+氧	3.88	0		wordfreq
+氨	3.69	0		wordfreq
+氩	2.79	0		wordfreq
+氪	3.37	0		wordfreq
+氮	3.67	0		wordfreq
+氯	3.52	0		wordfreq
+氰	2.82	0		wordfreq
+氲	2.17	0		wordfreq
+水	5.3	23	297.2	wordfreq+ours
+永	4.13	23	297.2	wordfreq+ours
+氹	2.01	0		wordfreq
+氽	1.59	0		wordfreq
+氾	4.13	0		wordfreq
+汀	3.83	0		wordfreq
+汁	3.74	0		wordfreq
+求	5.09	72	930.3	wordfreq+ours
+汃	0.0	0		none
+汆	2.16	0		wordfreq
+汇	4.33	2	25.8	wordfreq+ours
+汈	0.0	0		none
+汉	4.45	87	1124.1	wordfreq+ours
+汊	2.45	0		wordfreq
+汍	0.0	0		none
+汐	1.97	0		wordfreq
+汕	2.56	0		wordfreq
+汗	4.16	5	64.6	wordfreq+ours
+汛	2.03	2	25.8	wordfreq+ours
+汜	2.7	0		wordfreq
+汝	3.53	0		wordfreq
+汞	3.46	0		wordfreq
+江	4.4	19	245.5	wordfreq+ours
+池	3.94	2	25.8	wordfreq+ours
+污	3.74	1	12.9	wordfreq+ours
+汤	4.4	1	12.9	wordfreq+ours
+汨	2.12	0		wordfreq
+汩	1.11	0		wordfreq
+汪	3.76	0		wordfreq
+汫	0.0	0		none
+汭	1.63	0		wordfreq
+汰	2.97	2	25.8	wordfreq+ours
+汲	2.69	1	12.9	wordfreq+ours
+汴	2.59	3	38.8	wordfreq+ours
+汶	2.9	0		wordfreq
+汹	1.14	0		wordfreq
+汽	3.45	0		wordfreq
+汾	2.54	0		wordfreq
+沁	2.91	0		wordfreq
+沂	2.75	0		wordfreq
+沃	3.8	0		wordfreq
+沄	1.27	0		wordfreq
+沅	3.3	0		wordfreq
+沆	1.98	0		wordfreq
+沈	3.91	0		wordfreq
+沉	4.22	9	116.3	wordfreq+ours
+沌	2.13	0		wordfreq
+沏	2.48	0		wordfreq
+沐	3.18	0		wordfreq
+沒	6.07	0		wordfreq
+沓	2.58	0		wordfreq
+沔	2.66	0		wordfreq
+沕	0.0	0		none
+沘	1.14	0		wordfreq
+沙	4.4	4	51.7	wordfreq+ours
+沚	1.68	0		wordfreq
+沛	2.89	0		wordfreq
+沟	3.88	4	51.7	wordfreq+ours
+没	6.07	86	1111.2	wordfreq+ours
+沢	3.23	0		wordfreq
+沣	2.95	0		wordfreq
+沤	2.49	0		wordfreq
+沥	2.49	0		wordfreq
+沦	3.23	4	51.7	wordfreq+ours
+沧	3.27	1	12.9	wordfreq+ours
+沨	1.24	0		wordfreq
+沩	2.21	0		wordfreq
+沪	4.12	0		wordfreq
+沫	3.24	0		wordfreq
+沭	2.25	0		wordfreq
+沮	3.06	0		wordfreq
+沱	2.39	0		wordfreq
+河	4.74	18	232.6	wordfreq+ours
+沷	0.0	0		none
+沸	2.85	1	12.9	wordfreq+ours
+油	4.53	0		wordfreq
+沺	1.04	0		wordfreq
+治	4.7	257	3320.6	wordfreq+ours
+沼	3.04	0		wordfreq
+沽	2.99	0		wordfreq
+沾	4.01	0		wordfreq
+沿	4.23	5	64.6	wordfreq+ours
+況	3.8	0		wordfreq
+泃	1.51	0		wordfreq
+泄	3.44	0		wordfreq
+泅	1.13	0		wordfreq
+泆	0.0	0		none
+泇	1.16	0		wordfreq
+泉	3.85	1	12.9	wordfreq+ours
+泊	3.47	1	12.9	wordfreq+ours
+泌	2.39	0		wordfreq
+泐	1.94	0		wordfreq
+泓	2.67	0		wordfreq
+泔	1.32	0		wordfreq
+法	5.32	195	2519.5	wordfreq+ours
+泖	1.7	0		wordfreq
+泗	2.78	0		wordfreq
+泘	0.0	0		none
+泚	2.46	0		wordfreq
+泛	4.13	4	51.7	wordfreq+ours
+泞	1.68	0		wordfreq
+泠	2.46	0		wordfreq
+泡	4.37	0		wordfreq
+波	4.64	7	90.4	wordfreq+ours
+泣	3.2	0		wordfreq
+泥	4.04	3	38.8	wordfreq+ours
+注	4.89	70	904.5	wordfreq+ours
+泪	4.06	1	12.9	wordfreq+ours
+泫	2.51	0		wordfreq
+泮	2.16	0		wordfreq
+泯	2.72	0		wordfreq
+泰	4.2	0		wordfreq
+泱	1.43	0		wordfreq
+泳	3.15	0		wordfreq
+泵	3.51	0		wordfreq
+泷	2.8	0		wordfreq
+泸	2.45	1	12.9	wordfreq+ours
+泻	2.84	0		wordfreq
+泼	3.7	0		wordfreq
+泽	4.04	1	12.9	wordfreq+ours
+泾	2.99	0		wordfreq
+洁	3.67	13	168.0	wordfreq+ours
+洄	2.48	0		wordfreq
+洇	1.59	0		wordfreq
+洈	0.0	0		none
+洋	4.03	2	25.8	wordfreq+ours
+洌	2.66	0		wordfreq
+洎	1.36	0		wordfreq
+洏	0.0	0		none
+洑	1.95	0		wordfreq
+洒	3.69	0		wordfreq
+洗	4.62	4	51.7	wordfreq+ours
+洙	2.51	0		wordfreq
+洚	1.06	0		wordfreq
+洛	4.32	7	90.4	wordfreq+ours
+洞	4.46	5	64.6	wordfreq+ours
+洢	0.0	0		none
+洣	1.38	0		wordfreq
+津	3.93	0		wordfreq
+洧	1.77	0		wordfreq
+洨	1.58	0		wordfreq
+洩	3.44	0		wordfreq
+洪	3.83	4	51.7	wordfreq+ours
+洫	0.0	0		none
+洮	2.11	0		wordfreq
+洱	1.87	0		wordfreq
+洲	4.24	1	12.9	wordfreq+ours
+洳	2.21	0		wordfreq
+洴	1.2	0		wordfreq
+洵	2.0	0		wordfreq
+洸	2.29	0		wordfreq
+洹	2.89	0		wordfreq
+洺	2.69	0		wordfreq
+活	5.03	60	775.2	wordfreq+ours
+洼	2.9	0		wordfreq
+洽	2.65	0		wordfreq
+派	5.28	29	374.7	wordfreq+ours
+洿	1.25	0		wordfreq
+流	4.71	63	814.0	wordfreq+ours
+浃	2.22	0		wordfreq
+浅	4.13	0		wordfreq
+浆	3.44	0		wordfreq
+浇	3.54	0		wordfreq
+浈	2.01	0		wordfreq
+浉	1.94	0		wordfreq
+浊	3.2	1	12.9	wordfreq+ours
+测	4.25	4	51.7	wordfreq+ours
+浍	2.32	0		wordfreq
+济	4.22	25	323.0	wordfreq+ours
+浏	2.46	0		wordfreq
+浐	2.4	0		wordfreq
+浑	3.33	0		wordfreq
+浒	2.36	0		wordfreq
+浓	3.97	3	38.8	wordfreq+ours
+浔	2.59	0		wordfreq
+浙	3.48	3	38.8	wordfreq+ours
+浚	2.79	0		wordfreq
+浜	3.63	0		wordfreq
+浞	2.51	0		wordfreq
+浠	2.32	0		wordfreq
+浡	1.76	0		wordfreq
+浣	3.25	0		wordfreq
+浥	1.73	0		wordfreq
+浦	3.6	0		wordfreq
+浩	3.83	2	25.8	wordfreq+ours
+浪	3.96	5	64.6	wordfreq+ours
+浬	2.05	0		wordfreq
+浮	3.61	4	51.7	wordfreq+ours
+浯	2.28	0		wordfreq
+浰	1.03	0		wordfreq
+浲	0.0	0		none
+浴	3.34	1	12.9	wordfreq+ours
+海	4.86	38	491.0	wordfreq+ours
+浸	3.43	0		wordfreq
+浼	2.46	0		wordfreq
+涂	4.07	3	38.8	wordfreq+ours
+涅	3.73	0		wordfreq
+消	4.24	18	232.6	wordfreq+ours
+涉	3.93	6	77.5	wordfreq+ours
+涌	3.97	0		wordfreq
+涎	2.35	0		wordfreq
+涑	2.02	0		wordfreq
+涓	3.01	0		wordfreq
+涔	2.5	0		wordfreq
+涕	2.08	0		wordfreq
+涘	1.41	0		wordfreq
+涛	3.5	0		wordfreq
+涝	2.3	0		wordfreq
+涞	2.79	0		wordfreq
+涟	2.84	0		wordfreq
+涠	2.63	0		wordfreq
+涡	2.99	0		wordfreq
+涣	2.62	2	25.8	wordfreq+ours
+涤	2.52	0		wordfreq
+润	3.99	2	25.8	wordfreq+ours
+涧	2.99	0		wordfreq
+涨	4.39	6	77.5	wordfreq+ours
+涩	3.75	0		wordfreq
+涪	2.1	0		wordfreq
+涫	2.55	0		wordfreq
+涬	0.0	0		none
+涮	3.17	0		wordfreq
+涯	2.72	0		wordfreq
+液	3.9	1	12.9	wordfreq+ours
+涴	1.46	0		wordfreq
+涵	3.18	4	51.7	wordfreq+ours
+涸	2.14	0		wordfreq
+涼	4.04	0		wordfreq
+涿	2.44	0		wordfreq
+淀	3.15	0		wordfreq
+淄	1.99	0		wordfreq
+淅	1.58	0		wordfreq
+淆	2.52	0		wordfreq
+淇	3.26	0		wordfreq
+淈	0.0	0		none
+淋	3.14	0		wordfreq
+淌	3.08	0		wordfreq
+淏	2.08	0		wordfreq
+淑	3.65	0		wordfreq
+淖	3.18	0		wordfreq
+淘	3.7	2	25.8	wordfreq+ours
+淙	1.89	0		wordfreq
+淚	4.06	0		wordfreq
+淝	2.89	0		wordfreq
+淞	2.91	0		wordfreq
+淠	2.03	0		wordfreq
+淡	3.84	2	25.8	wordfreq+ours
+淤	2.9	0		wordfreq
+淦	2.83	0		wordfreq
+淫	3.69	0		wordfreq
+淬	2.26	1	12.9	wordfreq+ours
+淮	3.41	1	12.9	wordfreq+ours
+淯	2.29	0		wordfreq
+深	4.87	87	1124.1	wordfreq+ours
+淳	3.12	0		wordfreq
+淴	0.0	0		none
+淵	2.94	0		wordfreq
+混	4.42	6	77.5	wordfreq+ours
+淹	3.4	0		wordfreq
+添	3.96	1	12.9	wordfreq+ours
+淼	2.98	0		wordfreq
+清	4.89	88	1137.0	wordfreq+ours
+渊	2.94	0		wordfreq
+渋	1.73	0		wordfreq
+渌	2.68	0		wordfreq
+渍	2.88	0		wordfreq
+渎	2.73	0		wordfreq
+渐	3.67	11	142.1	wordfreq+ours
+渑	1.82	0		wordfreq
+渔	3.78	2	25.8	wordfreq+ours
+渕	1.15	0		wordfreq
+渗	2.95	2	25.8	wordfreq+ours
+渙	2.62	0		wordfreq
+渚	3.16	0		wordfreq
+減	4.4	0		wordfreq
+渝	3.68	0		wordfreq
+渟	1.31	0		wordfreq
+渠	3.46	5	64.6	wordfreq+ours
+渡	3.91	10	129.2	wordfreq+ours
+渣	3.75	0		wordfreq
+渤	3.05	0		wordfreq
+渥	3.1	0		wordfreq
+渦	2.99	0		wordfreq
+温	4.21	32	413.5	wordfreq+ours
+渫	2.23	0		wordfreq
+渭	3.11	0		wordfreq
+港	4.67	2	25.8	wordfreq+ours
+渲	2.7	0		wordfreq
+渴	3.42	1	12.9	wordfreq+ours
+游	4.44	5	64.6	wordfreq+ours
+渺	2.31	0		wordfreq
+渼	1.59	0		wordfreq
+湃	2.36	0		wordfreq
+湄	2.38	0		wordfreq
+湉	2.05	0		wordfreq
+湊	4.07	0		wordfreq
+湍	2.61	0		wordfreq
+湎	2.28	0		wordfreq
+湑	1.06	0		wordfreq
+湓	2.32	0		wordfreq
+湔	2.27	0		wordfreq
+湖	4.49	7	90.4	wordfreq+ours
+湘	3.72	1	12.9	wordfreq+ours
+湛	2.59	0		wordfreq
+湝	1.8	0		wordfreq
+湟	2.45	0		wordfreq
+湣	1.9	0		wordfreq
+湫	2.48	0		wordfreq
+湮	2.72	0		wordfreq
+湯	4.4	0		wordfreq
+湲	1.47	0		wordfreq
+湴	2.07	0		wordfreq
+湾	4.46	1	12.9	wordfreq+ours
+湿	4.22	0		wordfreq
+溁	0.0	0		none
+溃	3.21	7	90.4	wordfreq+ours
+溅	3.47	0		wordfreq
+溆	2.44	0		wordfreq
+溇	1.87	0		wordfreq
+溉	2.37	0		wordfreq
+溏	2.63	0		wordfreq
+源	4.51	61	788.2	wordfreq+ours
+準	4.68	0		wordfreq
+溘	1.03	0		wordfreq
+溜	3.92	0		wordfreq
+溝	3.88	0		wordfreq
+溞	1.8	0		wordfreq
+溟	1.94	0		wordfreq
+溢	2.89	0		wordfreq
+溥	2.75	0		wordfreq
+溦	0.0	0		none
+溧	2.04	0		wordfreq
+溪	3.83	0		wordfreq
+溯	2.95	2	25.8	wordfreq+ours
+溱	2.48	0		wordfreq
+溲	2.26	0		wordfreq
+溴	3.11	0		wordfreq
+溶	3.48	0		wordfreq
+溷	1.91	0		wordfreq
+溺	2.99	0		wordfreq
+溽	1.3	0		wordfreq
+滁	2.1	0		wordfreq
+滂	2.41	0		wordfreq
+滃	1.7	0		wordfreq
+滇	3.62	0		wordfreq
+滉	1.51	0		wordfreq
+滋	3.26	8	103.4	wordfreq+ours
+滏	2.07	0		wordfreq
+滑	4.09	1	12.9	wordfreq+ours
+滓	2.14	0		wordfreq
+滔	2.3	0		wordfreq
+滕	3.2	0		wordfreq
+滗	1.84	0		wordfreq
+滘	2.17	0		wordfreq
+滚	4.54	0		wordfreq
+滝	1.99	0		wordfreq
+滞	3.32	0		wordfreq
+滟	2.06	0		wordfreq
+滠	1.93	0		wordfreq
+满	4.75	8	103.4	wordfreq+ours
+滢	2.11	0		wordfreq
+滤	3.07	0		wordfreq
+滥	3.57	3	38.8	wordfreq+ours
+滦	2.89	0		wordfreq
+滨	3.62	0		wordfreq
+滩	3.64	0		wordfreq
+滪	0.0	0		none
+滫	0.0	0		none
+滴	4.03	8	103.4	wordfreq+ours
+滹	0.0	0		none
+漂	3.31	4	51.7	wordfreq+ours
+漆	3.78	0		wordfreq
+漈	1.81	0		wordfreq
+漉	2.05	0		wordfreq
+漋	0.0	0		none
+漏	3.96	6	77.5	wordfreq+ours
+漓	2.01	0		wordfreq
+演	4.62	14	180.9	wordfreq+ours
+漕	2.57	1	12.9	wordfreq+ours
+漖	0.0	0		none
+漠	3.03	6	77.5	wordfreq+ours
+漤	1.5	0		wordfreq
+漩	3.03	0		wordfreq
+漪	2.19	0		wordfreq
+漫	3.74	2	25.8	wordfreq+ours
+漭	1.7	0		wordfreq
+漯	1.91	0		wordfreq
+漱	2.43	0		wordfreq
+漳	2.55	0		wordfreq
+漴	1.12	0		wordfreq
+漶	0.0	0		none
+漷	1.47	0		wordfreq
+漼	1.13	0		wordfreq
+漾	2.76	0		wordfreq
+潆	1.87	0		wordfreq
+潇	1.85	0		wordfreq
+潋	0.0	0		none
+潍	2.31	0		wordfreq
+潏	1.21	0		wordfreq
+潖	1.17	0		wordfreq
+潘	3.8	1	12.9	wordfreq+ours
+潜	3.87	6	77.5	wordfreq+ours
+潞	2.74	0		wordfreq
+潟	2.73	0		wordfreq
+潢	2.44	0		wordfreq
+潦	2.52	0		wordfreq
+潭	3.64	1	12.9	wordfreq+ours
+潮	4.25	3	38.8	wordfreq+ours
+潰	3.21	0		wordfreq
+潲	1.36	0		wordfreq
+潴	1.95	0		wordfreq
+潵	1.46	0		wordfreq
+潸	1.33	0		wordfreq
+潺	1.15	0		wordfreq
+潼	2.04	0		wordfreq
+潽	0.0	0		none
+潾	0.0	0		none
+澄	3.39	2	25.8	wordfreq+ours
+澈	2.54	0		wordfreq
+澉	0.0	0		none
+澌	1.42	0		wordfreq
+澍	1.82	0		wordfreq
+澎	2.68	0		wordfreq
+澜	3.29	1	12.9	wordfreq+ours
+澡	3.68	0		wordfreq
+澤	4.04	0		wordfreq
+澥	1.16	0		wordfreq
+澧	2.7	0		wordfreq
+澪	2.06	0		wordfreq
+澭	0.0	0		none
+澳	4.11	0		wordfreq
+澴	0.0	0		none
+澶	2.6	0		wordfreq
+澹	2.86	0		wordfreq
+澼	0.0	0		none
+激	3.88	19	245.5	wordfreq+ours
+濂	3.19	0		wordfreq
+濃	3.97	0		wordfreq
+濉	2.18	0		wordfreq
+濑	2.99	0		wordfreq
+濒	3.39	0		wordfreq
+濛	4.29	0		wordfreq
+濞	1.92	0		wordfreq
+濠	3.0	0		wordfreq
+濡	2.96	0		wordfreq
+濫	3.57	0		wordfreq
+濬	2.38	0		wordfreq
+濮	2.81	0		wordfreq
+濯	2.31	0		wordfreq
+濾	3.07	0		wordfreq
+瀌	0.0	0		none
+瀍	2.04	0		wordfreq
+瀑	2.64	1	12.9	wordfreq+ours
+瀕	3.39	0		wordfreq
+瀚	2.36	0		wordfreq
+瀛	3.32	0		wordfreq
+瀣	0.0	0		none
+瀬	3.1	0		wordfreq
+瀵	1.27	0		wordfreq
+瀼	1.68	0		wordfreq
+灈	0.0	0		none
+灌	3.76	1	12.9	wordfreq+ours
+灏	3.12	0		wordfreq
+灘	3.64	0		wordfreq
+灞	2.64	0		wordfreq
+灣	4.46	0		wordfreq
+火	4.65	9	116.3	wordfreq+ours
+灭	4.26	14	180.9	wordfreq+ours
+灯	4.4	14	180.9	wordfreq+ours
+灰	4.16	4	51.7	wordfreq+ours
+灵	4.21	4	51.7	wordfreq+ours
+灶	3.38	1	12.9	wordfreq+ours
+灸	2.97	0		wordfreq
+灺	0.0	0		none
+灼	2.96	0		wordfreq
+灾	3.72	17	219.7	wordfreq+ours
+灿	3.02	2	25.8	wordfreq+ours
+炀	1.95	0		wordfreq
+炁	1.8	0		wordfreq
+炅	2.19	0		wordfreq
+炆	2.39	0		wordfreq
+炉	3.92	2	25.8	wordfreq+ours
+炊	2.9	0		wordfreq
+炎	3.63	10	129.2	wordfreq+ours
+炒	4.31	0		wordfreq
+炔	2.82	0		wordfreq
+炕	3.49	0		wordfreq
+炖	3.64	0		wordfreq
+炘	1.27	0		wordfreq
+炙	3.02	0		wordfreq
+炜	2.6	0		wordfreq
+炝	2.24	0		wordfreq
+炡	0.0	0		none
+炤	2.45	0		wordfreq
+炫	3.52	1	12.9	wordfreq+ours
+炬	2.63	0		wordfreq
+炭	3.33	0		wordfreq
+炮	4.27	1	12.9	wordfreq+ours
+炯	2.87	0		wordfreq
+炱	2.28	0		wordfreq
+炳	3.13	1	12.9	wordfreq+ours
+炷	2.23	0		wordfreq
+炸	4.44	1	12.9	wordfreq+ours
+点	5.7	174	2248.2	wordfreq+ours
+為	6.69	0		wordfreq
+炻	1.52	0		wordfreq
+炼	4.03	24	310.1	wordfreq+ours
+炽	2.82	0		wordfreq
+烀	1.59	0		wordfreq
+烁	2.65	0		wordfreq
+烂	4.44	8	103.4	wordfreq+ours
+烃	3.04	0		wordfreq
+烈	3.76	16	206.7	wordfreq+ours
+烊	2.89	0		wordfreq
+烔	0.0	0		none
+烘	3.05	0		wordfreq
+烙	2.93	0		wordfreq
+烛	2.57	0		wordfreq
+烜	1.99	0		wordfreq
+烝	1.55	0		wordfreq
+烟	4.57	0		wordfreq
+烤	4.24	1	12.9	wordfreq+ours
+烦	4.23	4	51.7	wordfreq+ours
+烧	4.46	3	38.8	wordfreq+ours
+烨	2.33	0		wordfreq
+烩	3.27	0		wordfreq
+烫	3.98	0		wordfreq
+烬	2.32	0		wordfreq
+热	4.99	1	12.9	wordfreq+ours
+烯	3.16	0		wordfreq
+烷	2.85	0		wordfreq
+烹	2.94	0		wordfreq
+烺	2.1	0		wordfreq
+烽	2.15	0		wordfreq
+焉	3.57	0		wordfreq
+焊	3.24	0		wordfreq
+焌	1.18	0		wordfreq
+焐	1.98	0		wordfreq
+焓	2.51	0		wordfreq
+焕	2.83	1	12.9	wordfreq+ours
+焖	3.07	0		wordfreq
+焗	2.85	0		wordfreq
+焘	2.47	0		wordfreq
+焙	2.48	0		wordfreq
+焚	3.09	0		wordfreq
+焜	2.0	0		wordfreq
+無	5.65	0		wordfreq
+焦	3.78	4	51.7	wordfreq+ours
+焯	2.54	0		wordfreq
+焰	2.99	0		wordfreq
+焱	2.2	0		wordfreq
+然	4.52	86	1111.2	wordfreq+ours
+煃	1.28	0		wordfreq
+煅	2.0	0		wordfreq
+煊	1.86	0		wordfreq
+煌	3.34	0		wordfreq
+煎	3.85	0		wordfreq
+煐	0.0	0		none
+煙	4.57	0		wordfreq
+煜	2.53	0		wordfreq
+煞	3.44	0		wordfreq
+煤	4.22	0		wordfreq
+煥	2.83	0		wordfreq
+煦	2.44	0		wordfreq
+照	4.83	21	271.3	wordfreq+ours
+煨	2.8	0		wordfreq
+煫	0.0	0		none
+煮	4.37	0		wordfreq
+煲	3.2	0		wordfreq
+煳	1.71	0		wordfreq
+煸	2.07	0		wordfreq
+煺	1.8	0		wordfreq
+煽	2.62	1	12.9	wordfreq+ours
+熄	3.14	0		wordfreq
+熊	4.3	0		wordfreq
+熏	3.45	0		wordfreq
+熔	3.15	2	25.8	wordfreq+ours
+熘	2.16	0		wordfreq
+熙	3.35	8	103.4	wordfreq+ours
+熛	0.0	0		none
+熜	2.17	0		wordfreq
+熟	4.43	10	129.2	wordfreq+ours
+熠	1.22	0		wordfreq
+熤	1.07	0		wordfreq
+熥	1.45	0		wordfreq
+熨	2.69	0		wordfreq
+熬	3.93	1	12.9	wordfreq+ours
+熵	3.15	0		wordfreq
+熹	2.26	0		wordfreq
+燃	3.47	6	77.5	wordfreq+ours
+燈	4.4	0		wordfreq
+燊	2.7	0		wordfreq
+燎	1.95	0		wordfreq
+燏	1.58	0		wordfreq
+燐	1.27	0		wordfreq
+燔	2.16	0		wordfreq
+燕	3.55	1	12.9	wordfreq+ours
+燚	0.0	0		none
+燠	1.54	0		wordfreq
+燥	2.86	0		wordfreq
+燦	3.02	0		wordfreq
+燧	2.59	0		wordfreq
+燮	2.32	0		wordfreq
+燹	0.0	0		none
+燻	3.45	0		wordfreq
+燿	1.41	0		wordfreq
+爀	1.91	0		wordfreq
+爆	4.4	4	51.7	wordfreq+ours
+爇	0.0	0		none
+爊	0.0	0		none
+爝	1.8	0		wordfreq
+爨	2.23	0		wordfreq
+爪	3.75	1	12.9	wordfreq+ours
+爬	4.48	0		wordfreq
+爰	2.93	0		wordfreq
+爱	5.86	6	77.5	wordfreq+ours
+爵	3.4	3	38.8	wordfreq+ours
+父	4.31	5	64.6	wordfreq+ours
+爷	3.75	0		wordfreq
+爸	4.16	0		wordfreq
+爹	4.26	0		wordfreq
+爺	3.75	0		wordfreq
+爻	2.41	0		wordfreq
+爽	4.37	0		wordfreq
+爿	2.37	0		wordfreq
+牁	1.91	0		wordfreq
+牂	2.0	0		wordfreq
+片	4.87	10	129.2	wordfreq+ours
+版	5.34	4	51.7	wordfreq+ours
+牌	4.53	3	38.8	wordfreq+ours
+牍	2.1	0		wordfreq
+牒	2.18	1	12.9	wordfreq+ours
+牖	1.87	0		wordfreq
+牙	4.29	2	25.8	wordfreq+ours
+牛	4.84	5	64.6	wordfreq+ours
+牝	2.57	0		wordfreq
+牟	3.05	1	12.9	wordfreq+ours
+牠	4.0	0		wordfreq
+牡	3.43	0		wordfreq
+牢	4.02	11	142.1	wordfreq+ours
+牤	1.36	0		wordfreq
+牦	1.47	0		wordfreq
+牧	3.76	7	90.4	wordfreq+ours
+物	4.8	43	555.6	wordfreq+ours
+牯	1.94	0		wordfreq
+牲	3.25	4	51.7	wordfreq+ours
+牵	3.93	2	25.8	wordfreq+ours
+特	5.03	59	762.3	wordfreq+ours
+牺	2.69	2	25.8	wordfreq+ours
+牻	1.77	0		wordfreq
+牽	3.93	0		wordfreq
+牾	1.27	0		wordfreq
+犀	2.74	0		wordfreq
+犁	3.22	0		wordfreq
+犄	1.17	0		wordfreq
+犊	2.79	0		wordfreq
+犋	0.0	0		none
+犍	2.56	0		wordfreq
+犎	0.0	0		none
+犏	1.36	0		wordfreq
+犒	1.94	0		wordfreq
+犟	2.22	0		wordfreq
+犬	4.09	0		wordfreq
+犯	4.7	1	12.9	wordfreq+ours
+犰	0.0	0		none
+犳	1.14	0		wordfreq
+犴	1.92	0		wordfreq
+状	4.44	9	116.3	wordfreq+ours
+犷	1.05	0		wordfreq
+犸	2.47	0		wordfreq
+犹	3.79	0		wordfreq
+犼	1.41	0		wordfreq
+狁	2.11	0		wordfreq
+狂	4.3	2	25.8	wordfreq+ours
+狃	1.65	0		wordfreq
+狄	3.57	0		wordfreq
+狈	2.58	0		wordfreq
+狉	0.0	0		none
+狍	2.28	0		wordfreq
+狎	2.02	0		wordfreq
+狐	3.5	1	12.9	wordfreq+ours
+狒	0.0	0		none
+狓	1.43	0		wordfreq
+狗	5.17	0		wordfreq
+狙	2.94	0		wordfreq
+狛	1.5	0		wordfreq
+狝	2.03	0		wordfreq
+狞	1.98	0		wordfreq
+狠	4.19	4	51.7	wordfreq+ours
+狡	2.8	0		wordfreq
+狨	1.87	0		wordfreq
+狩	2.97	2	25.8	wordfreq+ours
+独	4.36	24	310.1	wordfreq+ours
+狭	3.48	0		wordfreq
+狮	3.46	0		wordfreq
+狯	1.58	0		wordfreq
+狰	1.19	0		wordfreq
+狱	3.81	0		wordfreq
+狲	1.46	0		wordfreq
+狳	0.0	0		none
+狴	0.0	0		none
+狷	1.66	0		wordfreq
+狸	2.61	0		wordfreq
+狺	1.18	0		wordfreq
+狻	2.53	0		wordfreq
+狼	4.48	2	25.8	wordfreq+ours
+猁	1.46	0		wordfreq
+猃	1.84	0		wordfreq
+猄	1.17	0		wordfreq
+猇	2.43	0		wordfreq
+猊	1.56	0		wordfreq
+猎	3.74	4	51.7	wordfreq+ours
+猕	1.75	0		wordfreq
+猖	2.12	0		wordfreq
+猗	2.3	0		wordfreq
+猛	4.14	0		wordfreq
+猜	4.78	1	12.9	wordfreq+ours
+猝	1.36	0		wordfreq
+猞	0.0	0		none
+猡	1.32	0		wordfreq
+猢	0.0	0		none
+猥	2.4	0		wordfreq
+猩	2.36	0		wordfreq
+猪	4.77	0		wordfreq
+猫	4.73	1	12.9	wordfreq+ours
+猬	2.89	0		wordfreq
+献	4.19	6	77.5	wordfreq+ours
+猯	0.0	0		none
+猰	0.0	0		none
+猱	1.84	0		wordfreq
+猴	3.77	0		wordfreq
+猶	3.79	0		wordfreq
+猷	1.96	0		wordfreq
+猸	0.0	0		none
+猼	0.0	0		none
+猾	1.92	0		wordfreq
+猿	3.67	0		wordfreq
+獉	0.0	0		none
+獍	1.87	0		wordfreq
+獐	2.14	0		wordfreq
+獒	2.42	0		wordfreq
+獗	2.53	0		wordfreq
+獚	0.0	0		none
+獛	0.0	0		none
+獠	2.53	0		wordfreq
+獬	2.05	0		wordfreq
+獭	2.95	0		wordfreq
+獯	2.06	0		wordfreq
+獴	2.64	0		wordfreq
+獾	3.19	0		wordfreq
+玃	1.12	0		wordfreq
+玄	3.54	2	25.8	wordfreq+ours
+玆	2.48	0		wordfreq
+率	4.82	18	232.6	wordfreq+ours
+玉	4.09	1	12.9	wordfreq+ours
+王	5.11	59	762.3	wordfreq+ours
+玎	2.27	0		wordfreq
+玑	2.99	0		wordfreq
+玕	1.98	0		wordfreq
+玖	3.24	0		wordfreq
+玗	1.38	0		wordfreq
+玘	2.24	0		wordfreq
+玛	4.14	0		wordfreq
+玞	1.12	0		wordfreq
+玟	2.02	0		wordfreq
+玠	2.59	0		wordfreq
+玡	2.09	0		wordfreq
+玢	1.63	0		wordfreq
+玥	2.74	0		wordfreq
+玦	2.18	0		wordfreq
+玩	5.5	4	51.7	wordfreq+ours
+玫	3.11	0		wordfreq
+玭	0.0	0		none
+玮	3.08	0		wordfreq
+环	4.57	16	206.7	wordfreq+ours
+现	5.07	125	1615.1	wordfreq+ours
+玲	3.3	0		wordfreq
+玳	2.02	0		wordfreq
+玷	1.81	0		wordfreq
+玹	2.68	0		wordfreq
+玺	3.1	0		wordfreq
+玻	3.49	0		wordfreq
+珀	3.26	0		wordfreq
+珂	3.62	0		wordfreq
+珅	1.8	0		wordfreq
+珈	2.82	0		wordfreq
+珉	2.0	0		wordfreq
+珊	3.86	0		wordfreq
+珍	3.84	2	25.8	wordfreq+ours
+珏	1.65	0		wordfreq
+珐	2.25	0		wordfreq
+珑	2.41	0		wordfreq
+珓	1.54	0		wordfreq
+珙	1.44	0		wordfreq
+珞	2.63	0		wordfreq
+珠	3.75	1	12.9	wordfreq+ours
+珣	1.88	0		wordfreq
+珥	2.1	0		wordfreq
+珧	1.26	0		wordfreq
+珩	2.87	0		wordfreq
+珪	3.04	0		wordfreq
+班	4.86	23	297.2	wordfreq+ours
+珮	3.05	0		wordfreq
+珰	2.47	0		wordfreq
+珲	3.05	0		wordfreq
+珵	2.07	0		wordfreq
+珷	1.36	0		wordfreq
+珸	1.22	0		wordfreq
+珺	1.81	0		wordfreq
+珽	1.74	0		wordfreq
+球	4.83	9	116.3	wordfreq+ours
+琅	3.56	0		wordfreq
+理	4.67	203	2622.9	wordfreq+ours
+琇	2.39	0		wordfreq
+琈	1.29	0		wordfreq
+琉	3.15	0		wordfreq
+琊	3.16	0		wordfreq
+琍	2.68	0		wordfreq
+琏	2.92	0		wordfreq
+琐	2.67	1	12.9	wordfreq+ours
+琚	2.71	0		wordfreq
+琛	3.42	0		wordfreq
+琢	2.26	0		wordfreq
+琤	2.26	0		wordfreq
+琥	1.79	0		wordfreq
+琦	3.1	0		wordfreq
+琨	1.66	0		wordfreq
+琩	1.49	0		wordfreq
+琪	3.12	0		wordfreq
+琬	1.76	0		wordfreq
+琭	1.59	0		wordfreq
+琮	2.22	0		wordfreq
+琯	2.12	0		wordfreq
+琰	1.98	0		wordfreq
+琲	2.18	0		wordfreq
+琳	3.71	0		wordfreq
+琴	4.07	0		wordfreq
+琵	2.68	0		wordfreq
+琶	2.75	0		wordfreq
+琹	1.2	0		wordfreq
+琼	3.7	0		wordfreq
+琿	3.05	0		wordfreq
+瑀	2.75	0		wordfreq
+瑁	2.12	0		wordfreq
+瑂	0.0	0		none
+瑄	2.46	0		wordfreq
+瑈	2.22	0		wordfreq
+瑑	0.0	0		none
+瑕	3.18	0		wordfreq
+瑗	2.5	0		wordfreq
+瑙	3.54	0		wordfreq
+瑚	2.17	0		wordfreq
+瑛	3.09	0		wordfreq
+瑜	3.91	0		wordfreq
+瑞	3.92	1	12.9	wordfreq+ours
+瑟	3.81	0		wordfreq
+瑠	2.03	0		wordfreq
+瑢	1.24	0		wordfreq
+瑪	4.14	0		wordfreq
+瑭	1.67	0		wordfreq
+瑰	2.82	0		wordfreq
+瑱	1.14	0		wordfreq
+瑳	0.0	0		none
+瑴	1.72	0		wordfreq
+瑶	3.1	0		wordfreq
+瑷	2.64	0		wordfreq
+瑾	2.58	0		wordfreq
+璀	2.3	0		wordfreq
+璁	2.49	0		wordfreq
+璃	2.78	0		wordfreq
+璆	2.13	0		wordfreq
+璇	3.2	0		wordfreq
+璈	2.15	0		wordfreq
+璋	2.68	3	38.8	wordfreq+ours
+璎	1.73	0		wordfreq
+璐	3.11	0		wordfreq
+璘	3.0	0		wordfreq
+璜	3.02	0		wordfreq
+璞	2.79	0		wordfreq
+璟	2.96	0		wordfreq
+璠	2.24	0		wordfreq
+璥	1.09	0		wordfreq
+璧	3.41	0		wordfreq
+璨	2.16	0		wordfreq
+璩	1.9	0		wordfreq
+璪	1.46	0		wordfreq
+璺	1.64	0		wordfreq
+瓊	3.7	0		wordfreq
+瓋	0.0	0		none
+瓒	2.39	0		wordfreq
+瓘	2.1	0		wordfreq
+瓜	3.92	0		wordfreq
+瓞	0.0	0		none
+瓠	2.27	0		wordfreq
+瓢	2.57	0		wordfreq
+瓣	3.42	0		wordfreq
+瓤	2.5	0		wordfreq
+瓦	4.39	3	38.8	wordfreq+ours
+瓮	3.16	0		wordfreq
+瓯	2.58	0		wordfreq
+瓴	1.77	0		wordfreq
+瓶	4.23	0		wordfreq
+瓷	3.26	2	25.8	wordfreq+ours
+瓻	0.0	0		none
+瓿	2.26	0		wordfreq
+甁	1.11	0		wordfreq
+甄	3.32	0		wordfreq
+甍	1.46	0		wordfreq
+甏	1.41	0		wordfreq
+甑	2.67	0		wordfreq
+甓	1.85	0		wordfreq
+甘	3.99	5	64.6	wordfreq+ours
+甚	4.46	23	297.2	wordfreq+ours
+甜	4.25	0		wordfreq
+生	5.3	155	2002.7	wordfreq+ours
+甥	2.26	0		wordfreq
+用	6.07	263	3398.2	wordfreq+ours
+甩	4.04	0		wordfreq
+甪	1.73	0		wordfreq
+甫	3.63	0		wordfreq
+甬	2.14	0		wordfreq
+甭	3.01	0		wordfreq
+甯	4.28	0		wordfreq
+田	4.48	69	891.5	wordfreq+ours
+由	6.08	21	271.3	wordfreq+ours
+甲	4.41	3	38.8	wordfreq+ours
+申	3.91	34	439.3	wordfreq+ours
+甴	1.08	0		wordfreq
+电	5.04	5	64.6	wordfreq+ours
+男	5.23	1	12.9	wordfreq+ours
+甸	3.19	0		wordfreq
+町	3.97	0		wordfreq
+画	4.93	23	297.2	wordfreq+ours
+甽	1.44	0		wordfreq
+甾	2.34	0		wordfreq
+畀	2.58	0		wordfreq
+畅	3.5	2	25.8	wordfreq+ours
+畇	0.0	0		none
+畈	2.36	0		wordfreq
+畊	1.69	0		wordfreq
+畋	1.2	0		wordfreq
+界	4.65	27	348.9	wordfreq+ours
+畎	1.55	0		wordfreq
+畏	3.47	2	25.8	wordfreq+ours
+畑	2.8	0		wordfreq
+畔	3.69	0		wordfreq
+留	4.8	49	633.1	wordfreq+ours
+畚	1.84	0		wordfreq
+畛	2.27	0		wordfreq
+畜	3.76	2	25.8	wordfreq+ours
+畠	2.52	0		wordfreq
+略	4.46	11	142.1	wordfreq+ours
+畦	2.32	0		wordfreq
+番	4.34	0		wordfreq
+畬	2.17	0		wordfreq
+畯	1.51	0		wordfreq
+畲	2.41	0		wordfreq
+畳	1.32	0		wordfreq
+畴	3.08	0		wordfreq
+畸	2.37	1	12.9	wordfreq+ours
+畹	2.49	0		wordfreq
+畿	2.86	0		wordfreq
+疃	2.72	0		wordfreq
+疆	3.22	8	103.4	wordfreq+ours
+疍	2.64	0		wordfreq
+疏	3.78	1	12.9	wordfreq+ours
+疐	1.36	0		wordfreq
+疑	3.96	4	51.7	wordfreq+ours
+疔	1.92	0		wordfreq
+疖	2.13	0		wordfreq
+疗	3.51	4	51.7	wordfreq+ours
+疙	1.07	0		wordfreq
+疚	1.82	0		wordfreq
+疝	2.58	0		wordfreq
+疟	2.16	0		wordfreq
+疠	1.92	0		wordfreq
+疡	2.13	0		wordfreq
+疢	0.0	0		none
+疣	3.1	0		wordfreq
+疤	3.27	0		wordfreq
+疥	1.88	0		wordfreq
+疫	2.79	6	77.5	wordfreq+ours
+疬	0.0	0		none
+疭	1.75	0		wordfreq
+疮	2.94	0		wordfreq
+疯	4.59	5	64.6	wordfreq+ours
+疰	0.0	0		none
+疱	1.61	0		wordfreq
+疲	3.14	2	25.8	wordfreq+ours
+疳	0.0	0		none
+疴	2.1	0		wordfreq
+疵	2.19	0		wordfreq
+疸	1.69	0		wordfreq
+疹	2.63	0		wordfreq
+疼	4.41	0		wordfreq
+疽	2.36	0		wordfreq
+疾	3.53	7	90.4	wordfreq+ours
+痂	2.28	0		wordfreq
+痃	0.0	0		none
+痄	0.0	0		none
+病	4.87	32	413.5	wordfreq+ours
+症	4.24	1	12.9	wordfreq+ours
+痈	2.37	0		wordfreq
+痉	2.94	0		wordfreq
+痊	2.83	0		wordfreq
+痍	0.0	0		none
+痒	3.86	0		wordfreq
+痔	2.38	0		wordfreq
+痕	3.32	0		wordfreq
+痘	3.18	0		wordfreq
+痛	4.5	2	25.8	wordfreq+ours
+痝	1.62	0		wordfreq
+痞	2.48	0		wordfreq
+痢	2.35	0		wordfreq
+痣	3.27	0		wordfreq
+痤	1.77	0		wordfreq
+痦	0.0	0		none
+痧	1.95	0		wordfreq
+痨	2.58	0		wordfreq
+痩	1.27	0		wordfreq
+痪	2.4	0		wordfreq
+痫	1.78	0		wordfreq
+痰	3.39	0		wordfreq
+痱	1.31	0		wordfreq
+痴	3.88	0		wordfreq
+痹	2.3	0		wordfreq
+痼	1.01	1	12.9	wordfreq+ours
+痿	1.63	0		wordfreq
+瘀	3.22	0		wordfreq
+瘁	1.67	0		wordfreq
+瘃	0.0	0		none
+瘅	1.49	0		wordfreq
+瘆	2.96	0		wordfreq
+瘈	0.0	0		none
+瘊	0.0	0		none
+瘌	0.0	0		none
+瘍	2.13	0		wordfreq
+瘐	1.4	0		wordfreq
+瘕	1.59	0		wordfreq
+瘗	1.91	0		wordfreq
+瘘	2.22	0		wordfreq
+瘙	1.61	0		wordfreq
+瘛	2.31	0		wordfreq
+瘟	2.89	0		wordfreq
+瘠	1.91	0		wordfreq
+瘢	2.3	0		wordfreq
+瘤	3.56	3	38.8	wordfreq+ours
+瘥	0.0	0		none
+瘦	4.16	0		wordfreq
+瘩	1.08	0		wordfreq
+瘪	2.96	0		wordfreq
+瘫	3.33	0		wordfreq
+瘭	0.0	0		none
+瘰	1.4	0		wordfreq
+瘳	1.4	0		wordfreq
+瘴	2.04	1	12.9	wordfreq+ours
+瘵	1.05	0		wordfreq
+瘸	3.13	0		wordfreq
+瘼	1.45	0		wordfreq
+瘾	3.59	0		wordfreq
+瘿	2.39	0		wordfreq
+癀	1.19	0		wordfreq
+癃	0.0	0		none
+癌	3.73	0		wordfreq
+癍	1.87	0		wordfreq
+癒	4.44	0		wordfreq
+癔	1.13	0		wordfreq
+癖	3.72	0		wordfreq
+癜	1.44	0		wordfreq
+癞	2.99	0		wordfreq
+癣	2.73	0		wordfreq
+癫	2.76	2	25.8	wordfreq+ours
+癮	3.59	0		wordfreq
+癯	1.42	0		wordfreq
+癸	3.25	0		wordfreq
+登	4.45	7	90.4	wordfreq+ours
+白	4.9	37	478.1	wordfreq+ours
+百	4.48	85	1098.3	wordfreq+ours
+癿	1.41	0		wordfreq
+皂	3.5	0		wordfreq
+的	7.79	2348	30337.9	wordfreq+ours
+皆	4.98	2	25.8	wordfreq+ours
+皇	3.92	54	697.7	wordfreq+ours
+皈	1.66	0		wordfreq
+皋	2.72	0		wordfreq
+皎	2.65	0		wordfreq
+皑	1.94	0		wordfreq
+皓	3.2	0		wordfreq
+皖	3.28	0		wordfreq
+皙	1.95	0		wordfreq
+皛	1.03	0		wordfreq
+皝	2.51	0		wordfreq
+皤	1.58	0		wordfreq
+皦	1.5	0		wordfreq
+皮	4.48	6	77.5	wordfreq+ours
+皱	3.31	1	12.9	wordfreq+ours
+皲	0.0	0		none
+皴	2.0	0		wordfreq
+皿	2.38	1	12.9	wordfreq+ours
+盂	3.05	0		wordfreq
+盅	2.55	0		wordfreq
+盆	3.48	0		wordfreq
+盈	3.49	0		wordfreq
+益	3.53	29	374.7	wordfreq+ours
+盍	2.14	0		wordfreq
+盎	2.86	0		wordfreq
+盏	3.45	0		wordfreq
+盐	4.34	29	374.7	wordfreq+ours
+监	4.47	81	1046.6	wordfreq+ours
+盒	4.04	3	38.8	wordfreq+ours
+盔	3.17	0		wordfreq
+盖	4.59	4	51.7	wordfreq+ours
+盗	4.36	1	12.9	wordfreq+ours
+盘	4.53	8	103.4	wordfreq+ours
+盛	3.9	8	103.4	wordfreq+ours
+盜	4.36	0		wordfreq
+盟	3.79	3	38.8	wordfreq+ours
+盥	1.78	0		wordfreq
+目	4.69	29	374.7	wordfreq+ours
+盯	4.21	6	77.5	wordfreq+ours
+盱	1.36	0		wordfreq
+盲	3.49	2	25.8	wordfreq+ours
+盳	0.0	0		none
+直	4.68	71	917.4	wordfreq+ours
+相	5.16	59	762.3	wordfreq+ours
+盹	2.55	0		wordfreq
+盼	3.99	7	90.4	wordfreq+ours
+盾	4.11	8	103.4	wordfreq+ours
+省	5.46	14	180.9	wordfreq+ours
+眄	1.68	0		wordfreq
+眇	1.8	0		wordfreq
+眈	1.98	0		wordfreq
+眉	3.33	1	12.9	wordfreq+ours
+看	6.16	193	2493.7	wordfreq+ours
+眍	0.0	0		none
+眙	0.0	0		none
+眚	1.42	0		wordfreq
+眛	1.52	0		wordfreq
+眜	1.26	0		wordfreq
+真	5.49	89	1149.9	wordfreq+ours
+眠	3.43	0		wordfreq
+眢	1.86	0		wordfreq
+眦	2.47	0		wordfreq
+眨	3.54	0		wordfreq
+眩	2.52	0		wordfreq
+眬	0.0	0		none
+眯	3.09	0		wordfreq
+眵	1.14	0		wordfreq
+眶	3.01	0		wordfreq
+眷	2.37	2	25.8	wordfreq+ours
+眸	2.07	0		wordfreq
+眺	1.95	0		wordfreq
+眼	4.46	10	129.2	wordfreq+ours
+着	6.22	111	1434.2	wordfreq+ours
+睁	3.67	1	12.9	wordfreq+ours
+睃	1.27	0		wordfreq
+睆	1.13	0		wordfreq
+睇	3.38	0		wordfreq
+睏	4.25	0		wordfreq
+睐	2.14	0		wordfreq
+睑	2.44	0		wordfreq
+睒	0.0	0		none
+睖	0.0	0		none
+睚	1.09	0		wordfreq
+睛	2.94	0		wordfreq
+睜	3.67	0		wordfreq
+睟	0.0	0		none
+睡	4.96	0		wordfreq
+睢	2.68	0		wordfreq
+督	3.86	67	865.7	wordfreq+ours
+睥	1.27	0		wordfreq
+睦	3.42	0		wordfreq
+睨	2.32	0		wordfreq
+睪	2.99	0		wordfreq
+睫	2.17	0		wordfreq
+睬	2.49	0		wordfreq
+睹	3.06	1	12.9	wordfreq+ours
+睺	2.15	0		wordfreq
+睽	2.17	0		wordfreq
+睾	2.99	0		wordfreq
+睿	3.6	0		wordfreq
+瞄	3.63	0		wordfreq
+瞅	3.65	0		wordfreq
+瞋	2.4	0		wordfreq
+瞌	1.16	0		wordfreq
+瞍	1.15	0		wordfreq
+瞎	4.22	1	12.9	wordfreq+ours
+瞑	1.8	0		wordfreq
+瞒	3.98	0		wordfreq
+瞟	2.44	0		wordfreq
+瞠	1.93	0		wordfreq
+瞢	1.12	0		wordfreq
+瞥	2.74	0		wordfreq
+瞧	4.49	0		wordfreq
+瞩	2.87	0		wordfreq
+瞪	3.65	0		wordfreq
+瞬	2.9	1	12.9	wordfreq+ours
+瞭	3.39	0		wordfreq
+瞰	2.11	0		wordfreq
+瞳	3.35	0		wordfreq
+瞵	0.0	0		none
+瞻	2.9	0		wordfreq
+瞽	2.42	0		wordfreq
+瞿	2.72	0		wordfreq
+矍	2.3	0		wordfreq
+矗	3.3	0		wordfreq
+矛	3.63	7	90.4	wordfreq+ours
+矜	2.2	0		wordfreq
+矢	3.41	1	12.9	wordfreq+ours
+矣	3.93	0		wordfreq
+知	4.8	41	529.7	wordfreq+ours
+矧	1.56	0		wordfreq
+矩	3.24	12	155.0	wordfreq+ours
+矫	3.35	0		wordfreq
+矬	1.97	0		wordfreq
+短	4.86	19	245.5	wordfreq+ours
+矮	4.04	0		wordfreq
+石	4.48	21	271.3	wordfreq+ours
+矶	3.43	0		wordfreq
+矸	1.99	0		wordfreq
+矻	1.19	0		wordfreq
+矽	2.44	0		wordfreq
+矾	2.68	0		wordfreq
+矿	4.15	0		wordfreq
+砀	2.51	0		wordfreq
+码	4.61	5	64.6	wordfreq+ours
+砂	3.54	0		wordfreq
+砆	2.46	0		wordfreq
+砉	2.17	0		wordfreq
+砌	3.46	0		wordfreq
+砍	4.35	5	64.6	wordfreq+ours
+砑	2.34	0		wordfreq
+砒	1.94	0		wordfreq
+研	3.91	21	271.3	wordfreq+ours
+砖	3.94	0		wordfreq
+砗	1.72	0		wordfreq
+砘	1.63	0		wordfreq
+砚	2.78	0		wordfreq
+砜	2.71	0		wordfreq
+砝	2.02	0		wordfreq
+砟	2.22	0		wordfreq
+砢	0.0	0		none
+砣	2.62	0		wordfreq
+砥	2.56	1	12.9	wordfreq+ours
+砦	2.54	0		wordfreq
+砧	2.23	0		wordfreq
+砬	2.08	0		wordfreq
+砭	1.96	0		wordfreq
+砰	3.7	0		wordfreq
+砲	2.96	0		wordfreq
+破	4.76	45	581.4	wordfreq+ours
+砵	2.21	0		wordfreq
+砷	3.28	0		wordfreq
+砸	4.41	1	12.9	wordfreq+ours
+砹	2.6	0		wordfreq
+砺	2.61	2	25.8	wordfreq+ours
+砻	2.29	0		wordfreq
+砼	1.97	0		wordfreq
+砾	2.55	0		wordfreq
+础	3.47	20	258.4	wordfreq+ours
+硁	1.87	0		wordfreq
+硅	3.54	0		wordfreq
+硇	1.86	0		wordfreq
+硌	3.05	0		wordfreq
+硍	0.0	0		none
+硎	2.57	0		wordfreq
+硐	2.92	0		wordfreq
+硒	3.15	0		wordfreq
+硕	3.54	1	12.9	wordfreq+ours
+硖	2.76	0		wordfreq
+硗	2.44	0		wordfreq
+硚	1.37	0		wordfreq
+硝	2.57	0		wordfreq
+硫	3.54	0		wordfreq
+硬	4.59	25	323.0	wordfreq+ours
+确	4.45	38	491.0	wordfreq+ours
+硷	2.89	0		wordfreq
+硼	3.12	0		wordfreq
+碁	2.56	0		wordfreq
+碇	2.85	0		wordfreq
+碈	0.0	0		none
+碉	2.33	0		wordfreq
+碌	3.1	0		wordfreq
+碍	3.75	1	12.9	wordfreq+ours
+碎	4.05	4	51.7	wordfreq+ours
+碑	3.73	2	25.8	wordfreq+ours
+碓	2.75	0		wordfreq
+碗	4.1	0		wordfreq
+碘	3.47	0		wordfreq
+碚	2.11	0		wordfreq
+碛	2.94	0		wordfreq
+碜	2.51	0		wordfreq
+碟	3.82	0		wordfreq
+碡	1.31	0		wordfreq
+碣	2.02	0		wordfreq
+碧	3.87	0		wordfreq
+碰	4.54	4	51.7	wordfreq+ours
+碱	3.56	0		wordfreq
+碲	2.75	0		wordfreq
+碳	4.23	0		wordfreq
+碴	2.51	0		wordfreq
+碶	1.42	0		wordfreq
+碹	1.14	0		wordfreq
+確	4.45	0		wordfreq
+碾	3.23	0		wordfreq
+磁	3.59	1	12.9	wordfreq+ours
+磅	4.08	0		wordfreq
+磊	2.64	2	25.8	wordfreq+ours
+磋	2.11	0		wordfreq
+磏	1.02	0		wordfreq
+磐	3.11	0		wordfreq
+磔	2.43	0		wordfreq
+磕	3.67	0		wordfreq
+磙	1.87	0		wordfreq
+磜	0.0	0		none
+磞	0.0	0		none
+磡	2.17	0		wordfreq
+磨	3.93	1	12.9	wordfreq+ours
+磬	2.37	1	12.9	wordfreq+ours
+磯	3.43	0		wordfreq
+磲	1.56	0		wordfreq
+磴	2.67	0		wordfreq
+磷	3.67	0		wordfreq
+磺	2.54	0		wordfreq
+磻	0.0	0		none
+礁	3.36	0		wordfreq
+礌	1.18	0		wordfreq
+礒	0.0	0		none
+礓	1.51	0		wordfreq
+礙	3.75	0		wordfreq
+礞	1.39	0		wordfreq
+礤	1.74	0		wordfreq
+礴	0.0	0		none
+礵	0.0	0		none
+示	3.87	13	168.0	wordfreq+ours
+礼	4.19	19	245.5	wordfreq+ours
+礽	1.9	0		wordfreq
+社	4.65	73	943.2	wordfreq+ours
+祀	3.25	0		wordfreq
+祁	2.59	0		wordfreq
+祂	3.66	0		wordfreq
+祆	2.7	0		wordfreq
+祇	3.38	0		wordfreq
+祈	3.06	2	25.8	wordfreq+ours
+祉	2.24	1	12.9	wordfreq+ours
+祊	0.0	0		none
+祎	3.2	0		wordfreq
+祐	3.42	0		wordfreq
+祓	2.25	0		wordfreq
+祕	4.18	0		wordfreq
+祖	3.76	8	103.4	wordfreq+ours
+祗	2.69	0		wordfreq
+祚	2.5	1	12.9	wordfreq+ours
+祛	2.82	0		wordfreq
+祜	2.39	0		wordfreq
+祝	4.57	0		wordfreq
+神	5.1	27	348.9	wordfreq+ours
+祟	2.18	0		wordfreq
+祠	3.4	0		wordfreq
+祢	3.46	0		wordfreq
+祥	3.67	3	38.8	wordfreq+ours
+祧	1.96	0		wordfreq
+票	4.76	4	51.7	wordfreq+ours
+祭	4.35	2	25.8	wordfreq+ours
+祯	2.75	4	51.7	wordfreq+ours
+祲	0.0	0		none
+祷	2.55	0		wordfreq
+祸	3.85	3	38.8	wordfreq+ours
+祺	3.0	0		wordfreq
+祼	2.65	0		wordfreq
+祾	1.44	0		wordfreq
+禀	3.3	0		wordfreq
+禁	4.27	12	155.0	wordfreq+ours
+禄	3.46	2	25.8	wordfreq+ours
+禅	3.62	0		wordfreq
+禊	1.89	0		wordfreq
+禍	3.85	0		wordfreq
+福	4.47	8	103.4	wordfreq+ours
+禛	2.68	0		wordfreq
+禤	1.99	0		wordfreq
+禥	1.67	0		wordfreq
+禧	2.51	1	12.9	wordfreq+ours
+禳	2.14	0		wordfreq
+禹	3.19	0		wordfreq
+禺	2.31	0		wordfreq
+离	5.02	38	491.0	wordfreq+ours
+禽	3.13	0		wordfreq
+禾	3.64	0		wordfreq
+秀	4.46	11	142.1	wordfreq+ours
+私	4.21	25	323.0	wordfreq+ours
+秃	3.58	0		wordfreq
+秆	3.08	0		wordfreq
+秉	2.66	3	38.8	wordfreq+ours
+秋	4.08	5	64.6	wordfreq+ours
+种	5.48	82	1059.5	wordfreq+ours
+秏	1.71	0		wordfreq
+科	4.98	22	284.3	wordfreq+ours
+秒	4.85	2	25.8	wordfreq+ours
+秕	1.14	0		wordfreq
+秘	4.18	2	25.8	wordfreq+ours
+租	4.24	14	180.9	wordfreq+ours
+秣	2.15	0		wordfreq
+秤	3.34	0		wordfreq
+秦	4.03	7	90.4	wordfreq+ours
+秧	2.47	0		wordfreq
+秩	3.34	15	193.8	wordfreq+ours
+秫	1.45	0		wordfreq
+秭	1.14	0		wordfreq
+积	4.23	29	374.7	wordfreq+ours
+称	5.51	11	142.1	wordfreq+ours
+秸	2.59	0		wordfreq
+移	4.39	8	103.4	wordfreq+ours
+秽	3.0	0		wordfreq
+秾	1.94	0		wordfreq
+稀	3.19	1	12.9	wordfreq+ours
+稂	0.0	0		none
+稃	1.72	0		wordfreq
+稊	0.0	0		none
+程	4.39	41	529.7	wordfreq+ours
+稍	4.39	1	12.9	wordfreq+ours
+税	4.6	184	2377.4	wordfreq+ours
+稔	2.35	0		wordfreq
+稗	2.38	0		wordfreq
+稙	0.0	0		none
+稚	2.89	0		wordfreq
+稜	3.78	0		wordfreq
+稞	1.12	0		wordfreq
+稠	2.78	0		wordfreq
+稣	2.84	0		wordfreq
+種	5.48	0		wordfreq
+稲	2.85	0		wordfreq
+稳	4.42	25	323.0	wordfreq+ours
+稷	2.45	1	12.9	wordfreq+ours
+稹	1.85	0		wordfreq
+稻	3.3	1	12.9	wordfreq+ours
+稼	2.53	0		wordfreq
+稽	3.12	1	12.9	wordfreq+ours
+稿	4.15	11	142.1	wordfreq+ours
+穀	4.54	0		wordfreq
+穂	1.55	0		wordfreq
+穄	1.14	0		wordfreq
+穆	3.85	0		wordfreq
+穋	1.22	0		wordfreq
+積	4.23	0		wordfreq
+穑	2.55	0		wordfreq
+穗	3.4	0		wordfreq
+穫	5.07	0		wordfreq
+穰	2.28	0		wordfreq
+穴	4.13	0		wordfreq
+究	3.69	17	219.7	wordfreq+ours
+穷	4.34	12	155.0	wordfreq+ours
+穸	2.33	0		wordfreq
+穹	2.49	0		wordfreq
+空	4.62	47	607.3	wordfreq+ours
+穿	5.2	13	168.0	wordfreq+ours
+窀	1.69	0		wordfreq
+突	4.08	49	633.1	wordfreq+ours
+窃	3.65	2	25.8	wordfreq+ours
+窄	3.75	0		wordfreq
+窅	1.44	0		wordfreq
+窈	2.04	0		wordfreq
+窍	2.8	1	12.9	wordfreq+ours
+窎	1.2	0		wordfreq
+窑	3.61	1	12.9	wordfreq+ours
+窒	2.82	0		wordfreq
+窕	1.63	0		wordfreq
+窖	3.04	0		wordfreq
+窗	3.98	1	12.9	wordfreq+ours
+窘	2.14	0		wordfreq
+窜	3.63	0		wordfreq
+窝	4.33	3	38.8	wordfreq+ours
+窟	3.32	2	25.8	wordfreq+ours
+窠	2.34	0		wordfreq
+窣	2.31	0		wordfreq
+窥	3.84	1	12.9	wordfreq+ours
+窦	3.35	0		wordfreq
+窨	2.13	0		wordfreq
+窩	4.33	0		wordfreq
+窪	2.9	0		wordfreq
+窬	1.42	0		wordfreq
+窭	2.08	0		wordfreq
+窸	1.88	0		wordfreq
+窾	0.0	0		none
+窿	1.63	2	25.8	wordfreq+ours
+竊	3.65	0		wordfreq
+立	4.7	72	930.3	wordfreq+ours
+竖	3.66	1	12.9	wordfreq+ours
+站	5.62	17	219.7	wordfreq+ours
+竜	3.04	0		wordfreq
+竞	4.09	5	64.6	wordfreq+ours
+竟	4.51	6	77.5	wordfreq+ours
+章	4.67	82	1059.5	wordfreq+ours
+竣	1.91	0		wordfreq
+童	4.06	4	51.7	wordfreq+ours
+竦	2.72	0		wordfreq
+竭	3.04	2	25.8	wordfreq+ours
+端	4.62	9	116.3	wordfreq+ours
+競	4.09	0		wordfreq
+竹	4.04	0		wordfreq
+竺	2.48	0		wordfreq
+竽	2.28	0		wordfreq
+竿	2.96	2	25.8	wordfreq+ours
+笃	3.58	2	25.8	wordfreq+ours
+笄	2.31	0		wordfreq
+笆	2.81	0		wordfreq
+笈	2.8	0		wordfreq
+笊	1.58	0		wordfreq
+笋	2.91	0		wordfreq
+笏	2.43	0		wordfreq
+笑	5.2	0		wordfreq
+笔	4.48	13	168.0	wordfreq+ours
+笕	2.87	0		wordfreq
+笘	1.32	0		wordfreq
+笙	2.99	0		wordfreq
+笛	3.6	0		wordfreq
+笞	2.4	0		wordfreq
+笠	3.09	0		wordfreq
+笤	2.02	0		wordfreq
+笥	2.38	0		wordfreq
+符	3.78	3	38.8	wordfreq+ours
+笨	3.95	1	12.9	wordfreq+ours
+笪	2.36	0		wordfreq
+笫	2.59	0		wordfreq
+第	5.85	180	2325.7	wordfreq+ours
+笭	1.99	0		wordfreq
+笯	0.0	0		none
+笳	1.98	0		wordfreq
+笸	1.77	0		wordfreq
+笹	2.03	0		wordfreq
+笺	2.78	0		wordfreq
+笼	3.64	1	12.9	wordfreq+ours
+筀	0.0	0		none
+筅	1.91	0		wordfreq
+筆	4.48	0		wordfreq
+筇	1.41	0		wordfreq
+筈	1.03	0		wordfreq
+等	6.33	124	1602.2	wordfreq+ours
+筊	2.01	0		wordfreq
+筋	3.54	0		wordfreq
+筌	1.39	0		wordfreq
+筏	2.39	0		wordfreq
+筐	2.99	0		wordfreq
+筑	3.98	7	90.4	wordfreq+ours
+筒	3.74	3	38.8	wordfreq+ours
+答	4.58	51	659.0	wordfreq+ours
+策	3.94	53	684.8	wordfreq+ours
+筘	1.23	0		wordfreq
+筚	1.32	0		wordfreq
+筛	3.04	0		wordfreq
+筜	1.77	0		wordfreq
+筝	2.71	0		wordfreq
+筠	2.53	0		wordfreq
+筢	0.0	0		none
+筣	0.0	0		none
+筮	1.99	0		wordfreq
+筯	1.21	0		wordfreq
+筱	2.23	0		wordfreq
+筲	1.56	0		wordfreq
+筳	1.48	0		wordfreq
+筴	1.46	0		wordfreq
+筵	2.52	0		wordfreq
+筷	2.15	0		wordfreq
+筹	3.97	11	142.1	wordfreq+ours
+筻	1.23	0		wordfreq
+筼	1.89	0		wordfreq
+签	4.48	1	12.9	wordfreq+ours
+简	4.44	28	361.8	wordfreq+ours
+箅	2.19	0		wordfreq
+箇	6.35	0		wordfreq
+箍	3.19	1	12.9	wordfreq+ours
+箐	3.07	0		wordfreq
+箓	1.74	0		wordfreq
+箔	2.41	0		wordfreq
+箕	3.12	0		wordfreq
+算	5.14	24	310.1	wordfreq+ours
+箜	0.0	0		none
+箝	1.45	0		wordfreq
+管	5.13	124	1602.2	wordfreq+ours
+箢	1.3	0		wordfreq
+箣	1.35	0		wordfreq
+箦	2.17	0		wordfreq
+箧	2.74	0		wordfreq
+箨	2.33	0		wordfreq
+箩	2.46	0		wordfreq
+箪	1.99	0		wordfreq
+箫	2.9	0		wordfreq
+箬	2.12	0		wordfreq
+箭	3.87	0		wordfreq
+箱	4.1	1	12.9	wordfreq+ours
+箴	2.51	0		wordfreq
+箵	0.0	0		none
+箸	2.5	0		wordfreq
+篁	2.26	0		wordfreq
+篆	2.67	0		wordfreq
+篇	4.82	26	335.9	wordfreq+ours
+篌	0.0	0		none
+篑	0.0	0		none
+篓	2.74	0		wordfreq
+篙	2.02	0		wordfreq
+篝	1.22	0		wordfreq
+篠	2.23	0		wordfreq
+篡	2.84	1	12.9	wordfreq+ours
+篥	0.0	0		none
+篦	2.12	0		wordfreq
+篪	1.29	0		wordfreq
+篮	3.49	0		wordfreq
+篯	2.0	0		wordfreq
+篱	2.55	1	12.9	wordfreq+ours
+篷	2.76	0		wordfreq
+篼	1.46	0		wordfreq
+篾	2.03	0		wordfreq
+篿	0.0	0		none
+簃	1.65	0		wordfreq
+簇	3.16	0		wordfreq
+簋	2.45	0		wordfreq
+簌	0.0	0		none
+簏	1.55	0		wordfreq
+簕	1.2	0		wordfreq
+簘	0.0	0		none
+簟	2.37	0		wordfreq
+簠	1.9	0		wordfreq
+簦	2.32	0		wordfreq
+簧	3.12	0		wordfreq
+簪	2.43	0		wordfreq
+簰	0.0	0		none
+簸	1.38	0		wordfreq
+簿	3.72	2	25.8	wordfreq+ours
+籀	2.17	0		wordfreq
+籁	1.95	0		wordfreq
+籌	3.97	0		wordfreq
+籍	4.33	30	387.6	wordfreq+ours
+籚	0.0	0		none
+籥	1.69	0		wordfreq
+米	5.31	5	64.6	wordfreq+ours
+籴	2.41	0		wordfreq
+籹	1.46	0		wordfreq
+籺	0.0	0		none
+类	5.26	45	581.4	wordfreq+ours
+籼	2.74	0		wordfreq
+籽	3.27	0		wordfreq
+粄	2.33	0		wordfreq
+粉	4.33	1	12.9	wordfreq+ours
+粑	3.65	0		wordfreq
+粒	3.79	0		wordfreq
+粔	0.0	0		none
+粕	2.45	0		wordfreq
+粗	4.22	0		wordfreq
+粘	4.04	0		wordfreq
+粜	3.22	0		wordfreq
+粝	2.28	0		wordfreq
+粟	2.83	1	12.9	wordfreq+ours
+粢	2.14	0		wordfreq
+粤	3.98	0		wordfreq
+粥	3.83	0		wordfreq
+粧	2.38	0		wordfreq
+粪	3.78	0		wordfreq
+粮	4.28	30	387.6	wordfreq+ours
+粱	2.21	0		wordfreq
+粲	2.75	0		wordfreq
+粳	1.83	0		wordfreq
+粹	2.76	2	25.8	wordfreq+ours
+粼	2.1	0		wordfreq
+粽	3.01	0		wordfreq
+精	4.49	43	555.6	wordfreq+ours
+粿	3.03	0		wordfreq
+糁	2.31	0		wordfreq
+糅	1.12	0		wordfreq
+糈	1.33	0		wordfreq
+糊	3.5	3	38.8	wordfreq+ours
+糌	0.0	0		none
+糍	1.98	0		wordfreq
+糕	3.71	2	25.8	wordfreq+ours
+糖	4.47	0		wordfreq
+糗	3.35	0		wordfreq
+糙	2.81	0		wordfreq
+糜	2.4	0		wordfreq
+糟	4.06	0		wordfreq
+糠	2.98	0		wordfreq
+糨	1.09	0		wordfreq
+糬	1.93	0		wordfreq
+糯	3.19	0		wordfreq
+糵	1.04	0		wordfreq
+糸	2.69	0		wordfreq
+系	5.21	100	1292.1	wordfreq+ours
+約	5.64	0		wordfreq
+紅	4.95	0		wordfreq
+紊	1.79	1	12.9	wordfreq+ours
+紋	4.16	0		wordfreq
+素	4.4	17	219.7	wordfreq+ours
+索	4.28	20	258.4	wordfreq+ours
+紧	4.63	31	400.5	wordfreq+ours
+紫	3.95	0		wordfreq
+累	4.5	17	219.7	wordfreq+ours
+細	4.25	0		wordfreq
+絃	3.98	0		wordfreq
+絜	1.79	0		wordfreq
+絡	3.77	0		wordfreq
+給	6.18	0		wordfreq
+絮	2.41	0		wordfreq
+絷	1.72	0		wordfreq
+綁	4.49	0		wordfreq
+經	5.45	0		wordfreq
+綦	1.91	0		wordfreq
+綮	1.54	0		wordfreq
+網	5.46	0		wordfreq
+綾	3.56	0		wordfreq
+綿	2.95	0		wordfreq
+緊	4.63	0		wordfreq
+緌	0.0	0		none
+緝	2.81	0		wordfreq
+編	4.75	0		wordfreq
+練	4.45	0		wordfreq
+縞	2.59	0		wordfreq
+縠	1.32	0		wordfreq
+縢	1.28	0		wordfreq
+縣	5.49	0		wordfreq
+縮	3.96	0		wordfreq
+縻	1.24	0		wordfreq
+繁	3.56	22	284.3	wordfreq+ours
+繇	2.32	0		wordfreq
+繫	5.21	0		wordfreq
+繹	2.52	0		wordfreq
+纂	3.03	0		wordfreq
+纛	2.43	0		wordfreq
+纠	3.2	16	206.7	wordfreq+ours
+纡	2.64	0		wordfreq
+红	4.95	11	142.1	wordfreq+ours
+纣	2.69	0		wordfreq
+纤	2.92	0		wordfreq
+纥	2.74	0		wordfreq
+约	5.64	27	348.9	wordfreq+ours
+级	5.26	59	762.3	wordfreq+ours
+纨	3.53	0		wordfreq
+纩	1.66	0		wordfreq
+纪	4.14	78	1007.8	wordfreq+ours
+纫	2.74	0		wordfreq
+纬	3.22	0		wordfreq
+纭	2.27	0		wordfreq
+纮	2.72	0		wordfreq
+纯	4.55	12	155.0	wordfreq+ours
+纰	1.86	0		wordfreq
+纱	3.63	0		wordfreq
+纲	3.9	1	12.9	wordfreq+ours
+纳	4.64	23	297.2	wordfreq+ours
+纵	3.86	5	64.6	wordfreq+ours
+纶	2.41	0		wordfreq
+纷	3.35	2	25.8	wordfreq+ours
+纸	4.49	26	335.9	wordfreq+ours
+纹	4.16	0		wordfreq
+纺	3.53	0		wordfreq
+纻	2.05	0		wordfreq
+纽	3.97	2	25.8	wordfreq+ours
+纾	3.46	0		wordfreq
+线	5.24	53	684.8	wordfreq+ours
+绀	2.89	0		wordfreq
+绁	1.6	0		wordfreq
+绂	2.26	0		wordfreq
+练	4.45	15	193.8	wordfreq+ours
+组	5.07	127	1640.9	wordfreq+ours
+绅	2.69	3	38.8	wordfreq+ours
+细	4.25	24	310.1	wordfreq+ours
+织	4.06	94	1214.5	wordfreq+ours
+终	4.29	82	1059.5	wordfreq+ours
+绉	2.71	0		wordfreq
+绊	3.38	0		wordfreq
+绌	2.39	0		wordfreq
+绍	3.56	3	38.8	wordfreq+ours
+绎	2.52	0		wordfreq
+经	5.45	104	1343.8	wordfreq+ours
+绐	2.32	0		wordfreq
+绑	4.49	1	12.9	wordfreq+ours
+绒	3.24	0		wordfreq
+结	4.61	142	1834.7	wordfreq+ours
+绔	1.99	0		wordfreq
+绕	4.29	12	155.0	wordfreq+ours
+绖	1.43	0		wordfreq
+绗	1.91	0		wordfreq
+绘	4.08	1	12.9	wordfreq+ours
+给	6.18	91	1175.8	wordfreq+ours
+绚	2.22	0		wordfreq
+绛	3.35	0		wordfreq
+络	3.77	8	103.4	wordfreq+ours
+绝	4.66	19	245.5	wordfreq+ours
+绞	3.22	5	64.6	wordfreq+ours
+统	4.4	96	1240.4	wordfreq+ours
+绠	1.55	0		wordfreq
+绡	1.94	0		wordfreq
+绢	3.25	1	12.9	wordfreq+ours
+绣	3.79	0		wordfreq
+绥	3.24	0		wordfreq
+绦	2.72	0		wordfreq
+继	4.48	19	245.5	wordfreq+ours
+绨	1.62	0		wordfreq
+绩	3.54	14	180.9	wordfreq+ours
+绪	3.41	6	77.5	wordfreq+ours
+绫	3.56	0		wordfreq
+续	4.33	38	491.0	wordfreq+ours
+绮	3.59	1	12.9	wordfreq+ours
+绯	3.25	0		wordfreq
+绰	2.85	0		wordfreq
+绱	2.28	0		wordfreq
+绲	2.91	0		wordfreq
+绳	3.92	5	64.6	wordfreq+ours
+维	4.62	28	361.8	wordfreq+ours
+绵	2.95	2	25.8	wordfreq+ours
+绶	2.72	0		wordfreq
+绷	3.34	1	12.9	wordfreq+ours
+绸	2.64	2	25.8	wordfreq+ours
+绺	2.33	0		wordfreq
+绻	2.45	0		wordfreq
+综	3.69	6	77.5	wordfreq+ours
+绽	2.86	0		wordfreq
+绾	2.91	0		wordfreq
+绿	4.63	4	51.7	wordfreq+ours
+缀	3.35	0		wordfreq
+缁	2.7	0		wordfreq
+缂	2.24	0		wordfreq
+缃	3.15	0		wordfreq
+缄	2.62	0		wordfreq
+缅	3.8	0		wordfreq
+缆	2.78	0		wordfreq
+缇	3.61	0		wordfreq
+缈	2.36	0		wordfreq
+缉	2.81	0		wordfreq
+缊	1.4	0		wordfreq
+缌	1.82	0		wordfreq
+缎	2.43	0		wordfreq
+缏	1.51	0		wordfreq
+缐	1.03	0		wordfreq
+缑	1.95	0		wordfreq
+缒	2.45	0		wordfreq
+缓	3.82	1	12.9	wordfreq+ours
+缔	2.61	0		wordfreq
+缕	3.26	1	12.9	wordfreq+ours
+编	4.75	15	193.8	wordfreq+ours
+缘	4.21	4	51.7	wordfreq+ours
+缙	2.82	0		wordfreq
+缚	3.28	0		wordfreq
+缛	1.9	0		wordfreq
+缜	2.39	0		wordfreq
+缝	3.92	0		wordfreq
+缞	1.48	0		wordfreq
+缟	2.59	0		wordfreq
+缠	4.0	0		wordfreq
+缡	2.1	0		wordfreq
+缢	2.72	1	12.9	wordfreq+ours
+缣	2.23	0		wordfreq
+缤	2.69	0		wordfreq
+缥	1.75	0		wordfreq
+缦	2.5	0		wordfreq
+缧	1.77	0		wordfreq
+缨	2.89	0		wordfreq
+缩	3.96	15	193.8	wordfreq+ours
+缪	3.17	0		wordfreq
+缫	1.68	0		wordfreq
+缬	2.82	0		wordfreq
+缭	2.16	0		wordfreq
+缮	2.41	2	25.8	wordfreq+ours
+缯	2.42	0		wordfreq
+缰	2.51	2	25.8	wordfreq+ours
+缱	2.18	0		wordfreq
+缲	2.18	0		wordfreq
+缳	1.81	0		wordfreq
+缴	3.78	3	38.8	wordfreq+ours
+缵	2.58	0		wordfreq
+缶	2.66	0		wordfreq
+缷	1.61	0		wordfreq
+缸	3.54	0		wordfreq
+缺	4.34	11	142.1	wordfreq+ours
+罂	1.94	0		wordfreq
+罄	2.63	0		wordfreq
+罅	2.35	0		wordfreq
+罌	1.94	0		wordfreq
+罍	1.87	0		wordfreq
+罐	3.89	0		wordfreq
+网	5.46	32	413.5	wordfreq+ours
+罔	2.6	0		wordfreq
+罕	3.48	0		wordfreq
+罗	4.85	4	51.7	wordfreq+ours
+罘	1.49	0		wordfreq
+罚	4.2	3	38.8	wordfreq+ours
+罝	1.79	0		wordfreq
+罟	2.16	0		wordfreq
+罡	2.38	0		wordfreq
+罢	3.88	2	25.8	wordfreq+ours
+罥	0.0	0		none
+罨	2.22	0		wordfreq
+罩	3.93	0		wordfreq
+罪	4.8	11	142.1	wordfreq+ours
+置	4.63	10	129.2	wordfreq+ours
+罰	4.2	0		wordfreq
+罱	1.73	0		wordfreq
+署	4.23	7	90.4	wordfreq+ours
+罳	0.0	0		none
+罴	2.77	0		wordfreq
+罵	4.79	0		wordfreq
+罷	3.88	0		wordfreq
+罹	2.71	0		wordfreq
+罾	1.87	0		wordfreq
+羁	2.45	0		wordfreq
+羅	4.85	0		wordfreq
+羊	4.2	25	323.0	wordfreq+ours
+羌	3.15	0		wordfreq
+美	5.43	3	38.8	wordfreq+ours
+羑	1.51	0		wordfreq
+羔	1.8	0		wordfreq
+羕	1.28	0		wordfreq
+羚	2.64	0		wordfreq
+羝	1.89	0		wordfreq
+羞	3.32	0		wordfreq
+羟	3.18	0		wordfreq
+羡	2.32	0		wordfreq
+群	5.08	115	1485.9	wordfreq+ours
+羧	1.85	0		wordfreq
+義	4.82	0		wordfreq
+羯	3.38	0		wordfreq
+羰	1.68	0		wordfreq
+羱	1.81	0		wordfreq
+羲	2.85	4	51.7	wordfreq+ours
+羸	2.23	0		wordfreq
+羹	3.34	0		wordfreq
+羼	1.37	0		wordfreq
+羽	3.63	0		wordfreq
+羿	2.23	0		wordfreq
+翀	1.38	0		wordfreq
+翁	3.82	0		wordfreq
+翅	3.64	0		wordfreq
+翊	2.84	0		wordfreq
+翌	2.26	1	12.9	wordfreq+ours
+翎	2.57	0		wordfreq
+翔	3.44	0		wordfreq
+翕	2.35	0		wordfreq
+翘	4.15	0		wordfreq
+翙	1.31	0		wordfreq
+翚	2.1	0		wordfreq
+翛	1.34	0		wordfreq
+翟	2.98	0		wordfreq
+翠	3.37	0		wordfreq
+翡	2.01	0		wordfreq
+翥	1.29	0		wordfreq
+翦	2.18	0		wordfreq
+翩	1.71	0		wordfreq
+翮	1.8	0		wordfreq
+翯	0.0	0		none
+翰	3.19	1	12.9	wordfreq+ours
+翱	2.49	0		wordfreq
+翳	2.3	0		wordfreq
+翹	4.15	0		wordfreq
+翻	4.53	12	155.0	wordfreq+ours
+翼	4.01	2	25.8	wordfreq+ours
+翾	1.32	0		wordfreq
+耀	3.27	1	12.9	wordfreq+ours
+老	5.46	83	1072.4	wordfreq+ours
+考	4.61	86	1111.2	wordfreq+ours
+耄	2.08	0		wordfreq
+者	5.64	77	994.9	wordfreq+ours
+耆	2.46	0		wordfreq
+耇	1.35	0		wordfreq
+耋	1.54	0		wordfreq
+而	6.36	208	2687.5	wordfreq+ours
+耍	4.0	0		wordfreq
+耐	3.89	5	64.6	wordfreq+ours
+耒	2.15	0		wordfreq
+耔	0.0	0		none
+耕	3.43	9	116.3	wordfreq+ours
+耗	3.62	9	116.3	wordfreq+ours
+耘	2.25	0		wordfreq
+耙	3.17	0		wordfreq
+耜	2.12	0		wordfreq
+耠	0.0	0		none
+耥	0.0	0		none
+耦	2.46	0		wordfreq
+耧	2.07	0		wordfreq
+耨	2.3	0		wordfreq
+耰	1.36	0		wordfreq
+耲	0.0	0		none
+耳	4.1	0		wordfreq
+耵	0.0	0		none
+耶	4.4	1	12.9	wordfreq+ours
+耷	1.98	0		wordfreq
+耸	2.76	0		wordfreq
+耻	3.46	2	25.8	wordfreq+ours
+耽	3.01	0		wordfreq
+耿	3.12	0		wordfreq
+聂	3.34	0		wordfreq
+聃	1.76	0		wordfreq
+聆	2.98	0		wordfreq
+聊	4.25	1	12.9	wordfreq+ours
+聋	3.43	0		wordfreq
+职	4.67	34	439.3	wordfreq+ours
+聍	0.0	0		none
+聒	1.64	0		wordfreq
+联	4.63	25	323.0	wordfreq+ours
+聖	4.71	0		wordfreq
+聘	3.52	0		wordfreq
+聚	4.12	16	206.7	wordfreq+ours
+聩	0.0	0		none
+聪	3.29	0		wordfreq
+聰	3.29	0		wordfreq
+聱	0.0	0		none
+聲	4.81	0		wordfreq
+聻	0.0	0		none
+聿	2.73	0		wordfreq
+肃	3.33	16	206.7	wordfreq+ours
+肄	1.72	0		wordfreq
+肆	3.18	2	25.8	wordfreq+ours
+肇	3.02	0		wordfreq
+肉	4.81	13	168.0	wordfreq+ours
+肋	3.33	0		wordfreq
+肌	3.74	0		wordfreq
+肏	3.27	0		wordfreq
+肓	1.81	0		wordfreq
+肖	4.03	1	12.9	wordfreq+ours
+肘	3.07	2	25.8	wordfreq+ours
+肚	3.34	2	25.8	wordfreq+ours
+肛	3.16	0		wordfreq
+肝	3.8	0		wordfreq
+肟	2.5	0		wordfreq
+肠	3.52	0		wordfreq
+股	4.8	13	168.0	wordfreq+ours
+肢	2.95	0		wordfreq
+肤	3.13	0		wordfreq
+肥	4.22	0		wordfreq
+肩	3.7	1	12.9	wordfreq+ours
+肪	2.4	0		wordfreq
+肫	1.79	0		wordfreq
+肭	1.49	0		wordfreq
+肮	3.08	0		wordfreq
+肯	4.33	5	64.6	wordfreq+ours
+肱	2.33	0		wordfreq
+育	3.82	44	568.5	wordfreq+ours
+肴	2.23	0		wordfreq
+肷	1.74	0		wordfreq
+肺	3.86	7	90.4	wordfreq+ours
+肼	2.24	0		wordfreq
+肽	3.17	0		wordfreq
+肾	3.91	0		wordfreq
+肿	3.78	1	12.9	wordfreq+ours
+胀	3.44	9	116.3	wordfreq+ours
+胁	3.27	2	25.8	wordfreq+ours
+胂	2.29	0		wordfreq
+胃	4.03	0		wordfreq
+胄	2.63	1	12.9	wordfreq+ours
+胆	4.08	3	38.8	wordfreq+ours
+背	4.58	18	232.6	wordfreq+ours
+胍	2.6	0		wordfreq
+胎	3.62	1	12.9	wordfreq+ours
+胔	2.93	0		wordfreq
+胖	4.21	1	12.9	wordfreq+ours
+胗	2.01	0		wordfreq
+胙	2.01	0		wordfreq
+胚	3.18	0		wordfreq
+胛	1.23	0		wordfreq
+胜	4.46	17	219.7	wordfreq+ours
+胝	1.76	0		wordfreq
+胞	3.44	0		wordfreq
+胠	1.22	0		wordfreq
+胡	4.43	4	51.7	wordfreq+ours
+胤	3.32	0		wordfreq
+胥	2.54	2	25.8	wordfreq+ours
+胧	2.79	0		wordfreq
+胨	1.75	0		wordfreq
+胪	3.22	0		wordfreq
+胫	2.79	0		wordfreq
+胬	1.95	0		wordfreq
+胭	1.04	0		wordfreq
+胯	3.15	0		wordfreq
+胰	2.7	0		wordfreq
+胱	2.24	0		wordfreq
+胳	1.78	0		wordfreq
+胴	2.13	0		wordfreq
+胶	3.75	0		wordfreq
+胸	4.35	2	25.8	wordfreq+ours
+胺	3.4	0		wordfreq
+胼	0.0	0		none
+能	6.29	300	3876.2	wordfreq+ours
+胾	0.0	0		none
+脂	3.5	0		wordfreq
+脅	3.27	0		wordfreq
+脆	3.37	4	51.7	wordfreq+ours
+脇	1.19	0		wordfreq
+脉	4.15	9	116.3	wordfreq+ours
+脊	3.45	0		wordfreq
+脍	2.35	0		wordfreq
+脎	1.09	0		wordfreq
+脏	4.05	1	12.9	wordfreq+ours
+脐	2.91	0		wordfreq
+脑	4.31	1	12.9	wordfreq+ours
+脒	1.98	0		wordfreq
+脓	2.81	0		wordfreq
+脔	1.89	0		wordfreq
+脖	3.07	0		wordfreq
+脘	1.88	0		wordfreq
+脚	4.86	4	51.7	wordfreq+ours
+脝	0.0	0		none
+脞	1.25	0		wordfreq
+脡	0.0	0		none
+脢	1.16	0		wordfreq
+脦	0.0	0		none
+脩	4.65	0		wordfreq
+脬	1.26	0		wordfreq
+脯	2.34	0		wordfreq
+脱	4.55	15	193.8	wordfreq+ours
+脲	2.43	0		wordfreq
+脷	1.59	0		wordfreq
+脸	5.05	0		wordfreq
+脾	3.01	0		wordfreq
+脿	0.0	0		none
+腄	1.04	0		wordfreq
+腆	1.87	0		wordfreq
+腈	2.3	0		wordfreq
+腊	3.81	1	12.9	wordfreq+ours
+腋	2.3	0		wordfreq
+腌	3.37	1	12.9	wordfreq+ours
+腐	3.48	63	814.0	wordfreq+ours
+腑	2.46	0		wordfreq
+腓	2.86	0		wordfreq
+腔	3.91	1	12.9	wordfreq+ours
+腕	3.28	1	12.9	wordfreq+ours
+腘	1.59	0		wordfreq
+腙	1.67	0		wordfreq
+腚	3.08	0		wordfreq
+腠	0.0	0		none
+腥	2.87	0		wordfreq
+腧	0.0	0		none
+腩	2.11	0		wordfreq
+腭	2.94	0		wordfreq
+腮	2.77	0		wordfreq
+腯	0.0	0		none
+腰	4.15	2	25.8	wordfreq+ours
+腱	2.04	0		wordfreq
+腴	1.85	0		wordfreq
+腹	3.64	1	12.9	wordfreq+ours
+腺	3.03	0		wordfreq
+腻	3.55	1	12.9	wordfreq+ours
+腼	1.7	0		wordfreq
+腽	0.0	0		none
+腾	3.47	3	38.8	wordfreq+ours
+腿	4.72	1	12.9	wordfreq+ours
+膀	2.7	0		wordfreq
+膂	1.2	0		wordfreq
+膈	2.41	0		wordfreq
+膊	2.31	0		wordfreq
+膏	3.39	0		wordfreq
+膑	1.53	0		wordfreq
+膘	2.7	0		wordfreq
+膛	3.2	0		wordfreq
+膜	4.07	0		wordfreq
+膝	3.47	0		wordfreq
+膠	3.75	0		wordfreq
+膣	1.94	0		wordfreq
+膦	2.02	0		wordfreq
+膨	3.48	6	77.5	wordfreq+ours
+膪	0.0	0		none
+膰	0.0	0		none
+膳	2.95	1	12.9	wordfreq+ours
+膺	2.48	0		wordfreq
+膻	2.95	0		wordfreq
+臀	4.05	1	12.9	wordfreq+ours
+臂	3.62	1	12.9	wordfreq+ours
+臃	2.0	1	12.9	wordfreq+ours
+臆	1.27	0		wordfreq
+臊	2.45	0		wordfreq
+臌	0.0	0		none
+臑	1.32	0		wordfreq
+臜	1.24	0		wordfreq
+臣	3.96	18	232.6	wordfreq+ours
+臧	2.78	0		wordfreq
+自	5.67	159	2054.4	wordfreq+ours
+臬	2.19	0		wordfreq
+臭	4.28	0		wordfreq
+臲	0.0	0		none
+至	5.72	52	671.9	wordfreq+ours
+致	4.62	24	310.1	wordfreq+ours
+臺	5.4	0		wordfreq
+臻	3.2	0		wordfreq
+臼	2.68	0		wordfreq
+臾	1.36	1	12.9	wordfreq+ours
+舀	2.85	0		wordfreq
+舂	2.87	0		wordfreq
+舄	1.74	0		wordfreq
+舅	2.55	0		wordfreq
+舆	3.38	1	12.9	wordfreq+ours
+舌	3.78	0		wordfreq
+舍	4.04	3	38.8	wordfreq+ours
+舐	3.13	0		wordfreq
+舒	3.7	1	12.9	wordfreq+ours
+舔	4.47	0		wordfreq
+舛	2.75	0		wordfreq
+舜	3.24	0		wordfreq
+舝	0.0	0		none
+舞	4.46	1	12.9	wordfreq+ours
+舟	3.21	0		wordfreq
+舢	0.0	0		none
+舣	1.7	0		wordfreq
+舩	1.7	0		wordfreq
+航	3.76	3	38.8	wordfreq+ours
+舫	2.29	0		wordfreq
+般	4.49	5	64.6	wordfreq+ours
+舰	4.37	1	12.9	wordfreq+ours
+舱	3.97	0		wordfreq
+舲	1.29	0		wordfreq
+舳	1.74	0		wordfreq
+舴	1.82	0		wordfreq
+舵	3.21	2	25.8	wordfreq+ours
+舶	2.99	0		wordfreq
+舷	2.97	0		wordfreq
+舸	1.86	0		wordfreq
+船	4.78	3	38.8	wordfreq+ours
+舺	2.37	0		wordfreq
+舻	2.63	0		wordfreq
+舾	1.33	0		wordfreq
+艄	2.07	0		wordfreq
+艅	0.0	0		none
+艇	3.77	0		wordfreq
+艉	2.49	0		wordfreq
+艋	2.77	0		wordfreq
+艎	0.0	0		none
+艏	2.27	0		wordfreq
+艑	0.0	0		none
+艘	4.33	0		wordfreq
+艚	2.21	0		wordfreq
+艟	1.6	0		wordfreq
+艨	1.24	0		wordfreq
+艮	2.78	0		wordfreq
+良	3.99	17	219.7	wordfreq+ours
+艰	3.04	9	116.3	wordfreq+ours
+色	4.76	30	387.6	wordfreq+ours
+艳	3.93	0		wordfreq
+艴	0.0	0		none
+艸	2.16	0		wordfreq
+艹	3.72	0		wordfreq
+艺	4.24	2	25.8	wordfreq+ours
+艽	2.09	0		wordfreq
+艾	4.44	0		wordfreq
+艿	2.57	0		wordfreq
+节	4.93	28	361.8	wordfreq+ours
+芃	1.11	0		wordfreq
+芄	2.5	0		wordfreq
+芈	3.04	0		wordfreq
+芊	2.61	0		wordfreq
+芋	2.7	0		wordfreq
+芍	1.78	0		wordfreq
+芎	2.49	0		wordfreq
+芏	2.33	0		wordfreq
+芑	2.21	0		wordfreq
+芒	3.43	0		wordfreq
+芗	2.6	0		wordfreq
+芘	2.02	0		wordfreq
+芙	4.15	0		wordfreq
+芚	1.3	0		wordfreq
+芜	2.82	2	25.8	wordfreq+ours
+芝	3.65	0		wordfreq
+芟	2.56	0		wordfreq
+芡	2.15	0		wordfreq
+芣	1.24	0		wordfreq
+芤	2.04	0		wordfreq
+芥	3.33	0		wordfreq
+芦	2.87	0		wordfreq
+芨	2.4	0		wordfreq
+芩	2.31	0		wordfreq
+芪	1.91	0		wordfreq
+芫	2.11	0		wordfreq
+芬	3.54	0		wordfreq
+芭	3.6	0		wordfreq
+芮	3.02	0		wordfreq
+芯	3.7	0		wordfreq
+芰	2.59	0		wordfreq
+花	5.16	12	155.0	wordfreq+ours
+芳	3.46	0		wordfreq
+芴	2.14	0		wordfreq
+芷	2.5	0		wordfreq
+芸	3.0	0		wordfreq
+芹	2.65	0		wordfreq
+芼	1.3	0		wordfreq
+芽	3.5	0		wordfreq
+芾	2.21	0		wordfreq
+苁	1.68	0		wordfreq
+苄	2.53	0		wordfreq
+苇	3.04	0		wordfreq
+苈	2.4	0		wordfreq
+苊	2.17	0		wordfreq
+苋	2.22	0		wordfreq
+苌	2.81	0		wordfreq
+苍	3.34	0		wordfreq
+苎	2.04	0		wordfreq
+苏	4.72	2	25.8	wordfreq+ours
+苑	3.51	0		wordfreq
+苒	1.62	0		wordfreq
+苓	2.34	0		wordfreq
+苔	3.52	0		wordfreq
+苕	2.59	0		wordfreq
+苖	1.28	0		wordfreq
+苗	3.68	7	90.4	wordfreq+ours
+苘	1.42	0		wordfreq
+苛	2.89	0		wordfreq
+苜	1.4	0		wordfreq
+苞	3.27	0		wordfreq
+苟	3.06	2	25.8	wordfreq+ours
+苡	2.01	0		wordfreq
+苢	0.0	0		none
+苣	2.39	0		wordfreq
+苤	2.66	0		wordfreq
+若	5.23	13	168.0	wordfreq+ours
+苦	4.42	14	180.9	wordfreq+ours
+苫	2.93	0		wordfreq
+苯	3.58	0		wordfreq
+英	4.79	11	142.1	wordfreq+ours
+苲	0.0	0		none
+苴	2.43	0		wordfreq
+苶	0.0	0		none
+苷	3.05	0		wordfreq
+苹	2.98	0		wordfreq
+苺	2.21	0		wordfreq
+苻	3.01	0		wordfreq
+苾	1.65	0		wordfreq
+茁	1.58	1	12.9	wordfreq+ours
+茂	3.52	2	25.8	wordfreq+ours
+范	4.31	43	555.6	wordfreq+ours
+茄	3.05	0		wordfreq
+茅	3.22	0		wordfreq
+茆	1.36	0		wordfreq
+茇	1.34	0		wordfreq
+茈	1.56	0		wordfreq
+茉	2.79	0		wordfreq
+茌	1.67	0		wordfreq
+茍	2.01	0		wordfreq
+茎	3.7	0		wordfreq
+茏	1.73	0		wordfreq
+茑	1.89	0		wordfreq
+茓	1.65	0		wordfreq
+茔	1.92	0		wordfreq
+茕	2.29	0		wordfreq
+茖	1.07	0		wordfreq
+茗	3.0	0		wordfreq
+茚	2.04	0		wordfreq
+茛	0.0	0		none
+茜	3.48	0		wordfreq
+茝	0.0	0		none
+茧	3.21	2	25.8	wordfreq+ours
+茨	4.01	0		wordfreq
+茫	2.53	0		wordfreq
+茬	3.17	0		wordfreq
+茭	1.81	0		wordfreq
+茯	1.7	0		wordfreq
+茱	2.7	0		wordfreq
+茲	4.23	0		wordfreq
+茳	0.0	0		none
+茴	2.2	0		wordfreq
+茵	3.01	0		wordfreq
+茶	4.62	8	103.4	wordfreq+ours
+茸	2.91	0		wordfreq
+茹	2.59	0		wordfreq
+茺	1.03	0		wordfreq
+茼	1.25	0		wordfreq
+荀	2.72	0		wordfreq
+荃	3.12	0		wordfreq
+荆	3.3	1	12.9	wordfreq+ours
+荇	1.91	0		wordfreq
+草	4.74	24	310.1	wordfreq+ours
+荍	0.0	0		none
+荏	1.33	0		wordfreq
+荐	3.51	3	38.8	wordfreq+ours
+荑	2.15	0		wordfreq
+荒	3.61	14	180.9	wordfreq+ours
+荔	2.48	0		wordfreq
+荙	1.14	0		wordfreq
+荚	2.97	0		wordfreq
+荛	1.32	0		wordfreq
+荜	1.89	0		wordfreq
+荞	2.17	0		wordfreq
+荟	2.42	0		wordfreq
+荠	2.17	0		wordfreq
+荡	4.01	2	25.8	wordfreq+ours
+荣	3.97	10	129.2	wordfreq+ours
+荤	3.19	0		wordfreq
+荥	1.37	0		wordfreq
+荦	1.58	0		wordfreq
+荧	1.89	0		wordfreq
+荨	2.73	0		wordfreq
+荩	2.9	0		wordfreq
+荪	2.06	0		wordfreq
+荫	3.2	0		wordfreq
+荬	1.52	0		wordfreq
+荭	0.0	0		none
+药	4.72	3	38.8	wordfreq+ours
+荳	2.37	0		wordfreq
+荵	0.0	0		none
+荷	4.06	0		wordfreq
+荸	0.0	0		none
+荻	2.5	0		wordfreq
+荼	2.74	0		wordfreq
+荽	1.75	0		wordfreq
+莅	3.01	0		wordfreq
+莆	2.72	0		wordfreq
+莉	3.76	0		wordfreq
+莊	4.18	0		wordfreq
+莎	4.04	0		wordfreq
+莐	0.0	0		none
+莒	2.38	0		wordfreq
+莓	2.61	0		wordfreq
+莘	2.14	0		wordfreq
+莙	1.14	0		wordfreq
+莛	1.53	0		wordfreq
+莜	1.75	0		wordfreq
+莝	0.0	0		none
+莞	2.51	0		wordfreq
+莠	1.95	0		wordfreq
+莤	1.19	0		wordfreq
+莨	1.4	0		wordfreq
+莩	1.79	0		wordfreq
+莪	2.36	0		wordfreq
+莫	4.53	0		wordfreq
+莰	1.61	0		wordfreq
+莱	4.34	0		wordfreq
+莲	3.69	0		wordfreq
+莳	2.65	0		wordfreq
+莴	1.53	0		wordfreq
+莶	1.63	0		wordfreq
+获	5.07	14	180.9	wordfreq+ours
+莸	2.61	0		wordfreq
+莹	2.67	0		wordfreq
+莺	3.49	0		wordfreq
+莼	2.41	0		wordfreq
+莽	2.67	10	129.2	wordfreq+ours
+莿	1.31	0		wordfreq
+菀	2.59	0		wordfreq
+菁	2.74	0		wordfreq
+菅	2.25	0		wordfreq
+菇	3.16	0		wordfreq
+菈	2.99	0		wordfreq
+菉	1.43	0		wordfreq
+菊	3.79	0		wordfreq
+菌	3.88	0		wordfreq
+菍	1.09	0		wordfreq
+菏	2.61	0		wordfreq
+菓	2.22	0		wordfreq
+菔	2.19	0		wordfreq
+菖	1.78	0		wordfreq
+菘	2.06	0		wordfreq
+菛	0.0	0		none
+菜	4.62	6	77.5	wordfreq+ours
+菝	1.94	0		wordfreq
+菟	2.18	0		wordfreq
+菠	1.96	0		wordfreq
+菡	1.4	0		wordfreq
+菥	1.71	0		wordfreq
+菩	2.56	0		wordfreq
+菪	1.64	0		wordfreq
+菫	1.11	0		wordfreq
+華	4.7	0		wordfreq
+菰	2.38	0		wordfreq
+菱	2.95	0		wordfreq
+菲	4.2	0		wordfreq
+菶	0.0	0		none
+菸	4.57	0		wordfreq
+菹	1.97	0		wordfreq
+菻	1.68	0		wordfreq
+菽	2.11	0		wordfreq
+萁	2.27	0		wordfreq
+萃	2.71	0		wordfreq
+萄	2.63	0		wordfreq
+萆	2.2	0		wordfreq
+萋	2.1	0		wordfreq
+萌	3.61	0		wordfreq
+萍	3.0	0		wordfreq
+萎	2.45	4	51.7	wordfreq+ours
+萏	1.29	0		wordfreq
+萑	1.97	0		wordfreq
+萓	0.0	0		none
+萘	2.68	0		wordfreq
+萜	2.09	0		wordfreq
+萝	3.6	0		wordfreq
+萣	1.51	0		wordfreq
+萤	2.83	0		wordfreq
+营	4.68	35	452.2	wordfreq+ours
+萦	2.3	0		wordfreq
+萧	3.87	9	116.3	wordfreq+ours
+萨	4.44	0		wordfreq
+萩	1.59	0		wordfreq
+萮	0.0	0		none
+萱	3.54	0		wordfreq
+萳	1.07	0		wordfreq
+萸	1.85	0		wordfreq
+萹	0.0	0		none
+萼	2.63	0		wordfreq
+落	4.52	82	1059.5	wordfreq+ours
+葆	2.77	1	12.9	wordfreq+ours
+葉	4.55	0		wordfreq
+葎	1.29	0		wordfreq
+葑	2.0	0		wordfreq
+葖	0.0	0		none
+著	5.0	12	155.0	wordfreq+ours
+葙	1.54	0		wordfreq
+葚	0.0	0		none
+葛	3.85	0		wordfreq
+葜	1.53	0		wordfreq
+葡	3.49	0		wordfreq
+董	3.82	0		wordfreq
+葩	1.83	0		wordfreq
+葫	1.81	0		wordfreq
+葬	3.9	2	25.8	wordfreq+ours
+葭	2.43	0		wordfreq
+葯	4.72	0		wordfreq
+葱	3.55	0		wordfreq
+葳	1.77	0		wordfreq
+葵	3.18	0		wordfreq
+葶	1.61	0		wordfreq
+葸	1.13	0		wordfreq
+葺	1.41	0		wordfreq
+蒂	4.12	0		wordfreq
+蒋	4.14	1	12.9	wordfreq+ours
+蒌	2.31	0		wordfreq
+蒎	2.02	0		wordfreq
+蒐	4.46	0		wordfreq
+蒔	2.65	0		wordfreq
+蒗	1.29	0		wordfreq
+蒙	4.29	24	310.1	wordfreq+ours
+蒜	3.46	0		wordfreq
+蒟	2.3	0		wordfreq
+蒡	0.0	0		none
+蒨	0.0	0		none
+蒯	1.99	0		wordfreq
+蒲	3.48	0		wordfreq
+蒴	1.9	0		wordfreq
+蒸	3.67	1	12.9	wordfreq+ours
+蒹	2.03	0		wordfreq
+蒺	0.0	0		none
+蒻	1.69	0		wordfreq
+蒽	2.17	0		wordfreq
+蒾	2.19	0		wordfreq
+蒿	3.16	0		wordfreq
+蓁	1.58	0		wordfreq
+蓂	1.25	0		wordfreq
+蓄	3.32	1	12.9	wordfreq+ours
+蓇	0.0	0		none
+蓉	3.27	0		wordfreq
+蓊	1.51	0		wordfreq
+蓋	4.59	0		wordfreq
+蓍	1.89	0		wordfreq
+蓐	1.66	0		wordfreq
+蓑	2.4	0		wordfreq
+蓓	2.07	0		wordfreq
+蓖	2.38	0		wordfreq
+蓝	4.61	1	12.9	wordfreq+ours
+蓟	3.17	0		wordfreq
+蓠	0.0	0		none
+蓢	0.0	0		none
+蓣	1.13	0		wordfreq
+蓥	1.05	0		wordfreq
+蓦	1.93	0		wordfreq
+蓧	1.33	0		wordfreq
+蓬	3.48	1	12.9	wordfreq+ours
+蓮	3.69	0		wordfreq
+蓰	0.0	0		none
+蓷	0.0	0		none
+蓺	0.0	0		none
+蓼	2.79	0		wordfreq
+蓿	1.64	0		wordfreq
+蔀	0.0	0		none
+蔄	0.0	0		none
+蔈	0.0	0		none
+蔊	0.0	0		none
+蔌	0.0	0		none
+蔑	2.51	0		wordfreq
+蔓	3.23	1	12.9	wordfreq+ours
+蔗	2.28	0		wordfreq
+蔚	3.08	0		wordfreq
+蔟	1.57	0		wordfreq
+蔡	4.26	1	12.9	wordfreq+ours
+蔢	0.0	0		none
+蔫	2.19	0		wordfreq
+蔬	2.5	0		wordfreq
+蔵	2.08	0		wordfreq
+蔷	2.54	0		wordfreq
+蔸	1.55	0		wordfreq
+蔹	0.0	0		none
+蔺	2.21	0		wordfreq
+蔻	2.51	0		wordfreq
+蔼	3.05	0		wordfreq
+蔽	2.77	1	12.9	wordfreq+ours
+蕃	3.47	4	51.7	wordfreq+ours
+蕈	2.26	0		wordfreq
+蕉	3.06	0		wordfreq
+蕊	3.34	0		wordfreq
+蕖	2.02	0		wordfreq
+蕗	1.21	0		wordfreq
+蕙	2.62	0		wordfreq
+蕞	2.27	0		wordfreq
+蕤	1.56	0		wordfreq
+蕨	2.89	0		wordfreq
+蕰	0.0	0		none
+蕲	2.34	0		wordfreq
+蕴	2.87	2	25.8	wordfreq+ours
+蕹	1.26	0		wordfreq
+蕺	1.7	0		wordfreq
+蕻	0.0	0		none
+蕾	3.93	0		wordfreq
+薁	0.0	0		none
+薄	4.26	6	77.5	wordfreq+ours
+薅	2.41	0		wordfreq
+薇	4.22	0		wordfreq
+薏	1.9	0		wordfreq
+薐	0.0	0		none
+薙	2.05	0		wordfreq
+薛	3.73	0		wordfreq
+薜	2.03	0		wordfreq
+薢	0.0	0		none
+薤	1.61	0		wordfreq
+薦	3.51	0		wordfreq
+薨	2.29	0		wordfreq
+薪	3.64	1	12.9	wordfreq+ours
+薫	1.29	0		wordfreq
+薮	2.8	0		wordfreq
+薯	2.79	0		wordfreq
+薰	3.71	0		wordfreq
+薲	0.0	0		none
+薴	0.0	0		none
+薷	1.43	0		wordfreq
+薸	0.0	0		none
+薹	3.52	0		wordfreq
+薿	0.0	0		none
+藁	2.13	0		wordfreq
+藉	4.3	0		wordfreq
+藏	4.76	13	168.0	wordfreq+ours
+藐	2.36	0		wordfreq
+藑	0.0	0		none
+藓	3.05	0		wordfreq
+藕	3.34	0		wordfreq
+藜	2.62	0		wordfreq
+藝	4.24	0		wordfreq
+藟	0.0	0		none
+藠	0.0	0		none
+藤	3.69	0		wordfreq
+藥	4.72	0		wordfreq
+藦	1.42	0		wordfreq
+藨	1.51	0		wordfreq
+藩	3.47	6	77.5	wordfreq+ours
+藴	2.87	0		wordfreq
+藻	3.05	0		wordfreq
+藿	2.18	0		wordfreq
+蘅	2.29	0		wordfreq
+蘇	4.72	0		wordfreq
+蘑	1.87	0		wordfreq
+蘖	1.9	0		wordfreq
+蘘	0.0	0		none
+蘚	3.05	0		wordfreq
+蘧	1.59	0		wordfreq
+蘩	1.8	0		wordfreq
+蘵	0.0	0		none
+蘸	3.36	0		wordfreq
+蘼	2.44	0		wordfreq
+虎	4.43	2	25.8	wordfreq+ours
+虏	3.64	2	25.8	wordfreq+ours
+虐	3.64	0		wordfreq
+虑	3.71	6	77.5	wordfreq+ours
+虒	0.0	0		none
+虔	2.92	1	12.9	wordfreq+ours
+虚	3.86	10	129.2	wordfreq+ours
+虛	3.86	0		wordfreq
+虞	3.32	0		wordfreq
+虢	2.64	0		wordfreq
+虧	4.24	0		wordfreq
+虫	4.17	0		wordfreq
+虬	2.24	0		wordfreq
+虮	1.85	0		wordfreq
+虱	2.82	0		wordfreq
+虸	0.0	0		none
+虹	3.37	0		wordfreq
+虺	2.24	0		wordfreq
+虻	3.12	0		wordfreq
+虼	2.33	0		wordfreq
+虽	4.71	5	64.6	wordfreq+ours
+虾	4.17	0		wordfreq
+虿	2.55	0		wordfreq
+蚀	3.38	2	25.8	wordfreq+ours
+蚁	3.75	1	12.9	wordfreq+ours
+蚂	2.03	0		wordfreq
+蚃	1.59	0		wordfreq
+蚄	0.0	0		none
+蚊	3.28	0		wordfreq
+蚋	2.64	0		wordfreq
+蚌	3.11	0		wordfreq
+蚍	2.04	0		wordfreq
+蚓	2.37	0		wordfreq
+蚕	2.96	1	12.9	wordfreq+ours
+蚖	0.0	0		none
+蚜	2.66	0		wordfreq
+蚝	3.02	0		wordfreq
+蚣	1.71	0		wordfreq
+蚤	2.77	0		wordfreq
+蚧	2.02	0		wordfreq
+蚨	1.81	0		wordfreq
+蚩	2.81	0		wordfreq
+蚪	1.99	0		wordfreq
+蚬	2.95	0		wordfreq
+蚯	0.0	0		none
+蚰	1.75	0		wordfreq
+蚱	1.7	0		wordfreq
+蚴	2.21	0		wordfreq
+蚵	2.43	0		wordfreq
+蚶	2.48	0		wordfreq
+蚺	2.17	0		wordfreq
+蚿	0.0	0		none
+蛀	2.4	0		wordfreq
+蛁	0.0	0		none
+蛃	1.18	0		wordfreq
+蛄	2.62	0		wordfreq
+蛆	3.16	0		wordfreq
+蛇	4.42	0		wordfreq
+蛈	0.0	0		none
+蛉	2.69	0		wordfreq
+蛊	3.38	0		wordfreq
+蛋	4.49	3	38.8	wordfreq+ours
+蛌	0.0	0		none
+蛎	2.31	0		wordfreq
+蛏	2.41	0		wordfreq
+蛐	2.12	0		wordfreq
+蛑	1.5	0		wordfreq
+蛔	2.26	0		wordfreq
+蛗	0.0	0		none
+蛙	3.62	0		wordfreq
+蛚	0.0	0		none
+蛛	3.39	0		wordfreq
+蛞	2.23	0		wordfreq
+蛟	2.94	0		wordfreq
+蛡	0.0	0		none
+蛣	0.0	0		none
+蛤	3.75	0		wordfreq
+蛩	2.45	0		wordfreq
+蛭	2.71	0		wordfreq
+蛮	4.23	2	25.8	wordfreq+ours
+蛰	2.65	0		wordfreq
+蛱	2.42	0		wordfreq
+蛲	1.91	0		wordfreq
+蛳	2.18	0		wordfreq
+蛴	1.94	0		wordfreq
+蛸	2.11	0		wordfreq
+蛹	3.12	0		wordfreq
+蛾	3.3	0		wordfreq
+蜀	3.87	0		wordfreq
+蜂	3.61	1	12.9	wordfreq+ours
+蜃	2.48	0		wordfreq
+蜇	2.41	0		wordfreq
+蜈	1.55	0		wordfreq
+蜉	1.06	0		wordfreq
+蜊	2.01	0		wordfreq
+蜍	1.43	0		wordfreq
+蜎	0.0	0		none
+蜐	0.0	0		none
+蜑	0.0	0		none
+蜒	1.42	0		wordfreq
+蜓	2.14	0		wordfreq
+蜕	2.4	0		wordfreq
+蜗	2.49	0		wordfreq
+蜘	1.74	0		wordfreq
+蜙	0.0	0		none
+蜚	1.79	0		wordfreq
+蜜	3.52	0		wordfreq
+蜞	0.0	0		none
+蜡	3.44	0		wordfreq
+蜢	1.61	0		wordfreq
+蜣	1.06	0		wordfreq
+蜥	2.9	0		wordfreq
+蜩	1.58	0		wordfreq
+蜮	1.17	0		wordfreq
+蜱	2.51	0		wordfreq
+蜴	1.57	0		wordfreq
+蜷	2.73	0		wordfreq
+蜻	1.91	0		wordfreq
+蜾	0.0	0		none
+蜿	1.34	0		wordfreq
+蝇	3.49	2	25.8	wordfreq+ours
+蝈	1.19	0		wordfreq
+蝉	2.83	0		wordfreq
+蝌	1.88	0		wordfreq
+蝎	3.16	0		wordfreq
+蝑	0.0	0		none
+蝓	0.0	0		none
+蝗	2.89	1	12.9	wordfreq+ours
+蝘	0.0	0		none
+蝙	1.68	0		wordfreq
+蝠	2.64	0		wordfreq
+蝣	0.0	0		none
+蝤	1.19	0		wordfreq
+蝥	0.0	0		none
+蝦	4.17	0		wordfreq
+蝮	2.09	0		wordfreq
+蝰	2.24	0		wordfreq
+蝲	0.0	0		none
+蝴	2.01	0		wordfreq
+蝶	3.36	0		wordfreq
+蝻	1.8	0		wordfreq
+蝼	1.35	0		wordfreq
+蝽	2.23	0		wordfreq
+蝾	1.25	0		wordfreq
+螀	0.0	0		none
+螂	1.74	0		wordfreq
+螃	1.3	0		wordfreq
+螅	2.66	0		wordfreq
+螈	2.26	0		wordfreq
+螉	1.04	0		wordfreq
+螋	1.5	0		wordfreq
+融	3.62	19	245.5	wordfreq+ours
+螓	0.0	0		none
+螗	1.04	0		wordfreq
+螟	2.34	0		wordfreq
+螠	1.9	0		wordfreq
+螣	2.07	0		wordfreq
+螨	3.07	0		wordfreq
+螫	2.63	0		wordfreq
+螬	0.0	0		none
+螭	2.53	0		wordfreq
+螯	2.81	0		wordfreq
+螱	0.0	0		none
+螲	1.09	0		wordfreq
+螳	1.88	0		wordfreq
+螴	0.0	0		none
+螵	0.0	0		none
+螺	3.57	0		wordfreq
+螽	1.36	0		wordfreq
+蟀	1.81	1	12.9	wordfreq+ours
+蟃	0.0	0		none
+蟄	2.65	0		wordfreq
+蟆	2.61	0		wordfreq
+蟊	1.8	0		wordfreq
+蟋	1.94	1	12.9	wordfreq+ours
+蟌	1.4	0		wordfreq
+蟏	0.0	0		none
+蟑	1.6	0		wordfreq
+蟒	3.09	0		wordfreq
+蟙	0.0	0		none
+蟛	1.87	0		wordfreq
+蟞	0.0	0		none
+蟟	0.0	0		none
+蟠	2.15	0		wordfreq
+蟢	0.0	0		none
+蟥	0.0	0		none
+蟪	1.63	0		wordfreq
+蟫	0.0	0		none
+蟮	2.85	0		wordfreq
+蟱	0.0	0		none
+蟳	1.24	0		wordfreq
+蟴	0.0	0		none
+蟷	0.0	0		none
+蟹	3.79	0		wordfreq
+蟼	1.59	0		wordfreq
+蟾	3.22	0		wordfreq
+蠃	1.64	0		wordfreq
+蠊	2.19	0		wordfreq
+蠋	2.5	0		wordfreq
+蠓	2.22	0		wordfreq
+蠔	2.52	0		wordfreq
+蠕	2.12	0		wordfreq
+蠖	2.02	0		wordfreq
+蠛	2.16	0		wordfreq
+蠟	3.44	0		wordfreq
+蠡	1.87	0		wordfreq
+蠢	3.97	0		wordfreq
+蠮	0.0	0		none
+蠱	3.38	0		wordfreq
+蠲	2.02	0		wordfreq
+蠵	1.68	0		wordfreq
+蠹	2.89	0		wordfreq
+蠼	2.13	0		wordfreq
+蠽	0.0	0		none
+血	4.77	25	323.0	wordfreq+ours
+衄	2.52	0		wordfreq
+衅	3.08	0		wordfreq
+行	5.43	217	2803.8	wordfreq+ours
+衍	3.01	14	180.9	wordfreq+ours
+衒	1.71	0		wordfreq
+衔	3.45	7	90.4	wordfreq+ours
+街	4.96	3	38.8	wordfreq+ours
+衙	2.71	2	25.8	wordfreq+ours
+衛	4.31	0		wordfreq
+衠	0.0	0		none
+衡	3.64	12	155.0	wordfreq+ours
+衢	2.19	0		wordfreq
+衣	4.15	6	77.5	wordfreq+ours
+补	4.45	23	297.2	wordfreq+ours
+表	4.9	64	826.9	wordfreq+ours
+衩	2.02	0		wordfreq
+衫	3.6	0		wordfreq
+衬	3.11	0		wordfreq
+衮	2.52	0		wordfreq
+衰	3.72	12	155.0	wordfreq+ours
+衲	2.05	0		wordfreq
+衷	2.94	3	38.8	wordfreq+ours
+衽	1.56	0		wordfreq
+衾	2.56	0		wordfreq
+衿	2.57	0		wordfreq
+袁	3.94	0		wordfreq
+袂	2.15	0		wordfreq
+袄	2.89	0		wordfreq
+袅	1.69	0		wordfreq
+袆	1.53	0		wordfreq
+袈	1.57	0		wordfreq
+袋	4.01	3	38.8	wordfreq+ours
+袍	3.37	2	25.8	wordfreq+ours
+袒	2.28	0		wordfreq
+袖	3.29	0		wordfreq
+袗	0.0	0		none
+袛	1.58	0		wordfreq
+袜	3.48	0		wordfreq
+袢	2.12	0		wordfreq
+袤	1.81	0		wordfreq
+袪	1.61	0		wordfreq
+被	6.42	92	1188.7	wordfreq+ours
+袭	3.94	4	51.7	wordfreq+ours
+袮	1.3	0		wordfreq
+袯	0.0	0		none
+袱	2.51	0		wordfreq
+袴	1.83	0		wordfreq
+袷	1.92	0		wordfreq
+袼	1.38	0		wordfreq
+裀	1.14	0		wordfreq
+裁	3.75	6	77.5	wordfreq+ours
+裂	3.59	7	90.4	wordfreq+ours
+装	4.89	9	116.3	wordfreq+ours
+裆	3.02	0		wordfreq
+裇	2.89	0		wordfreq
+裈	1.95	0		wordfreq
+裉	1.46	0		wordfreq
+裋	0.0	0		none
+裎	1.77	0		wordfreq
+裏	6.09	0		wordfreq
+裒	1.85	0		wordfreq
+裔	4.37	0		wordfreq
+裕	3.66	3	38.8	wordfreq+ours
+裘	3.29	0		wordfreq
+裙	3.87	0		wordfreq
+裝	4.89	0		wordfreq
+裟	1.36	0		wordfreq
+裡	6.09	0		wordfreq
+裢	1.97	0		wordfreq
+裣	1.51	0		wordfreq
+裤	3.87	0		wordfreq
+裥	1.73	0		wordfreq
+裨	2.22	0		wordfreq
+裯	0.0	0		none
+裰	1.42	0		wordfreq
+裱	2.45	0		wordfreq
+裳	2.42	0		wordfreq
+裴	3.47	0		wordfreq
+裸	3.66	6	77.5	wordfreq+ours
+裹	3.75	1	12.9	wordfreq+ours
+裼	1.92	0		wordfreq
+製	5.42	0		wordfreq
+裾	2.25	0		wordfreq
+褂	2.92	0		wordfreq
+褊	1.92	0		wordfreq
+褎	0.0	0		none
+褐	3.32	0		wordfreq
+褒	3.05	0		wordfreq
+褓	2.51	0		wordfreq
+褔	2.0	0		wordfreq
+褕	0.0	0		none
+褙	1.53	0		wordfreq
+褚	2.79	0		wordfreq
+褛	1.63	0		wordfreq
+褟	0.0	0		none
+褡	2.13	0		wordfreq
+褥	2.25	0		wordfreq
+褦	0.0	0		none
+褪	3.03	2	25.8	wordfreq+ours
+褫	2.39	0		wordfreq
+褯	0.0	0		none
+褰	2.25	0		wordfreq
+褴	1.01	0		wordfreq
+褶	2.78	0		wordfreq
+襁	0.0	0		none
+襄	2.98	4	51.7	wordfreq+ours
+襜	1.21	0		wordfreq
+襞	2.16	0		wordfreq
+襟	2.52	1	12.9	wordfreq+ours
+襦	2.12	0		wordfreq
+襫	0.0	0		none
+襶	0.0	0		none
+襻	1.1	0		wordfreq
+西	5.2	32	413.5	wordfreq+ours
+要	6.46	308	3979.6	wordfreq+ours
+覃	2.35	0		wordfreq
+覆	3.51	9	116.3	wordfreq+ours
+見	5.59	0		wordfreq
+親	4.73	0		wordfreq
+见	5.59	40	516.8	wordfreq+ours
+观	4.67	34	439.3	wordfreq+ours
+规	4.22	139	1796.0	wordfreq+ours
+觅	3.69	0		wordfreq
+视	4.82	61	788.2	wordfreq+ours
+觇	2.17	0		wordfreq
+览	3.36	0		wordfreq
+觉	4.29	15	193.8	wordfreq+ours
+觊	1.92	0		wordfreq
+觋	1.92	0		wordfreq
+觌	1.85	0		wordfreq
+觍	0.0	0		none
+觎	1.55	0		wordfreq
+觏	1.64	0		wordfreq
+觐	2.04	0		wordfreq
+觑	1.88	0		wordfreq
+角	4.44	39	503.9	wordfreq+ours
+觖	0.0	0		none
+觚	2.23	0		wordfreq
+觜	1.82	0		wordfreq
+觞	2.27	0		wordfreq
+解	4.61	116	1498.8	wordfreq+ours
+觥	2.48	0		wordfreq
+触	3.8	5	64.6	wordfreq+ours
+觫	0.0	0		none
+觭	1.56	0		wordfreq
+觱	0.0	0		none
+觳	2.4	0		wordfreq
+觸	3.8	0		wordfreq
+觿	0.0	0		none
+言	4.95	25	323.0	wordfreq+ours
+訇	1.36	0		wordfreq
+訊	4.5	0		wordfreq
+討	4.03	0		wordfreq
+記	4.85	0		wordfreq
+訚	1.13	0		wordfreq
+訝	2.69	0		wordfreq
+註	4.89	0		wordfreq
+訾	1.83	0		wordfreq
+詈	2.4	0		wordfreq
+詞	4.95	0		wordfreq
+詟	0.0	0		none
+詣	2.43	0		wordfreq
+詭	3.37	0		wordfreq
+詹	3.59	0		wordfreq
+誉	3.77	1	12.9	wordfreq+ours
+誊	1.86	0		wordfreq
+誌	4.5	0		wordfreq
+誓	3.69	1	12.9	wordfreq+ours
+誠	4.11	0		wordfreq
+誰	5.85	0		wordfreq
+諕	0.0	0		none
+諧	3.14	0		wordfreq
+諷	3.24	0		wordfreq
+諾	4.5	0		wordfreq
+謂	4.07	0		wordfreq
+謇	1.95	0		wordfreq
+謊	3.62	0		wordfreq
+謎	4.04	0		wordfreq
+謦	1.62	0		wordfreq
+警	4.04	2	25.8	wordfreq+ours
+譬	2.19	0		wordfreq
+譯	4.42	0		wordfreq
+譲	1.79	0		wordfreq
+譽	3.77	0		wordfreq
+讀	5.05	0		wordfreq
+计	4.68	44	568.5	wordfreq+ours
+订	4.3	4	51.7	wordfreq+ours
+讣	1.97	0		wordfreq
+认	4.5	38	491.0	wordfreq+ours
+讥	2.1	0		wordfreq
+讦	1.88	0		wordfreq
+讧	1.38	0		wordfreq
+讨	4.03	7	90.4	wordfreq+ours
+让	6.26	110	1421.3	wordfreq+ours
+讪	2.7	0		wordfreq
+讫	2.91	0		wordfreq
+讬	1.81	0		wordfreq
+训	3.97	20	258.4	wordfreq+ours
+议	4.27	37	478.1	wordfreq+ours
+讯	4.5	0		wordfreq
+记	4.85	86	1111.2	wordfreq+ours
+讲	5.36	59	762.3	wordfreq+ours
+讳	3.21	1	12.9	wordfreq+ours
+讴	2.04	0		wordfreq
+讶	2.69	0		wordfreq
+讷	3.14	1	12.9	wordfreq+ours
+许	4.47	23	297.2	wordfreq+ours
+讹	3.12	0		wordfreq
+论	4.94	131	1692.6	wordfreq+ours
+讻	0.0	0		none
+讼	3.36	0		wordfreq
+讽	3.24	0		wordfreq
+设	5.1	87	1124.1	wordfreq+ours
+访	4.22	13	168.0	wordfreq+ours
+诀	3.79	2	25.8	wordfreq+ours
+证	4.57	11	142.1	wordfreq+ours
+诂	1.63	0		wordfreq
+诃	3.08	0		wordfreq
+评	4.37	45	581.4	wordfreq+ours
+诅	2.22	1	12.9	wordfreq+ours
+识	4.37	38	491.0	wordfreq+ours
+诈	3.51	0		wordfreq
+诉	3.85	7	90.4	wordfreq+ours
+诊	3.07	6	77.5	wordfreq+ours
+诋	2.03	0		wordfreq
+诌	1.95	0		wordfreq
+词	4.95	31	400.5	wordfreq+ours
+诎	2.17	0		wordfreq
+诏	3.62	6	77.5	wordfreq+ours
+诐	0.0	0		none
+译	4.42	1	12.9	wordfreq+ours
+诒	2.47	0		wordfreq
+诓	2.35	0		wordfreq
+诔	2.25	0		wordfreq
+试	4.73	35	452.2	wordfreq+ours
+诖	1.86	0		wordfreq
+诗	4.71	2	25.8	wordfreq+ours
+诘	3.17	0		wordfreq
+诙	2.26	0		wordfreq
+诚	4.11	11	142.1	wordfreq+ours
+诛	3.81	0		wordfreq
+诜	2.62	0		wordfreq
+话	5.65	113	1460.0	wordfreq+ours
+诞	3.23	4	51.7	wordfreq+ours
+诟	2.43	0		wordfreq
+诠	2.63	1	12.9	wordfreq+ours
+诡	3.37	0		wordfreq
+询	3.73	0		wordfreq
+诣	2.43	0		wordfreq
+诤	2.37	0		wordfreq
+该	5.96	21	271.3	wordfreq+ours
+详	3.61	2	25.8	wordfreq+ours
+诧	2.9	0		wordfreq
+诨	2.18	0		wordfreq
+诩	2.29	0		wordfreq
+诪	0.0	0		none
+诫	2.99	3	38.8	wordfreq+ours
+诬	2.77	2	25.8	wordfreq+ours
+语	4.99	6	77.5	wordfreq+ours
+诮	2.23	0		wordfreq
+误	4.06	15	193.8	wordfreq+ours
+诰	3.38	0		wordfreq
+诱	3.56	2	25.8	wordfreq+ours
+诲	2.83	0		wordfreq
+诳	2.23	0		wordfreq
+说	6.55	198	2558.3	wordfreq+ours
+诵	3.0	1	12.9	wordfreq+ours
+诶	3.86	0		wordfreq
+请	5.77	14	180.9	wordfreq+ours
+诸	4.3	2	25.8	wordfreq+ours
+诹	2.77	0		wordfreq
+诺	4.5	11	142.1	wordfreq+ours
+读	5.05	54	697.7	wordfreq+ours
+诼	1.63	0		wordfreq
+诽	2.13	0		wordfreq
+课	4.73	23	297.2	wordfreq+ours
+诿	2.43	3	38.8	wordfreq+ours
+谀	2.24	0		wordfreq
+谁	5.85	38	491.0	wordfreq+ours
+谂	2.5	0		wordfreq
+调	4.83	81	1046.6	wordfreq+ours
+谄	2.36	0		wordfreq
+谅	3.45	1	12.9	wordfreq+ours
+谆	2.16	0		wordfreq
+谇	2.31	0		wordfreq
+谈	5.18	10	129.2	wordfreq+ours
+谊	3.13	0		wordfreq
+谋	4.24	11	142.1	wordfreq+ours
+谌	2.81	0		wordfreq
+谍	2.69	0		wordfreq
+谎	3.62	3	38.8	wordfreq+ours
+谏	3.33	0		wordfreq
+谐	3.14	1	12.9	wordfreq+ours
+谑	2.61	0		wordfreq
+谒	3.13	0		wordfreq
+谓	4.07	13	168.0	wordfreq+ours
+谔	2.95	0		wordfreq
+谕	3.33	0		wordfreq
+谖	2.0	0		wordfreq
+谗	2.45	0		wordfreq
+谘	2.87	0		wordfreq
+谙	2.64	0		wordfreq
+谚	2.45	0		wordfreq
+谛	3.05	0		wordfreq
+谜	4.04	2	25.8	wordfreq+ours
+谝	2.46	0		wordfreq
+谞	0.0	0		none
+谟	3.13	0		wordfreq
+谠	2.52	0		wordfreq
+谡	2.26	0		wordfreq
+谢	4.55	2	25.8	wordfreq+ours
+谣	3.22	2	25.8	wordfreq+ours
+谤	2.86	0		wordfreq
+谥	3.55	1	12.9	wordfreq+ours
+谦	3.47	1	12.9	wordfreq+ours
+谧	2.38	0		wordfreq
+谨	3.49	1	12.9	wordfreq+ours
+谩	2.84	0		wordfreq
+谪	2.65	0		wordfreq
+谫	1.83	0		wordfreq
+谬	2.8	0		wordfreq
+谭	3.86	0		wordfreq
+谮	1.92	0		wordfreq
+谯	2.97	0		wordfreq
+谰	2.18	0		wordfreq
+谱	4.55	2	25.8	wordfreq+ours
+谲	2.04	0		wordfreq
+谳	3.04	0		wordfreq
+谴	3.32	0		wordfreq
+谵	0.0	0		none
+谶	3.04	0		wordfreq
+谷	4.54	3	38.8	wordfreq+ours
+谿	2.12	0		wordfreq
+豁	2.51	2	25.8	wordfreq+ours
+豆	3.88	0		wordfreq
+豇	0.0	0		none
+豈	4.03	0		wordfreq
+豉	1.84	0		wordfreq
+豌	1.83	0		wordfreq
+豐	3.9	0		wordfreq
+豕	2.37	0		wordfreq
+豚	2.94	0		wordfreq
+象	4.82	45	581.4	wordfreq+ours
+豢	2.72	0		wordfreq
+豨	1.79	0		wordfreq
+豪	3.93	85	1098.3	wordfreq+ours
+豫	3.55	0		wordfreq
+豮	0.0	0		none
+豳	2.1	0		wordfreq
+豸	1.63	0		wordfreq
+豹	3.51	0		wordfreq
+豺	2.39	0		wordfreq
+豿	0.0	0		none
+貂	3.22	0		wordfreq
+貅	1.02	0		wordfreq
+貆	0.0	0		none
+貉	2.56	0		wordfreq
+貊	2.31	0		wordfreq
+貌	3.45	0		wordfreq
+貓	4.73	0		wordfreq
+貔	1.43	0		wordfreq
+貘	2.85	0		wordfreq
+貛	0.0	0		none
+貪	3.91	0		wordfreq
+貸	4.01	0		wordfreq
+費	4.8	0		wordfreq
+賊	4.37	0		wordfreq
+賒	2.4	0		wordfreq
+賓	4.02	0		wordfreq
+賞	4.05	0		wordfreq
+賠	4.16	0		wordfreq
+賢	3.71	0		wordfreq
+賤	4.05	0		wordfreq
+質	4.69	0		wordfreq
+購	4.53	0		wordfreq
+贓	2.38	0		wordfreq
+贖	3.58	0		wordfreq
+贝	4.25	0		wordfreq
+贞	3.4	1	12.9	wordfreq+ours
+负	4.7	38	491.0	wordfreq+ours
+贡	3.84	1	12.9	wordfreq+ours
+财	4.3	216	2790.9	wordfreq+ours
+责	4.07	67	865.7	wordfreq+ours
+贤	3.71	6	77.5	wordfreq+ours
+败	4.16	44	568.5	wordfreq+ours
+账	4.04	35	452.2	wordfreq+ours
+货	4.55	42	542.7	wordfreq+ours
+质	4.69	51	659.0	wordfreq+ours
+贩	3.28	2	25.8	wordfreq+ours
+贪	3.91	7	90.4	wordfreq+ours
+贫	3.89	6	77.5	wordfreq+ours
+贬	3.51	2	25.8	wordfreq+ours
+购	4.53	5	64.6	wordfreq+ours
+贮	3.14	0		wordfreq
+贯	3.58	44	568.5	wordfreq+ours
+贰	3.7	0		wordfreq
+贱	4.05	2	25.8	wordfreq+ours
+贲	2.15	0		wordfreq
+贳	1.1	0		wordfreq
+贴	4.93	3	38.8	wordfreq+ours
+贵	4.64	27	348.9	wordfreq+ours
+贷	4.01	10	129.2	wordfreq+ours
+贸	3.27	7	90.4	wordfreq+ours
+费	4.8	17	219.7	wordfreq+ours
+贺	4.04	0		wordfreq
+贻	2.74	0		wordfreq
+贼	4.37	1	12.9	wordfreq+ours
+贽	2.4	0		wordfreq
+贾	4.36	13	168.0	wordfreq+ours
+贿	2.64	5	64.6	wordfreq+ours
+赀	2.41	0		wordfreq
+赁	2.83	0		wordfreq
+赂	2.7	0		wordfreq
+赃	2.38	1	12.9	wordfreq+ours
+资	4.51	85	1098.3	wordfreq+ours
+赅	1.4	0		wordfreq
+赆	1.17	0		wordfreq
+赇	0.0	0		none
+赈	2.59	4	51.7	wordfreq+ours
+赉	2.4	0		wordfreq
+赊	2.4	0		wordfreq
+赋	3.7	39	503.9	wordfreq+ours
+赌	4.43	1	12.9	wordfreq+ours
+赍	2.42	0		wordfreq
+赎	3.58	1	12.9	wordfreq+ours
+赏	4.05	4	51.7	wordfreq+ours
+赐	4.14	1	12.9	wordfreq+ours
+赑	2.0	0		wordfreq
+赒	1.37	0		wordfreq
+赓	2.21	1	12.9	wordfreq+ours
+赔	4.16	7	90.4	wordfreq+ours
+赕	1.97	0		wordfreq
+赖	4.17	9	116.3	wordfreq+ours
+赘	2.67	0		wordfreq
+赙	1.72	0		wordfreq
+赚	4.82	2	25.8	wordfreq+ours
+赛	4.67	0		wordfreq
+赜	2.07	0		wordfreq
+赝	2.36	0		wordfreq
+赞	4.53	1	12.9	wordfreq+ours
+赟	2.34	0		wordfreq
+赠	3.87	0		wordfreq
+赡	3.0	0		wordfreq
+赢	5.0	5	64.6	wordfreq+ours
+赣	3.88	0		wordfreq
+赤	4.08	5	64.6	wordfreq+ours
+赦	3.11	0		wordfreq
+赧	1.83	0		wordfreq
+赪	1.2	0		wordfreq
+赫	3.98	3	38.8	wordfreq+ours
+赭	2.34	0		wordfreq
+走	5.66	64	826.9	wordfreq+ours
+赳	2.18	0		wordfreq
+赴	4.62	0		wordfreq
+赵	4.55	4	51.7	wordfreq+ours
+赶	4.56	4	51.7	wordfreq+ours
+起	5.68	108	1395.4	wordfreq+ours
+趁	4.23	1	12.9	wordfreq+ours
+趄	0.0	0		none
+超	4.94	20	258.4	wordfreq+ours
+越	5.19	86	1111.2	wordfreq+ours
+趋	4.03	2	25.8	wordfreq+ours
+趑	0.0	0		none
+趔	0.0	0		none
+趙	4.55	0		wordfreq
+趟	3.79	0		wordfreq
+趣	3.61	1	12.9	wordfreq+ours
+趱	1.08	0		wordfreq
+足	4.53	24	310.1	wordfreq+ours
+趴	3.68	1	12.9	wordfreq+ours
+趵	1.35	0		wordfreq
+趸	3.15	0		wordfreq
+趺	2.37	0		wordfreq
+趻	0.0	0		none
+趼	1.87	0		wordfreq
+趾	3.51	1	12.9	wordfreq+ours
+趿	1.77	0		wordfreq
+跂	1.66	0		wordfreq
+跃	3.54	4	51.7	wordfreq+ours
+跄	0.0	0		none
+跅	0.0	0		none
+跆	2.09	0		wordfreq
+跋	3.25	11	142.1	wordfreq+ours
+跌	4.18	2	25.8	wordfreq+ours
+跎	1.7	0		wordfreq
+跏	2.17	0		wordfreq
+跐	0.0	0		none
+跑	5.23	3	38.8	wordfreq+ours
+跖	2.2	0		wordfreq
+跗	2.26	0		wordfreq
+跚	1.18	0		wordfreq
+跛	2.9	0		wordfreq
+距	4.36	2	25.8	wordfreq+ours
+跟	5.78	10	129.2	wordfreq+ours
+跡	3.9	0		wordfreq
+跣	1.88	0		wordfreq
+跤	2.99	0		wordfreq
+跨	4.63	4	51.7	wordfreq+ours
+跩	2.13	0		wordfreq
+跪	4.24	2	25.8	wordfreq+ours
+跫	2.09	0		wordfreq
+跬	1.78	0		wordfreq
+路	5.43	72	930.3	wordfreq+ours
+跱	0.0	0		none
+跳	4.84	2	25.8	wordfreq+ours
+践	3.6	13	168.0	wordfreq+ours
+跶	2.89	0		wordfreq
+跷	2.24	0		wordfreq
+跸	2.26	0		wordfreq
+跹	1.49	0		wordfreq
+跺	3.07	0		wordfreq
+跻	1.98	1	12.9	wordfreq+ours
+跽	1.75	0		wordfreq
+踅	1.78	0		wordfreq
+踆	0.0	0		none
+踉	1.8	0		wordfreq
+踊	3.06	0		wordfreq
+踌	1.86	0		wordfreq
+踏	3.78	7	90.4	wordfreq+ours
+踒	0.0	0		none
+踔	1.75	0		wordfreq
+踖	0.0	0		none
+踝	2.65	0		wordfreq
+踞	3.37	0		wordfreq
+踟	0.0	0		none
+踢	4.46	0		wordfreq
+踣	1.29	0		wordfreq
+踥	0.0	0		none
+踧	0.0	0		none
+踩	4.31	0		wordfreq
+踪	3.93	3	38.8	wordfreq+ours
+踬	1.89	0		wordfreq
+踮	2.12	0		wordfreq
+踯	0.0	0		none
+踱	2.21	0		wordfreq
+踵	1.9	1	12.9	wordfreq+ours
+踹	3.57	0		wordfreq
+踺	0.0	0		none
+踽	0.0	0		none
+蹀	1.39	0		wordfreq
+蹁	0.0	0		none
+蹂	1.66	0		wordfreq
+蹄	3.1	1	12.9	wordfreq+ours
+蹇	2.86	0		wordfreq
+蹈	3.14	0		wordfreq
+蹉	1.81	0		wordfreq
+蹊	1.35	0		wordfreq
+蹋	2.31	0		wordfreq
+蹐	0.0	0		none
+蹑	1.77	0		wordfreq
+蹒	1.47	0		wordfreq
+蹓	1.83	0		wordfreq
+蹙	2.37	0		wordfreq
+蹚	1.91	0		wordfreq
+蹜	0.0	0		none
+蹟	3.9	0		wordfreq
+蹦	3.55	0		wordfreq
+蹩	1.75	0		wordfreq
+蹬	3.17	0		wordfreq
+蹭	3.56	0		wordfreq
+蹯	1.14	0		wordfreq
+蹰	0.0	0		none
+蹲	4.02	0		wordfreq
+蹴	2.54	0		wordfreq
+蹶	2.0	0		wordfreq
+蹺	2.24	0		wordfreq
+蹻	1.92	0		wordfreq
+蹼	2.63	0		wordfreq
+蹽	0.0	0		none
+蹿	2.74	0		wordfreq
+躁	2.74	2	25.8	wordfreq+ours
+躂	2.89	0		wordfreq
+躄	1.55	0		wordfreq
+躅	1.03	0		wordfreq
+躇	1.52	0		wordfreq
+躍	3.54	0		wordfreq
+躏	1.03	0		wordfreq
+躐	1.03	0		wordfreq
+躞	0.0	0		none
+身	4.73	75	969.1	wordfreq+ours
+躬	2.84	0		wordfreq
+躯	2.66	0		wordfreq
+躲	4.45	4	51.7	wordfreq+ours
+躺	4.58	0		wordfreq
+車	5.27	0		wordfreq
+軟	4.41	0		wordfreq
+輕	4.75	0		wordfreq
+輧	0.0	0		none
+輩	3.8	0		wordfreq
+輶	0.0	0		none
+輸	4.76	0		wordfreq
+轟	4.19	0		wordfreq
+车	5.27	3	38.8	wordfreq+ours
+轧	3.02	0		wordfreq
+轨	3.74	5	64.6	wordfreq+ours
+轩	3.3	0		wordfreq
+轫	2.68	0		wordfreq
+转	5.18	66	852.8	wordfreq+ours
+轭	2.82	0		wordfreq
+轮	4.81	8	103.4	wordfreq+ours
+软	4.41	3	38.8	wordfreq+ours
+轰	4.19	1	12.9	wordfreq+ours
+轱	1.15	0		wordfreq
+轲	2.17	0		wordfreq
+轳	0.0	0		none
+轴	3.91	0		wordfreq
+轵	1.95	0		wordfreq
+轶	2.65	0		wordfreq
+轸	2.32	0		wordfreq
+轹	1.16	0		wordfreq
+轺	1.78	0		wordfreq
+轻	4.75	18	232.6	wordfreq+ours
+轼	2.13	0		wordfreq
+载	4.67	15	193.8	wordfreq+ours
+轾	0.0	0		none
+轿	3.52	0		wordfreq
+辀	1.21	0		wordfreq
+辁	0.0	0		none
+辂	2.16	0		wordfreq
+较	5.65	10	129.2	wordfreq+ours
+辄	2.7	0		wordfreq
+辅	3.84	6	77.5	wordfreq+ours
+辆	4.66	0		wordfreq
+辇	2.78	0		wordfreq
+辈	3.8	7	90.4	wordfreq+ours
+辉	3.59	0		wordfreq
+辊	2.97	0		wordfreq
+辋	2.02	0		wordfreq
+辌	0.0	0		none
+辍	2.55	0		wordfreq
+辎	1.96	0		wordfreq
+辏	1.63	0		wordfreq
+辐	3.04	0		wordfreq
+辑	4.11	19	245.5	wordfreq+ours
+辒	0.0	0		none
+输	4.76	12	155.0	wordfreq+ours
+辔	2.88	0		wordfreq
+辕	2.17	0		wordfreq
+辖	4.72	1	12.9	wordfreq+ours
+辗	2.43	0		wordfreq
+辘	1.98	0		wordfreq
+辙	2.66	0		wordfreq
+辚	1.34	0		wordfreq
+辛	3.98	2	25.8	wordfreq+ours
+辜	2.6	0		wordfreq
+辞	3.96	3	38.8	wordfreq+ours
+辟	3.61	1	12.9	wordfreq+ours
+辣	4.04	0		wordfreq
+辨	3.77	1	12.9	wordfreq+ours
+辩	4.03	4	51.7	wordfreq+ours
+辫	3.21	0		wordfreq
+辰	3.52	0		wordfreq
+辱	3.56	0		wordfreq
+辵	0.0	0		none
+边	4.78	36	465.1	wordfreq+ours
+辺	2.17	0		wordfreq
+辻	1.77	0		wordfreq
+辽	3.97	2	25.8	wordfreq+ours
+达	5.52	26	335.9	wordfreq+ours
+辿	1.59	0		wordfreq
+迁	4.36	15	193.8	wordfreq+ours
+迂	2.63	1	12.9	wordfreq+ours
+迄	2.99	0		wordfreq
+迅	3.42	3	38.8	wordfreq+ours
+过	6.1	164	2119.0	wordfreq+ours
+迈	4.02	1	12.9	wordfreq+ours
+迍	0.0	0		none
+迎	4.1	8	103.4	wordfreq+ours
+运	4.65	68	878.6	wordfreq+ours
+近	5.2	38	491.0	wordfreq+ours
+迓	2.03	0		wordfreq
+返	4.01	5	64.6	wordfreq+ours
+还	6.38	117	1511.7	wordfreq+ours
+这	6.68	547	7067.6	wordfreq+ours
+进	5.49	152	1964.0	wordfreq+ours
+远	5.12	37	478.1	wordfreq+ours
+违	3.78	16	206.7	wordfreq+ours
+连	5.43	31	400.5	wordfreq+ours
+迟	4.31	1	12.9	wordfreq+ours
+迢	1.04	0		wordfreq
+迤	2.07	0		wordfreq
+迥	2.71	0		wordfreq
+迦	3.32	0		wordfreq
+迩	2.83	0		wordfreq
+迪	4.16	0		wordfreq
+迫	3.74	7	90.4	wordfreq+ours
+迭	3.19	1	12.9	wordfreq+ours
+迮	1.29	0		wordfreq
+述	3.95	26	335.9	wordfreq+ours
+迳	3.2	0		wordfreq
+迴	5.38	0		wordfreq
+迷	4.17	0		wordfreq
+迸	2.71	0		wordfreq
+迹	3.9	1	12.9	wordfreq+ours
+迺	2.56	0		wordfreq
+追	4.87	12	155.0	wordfreq+ours
+退	4.54	19	245.5	wordfreq+ours
+送	5.35	17	219.7	wordfreq+ours
+适	3.9	15	193.8	wordfreq+ours
+逃	4.61	17	219.7	wordfreq+ours
+逄	2.27	0		wordfreq
+逅	1.34	0		wordfreq
+逆	3.94	5	64.6	wordfreq+ours
+选	5.19	47	607.3	wordfreq+ours
+逊	3.82	0		wordfreq
+逋	2.62	1	12.9	wordfreq+ours
+逍	3.19	0		wordfreq
+透	4.28	14	180.9	wordfreq+ours
+逐	3.64	13	168.0	wordfreq+ours
+逑	2.6	0		wordfreq
+递	3.84	2	25.8	wordfreq+ours
+途	3.74	6	77.5	wordfreq+ours
+逖	2.11	0		wordfreq
+逗	3.84	1	12.9	wordfreq+ours
+這	6.68	0		wordfreq
+通	4.82	133	1718.5	wordfreq+ours
+逛	3.92	0		wordfreq
+逝	3.48	3	38.8	wordfreq+ours
+逞	3.15	0		wordfreq
+速	4.15	10	129.2	wordfreq+ours
+造	4.69	43	555.6	wordfreq+ours
+逡	2.19	1	12.9	wordfreq+ours
+逢	3.83	0		wordfreq
+逦	1.73	0		wordfreq
+逭	1.89	0		wordfreq
+逮	3.56	0		wordfreq
+逯	1.83	0		wordfreq
+逴	0.0	0		none
+逵	2.11	0		wordfreq
+逶	1.54	0		wordfreq
+逸	3.58	1	12.9	wordfreq+ours
+逻	3.15	18	232.6	wordfreq+ours
+逼	5.08	11	142.1	wordfreq+ours
+逾	4.52	1	12.9	wordfreq+ours
+遁	3.02	1	12.9	wordfreq+ours
+遂	4.29	0		wordfreq
+遄	2.18	0		wordfreq
+遇	4.31	10	129.2	wordfreq+ours
+遍	4.17	16	206.7	wordfreq+ours
+遏	2.64	2	25.8	wordfreq+ours
+遐	2.03	1	12.9	wordfreq+ours
+遑	2.3	0		wordfreq
+遒	1.95	0		wordfreq
+道	5.56	101	1305.0	wordfreq+ours
+達	5.52	0		wordfreq
+遗	3.81	4	51.7	wordfreq+ours
+遘	1.55	0		wordfreq
+遛	3.27	0		wordfreq
+遜	3.82	0		wordfreq
+遢	1.44	0		wordfreq
+遣	3.63	0		wordfreq
+遥	3.59	0		wordfreq
+遨	1.43	0		wordfreq
+遭	4.99	3	38.8	wordfreq+ours
+遮	3.76	1	12.9	wordfreq+ours
+遯	1.9	0		wordfreq
+遴	1.93	0		wordfreq
+遵	3.65	11	142.1	wordfreq+ours
+選	5.19	0		wordfreq
+遹	1.73	0		wordfreq
+遺	3.81	0		wordfreq
+遽	2.94	0		wordfreq
+避	4.05	13	168.0	wordfreq+ours
+邀	4.18	0		wordfreq
+邁	4.02	0		wordfreq
+邂	1.01	0		wordfreq
+邃	2.07	0		wordfreq
+邅	0.0	0		none
+邈	2.1	0		wordfreq
+邊	4.78	0		wordfreq
+邋	1.62	0		wordfreq
+邏	3.15	0		wordfreq
+邑	3.48	0		wordfreq
+邓	4.13	1	12.9	wordfreq+ours
+邕	2.2	0		wordfreq
+邗	1.37	0		wordfreq
+邙	1.48	0		wordfreq
+邛	2.41	0		wordfreq
+邝	2.6	0		wordfreq
+邡	0.0	0		none
+邢	3.3	0		wordfreq
+那	6.01	159	2054.4	wordfreq+ours
+邦	4.38	2	25.8	wordfreq+ours
+邨	2.48	0		wordfreq
+邪	4.06	3	38.8	wordfreq+ours
+邬	2.66	0		wordfreq
+邮	3.85	0		wordfreq
+邯	2.77	0		wordfreq
+邰	1.81	0		wordfreq
+邱	3.42	0		wordfreq
+邲	1.45	0		wordfreq
+邳	2.46	0		wordfreq
+邴	1.27	0		wordfreq
+邵	3.07	0		wordfreq
+邶	1.81	0		wordfreq
+邸	2.98	0		wordfreq
+邹	3.07	0		wordfreq
+邺	3.13	0		wordfreq
+邻	4.12	2	25.8	wordfreq+ours
+邽	1.86	0		wordfreq
+邾	2.19	0		wordfreq
+郁	3.25	0		wordfreq
+郃	2.82	0		wordfreq
+郄	1.77	0		wordfreq
+郅	2.75	0		wordfreq
+郇	1.9	0		wordfreq
+郊	3.13	0		wordfreq
+郎	4.1	1	12.9	wordfreq+ours
+郏	2.23	0		wordfreq
+郐	1.9	0		wordfreq
+郑	4.18	1	12.9	wordfreq+ours
+郓	1.94	0		wordfreq
+郕	1.39	0		wordfreq
+郗	1.35	0		wordfreq
+郚	0.0	0		none
+郛	1.94	0		wordfreq
+郜	2.01	0		wordfreq
+郝	3.27	0		wordfreq
+郞	2.1	0		wordfreq
+郡	4.61	6	77.5	wordfreq+ours
+郢	2.95	0		wordfreq
+郤	1.76	0		wordfreq
+郦	1.75	0		wordfreq
+郧	2.29	0		wordfreq
+部	5.16	230	2971.8	wordfreq+ours
+郫	2.15	0		wordfreq
+郭	4.28	1	12.9	wordfreq+ours
+郯	2.14	0		wordfreq
+郴	2.67	0		wordfreq
+郵	3.85	0		wordfreq
+郸	2.2	0		wordfreq
+都	6.59	180	2325.7	wordfreq+ours
+郾	2.42	0		wordfreq
+鄂	3.84	0		wordfreq
+鄄	2.05	0		wordfreq
+鄌	0.0	0		none
+鄘	1.86	0		wordfreq
+鄙	2.36	0		wordfreq
+鄚	1.33	0		wordfreq
+鄜	1.91	0		wordfreq
+鄞	1.96	0		wordfreq
+鄠	1.78	0		wordfreq
+鄢	2.09	0		wordfreq
+鄣	2.56	0		wordfreq
+鄯	1.85	0		wordfreq
+鄱	1.8	0		wordfreq
+酂	1.77	0		wordfreq
+酃	2.15	0		wordfreq
+酄	0.0	0		none
+酆	2.69	0		wordfreq
+酉	3.0	0		wordfreq
+酊	2.29	0		wordfreq
+酋	2.64	0		wordfreq
+酌	2.51	0		wordfreq
+配	4.57	37	478.1	wordfreq+ours
+酎	2.41	0		wordfreq
+酏	0.0	0		none
+酐	2.01	0		wordfreq
+酒	4.77	9	116.3	wordfreq+ours
+酕	0.0	0		none
+酗	1.73	0		wordfreq
+酚	3.37	0		wordfreq
+酝	2.64	1	12.9	wordfreq+ours
+酞	1.62	0		wordfreq
+酡	1.39	0		wordfreq
+酢	2.81	0		wordfreq
+酣	2.8	0		wordfreq
+酤	1.44	0		wordfreq
+酥	3.7	0		wordfreq
+酦	1.86	0		wordfreq
+酩	1.6	0		wordfreq
+酪	2.93	0		wordfreq
+酬	3.26	0		wordfreq
+酮	3.37	0		wordfreq
+酯	3.33	0		wordfreq
+酰	2.81	0		wordfreq
+酱	4.12	0		wordfreq
+酲	1.45	0		wordfreq
+酴	1.25	0		wordfreq
+酵	2.67	0		wordfreq
+酶	3.82	0		wordfreq
+酷	4.14	4	51.7	wordfreq+ours
+酸	4.24	0		wordfreq
+酹	1.71	0		wordfreq
+酺	1.5	0		wordfreq
+酽	1.7	0		wordfreq
+酾	1.14	0		wordfreq
+酿	3.45	1	12.9	wordfreq+ours
+醁	0.0	0		none
+醄	0.0	0		none
+醅	1.69	0		wordfreq
+醇	3.6	0		wordfreq
+醉	4.25	0		wordfreq
+醋	3.7	0		wordfreq
+醌	2.14	0		wordfreq
+醍	1.64	0		wordfreq
+醐	0.0	0		none
+醑	1.2	0		wordfreq
+醒	4.4	11	142.1	wordfreq+ours
+醚	3.1	0		wordfreq
+醛	3.0	0		wordfreq
+醢	2.15	0		wordfreq
+醣	4.47	0		wordfreq
+醨	0.0	0		none
+醪	2.39	0		wordfreq
+醭	1.15	0		wordfreq
+醮	2.62	0		wordfreq
+醯	3.09	0		wordfreq
+醲	0.0	0		none
+醴	2.23	0		wordfreq
+醺	1.59	0		wordfreq
+醽	0.0	0		none
+醾	0.0	0		none
+采	4.41	14	180.9	wordfreq+ours
+釉	3.14	0		wordfreq
+释	4.06	11	142.1	wordfreq+ours
+里	6.09	193	2493.7	wordfreq+ours
+重	5.11	205	2648.7	wordfreq+ours
+野	4.09	3	38.8	wordfreq+ours
+量	4.92	80	1033.7	wordfreq+ours
+釐	3.59	0		wordfreq
+金	5.2	50	646.0	wordfreq+ours
+釜	3.3	1	12.9	wordfreq+ours
+針	4.14	0		wordfreq
+釭	1.84	0		wordfreq
+鈈	3.28	0		wordfreq
+鈍	3.4	0		wordfreq
+鈎	4.16	0		wordfreq
+鈔	3.51	0		wordfreq
+鈕	3.18	0		wordfreq
+鈞	3.19	0		wordfreq
+鈦	3.64	0		wordfreq
+鉉	2.81	0		wordfreq
+鉛	3.89	0		wordfreq
+鉧	1.11	0		wordfreq
+鉴	3.89	9	116.3	wordfreq+ours
+銀	4.53	0		wordfreq
+銘	3.41	0		wordfreq
+銮	2.69	0		wordfreq
+銷	3.91	0		wordfreq
+銼	2.9	0		wordfreq
+鋆	1.49	0		wordfreq
+鋒	3.46	0		wordfreq
+鋕	1.41	0		wordfreq
+鋼	4.22	0		wordfreq
+錠	3.11	0		wordfreq
+錤	1.27	0		wordfreq
+錫	4.22	0		wordfreq
+録	4.55	0		wordfreq
+錾	2.48	0		wordfreq
+鍊	4.03	0		wordfreq
+鍔	2.49	0		wordfreq
+鍥	2.19	0		wordfreq
+鍪	2.11	0		wordfreq
+鎇	2.15	0		wordfreq
+鎏	2.04	0		wordfreq
+鎞	0.0	0		none
+鎬	3.73	0		wordfreq
+鎳	3.6	0		wordfreq
+鏊	2.42	0		wordfreq
+鏖	1.4	0		wordfreq
+鏽	3.38	0		wordfreq
+鐏	1.33	0		wordfreq
+鐵	4.71	0		wordfreq
+鐾	1.73	0		wordfreq
+鑚	0.0	0		none
+鑫	3.26	0		wordfreq
+鑷	1.85	0		wordfreq
+鑽	4.24	0		wordfreq
+钆	2.21	0		wordfreq
+钇	2.64	0		wordfreq
+针	4.14	17	219.7	wordfreq+ours
+钉	4.15	0		wordfreq
+钊	2.62	0		wordfreq
+钋	2.67	0		wordfreq
+钌	2.5	0		wordfreq
+钍	3.01	0		wordfreq
+钎	1.75	0		wordfreq
+钏	2.57	0		wordfreq
+钐	2.64	0		wordfreq
+钒	3.06	0		wordfreq
+钓	3.74	0		wordfreq
+钔	1.94	0		wordfreq
+钕	2.86	0		wordfreq
+钖	2.39	0		wordfreq
+钗	2.61	0		wordfreq
+钙	3.78	1	12.9	wordfreq+ours
+钚	3.28	0		wordfreq
+钛	3.64	0		wordfreq
+钜	2.91	0		wordfreq
+钝	3.4	1	12.9	wordfreq+ours
+钞	3.51	11	142.1	wordfreq+ours
+钟	4.62	4	51.7	wordfreq+ours
+钠	3.7	0		wordfreq
+钡	3.55	0		wordfreq
+钢	4.22	0		wordfreq
+钣	2.71	0		wordfreq
+钤	2.67	0		wordfreq
+钥	3.37	1	12.9	wordfreq+ours
+钦	3.56	2	25.8	wordfreq+ours
+钧	3.19	0		wordfreq
+钨	3.22	0		wordfreq
+钩	4.16	0		wordfreq
+钪	2.56	0		wordfreq
+钫	2.46	0		wordfreq
+钬	2.84	0		wordfreq
+钭	1.79	0		wordfreq
+钮	3.18	0		wordfreq
+钯	3.23	0		wordfreq
+钰	2.33	0		wordfreq
+钱	5.72	90	1162.9	wordfreq+ours
+钲	2.05	0		wordfreq
+钳	3.23	0		wordfreq
+钴	3.35	0		wordfreq
+钵	3.51	0		wordfreq
+钷	1.96	0		wordfreq
+钸	2.64	0		wordfreq
+钹	2.55	0		wordfreq
+钺	2.51	0		wordfreq
+钻	4.24	4	51.7	wordfreq+ours
+钼	3.04	0		wordfreq
+钽	2.74	0		wordfreq
+钾	3.55	0		wordfreq
+钿	1.96	0		wordfreq
+铀	3.77	0		wordfreq
+铁	4.71	38	491.0	wordfreq+ours
+铂	3.38	0		wordfreq
+铃	3.64	0		wordfreq
+铄	1.68	0		wordfreq
+铅	3.89	0		wordfreq
+铆	2.63	0		wordfreq
+铈	2.52	0		wordfreq
+铉	2.81	0		wordfreq
+铊	2.67	0		wordfreq
+铋	2.9	0		wordfreq
+铌	2.84	0		wordfreq
+铍	2.95	0		wordfreq
+铎	3.2	0		wordfreq
+铐	3.54	0		wordfreq
+铑	2.46	0		wordfreq
+铒	2.13	0		wordfreq
+铓	1.5	0		wordfreq
+铕	2.06	0		wordfreq
+铖	1.19	0		wordfreq
+铗	1.93	0		wordfreq
+铙	2.11	0		wordfreq
+铛	2.25	0		wordfreq
+铜	4.08	15	193.8	wordfreq+ours
+铝	3.85	0		wordfreq
+铞	0.0	0		none
+铟	2.63	0		wordfreq
+铠	2.99	0		wordfreq
+铡	2.77	0		wordfreq
+铢	3.0	2	25.8	wordfreq+ours
+铣	2.83	0		wordfreq
+铤	1.98	0		wordfreq
+铥	1.88	0		wordfreq
+铦	1.97	0		wordfreq
+铧	1.99	0		wordfreq
+铨	2.7	0		wordfreq
+铩	2.36	0		wordfreq
+铪	2.56	0		wordfreq
+铫	2.6	0		wordfreq
+铬	3.68	0		wordfreq
+铭	3.41	0		wordfreq
+铮	2.74	0		wordfreq
+铯	3.2	0		wordfreq
+铰	2.71	0		wordfreq
+铱	2.77	0		wordfreq
+铲	3.76	2	25.8	wordfreq+ours
+铳	2.82	0		wordfreq
+铴	0.0	0		none
+铵	2.84	0		wordfreq
+银	4.53	26	335.9	wordfreq+ours
+铷	2.67	0		wordfreq
+铸	3.39	10	129.2	wordfreq+ours
+铹	1.72	0		wordfreq
+铺	4.2	4	51.7	wordfreq+ours
+铻	1.19	0		wordfreq
+铼	2.45	0		wordfreq
+铽	1.96	0		wordfreq
+链	4.46	6	77.5	wordfreq+ours
+铿	3.08	0		wordfreq
+销	3.91	7	90.4	wordfreq+ours
+锁	4.39	9	116.3	wordfreq+ours
+锂	3.46	0		wordfreq
+锃	1.45	0		wordfreq
+锄	3.08	0		wordfreq
+锅	4.15	1	12.9	wordfreq+ours
+锆	2.88	0		wordfreq
+锇	2.54	0		wordfreq
+锈	3.38	0		wordfreq
+锉	2.9	0		wordfreq
+锋	3.46	16	206.7	wordfreq+ours
+锌	3.64	0		wordfreq
+锍	1.91	0		wordfreq
+锎	2.01	0		wordfreq
+锏	2.22	0		wordfreq
+锐	3.27	3	38.8	wordfreq+ours
+锑	2.99	0		wordfreq
+锒	1.48	0		wordfreq
+锔	2.53	0		wordfreq
+锕	2.68	0		wordfreq
+锖	2.05	0		wordfreq
+锗	2.94	0		wordfreq
+锘	2.04	0		wordfreq
+错	5.13	38	491.0	wordfreq+ours
+锚	3.35	0		wordfreq
+锛	2.49	0		wordfreq
+锜	2.81	0		wordfreq
+锝	2.71	0		wordfreq
+锞	2.1	0		wordfreq
+锟	2.28	0		wordfreq
+锠	1.55	0		wordfreq
+锡	4.22	3	38.8	wordfreq+ours
+锢	1.99	0		wordfreq
+锣	3.26	0		wordfreq
+锤	3.77	4	51.7	wordfreq+ours
+锥	3.35	0		wordfreq
+锦	4.12	1	12.9	wordfreq+ours
+锧	1.63	0		wordfreq
+锨	2.33	0		wordfreq
+锪	2.28	0		wordfreq
+锫	1.95	0		wordfreq
+锭	3.11	0		wordfreq
+键	4.18	32	413.5	wordfreq+ours
+锯	3.52	1	12.9	wordfreq+ours
+锰	3.31	0		wordfreq
+锱	1.37	0		wordfreq
+锲	2.19	1	12.9	wordfreq+ours
+锴	1.38	0		wordfreq
+锵	2.4	0		wordfreq
+锶	2.81	0		wordfreq
+锷	2.49	0		wordfreq
+锹	2.85	0		wordfreq
+锺	2.99	0		wordfreq
+锻	3.24	8	103.4	wordfreq+ours
+锼	1.44	0		wordfreq
+锽	2.35	0		wordfreq
+锾	2.95	0		wordfreq
+锿	1.93	0		wordfreq
+镀	3.08	0		wordfreq
+镁	3.6	0		wordfreq
+镂	2.34	0		wordfreq
+镄	2.29	0		wordfreq
+镅	2.15	0		wordfreq
+镆	2.18	0		wordfreq
+镇	5.08	10	129.2	wordfreq+ours
+镈	2.04	0		wordfreq
+镉	3.59	0		wordfreq
+镊	1.85	0		wordfreq
+镌	2.57	0		wordfreq
+镍	3.6	0		wordfreq
+镎	2.28	0		wordfreq
+镏	2.02	0		wordfreq
+镐	3.73	0		wordfreq
+镑	4.04	2	25.8	wordfreq+ours
+镒	2.72	0		wordfreq
+镓	2.84	0		wordfreq
+镔	1.44	0		wordfreq
+镕	3.19	0		wordfreq
+镖	3.31	0		wordfreq
+镗	2.56	0		wordfreq
+镘	1.74	0		wordfreq
+镚	1.06	0		wordfreq
+镛	1.92	0		wordfreq
+镜	4.12	14	180.9	wordfreq+ours
+镝	2.16	0		wordfreq
+镞	2.47	0		wordfreq
+镠	3.15	0		wordfreq
+镡	2.25	0		wordfreq
+镢	1.46	0		wordfreq
+镣	2.34	0		wordfreq
+镤	1.7	0		wordfreq
+镥	2.01	0		wordfreq
+镦	2.15	0		wordfreq
+镧	2.6	0		wordfreq
+镨	2.38	0		wordfreq
+镩	1.65	0		wordfreq
+镪	1.55	0		wordfreq
+镫	2.55	0		wordfreq
+镬	2.68	0		wordfreq
+镭	3.02	0		wordfreq
+镮	1.5	0		wordfreq
+镯	2.13	0		wordfreq
+镰	3.38	0		wordfreq
+镱	2.1	0		wordfreq
+镲	1.8	0		wordfreq
+镳	2.03	0		wordfreq
+镴	1.84	0		wordfreq
+镶	3.64	0		wordfreq
+長	5.77	0		wordfreq
+长	5.77	103	1330.8	wordfreq+ours
+門	5.21	0		wordfreq
+閒	4.06	0		wordfreq
+間	5.53	0		wordfreq
+閟	1.61	0		wordfreq
+関	1.47	0		wordfreq
+閦	1.13	0		wordfreq
+閻	3.39	0		wordfreq
+闇	4.36	0		wordfreq
+闕	3.29	0		wordfreq
+门	5.21	42	542.7	wordfreq+ours
+闩	2.53	0		wordfreq
+闪	4.21	2	25.8	wordfreq+ours
+闫	2.98	0		wordfreq
+闭	4.29	4	51.7	wordfreq+ours
+问	5.63	175	2261.1	wordfreq+ours
+闯	4.01	2	25.8	wordfreq+ours
+闰	3.11	0		wordfreq
+闱	2.86	0		wordfreq
+闲	4.06	4	51.7	wordfreq+ours
+闳	2.74	0		wordfreq
+间	5.53	122	1576.3	wordfreq+ours
+闵	3.51	0		wordfreq
+闶	2.38	0		wordfreq
+闷	3.8	0		wordfreq
+闸	3.55	1	12.9	wordfreq+ours
+闹	4.39	0		wordfreq
+闺	2.68	0		wordfreq
+闻	4.37	3	38.8	wordfreq+ours
+闼	2.43	0		wordfreq
+闽	3.97	0		wordfreq
+闾	3.03	0		wordfreq
+闿	2.77	0		wordfreq
+阀	3.47	14	180.9	wordfreq+ours
+阁	4.13	2	25.8	wordfreq+ours
+阂	2.44	0		wordfreq
+阃	2.4	0		wordfreq
+阄	1.94	0		wordfreq
+阅	3.7	11	142.1	wordfreq+ours
+阆	2.65	0		wordfreq
+阇	3.04	0		wordfreq
+阈	2.26	0		wordfreq
+阉	3.34	0		wordfreq
+阊	2.67	0		wordfreq
+阋	2.26	0		wordfreq
+阍	2.23	0		wordfreq
+阎	3.39	0		wordfreq
+阏	2.16	0		wordfreq
+阐	2.99	1	12.9	wordfreq+ours
+阑	3.06	0		wordfreq
+阒	2.18	0		wordfreq
+阓	1.63	0		wordfreq
+阔	3.49	6	77.5	wordfreq+ours
+阕	2.28	0		wordfreq
+阖	2.97	1	12.9	wordfreq+ours
+阗	2.66	0		wordfreq
+阘	0.0	0		none
+阙	3.29	0		wordfreq
+阚	1.85	0		wordfreq
+阛	1.39	0		wordfreq
+阜	2.85	1	12.9	wordfreq+ours
+队	5.22	35	452.2	wordfreq+ours
+阡	2.65	0		wordfreq
+阢	0.0	0		none
+阪	2.68	0		wordfreq
+阮	3.4	0		wordfreq
+阰	0.0	0		none
+阱	2.25	0		wordfreq
+防	4.48	45	581.4	wordfreq+ours
+阳	4.25	16	206.7	wordfreq+ours
+阴	4.15	3	38.8	wordfreq+ours
+阵	3.92	6	77.5	wordfreq+ours
+阶	4.15	8	103.4	wordfreq+ours
+阻	3.7	4	51.7	wordfreq+ours
+阼	1.79	0		wordfreq
+阽	0.0	0		none
+阿	4.95	3	38.8	wordfreq+ours
+陀	3.6	0		wordfreq
+陂	2.37	0		wordfreq
+附	4.36	15	193.8	wordfreq+ours
+际	4.02	40	516.8	wordfreq+ours
+陆	4.35	7	90.4	wordfreq+ours
+陇	2.99	0		wordfreq
+陈	4.94	5	64.6	wordfreq+ours
+陉	1.88	0		wordfreq
+陋	2.44	1	12.9	wordfreq+ours
+陌	2.85	3	38.8	wordfreq+ours
+降	4.6	9	116.3	wordfreq+ours
+限	4.4	23	297.2	wordfreq+ours
+陕	3.61	0		wordfreq
+陛	2.76	2	25.8	wordfreq+ours
+陝	3.61	0		wordfreq
+陟	2.07	0		wordfreq
+陡	2.96	0		wordfreq
+院	4.64	19	245.5	wordfreq+ours
+除	4.97	38	491.0	wordfreq+ours
+陧	1.7	0		wordfreq
+陨	3.0	0		wordfreq
+险	4.27	18	232.6	wordfreq+ours
+陪	4.71	5	64.6	wordfreq+ours
+陫	0.0	0		none
+陬	2.33	0		wordfreq
+陲	1.81	0		wordfreq
+陳	4.94	0		wordfreq
+陴	1.19	0		wordfreq
+陵	3.52	5	64.6	wordfreq+ours
+陶	3.7	0		wordfreq
+陷	3.86	11	142.1	wordfreq+ours
+隅	3.14	0		wordfreq
+隆	3.97	3	38.8	wordfreq+ours
+隈	2.11	0		wordfreq
+隋	3.27	7	90.4	wordfreq+ours
+隍	1.76	0		wordfreq
+階	4.15	0		wordfreq
+随	5.0	18	232.6	wordfreq+ours
+隐	3.87	21	271.3	wordfreq+ours
+隔	4.4	9	116.3	wordfreq+ours
+隗	1.9	0		wordfreq
+隘	2.78	0		wordfreq
+隙	3.21	0		wordfreq
+障	3.31	14	180.9	wordfreq+ours
+隠	2.35	0		wordfreq
+隧	2.63	0		wordfreq
+隩	0.0	0		none
+隰	2.18	0		wordfreq
+隳	2.11	0		wordfreq
+隶	3.31	0		wordfreq
+隼	3.2	0		wordfreq
+隽	2.66	0		wordfreq
+难	5.19	66	852.8	wordfreq+ours
+雀	3.51	1	12.9	wordfreq+ours
+雁	3.2	0		wordfreq
+雄	4.15	4	51.7	wordfreq+ours
+雅	4.24	0		wordfreq
+集	5.05	59	762.3	wordfreq+ours
+雇	3.91	0		wordfreq
+雉	2.88	0		wordfreq
+雊	0.0	0		none
+雌	3.39	0		wordfreq
+雍	3.2	1	12.9	wordfreq+ours
+雎	1.81	0		wordfreq
+雏	3.1	0		wordfreq
+雒	2.61	0		wordfreq
+雕	3.79	1	12.9	wordfreq+ours
+雛	3.1	0		wordfreq
+雠	2.33	0		wordfreq
+難	5.19	0		wordfreq
+雨	4.49	5	64.6	wordfreq+ours
+雩	1.67	0		wordfreq
+雪	4.35	2	25.8	wordfreq+ours
+雫	2.17	0		wordfreq
+雯	2.18	0		wordfreq
+雲	5.0	0		wordfreq
+雳	1.42	0		wordfreq
+零	4.64	5	64.6	wordfreq+ours
+雷	4.4	2	25.8	wordfreq+ours
+雹	1.99	0		wordfreq
+雾	4.26	0		wordfreq
+需	5.13	76	982.0	wordfreq+ours
+霁	2.48	0		wordfreq
+霂	0.0	0		none
+霄	2.37	0		wordfreq
+霅	0.0	0		none
+霆	2.41	0		wordfreq
+震	3.93	4	51.7	wordfreq+ours
+霈	1.35	0		wordfreq
+霉	3.51	2	25.8	wordfreq+ours
+霍	4.09	8	103.4	wordfreq+ours
+霎	1.64	0		wordfreq
+霏	3.24	0		wordfreq
+霑	1.6	0		wordfreq
+霓	3.03	0		wordfreq
+霖	2.7	0		wordfreq
+霜	3.64	0		wordfreq
+霞	3.12	0		wordfreq
+霡	0.0	0		none
+霧	4.26	0		wordfreq
+霪	1.14	0		wordfreq
+霭	2.21	0		wordfreq
+霰	2.63	0		wordfreq
+露	4.33	5	64.6	wordfreq+ours
+霸	3.54	4	51.7	wordfreq+ours
+霹	2.35	0		wordfreq
+霾	3.89	0		wordfreq
+靂	1.42	0		wordfreq
+靐	0.0	0		none
+青	4.47	14	180.9	wordfreq+ours
+靓	2.95	0		wordfreq
+靖	3.11	2	25.8	wordfreq+ours
+静	3.97	0		wordfreq
+靛	2.87	0		wordfreq
+非	5.39	43	555.6	wordfreq+ours
+靠	5.23	69	891.5	wordfreq+ours
+靡	3.13	2	25.8	wordfreq+ours
+面	5.11	253	3268.9	wordfreq+ours
+靥	1.87	0		wordfreq
+革	3.74	67	865.7	wordfreq+ours
+靬	1.78	0		wordfreq
+靳	2.58	0		wordfreq
+靴	3.51	0		wordfreq
+靶	3.36	2	25.8	wordfreq+ours
+靸	0.0	0		none
+靺	2.24	0		wordfreq
+靼	2.3	0		wordfreq
+靿	0.0	0		none
+鞁	0.0	0		none
+鞅	2.26	0		wordfreq
+鞋	4.3	0		wordfreq
+鞍	3.02	0		wordfreq
+鞑	2.72	0		wordfreq
+鞘	3.19	0		wordfreq
+鞜	1.1	0		wordfreq
+鞞	1.43	0		wordfreq
+鞟	0.0	0		none
+鞠	2.96	0		wordfreq
+鞣	2.34	0		wordfreq
+鞧	0.0	0		none
+鞨	2.22	0		wordfreq
+鞫	2.18	0		wordfreq
+鞭	3.41	5	64.6	wordfreq+ours
+鞯	2.54	0		wordfreq
+鞲	2.51	0		wordfreq
+鞳	0.0	0		none
+鞴	2.4	0		wordfreq
+韂	0.0	0		none
+韌	2.76	0		wordfreq
+韓	4.76	0		wordfreq
+韦	4.07	0		wordfreq
+韧	2.76	1	12.9	wordfreq+ours
+韩	4.76	1	12.9	wordfreq+ours
+韪	2.09	0		wordfreq
+韫	2.34	0		wordfreq
+韬	3.66	0		wordfreq
+韭	2.45	0		wordfreq
+音	4.41	15	193.8	wordfreq+ours
+韵	3.52	0		wordfreq
+韶	2.62	0		wordfreq
+響	4.48	0		wordfreq
+頁	4.98	0		wordfreq
+頼	2.78	0		wordfreq
+顆	4.29	0		wordfreq
+題	4.72	0		wordfreq
+顏	3.86	0		wordfreq
+顗	1.65	0		wordfreq
+页	4.98	0		wordfreq
+顶	4.57	9	116.3	wordfreq+ours
+顷	3.05	3	38.8	wordfreq+ours
+顸	0.0	0		none
+项	5.03	32	413.5	wordfreq+ours
+顺	4.28	11	142.1	wordfreq+ours
+须	4.69	39	503.9	wordfreq+ours
+顼	1.74	1	12.9	wordfreq+ours
+顽	3.03	3	38.8	wordfreq+ours
+顾	4.04	7	90.4	wordfreq+ours
+顿	4.52	3	38.8	wordfreq+ours
+颀	1.77	0		wordfreq
+颁	4.2	2	25.8	wordfreq+ours
+颂	3.64	0		wordfreq
+颃	0.0	0		none
+预	4.05	15	193.8	wordfreq+ours
+颅	2.79	1	12.9	wordfreq+ours
+领	4.9	133	1718.5	wordfreq+ours
+颇	4.39	0		wordfreq
+颈	3.95	0		wordfreq
+颉	2.69	0		wordfreq
+颊	3.43	0		wordfreq
+颌	3.15	0		wordfreq
+颍	3.06	0		wordfreq
+颎	2.42	0		wordfreq
+颏	2.46	0		wordfreq
+颐	3.29	1	12.9	wordfreq+ours
+频	3.8	48	620.2	wordfreq+ours
+颓	2.84	0		wordfreq
+颔	2.57	0		wordfreq
+颖	3.34	0		wordfreq
+颗	4.29	0		wordfreq
+题	4.72	236	3049.3	wordfreq+ours
+颙	2.43	0		wordfreq
+颚	3.03	0		wordfreq
+颛	1.91	0		wordfreq
+颜	3.86	2	25.8	wordfreq+ours
+额	4.54	13	168.0	wordfreq+ours
+颞	2.64	0		wordfreq
+颟	0.0	0		none
+颠	3.13	2	25.8	wordfreq+ours
+颡	2.19	0		wordfreq
+颢	2.05	0		wordfreq
+颤	3.28	0		wordfreq
+颥	0.0	0		none
+颦	1.88	0		wordfreq
+颧	1.66	0		wordfreq
+飆	3.2	0		wordfreq
+风	4.94	88	1137.0	wordfreq+ours
+飏	2.13	0		wordfreq
+飑	1.94	0		wordfreq
+飒	2.27	0		wordfreq
+飓	2.04	0		wordfreq
+飔	0.0	0		none
+飕	1.43	0		wordfreq
+飖	0.0	0		none
+飗	0.0	0		none
+飘	3.75	2	25.8	wordfreq+ours
+飙	3.2	1	12.9	wordfreq+ours
+飚	3.09	0		wordfreq
+飞	4.87	6	77.5	wordfreq+ours
+食	4.44	17	219.7	wordfreq+ours
+飧	2.46	0		wordfreq
+飨	2.93	0		wordfreq
+養	4.66	0		wordfreq
+餌	3.2	0		wordfreq
+餍	2.34	0		wordfreq
+餐	3.88	1	12.9	wordfreq+ours
+餒	2.24	0		wordfreq
+餠	1.28	0		wordfreq
+餬	1.08	0		wordfreq
+餮	1.89	0		wordfreq
+饔	2.51	0		wordfreq
+饕	2.9	0		wordfreq
+饛	0.0	0		none
+饥	3.51	3	38.8	wordfreq+ours
+饦	0.0	0		none
+饧	2.3	0		wordfreq
+饨	2.11	0		wordfreq
+饩	1.95	0		wordfreq
+饪	2.12	0		wordfreq
+饫	2.25	0		wordfreq
+饬	2.87	0		wordfreq
+饭	4.7	5	64.6	wordfreq+ours
+饮	4.03	0		wordfreq
+饯	2.23	0		wordfreq
+饰	4.09	3	38.8	wordfreq+ours
+饱	4.02	6	77.5	wordfreq+ours
+饲	3.02	0		wordfreq
+饳	0.0	0		none
+饴	2.2	0		wordfreq
+饵	3.2	0		wordfreq
+饶	3.96	2	25.8	wordfreq+ours
+饷	2.84	5	64.6	wordfreq+ours
+饸	1.29	0		wordfreq
+饹	1.7	0		wordfreq
+饺	2.94	0		wordfreq
+饼	4.14	1	12.9	wordfreq+ours
+饽	1.27	0		wordfreq
+饿	4.58	3	38.8	wordfreq+ours
+馀	3.04	0		wordfreq
+馁	2.24	0		wordfreq
+馃	1.89	0		wordfreq
+馄	1.78	0		wordfreq
+馅	3.4	0		wordfreq
+馆	4.84	2	25.8	wordfreq+ours
+馇	1.69	0		wordfreq
+馈	2.97	1	12.9	wordfreq+ours
+馉	0.0	0		none
+馊	2.58	0		wordfreq
+馋	3.62	0		wordfreq
+馌	0.0	0		none
+馍	2.49	0		wordfreq
+馎	0.0	0		none
+馏	2.49	0		wordfreq
+馐	2.32	0		wordfreq
+馑	2.41	0		wordfreq
+馒	1.97	0		wordfreq
+馓	1.29	0		wordfreq
+馔	2.65	0		wordfreq
+馕	2.59	0		wordfreq
+首	4.75	28	361.8	wordfreq+ours
+馗	2.36	0		wordfreq
+馘	1.67	0		wordfreq
+香	4.49	2	25.8	wordfreq+ours
+馝	0.0	0		none
+馞	0.0	0		none
+馥	1.88	0		wordfreq
+馨	2.95	0		wordfreq
+馬	5.44	0		wordfreq
+駝	3.28	0		wordfreq
+騰	3.47	0		wordfreq
+驗	3.76	0		wordfreq
+马	5.44	39	503.9	wordfreq+ours
+驭	2.9	1	12.9	wordfreq+ours
+驮	3.29	0		wordfreq
+驯	2.84	1	12.9	wordfreq+ours
+驰	3.39	1	12.9	wordfreq+ours
+驱	3.57	3	38.8	wordfreq+ours
+驳	3.4	1	12.9	wordfreq+ours
+驴	3.97	0		wordfreq
+驵	1.53	0		wordfreq
+驶	3.52	0		wordfreq
+驷	2.77	0		wordfreq
+驸	2.37	0		wordfreq
+驹	3.44	0		wordfreq
+驺	2.31	0		wordfreq
+驻	4.95	6	77.5	wordfreq+ours
+驼	3.28	0		wordfreq
+驽	1.89	0		wordfreq
+驾	3.94	3	38.8	wordfreq+ours
+驿	3.46	2	25.8	wordfreq+ours
+骀	2.11	0		wordfreq
+骁	1.88	0		wordfreq
+骂	4.79	3	38.8	wordfreq+ours
+骄	3.11	1	12.9	wordfreq+ours
+骅	1.89	0		wordfreq
+骆	3.02	0		wordfreq
+骇	2.99	0		wordfreq
+骈	2.67	0		wordfreq
+骊	2.53	0		wordfreq
+骋	2.81	0		wordfreq
+验	3.76	38	491.0	wordfreq+ours
+骍	1.38	0		wordfreq
+骎	1.74	0		wordfreq
+骏	3.14	0		wordfreq
+骐	1.87	0		wordfreq
+骑	4.54	18	232.6	wordfreq+ours
+骒	1.47	0		wordfreq
+骓	2.37	0		wordfreq
+骕	1.96	0		wordfreq
+骖	1.52	0		wordfreq
+骗	4.9	1	12.9	wordfreq+ours
+骘	1.65	0		wordfreq
+骙	2.04	0		wordfreq
+骚	4.3	1	12.9	wordfreq+ours
+骛	1.86	1	12.9	wordfreq+ours
+骜	1.29	0		wordfreq
+骝	2.23	0		wordfreq
+骞	2.72	0		wordfreq
+骟	1.84	0		wordfreq
+骠	2.53	0		wordfreq
+骡	2.57	0		wordfreq
+骢	1.7	0		wordfreq
+骣	0.0	0		none
+骤	3.26	1	12.9	wordfreq+ours
+骥	2.36	0		wordfreq
+骦	0.0	0		none
+骧	2.01	0		wordfreq
+骨	4.13	5	64.6	wordfreq+ours
+骭	0.0	0		none
+骯	3.08	0		wordfreq
+骰	2.92	0		wordfreq
+骶	2.36	0		wordfreq
+骷	1.83	0		wordfreq
+骸	3.32	0		wordfreq
+骺	2.16	0		wordfreq
+骻	1.09	0		wordfreq
+骼	2.06	0		wordfreq
+髀	2.25	0		wordfreq
+髁	2.68	0		wordfreq
+髂	2.45	0		wordfreq
+髃	0.0	0		none
+髄	0.0	0		none
+髅	1.63	0		wordfreq
+髈	1.16	0		wordfreq
+髋	2.42	0		wordfreq
+髌	2.15	0		wordfreq
+髎	0.0	0		none
+髑	1.97	0		wordfreq
+髒	4.05	0		wordfreq
+髓	2.75	0		wordfreq
+體	5.0	0		wordfreq
+高	5.75	102	1317.9	wordfreq+ours
+髙	2.06	0		wordfreq
+髡	2.33	0		wordfreq
+髣	0.0	0		none
+髦	2.38	0		wordfreq
+髫	1.48	0		wordfreq
+髭	2.34	0		wordfreq
+髯	2.46	0		wordfreq
+髴	0.0	0		none
+髹	2.12	0		wordfreq
+髻	2.74	0		wordfreq
+髽	0.0	0		none
+鬃	2.43	0		wordfreq
+鬅	0.0	0		none
+鬆	4.53	0		wordfreq
+鬈	2.03	0		wordfreq
+鬋	0.0	0		none
+鬌	0.0	0		none
+鬏	1.25	0		wordfreq
+鬐	1.02	0		wordfreq
+鬓	2.33	0		wordfreq
+鬘	1.69	0		wordfreq
+鬙	0.0	0		none
+鬟	2.12	0		wordfreq
+鬣	2.37	0		wordfreq
+鬧	4.39	0		wordfreq
+鬯	2.28	0		wordfreq
+鬲	2.4	0		wordfreq
+鬻	2.21	1	12.9	wordfreq+ours
+鬼	4.78	1	12.9	wordfreq+ours
+魀	0.0	0		none
+魁	3.46	0		wordfreq
+魂	3.75	4	51.7	wordfreq+ours
+魃	2.01	0		wordfreq
+魄	2.54	2	25.8	wordfreq+ours
+魅	3.25	0		wordfreq
+魆	1.44	0		wordfreq
+魇	2.65	0		wordfreq
+魈	2.0	0		wordfreq
+魉	2.86	0		wordfreq
+魍	2.6	0		wordfreq
+魏	4.02	27	348.9	wordfreq+ours
+魑	2.11	0		wordfreq
+魔	4.55	0		wordfreq
+魙	0.0	0		none
+魟	2.36	0		wordfreq
+魠	1.04	0		wordfreq
+魣	1.28	0		wordfreq
+魨	2.61	0		wordfreq
+魮	1.96	0		wordfreq
+魯	4.56	0		wordfreq
+魾	0.0	0		none
+鮎	2.58	0		wordfreq
+鮑	3.82	0		wordfreq
+鮗	0.0	0		none
+鮧	0.0	0		none
+鮨	1.68	0		wordfreq
+鮫	3.14	0		wordfreq
+鮮	3.84	0		wordfreq
+鯁	1.42	0		wordfreq
+鯊	3.83	0		wordfreq
+鯙	0.0	0		none
+鯥	0.0	0		none
+鯨	3.93	0		wordfreq
+鯭	1.69	0		wordfreq
+鯮	0.0	0		none
+鯻	0.0	0		none
+鰈	2.56	0		wordfreq
+鰋	0.0	0		none
+鰎	0.0	0		none
+鰕	1.81	0		wordfreq
+鰤	1.26	0		wordfreq
+鰭	3.43	0		wordfreq
+鱈	2.89	0		wordfreq
+鱒	2.25	0		wordfreq
+鱥	1.63	0		wordfreq
+鱵	1.4	0		wordfreq
+鱼	4.81	4	51.7	wordfreq+ours
+鱿	2.52	0		wordfreq
+鲀	2.61	0		wordfreq
+鲁	4.56	0		wordfreq
+鲂	2.93	0		wordfreq
+鲃	1.68	0		wordfreq
+鲅	1.99	0		wordfreq
+鲆	2.9	0		wordfreq
+鲇	2.58	0		wordfreq
+鲈	3.06	0		wordfreq
+鲉	2.45	0		wordfreq
+鲊	1.48	0		wordfreq
+鲋	2.6	0		wordfreq
+鲌	2.18	0		wordfreq
+鲍	3.82	0		wordfreq
+鲎	2.76	0		wordfreq
+鲏	1.99	0		wordfreq
+鲐	1.82	0		wordfreq
+鲑	2.85	0		wordfreq
+鲔	3.17	0		wordfreq
+鲕	1.56	0		wordfreq
+鲖	1.43	0		wordfreq
+鲗	1.37	0		wordfreq
+鲘	0.0	0		none
+鲙	1.27	0		wordfreq
+鲚	2.09	0		wordfreq
+鲛	3.14	0		wordfreq
+鲜	3.84	22	284.3	wordfreq+ours
+鲞	1.98	0		wordfreq
+鲟	1.99	0		wordfreq
+鲠	1.42	0		wordfreq
+鲡	0.0	0		none
+鲢	2.41	0		wordfreq
+鲣	2.27	0		wordfreq
+鲤	3.6	0		wordfreq
+鲥	1.39	0		wordfreq
+鲦	1.85	0		wordfreq
+鲧	2.71	0		wordfreq
+鲨	3.83	0		wordfreq
+鲩	2.44	0		wordfreq
+鲪	0.0	0		none
+鲫	2.85	0		wordfreq
+鲬	1.6	0		wordfreq
+鲭	2.75	0		wordfreq
+鲮	2.63	0		wordfreq
+鲯	1.56	0		wordfreq
+鲱	2.72	0		wordfreq
+鲲	2.4	0		wordfreq
+鲳	2.1	0		wordfreq
+鲴	1.93	0		wordfreq
+鲵	1.74	0		wordfreq
+鲶	2.87	0		wordfreq
+鲷	2.81	0		wordfreq
+鲸	3.93	0		wordfreq
+鲹	2.0	0		wordfreq
+鲺	0.0	0		none
+鲻	2.42	0		wordfreq
+鲼	2.38	0		wordfreq
+鲽	2.56	0		wordfreq
+鲾	1.84	0		wordfreq
+鲿	2.3	0		wordfreq
+鳀	2.44	0		wordfreq
+鳁	1.55	0		wordfreq
+鳂	2.07	0		wordfreq
+鳃	3.53	0		wordfreq
+鳄	3.9	1	12.9	wordfreq+ours
+鳅	2.74	0		wordfreq
+鳆	0.0	0		none
+鳇	1.59	0		wordfreq
+鳈	1.78	0		wordfreq
+鳉	2.45	0		wordfreq
+鳊	2.29	0		wordfreq
+鳌	3.26	0		wordfreq
+鳍	3.43	0		wordfreq
+鳎	3.01	0		wordfreq
+鳏	1.6	1	12.9	wordfreq+ours
+鳐	2.63	0		wordfreq
+鳑	1.99	0		wordfreq
+鳒	1.74	0		wordfreq
+鳓	2.1	0		wordfreq
+鳔	2.34	0		wordfreq
+鳕	2.89	0		wordfreq
+鳖	3.41	0		wordfreq
+鳗	3.15	0		wordfreq
+鳘	1.14	0		wordfreq
+鳙	2.03	0		wordfreq
+鳚	2.37	0		wordfreq
+鳜	1.86	0		wordfreq
+鳝	2.82	0		wordfreq
+鳞	3.37	4	51.7	wordfreq+ours
+鳟	2.25	0		wordfreq
+鳠	1.05	0		wordfreq
+鳢	2.01	0		wordfreq
+鳣	1.18	0		wordfreq
+鳤	0.0	0		none
+鳥	4.71	0		wordfreq
+鳮	0.0	0		none
+鳴	3.58	0		wordfreq
+鳽	0.0	0		none
+鴂	0.0	0		none
+鴃	1.48	0		wordfreq
+鴅	0.0	0		none
+鴕	2.23	0		wordfreq
+鴨	4.19	0		wordfreq
+鵋	0.0	0		none
+鵎	0.0	0		none
+鵔	0.0	0		none
+鵖	1.53	0		wordfreq
+鵙	0.0	0		none
+鵜	2.26	0		wordfreq
+鵝	3.69	0		wordfreq
+鵼	0.0	0		none
+鶗	0.0	0		none
+鶘	2.05	0		wordfreq
+鶴	3.51	0		wordfreq
+鷃	0.0	0		none
+鸃	0.0	0		none
+鸟	4.71	1	12.9	wordfreq+ours
+鸠	3.73	0		wordfreq
+鸡	4.7	0		wordfreq
+鸢	2.77	0		wordfreq
+鸣	3.58	0		wordfreq
+鸤	1.17	0		wordfreq
+鸥	3.16	0		wordfreq
+鸦	2.92	1	12.9	wordfreq+ours
+鸧	0.0	0		none
+鸨	1.85	0		wordfreq
+鸩	2.48	0		wordfreq
+鸪	1.41	0		wordfreq
+鸫	2.54	0		wordfreq
+鸬	2.48	0		wordfreq
+鸭	4.19	0		wordfreq
+鸮	2.95	0		wordfreq
+鸯	1.95	0		wordfreq
+鸰	2.14	0		wordfreq
+鸱	2.19	0		wordfreq
+鸲	2.42	0		wordfreq
+鸳	1.84	0		wordfreq
+鸵	2.23	0		wordfreq
+鸶	1.57	0		wordfreq
+鸷	2.09	0		wordfreq
+鸸	1.25	0		wordfreq
+鸹	1.8	0		wordfreq
+鸺	2.07	0		wordfreq
+鸻	2.07	0		wordfreq
+鸼	0.0	0		none
+鸽	3.21	0		wordfreq
+鸾	2.97	0		wordfreq
+鸿	4.05	1	12.9	wordfreq+ours
+鹀	1.86	0		wordfreq
+鹁	1.01	0		wordfreq
+鹂	2.16	0		wordfreq
+鹃	2.54	0		wordfreq
+鹄	2.84	0		wordfreq
+鹅	3.69	0		wordfreq
+鹆	1.8	0		wordfreq
+鹇	2.18	0		wordfreq
+鹈	2.26	0		wordfreq
+鹉	2.31	0		wordfreq
+鹊	3.07	0		wordfreq
+鹋	1.93	0		wordfreq
+鹌	1.32	0		wordfreq
+鹍	1.31	0		wordfreq
+鹎	2.04	0		wordfreq
+鹏	3.65	0		wordfreq
+鹑	2.49	0		wordfreq
+鹒	0.0	0		none
+鹔	0.0	0		none
+鹕	2.05	0		wordfreq
+鹗	2.33	0		wordfreq
+鹘	2.8	2	25.8	wordfreq+ours
+鹚	2.07	0		wordfreq
+鹛	2.42	0		wordfreq
+鹜	2.28	0		wordfreq
+鹞	2.35	0		wordfreq
+鹟	2.74	0		wordfreq
+鹠	1.7	0		wordfreq
+鹡	2.19	0		wordfreq
+鹢	1.09	0		wordfreq
+鹣	2.04	0		wordfreq
+鹤	3.51	0		wordfreq
+鹥	1.02	0		wordfreq
+鹦	2.6	0		wordfreq
+鹧	1.85	0		wordfreq
+鹨	2.57	0		wordfreq
+鹩	2.14	0		wordfreq
+鹪	2.38	0		wordfreq
+鹫	3.1	0		wordfreq
+鹬	2.88	0		wordfreq
+鹭	2.73	0		wordfreq
+鹮	2.15	0		wordfreq
+鹯	0.0	0		none
+鹰	3.89	0		wordfreq
+鹱	2.42	0		wordfreq
+鹲	1.68	0		wordfreq
+鹳	2.62	0		wordfreq
+鹴	0.0	0		none
+鹼	3.56	0		wordfreq
+鹾	1.91	0		wordfreq
+鹿	3.94	3	38.8	wordfreq+ours
+麀	0.0	0		none
+麂	2.49	0		wordfreq
+麇	1.87	0		wordfreq
+麈	1.89	0		wordfreq
+麋	2.08	0		wordfreq
+麒	3.04	0		wordfreq
+麓	3.16	0		wordfreq
+麝	2.7	0		wordfreq
+麟	2.97	0		wordfreq
+麦	4.39	1	12.9	wordfreq+ours
+麴	4.36	0		wordfreq
+麸	2.31	0		wordfreq
+麹	1.59	0		wordfreq
+麺	0.0	0		none
+麻	3.86	1	12.9	wordfreq+ours
+麼	5.64	0		wordfreq
+麽	5.64	0		wordfreq
+麾	2.28	0		wordfreq
+麿	1.71	0		wordfreq
+黃	5.16	0		wordfreq
+黄	5.16	24	310.1	wordfreq+ours
+黇	0.0	0		none
+黉	2.35	0		wordfreq
+黍	2.91	0		wordfreq
+黎	3.88	0		wordfreq
+黏	3.31	0		wordfreq
+黑	5.17	6	77.5	wordfreq+ours
+黒	2.84	0		wordfreq
+黔	3.39	0		wordfreq
+默	3.77	10	129.2	wordfreq+ours
+黛	3.31	0		wordfreq
+黜	2.48	0		wordfreq
+黝	1.86	0		wordfreq
+黟	1.49	0		wordfreq
+黠	0.0	0		none
+黢	0.0	0		none
+黥	2.28	0		wordfreq
+黧	1.67	0		wordfreq
+黨	5.53	0		wordfreq
+黩	1.37	2	25.8	wordfreq+ours
+黪	0.0	0		none
+黮	1.11	0		wordfreq
+黯	2.38	0		wordfreq
+黹	0.0	0		none
+黻	1.93	0		wordfreq
+黼	2.5	0		wordfreq
+黾	2.6	0		wordfreq
+鼋	2.39	0		wordfreq
+鼍	2.28	0		wordfreq
+鼎	3.39	0		wordfreq
+鼐	2.19	0		wordfreq
+鼒	0.0	0		none
+鼓	3.96	5	64.6	wordfreq+ours
+鼗	1.76	0		wordfreq
+鼙	1.83	1	12.9	wordfreq+ours
+鼠	3.79	1	12.9	wordfreq+ours
+鼢	0.0	0		none
+鼥	0.0	0		none
+鼧	0.0	0		none
+鼩	2.17	0		wordfreq
+鼬	2.89	0		wordfreq
+鼯	1.86	0		wordfreq
+鼱	1.58	0		wordfreq
+鼷	1.93	0		wordfreq
+鼹	2.15	0		wordfreq
+鼻	3.86	2	25.8	wordfreq+ours
+鼾	1.75	0		wordfreq
+齁	1.74	0		wordfreq
+齆	0.0	0		none
+齇	0.0	0		none
+齉	0.0	0		none
+齊	4.37	0		wordfreq
+齐	4.37	20	258.4	wordfreq+ours
+齑	2.07	0		wordfreq
+齒	3.86	0		wordfreq
+齣	5.92	0		wordfreq
+齿	3.86	0		wordfreq
+龀	2.07	0		wordfreq
+龃	2.15	0		wordfreq
+龄	3.45	2	25.8	wordfreq+ours
+龅	2.68	0		wordfreq
+龆	1.62	0		wordfreq
+龇	1.9	0		wordfreq
+龈	2.79	0		wordfreq
+龉	2.12	0		wordfreq
+龊	2.38	0		wordfreq
+龋	3.04	0		wordfreq
+龌	2.67	0		wordfreq
+龍	4.85	0		wordfreq
+龕	3.19	0		wordfreq
+龘	1.03	0		wordfreq
+龙	4.85	4	51.7	wordfreq+ours
+龚	3.2	0		wordfreq
+龛	3.19	0		wordfreq
+龟	4.11	0		wordfreq
+龠	1.83	0		wordfreq
+龢	2.76	0		wordfreq
+鿎	0.0	0		none
+鿏	0.0	0		none
+鿔	0.0	0		none
+鿕	0.0	0		none
+鿫	0.0	0		none
+鿬	0.0	0		none
+鿭	0.0	0		none
+鿶	0.0	0		none
+𠙶	0.0	0		none
+𠳐	0.0	0		none
+𢶍	0.0	0		none
+𣗋	1.15	0		wordfreq
+𤆵	0.0	0		none
+𤝽	0.0	0		none
+𤧛	0.0	0		none
+𤭢	0.0	0		none
+𥆧	0.0	0		none
+𥻗	0.0	0		none
+𦗒	0.0	0		none
+𦭜	0.0	0		none
+𦰡	0.0	0		none
+𧈢	0.0	0		none
+𧊕	0.0	0		none
+𧒽	0.0	0		none
+𧿹	0.0	0		none
+𨱇	2.27	0		wordfreq
+𩉜	0.0	0		none
+𩽾	1.99	0		wordfreq
+𩾃	0.0	0		none
+𩾌	1.99	0		wordfreq
+𪟝	0.0	0		none
+𪨊	0.0	0		none
+𪨶	0.0	0		none
+𪩘	0.0	0		none
+𪻐	1.1	0		wordfreq
+𪾢	1.54	0		wordfreq
+𫁡	1.26	0		wordfreq
+𫄨	1.29	0		wordfreq
+𫌀	1.09	0		wordfreq
+𫍯	0.0	0		none
+𫍲	1.36	0		wordfreq
+𫐓	0.0	0		none
+𫓧	1.68	0		wordfreq
+𫓩	0.0	0		none
+𫓹	0.0	0		none
+𫖯	0.0	0		none
+𫗧	1.65	0		wordfreq
+𫘝	0.0	0		none
+𫘤	1.1	0		wordfreq
+𫘦	0.0	0		none
+𫘨	0.0	0		none
+𫚉	2.36	0		wordfreq
+𫚒	1.6	0		wordfreq
+𫚔	1.87	0		wordfreq
+𫚕	1.26	0		wordfreq
+𫚙	0.0	0		none
+𫚪	0.0	0		none
+𫚭	0.0	0		none
+𫛭	0.0	0		none
+𫛶	1.48	0		wordfreq
+𫟷	0.0	0		none
+𫟼	0.0	0		none
+𫫇	0.0	0		none
+𫶇	0.0	0		none
+𬀪	0.0	0		none
+𬇕	0.0	0		none
+𬇙	0.0	0		none
+𬇹	0.0	0		none
+𬉼	0.0	0		none
+𬌗	0.0	0		none
+𬘘	0.0	0		none
+𬙋	0.0	0		none
+𬜬	0.0	0		none
+𬞟	0.0	0		none
+𬟁	0.0	0		none
+𬟽	0.0	0		none
+𬣞	0.0	0		none
+𬣡	0.0	0		none
+𬬭	0.0	0		none
+𬬻	0.0	0		none
+𬭁	0.0	0		none
+𬭊	0.0	0		none
+𬭚	0.0	0		none
+𬭛	0.0	0		none
+𬭩	0.0	0		none
+𬭳	0.0	0		none
+𬭶	0.0	0		none
+𬱖	0.0	0		none
+𬳿	0.0	0		none
+𬴂	0.0	0		none
+𬴐	0.0	0		none
+𬶋	0.0	0		none
+𬶍	0.0	0		none
+𬶏	0.0	0		none
+𬶐	0.0	0		none
+𬶟	0.0	0		none
+𬶨	0.0	0		none
+𬶭	0.0	0		none
+𬶮	0.0	0		none
+𬷕	0.0	0		none
+𬸚	0.0	0		none
+𬸣	0.0	0		none
+𬸦	0.0	0		none
+𭎂	0.0	0		none
+𮐨	0.0	0		none
+𮬣	0.0	0		none

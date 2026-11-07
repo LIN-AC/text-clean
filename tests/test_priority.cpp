@@ -18,7 +18,8 @@ int main() {
         TextCleaner unsafe(lex(d,{pair.second}),d,{},std::vector<std::u32string>{},f);
         CHECK(unsafe.clean(pair.first).text != utf8::encode(pair.first));
         Vocabulary v; v.add(pair.first);
-        TextCleaner safe(lex(d,{pair.second}),d,{},std::vector<std::u32string>{},f,std::move(v));
+        // Protection is now explicit AC LOCK, never inferred from vocabulary.
+        TextCleaner safe(lex(d,{pair.second}),d,{},std::vector<std::u32string>{pair.first},f,std::move(v));
         const auto context=safe.prepare_context(utf8::encode(pair.second),utf8::encode(pair.second),utf8::encode(pair.second));
         CHECK_EQ(safe.clean(utf8::encode(pair.first),context).text,utf8::encode(pair.first));
     }
@@ -61,11 +62,14 @@ int main() {
     WordFrequency boundaries; boundaries.add_word(U"在位",100); boundaries.add_word(U"信群",100);
     boundaries.add_word(U"微信",3); boundaries.add_word(U"支付",100); boundaries.add_word(U"保证金",100);
     boundaries.add_word(U"支付宝",3);
-    TextCleaner boundary(lex(d,{U"微信",U"支付宝"}),d,{},std::vector<std::u32string>{},boundaries);
+    Vocabulary boundary_words;
+    for(auto w:{U"在位",U"信群",U"支付",U"保证金"}) boundary_words.add(w);
+    TextCleaner boundary(lex(d,{U"微信",U"支付宝"}),d,{},std::vector<std::u32string>{},boundaries,boundary_words);
     CHECK_EQ(boundary.clean("在位信群").text,std::string("在位信群")); // both known words cut
     CHECK_EQ(boundary.clean("支付保证金").text,std::string("支付保证金"));
     WordFrequency symmetric; symmetric.add_word(U"在位",100); symmetric.add_word(U"信件",100); symmetric.add_word(U"微信",3);
-    TextCleaner edges(lex(d,{U"微信"}),d,{},std::vector<std::u32string>{},symmetric);
+    Vocabulary edge_words;edge_words.add(U"在位");edge_words.add(U"信件");
+    TextCleaner edges(lex(d,{U"微信"}),d,{},std::vector<std::u32string>{},symmetric,edge_words);
     CHECK_EQ(edges.clean("在位信").text,std::string("在微信"));
     CHECK_EQ(edges.clean("薇信件").text,std::string("微信件"));
     return test::finish("test_priority");

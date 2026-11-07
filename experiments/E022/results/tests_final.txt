@@ -1,0 +1,51 @@
+Test project D:/text_clean/build/current
+      Start  1: test_utf8
+ 1/23 Test  #1: test_utf8 ........................   Passed    0.01 sec
+      Start  2: test_dictionary_bundle
+ 2/23 Test  #2: test_dictionary_bundle ...........   Passed    1.87 sec
+      Start  3: test_decision_safety
+ 3/23 Test  #3: test_decision_safety .............   Passed    0.05 sec
+      Start  4: test_zipf_scoring
+ 4/23 Test  #4: test_zipf_scoring ................   Passed    0.05 sec
+      Start  5: test_ac_automaton
+ 5/23 Test  #5: test_ac_automaton ................   Passed    0.01 sec
+      Start  6: test_pinyin_index
+ 6/23 Test  #6: test_pinyin_index ................   Passed    0.01 sec
+      Start  7: test_edit_distance
+ 7/23 Test  #7: test_edit_distance ...............   Passed    0.01 sec
+      Start  8: test_pinyin_dict
+ 8/23 Test  #8: test_pinyin_dict .................   Passed    0.05 sec
+      Start  9: test_lexicon
+ 9/23 Test  #9: test_lexicon .....................   Passed    0.01 sec
+      Start 10: test_word_maintaining
+10/23 Test #10: test_word_maintaining ............   Passed    0.01 sec
+      Start 11: test_word_frequency
+11/23 Test #11: test_word_frequency ..............   Passed    0.01 sec
+      Start 12: test_char_frequency
+12/23 Test #12: test_char_frequency ..............   Passed    0.01 sec
+      Start 13: test_text_split
+13/23 Test #13: test_text_split ..................   Passed    0.01 sec
+      Start 14: test_word_review
+14/23 Test #14: test_word_review .................   Passed    0.01 sec
+      Start 15: test_text_cleaner
+15/23 Test #15: test_text_cleaner ................   Passed    0.05 sec
+      Start 16: test_legitimacy
+16/23 Test #16: test_legitimacy ..................   Passed    0.12 sec
+      Start 17: test_tone_correction
+17/23 Test #17: test_tone_correction .............   Passed    0.12 sec
+      Start 18: test_video_context
+18/23 Test #18: test_video_context ...............   Passed    0.37 sec
+      Start 19: test_cli_bundle
+19/23 Test #19: test_cli_bundle ..................   Passed    6.51 sec
+      Start 20: test_ngram_veto
+20/23 Test #20: test_ngram_veto ..................   Passed    0.06 sec
+      Start 21: test_cli_context
+21/23 Test #21: test_cli_context .................   Passed    1.98 sec
+      Start 22: test_priority
+22/23 Test #22: test_priority ....................   Passed    0.21 sec
+      Start 23: test_word_pronunciation
+23/23 Test #23: test_word_pronunciation ..........   Passed    0.05 sec
+
+100% tests passed out of 23
+
+Total Test time (real) =  11.64 sec

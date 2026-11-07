@@ -1,0 +1,13 @@
+# 规范词<TAB>拼音<TAB>别名(逗号分隔)<TAB>动作(replace/mask/keep)
+# 拼音列填 "-" 表示用拼音字典自动生成；"none" 表示仅做精确匹配。
+# 拼音为去声调小写音节，用空格分隔。
+微信	wei xin	威信,薇信,维信	replace
+支付宝	zhi fu bao	支富宝,知付宝	replace
+字节跳动	zi jie tiao dong	字节挑动,紫节跳动	replace
+抖音	dou yin		replace
+腾讯	teng xun		replace
+华为	hua wei		replace
+银行卡	yin hang ka		replace
+转账	zhuan zhang	转帐	replace
+验证码	yan zheng ma		replace
+敏感词	min gan ci		mask

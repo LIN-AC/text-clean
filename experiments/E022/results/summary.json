@@ -1,0 +1,36 @@
+{
+  "noop": {
+    "edits": {},
+    "characters": {},
+    "remaining_substitution_errors": 1921,
+    "normalized_distance_after": 2024
+  },
+  "counts": {
+    "edits": {
+      "FP": 54,
+      "TP": 117,
+      "wrong": 30
+    },
+    "characters": {
+      "FP": 97,
+      "TP": 194,
+      "wrong": 31
+    },
+    "remaining_substitution_errors": 1727,
+    "normalized_distance_after": 1927
+  },
+  "zipf": {
+    "edits": {
+      "FP": 45,
+      "TP": 12,
+      "wrong": 7
+    },
+    "characters": {
+      "FP": 86,
+      "TP": 20,
+      "wrong": 7
+    },
+    "remaining_substitution_errors": 1901,
+    "normalized_distance_after": 2090
+  }
+}

@@ -79,8 +79,15 @@ data/sample_document.txt
 # Local ASR artifacts (audio, subtitles, metadata)
 asr/
 
-# Data files (dictionaries, word lists, corpora) are supplied separately
-data/
+# Third-party spell-check corpora (CTCDataset, academic-use-only; ~18 MB)
+datasets/
+
+# Data files: runtime dictionaries are versioned (see README "部署时需要携带").
+# Third-party raw sources stay out (size + redistribution terms) — regenerate
+# with tools/gen_word_freq.py / tools/gen_pinyin_dict.py if needed.
+data/SUBTLEX-CH-WF/
+data/SUBTLEX-CH-WF.xlsx
+data/word.txt.seed.bak
 
 # Local runtime config / credentials
 config/
@@ -92,6 +99,7 @@ log/
 .qoder-credits/
 .qoder/
 .verify/
+p0/
 
 # Python cache
 __pycache__/

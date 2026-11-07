@@ -1,0 +1,220 @@
+{
+  "BV163xB6zEwF.gt": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 30,
+      "normalized_distance_after": 33
+    },
+    "counts": {
+      "edits": {
+        "FP": 1
+      },
+      "characters": {
+        "FP": 1
+      },
+      "remaining_substitution_errors": 30,
+      "normalized_distance_after": 34
+    },
+    "zipf": {
+      "edits": {
+        "FP": 1
+      },
+      "characters": {
+        "FP": 2
+      },
+      "remaining_substitution_errors": 30,
+      "normalized_distance_after": 35
+    }
+  },
+  "BV18mxx64Es3.gt": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 81,
+      "normalized_distance_after": 97
+    },
+    "counts": {
+      "edits": {
+        "FP": 2,
+        "TP": 4
+      },
+      "characters": {
+        "FP": 3,
+        "TP": 6
+      },
+      "remaining_substitution_errors": 75,
+      "normalized_distance_after": 94
+    },
+    "zipf": {
+      "edits": {
+        "FP": 2,
+        "TP": 1
+      },
+      "characters": {
+        "FP": 4,
+        "TP": 2
+      },
+      "remaining_substitution_errors": 79,
+      "normalized_distance_after": 99
+    }
+  },
+  "BV19T4P6MEWp.gt": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 46,
+      "normalized_distance_after": 57
+    },
+    "counts": {
+      "edits": {
+        "wrong": 1,
+        "TP": 1
+      },
+      "characters": {
+        "wrong": 2,
+        "TP": 2
+      },
+      "remaining_substitution_errors": 44,
+      "normalized_distance_after": 55
+    },
+    "zipf": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 46,
+      "normalized_distance_after": 57
+    }
+  },
+  "BV1LBxq6AEVn.gt": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 76,
+      "normalized_distance_after": 78
+    },
+    "counts": {
+      "edits": {
+        "TP": 1,
+        "FP": 2,
+        "wrong": 1
+      },
+      "characters": {
+        "TP": 2,
+        "FP": 3,
+        "wrong": 2
+      },
+      "remaining_substitution_errors": 74,
+      "normalized_distance_after": 79
+    },
+    "zipf": {
+      "edits": {
+        "TP": 1,
+        "FP": 2
+      },
+      "characters": {
+        "TP": 2,
+        "FP": 3
+      },
+      "remaining_substitution_errors": 74,
+      "normalized_distance_after": 79
+    }
+  },
+  "BV1sxxX64E4E.gt": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 128,
+      "normalized_distance_after": 141
+    },
+    "counts": {
+      "edits": {
+        "FP": 4,
+        "wrong": 5,
+        "TP": 6
+      },
+      "characters": {
+        "FP": 10,
+        "wrong": 5,
+        "TP": 6
+      },
+      "remaining_substitution_errors": 122,
+      "normalized_distance_after": 145
+    },
+    "zipf": {
+      "edits": {
+        "FP": 2
+      },
+      "characters": {
+        "FP": 4
+      },
+      "remaining_substitution_errors": 128,
+      "normalized_distance_after": 145
+    }
+  },
+  "BV1uUak6pEdK.gt": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 1521,
+      "normalized_distance_after": 1576
+    },
+    "counts": {
+      "edits": {
+        "TP": 105,
+        "FP": 44,
+        "wrong": 22
+      },
+      "characters": {
+        "TP": 178,
+        "FP": 77,
+        "wrong": 21
+      },
+      "remaining_substitution_errors": 1343,
+      "normalized_distance_after": 1475
+    },
+    "zipf": {
+      "edits": {
+        "wrong": 7,
+        "FP": 37,
+        "TP": 10
+      },
+      "characters": {
+        "FP": 71,
+        "wrong": 7,
+        "TP": 16
+      },
+      "remaining_substitution_errors": 1505,
+      "normalized_distance_after": 1631
+    }
+  },
+  "BV1XgxE6BEqn.gt": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "remaining_substitution_errors": 39,
+      "normalized_distance_after": 42
+    },
+    "counts": {
+      "edits": {
+        "wrong": 1,
+        "FP": 1
+      },
+      "characters": {
+        "wrong": 1,
+        "FP": 3
+      },
+      "remaining_substitution_errors": 39,
+      "normalized_distance_after": 45
+    },
+    "zipf": {
+      "edits": {
+        "FP": 1
+      },
+      "characters": {
+        "FP": 2
+      },
+      "remaining_substitution_errors": 39,
+      "normalized_distance_after": 44
+    }
+  }
+}

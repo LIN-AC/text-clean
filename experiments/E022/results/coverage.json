@@ -1,0 +1,56 @@
+{
+  "BV163xB6zEwF.gt": {
+    "cues": 115,
+    "labeled_characters": 1199,
+    "substitution_errors": 30,
+    "normalized_distance": 33,
+    "discard": [
+      112
+    ]
+  },
+  "BV18mxx64Es3.gt": {
+    "cues": 611,
+    "labeled_characters": 4720,
+    "substitution_errors": 81,
+    "normalized_distance": 97,
+    "discard": []
+  },
+  "BV19T4P6MEWp.gt": {
+    "cues": 521,
+    "labeled_characters": 4456,
+    "substitution_errors": 46,
+    "normalized_distance": 57,
+    "discard": []
+  },
+  "BV1LBxq6AEVn.gt": {
+    "cues": 463,
+    "labeled_characters": 3483,
+    "substitution_errors": 76,
+    "normalized_distance": 78,
+    "discard": []
+  },
+  "BV1sxxX64E4E.gt": {
+    "cues": 575,
+    "labeled_characters": 4131,
+    "substitution_errors": 128,
+    "normalized_distance": 141,
+    "discard": []
+  },
+  "BV1uUak6pEdK.gt": {
+    "cues": 4169,
+    "labeled_characters": 31091,
+    "substitution_errors": 1521,
+    "normalized_distance": 1576,
+    "discard": []
+  },
+  "BV1XgxE6BEqn.gt": {
+    "cues": 256,
+    "labeled_characters": 1898,
+    "substitution_errors": 39,
+    "normalized_distance": 42,
+    "discard": [
+      113,
+      114
+    ]
+  }
+}

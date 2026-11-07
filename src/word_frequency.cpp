@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <fstream>
 #include <iterator>
+#include <cmath>
+#include <stdexcept>
 
 #include "text_clean/utf8.h"
 
@@ -100,7 +102,7 @@ bool WordFrequency::load_string(std::string_view content, std::string* error) {
         parsed.add_word(utf8::decode(word), count);
     }
 
-    counts_ = std::move(parsed.counts_);
+    *this = std::move(parsed);
     return true;
 }
 
@@ -116,6 +118,7 @@ bool WordFrequency::load_file(const std::string& path, std::string* error) {
 }
 
 bool WordFrequency::add_word(std::u32string word, std::uint64_t frequency) {
+    if(zipf_mode_) throw std::logic_error("cannot mix counts and Zipf frequencies");
     word = trim_word(std::move(word));
     if (word.empty()) return false;
     auto& stored = counts_[word];
@@ -136,4 +139,14 @@ std::uint64_t WordFrequency::count_utf8(std::string_view word) const {
     return count(utf8::decode(word));
 }
 
+void WordFrequency::add_zipf(std::u32string word, double value) {
+    if(!zipf_mode_) throw std::logic_error("select Zipf mode before adding evidence");
+    if(word.empty() || !std::isfinite(value) || value<=0 || value>10)
+        throw std::invalid_argument("Zipf evidence must be finite and positive; absent evidence is not zero");
+    zipfs_[std::move(word)]=value;
+}
+std::optional<double> WordFrequency::zipf(const std::u32string& word) const {
+    auto it=zipfs_.find(word);
+    return it==zipfs_.end()?std::nullopt:std::optional<double>(it->second);
+}
 }  // namespace text_clean
