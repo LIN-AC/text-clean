@@ -27,13 +27,9 @@ std::string trim_cr(std::string value) {
 
 bool DomainEvidence::load(const std::string& dir, std::string* error) {
     if (error != nullptr) error->clear();
-    std::ifstream words(dir + "/words.tsv", std::ios::binary);
-    if (!words) {
-        if (error != nullptr) *error = "打不开 " + dir + "/words.tsv";
-        return false;
-    }
+    std::ifstream words(dir + "/words.tsv", std::ios::binary);   // 可选：纯上下文表没有这一项
     std::string line;
-    while (std::getline(words, line)) {
+    while (words && std::getline(words, line)) {
         line = trim_cr(line);
         if (line.empty() || line.front() == '#') continue;
         const auto f = split_tabs(line);
@@ -92,8 +88,8 @@ bool DomainEvidence::load(const std::string& dir, std::string* error) {
             if (key.size() >= 1 && key.size() <= 8) ngrams_[key] = n;
         }
     }
-    if (zipfs_.empty()) {
-        if (error != nullptr) *error = "领域词频表为空";
+    if (zipfs_.empty() && ngrams_.empty() && pairs_.empty()) {
+        if (error != nullptr) *error = "证据目录里没有可用表: " + dir;
         return false;
     }
     return true;

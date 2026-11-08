@@ -186,3 +186,37 @@ V1 依赖一张从公开语料生成的邻接表（Tatoeba 中文句库 92 万�
 ### 推送状态（同一轮）
 
 本地 `main` 已快进到 184b350（含 877b6a2 + 本次合并，ahead 2）。**推送未完成**：本机到 `github.com:443` 连不上（`Recv failure: Connection was reset`、`Couldn't connect to server`，两次重试与 `git ls-remote` 都失败），而 `api.github.com` 正常，说明是网络侧对 github.com 的限制，不是仓库或凭据问题（~/.ssh 里没有私钥，SSH 通道也不通）。等网络恢复后执行 `git push origin main` 即可（是快进，安全）。本次合并的内容与三档数字都已提交在本地，不受影响。
+
+
+## 2026-11-09｜V1 设为生产默认，上下文表并入词库（Qwen，园长批准）
+
+上一节写的"V1 暂未设为默认"已按园长指示作废（原文保留）：默认现在是 V1。
+
+### 三档实测（同一二进制，七篇开卷，全部当场重跑核对）
+
+| 口径 | 参数 | 改对字 | 误改字 | 错到错 | 总错误量 | 相对不纠错 2024 |
+|---|---|---:|---:|---:|---:|---:|
+| **新默认（V1）** | 无 | **145** | **82** | 25 | **1961** | **−63** |
+| 上一默认（M1+M2） | `--no-ctx-evidence` | 147 | 100 | 27 | 1977 | −47 |
+| 旧冻结基线 | `--no-ctx-evidence --missing-evidence veto` | 64 | 87 | 19 | 2047 | +23 |
+
+新默认的效果：**误改字从 100 降到 82（−18%），改对字只让出 2 字**，是 E029–E031 一路验证下来唯一稳定的净收益。
+
+### 改了什么
+
+* 上下文表并入词库：`data/context/modern/{ngrams,pairs,unis}.tsv`（3.45MB，Tatoeba 中文句库 CC BY 2.0 FR，未使用任何真值），已登记 `data/PROVENANCE.tsv`（ngrams c260c35a65a66da7…、pairs 657046751187a6c6…、unis a57112eea198556c…），词库树与职责边界写进 `agents/DECISIONS.md` §八。
+* 默认值变更在 `include/text_clean/text_cleaner.h` 与 `src/main.cpp`：`missing_evidence=char`、`missing_cap=0.6`、`use_context_evidence=true`、`context_span=2`、`context_one_sided=true`。
+* 新增开关 `--no-ctx-evidence`、`--context-dir`；表缺失时明确报错并提示如何关闭，不静默失去这道刹车。
+* 次数口径（`--legacy-data/--word-freq/--lexicon/--no-candidates`）**自动退回旧 veto 行为且不启用上下文**，历史数字仍可复现。
+
+### 测试与真实问题（如实记录）
+
+改默认后有 2 个既有测试转红，查清都是"测试用默认值代表旧口径"，不是新逻辑错：`tests/test_missing_evidence.cpp` 原来靠默认构造表示 veto、且 M1 用例没显式关封顶；已改成显式指定模式（隔离变量），不改任何断言的期望数字。另一处是我自己引入的真 bug：零候选基线 `--no-candidates` 被新默认连累直接退出 2，已在 `src/main.cpp` 加豁免。**修完后 ctest 24/24 全绿。**
+
+### 仓库状态
+
+本地 main：877b6a2 → 184b350（E021–E031 记录与代码）→ 83e5f10（推送受阻说明）→ 本次提交。推送改用**不走代理**的方式：`git -c http.proxy= -c https.proxy= push origin main`，直连探测已确认 `github.com` 可达（之前失败是代理流量所致）。仍未提交的第三方与私有件：`data/raw/`、`archive/`、`data/generated/`、`.vscode/`、园长两份备忘录。
+
+### 下一步
+
+按备忘录：whisper 原始输出 + 固定窗口参数，验证错误率飙升是否来自分句；text_clean 侧把"邻字上下文"升级为全局上下文（现在这只是最小版）。

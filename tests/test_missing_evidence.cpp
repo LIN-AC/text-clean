@@ -38,12 +38,16 @@ int main() {
     const WordFrequency base = table();
 
     // 1) 基线 veto：原文没有词级证据就不改（E022 冻结行为）。
-    TextCleaner veto(lex(), d, {}, kNoLocks, base);
+    //    2026-11-09 起项目默认已改为 M1+M2，所以这里显式指定 Veto，不再依赖默认值。
+    CleanerConfig c_veto;
+    c_veto.missing_evidence = ME::Veto;
+    TextCleaner veto(lex(), d, c_veto, kNoLocks, base);
     CHECK_EQ(veto.clean("薇信").text, std::string("薇信"));
 
-    // 2) M1 char：用字频独立估计补原文，ZipfO = -1.0。
+    // 2) M1 char（不封顶）：用字频独立估计补原文，ZipfO = -1.0。
     CleanerConfig c1;
     c1.missing_evidence = ME::CharEstimate;
+    c1.missing_cap = 0.0;                       // 显式关掉 M2，隔离 M1
     TextCleaner m1(lex(), d, c1, kNoLocks, base);
     const auto r1 = m1.clean("薇信");
     CHECK_EQ(r1.text, std::string("微信"));

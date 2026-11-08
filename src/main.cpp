@@ -53,20 +53,22 @@ struct Options {
     std::size_t min_unknown = 2;
     double distance_penalty = 0.65;
     double modification_threshold = 0.70;
-    std::string missing_evidence = "veto";
-    double missing_cap = 0.0;
+    std::string missing_evidence = "char";   // 2026-11-09 起默认 M1（园长批准）
+    bool missing_evidence_set = false;
+    double missing_cap = 0.6;     // 默认 M2 封顶档位
     bool enable_admission_guard = true;
     bool require_first_syllable_match = true;
     std::size_t min_window_syllables = 2;
     bool target_char_frequency = false;
     bool use_domain_frequency = false;
-    std::string evidence_dir;    // E030：历史证据表目录（words/pairs/unis.tsv）
+    std::string evidence_dir;    // 显式指定的证据表目录；空=用 data/context/modern
     double domain_gap = 1.5;
-    bool use_context_evidence = false;
+    bool use_context_evidence = true;   // 2026-11-09 起默认开启（单边）
+    bool ctx_set = false;               // 是否被命令行显式改过
     double context_weight = 1.0;
-    std::size_t context_span = 1;
+    std::size_t context_span = 2;
     std::uint64_t context_min_anchor = 3;
-    bool context_one_sided = false;
+    bool context_one_sided = true;
     char32_t mask_char = U'*';
     std::vector<std::string> words;
 };
@@ -120,11 +122,13 @@ void print_help() {
         << "  --lambda <x>           声调距离惩罚 λ (默认 0.65)\n"
         << "  --mu <x>               修改门槛 μ (默认 0.70)\n"
         << "  --missing-evidence <m> 原文缺词频证据时：veto(默认基线)|char(M1)|fixed(M2)\n"
-        << "  --missing-cap <K>      M2 上限档位 K (默认 0=不启用；fixed 模式必填)\n"
+        << "  --missing-cap <K>      M2 上限档位 K（默认 0.6；fixed 模式必填）\n"
         << "  --evidence-dir <dir>   E030：历史证据表目录（words/pairs/unis.tsv，默认不用）\n"
         << "  --domain-freq          E030：证据来源改用历史词频（需 --evidence-dir）\n"
         << "  --domain-gap <x>       原文在历史语料查不到时记 ZipfC-x（默认 1.5）\n"
-        << "  --ctx-evidence         E030：加邻接上下文证据，条件在邻字，片段不可自证\n"
+        << "  --ctx-evidence         加邻接上下文证据（默认开，且默认只扣分不放行）\n"
+        << "  --no-ctx-evidence      关掉上下文证据，退回 M1+M2 口径\n"
+        << "  --context-dir <dir>    上下文表目录（默认 <data-dir>/context/modern）\n"
         << "  --ctx-weight <x>       上下文证据权重（默认 1.0）\n"
         << "  --ctx-span <1|2>       上下文锚点跨度：1=单个邻字，2=两个邻字（默认 1）\n"
         << "  --ctx-one-sided        上下文只扣分不放行（单边否决）\n"
@@ -238,6 +242,7 @@ bool parse_options(const std::vector<std::string>& args, Options* options,
                 return false;
             }
         } else if (arg == "--missing-evidence") {
+            options->missing_evidence_set = true;
             if (!next_value(&options->missing_evidence)) return false;
             if (options->missing_evidence != "veto" && options->missing_evidence != "char" &&
                 options->missing_evidence != "fixed") {
@@ -261,6 +266,14 @@ bool parse_options(const std::vector<std::string>& args, Options* options,
             if (!parse_double(value, &options->domain_gap, error)) return false;
         } else if (arg == "--ctx-evidence") {
             options->use_context_evidence = true;
+            options->ctx_set = true;
+        } else if (arg == "--no-ctx-evidence") {
+            options->use_context_evidence = false;
+            options->ctx_set = true;
+        } else if (arg == "--context-dir") {
+            std::string value;
+            if (!next_value(&value)) return false;
+            options->evidence_dir = value;
         } else if (arg == "--ctx-weight") {
             std::string value;
             if (!next_value(&value)) return false;
@@ -484,7 +497,7 @@ int run(const std::vector<std::string>& args) {
         }
         if(!options.no_candidates && !options.word_freq_path.empty() && !word_frequency.load_file(options.word_freq_path,&error)) {std::cerr<<"error: "<<error<<"\n";return 2;}
         if(word_frequency.is_zipf() && !options.char_freq_path.empty()) {std::cerr<<"error: count character baseline cannot be mixed with Zipf; use explicit --word-freq counts for compatibility\n";return 2;}
-        if(options.missing_evidence!="veto" && !word_frequency.is_zipf()) {std::cerr<<"error: --missing-evidence 仅适用于 Zipf 词库；旧次数模式请保持 veto\n";return 2;}
+        if(options.missing_evidence!="veto" && !word_frequency.is_zipf() && !options.no_candidates) {std::cerr<<"error: --missing-evidence 仅适用于 Zipf 词库；旧次数模式请保持 veto\n";return 2;}
         if(options.missing_evidence=="fixed" && options.missing_cap<=0.0) {std::cerr<<"error: --missing-evidence fixed 需要 --missing-cap > 0\n";return 2;}
         if(!options.no_candidates && options.char_baseline && !options.char_freq_path.empty() && !char_frequency.load_file(options.char_freq_path,&error)) {std::cerr<<"error: "<<error<<"\n";return 2;}
     } else {
@@ -624,6 +637,23 @@ int run(const std::vector<std::string>& args) {
     config.modification_threshold = options.modification_threshold;
     config.mask_char = options.mask_char;
     config.index_cache_path = options.no_index_cache?std::string{}:options.index_cache;
+    // 次数口径（--legacy-data / --lexicon / --word-freq）没有 Zipf 证据体系：
+    // 未显式传参时新默认自动退回旧基线，保证历史数字仍可复现。
+    const bool counts_mode = options.legacy_data || !options.lexicon_path.empty() || !options.word_freq_path.empty() ||
+                         options.no_candidates;
+    if (counts_mode) {
+        if (!options.missing_evidence_set) { options.missing_evidence = "veto"; options.missing_cap = 0.0; }
+        if (!options.ctx_set) options.use_context_evidence = false;
+    }
+    std::string context_path;
+    if (options.no_candidates) options.use_context_evidence = false;   // 零候选基线不依赖任何证据表
+    if (options.use_context_evidence || options.use_domain_frequency) {
+        namespace fs = std::filesystem;
+        context_path = options.evidence_dir.empty()
+            ? (fs::u8path(options.data_dir) / "context" / "modern").string()
+            : options.evidence_dir;
+    }
+
     using MissingEvidence = text_clean::CleanerConfig::MissingEvidence;
     config.missing_evidence = options.missing_evidence == "char" ? MissingEvidence::CharEstimate
                               : options.missing_evidence == "fixed" ? MissingEvidence::FixedCap
@@ -648,12 +678,13 @@ int run(const std::vector<std::string>& args) {
     const std::size_t zipf_char_evidence = word_frequency.char_size();
 
     text_clean::DomainEvidence domain;
-    if (!options.evidence_dir.empty() && !domain.load(options.evidence_dir, &error)) {
+    if (!context_path.empty() && !domain.load(context_path, &error)) {
         std::cerr << "error: 领域证据加载失败: " << error << "\n";
         return 2;
     }
-    if ((options.use_domain_frequency || options.use_context_evidence) && options.evidence_dir.empty()) {
-        std::cerr << "error: --domain-freq / --ctx-evidence 需要同时给 --evidence-dir\n";
+    if (!context_path.empty() && domain.empty()) {
+        std::cerr << "error: 上下文证据表不可用: " << context_path << "\n"
+                  << "       请把词库检出完整，或用 --no-ctx-evidence 关掉上下文（退回 M1+M2 口径）\n";
         return 2;
     }
     domain.set_min_anchor_count(options.context_min_anchor);
@@ -684,6 +715,7 @@ int run(const std::vector<std::string>& args) {
                   << " ctx_min_anchor=" << config.context_min_anchor
                   << " ctx_one_sided=" << (config.context_one_sided ? "on" : "off")
                   << " ctx_evidence=" << (config.use_context_evidence ? "on" : "off")
+                  << " ctx_table=" << (context_path.empty() ? std::string("none") : context_path)
                   << " ctx_weight=" << config.context_weight
                   << " first_syllable_gate=" << (config.require_first_syllable_match ? "on" : "off") << "\n";
     }

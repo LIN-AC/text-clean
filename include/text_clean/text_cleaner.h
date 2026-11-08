@@ -47,13 +47,14 @@ struct CleanerConfig {
     // E030 可选领域证据（默认全关，生产行为逐字节不变）。
     bool use_domain_frequency = false;   // 频率来源换成历史语料 n-gram
     double domain_unknown_gap = 1.5;     // 原文在历史语料查不到时记 ZipfC-gap
-    bool use_context_evidence = false;   // 加入邻接上下文证据（条件在邻字上）
+    // 2026-11-09 起默认开启，且默认单边（上下文只扣分，不许把候选抬过门槛）。
+    bool use_context_evidence = true;    // 加入邻接上下文证据（条件在邻字上）
     double context_weight = 1.0;
     // 上下文锚点跨度：1=单个邻字（E030），2=两个邻字（E031，需 ngrams.tsv）。
-    std::size_t context_span = 1;
+    std::size_t context_span = 2;
     std::uint64_t context_min_anchor = 3;  // 锚点在语料里少于该次数就弃权，不硬猜
     // 单边上下文：上下文只允许扣分（否决），不允许把候选抬过门槛。
-    bool context_one_sided = false;
+    bool context_one_sided = true;
 
     // 原文缺词级证据时的三种处理策略（E024 消融；默认 Veto = 现基线行为）。
     enum class MissingEvidence {
@@ -73,13 +74,14 @@ struct CleanerConfig {
     double distance_penalty = 0.65;        // λ
     double modification_threshold = 0.70;  // μ
 
-    MissingEvidence missing_evidence = MissingEvidence::Veto;
+    // 2026-11-09 起生产默认 = M1+M2（园长批准）。旧基线用 Veto + cap 0 复现。
+    MissingEvidence missing_evidence = MissingEvidence::CharEstimate;
     // E021 保护规则：原文是合法词且静态分≤0 时，不得只靠标题/简介加分获得修改许可。
     // E025 消融可关闭；默认 true = 保持该保护。
     bool enable_admission_guard = true;
     // CharEstimate 模式下 >0 时再把原文档位限制在 ZipfC-missing_cap 以下（M1+M2）；
     // FixedCap 模式下必填 >0。0 表示不设上限。
-    double missing_cap = 0.0;
+    double missing_cap = 0.6;
 
     std::size_t max_candidates_per_window = 64;
     char32_t mask_char = U'*';

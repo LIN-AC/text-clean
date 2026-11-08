@@ -108,3 +108,36 @@ AC 匹配并锁定
 
 **最终原则：AC 负责保护，候选词库负责提供修改目标，普通词典负责词汇参考，拼音负责读音，频率负责评分。各司其职，互不越权。**
 
+
+
+## 八、2026-11-09 更新：新增上下文证据表，评分默认改为 M1+M2+单边上下文（园长批准）
+
+### 8.1 词库树（当前实际结构，§一 的旧树保留不覆盖）
+
+```
+data/
+├── ac/ac_lock.tsv                    # AC 锁定词（只 LOCK，118 条）
+├── correction/candidates.tsv         # 候选词库：目标词 + 别称（启用 366 行 / 340 目标词）
+├── vocabulary/vocabulary.tsv         # 基础词典
+├── vocabulary/extvocabulary.tsv      # 拓展词典
+├── frequency/word_freq.tsv           # 词级频率（wordfreq，含本项目候选补查 365 行）
+├── frequency/char_freq.tsv           # 字级频率（wordfreq 单字）
+├── pronunciation/pronunciation.tsv   # 词级带调拼音
+├── pronunciation/pronunciation_char.tsv  # 单字读音（多音字全保留）
+├── context/modern/ngrams.tsv         # 新增：2~4 字串邻接计数（跨度 2 用）3,010,945 B
+├── context/modern/pairs.tsv          # 新增：单字相邻共现计数（跨度 1 用）  416,784 B
+├── context/modern/unis.tsv           # 新增：单字出现次数（条件概率分母）      27,947 B
+├── generated/pinyin_index.bin        # 程序自动生成缓存，不入库
+└── old/                              # 旧口径兼容数据（次数词频等）
+```
+
+### 8.2 上下文表的职责边界（各司其职，延续 §一 原则）
+
+* 只做一件事：回答"**这两个写法里，哪个更贴合它周围的字**"。它不参与候选准入，不决定谁是候选，不覆盖 `frequency/` 的词频。
+* 只允许扣分，不允许加分放行（`context_one_sided`）：实测同一权重，双边放行会让近音改写从 81 涨到 131–134、误改 100→192/202；单边只否决则误改降到 82。
+* 来源与许可：Tatoeba 中文句库（CC BY 2.0 FR，89,289 句 / 916,062 汉字），衍生表同样标注 CC BY；已写进 `data/PROVENANCE.tsv`。
+* 语料只用公开文本，**未使用本项目任何真值**。
+
+### 8.3 默认评分口径变更（园长发话）
+
+生产默认 = M1（原文缺词级证据时用字频独立估计）+ M2（该估计封顶 K=0.6）+ 上下文跨度 2、权重 1.0、单边否决。旧口径全部可用参数复现：`--no-ctx-evidence` 回到 M1+M2；`--no-ctx-evidence --missing-evidence veto` 回到 E022 冻结基线。次数口径（`--legacy-data/--word-freq/--no-candidates`）自动退回 veto 且不启用上下文，历史数字不受影响。
