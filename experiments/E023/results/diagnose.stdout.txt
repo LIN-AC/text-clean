@@ -1,0 +1,18 @@
+BV163xB6zEwF.gt {'noop': (0, 0, 33), 'counts': (0, 1, 34), 'zipf': (0, 2, 35), 'zipfB_旧缺频策略': (0, 3, 36), 'zipfC_旧字符补偿': (0, 3, 36)}
+BV18mxx64Es3.gt {'noop': (0, 0, 97), 'counts': (6, 3, 94), 'zipf': (2, 4, 99), 'zipfB_旧缺频策略': (11, 7, 93), 'zipfC_旧字符补偿': (12, 5, 90)}
+BV19T4P6MEWp.gt {'noop': (0, 0, 57), 'counts': (2, 0, 55), 'zipf': (0, 0, 57), 'zipfB_旧缺频策略': (3, 8, 62), 'zipfC_旧字符补偿': (3, 2, 56)}
+BV1LBxq6AEVn.gt {'noop': (0, 0, 78), 'counts': (2, 3, 79), 'zipf': (2, 3, 79), 'zipfB_旧缺频策略': (2, 7, 83), 'zipfC_旧字符补偿': (2, 7, 83)}
+BV1sxxX64E4E.gt {'noop': (0, 0, 141), 'counts': (6, 10, 145), 'zipf': (0, 4, 145), 'zipfB_旧缺频策略': (14, 9, 136), 'zipfC_旧字符补偿': (14, 6, 133)}
+BV1uUak6pEdK.gt {'noop': (0, 0, 1576), 'counts': (178, 77, 1475), 'zipf': (16, 71, 1631), 'zipfB_旧缺频策略': (205, 147, 1518), 'zipfC_旧字符补偿': (199, 115, 1492)}
+BV1XgxE6BEqn.gt {'noop': (0, 0, 42), 'counts': (0, 3, 45), 'zipf': (0, 2, 44), 'zipfB_旧缺频策略': (0, 3, 45), 'zipfC_旧字符补偿': (0, 2, 44)}
+
+=== 各臂汇总 ===
+noop             改对字=0    误改字=0    错到错=0    改对编辑=0    误改编辑=0    总编辑距离=2024
+counts           改对字=194  误改字=97   错到错=31   改对编辑=117  误改编辑=54   总编辑距离=1927
+zipf             改对字=20   误改字=86   错到错=7    改对编辑=12   误改编辑=45   总编辑距离=2090
+zipfB_旧缺频策略      改对字=235  误改字=184  错到错=51   改对编辑=147  误改编辑=94   总编辑距离=1973
+zipfC_旧字符补偿      改对字=230  误改字=140  错到错=42   改对编辑=146  误改编辑=72   总编辑距离=1934
+漏斗(zipf): {'windows': 55224, 'first_gate': 13132, 'no_candidate': 21409, 'missing_orig': 9680, 'missing_cand': 190, 'action_rej': 0, 'protected_rej': 5229, 'edge_rej': 2337, 'dist_rej': 24474, 'score_rej': 665, 'accepted': 64, 'singleton': 64, 'margin_win': 0, 'group_veto': 0, 'keep_win': 0}
+漏斗(counts): {'windows': 55224, 'first_gate': 13132, 'no_candidate': 21409, 'missing_orig': 0, 'missing_cand': 0, 'action_rej': 0, 'protected_rej': 6787, 'edge_rej': 14503, 'dist_rej': 30506, 'score_rej': 1060, 'accepted': 201, 'singleton': 190, 'margin_win': 11, 'group_veto': 4, 'keep_win': 0}
+counts 改对而 zipf 丢掉的编辑 107 个，原因分布 {'两侧都有证据但差额不够': 15, '原文无Zipf证据（缺频保护弃权）': 89, '目标词无Zipf证据': 3}，字符数 {'两侧都有证据但差额不够': 24, '原文无Zipf证据（缺频保护弃权）': 141, '目标词无Zipf证据': 10}
+退出码 0

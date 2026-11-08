@@ -1,0 +1,8 @@
+BV163xB6zEwF.gt {'edits': Counter({'FP': 1}), 'characters': Counter({'FP': 2}), 'remaining_substitution_errors': 30, 'normalized_distance_after': 35}
+BV18mxx64Es3.gt {'edits': Counter({'FP': 2, 'TP': 1}), 'characters': Counter({'FP': 4, 'TP': 2}), 'remaining_substitution_errors': 79, 'normalized_distance_after': 99}
+BV19T4P6MEWp.gt {'edits': Counter(), 'characters': Counter(), 'remaining_substitution_errors': 46, 'normalized_distance_after': 57}
+BV1LBxq6AEVn.gt {'edits': Counter({'FP': 2, 'TP': 1}), 'characters': Counter({'FP': 3, 'TP': 2}), 'remaining_substitution_errors': 74, 'normalized_distance_after': 79}
+BV1sxxX64E4E.gt {'edits': Counter({'FP': 2}), 'characters': Counter({'FP': 4}), 'remaining_substitution_errors': 128, 'normalized_distance_after': 145}
+BV1uUak6pEdK.gt {'edits': Counter({'FP': 37, 'TP': 10, 'wrong': 7}), 'characters': Counter({'FP': 71, 'TP': 16, 'wrong': 7}), 'remaining_substitution_errors': 1505, 'normalized_distance_after': 1631}
+BV1XgxE6BEqn.gt {'edits': Counter({'FP': 1}), 'characters': Counter({'FP': 2}), 'remaining_substitution_errors': 39, 'normalized_distance_after': 44}
+{'noop': {'edits': Counter(), 'characters': Counter(), 'remaining_substitution_errors': 1921, 'normalized_distance_after': 2024}, 'counts': {'edits': Counter({'TP': 117, 'FP': 54, 'wrong': 30}), 'characters': Counter({'TP': 194, 'FP': 97, 'wrong': 31}), 'remaining_substitution_errors': 1727, 'normalized_distance_after': 1927}, 'zipf': {'edits': Counter({'FP': 45, 'TP': 12, 'wrong': 7}), 'characters': Counter({'FP': 86, 'TP': 20, 'wrong': 7}), 'remaining_substitution_errors': 1901, 'normalized_distance_after': 2090}}

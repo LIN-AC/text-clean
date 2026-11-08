@@ -1,0 +1,7 @@
+{
+  "baseline_commit": "877b6a2ef489b1b3a7dcd7b4ef0a7f7028193689",
+  "branch": "codex/zipf-frequency-baseline",
+  "engineering_tests": "23/23 passed",
+  "open_book_quality": "not passed: 12 correct edits, 45 false edits, 7 wrong-to-wrong; normalized distance 2090 vs no-op 2024",
+  "pushed": false
+}

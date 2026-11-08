@@ -1,0 +1,33 @@
+{
+  "head": "877b6a2ef489b1b3a7dcd7b4ef0a7f7028193689",
+  "binary": {
+    "production_build/current/text_clean.exe": "ee21718ef588eeecc1cea59d44ed268cef3eb6c2b0e019e65b4d8eddcf5a4a80",
+    "probe_B": "440a280898af2970b7c141cfde3e89abf7f2923d2f43128353d5923f4e469274",
+    "probe_C": "522a8c06118649cb2c8b6fb0a751d171275b5967638949ecc4902648038ac483",
+    "probe_F": "c4cb54cf2acd4ac332fd0e21e84ba4d9cf983d98377f2eee0414756a04272fa1"
+  },
+  "dictionaries": {
+    "data/frequency/word_freq.tsv": "9aab525a01ce062ccabf347ec8457e8b9b8229c1eb4f702cd4d7f7a65610f0f9",
+    "data/frequency/char_freq.tsv": "c99a41d2f5e400997425678fbc7c734bfb22bc6375112b4caac3d0728c8d946c",
+    "data/correction/candidates.tsv": "ca4a4b8e2c680b76f290a61e85bc4171d4a4d34944a190d55a929163020f1468",
+    "data/pronunciation/pronunciation.tsv": "5c66fd4645c782fe42339b7aca7f6b011d00a61e3f36e421deb9d799a5da3560",
+    "data/pronunciation/pronunciation_char.tsv": "e5bd3477a2c54ab56bcc3012d0f9d664366ddc5a16628416ae714542bd91f11c",
+    "data/vocabulary/vocabulary.tsv": "3c6506c6a0db6c06130a73b6e72b43ac142f4876e514f5f88f9cbaeddc9a599d",
+    "data/vocabulary/extvocabulary.tsv": "89f157bcbcaf52f0fcfecfbd375519494315067de679dc06abccae510ba8e74b",
+    "data/ac/ac_lock.tsv": "dff6232d8081b5c14c659059626e825f0d2ee9f9a9bc389a4d65187af286ad65",
+    "data/old/word_freq.txt": "d6198ce837a803acbc0cc56c42b875d45221cf1f7f0289cd8f8c176dd8fb8c1a",
+    "data/old/dict.txt": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8"
+  },
+  "corpus": {
+    "BV163xB6zEwF.gt.jsonl": "74cb200aa188500e06378412abaceafe3f30645bd7feb7d87a37184b5c87c9cd",
+    "BV18mxx64Es3.gt.jsonl": "c3b7dd0527b85e0354f1a5ef09318f715d4d7743335fcb4be650adbab16bf712",
+    "BV19T4P6MEWp.gt.jsonl": "918276a87c371c8b282d68e04407cf87058c95eedf0fe87e2361de6b3acb8a63",
+    "BV1LBxq6AEVn.gt.jsonl": "a400121a5cb952fd737fb91050da4bfa4a8ff1c3005b180697aa4976f5ee88d3",
+    "BV1sxxX64E4E.gt.jsonl": "7fdd8ce4791d59b5151a9960d9f70d00c6e061ebedf6ab16c7d7215dc87bfd78",
+    "BV1uUak6pEdK.gt.jsonl": "3758e782761820ae0873fe597305ec28868f62f741f8f0c940db1f78a0302584",
+    "BV1XgxE6BEqn.gt.jsonl": "91fb6c9dc6b27644e33df2e4f889f65948fd863b070940defcca8d0c19b4f04e"
+  },
+  "params": "lambda=0.65 mu=0.70 max_pinyin_distance=2 max_candidates_per_window=64 --no-index-cache -v; 无标题/简介上下文",
+  "metric": "experiments/E023/scripts/diagnose.py 指标函数逐字复制 experiments/E022/scripts/regression.py（E19 口径）",
+  "consistency_check": "F 探针 7 篇 stdout 与生产二进制逐字节相同；counts/zipf 两臂数字与 E022 summary 完全一致"
+}

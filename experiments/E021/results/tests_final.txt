@@ -1,0 +1,71 @@
+Test project D:/text_clean/build/current
+      Start  1: test_utf8
+ 1/22 Test  #1: test_utf8 ........................   Passed    0.01 sec
+      Start  2: test_dictionary_bundle
+ 2/22 Test  #2: test_dictionary_bundle ...........   Passed    1.96 sec
+      Start  3: test_decision_safety
+ 3/22 Test  #3: test_decision_safety .............   Passed    0.05 sec
+      Start  4: test_ac_automaton
+ 4/22 Test  #4: test_ac_automaton ................   Passed    0.01 sec
+      Start  5: test_pinyin_index
+ 5/22 Test  #5: test_pinyin_index ................   Passed    0.01 sec
+      Start  6: test_edit_distance
+ 6/22 Test  #6: test_edit_distance ...............   Passed    0.01 sec
+      Start  7: test_pinyin_dict
+ 7/22 Test  #7: test_pinyin_dict .................   Passed    0.08 sec
+      Start  8: test_lexicon
+ 8/22 Test  #8: test_lexicon .....................   Passed    0.02 sec
+      Start  9: test_word_maintaining
+ 9/22 Test  #9: test_word_maintaining ............   Passed    0.02 sec
+      Start 10: test_word_frequency
+10/22 Test #10: test_word_frequency ..............   Passed    0.01 sec
+      Start 11: test_char_frequency
+11/22 Test #11: test_char_frequency ..............   Passed    0.01 sec
+      Start 12: test_text_split
+12/22 Test #12: test_text_split ..................   Passed    0.01 sec
+      Start 13: test_word_review
+13/22 Test #13: test_word_review .................   Passed    0.02 sec
+      Start 14: test_text_cleaner
+14/22 Test #14: test_text_cleaner ................   Passed    0.06 sec
+      Start 15: test_legitimacy
+15/22 Test #15: test_legitimacy ..................   Passed    0.22 sec
+      Start 16: test_tone_correction
+16/22 Test #16: test_tone_correction .............   Passed    0.19 sec
+      Start 17: test_video_context
+17/22 Test #17: test_video_context ...............***Failed    0.41 sec
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我买了微星主板, got 我买了微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 请在微信里讨论微星主板, got 请在微信里讨论微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我在微信群里讨论微星显卡, got 我在微信群里讨论微信显卡)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 微星笔记本用于开发, got 微信笔记本用于开发)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 在微信里比较微星和华为的产品, got 在微信里比较微信和华为的产品)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我买了微星主板, got 我买了微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 请在微信里讨论微星主板, got 请在微信里讨论微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我在微信群里讨论微星显卡, got 我在微信群里讨论微信显卡)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 微星笔记本用于开发, got 微信笔记本用于开发)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 在微信里比较微星和华为的产品, got 在微信里比较微信和华为的产品)
+test_video_context: 10 of 103 checks failed
+
+      Start 18: test_cli_bundle
+18/22 Test #18: test_cli_bundle ..................   Passed    6.19 sec
+      Start 19: test_ngram_veto
+19/22 Test #19: test_ngram_veto ..................   Passed    0.06 sec
+      Start 20: test_cli_context
+20/22 Test #20: test_cli_context .................***Failed    0.79 sec
+Traceback (most recent call last):
+  File "D:/text_clean/tests/test_cli_context.py", line 13, in <module>
+    assert clean_subtitles(exe, "微信", "微信教程", "我买了微星主板") == "我买了微星主板\n"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+      Start 21: test_priority
+21/22 Test #21: test_priority ....................   Passed    0.22 sec
+      Start 22: test_word_pronunciation
+22/22 Test #22: test_word_pronunciation ..........   Passed    0.06 sec
+
+91% tests passed, 2 tests failed out of 22
+
+Total Test time (real) =  10.46 sec
+
+The following tests FAILED:
+	 17 - test_video_context (Failed)
+	 20 - test_cli_context (Failed)

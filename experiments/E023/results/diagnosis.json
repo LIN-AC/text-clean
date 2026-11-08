@@ -1,0 +1,858 @@
+{
+  "arms": {
+    "noop": {
+      "edits": {},
+      "characters": {},
+      "normalized_distance_after": 2024
+    },
+    "counts": {
+      "edits": {
+        "FP": 54,
+        "TP": 117,
+        "wrong": 30
+      },
+      "characters": {
+        "FP": 97,
+        "TP": 194,
+        "wrong": 31
+      },
+      "normalized_distance_after": 1927
+    },
+    "zipf": {
+      "edits": {
+        "FP": 45,
+        "TP": 12,
+        "wrong": 7
+      },
+      "characters": {
+        "FP": 86,
+        "TP": 20,
+        "wrong": 7
+      },
+      "normalized_distance_after": 2090
+    },
+    "zipfB_旧缺频策略": {
+      "edits": {
+        "FP": 94,
+        "TP": 147,
+        "excluded": 1,
+        "wrong": 46
+      },
+      "characters": {
+        "FP": 184,
+        "TP": 235,
+        "wrong": 51
+      },
+      "normalized_distance_after": 1973
+    },
+    "zipfC_旧字符补偿": {
+      "edits": {
+        "FP": 72,
+        "TP": 146,
+        "excluded": 1,
+        "wrong": 37
+      },
+      "characters": {
+        "FP": 140,
+        "TP": 230,
+        "wrong": 42
+      },
+      "normalized_distance_after": 1934
+    }
+  },
+  "funnel": {
+    "zipf": {
+      "windows": 55224,
+      "first_gate": 13132,
+      "no_candidate": 21409,
+      "missing_orig": 9680,
+      "missing_cand": 190,
+      "action_rej": 0,
+      "protected_rej": 5229,
+      "edge_rej": 2337,
+      "dist_rej": 24474,
+      "score_rej": 665,
+      "accepted": 64,
+      "singleton": 64,
+      "margin_win": 0,
+      "group_veto": 0,
+      "keep_win": 0
+    },
+    "counts": {
+      "windows": 55224,
+      "first_gate": 13132,
+      "no_candidate": 21409,
+      "missing_orig": 0,
+      "missing_cand": 0,
+      "action_rej": 0,
+      "protected_rej": 6787,
+      "edge_rej": 14503,
+      "dist_rej": 30506,
+      "score_rej": 1060,
+      "accepted": 201,
+      "singleton": 190,
+      "margin_win": 11,
+      "group_veto": 4,
+      "keep_win": 0
+    }
+  },
+  "lost_tp_count": 107,
+  "lost_tp_causes": {
+    "两侧都有证据但差额不够": 15,
+    "原文无Zipf证据（缺频保护弃权）": 89,
+    "目标词无Zipf证据": 3
+  },
+  "lost_tp_characters": {
+    "两侧都有证据但差额不够": 24,
+    "原文无Zipf证据（缺频保护弃权）": 141,
+    "目标词无Zipf证据": 10
+  },
+  "lost_cases": [
+    {
+      "video": "BV18mxx64Es3.gt",
+      "src": "书里",
+      "dst": "梳理",
+      "d": 0,
+      "counts_score": 0.836998,
+      "changed": 2,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": 0.29,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV18mxx64Es3.gt",
+      "src": "反乡",
+      "dst": "返乡",
+      "d": 0,
+      "counts_score": 1.17667,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV18mxx64Es3.gt",
+      "src": "手句",
+      "dst": "首句",
+      "d": 0,
+      "counts_score": 0.853138,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV19T4P6MEWp.gt",
+      "src": "低贯",
+      "dst": "滴灌",
+      "d": 0,
+      "counts_score": 2.27754,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "src": "手句",
+      "dst": "首句",
+      "d": 0,
+      "counts_score": 0.853138,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "src": "手句",
+      "dst": "首句",
+      "d": 0,
+      "counts_score": 0.853138,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "src": "手句",
+      "dst": "首句",
+      "d": 0,
+      "counts_score": 0.853138,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "src": "手句",
+      "dst": "首句",
+      "d": 0,
+      "counts_score": 0.853138,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "src": "手句",
+      "dst": "首句",
+      "d": 0,
+      "counts_score": 0.853138,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "src": "手句",
+      "dst": "首句",
+      "d": 0,
+      "counts_score": 0.853138,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "甲州",
+      "dst": "甲胄",
+      "d": 1,
+      "counts_score": 1.58075,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "后事",
+      "dst": "后世",
+      "d": 0,
+      "counts_score": 1.47202,
+      "changed": 1,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": -1.03,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "人证",
+      "dst": "仁政",
+      "d": 0,
+      "counts_score": 0.647074,
+      "changed": 2,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": -0.75,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "清姚伯父",
+      "dst": "轻徭薄赋",
+      "d": 0,
+      "counts_score": 2.47805,
+      "changed": 4,
+      "cause": "目标词无Zipf证据"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "现关",
+      "dst": "县官",
+      "d": 0,
+      "counts_score": 2.77203,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "卖关于绝",
+      "dst": "卖官鬻爵",
+      "d": 1,
+      "counts_score": 2.01729,
+      "changed": 3,
+      "cause": "目标词无Zipf证据"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "齐驾",
+      "dst": "起价",
+      "d": 1,
+      "counts_score": 1.76668,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "填富",
+      "dst": "田赋",
+      "d": 0,
+      "counts_score": 4.46157,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "丧红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65664,
+      "changed": 3,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "威阳",
+      "dst": "未央",
+      "d": 2,
+      "counts_score": 1.00319,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "自生",
+      "dst": "滋生",
+      "d": 1,
+      "counts_score": 1.08808,
+      "changed": 1,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": -0.64,
+      "zipf_needed": 0.586
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "人政",
+      "dst": "仁政",
+      "d": 0,
+      "counts_score": 0.150364,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "如生",
+      "dst": "儒生",
+      "d": 0,
+      "counts_score": 0.832199,
+      "changed": 1,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": -1.7,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "轻咬伯父",
+      "dst": "轻徭薄赋",
+      "d": 1,
+      "counts_score": 1.82805,
+      "changed": 3,
+      "cause": "目标词无Zipf证据"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "藩政",
+      "dst": "藩镇",
+      "d": 2,
+      "counts_score": 3.16779,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "独流",
+      "dst": "毒瘤",
+      "d": 0,
+      "counts_score": 0.147298,
+      "changed": 2,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": -0.69,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "填付",
+      "dst": "田赋",
+      "d": 0,
+      "counts_score": 4.4944,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "豪墙",
+      "dst": "豪强",
+      "d": 0,
+      "counts_score": 4.72089,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "豪墙",
+      "dst": "豪强",
+      "d": 0,
+      "counts_score": 4.72089,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "桑红阳",
+      "dst": "桑弘羊",
+      "d": 0,
+      "counts_score": 3.65666,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "堆治",
+      "dst": "对峙",
+      "d": 1,
+      "counts_score": 4.2063,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "亦是",
+      "dst": "一时",
+      "d": 2,
+      "counts_score": 0.97191,
+      "changed": 2,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": 0.06,
+      "zipf_needed": 0.869
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "立身",
+      "dst": "厉声",
+      "d": 2,
+      "counts_score": 0.0897191,
+      "changed": 2,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": -1.37,
+      "zipf_needed": 0.869
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "如生",
+      "dst": "儒生",
+      "d": 0,
+      "counts_score": 0.832199,
+      "changed": 1,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": -1.7,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "豪墙",
+      "dst": "豪强",
+      "d": 0,
+      "counts_score": 4.72089,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "建坑",
+      "dst": "建康",
+      "d": 2,
+      "counts_score": 2.85182,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "建坑",
+      "dst": "建康",
+      "d": 2,
+      "counts_score": 2.85182,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "建杠",
+      "dst": "建康",
+      "d": 2,
+      "counts_score": 3.26658,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "裸旗",
+      "dst": "罗绮",
+      "d": 2,
+      "counts_score": 0.828893,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "威劲",
+      "dst": "魏晋",
+      "d": 1,
+      "counts_score": 4.85937,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "真关",
+      "dst": "贞观",
+      "d": 1,
+      "counts_score": 2.45382,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "摇役",
+      "dst": "徭役",
+      "d": 0,
+      "counts_score": 4.76528,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "豪墙",
+      "dst": "豪强",
+      "d": 0,
+      "counts_score": 4.72089,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "藩政",
+      "dst": "藩镇",
+      "d": 2,
+      "counts_score": 3.16779,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "翻证",
+      "dst": "藩镇",
+      "d": 2,
+      "counts_score": 2.7618,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "遍经",
+      "dst": "汴京",
+      "d": 0,
+      "counts_score": 2.99121,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "殷勋",
+      "dst": "因循",
+      "d": 1,
+      "counts_score": 2.24837,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "兼兵",
+      "dst": "兼并",
+      "d": 1,
+      "counts_score": 3.67888,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "兼命",
+      "dst": "兼并",
+      "d": 2,
+      "counts_score": 3.31479,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "兼命",
+      "dst": "兼并",
+      "d": 2,
+      "counts_score": 3.31479,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "煎柄",
+      "dst": "兼并",
+      "d": 1,
+      "counts_score": 5.18373,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "清淼",
+      "dst": "青苗",
+      "d": 1,
+      "counts_score": 2.71774,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "帐策",
+      "dst": "账册",
+      "d": 0,
+      "counts_score": 2.24216,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "军属法",
+      "dst": "均输法",
+      "d": 1,
+      "counts_score": 1.11262,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "兼命",
+      "dst": "兼并",
+      "d": 2,
+      "counts_score": 3.31479,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "兼命",
+      "dst": "兼并",
+      "d": 2,
+      "counts_score": 3.31479,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "轻描",
+      "dst": "青苗",
+      "d": 0,
+      "counts_score": 3.35516,
+      "changed": 2,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": 0.26,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "轻描",
+      "dst": "青苗",
+      "d": 0,
+      "counts_score": 3.35516,
+      "changed": 2,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": 0.26,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "江神",
+      "dst": "缰绳",
+      "d": 2,
+      "counts_score": 2.40607,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "江神",
+      "dst": "缰绳",
+      "d": 2,
+      "counts_score": 2.40607,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "负语",
+      "dst": "富裕",
+      "d": 0,
+      "counts_score": 5.45719,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "兼命",
+      "dst": "兼并",
+      "d": 2,
+      "counts_score": 3.31479,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "倒向",
+      "dst": "导向",
+      "d": 0,
+      "counts_score": 1.65064,
+      "changed": 1,
+      "cause": "两侧都有证据但差额不够",
+      "zipf_gap": 0.2,
+      "zipf_needed": 0.304
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "关闲",
+      "dst": "官衔",
+      "d": 0,
+      "counts_score": 3.84581,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "杜碟",
+      "dst": "度牒",
+      "d": 0,
+      "counts_score": 3.86383,
+      "changed": 2,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "前仙",
+      "dst": "前线",
+      "d": 1,
+      "counts_score": 3.44813,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "src": "兼兵",
+      "dst": "兼并",
+      "d": 1,
+      "counts_score": 3.67888,
+      "changed": 1,
+      "cause": "原文无Zipf证据（缺频保护弃权）"
+    }
+  ],
+  "enabled_targets": 336,
+  "zipf_evidence_words": 854257
+}

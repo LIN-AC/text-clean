@@ -1,0 +1,10 @@
+{
+  "no_candidates": {
+    "returncode": 0,
+    "peak_working_set_bytes": 8671232
+  },
+  "new_candidates_count_fixture": {
+    "returncode": 0,
+    "peak_working_set_bytes": 349405184
+  }
+}

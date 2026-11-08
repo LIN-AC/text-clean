@@ -1,0 +1,36 @@
+[  2%] Built target tc_ac
+[  5%] Built target tc_pinyin_index
+[  8%] Built target tc_pinyin_dict
+[ 11%] Built target tc_lexicon
+[ 14%] Built target tc_word_maintaining
+[ 17%] Built target tc_text_split
+[ 20%] Built target tc_word_frequency
+[ 23%] Built target tc_video_context
+[ 26%] Built target tc_vocabulary
+[ 29%] Built target tc_char_frequency
+[ 32%] Built target test_utf8
+[ 35%] Built target test_ac_automaton
+[ 38%] Built target test_pinyin_index
+[ 41%] Built target test_edit_distance
+[ 44%] Built target test_pinyin_dict
+[ 47%] Built target test_lexicon
+[ 50%] Built target test_word_maintaining
+[ 52%] Built target test_word_frequency
+[ 55%] Built target test_char_frequency
+[ 58%] Built target test_text_split
+[ 61%] Built target tc_word_review
+[ 64%] Built target tc_dictionary_bundle
+[ 67%] Built target tc_pipeline
+[ 70%] Built target test_word_review
+[ 75%] Built target test_decision_safety
+[ 77%] Built target text_clean
+[ 80%] Built target test_zipf_scoring
+[ 83%] Built target test_text_cleaner
+[ 86%] Built target test_legitimacy
+[ 89%] Built target test_tone_correction
+[ 92%] Built target test_video_context
+[ 95%] Built target test_priority
+[ 98%] Built target test_word_pronunciation
+[ 72%] Building CXX object CMakeFiles/test_dictionary_bundle.dir/tests/test_dictionary_bundle.cpp.obj
+[100%] Linking CXX executable test_dictionary_bundle.exe
+[100%] Built target test_dictionary_bundle

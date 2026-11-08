@@ -4,7 +4,7 @@
 # columns: char	readings	sources	agreement	dropped
 # note: 策略（园长大决定 2026-11-06）：以 CEDICT 为准，罕见异读删除。有 CEDICT 记录的字只留 CEDICT 读音；仅 pypinyin 覆盖的字只留其首个常用读音；两源皆无标 unknown。agreement 保留合并时的源间关系（agree/cedict_subset/conflict/pypinyin_only/cedict_only/missing），dropped 列记录被删掉的异读，便于审计与回退。被删读音的例子：有 you4/wei3、信 shen1 —— 文言异读正是旧缺陷 D3 的误改通道。
 # generated_by: tools/normalize_dicts.py
-# generated_at: 2026-11-06T03:11:23
+# generated_at: 2026-11-08T01:40:54
 char	readings	sources	agreement	dropped
 A	a	cedict	cedict_only	
 B	bi1	cedict	cedict_only	

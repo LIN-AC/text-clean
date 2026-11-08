@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-08",
+  "branch": "exp/e030-domain-context",
+  "commit_base": "877b6a2ef489b1b3a7dcd7b4ef0a7f7028193689",
+  "binary": {
+    "path": "build/e025/text_clean.exe",
+    "sha256_16": "90b34eca187f159a",
+    "default_output_equals_frozen_E027": "7/7 逐字节相同",
+    "ctest": "24/24（TEMP 需指到工程内）"
+  },
+  "corpus": {
+    "source": "zh.wikisource.org（明史/漢書/後漢書/史記集解 分卷页）",
+    "license": "古籍本文公有领域；转录页面 CC BY-SA 4.0 / GFDL（署名 Wikisource）",
+    "pages": 1029,
+    "han": 7133722,
+    "sha256_full": "daaaf3639c0d4311da4a03737e8b2083b6fb47466b67d2e9f3457e36bd555122",
+    "note": "未使用本项目任何真值；asr/ 与 temp_txt/ 一律不读"
+  },
+  "evidence": {
+    "words_rows": 1436815,
+    "pair_rows": 1035992,
+    "uni_rows": 8768,
+    "words_sha256_16": "5ba7b88fe027a82d",
+    "pairs_sha256_16": "e15049ba67c4cbee",
+    "scale": "zipf = 9 + log10(count/positions)，与 wordfreq 同尺度",
+    "trad_simp": "CEDICT 逐字繁→简映射（CC BY-SA 4.0）"
+  },
+  "flags": {
+    "new": [
+      "--evidence-dir <dir>",
+      "--domain-freq",
+      "--domain-gap <x>",
+      "--ctx-evidence",
+      "--ctx-weight <x>"
+    ],
+    "default": "全部关闭；不传即与冻结基准逐字节相同"
+  },
+  "formal_data_untouched": {
+    "data/frequency/word_freq.tsv": "1c6807b5bfea8411",
+    "data/correction/candidates.tsv": "4b3485ca2a34d7a9",
+    "data/ac/ac_lock.tsv": "e6ac096b7f90e9a6"
+  },
+  "special_terms": {
+    "卫青": "3.91/58次",
+    "魏清": "查无",
+    "田赋": "4.17/105次",
+    "填富": "查无",
+    "县官": "4.50/227次",
+    "现关": "查无",
+    "桑弘羊": "3.45/20次",
+    "桑红阳": "查无",
+    "微信": "查无（故该词对退回通用词频）",
+    "威信": "4.07/84次"
+  }
+}

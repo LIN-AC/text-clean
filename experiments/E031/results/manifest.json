@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-08",
+  "branch": "exp/e031-context-scoring（承接 exp/e030-domain-context 工作区，两者均未提交）",
+  "commit_base": "877b6a2ef489b1b3a7dcd7b4ef0a7f7028193689",
+  "binary": {
+    "path": "build/e025/text_clean.exe",
+    "sha256_16": "3517de385b99f51c",
+    "default_output_equals_frozen_E027": "7/7 逐字节相同",
+    "ctest": "24/24"
+  },
+  "corpora": {
+    "modern_tatoeba": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
+      "license": "CC BY 2.0 FR",
+      "sha256_16_bz2": "262a48cacb7693f6",
+      "sentences": 89289,
+      "han": 916062
+    },
+    "classic": {
+      "source": "E030 维基文库 明史/漢書/後漢書/史記集解",
+      "han": 7133722,
+      "sha256": "daaaf3639c0d4311da4a03737e8b2083b6fb47466b67d2e9f3457e36bd555122"
+    },
+    "wikinews_abandoned": {
+      "source": "zh.wikinews.org",
+      "license": "CC BY 2.5",
+      "reason": "prop=extracts 绝大多数页面返回空正文，60 篇只出 2 篇，体量不可用",
+      "kept_pages": 2,
+      "han": 1107
+    }
+  },
+  "tables": {
+    "modern": {
+      "segments": 89289,
+      "han": 916062,
+      "ngram_rows": 213271,
+      "min_count": 2,
+      "uni_rows": 4051,
+      "pair_rows": 146280,
+      "by_len": {
+        "2": 62030,
+        "3": 88675,
+        "4": 62566
+      }
+    },
+    "classic": {
+      "segments": 17844,
+      "han": 7133722,
+      "ngram_rows": 1012009,
+      "min_count": 3,
+      "uni_rows": 8653,
+      "pair_rows": 1033516,
+      "by_len": {
+        "2": 391230,
+        "3": 411546,
+        "4": 209233
+      }
+    }
+  },
+  "merged_tables": {
+    "both": {
+      "merged_rows": 1205254
+    },
+    "mod_dom": "E030 words.tsv + E031 modern 邻接表（组装，不重新计数）",
+    "both_dom": "E030 words.tsv + E031 合并邻接表"
+  },
+  "new_flags": [
+    "--ctx-span <1|2>",
+    "--ctx-weight <x>",
+    "--ctx-min-anchor <n>",
+    "--ctx-one-sided"
+  ],
+  "default_behavior": "全部默认关闭；不传新参数与冻结基准逐字节相同",
+  "formal_data_untouched": {
+    "data/frequency/word_freq.tsv": "1c6807b5bfea8411",
+    "data/correction/candidates.tsv": "4b3485ca2a34d7a9",
+    "data/ac/ac_lock.tsv": "e6ac096b7f90e9a6"
+  },
+  "results": {
+    "control": "147/100/27/1977",
+    "noop": 2024,
+    "best_context_only": "V1 现代跨度2 单边 权重1.0 = 145/82/25/1961",
+    "best_total": "W5 历史词频0.45 + 合并单边2.0 = 134/56/15/1946",
+    "best_recall_with_domain": "W2 历史词频0.45 + 现代单边 = 205/153/21/1972，卫青族 6/6",
+    "two_sided_disaster": "S3/S8 双边 权重1.0 = 误改 192/202，总错误量 2078/2091"
+  },
+  "caveats": [
+    "七篇全开卷；权重与 gap 只是曲线，最优点不得当参数结论",
+    "现代语料仅 92 万字，跨度2 锚点大量弃权，V1 收益被数据量压住",
+    "Tatoeba 按句切分、文言表按 400 字分块，跨块邻接被切断，E030 的 X2 与本轮 S1 不是同一张表"
+  ]
+}

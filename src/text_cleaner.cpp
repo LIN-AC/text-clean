@@ -57,6 +57,7 @@ struct TextCleaner::Impl {
     WordFrequency frequencies;
     CharFrequency char_frequency;
     Vocabulary vocabulary;
+    DomainEvidence domain_;
     WordMaintainer segmenter;
     AcAutomaton ac;
     PinyinInvertedIndex index;
@@ -69,13 +70,14 @@ struct TextCleaner::Impl {
     Impl(Lexicon source, const PinyinDict& dictionary, CleanerConfig settings,
          std::optional<std::vector<std::u32string>> ac_words,
          WordFrequency frequency_table, Vocabulary recognized,
-         CharFrequency character_frequency)
+         CharFrequency character_frequency, DomainEvidence domain_table = {})
         : lexicon(std::move(source)),
           dict(&dictionary),
           config(settings),
           frequencies(std::move(frequency_table)),
           char_frequency(std::move(character_frequency)),
-          vocabulary(std::move(recognized)) {
+          vocabulary(std::move(recognized)),
+          domain_(std::move(domain_table)) {
         std::vector<std::u32string> words;
         if (ac_words.has_value()) {
             words = std::move(*ac_words);
@@ -277,7 +279,7 @@ struct TextCleaner::Impl {
         };
         // Each (start,length) occurs once: no accumulated duplicates or sorting.
         for (std::size_t begin = 0; begin < run.size(); ++begin) {
-            for (std::size_t length = 2; length <= max_syllables && length <= run.size() - begin; ++length) {
+            for (std::size_t length = config.min_window_syllables; length <= max_syllables && length <= run.size() - begin; ++length) {
                 bool edge = false;
                 if (!permit(begin, begin + length, edge)) continue;
                 if (edge && !has_base(run[begin], first_bases)) continue;
@@ -306,6 +308,7 @@ struct TextCleaner::Impl {
             // Dictionary membership is contextual evidence, never an error verdict.
             PinyinInvertedIndex::Readings query;
             for (auto ch : original) query.push_back(*dict->readings(ch));
+            // 一个开关同时关掉两半：窗口起点门与索引首音节过滤（首音节锚点保护）。
             const auto candidates = index.find_aligned_candidates(query,
                 config.max_candidates_per_window, config.require_first_syllable_match);
             if (candidates.empty()) continue;
@@ -321,7 +324,26 @@ struct TextCleaner::Impl {
                     ? static_cast<double>(original_frequency)
                     : char_frequency.expected_count(original);
             const auto original_zipf = frequencies.zipf(original);
-            if(frequencies.is_zipf() && !original_zipf) continue; // no fabricated evidence for KEEP
+            // E024 ablation: what to do when the original span has no word-level
+            // Zipf evidence. Veto keeps the frozen baseline behaviour; CharEstimate
+            // substitutes the character-independence Zipf once per window and still
+            // vetoes if any character lacks evidence.
+            double char_estimate = 0.0;
+            bool have_char_estimate = false;
+            if (frequencies.is_zipf() && !original_zipf &&
+                config.missing_evidence == CleanerConfig::MissingEvidence::CharEstimate) {
+                double sum = 0.0;
+                bool complete = true;
+                for (auto ch : original) {
+                    const auto value = frequencies.char_zipf(ch);
+                    if (!value) { complete = false; break; }
+                    sum += *value;
+                }
+                if (complete) {
+                    char_estimate = sum - 9.0 * static_cast<double>(length - 1);
+                    have_char_estimate = true;
+                }
+            }
             const auto original_toned = dict->to_toned_syllables(original);
 
             for (const auto& candidate : candidates) {
@@ -356,12 +378,93 @@ struct TextCleaner::Impl {
                 if(distance>config.max_pinyin_distance || (window.edge && distance>1)) continue;
                 if(distance>0 && length<config.min_syllables_for_fuzzy) continue;
                 const std::size_t candidate_frequency = frequencies.count(entry.canonical);
-                const auto candidate_zipf=frequencies.zipf(entry.canonical);
-                if(frequencies.is_zipf() && !candidate_zipf) continue;
-                const double log_ratio = frequencies.is_zipf()
-                    ? 2.302585 * (*candidate_zipf - *original_zipf)
+                auto candidate_zipf=frequencies.zipf(entry.canonical);
+                // 目标词没有词级证据就弃权：E025 证明字频乘积兜底对 4 字以上目标系统性过低，
+                // 七篇上零改变，M3 已按园长批准移除。单字是例外——字频表本身就是它的正确
+                // 频率，不需要乘积假设，所以单独用 --target-char-freq 开关放开（默认关）。
+                if (frequencies.is_zipf() && !candidate_zipf && config.target_char_frequency &&
+                    entry.canonical.size() == 1)
+                    candidate_zipf = frequencies.char_zipf(entry.canonical.front());
+                if (frequencies.is_zipf() && !candidate_zipf) continue;
+                std::optional<double> effective_original_zipf = original_zipf;
+                if (frequencies.is_zipf() && !effective_original_zipf) {
+                    switch (config.missing_evidence) {
+                    case CleanerConfig::MissingEvidence::Veto:
+                        continue;  // 基线：不给原文造证据，整窗放弃
+                    case CleanerConfig::MissingEvidence::CharEstimate:
+                        if (!have_char_estimate) continue;
+                        effective_original_zipf = char_estimate;
+                        break;
+                    case CleanerConfig::MissingEvidence::FixedCap:
+                        break;
+                    }
+                    if (config.missing_cap > 0.0) {
+                        const double capped = *candidate_zipf - config.missing_cap;
+                        effective_original_zipf = config.missing_evidence ==
+                                CleanerConfig::MissingEvidence::FixedCap
+                            ? capped
+                            : std::max(*effective_original_zipf, capped);
+                    } else if (config.missing_evidence ==
+                               CleanerConfig::MissingEvidence::FixedCap) {
+                        continue;  // FixedCap 没有上限值时没有原文档位可用
+                    }
+                }
+                double log_ratio = frequencies.is_zipf()
+                    ? 2.302585 * (*candidate_zipf - *effective_original_zipf)
                     : std::log((1.0 + static_cast<double>(candidate_frequency)) /
                              (1.0 + original_estimate));
+                // E030 可选①：用历史语料的 n-gram 频率替换证据来源。只有当目标词本身
+                // 在历史语料里出现过才替换，否则退回通用词频，避免整片弃权。
+                if (config.use_domain_frequency && !domain_.empty() && frequencies.is_zipf()) {
+                    const auto domain_candidate = domain_.zipf(entry.canonical);
+                    if (domain_candidate) {
+                        const auto domain_original = domain_.zipf(original);
+                        const double baseline = domain_original
+                            ? *domain_original : *domain_candidate - config.domain_unknown_gap;
+                        log_ratio = 2.302585 * (*domain_candidate - baseline);
+                    }
+                }
+                // E030/E031 可选②：邻接上下文证据。条件概率的分母只数邻字，
+                // 待纠错片段自身无法证明自己正确；锚点支持不足就弃权。
+                if (config.use_context_evidence && !domain_.empty()) {
+                    double delta = 0.0;
+                    bool judged = false;
+                    if (config.context_span >= 2 && domain_.has_ngrams()) {
+                        // 跨度 2：左边两字 → 目标前两字；目标后两字 → 右边两字
+                        const std::size_t b = window.begin, e = window.end;
+                        if (b >= 2) {
+                            const auto anchor = text.substr(b - 2, 2);
+                            const auto tc = domain_.log_prob_follow(anchor, entry.canonical.substr(0, 2));
+                            const auto to = domain_.log_prob_follow(anchor, original.substr(0, 2));
+                            if (tc && to) { delta += *tc - *to; judged = true; }
+                        }
+                        if (e + 2 <= text.size()) {
+                            const auto right = text.substr(e, 2);
+                            const auto tail_c = entry.canonical.substr(entry.canonical.size() > 2
+                                                                            ? entry.canonical.size() - 2 : 0);
+                            const auto tail_o = original.substr(original.size() > 2 ? original.size() - 2 : 0);
+                            const auto tc = domain_.log_prob_follow(tail_c, right);
+                            const auto to = domain_.log_prob_follow(tail_o, right);
+                            if (tc && to) { delta += *tc - *to; judged = true; }
+                        }
+                    } else {
+                        const char32_t left = window.begin > 0 ? text[window.begin - 1] : 0;
+                        const char32_t right = window.end < text.size() ? text[window.end] : 0;
+                        if (left != 0) {
+                            const auto tc = domain_.log_prob_next(left, entry.canonical.front());
+                            const auto to = domain_.log_prob_next(left, original.front());
+                            if (tc && to) { delta += *tc - *to; judged = true; }
+                        }
+                        if (right != 0) {
+                            const auto tc = domain_.log_prob_next(entry.canonical.back(), right);
+                            const auto to = domain_.log_prob_next(original.back(), right);
+                            if (tc && to) { delta += *tc - *to; judged = true; }
+                        }
+                    }
+                    // 单边模式只取负值：上下文用来拦下没把握的改写，不用来放行。
+                    if (judged && !(config.context_one_sided && delta > 0.0))
+                        log_ratio += config.context_weight * delta;
+                }
                 const double static_score =
                     log_ratio -
                     config.distance_penalty * static_cast<double>(distance) -
@@ -375,7 +478,7 @@ struct TextCleaner::Impl {
                 // replace an attested word. Metadata alone must not overturn a
                 // static veto on a word supported by the reference vocabulary.
                 // Keep all score terms unchanged; this is decision admission.
-                if (static_score <= 0.0 && vocabulary.contains(original)) continue;
+                if (config.enable_admission_guard && static_score <= 0.0 && vocabulary.contains(original)) continue;
 
                 Selected selected{window.begin,
                                   window.end,
@@ -388,7 +491,7 @@ struct TextCleaner::Impl {
                                   log_ratio,
                                   candidate_frequency,
                                   original_frequency, bonus};
-                selected.candidate_zipf=candidate_zipf; selected.original_zipf=original_zipf;
+                selected.candidate_zipf=candidate_zipf; selected.original_zipf=effective_original_zipf;
                 local.push_back(selected);
             }
         }
@@ -435,7 +538,7 @@ struct TextCleaner::Impl {
             while (i < text.size() && !eligible(text[i])) ++i;
             const std::size_t run_begin = i;
             while (i < text.size() && eligible(text[i])) ++i;
-            if (i - run_begin >= 2) scan_run(text, run_begin, i, locked, selected, context);
+            if (i - run_begin >= config.min_window_syllables) scan_run(text, run_begin, i, locked, selected, context);
         }
         return selected;
     }
@@ -482,10 +585,11 @@ struct TextCleaner::Impl {
 TextCleaner::TextCleaner(Lexicon lexicon, const PinyinDict& dict, CleanerConfig config,
                          std::optional<std::vector<std::u32string>> ac_words,
                          WordFrequency frequencies, Vocabulary vocabulary,
-                         CharFrequency char_frequency)
+                         CharFrequency char_frequency, DomainEvidence domain)
     : impl_(std::make_unique<Impl>(std::move(lexicon), dict, config,
                                    std::move(ac_words), std::move(frequencies),
-                                   std::move(vocabulary), std::move(char_frequency))) {}
+                                   std::move(vocabulary), std::move(char_frequency),
+                                   std::move(domain))) {}
 
 TextCleaner::~TextCleaner() = default;
 TextCleaner::TextCleaner(TextCleaner&&) noexcept = default;

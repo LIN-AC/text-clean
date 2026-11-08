@@ -587,8 +587,17 @@ def main() -> int:
 
     zipf, wf_version = load_wordfreq()
     domain_chars, domain_words, domain_total, _files, segmented, domain_tag = load_domain_corpus()
+    # 候选词库的目标词与别称必须先算出来：它们也是词频表的查询对象。少了这一步，
+    # 真值里抽出来的目标词（县官/田赋/卫青/桑弘羊…）既不在 rime 也不在 SUBTLEX，
+    # 表里连行都没有，评分侧就会把它们误判成"无词频证据"。
+    char_first = {row[0]: row[1].split("|") for row in char_rows_merged if row[1] != "unknown"}
+    cand, cand_meta, notes = load_candidates(readings, char_first)
+    jobs.append(("data/correction/candidates.tsv",
+                 ["canonical", "pinyin", "alias", "source", "status"], cand, cand_meta))
+    candidate_strings = {row[0] for row in cand} | {row[2] for row in cand if row[2]}
     word_entries = ({row[0] for row in base} | {row[0] for row in ext}
-                    | set(subtlex_wf) | {w for w in domain_words if len(w) >= 2})
+                    | set(subtlex_wf) | {w for w in domain_words if len(w) >= 2}
+                    | candidate_strings)
     word_entries = {w for w in word_entries if len(w) >= 2}
     wf_rows, wf_meta, freq_mode = build_word_freq(
         zipf, word_entries, domain_words, subtlex_wf, domain_total, wf_version)
@@ -606,10 +615,14 @@ def main() -> int:
         print("   热词 %-5s general=%-7s 我方语料次数=%-4s 来源=%s"
               % (probe, line[1] if line else "-", line[2] if line else "-", line[4] if line else "-"))
 
-    char_first = {row[0]: row[1].split("|") for row in char_rows_merged if row[1] != "unknown"}
-    cand, cand_meta, notes = load_candidates(readings, char_first)
-    jobs.append(("data/correction/candidates.tsv",
-                 ["canonical", "pinyin", "alias", "source", "status"], cand, cand_meta))
+    positive = set()
+    for r in wf_rows:
+        if "wordfreq" in r[4] and float(r[1]) > 0:
+            positive.add(r[0])
+    live_targets = {r[0] for r in cand if r[4] == "1"}
+    live_aliases = {r[2] for r in cand if r[4] == "1" and r[2]}
+    print("候选证据覆盖（装配自检）：启用目标词 %d/%d 有正 Zipf；启用别称 %d/%d"
+          % (len(live_targets & positive), len(live_targets), len(live_aliases & positive), len(live_aliases)))
     dist: dict[str, int] = {}
     for row in cand:
         dist["%s/%s" % (row[3], "启用" if row[4] == "1" else "停用")] = dist.get("%s/%s" % (row[3], "启用" if row[4] == "1" else "停用"), 0) + 1

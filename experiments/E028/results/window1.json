@@ -1,0 +1,30 @@
+{
+ "arms": {
+  "基准 窗2 Z1默认": {
+   "tp": 64,
+   "fp": 87,
+   "wrong": 19,
+   "distance": 2047
+  },
+  "改后 窗1 Z1默认": {
+   "tp": 64,
+   "fp": 87,
+   "wrong": 19,
+   "distance": 2047
+  },
+  "基准 窗2 Z2控制臂": {
+   "tp": 147,
+   "fp": 100,
+   "wrong": 27,
+   "distance": 1977
+  },
+  "改后 窗1 Z2控制臂": {
+   "tp": 147,
+   "fp": 100,
+   "wrong": 27,
+   "distance": 1977
+  }
+ },
+ "one_char_edits": {},
+ "single_char_targets": 0
+}

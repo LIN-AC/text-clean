@@ -4,7 +4,7 @@
 # columns: char	general	ours_count	ours_per_million	sources
 # note: general 为 zipf 指数；领域列来自本项目 asr 真值 + temp_txt，共 77395 字。
 # generated_by: tools/normalize_dicts.py
-# generated_at: 2026-11-06T03:11:41
+# generated_at: 2026-11-08T01:41:14
 char	general	ours_count	ours_per_million	sources
 〇	3.69	1	12.9	wordfreq+ours
 㑊	0.0	0		none

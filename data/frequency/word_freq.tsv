@@ -4,7 +4,7 @@
 # columns: word	general	ours_count	ours_per_million	sources
 # note: general 列：wordfreq 给的是 zipf 指数（log10 尺度，越大越常见），不是次数；换算 ln(fC/fO) = 2.3026 x (zipfC - zipfO)。领域列来自 3.1.1（本次共 77395 字，分词用 jieba），语料增长后重跑本脚本即可刷新。sources 标明该行证据来自哪些库；none 表示两边都没查到。
 # generated_by: tools/normalize_dicts.py
-# generated_at: 2026-11-06T03:11:40
+# generated_at: 2026-11-08T01:41:12
 word	general	ours_count	ours_per_million	sources
 〇〇七	1.37	0		wordfreq
 〇〇后	1.39	0		wordfreq
@@ -2946,6 +2946,7 @@ word	general	ours_count	ours_per_million	sources
 一传和防守	1.07	0		wordfreq
 一传稳定	2.78	0		wordfreq
 一传防守	2.07	0		wordfreq
+一伤	3.68	0		wordfreq
 一伸	2.85	0		wordfreq
 一伸一屈	0.26	0		wordfreq
 一似	3.28	0		wordfreq
@@ -3520,6 +3521,7 @@ word	general	ours_count	ours_per_million	sources
 一关一关	1.81	0		wordfreq
 一关一证	1.45	0		wordfreq
 一关了之	2.06	0		wordfreq
+一关难度	2.29	0		wordfreq
 一兵	3.46	0		wordfreq
 一兵一卒	1.02	0		wordfreq
 一兵一将	1.45	0		wordfreq
@@ -11240,6 +11242,7 @@ word	general	ours_count	ours_per_million	sources
 一见钟情	3.31	0		wordfreq
 一见面	3.65	0		wordfreq
 一见高低	2.37	0		wordfreq
+一观	3.66	0		wordfreq
 一视同仁	3.36	0		wordfreq
 一览	3.59	0		wordfreq
 一览了然	1.54	0		wordfreq
@@ -17660,9 +17663,12 @@ word	general	ours_count	ours_per_million	sources
 丈母	2.06	0		wordfreq
 丈母娘	3.36	0		wordfreq
 丈母娘来了	1.36	0		wordfreq
+丈田亩	1.04	0		wordfreq
+丈绵	1.71	0		wordfreq
 丈许	2.06	0		wordfreq
 丈量	2.08	1	12.9	wordfreq+ours
 丈量土地	1.07	1	12.9	wordfreq+ours
+丈量核实	1.01	0		wordfreq
 丈量法	1.07	0		wordfreq
 丈量面积	1.07	0		wordfreq
 三〇〇〇	0.21	0		wordfreq
@@ -26581,6 +26587,7 @@ word	general	ours_count	ours_per_million	sources
 上阁	3.13	0		wordfreq
 上阕	1.28	0		wordfreq
 上阮	2.4	0		wordfreq
+上阳	3.25	0		wordfreq
 上阳台帖	1.66	0		wordfreq
 上阳白发人	0.36	0		wordfreq
 上阵	3.68	0		wordfreq
@@ -38721,6 +38728,7 @@ word	general	ours_count	ours_per_million	sources
 不腥	1.87	0		wordfreq
 不腥不腻	0.0	0		none
 不腰疼	1.96	0		wordfreq
+不腹	2.64	0		wordfreq
 不腻	2.55	0		wordfreq
 不腻不膻	0.0	0		none
 不膻	1.95	0		wordfreq
@@ -43016,6 +43024,7 @@ word	general	ours_count	ours_per_million	sources
 世变风移	1.09	0		wordfreq
 世另我	2.57	0		wordfreq
 世台会	2.55	0		wordfreq
+世号	3.59	0		wordfreq
 世喜	3.07	0		wordfreq
 世嘉	2.92	0		wordfreq
 世堂	3.21	0		wordfreq
@@ -49432,6 +49441,7 @@ word	general	ours_count	ours_per_million	sources
 丧生	3.97	0		wordfreq
 丧生者	2.96	0		wordfreq
 丧礼	3.28	0		wordfreq
+丧红阳	1.29	0		wordfreq
 丧胆	2.28	0		wordfreq
 丧胆亡魂	0.08	0		wordfreq
 丧胆游魂	0.13	0		wordfreq
@@ -50322,6 +50332,7 @@ word	general	ours_count	ours_per_million	sources
 中关村电脑	2.5	0		wordfreq
 中关村银行	2.5	0		wordfreq
 中兴	3.88	4	51.7	wordfreq+ours
+中兴之望	1.78	0		wordfreq
 中兴公园	2.85	0		wordfreq
 中兴北路	2.28	0		wordfreq
 中兴南路	2.6	0		wordfreq
@@ -53619,6 +53630,7 @@ word	general	ours_count	ours_per_million	sources
 中心三路	2.42	0		wordfreq
 中心东道	2.07	0		wordfreq
 中心主任	4.01	0		wordfreq
+中心之望	2.45	0		wordfreq
 中心二路	2.38	0		wordfreq
 中心人物	4.14	0		wordfreq
 中心仪	2.34	0		wordfreq
@@ -59500,6 +59512,7 @@ word	general	ours_count	ours_per_million	sources
 丽丝	3.01	0		wordfreq
 丽丽	3.17	0		wordfreq
 丽亚	3.18	0		wordfreq
+丽交趾	1.41	0		wordfreq
 丽京门	1.99	0		wordfreq
 丽人	3.2	0		wordfreq
 丽人献茗	0.0	0		none
@@ -61280,6 +61293,7 @@ word	general	ours_count	ours_per_million	sources
 乌洛托品	0.81	0		wordfreq
 乌洛托品溶液	0.0	0		none
 乌洞洞	1.91	0		wordfreq
+乌活	3.19	0		wordfreq
 乌洽会	0.64	0		wordfreq
 乌海	3.16	0		wordfreq
 乌海中院	1.05	0		wordfreq
@@ -68393,6 +68407,7 @@ word	general	ours_count	ours_per_million	sources
 书写能力	3.3	0		wordfreq
 书写语言	3.29	0		wordfreq
 书写速度	3.26	0		wordfreq
+书凭	3.59	0		wordfreq
 书函	2.76	0		wordfreq
 书刊	3.36	0		wordfreq
 书刊印刷产品质量监督管理暂行办法	0.0	0		none
@@ -68542,6 +68557,7 @@ word	general	ours_count	ours_per_million	sources
 书法赏评	1.66	0		wordfreq
 书法长卷	2.0	0		wordfreq
 书法集	3.02	0		wordfreq
+书活	3.87	0		wordfreq
 书海	3.75	0		wordfreq
 书海茫茫	1.31	0		wordfreq
 书牍	1.1	0		wordfreq
@@ -71263,6 +71279,7 @@ word	general	ours_count	ours_per_million	sources
 事项	4.56	7	90.4	wordfreq+ours
 事项表	3.4	0		wordfreq
 事预则立	0.95	0		wordfreq
+事频仍	1.79	0		wordfreq
 事齐事楚	0.97	0		wordfreq
 二〇〇	1.38	0		wordfreq
 二〇〇〇	0.21	0		wordfreq
@@ -75754,6 +75771,7 @@ word	general	ours_count	ours_per_million	sources
 于田	3.47	0		wordfreq
 于田县	2.43	0		wordfreq
 于田监狱	2.33	0		wordfreq
+于益	2.53	0		wordfreq
 于省吾	2.25	0		wordfreq
 于真	4.43	0		wordfreq
 于禁	3.27	0		wordfreq
@@ -75778,6 +75796,7 @@ word	general	ours_count	ours_per_million	sources
 于行政	4.3	0		wordfreq
 于西川	2.24	0		wordfreq
 于西蔓	1.23	0		wordfreq
+于要	5.08	0		wordfreq
 于言	3.93	0		wordfreq
 于谦	2.47	0		wordfreq
 于谦老师	1.46	0		wordfreq
@@ -75816,6 +75835,7 @@ word	general	ours_count	ours_per_million	sources
 于青萍	0.99	0		wordfreq
 于非	4.34	0		wordfreq
 于韦斯屈莱	0.0	0		none
+于领	3.88	0		wordfreq
 于风政	2.26	0		wordfreq
 于飞之乐	1.5	0		wordfreq
 于飞之愿	1.5	0		wordfreq
@@ -84036,6 +84056,8 @@ word	general	ours_count	ours_per_million	sources
 产出效率	2.69	0		wordfreq
 产出比	2.75	0		wordfreq
 产出率	2.71	0		wordfreq
+产出粮腹	1.34	0		wordfreq
+产出粮赋	1.37	0		wordfreq
 产前	3.9	0		wordfreq
 产前子痫	0.0	0		none
 产前检查	2.69	0		wordfreq
@@ -84950,6 +84972,7 @@ word	general	ours_count	ours_per_million	sources
 京报网讯	1.45	0		wordfreq
 京政办发	1.07	0		wordfreq
 京斯敦	1.51	0		wordfreq
+京新	3.47	0		wordfreq
 京新药业	1.34	0		wordfreq
 京族	3.27	0		wordfreq
 京昆高速	1.58	0		wordfreq
@@ -93771,6 +93794,7 @@ word	general	ours_count	ours_per_million	sources
 他演了	2.61	0		wordfreq
 他演戏	2.83	0		wordfreq
 他点	4.66	0		wordfreq
+他煤	3.22	0		wordfreq
 他照片	4.45	0		wordfreq
 他爱	4.8	0		wordfreq
 他爱上了	2.27	0		wordfreq
@@ -94121,6 +94145,7 @@ word	general	ours_count	ours_per_million	sources
 仗着人多	0.81	0		wordfreq
 仗着年轻	1.79	0		wordfreq
 仗着自己年轻	0.78	0		wordfreq
+仗策	2.57	0		wordfreq
 仗胆	2.62	0		wordfreq
 仗腰	2.65	0		wordfreq
 仗节死义	0.73	0		wordfreq
@@ -94248,6 +94273,7 @@ word	general	ours_count	ours_per_million	sources
 付尾款后	0.99	0		wordfreq
 付岩洞	1.79	0		wordfreq
 付庄村	1.96	0		wordfreq
+付庚付	1.18	0		wordfreq
 付建忠	1.82	0		wordfreq
 付得起	2.46	0		wordfreq
 付得起钱	1.44	0		wordfreq
@@ -94262,6 +94288,7 @@ word	general	ours_count	ours_per_million	sources
 付排	3.23	0		wordfreq
 付方	3.36	0		wordfreq
 付晓芳	1.23	0		wordfreq
+付更付	2.19	0		wordfreq
 付某	3.38	0		wordfreq
 付某某	2.77	0		wordfreq
 付柔美琦	0.0	0		none
@@ -95714,6 +95741,7 @@ word	general	ours_count	ours_per_million	sources
 以书面	3.06	0		wordfreq
 以了解	4.38	0		wordfreq
 以争取	3.97	0		wordfreq
+以事	4.66	0		wordfreq
 以事业为重	1.29	0		wordfreq
 以事实	4.14	0		wordfreq
 以事实为依据	1.77	0		wordfreq
@@ -96235,6 +96263,8 @@ word	general	ours_count	ours_per_million	sources
 以廉为荣	1.18	0		wordfreq
 以廉价	3.14	0		wordfreq
 以建居为	1.38	2	25.8	wordfreq+ours
+以建居为簿	0.0	0		none
+以建居为薄	0.01	0		wordfreq
 以建设	4.49	0		wordfreq
 以开放	4.21	0		wordfreq
 以引起	4.17	0		wordfreq
@@ -97133,6 +97163,7 @@ word	general	ours_count	ours_per_million	sources
 仰首伸眉	0.0	0		none
 仰首看	1.2	0		wordfreq
 仰首看着	1.19	0		wordfreq
+仰马翻	1.19	0		wordfreq
 仰高	2.21	0		wordfreq
 仰高钻坚	0.09	0		wordfreq
 仰鼻艾鰕虎鱼	0.0	0		none
@@ -97801,6 +97832,7 @@ word	general	ours_count	ours_per_million	sources
 任城	3.84	1	12.9	wordfreq+ours
 任城区	3.24	0		wordfreq
 任城国	2.78	0		wordfreq
+任城王	2.65	0		wordfreq
 任士林	2.21	0		wordfreq
 任天堂	3.62	0		wordfreq
 任天堂公司	2.62	0		wordfreq
@@ -101602,6 +101634,7 @@ word	general	ours_count	ours_per_million	sources
 会裂	2.59	0		wordfreq
 会裂开	2.43	0		wordfreq
 会要	5.17	0		wordfreq
+会要辑	2.11	0		wordfreq
 会见	4.51	0		wordfreq
 会见了	3.51	0		wordfreq
 会见传媒	3.18	0		wordfreq
@@ -107718,6 +107751,7 @@ word	general	ours_count	ours_per_million	sources
 低负担	3.5	0		wordfreq
 低质	3.58	0		wordfreq
 低质量	3.86	0		wordfreq
+低贯	2.57	0		wordfreq
 低贱	3.02	0		wordfreq
 低费卡	2.49	0		wordfreq
 低费率	2.2	0		wordfreq
@@ -108620,6 +108654,7 @@ word	general	ours_count	ours_per_million	sources
 体系重构	2.3	0		wordfreq
 体系问题	4.06	0		wordfreq
 体系集成	3.07	0		wordfreq
+体练	3.34	0		wordfreq
 体细胞	3.48	0		wordfreq
 体细胞分裂	2.23	0		wordfreq
 体细胞培养	2.34	0		wordfreq
@@ -117018,6 +117053,7 @@ word	general	ours_count	ours_per_million	sources
 供地方式	2.75	0		wordfreq
 供地计划	2.78	0		wordfreq
 供地量	2.56	0		wordfreq
+供填	3.06	0		wordfreq
 供墨系统	1.73	0		wordfreq
 供大于求	2.1	0		wordfreq
 供大家	3.77	0		wordfreq
@@ -124533,6 +124569,7 @@ word	general	ours_count	ours_per_million	sources
 倾销法	2.3	0		wordfreq
 倾销税	2.28	0		wordfreq
 倾陷	2.62	0		wordfreq
+倾障	2.23	0		wordfreq
 倾颓	1.81	0		wordfreq
 偃仰	1.69	0		wordfreq
 偃兵修文	0.0	0		none
@@ -125874,6 +125911,7 @@ word	general	ours_count	ours_per_million	sources
 做别的生意	2.33	0		wordfreq
 做别的生意了	1.32	0		wordfreq
 做到	4.83	12	155.0	wordfreq+ours
+做到严而有度	0.12	0		wordfreq
 做到了	3.83	0		wordfreq
 做到了什么	2.81	0		wordfreq
 做到了吗	2.82	0		wordfreq
@@ -125889,6 +125927,7 @@ word	general	ours_count	ours_per_million	sources
 做到极致	2.81	0		wordfreq
 做到知行合一	0.61	0		wordfreq
 做到立行立改	0.17	0		wordfreq
+做到言而有度	0.43	0		wordfreq
 做到警钟长鸣	0.15	0		wordfreq
 做到这	3.82	0		wordfreq
 做到这一点	2.74	0		wordfreq
@@ -126676,6 +126715,7 @@ word	general	ours_count	ours_per_million	sources
 停产	3.71	0		wordfreq
 停产了	2.71	0		wordfreq
 停产整顿	2.61	0		wordfreq
+停仗	2.76	0		wordfreq
 停付	3.29	0		wordfreq
 停休	2.95	0		wordfreq
 停住	3.62	0		wordfreq
@@ -129478,6 +129518,7 @@ word	general	ours_count	ours_per_million	sources
 元庆	3.02	0		wordfreq
 元府	3.74	0		wordfreq
 元廷	2.72	1	12.9	wordfreq+ours
+元廷征	1.64	0		wordfreq
 元徽	2.22	0		wordfreq
 元恪	2.06	0		wordfreq
 元恶	3.41	0		wordfreq
@@ -129802,6 +129843,7 @@ word	general	ours_count	ours_per_million	sources
 兄弟队	3.84	0		wordfreq
 兄弟院校	3.32	0		wordfreq
 兄弟高校	3.5	0		wordfreq
+兄末	2.67	0		wordfreq
 兄死弟及	0.5	0		wordfreq
 兄终弟及	0.44	0		wordfreq
 兄肥弟瘦	0.36	0		wordfreq
@@ -133906,6 +133948,7 @@ word	general	ours_count	ours_per_million	sources
 兑了水	2.05	0		wordfreq
 兑付	3.05	0		wordfreq
 兑付期	2.05	0		wordfreq
+兑信	3.05	0		wordfreq
 兑卦	2.14	0		wordfreq
 兑取	3.02	0		wordfreq
 兑回	3.06	0		wordfreq
@@ -147962,6 +148005,7 @@ word	general	ours_count	ours_per_million	sources
 关闭重启	2.83	0		wordfreq
 关闭键盘	3.01	0		wordfreq
 关闭降噪	0.96	0		wordfreq
+关闲	3.03	0		wordfreq
 关闸	2.54	0		wordfreq
 关闸广场	1.53	0		wordfreq
 关闸马路	1.43	0		wordfreq
@@ -148415,6 +148459,7 @@ word	general	ours_count	ours_per_million	sources
 兵卫	3.08	0		wordfreq
 兵变	3.23	0		wordfreq
 兵员	3.09	0		wordfreq
+兵和鸡	2.27	0		wordfreq
 兵哗	2.43	0		wordfreq
 兵哥	3.24	0		wordfreq
 兵哥哥	3.34	0		wordfreq
@@ -150100,6 +150145,7 @@ word	general	ours_count	ours_per_million	sources
 养鹰扬去	0.61	0		wordfreq
 养鹿	2.86	0		wordfreq
 养鹿场	1.85	0		wordfreq
+养麻烦	3.42	0		wordfreq
 养龟	3.0	0		wordfreq
 兼业代理人	1.77	0		wordfreq
 兼之	3.94	0		wordfreq
@@ -151790,6 +151836,7 @@ word	general	ours_count	ours_per_million	sources
 册井乡	1.83	0		wordfreq
 册亨	2.59	0		wordfreq
 册亨县	1.59	0		wordfreq
+册做	3.44	0		wordfreq
 册子	3.01	0		wordfreq
 册封	3.33	0		wordfreq
 册府元龟	0.88	0		wordfreq
@@ -153742,6 +153789,8 @@ word	general	ours_count	ours_per_million	sources
 军乐港鱼村	0.17	0		wordfreq
 军乐队	3.32	0		wordfreq
 军书	4.09	0		wordfreq
+军书凭	2.53	0		wordfreq
+军书凭准	1.3	0		wordfreq
 军书十二卷	1.13	0		wordfreq
 军事	5.19	16	206.7	wordfreq+ours
 军事上	4.17	0		wordfreq
@@ -154025,6 +154074,7 @@ word	general	ours_count	ours_per_million	sources
 军寨	2.97	0		wordfreq
 军寮	3.04	0		wordfreq
 军属	3.98	0		wordfreq
+军属法	2.82	0		wordfreq
 军屯	2.67	0		wordfreq
 军屯锅魁	0.2	0		wordfreq
 军山	3.85	0		wordfreq
@@ -158963,6 +159013,7 @@ word	general	ours_count	ours_per_million	sources
 减免费	3.34	0		wordfreq
 减免赋税	2.22	0		wordfreq
 减免额	2.64	0		wordfreq
+减冗	1.83	0		wordfreq
 减出来	3.38	0		wordfreq
 减分	3.37	0		wordfreq
 减刑	3.37	0		wordfreq
@@ -161221,6 +161272,7 @@ word	general	ours_count	ours_per_million	sources
 凯拉·麦奎恩	0.0	0		none
 凯拉斯	2.62	0		wordfreq
 凯拉诺	1.82	0		wordfreq
+凯探	2.75	0		wordfreq
 凯撒	3.7	0		wordfreq
 凯撒之死	2.23	0		wordfreq
 凯撒公司	2.7	0		wordfreq
@@ -170058,6 +170110,7 @@ word	general	ours_count	ours_per_million	sources
 刨土	2.45	0		wordfreq
 刨地	2.49	0		wordfreq
 刨坑	2.45	0		wordfreq
+刨墙	2.46	0		wordfreq
 刨头	2.48	0		wordfreq
 刨子	2.48	0		wordfreq
 刨工	2.45	0		wordfreq
@@ -170682,6 +170735,7 @@ word	general	ours_count	ours_per_million	sources
 利胆排石片	0.0	0		none
 利胆片	1.93	0		wordfreq
 利胆石颗粒	0.57	0		wordfreq
+利胶纸	1.64	0		wordfreq
 利脑心片	1.06	0		wordfreq
 利莎	2.95	0		wordfreq
 利莱士	1.98	0		wordfreq
@@ -170709,6 +170763,7 @@ word	general	ours_count	ours_per_million	sources
 利诺加诺	1.05	0		wordfreq
 利谢斯基	1.1	0		wordfreq
 利谱安全隔离与信息交换系统	0.0	0		none
+利贷	2.93	0		wordfreq
 利足	3.31	0		wordfreq
 利路名场	1.49	0		wordfreq
 利辛农商银行	0.0	0		none
@@ -172875,6 +172930,7 @@ word	general	ours_count	ours_per_million	sources
 到基地	4.03	0		wordfreq
 到基层去	2.53	0		wordfreq
 到基层调研	2.05	0		wordfreq
+到士	3.42	0		wordfreq
 到处	4.76	0		wordfreq
 到处为	3.76	0		wordfreq
 到处乱走	2.48	0		wordfreq
@@ -173435,6 +173491,7 @@ word	general	ours_count	ours_per_million	sources
 制不出	3.29	0		wordfreq
 制丝车间	1.85	0		wordfreq
 制丸机	1.86	0		wordfreq
+制义法	2.63	0		wordfreq
 制件	3.96	0		wordfreq
 制伏	2.9	0		wordfreq
 制伞	2.98	0		wordfreq
@@ -174005,6 +174062,7 @@ word	general	ours_count	ours_per_million	sources
 制订的	3.21	0		wordfreq
 制订者	3.19	0		wordfreq
 制订计划	3.2	0		wordfreq
+制议法	2.21	0		wordfreq
 制贩	2.28	0		wordfreq
 制远志	2.37	0		wordfreq
 制退器	2.29	0		wordfreq
@@ -176960,6 +177018,7 @@ word	general	ours_count	ours_per_million	sources
 剪子湾东口	0.0	0		none
 剪完	3.12	0		wordfreq
 剪完头发	2.01	0		wordfreq
+剪容	2.88	0		wordfreq
 剪尾灰霸鹟	0.0	0		none
 剪应力	2.47	0		wordfreq
 剪开	3.15	0		wordfreq
@@ -179362,6 +179421,7 @@ word	general	ours_count	ours_per_million	sources
 加密钱包	2.87	0		wordfreq
 加密银行	3.06	0		wordfreq
 加密锁	2.91	0		wordfreq
+加富	3.31	0		wordfreq
 加富培养基	1.1	0		wordfreq
 加富尔	2.23	0		wordfreq
 加封	3.57	1	12.9	wordfreq+ours
@@ -181519,6 +181579,7 @@ word	general	ours_count	ours_per_million	sources
 助动车	2.43	0		wordfreq
 助助兴	1.88	0		wordfreq
 助助兴吧	0.88	0		wordfreq
+助劳	2.94	0		wordfreq
 助医网	1.9	0		wordfreq
 助听器	2.21	0		wordfreq
 助困	3.01	0		wordfreq
@@ -181871,6 +181932,7 @@ word	general	ours_count	ours_per_million	sources
 励磁	2.15	0		wordfreq
 励磁机	1.14	0		wordfreq
 励磁系统	1.15	0		wordfreq
+励精	2.31	0		wordfreq
 励精图治	0.29	2	25.8	wordfreq+ours
 励精图进	0.31	0		wordfreq
 励精更始	0.27	0		wordfreq
@@ -182862,6 +182924,7 @@ word	general	ours_count	ours_per_million	sources
 勒·洛斯顿	1.53	0		wordfreq
 勒·阿伯林	1.02	0		wordfreq
 勒不住	2.98	0		wordfreq
+勒乱	3.31	0		wordfreq
 勒令	3.31	0		wordfreq
 勒令停业	2.14	0		wordfreq
 勒令停止	2.3	0		wordfreq
@@ -184118,6 +184181,7 @@ word	general	ours_count	ours_per_million	sources
 匈奴王	2.8	0		wordfreq
 匈奴草黄马正肥	0.0	0		none
 匈奴部落	2.76	0		wordfreq
+匈漠	1.88	0		wordfreq
 匈牙利	4.44	1	12.9	wordfreq+ours
 匈牙利事件	3.4	0		wordfreq
 匈牙利人	3.01	0		wordfreq
@@ -190305,6 +190369,7 @@ word	general	ours_count	ours_per_million	sources
 千分表	2.34	0		wordfreq
 千创百孔	0.77	0		wordfreq
 千利休	1.85	0		wordfreq
+千功	3.02	0		wordfreq
 千劫眉	1.2	0		wordfreq
 千匝万周无已时	0.0	0		none
 千千	3.22	0		wordfreq
@@ -195448,6 +195513,7 @@ word	general	ours_count	ours_per_million	sources
 卖光了	2.76	0		wordfreq
 卖光了已经	1.73	0		wordfreq
 卖公营私	1.44	0		wordfreq
+卖关于绝	2.51	0		wordfreq
 卖关子	2.68	0		wordfreq
 卖关节	2.83	0		wordfreq
 卖冰粉	1.97	0		wordfreq
@@ -200593,6 +200659,7 @@ word	general	ours_count	ours_per_million	sources
 卫姓	3.07	0		wordfreq
 卫子夫	2.09	0		wordfreq
 卫宁路	1.98	0		wordfreq
+卫宇	2.54	0		wordfreq
 卫宏	2.59	0		wordfreq
 卫宝	3.15	0		wordfreq
 卫宣公	1.86	0		wordfreq
@@ -200899,6 +200966,7 @@ word	general	ours_count	ours_per_million	sources
 卫雪尔	1.98	0		wordfreq
 卫青	3.08	2	25.8	wordfreq+ours
 卫青不败由天幸	0.0	0		none
+卫青霍去	0.78	0		wordfreq
 卫风	3.22	0		wordfreq
 卫食健字	0.74	0		wordfreq
 卫食证字	0.92	0		wordfreq
@@ -202885,6 +202953,7 @@ word	general	ours_count	ours_per_million	sources
 卸除	2.29	0		wordfreq
 卸鞍	1.84	0		wordfreq
 卿为朝朝暮暮	0.0	0		none
+卿卜	2.48	0		wordfreq
 卿卿	2.43	0		wordfreq
 卿卿我心	1.26	0		wordfreq
 卿卿我我	0.43	0		wordfreq
@@ -204295,6 +204364,7 @@ word	general	ours_count	ours_per_million	sources
 原产地证书	2.18	0		wordfreq
 原产地证明	2.2	0		wordfreq
 原产地证明书	1.86	0		wordfreq
+原亭蒸	1.48	0		wordfreq
 原人	4.25	0		wordfreq
 原从	4.22	0		wordfreq
 原以为	3.21	0		wordfreq
@@ -219358,6 +219428,7 @@ word	general	ours_count	ours_per_million	sources
 古龙群侠传	0.07	0		wordfreq
 古龙那伽	1.01	0		wordfreq
 句中	3.61	0		wordfreq
+句丽	3.06	0		wordfreq
 句句	3.31	0		wordfreq
 句句实话	1.78	0		wordfreq
 句句属实	1.7	0		wordfreq
@@ -220026,6 +220097,7 @@ word	general	ours_count	ours_per_million	sources
 只得放弃	2.81	0		wordfreq
 只得比	2.84	0		wordfreq
 只得答应	2.78	0		wordfreq
+只必	3.66	0		wordfreq
 只怕	3.62	0		wordfreq
 只怕也	2.62	0		wordfreq
 只怕也不简单	0.61	0		wordfreq
@@ -220095,6 +220167,7 @@ word	general	ours_count	ours_per_million	sources
 只把	4.74	0		wordfreq
 只把春来报	0.26	0		wordfreq
 只投	3.86	0		wordfreq
+只抢	3.77	0		wordfreq
 只抢红包	1.98	0		wordfreq
 只报	4.15	0		wordfreq
 只抱	3.71	0		wordfreq
@@ -220631,6 +220704,7 @@ word	general	ours_count	ours_per_million	sources
 只记得	4.02	0		wordfreq
 只记得她	2.99	0		wordfreq
 只讲	4.26	0		wordfreq
+只讲仁义	1.32	0		wordfreq
 只讲出	3.17	0		wordfreq
 只讲到	3.23	0		wordfreq
 只许	3.45	0		wordfreq
@@ -224745,6 +224819,7 @@ word	general	ours_count	ours_per_million	sources
 史丹顿	2.01	0		wordfreq
 史丹顿岛	0.95	0		wordfreq
 史为折俎	0.0	0		none
+史之	3.95	0		wordfreq
 史乘	3.25	0		wordfreq
 史书	3.56	5	64.6	wordfreq+ours
 史书没有记载	1.53	0		wordfreq
@@ -225354,6 +225429,7 @@ word	general	ours_count	ours_per_million	sources
 右四	3.49	0		wordfreq
 右图	3.15	0		wordfreq
 右图和左图	0.14	0		wordfreq
+右地	3.58	0		wordfreq
 右声道	2.06	0		wordfreq
 右外大街	2.18	0		wordfreq
 右外连接	2.33	0		wordfreq
@@ -233602,6 +233678,7 @@ word	general	ours_count	ours_per_million	sources
 后旗	3.2	0		wordfreq
 后无来者	2.27	0		wordfreq
 后日	5.01	0		wordfreq
+后时	4.95	0		wordfreq
 后明村	2.66	0		wordfreq
 后晋	2.98	0		wordfreq
 后晌	0.83	0		wordfreq
@@ -242441,6 +242518,7 @@ word	general	ours_count	ours_per_million	sources
 咬人蹿鼠	0.0	0		none
 咬他手指头	1.31	0		wordfreq
 咬伤	3.17	0		wordfreq
+咬伯父	2.4	0		wordfreq
 咬住	3.4	0		wordfreq
 咬住不放	1.34	0		wordfreq
 咬住嘴唇	1.83	0		wordfreq
@@ -259007,6 +259085,7 @@ word	general	ours_count	ours_per_million	sources
 固阳县	1.65	0		wordfreq
 固陋	1.42	0		wordfreq
 固院村	1.71	0		wordfreq
+固陵	2.33	0		wordfreq
 固顶	2.72	0		wordfreq
 固顶字	1.71	0		wordfreq
 固顶话题	1.68	0		wordfreq
@@ -264633,6 +264712,7 @@ word	general	ours_count	ours_per_million	sources
 圣诞面包	2.88	0		wordfreq
 圣诞音乐	3.01	0		wordfreq
 圣诞颂	2.49	0		wordfreq
+圣语	3.53	0		wordfreq
 圣诺兰	2.06	0		wordfreq
 圣诺园	2.05	0		wordfreq
 圣诺地奥	1.13	0		wordfreq
@@ -266834,6 +266914,7 @@ word	general	ours_count	ours_per_million	sources
 在社会上	3.86	0		wordfreq
 在社会生活中	2.54	0		wordfreq
 在祖国	3.69	0		wordfreq
+在祥符决口	0.0	0		none
 在禁区	2.93	0		wordfreq
 在福州	3.25	0		wordfreq
 在福建	3.63	0		wordfreq
@@ -267581,6 +267662,7 @@ word	general	ours_count	ours_per_million	sources
 在陆地上	2.04	0		wordfreq
 在陈之厄	0.81	0		wordfreq
 在降低	3.92	0		wordfreq
+在降服决口	0.0	0		none
 在院子	2.93	0		wordfreq
 在险价值	2.24	0		wordfreq
 在陪	3.71	0		wordfreq
@@ -268078,6 +268160,7 @@ word	general	ours_count	ours_per_million	sources
 地产集团	3.44	0		wordfreq
 地产项目	3.44	0		wordfreq
 地亩	3.29	1	12.9	wordfreq+ours
+地亭	2.95	0		wordfreq
 地仓穴	1.77	0		wordfreq
 地仙	2.92	0		wordfreq
 地仙之祖	0.53	0		wordfreq
@@ -268120,6 +268203,7 @@ word	general	ours_count	ours_per_million	sources
 地刷子	2.15	0		wordfreq
 地刺	3.34	0		wordfreq
 地力	3.85	0		wordfreq
+地加剧	3.24	0		wordfreq
 地动	4.12	0		wordfreq
 地动三河铁臂摇	0.0	0		none
 地动仪	2.11	0		wordfreq
@@ -270432,6 +270516,8 @@ word	general	ours_count	ours_per_million	sources
 均贫富	2.45	0		wordfreq
 均轮	3.69	0		wordfreq
 均输	3.65	2	25.8	wordfreq+ours
+均输平	2.41	0		wordfreq
+均输平准	1.23	0		wordfreq
 均输法	2.57	1	12.9	wordfreq+ours
 均达	4.11	0		wordfreq
 均达到	4.04	0		wordfreq
@@ -273437,6 +273523,7 @@ word	general	ours_count	ours_per_million	sources
 城农商行	1.08	0		wordfreq
 城前	4.04	0		wordfreq
 城前村	2.7	0		wordfreq
+城勋	2.65	0		wordfreq
 城北	3.42	0		wordfreq
 城北一路	2.4	0		wordfreq
 城北二路	2.1	0		wordfreq
@@ -275556,6 +275643,7 @@ word	general	ours_count	ours_per_million	sources
 堆栈结构	1.31	0		wordfreq
 堆案盈几	0.39	0		wordfreq
 堆案积几	0.84	0		wordfreq
+堆治	3.06	0		wordfreq
 堆泥	2.8	0		wordfreq
 堆满	3.07	0		wordfreq
 堆焊	2.19	0		wordfreq
@@ -275804,6 +275892,7 @@ word	general	ours_count	ours_per_million	sources
 堵到	3.04	0		wordfreq
 堵口	2.99	1	12.9	wordfreq+ours
 堵口子	2.11	0		wordfreq
+堵口赈济修复	0.0	0		none
 堵命运的枪	0.93	0		wordfreq
 堵哭	2.98	0		wordfreq
 堵嘴	2.95	0		wordfreq
@@ -276612,6 +276701,7 @@ word	general	ours_count	ours_per_million	sources
 塞伯坦	1.77	0		wordfreq
 塞住	3.47	0		wordfreq
 塞你嘴里	2.05	0		wordfreq
+塞光是	2.76	0		wordfreq
 塞克	3.38	0		wordfreq
 塞克人	2.38	0		wordfreq
 塞克多斯	1.48	0		wordfreq
@@ -276991,6 +277081,7 @@ word	general	ours_count	ours_per_million	sources
 填仓	2.77	0		wordfreq
 填仓日	1.77	0		wordfreq
 填仓节	1.75	0		wordfreq
+填付	2.98	0		wordfreq
 填债	2.8	0		wordfreq
 填充	3.53	0		wordfreq
 填充剂	2.46	0		wordfreq
@@ -277072,6 +277163,7 @@ word	general	ours_count	ours_per_million	sources
 填完没	2.1	0		wordfreq
 填完表	2.04	0		wordfreq
 填实	3.06	0		wordfreq
+填富	2.94	0		wordfreq
 填就行	2.59	0		wordfreq
 填平	3.05	1	12.9	wordfreq+ours
 填平补齐	0.78	0		wordfreq
@@ -277271,6 +277363,7 @@ word	general	ours_count	ours_per_million	sources
 墙体的厚度	0.75	0		wordfreq
 墙体脱落	1.58	0		wordfreq
 墙倒众人推	1.09	0		wordfreq
+墙像	3.62	0		wordfreq
 墙内	3.63	0		wordfreq
 墙内开花墙外香	0.0	0		none
 墙内篇	2.42	0		wordfreq
@@ -278006,6 +278099,7 @@ word	general	ours_count	ours_per_million	sources
 墨清弦	1.54	0		wordfreq
 墨渍	1.83	0		wordfreq
 墨点	2.76	0		wordfreq
+墨烧	2.69	0		wordfreq
 墨玉	2.6	0		wordfreq
 墨玉县	1.59	0		wordfreq
 墨玉粗尾蝎	0.0	0		none
@@ -278341,6 +278435,7 @@ word	general	ours_count	ours_per_million	sources
 士官学校	2.54	0		wordfreq
 士官长	2.54	0		wordfreq
 士师记	2.2	0		wordfreq
+士平仁	1.79	0		wordfreq
 士敏土	1.5	0		wordfreq
 士族	3.24	6	77.5	wordfreq+ours
 士曰不禄	0.39	0		wordfreq
@@ -278364,6 +278459,7 @@ word	general	ours_count	ours_per_million	sources
 士河	3.25	0		wordfreq
 士的宁	2.04	0		wordfreq
 士绅	1.68	1	12.9	wordfreq+ours
+士绅富户	0.0	0		none
 士英路	2.24	0		wordfreq
 士见危致命	0.46	0		wordfreq
 士角炮	1.89	0		wordfreq
@@ -279362,6 +279458,7 @@ word	general	ours_count	ours_per_million	sources
 备择假设	1.63	0		wordfreq
 备料	3.18	0		wordfreq
 备有	3.43	0		wordfreq
+备杖	2.36	0		wordfreq
 备查	3.33	0		wordfreq
 备查资料	2.31	0		wordfreq
 备案	4.15	0		wordfreq
@@ -295416,6 +295513,7 @@ word	general	ours_count	ours_per_million	sources
 天牛	3.76	0		wordfreq
 天牢	3.01	0		wordfreq
 天物	3.73	0		wordfreq
+天牵	2.92	0		wordfreq
 天狗	4.02	0		wordfreq
 天狗吃月	1.91	0		wordfreq
 天狗吞月	0.98	0		wordfreq
@@ -300620,6 +300718,7 @@ word	general	ours_count	ours_per_million	sources
 夸它	2.96	0		wordfreq
 夸察夸尔科斯	0.0	0		none
 夸州兼郡	0.81	0		wordfreq
+夸底	2.85	0		wordfreq
 夸张	4.27	0		wordfreq
 夸张了	3.27	0		wordfreq
 夸张了点	2.25	0		wordfreq
@@ -301391,6 +301490,7 @@ word	general	ours_count	ours_per_million	sources
 奇禽异兽	0.08	0		wordfreq
 奇秀	3.21	0		wordfreq
 奇科	3.43	0		wordfreq
+奇笔	3.23	0		wordfreq
 奇篇	3.38	0		wordfreq
 奇经	3.53	0		wordfreq
 奇经八脉	0.92	0		wordfreq
@@ -308770,6 +308870,7 @@ word	general	ours_count	ours_per_million	sources
 如磁吸铁	0.5	0		wordfreq
 如神	3.99	0		wordfreq
 如祺出行	0.94	0		wordfreq
+如称	4.28	0		wordfreq
 如空调	3.27	0		wordfreq
 如等灯	2.37	1	12.9	wordfreq+ours
 如箭在弦	0.62	0		wordfreq
@@ -309584,6 +309685,8 @@ word	general	ours_count	ours_per_million	sources
 妥便	2.67	0		wordfreq
 妥切	2.61	0		wordfreq
 妥协	4.28	4	51.7	wordfreq+ours
+妥协和清醒	2.0	0		wordfreq
+妥协和轻信	1.15	0		wordfreq
 妥协性	3.24	0		wordfreq
 妥协投降	3.04	0		wordfreq
 妥协的	3.28	0		wordfreq
@@ -311211,6 +311314,7 @@ word	general	ours_count	ours_per_million	sources
 威加海内	1.12	0		wordfreq
 威加海内兮	0.0	0		none
 威加海内兮归故乡	0.0	0		none
+威劲	2.94	0		wordfreq
 威势	2.96	0		wordfreq
 威勒	3.0	0		wordfreq
 威勒·休斯	1.38	0		wordfreq
@@ -311703,6 +311807,7 @@ word	general	ours_count	ours_per_million	sources
 威金	3.15	0		wordfreq
 威金斯	2.09	0		wordfreq
 威锋网	1.38	0		wordfreq
+威阳	2.92	0		wordfreq
 威阿鲁	1.99	0		wordfreq
 威震	3.12	0		wordfreq
 威震一时	2.1	0		wordfreq
@@ -314415,6 +314520,7 @@ word	general	ours_count	ours_per_million	sources
 字节大小	2.51	0		wordfreq
 字节对齐	1.92	0		wordfreq
 字节序	2.36	0		wordfreq
+字节挑动	1.95	0		wordfreq
 字节数	2.52	0		wordfreq
 字节数组	2.14	0		wordfreq
 字节流	2.5	0		wordfreq
@@ -315309,6 +315415,7 @@ word	general	ours_count	ours_per_million	sources
 孝庄秘史	1.06	0		wordfreq
 孝廉	2.28	1	12.9	wordfreq+ours
 孝廉入仕	0.0	0		none
+孝廉茂才	0.08	0		wordfreq
 孝德湖	1.7	0		wordfreq
 孝心	2.79	0		wordfreq
 孝心感人	1.53	0		wordfreq
@@ -318680,6 +318787,7 @@ word	general	ours_count	ours_per_million	sources
 它采用了	3.21	0		wordfreq
 它重量轻	2.13	0		wordfreq
 它随着	4.0	0		wordfreq
+它霉	2.51	0		wordfreq
 宅中	3.07	0		wordfreq
 宅中图大	1.05	0		wordfreq
 宅乐送	1.97	0		wordfreq
@@ -321925,6 +322033,7 @@ word	general	ours_count	ours_per_million	sources
 宋朝经济	2.47	0		wordfreq
 宋朝诗人	2.44	0		wordfreq
 宋木子	1.96	0		wordfreq
+宋末	2.99	0		wordfreq
 宋末三帝	0.82	0		wordfreq
 宋末元	1.98	1	12.9	wordfreq+ours
 宋末帝	1.83	0		wordfreq
@@ -322926,6 +323035,7 @@ word	general	ours_count	ours_per_million	sources
 宗安	3.14	0		wordfreq
 宗宝	3.09	0		wordfreq
 宗室	3.48	1	12.9	wordfreq+ours
+宗室各	2.48	0		wordfreq
 宗宪	2.43	0		wordfreq
 宗家	3.2	0		wordfreq
 宗家店	2.11	0		wordfreq
@@ -325906,6 +326016,7 @@ word	general	ours_count	ours_per_million	sources
 实际困难	3.87	0		wordfreq
 实际地位	3.84	0		wordfreq
 实际地址	3.67	0		wordfreq
+实际墓	3.23	0		wordfreq
 实际增长	3.99	0		wordfreq
 实际增长率	2.82	0		wordfreq
 实际大小	3.66	0		wordfreq
@@ -330415,6 +330526,7 @@ word	general	ours_count	ours_per_million	sources
 寄自	3.39	0		wordfreq
 寄至	3.39	0		wordfreq
 寄至味于淡泊	0.0	0		none
+寄营	3.22	0		wordfreq
 寄蛾	2.27	0		wordfreq
 寄蛾科	1.26	0		wordfreq
 寄蜉蝣于天地	0.0	0		none
@@ -332248,6 +332360,7 @@ word	general	ours_count	ours_per_million	sources
 对公司	4.92	0		wordfreq
 对公民在适用法律上一律平等	0.0	0		none
 对公银印最相鲜	0.0	0		none
+对兴	3.32	0		wordfreq
 对其	4.88	0		wordfreq
 对其他	4.77	0		wordfreq
 对内	4.81	0		wordfreq
@@ -342594,6 +342707,7 @@ word	general	ours_count	ours_per_million	sources
 就得收费	2.74	0		wordfreq
 就得比	3.55	0		wordfreq
 就得迟到	2.08	0		wordfreq
+就必	3.67	0		wordfreq
 就必然	3.71	0		wordfreq
 就必须	4.73	0		wordfreq
 就必须被	3.65	0		wordfreq
@@ -344654,6 +344768,7 @@ word	general	ours_count	ours_per_million	sources
 尾号限行措施	0.0	0		none
 尾囊海龙	1.0	0		wordfreq
 尾声	3.63	0		wordfreq
+尾多	3.27	0		wordfreq
 尾大不掉	1.19	3	38.8	wordfreq+ours
 尾大难掉	1.15	0		wordfreq
 尾奏	2.79	0		wordfreq
@@ -345776,6 +345891,7 @@ word	general	ours_count	ours_per_million	sources
 屋檐	1.82	0		wordfreq
 屋檐上	0.82	0		wordfreq
 屋檐下	0.82	0		wordfreq
+屋活	3.34	0		wordfreq
 屋漏	2.84	0		wordfreq
 屋漏不愧	1.37	0		wordfreq
 屋漏偏逢	0.46	0		wordfreq
@@ -346506,6 +346622,7 @@ word	general	ours_count	ours_per_million	sources
 屡有发生	1.73	0		wordfreq
 屡次	3.61	0		wordfreq
 屡次三番	1.53	0		wordfreq
+屡漂浮	2.35	0		wordfreq
 屡犯	2.69	0		wordfreq
 屡禁不止	1.53	0		wordfreq
 屡禁不绝	0.58	0		wordfreq
@@ -357964,6 +358081,7 @@ word	general	ours_count	ours_per_million	sources
 师爷请自重	0.89	0		wordfreq
 师生	4.08	1	12.9	wordfreq+ours
 师生之谊	1.08	0		wordfreq
+师生付货	1.84	0		wordfreq
 师生们	3.07	0		wordfreq
 师生入校	1.85	0		wordfreq
 师生关系	3.07	0		wordfreq
@@ -358476,6 +358594,7 @@ word	general	ours_count	ours_per_million	sources
 帐幔	1.39	0		wordfreq
 帐幕	2.81	0		wordfreq
 帐底吹笙香吐麝	0.0	0		none
+帐策	2.79	0		wordfreq
 帐篷	4.08	0		wordfreq
 帐篷术	2.97	0		wordfreq
 帐篷营地	2.76	0		wordfreq
@@ -360609,6 +360728,7 @@ word	general	ours_count	ours_per_million	sources
 常指	3.86	0		wordfreq
 常指针	2.66	0		wordfreq
 常排伤心事	1.12	0		wordfreq
+常掸	2.14	0		wordfreq
 常插梅花醉	0.58	0		wordfreq
 常放	3.82	0		wordfreq
 常效	2.65	1	12.9	wordfreq+ours
@@ -369444,6 +369564,7 @@ word	general	ours_count	ours_per_million	sources
 府县	3.72	0		wordfreq
 府又市场	2.72	0		wordfreq
 府右街	2.28	0		wordfreq
+府同	3.71	0		wordfreq
 府后	3.79	0		wordfreq
 府后街	2.56	0		wordfreq
 府后街街道	1.35	0		wordfreq
@@ -369476,6 +369597,7 @@ word	general	ours_count	ours_per_million	sources
 府衙门	2.6	0		wordfreq
 府衙门前	1.6	0		wordfreq
 府西街	2.48	0		wordfreq
+府设	3.62	0		wordfreq
 府谷县	2.32	0		wordfreq
 府邸	1.97	0		wordfreq
 府里	3.78	0		wordfreq
@@ -369947,6 +370069,7 @@ word	general	ours_count	ours_per_million	sources
 度过晚年	2.79	0		wordfreq
 度过美好的一天	1.23	0		wordfreq
 度道里会遇之礼毕	0.0	0		none
+度里	3.96	0		wordfreq
 度量	3.37	0		wordfreq
 度量值	2.36	0		wordfreq
 度量单位	2.37	0		wordfreq
@@ -371438,6 +371561,7 @@ word	general	ours_count	ours_per_million	sources
 建材行	3.01	0		wordfreq
 建材行业	3.0	0		wordfreq
 建材行办	1.98	0		wordfreq
+建杠	2.53	0		wordfreq
 建来	3.88	0		wordfreq
 建构	4.05	0		wordfreq
 建构主义	3.0	0		wordfreq
@@ -376638,6 +376762,7 @@ word	general	ours_count	ours_per_million	sources
 弘盛精工	0.23	0		wordfreq
 弘福寺	1.33	0		wordfreq
 弘科	2.39	0		wordfreq
+弘羊	2.34	0		wordfreq
 弘美	2.4	0		wordfreq
 弘誓大愿	0.21	0		wordfreq
 弘讯科技	1.36	0		wordfreq
@@ -379201,6 +379326,7 @@ word	general	ours_count	ours_per_million	sources
 强健性	2.36	0		wordfreq
 强健扇尾莺	0.05	0		wordfreq
 强健者	2.36	0		wordfreq
+强像	4.07	0		wordfreq
 强光	3.76	0		wordfreq
 强光灯	2.24	0		wordfreq
 强光辐射治疗仪	0.0	0		none
@@ -381016,6 +381142,7 @@ word	general	ours_count	ours_per_million	sources
 当午	2.36	0		wordfreq
 当卖	4.09	0		wordfreq
 当卖爵	1.39	1	12.9	wordfreq+ours
+当卖绝	2.52	0		wordfreq
 当卧底	2.73	0		wordfreq
 当即	3.49	0		wordfreq
 当即决定	2.49	0		wordfreq
@@ -383453,6 +383580,7 @@ word	general	ours_count	ours_per_million	sources
 役使	2.99	0		wordfreq
 役使动物	1.96	0		wordfreq
 役使雷霆	1.41	0		wordfreq
+役共	2.98	0		wordfreq
 役前训练	1.96	0		wordfreq
 役志劳神	0.67	0		wordfreq
 役满	2.93	0		wordfreq
@@ -389124,6 +389252,7 @@ word	general	ours_count	ours_per_million	sources
 德全如醉	1.14	0		wordfreq
 德兰	3.35	0		wordfreq
 德兰尼	2.17	0		wordfreq
+德兰的	2.35	0		wordfreq
 德兴	3.25	0		wordfreq
 德兴县	2.22	0		wordfreq
 德兴大厦	2.01	0		wordfreq
@@ -390963,6 +391092,7 @@ word	general	ours_count	ours_per_million	sources
 心理不平衡	2.48	0		wordfreq
 心理专家	3.75	0		wordfreq
 心理中暑	2.16	0		wordfreq
+心理事	3.84	0		wordfreq
 心理伤害	3.63	0		wordfreq
 心理作用	3.73	0		wordfreq
 心理健康	3.33	0		wordfreq
@@ -391733,6 +391863,7 @@ word	general	ours_count	ours_per_million	sources
 必以身后之	0.97	0		wordfreq
 必会	3.67	0		wordfreq
 必传之作	1.38	0		wordfreq
+必住	3.6	0		wordfreq
 必作于易	1.3	0		wordfreq
 必作于细	1.09	0		wordfreq
 必使仰足以事父母	0.0	0		none
@@ -397696,6 +397827,7 @@ word	general	ours_count	ours_per_million	sources
 性功能下降	2.59	0		wordfreq
 性功能司法鉴定	1.13	0		wordfreq
 性功能障碍	2.5	0		wordfreq
+性劣势	2.77	0		wordfreq
 性医学	3.6	0		wordfreq
 性卫生	3.76	0		wordfreq
 性压抑	3.1	0		wordfreq
@@ -398891,6 +399023,7 @@ word	general	ours_count	ours_per_million	sources
 总是没错	3.49	0		wordfreq
 总是没错的	2.49	0		wordfreq
 总是熬夜	2.52	0		wordfreq
+总是狗	3.88	0		wordfreq
 总是玉关情	0.95	0		wordfreq
 总是能	4.17	0		wordfreq
 总是舍不得	2.78	0		wordfreq
@@ -405266,6 +405399,8 @@ word	general	ours_count	ours_per_million	sources
 愁潘病沈	0.31	0		wordfreq
 愁烦	2.6	0		wordfreq
 愁白了头	0.67	0		wordfreq
+愁盼	2.53	0		wordfreq
+愁盼事	1.53	0		wordfreq
 愁眉	2.18	0		wordfreq
 愁眉不展	0.16	0		wordfreq
 愁眉不开	0.18	0		wordfreq
@@ -406143,6 +406278,7 @@ word	general	ours_count	ours_per_million	sources
 感应线圈	2.16	0		wordfreq
 感应锁	2.82	0		wordfreq
 感度	3.56	0		wordfreq
+感康市	2.05	0		wordfreq
 感德镇	2.47	0		wordfreq
 感心动耳	1.58	0		wordfreq
 感念	3.33	0		wordfreq
@@ -407198,6 +407334,7 @@ word	general	ours_count	ours_per_million	sources
 慎水乡	1.85	0		wordfreq
 慎海雄	1.24	0		wordfreq
 慎独	2.27	2	25.8	wordfreq+ours
+慎独慎	0.99	0		wordfreq
 慎独慎微慎始慎终	0.0	0		none
 慎用	2.31	0		wordfreq
 慎用权力	1.31	0		wordfreq
@@ -407716,6 +407853,7 @@ word	general	ours_count	ours_per_million	sources
 慧知	2.56	0		wordfreq
 慧知之	1.56	0		wordfreq
 慧空禅院	0.26	0		wordfreq
+慧耀及	1.1	0		wordfreq
 慧聪	2.11	0		wordfreq
 慧聪园	1.09	0		wordfreq
 慧聪网	1.11	0		wordfreq
@@ -409668,6 +409806,7 @@ word	general	ours_count	ours_per_million	sources
 成灰	3.15	0		wordfreq
 成灾	2.71	0		wordfreq
 成焦炭	2.09	0		wordfreq
+成熏	2.45	0		wordfreq
 成熟	4.79	5	64.6	wordfreq+ours
 成熟了不少	2.62	0		wordfreq
 成熟和稳重	1.39	0		wordfreq
@@ -419175,6 +419314,7 @@ word	general	ours_count	ours_per_million	sources
 战祸	2.82	0		wordfreq
 战秦琼	1.52	0		wordfreq
 战端	3.45	0		wordfreq
+战策	2.9	0		wordfreq
 战线	4.12	0		wordfreq
 战线上	3.12	0		wordfreq
 战线太长	2.1	0		wordfreq
@@ -419440,6 +419580,7 @@ word	general	ours_count	ours_per_million	sources
 截球	2.57	0		wordfreq
 截留	2.56	7	90.4	wordfreq+ours
 截留率	1.54	0		wordfreq
+截略	2.54	0		wordfreq
 截瘫	2.14	0		wordfreq
 截的图	1.59	0		wordfreq
 截短	2.57	0		wordfreq
@@ -421838,6 +421979,7 @@ word	general	ours_count	ours_per_million	sources
 手刻	3.01	0		wordfreq
 手刻工	1.9	0		wordfreq
 手剥	2.69	0		wordfreq
+手剧	3.51	0		wordfreq
 手办	3.92	0		wordfreq
 手办收藏	2.29	0		wordfreq
 手办模型	2.49	0		wordfreq
@@ -422770,6 +422912,7 @@ word	general	ours_count	ours_per_million	sources
 手里都是冷汗	0.13	0		wordfreq
 手里面	3.95	0		wordfreq
 手重	3.88	0		wordfreq
+手针	3.11	0		wordfreq
 手钏	1.57	0		wordfreq
 手钓	2.73	0		wordfreq
 手钩	3.13	0		wordfreq
@@ -431195,6 +431338,7 @@ word	general	ours_count	ours_per_million	sources
 把马跳	2.73	0		wordfreq
 把麦打开	2.29	0		wordfreq
 抑不住	2.2	0		wordfreq
+抑之	2.25	0		wordfreq
 抑之到	1.25	1	12.9	wordfreq+ours
 抑亦先觉者	0.0	0		none
 抑制	4.31	0		wordfreq
@@ -431225,6 +431369,7 @@ word	general	ours_count	ours_per_million	sources
 抑制肿瘤细胞生长	0.79	0		wordfreq
 抑制贴	3.22	0		wordfreq
 抑制酶	2.7	0		wordfreq
+抑商	2.23	0		wordfreq
 抑塞磊落	0.0	0		none
 抑强扶弱	0.17	0		wordfreq
 抑怒不发	0.19	0		wordfreq
@@ -436414,6 +436559,7 @@ word	general	ours_count	ours_per_million	sources
 担的责任	2.03	0		wordfreq
 担的风险	2.02	0		wordfreq
 担着	3.06	0		wordfreq
+担破于	1.98	0		wordfreq
 担纲	3.23	0		wordfreq
 担负	3.97	0		wordfreq
 担负着	2.97	0		wordfreq
@@ -438368,6 +438514,7 @@ word	general	ours_count	ours_per_million	sources
 拐棍儿	1.33	0		wordfreq
 拐棒	2.54	0		wordfreq
 拐棒胡同	1.38	0		wordfreq
+拐没	2.57	0		wordfreq
 拐点	2.57	0		wordfreq
 拐着	2.57	0		wordfreq
 拐着弯	1.41	0		wordfreq
@@ -438943,6 +439090,7 @@ word	general	ours_count	ours_per_million	sources
 拔着	3.02	0		wordfreq
 拔管	2.99	0		wordfreq
 拔类超群	1.04	0		wordfreq
+拔红	2.97	0		wordfreq
 拔线	2.99	0		wordfreq
 拔罐	2.65	0		wordfreq
 拔罐器	1.61	0		wordfreq
@@ -447209,6 +447357,7 @@ word	general	ours_count	ours_per_million	sources
 据传	3.36	0		wordfreq
 据传说	3.68	0		wordfreq
 据传闻	3.14	0		wordfreq
+据估	2.7	0		wordfreq
 据估算	2.87	0		wordfreq
 据估计	3.82	0		wordfreq
 据你所知	2.06	0		wordfreq
@@ -447787,6 +447936,7 @@ word	general	ours_count	ours_per_million	sources
 掉落悬崖	2.37	0		wordfreq
 掉落物	2.49	0		wordfreq
 掉落物品	2.47	0		wordfreq
+掉藩镇	1.45	0		wordfreq
 掉血	3.54	0		wordfreq
 掉词库	2.33	0		wordfreq
 掉话	3.85	0		wordfreq
@@ -449548,6 +449698,7 @@ word	general	ours_count	ours_per_million	sources
 接新生	3.27	0		wordfreq
 接旨	2.82	0		wordfreq
 接旨吧	1.81	0		wordfreq
+接时	3.91	0		wordfreq
 接替	3.74	0		wordfreq
 接替者	2.73	0		wordfreq
 接木	3.26	0		wordfreq
@@ -450961,6 +451112,7 @@ word	general	ours_count	ours_per_million	sources
 措施落实不到位	1.01	0		wordfreq
 措施落实到位	2.01	0		wordfreq
 措施落实情况	2.54	0		wordfreq
+措时	2.07	0		wordfreq
 措果乡	1.05	0		wordfreq
 措玛乡	1.03	0		wordfreq
 措瓦乡	1.05	0		wordfreq
@@ -454988,6 +455140,7 @@ word	general	ours_count	ours_per_million	sources
 摇荡花间雨	0.0	0		none
 摇落	2.83	0		wordfreq
 摇落深知宋玉悲	0.0	0		none
+摇薄赋	1.43	0		wordfreq
 摇蚊	2.19	0		wordfreq
 摇蚊幼虫	1.01	0		wordfreq
 摇蚊科	1.18	0		wordfreq
@@ -457869,6 +458022,7 @@ word	general	ours_count	ours_per_million	sources
 支委班子	1.59	0		wordfreq
 支子	3.52	0		wordfreq
 支家村村	1.33	0		wordfreq
+支富宝	2.06	0		wordfreq
 支尔莫乡	1.14	0		wordfreq
 支局	3.42	0		wordfreq
 支局长	3.33	0		wordfreq
@@ -462069,6 +462223,7 @@ word	general	ours_count	ours_per_million	sources
 故木受绳则直	0.0	0		none
 故杀	3.76	0		wordfreq
 故来相决绝	0.16	0		wordfreq
+故林	3.53	0		wordfreq
 故此	3.81	0		wordfreq
 故步不离	1.31	0		wordfreq
 故步自封	1.2	0		wordfreq
@@ -464002,10 +464157,12 @@ word	general	ours_count	ours_per_million	sources
 敢打必胜	1.63	0		wordfreq
 敢打敢拼	1.1	0		wordfreq
 敢打硬仗	0.7	0		wordfreq
+敢扛事	1.73	0		wordfreq
 敢找	3.76	0		wordfreq
 敢把皇帝拉下马	0.0	0		none
 敢抓	3.68	1	12.9	wordfreq+ours
 敢抓善管	1.16	0		wordfreq
+敢抗事	2.24	0		wordfreq
 敢抗命	2.13	0		wordfreq
 敢拼	3.2	0		wordfreq
 敢拿	3.74	0		wordfreq
@@ -464379,6 +464536,7 @@ word	general	ours_count	ours_per_million	sources
 敦厚的	1.49	0		wordfreq
 敦品力学	1.41	0		wordfreq
 敦品励行	0.12	0		wordfreq
+敦墨	2.36	0		wordfreq
 敦士	2.52	0		wordfreq
 敦实	2.56	0		wordfreq
 敦实厚重	1.25	0		wordfreq
@@ -465558,6 +465716,7 @@ word	general	ours_count	ours_per_million	sources
 数数兼	2.58	0		wordfreq
 数数看	2.78	0		wordfreq
 数数钱	2.75	0		wordfreq
+数族	3.55	0		wordfreq
 数日	3.66	0		wordfreq
 数日之久	1.64	0		wordfreq
 数日内	2.66	0		wordfreq
@@ -472136,6 +472295,7 @@ word	general	ours_count	ours_per_million	sources
 新妓生传	0.59	0		wordfreq
 新姐妹	3.41	0		wordfreq
 新姑爷	1.08	0		wordfreq
+新姚伯父	1.21	0		wordfreq
 新姿	2.4	0		wordfreq
 新威国际	2.18	0		wordfreq
 新威胁	4.0	0		wordfreq
@@ -476450,6 +476610,7 @@ word	general	ours_count	ours_per_million	sources
 族庖月更刀	0.0	0		none
 族弟	2.79	0		wordfreq
 族徽	2.21	0		wordfreq
+族族	3.4	0		wordfreq
 族权	3.55	0		wordfreq
 族田	3.27	0		wordfreq
 族秦者	1.94	0		wordfreq
@@ -484585,6 +484746,7 @@ word	general	ours_count	ours_per_million	sources
 明太祖朱元璋	1.89	0		wordfreq
 明太鱼	2.55	0		wordfreq
 明夷卦	1.03	0		wordfreq
+明夷待	1.52	0		wordfreq
 明夷待访	0.44	1	12.9	wordfreq+ours
 明夷待访录	0.0	0		none
 明如指掌	0.91	0		wordfreq
@@ -484881,6 +485043,7 @@ word	general	ours_count	ours_per_million	sources
 明星的	3.76	0		wordfreq
 明星的一举一动	1.56	0		wordfreq
 明星盛典	2.62	0		wordfreq
+明星相	3.61	0		wordfreq
 明星系列	3.65	0		wordfreq
 明星网	3.68	0		wordfreq
 明星美女	3.46	0		wordfreq
@@ -485456,6 +485619,7 @@ word	general	ours_count	ours_per_million	sources
 明辨忠奸	0.3	0		wordfreq
 明辨是非	1.62	0		wordfreq
 明辨真伪	1.33	0		wordfreq
+明辩	2.98	0		wordfreq
 明达	3.87	0		wordfreq
 明达事理	1.44	0		wordfreq
 明远	3.74	0		wordfreq
@@ -485473,6 +485637,7 @@ word	general	ours_count	ours_per_million	sources
 明锐	2.26	0		wordfreq
 明锐旅行版	0.24	0		wordfreq
 明锐旅行车	0.24	0		wordfreq
+明镇	3.73	0		wordfreq
 明镜	3.32	1	12.9	wordfreq+ours
 明镜不疲	0.92	0		wordfreq
 明镜亦非台	0.31	0		wordfreq
@@ -487439,6 +487604,7 @@ word	general	ours_count	ours_per_million	sources
 昭子	2.55	0		wordfreq
 昭宣中兴	1.32	0		wordfreq
 昭容	2.47	0		wordfreq
+昭帝始	1.44	0		wordfreq
 昭平县	1.53	0		wordfreq
 昭平台库区乡	0.0	0		none
 昭彰	2.02	0		wordfreq
@@ -487820,6 +487986,7 @@ word	general	ours_count	ours_per_million	sources
 是他们	5.33	0		wordfreq
 是他啦	3.31	0		wordfreq
 是他干的	2.48	0		wordfreq
+是他海南	2.41	0		wordfreq
 是以	5.19	0		wordfreq
 是以万物莫不尊道而贵德	0.0	0		none
 是以后	4.45	0		wordfreq
@@ -488124,6 +488291,7 @@ word	general	ours_count	ours_per_million	sources
 是学习	4.47	0		wordfreq
 是它	4.99	0		wordfreq
 是它们	4.41	0		wordfreq
+是它很难	2.57	0		wordfreq
 是安全的	3.6	0		wordfreq
 是宿命	2.45	0		wordfreq
 是寂寞	3.35	0		wordfreq
@@ -489328,6 +489496,7 @@ word	general	ours_count	ours_per_million	sources
 晋元桥南	0.85	0		wordfreq
 晋元桥西	0.86	0		wordfreq
 晋元路	1.96	0		wordfreq
+晋兴	2.82	0		wordfreq
 晋冀鲁豫	0.14	0		wordfreq
 晋冀鲁豫野战军	0.0	0		none
 晋军	2.96	0		wordfreq
@@ -491017,6 +491186,7 @@ word	general	ours_count	ours_per_million	sources
 普鲁顿	1.98	0		wordfreq
 普齐	3.05	0		wordfreq
 普齐奥	1.95	0		wordfreq
+景丁四	1.85	0		wordfreq
 景东县	1.96	0		wordfreq
 景东彝族自治县	0.25	0		wordfreq
 景丽东苑	0.32	0		wordfreq
@@ -491073,6 +491243,7 @@ word	general	ours_count	ours_per_million	sources
 景宁畲乡	0.0	0		none
 景宁畲族自治县	0.0	0		none
 景定	2.96	1	12.9	wordfreq+ours
+景定四	1.94	0		wordfreq
 景宰	2.56	0		wordfreq
 景家村	1.95	0		wordfreq
 景家麻花	1.01	0		wordfreq
@@ -491507,6 +491678,7 @@ word	general	ours_count	ours_per_million	sources
 智学苑	1.41	0		wordfreq
 智宇	2.5	0		wordfreq
 智定天下	2.02	0		wordfreq
+智容	2.86	0		wordfreq
 智导互联系统	0.45	0		wordfreq
 智将	3.13	0		wordfreq
 智小言大	1.06	0		wordfreq
@@ -505491,6 +505663,7 @@ word	general	ours_count	ours_per_million	sources
 服用降糖药	0.81	0		wordfreq
 服田力穑	0.0	0		none
 服着呢	2.33	0		wordfreq
+服统	3.07	0		wordfreq
 服罪	3.22	0		wordfreq
 服老	3.32	0		wordfreq
 服膺	1.47	0		wordfreq
@@ -509432,6 +509605,7 @@ word	general	ours_count	ours_per_million	sources
 本所同仁	1.6	0		wordfreq
 本手	4.07	0		wordfreq
 本手册	3.13	0		wordfreq
+本才	4.36	0		wordfreq
 本打算	3.83	0		wordfreq
 本批	3.49	0		wordfreq
 本技术	4.31	0		wordfreq
@@ -513846,6 +514020,7 @@ word	general	ours_count	ours_per_million	sources
 李正河	2.49	0		wordfreq
 李正燮	0.32	0		wordfreq
 李正芬	1.52	0		wordfreq
+李武李	2.03	0		wordfreq
 李毅	2.22	0		wordfreq
 李毅中	1.22	0		wordfreq
 李毅吧	1.22	0		wordfreq
@@ -515189,6 +515364,7 @@ word	general	ours_count	ours_per_million	sources
 杜甫江阁	1.16	0		wordfreq
 杜甫草堂	1.2	0		wordfreq
 杜皮狗	1.98	0		wordfreq
+杜碟	2.67	0		wordfreq
 杜碧丝	1.63	0		wordfreq
 杜福德	1.97	0		wordfreq
 杜秋之年	0.83	0		wordfreq
@@ -518362,6 +518538,7 @@ word	general	ours_count	ours_per_million	sources
 松塔儿	2.18	0		wordfreq
 松墙	3.29	0		wordfreq
 松墙子	2.23	0		wordfreq
+松墨	2.7	0		wordfreq
 松声晚窗里	0.0	0		none
 松声竹韵	0.36	0		wordfreq
 松多	3.52	0		wordfreq
@@ -528391,6 +528568,7 @@ word	general	ours_count	ours_per_million	sources
 桃城武	1.49	0		wordfreq
 桃城社区	1.6	0		wordfreq
 桃塔罗斯	1.49	0		wordfreq
+桃墙藏人	1.23	0		wordfreq
 桃太郎	2.35	0		wordfreq
 桃夭新妇	0.0	0		none
 桃夭李艳	0.0	0		none
@@ -529260,6 +529438,7 @@ word	general	ours_count	ours_per_million	sources
 桑葚红枣汤	0.0	0		none
 桑葚胚	0.0	0		none
 桑葚颗粒	0.0	0		none
+桑葳扬	0.0	0		none
 桑蒂	2.78	0		wordfreq
 桑蒂阿塔·阿科利	0.0	0		none
 桑蚕	1.93	0		wordfreq
@@ -529894,6 +530073,7 @@ word	general	ours_count	ours_per_million	sources
 梁铭芷	0.44	0		wordfreq
 梁锐基	1.22	0		wordfreq
 梁锦兴	1.77	0		wordfreq
+梁长	3.32	0		wordfreq
 梁门	3.29	0		wordfreq
 梁间燕子闻长叹	0.0	0		none
 梁雁翎	0.47	0		wordfreq
@@ -533025,6 +533205,7 @@ word	general	ours_count	ours_per_million	sources
 楚昭萍实	0.0	0		none
 楚曼	2.94	0		wordfreq
 楚曼和	1.94	0		wordfreq
+楚材	2.82	0		wordfreq
 楚材晋用	0.59	0		wordfreq
 楚梦云雨	0.94	0		wordfreq
 楚楚	2.91	0		wordfreq
@@ -537597,6 +537778,7 @@ word	general	ours_count	ours_per_million	sources
 欲戴王冠必承其重	0.0	0		none
 欲扬先抑	0.17	0		wordfreq
 欲把西湖比西子	0.0	0		none
+欲抑	2.24	0		wordfreq
 欲报从速	1.01	0		wordfreq
 欲拒还迎	0.77	0		wordfreq
 欲振乏力	1.17	0		wordfreq
@@ -539935,6 +540117,7 @@ word	general	ours_count	ours_per_million	sources
 此奖	3.97	0		wordfreq
 此女	4.27	0		wordfreq
 此妇无礼节	0.4	0		wordfreq
+此始	3.33	0		wordfreq
 此子	4.04	0		wordfreq
 此存身之道也	0.0	0		none
 此山	3.91	0		wordfreq
@@ -540019,6 +540202,7 @@ word	general	ours_count	ours_per_million	sources
 此时能看见	2.56	0		wordfreq
 此时都是	2.69	0		wordfreq
 此是后话	2.31	0		wordfreq
+此晚	3.69	0		wordfreq
 此景	2.99	0		wordfreq
 此景此情	0.92	0		wordfreq
 此曲	3.34	0		wordfreq
@@ -541876,6 +542060,7 @@ word	general	ours_count	ours_per_million	sources
 死生契阔	0.24	0		wordfreq
 死生契阔君休问	0.0	0		none
 死生存亡	1.84	0		wordfreq
+死生已知	1.94	0		wordfreq
 死生无变于己	0.0	0		none
 死生有命	1.6	0		wordfreq
 死生未卜	0.81	0		wordfreq
@@ -542622,6 +542807,7 @@ word	general	ours_count	ours_per_million	sources
 段页式内存管理	0.0	0		none
 段页式管理	1.57	0		wordfreq
 段颎	1.42	0		wordfreq
+段首	3.6	0		wordfreq
 殷一璀	0.26	0		wordfreq
 殷世航	1.16	0		wordfreq
 殷亭如	1.22	0		wordfreq
@@ -542632,6 +542818,7 @@ word	general	ours_count	ours_per_million	sources
 殷切希望	1.28	0		wordfreq
 殷切期望	1.25	0		wordfreq
 殷勇	2.23	0		wordfreq
+殷勋	2.15	0		wordfreq
 殷勤	3.15	0		wordfreq
 殷勤地	2.15	0		wordfreq
 殷勤昨夜三更雨	0.0	0		none
@@ -546591,6 +546778,7 @@ word	general	ours_count	ours_per_million	sources
 氐土貉	0.46	0		wordfreq
 氐宿	2.01	0		wordfreq
 氐族	2.14	0		wordfreq
+民一代	3.25	0		wordfreq
 民一庭	1.74	0		wordfreq
 民一庭副庭长	0.0	0		none
 民一庭庭长	0.0	0		none
@@ -546970,6 +547158,7 @@ word	general	ours_count	ours_per_million	sources
 民国通俗演义	1.04	0		wordfreq
 民在君	2.11	0		wordfreq
 民坠涂炭	0.08	0		wordfreq
+民墙	3.32	0		wordfreq
 民壮	2.67	0		wordfreq
 民声	3.38	0		wordfreq
 民声东路	1.58	0		wordfreq
@@ -547075,6 +547264,7 @@ word	general	ours_count	ours_per_million	sources
 民德路	2.41	0		wordfreq
 民心	3.81	6	77.5	wordfreq+ours
 民心不一	1.81	0		wordfreq
+民心向	2.81	0		wordfreq
 民心向背	1.74	3	38.8	wordfreq+ours
 民心工程	2.8	0		wordfreq
 民心所向	1.8	0		wordfreq
@@ -547658,6 +547848,7 @@ word	general	ours_count	ours_per_million	sources
 民间音乐	3.76	0		wordfreq
 民间高手	3.22	0		wordfreq
 民防	3.23	0		wordfreq
+民陈	3.42	0		wordfreq
 民院路	2.28	0		wordfreq
 民雄乡	1.98	0		wordfreq
 民雄鬼屋	0.82	0		wordfreq
@@ -552987,6 +553178,7 @@ word	general	ours_count	ours_per_million	sources
 汉布瑞	1.76	0		wordfreq
 汉师附小	1.04	0		wordfreq
 汉帛	2.14	0		wordfreq
+汉帝	3.09	0		wordfreq
 汉平帝	2.0	0		wordfreq
 汉广厦房地产	0.09	0		wordfreq
 汉库克	2.64	0		wordfreq
@@ -554095,6 +554287,7 @@ word	general	ours_count	ours_per_million	sources
 江盗	3.08	0		wordfreq
 江石乡	2.09	0		wordfreq
 江碧鸟逾白	0.0	0		none
+江神	3.32	0		wordfreq
 江秋莲	1.49	0		wordfreq
 江立伟	1.53	0		wordfreq
 江竹筠	0.51	0		wordfreq
@@ -557857,6 +558050,7 @@ word	general	ours_count	ours_per_million	sources
 沟里乡	2.06	0		wordfreq
 沟门	2.86	0		wordfreq
 沟门子镇	0.81	0		wordfreq
+沟黎	2.58	0		wordfreq
 沟鼠	2.53	0		wordfreq
 沟𫌀毛蚊	0.0	0		none
 没一	4.86	0		wordfreq
@@ -565301,6 +565495,7 @@ word	general	ours_count	ours_per_million	sources
 治则	3.66	0		wordfreq
 治前列腺	2.26	0		wordfreq
 治勋	2.63	0		wordfreq
+治十	3.42	0		wordfreq
 治印	3.26	0		wordfreq
 治厂	3.48	0		wordfreq
 治发烧	2.84	0		wordfreq
@@ -565822,6 +566017,7 @@ word	general	ours_count	ours_per_million	sources
 沿边	3.12	0		wordfreq
 沿边儿	2.04	0		wordfreq
 沿边地区	2.11	0		wordfreq
+沿递	2.69	0		wordfreq
 沿途	3.71	0		wordfreq
 沿途上	2.71	0		wordfreq
 沿途见闻	2.33	0		wordfreq
@@ -566017,6 +566213,7 @@ word	general	ours_count	ours_per_million	sources
 泊松斑	1.29	0		wordfreq
 泊松过程	1.43	0		wordfreq
 泊林漫谷	0.25	0		wordfreq
+泊梁	2.41	0		wordfreq
 泊氏长吻松鼠	0.0	0		none
 泊洛沙姆	0.33	0		wordfreq
 泊秦淮	1.09	0		wordfreq
@@ -567061,6 +567258,7 @@ word	general	ours_count	ours_per_million	sources
 法治进校园活动	1.23	0		wordfreq
 法治进行时	2.43	0		wordfreq
 法治道路	3.35	0		wordfreq
+法法是	3.02	0		wordfreq
 法洛克威	1.75	0		wordfreq
 法洛四联症	0.0	0		none
 法洛氏三联症	0.0	0		none
@@ -574961,6 +575159,7 @@ word	general	ours_count	ours_per_million	sources
 浒湾镇	0.36	0		wordfreq
 浒苔	1.33	0		wordfreq
 浓一点	2.96	0		wordfreq
+浓乱	2.92	0		wordfreq
 浓于	2.97	0		wordfreq
 浓云	2.93	0		wordfreq
 浓云密布	1.08	0		wordfreq
@@ -576043,6 +576242,7 @@ word	general	ours_count	ours_per_million	sources
 浮浪	2.45	0		wordfreq
 浮浪不经	0.45	0		wordfreq
 浮浪人	1.95	0		wordfreq
+浮浮	2.31	0		wordfreq
 浮浮沉沉	0.21	0		wordfreq
 浮海石	1.53	0		wordfreq
 浮渣	2.37	0		wordfreq
@@ -583136,6 +583336,7 @@ word	general	ours_count	ours_per_million	sources
 清如冰壶	0.6	0		wordfreq
 清如水	2.7	0		wordfreq
 清妍	2.18	0		wordfreq
+清姚伯父	1.2	0		wordfreq
 清姜街道	1.83	0		wordfreq
 清婉	1.69	0		wordfreq
 清子	3.7	0		wordfreq
@@ -583797,6 +583998,7 @@ word	general	ours_count	ours_per_million	sources
 清淡的	2.27	0		wordfreq
 清淡菜	2.25	0		wordfreq
 清淤	1.9	0		wordfreq
+清淼	1.97	0		wordfreq
 清清	3.59	0		wordfreq
 清清亮亮	0.88	0		wordfreq
 清清冷冷	1.14	0		wordfreq
@@ -583988,6 +584190,7 @@ word	general	ours_count	ours_per_million	sources
 清白的	2.64	0		wordfreq
 清白遗子孙	1.31	0		wordfreq
 清的	3.89	0		wordfreq
+清皇	2.88	0		wordfreq
 清皇朝	2.31	0		wordfreq
 清盘	3.37	0		wordfreq
 清盘率	2.24	0		wordfreq
@@ -586664,6 +586867,7 @@ word	general	ours_count	ours_per_million	sources
 游进	3.4	0		wordfreq
 游进去	3.29	0		wordfreq
 游进来	3.28	0		wordfreq
+游送	3.39	0		wordfreq
 游逛	2.81	0		wordfreq
 游逸无度	0.51	0		wordfreq
 游遍	2.98	0		wordfreq
@@ -589634,7 +589838,9 @@ word	general	ours_count	ours_per_million	sources
 满量程	2.15	0		wordfreq
 满铺地毯	1.65	0		wordfreq
 满门	3.62	1	12.9	wordfreq+ours
+满门心灵	2.29	0		wordfreq
 满门忠烈	0.52	0		wordfreq
+满门性命	2.13	0		wordfreq
 满门抄斩	0.72	0		wordfreq
 满门英烈	1.11	0		wordfreq
 满阱容	0.24	0		wordfreq
@@ -594274,6 +594480,7 @@ word	general	ours_count	ours_per_million	sources
 灰浆泵	1.13	0		wordfreq
 灰海豚	2.68	0		wordfreq
 灰涤尺蛾	0.0	0		none
+灰清	3.09	0		wordfreq
 灰渣	2.61	0		wordfreq
 灰湖杜父鱼	0.0	0		none
 灰溜溜	1.51	0		wordfreq
@@ -599698,6 +599905,7 @@ word	general	ours_count	ours_per_million	sources
 煎小牛肝	1.2	0		wordfreq
 煎扒鲭鱼头尾	0.0	0		none
 煎服	2.73	0		wordfreq
+煎柄	2.55	0		wordfreq
 煎水作冰	0.69	0		wordfreq
 煎汁三文鱼	0.0	0		none
 煎汤	2.74	0		wordfreq
@@ -600053,6 +600261,7 @@ word	general	ours_count	ours_per_million	sources
 照壁墙	1.7	0		wordfreq
 照夜玉狮子	0.79	0		wordfreq
 照夜白	2.26	0		wordfreq
+照够难度	2.14	0		wordfreq
 照天蜡烛	2.07	0		wordfreq
 照妖镜	1.76	0		wordfreq
 照婵娟	0.4	0		wordfreq
@@ -600882,6 +601091,7 @@ word	general	ours_count	ours_per_million	sources
 熙琼	2.19	0		wordfreq
 熙秀	2.32	0		wordfreq
 熙菱信息	0.8	0		wordfreq
+熙觉	2.3	0		wordfreq
 熙贞	2.07	0		wordfreq
 熟丝	3.14	0		wordfreq
 熟习	3.06	0		wordfreq
@@ -602994,6 +603204,7 @@ word	general	ours_count	ours_per_million	sources
 爱打	4.41	0		wordfreq
 爱打扮	3.12	0		wordfreq
 爱抓	4.1	0		wordfreq
+爱折	3.29	0		wordfreq
 爱抚	3.23	0		wordfreq
 爱抚着	2.23	0		wordfreq
 爱护	3.88	1	12.9	wordfreq+ours
@@ -608906,6 +609117,7 @@ word	general	ours_count	ours_per_million	sources
 狗刨	2.48	0		wordfreq
 狗刨中学	1.47	0		wordfreq
 狗刨式	1.47	0		wordfreq
+狗利设计	2.52	0		wordfreq
 狗剩	3.36	0		wordfreq
 狗厂	3.7	0		wordfreq
 狗友	3.11	0		wordfreq
@@ -609435,6 +609647,7 @@ word	general	ours_count	ours_per_million	sources
 独卫	3.03	0		wordfreq
 独厨独卫	0.33	0		wordfreq
 独参汤	1.97	0		wordfreq
+独口政绩修复	0.64	0		wordfreq
 独吃自疴	0.0	0		none
 独吞	2.86	0		wordfreq
 独品	3.12	0		wordfreq
@@ -610719,6 +610932,7 @@ word	general	ours_count	ours_per_million	sources
 猜丽贝卡	0.84	0		wordfreq
 猜了	3.78	0		wordfreq
 猜了猜	2.48	0		wordfreq
+猜人	3.78	0		wordfreq
 猜价	3.33	0		wordfreq
 猜价格	3.67	0		wordfreq
 猜你还想看	0.73	0		wordfreq
@@ -616529,6 +616743,7 @@ word	general	ours_count	ours_per_million	sources
 现值	3.73	0		wordfreq
 现做	4.03	0		wordfreq
 现充	3.12	0		wordfreq
+现关	3.8	0		wordfreq
 现具有	3.9	0		wordfreq
 现况	3.48	0		wordfreq
 现况报道	2.47	0		wordfreq
@@ -617187,6 +617402,7 @@ word	general	ours_count	ours_per_million	sources
 玲娜墩子	0.03	0		wordfreq
 玲娜贝儿	0.2	0		wordfreq
 玲子	2.29	0		wordfreq
+玲戎	1.94	0		wordfreq
 玲玲	2.0	0		wordfreq
 玲玲的画	0.0	0		none
 玲珑	3.17	0		wordfreq
@@ -618573,6 +618789,7 @@ word	general	ours_count	ours_per_million	sources
 理伤续断	0.94	0		wordfreq
 理你	3.67	0		wordfreq
 理你干嘛	2.32	0		wordfreq
+理值	3.5	0		wordfreq
 理儿	3.44	0		wordfreq
 理光	3.49	0		wordfreq
 理光头	2.59	0		wordfreq
@@ -621386,6 +621603,7 @@ word	general	ours_count	ours_per_million	sources
 甚是	3.46	0		wordfreq
 甚是想念	2.05	0		wordfreq
 甚是煎熬	1.54	0		wordfreq
+甚毒甚	1.98	0		wordfreq
 甚浓	2.85	0		wordfreq
 甚深	3.32	0		wordfreq
 甚爱必大费	0.13	0		wordfreq
@@ -621532,6 +621750,7 @@ word	general	ours_count	ours_per_million	sources
 甜橙色的	1.51	0		wordfreq
 甜死	3.23	0		wordfreq
 甜死了	2.23	0		wordfreq
+甜母尽	1.97	0		wordfreq
 甜水	3.21	0		wordfreq
 甜水七	2.11	0		wordfreq
 甜水井	2.29	0		wordfreq
@@ -623885,8 +624104,10 @@ word	general	ours_count	ours_per_million	sources
 用上瘾	2.66	0		wordfreq
 用上瘾了	1.66	0		wordfreq
 用下	4.78	0		wordfreq
+用下划线标注	0.0	0		none
 用下去	3.97	0		wordfreq
 用下来	4.12	0		wordfreq
+用下滑线标注	0.62	0		wordfreq
 用不	4.99	0		wordfreq
 用不上	3.88	0		wordfreq
 用不久	3.78	0		wordfreq
@@ -624920,6 +625141,8 @@ word	general	ours_count	ours_per_million	sources
 田云龙	2.0	0		wordfreq
 田产	3.35	5	64.6	wordfreq+ours
 田亩	3.08	9	116.3	wordfreq+ours
+田亩失实	1.06	0		wordfreq
+田亩竟	1.94	0		wordfreq
 田京凡	1.99	0		wordfreq
 田亮	3.07	0		wordfreq
 田亮介	1.69	0		wordfreq
@@ -625722,6 +625945,7 @@ word	general	ours_count	ours_per_million	sources
 甲居藏寨	0.73	0		wordfreq
 甲山街道	2.17	0		wordfreq
 甲岸村	1.76	0		wordfreq
+甲州	3.32	0		wordfreq
 甲巯咪唑	0.0	0		none
 甲巯咪唑片	0.0	0		none
 甲床	3.18	0		wordfreq
@@ -626053,6 +626277,7 @@ word	general	ours_count	ours_per_million	sources
 申曲	2.78	0		wordfreq
 申有娜	1.75	0		wordfreq
 申果乡	1.78	0		wordfreq
+申根	2.84	0		wordfreq
 申根协定	1.76	0		wordfreq
 申根签证	1.73	0		wordfreq
 申格	2.87	0		wordfreq
@@ -637292,6 +637517,7 @@ word	general	ours_count	ours_per_million	sources
 的宗旨	3.34	0		wordfreq
 的实践	3.89	0		wordfreq
 的家	4.64	0		wordfreq
+的家具	3.09	0		wordfreq
 的密码	3.65	0		wordfreq
 的对手	3.66	0		wordfreq
 的对接是一	0.76	0		wordfreq
@@ -638887,6 +639113,7 @@ word	general	ours_count	ours_per_million	sources
 益丰	2.38	0		wordfreq
 益丰公园	1.37	0		wordfreq
 益丰苑	1.14	0		wordfreq
+益之	2.53	0		wordfreq
 益乐村	1.49	0		wordfreq
 益乐路口	1.4	0		wordfreq
 益于	2.53	0		wordfreq
@@ -638894,6 +639121,7 @@ word	general	ours_count	ours_per_million	sources
 益人神智	0.89	0		wordfreq
 益仁巷	1.17	0		wordfreq
 益元散	1.46	0		wordfreq
+益公	2.5	0		wordfreq
 益农	2.48	0		wordfreq
 益凤村	1.17	0		wordfreq
 益力多	1.51	0		wordfreq
@@ -639093,6 +639321,7 @@ word	general	ours_count	ours_per_million	sources
 盐度计	2.11	0		wordfreq
 盐张村	2.2	0		wordfreq
 盐政	3.05	0		wordfreq
+盐是	3.34	0		wordfreq
 盐析	2.55	0		wordfreq
 盐枭	2.32	0		wordfreq
 盐梅之寄	0.86	0		wordfreq
@@ -642203,6 +642432,7 @@ word	general	ours_count	ours_per_million	sources
 直板	3.34	0		wordfreq
 直板手机	2.31	0		wordfreq
 直板机	2.26	0		wordfreq
+直枪	3.48	0		wordfreq
 直根	3.37	0		wordfreq
 直梯	2.35	0		wordfreq
 直欲数秋毫	0.0	0		none
@@ -642612,6 +642842,7 @@ word	general	ours_count	ours_per_million	sources
 直闯	2.93	0		wordfreq
 直陈	3.49	0		wordfreq
 直降	3.34	0		wordfreq
+直降人意	1.21	0		wordfreq
 直降到	2.64	0		wordfreq
 直降千元	1.59	0		wordfreq
 直隶	3.83	0		wordfreq
@@ -643578,6 +643809,7 @@ word	general	ours_count	ours_per_million	sources
 相机行事	2.95	0		wordfreq
 相机观变	2.17	0		wordfreq
 相机镜头	3.15	0		wordfreq
+相杨	3.49	0		wordfreq
 相架	3.52	0		wordfreq
 相框	2.85	0		wordfreq
 相模原	2.01	0		wordfreq
@@ -643837,6 +644069,7 @@ word	general	ours_count	ours_per_million	sources
 相门户	2.88	0		wordfreq
 相门有相	1.7	0		wordfreq
 相门洒扫	0.55	0		wordfreq
+相闲	3.03	0		wordfreq
 相间	3.19	0		wordfreq
 相间交错	2.07	0		wordfreq
 相除	3.75	0		wordfreq
@@ -644669,6 +644902,7 @@ word	general	ours_count	ours_per_million	sources
 省本级	2.26	0		wordfreq
 省机关事务管理局	0.98	0		wordfreq
 省机场集团	2.86	0		wordfreq
+省机官	2.63	0		wordfreq
 省材料	3.86	0		wordfreq
 省来省去	1.11	0		wordfreq
 省林业	3.11	0		wordfreq
@@ -647579,6 +647813,7 @@ word	general	ours_count	ours_per_million	sources
 真光	3.86	0		wordfreq
 真光新村	1.44	0		wordfreq
 真光路	2.75	0		wordfreq
+真关	3.98	0		wordfreq
 真兽小灵猫	0.0	0		none
 真写	4.25	0		wordfreq
 真冥皇执行剑	0.0	0		none
@@ -650097,6 +650332,8 @@ word	general	ours_count	ours_per_million	sources
 睡会	3.95	0		wordfreq
 睡会儿觉	1.52	0		wordfreq
 睡会觉	2.2	0		wordfreq
+睡伤	3.5	0		wordfreq
+睡伤半	2.38	0		wordfreq
 睡佛寺	2.11	0		wordfreq
 睡你的	2.95	0		wordfreq
 睡你的吧	1.91	0		wordfreq
@@ -650467,6 +650704,7 @@ word	general	ours_count	ours_per_million	sources
 督府	2.81	0		wordfreq
 督战	2.82	0		wordfreq
 督抚	2.47	0		wordfreq
+督护	2.73	0		wordfreq
 督查	3.12	2	25.8	wordfreq+ours
 督查制度	2.12	0		wordfreq
 督查力度	2.1	0		wordfreq
@@ -651378,6 +651616,7 @@ word	general	ours_count	ours_per_million	sources
 知今博古	1.08	0		wordfreq
 知他	3.79	0		wordfreq
 知他故宫何处	0.6	0		wordfreq
+知付宝	2.16	0		wordfreq
 知以藏往	1.36	0		wordfreq
 知会	3.07	0		wordfreq
 知何处	3.0	0		wordfreq
@@ -651565,6 +651804,7 @@ word	general	ours_count	ours_per_million	sources
 知无不言	1.83	0		wordfreq
 知无不言言无不尽	0.0	0		none
 知无不谈	1.46	0		wordfreq
+知时	3.78	0		wordfreq
 知时识务	0.94	0		wordfreq
 知易行难	1.29	0		wordfreq
 知春	3.2	0		wordfreq
@@ -653065,6 +653305,7 @@ word	general	ours_count	ours_per_million	sources
 石头门坎素包	0.0	0		none
 石头饼	2.98	0		wordfreq
 石女	3.44	0		wordfreq
+石始	3.11	0		wordfreq
 石姓	3.16	0		wordfreq
 石子	3.22	0		wordfreq
 石子儿	2.21	0		wordfreq
@@ -653519,6 +653760,7 @@ word	general	ours_count	ours_per_million	sources
 石油钻探	2.37	0		wordfreq
 石油需求	3.68	0		wordfreq
 石油龙昌	1.45	0		wordfreq
+石治	3.27	0		wordfreq
 石泉	2.76	0		wordfreq
 石泉二路	1.23	0		wordfreq
 石泉县	1.75	0		wordfreq
@@ -654972,6 +655214,7 @@ word	general	ours_count	ours_per_million	sources
 破冰行动全集	1.0	0		wordfreq
 破冰行动电视版	0.03	0		wordfreq
 破净率	2.06	0		wordfreq
+破凉	2.96	0		wordfreq
 破击	3.07	0		wordfreq
 破击战	2.01	0		wordfreq
 破剑	3.39	0		wordfreq
@@ -656256,6 +656499,7 @@ word	general	ours_count	ours_per_million	sources
 硬玉	2.97	0		wordfreq
 硬环境	3.54	0		wordfreq
 硬珊瑚	2.74	0		wordfreq
+硬生	3.51	0		wordfreq
 硬生生	2.45	3	38.8	wordfreq+ours
 硬生生地	1.44	0		wordfreq
 硬生生被	1.44	0		wordfreq
@@ -656782,6 +657026,7 @@ word	general	ours_count	ours_per_million	sources
 碍手碍脚	0.43	0		wordfreq
 碍手绊脚	0.21	0		wordfreq
 碍眼	2.67	0		wordfreq
+碍着	2.75	0		wordfreq
 碍脚	2.72	0		wordfreq
 碍足碍手	0.41	0		wordfreq
 碍难	2.73	0		wordfreq
@@ -656924,6 +657169,7 @@ word	general	ours_count	ours_per_million	sources
 碑林区	2.24	0		wordfreq
 碑石	2.66	0		wordfreq
 碑碣	1.01	0		wordfreq
+碑碳	2.61	0		wordfreq
 碑记	2.7	0		wordfreq
 碑身	2.69	0		wordfreq
 碑铭	2.24	0		wordfreq
@@ -658257,6 +658503,7 @@ word	general	ours_count	ours_per_million	sources
 礁石	3.11	0		wordfreq
 礁石嶙嶙	0.0	0		none
 礁石林立	1.99	0		wordfreq
+礁第十	2.18	0		wordfreq
 礁鹿	2.26	0		wordfreq
 礌石	0.18	0		wordfreq
 礌礌落落	0.0	0		none
@@ -659600,6 +659847,7 @@ word	general	ours_count	ours_per_million	sources
 祖玛维废墟	0.41	0		wordfreq
 祖生之鞭	0.25	0		wordfreq
 祖甲	2.67	0		wordfreq
+祖祖	2.46	0		wordfreq
 祖祖小姨妈	0.28	0		wordfreq
 祖祖辈辈	0.95	1	12.9	wordfreq+ours
 祖神	2.74	0		wordfreq
@@ -661135,6 +661383,7 @@ word	general	ours_count	ours_per_million	sources
 祥生地产	1.6	0		wordfreq
 祥福家园	1.51	0		wordfreq
 祥符	2.42	2	25.8	wordfreq+ours
+祥符决口	0.38	0		wordfreq
 祥符村	1.41	0		wordfreq
 祥符桥	1.39	0		wordfreq
 祥芝	2.36	0		wordfreq
@@ -661748,6 +661997,7 @@ word	general	ours_count	ours_per_million	sources
 禁言封号删帖	0.0	0		none
 禁言术	2.05	0		wordfreq
 禁评	3.02	0		wordfreq
+禁词	3.19	0		wordfreq
 禁贩	2.24	0		wordfreq
 禁赌	3.04	0		wordfreq
 禁赌宣传	2.01	0		wordfreq
@@ -666377,6 +666627,7 @@ word	general	ours_count	ours_per_million	sources
 租对象	3.17	0		wordfreq
 租屋	3.09	0		wordfreq
 租屋人	2.09	0		wordfreq
+租庸	2.21	0		wordfreq
 租庸杂	1.16	2	25.8	wordfreq+ours
 租庸调	1.2	2	25.8	wordfreq+ours
 租庸调制	0.96	0		wordfreq
@@ -668541,6 +668792,7 @@ word	general	ours_count	ours_per_million	sources
 税后还贷	1.72	0		wordfreq
 税吏	2.05	0		wordfreq
 税商	3.28	5	64.6	wordfreq+ours
+税商败	1.92	0		wordfreq
 税基	3.37	4	51.7	wordfreq+ours
 税外加一物	0.66	0		wordfreq
 税契	2.57	0		wordfreq
@@ -668607,6 +668859,7 @@ word	general	ours_count	ours_per_million	sources
 税改	3.46	0		wordfreq
 税改费	2.3	0		wordfreq
 税政	3.17	0		wordfreq
+税机	3.47	0		wordfreq
 税权	3.48	0		wordfreq
 税案	3.45	0		wordfreq
 税检	2.86	0		wordfreq
@@ -674764,6 +675017,7 @@ word	general	ours_count	ours_per_million	sources
 笑耍头回	0.92	0		wordfreq
 笑脸	3.62	0		wordfreq
 笑脸儿	2.59	0		wordfreq
+笑脸冒财	1.48	0		wordfreq
 笑脸攻势	2.45	0		wordfreq
 笑脸相迎	1.49	0		wordfreq
 笑脸迎人	1.5	0		wordfreq
@@ -679673,6 +679927,7 @@ word	general	ours_count	ours_per_million	sources
 筋疲力敝	0.0	0		none
 筋疲力竭	0.0	0		none
 筋络	2.34	0		wordfreq
+筋缩伤	1.38	0		wordfreq
 筋缩穴	1.33	0		wordfreq
 筋肉	2.52	0		wordfreq
 筋肉人	1.52	0		wordfreq
@@ -679920,6 +680175,7 @@ word	general	ours_count	ours_per_million	sources
 答题通	2.44	0		wordfreq
 答题速度	2.45	0		wordfreq
 策之不以其道	0.0	0		none
+策做	2.94	0		wordfreq
 策划	4.47	0		wordfreq
 策划与执行	2.41	0		wordfreq
 策划书	3.42	0		wordfreq
@@ -680083,6 +680339,8 @@ word	general	ours_count	ours_per_million	sources
 筹划者	2.84	0		wordfreq
 筹划重大事项	1.75	0		wordfreq
 筹划重大资产重组	0.68	0		wordfreq
+筹判	2.76	0		wordfreq
+筹判是	1.76	0		wordfreq
 筹到	2.97	1	12.9	wordfreq+ours
 筹办	3.59	0		wordfreq
 筹办处	2.58	0		wordfreq
@@ -681433,6 +681691,7 @@ word	general	ours_count	ours_per_million	sources
 管桁	1.35	0		wordfreq
 管桩	2.83	0		wordfreq
 管段	3.84	0		wordfreq
+管每	3.97	0		wordfreq
 管油胜	2.15	0		wordfreq
 管涌	2.94	0		wordfreq
 管涌现象	1.92	0		wordfreq
@@ -682168,6 +682427,7 @@ word	general	ours_count	ours_per_million	sources
 簿记管理员	1.54	0		wordfreq
 籀文	1.17	0		wordfreq
 籍何以至此	1.57	0		wordfreq
+籍寄	3.07	0		wordfreq
 籍没	3.32	0		wordfreq
 籍贯	3.08	0		wordfreq
 籍贯地	2.08	0		wordfreq
@@ -687688,6 +687948,7 @@ word	general	ours_count	ours_per_million	sources
 紧邻地铁	2.25	0		wordfreq
 紧邻着	2.26	0		wordfreq
 紧锁	3.19	1	12.9	wordfreq+ours
+紧锁上	2.26	0		wordfreq
 紧锁着	2.19	0		wordfreq
 紧锣密鼓	0.14	0		wordfreq
 紧闭	3.42	0		wordfreq
@@ -688038,6 +688299,7 @@ word	general	ours_count	ours_per_million	sources
 紫色调	2.86	0		wordfreq
 紫色长裙	2.08	0		wordfreq
 紫艳铅笔灯鱼	0.0	0		none
+紫节跳动	1.54	0		wordfreq
 紫芋	1.68	0		wordfreq
 紫芝眉宇	0.0	0		none
 紫花	2.92	0		wordfreq
@@ -690427,6 +690689,7 @@ word	general	ours_count	ours_per_million	sources
 红门河乡	1.36	0		wordfreq
 红阎魔	1.35	0		wordfreq
 红队	3.76	0		wordfreq
+红阳	3.17	0		wordfreq
 红阳村	2.11	0		wordfreq
 红阳水库	1.87	0		wordfreq
 红阳能源	2.08	0		wordfreq
@@ -691954,6 +692217,7 @@ word	general	ours_count	ours_per_million	sources
 纳兰揆叙	0.0	0		none
 纳兰若水	1.16	0		wordfreq
 纳兰迦	1.27	0		wordfreq
+纳典	2.93	0		wordfreq
 纳兹格雷尔	0.61	0		wordfreq
 纳兹福德	0.91	0		wordfreq
 纳凉	2.94	0		wordfreq
@@ -692192,6 +692456,7 @@ word	general	ours_count	ours_per_million	sources
 纳米粒度仪	0.39	0		wordfreq
 纳米级	2.78	0		wordfreq
 纳米纺织	2.69	0		wordfreq
+纳粟二石	0.0	0		none
 纳粮	3.12	0		wordfreq
 纳粹	4.29	0		wordfreq
 纳粹主义	3.2	0		wordfreq
@@ -692221,6 +692486,7 @@ word	general	ours_count	ours_per_million	sources
 纳舒厄城	0.43	0		wordfreq
 纳芙	3.03	0		wordfreq
 纳芯微	1.61	0		wordfreq
+纳苏二十	2.01	0		wordfreq
 纳英戈兰	0.7	0		wordfreq
 纳莉台风	1.61	0		wordfreq
 纳菲瑞提	0.67	0		wordfreq
@@ -692309,6 +692575,7 @@ word	general	ours_count	ours_per_million	sources
 纵声大笑	1.5	0		wordfreq
 纵奸养恶	0.38	0		wordfreq
 纵容	3.66	1	12.9	wordfreq+ours
+纵巢	2.38	0		wordfreq
 纵帆船	2.34	0		wordfreq
 纵座标	2.23	0		wordfreq
 纵情	3.11	0		wordfreq
@@ -699688,6 +699955,7 @@ word	general	ours_count	ours_per_million	sources
 绩优	2.49	0		wordfreq
 绩优成长股	0.46	0		wordfreq
 绩优股	1.47	0		wordfreq
+绩四	2.53	0		wordfreq
 绩学之士	0.48	0		wordfreq
 绩差	2.52	0		wordfreq
 绩差公司	1.52	0		wordfreq
@@ -699729,6 +699997,7 @@ word	general	ours_count	ours_per_million	sources
 绪言余论	0.36	0		wordfreq
 绪论	2.4	0		wordfreq
 绪语	2.4	0		wordfreq
+绪连着	1.4	0		wordfreq
 绪里	2.41	0		wordfreq
 绪风	2.4	0		wordfreq
 绫乃	2.51	0		wordfreq
@@ -699827,6 +700096,7 @@ word	general	ours_count	ours_per_million	sources
 续费率	2.17	0		wordfreq
 续费礼	1.9	0		wordfreq
 续资治通鉴长编	0.16	0		wordfreq
+续连阵	1.77	0		wordfreq
 续通志	2.03	0		wordfreq
 续随子	2.2	0		wordfreq
 续集	3.76	0		wordfreq
@@ -700009,6 +700279,7 @@ word	general	ours_count	ours_per_million	sources
 维保合同	2.15	0		wordfreq
 维保商	2.13	0		wordfreq
 维保工单	1.06	0		wordfreq
+维信	3.51	0		wordfreq
 维修	4.47	0		wordfreq
 维修业	3.3	0		wordfreq
 维修中	3.47	0		wordfreq
@@ -702209,6 +702480,7 @@ word	general	ours_count	ours_per_million	sources
 缕金衣	1.2	0		wordfreq
 缕金黄	2.08	0		wordfreq
 缕陈	2.25	0		wordfreq
+缕飘忽	0.99	0		wordfreq
 编一下	3.67	0		wordfreq
 编一个	3.74	0		wordfreq
 编一本	3.31	0		wordfreq
@@ -706548,6 +706820,7 @@ word	general	ours_count	ours_per_million	sources
 罪疑从轻	0.84	0		wordfreq
 罪疑惟轻	0.44	0		wordfreq
 罪盈恶满	0.4	0		wordfreq
+罪称	3.72	0		wordfreq
 罪罚	3.1	0		wordfreq
 罪莫大焉	1.28	0		wordfreq
 罪行	4.39	0		wordfreq
@@ -710079,6 +710352,7 @@ word	general	ours_count	ours_per_million	sources
 翻好多页	2.17	0		wordfreq
 翻子拳	1.84	0		wordfreq
 翻字典	2.7	0		wordfreq
+翻学	3.47	0		wordfreq
 翻完	3.45	0		wordfreq
 翻寻	2.91	0		wordfreq
 翻山	3.4	0		wordfreq
@@ -710227,6 +710501,8 @@ word	general	ours_count	ours_per_million	sources
 翻裤袋	1.58	0		wordfreq
 翻覆	3.11	0		wordfreq
 翻记录	3.46	0		wordfreq
+翻访	3.05	0		wordfreq
+翻证	3.25	0		wordfreq
 翻译	4.97	1	12.9	wordfreq+ours
 翻译一下	3.85	0		wordfreq
 翻译上述	3.6	0		wordfreq
@@ -710292,6 +710568,7 @@ word	general	ours_count	ours_per_million	sources
 翻译这句话	2.21	0		wordfreq
 翻译这群	2.86	0		wordfreq
 翻译速度	3.73	0		wordfreq
+翻试	3.32	0		wordfreq
 翻起	3.5	0		wordfreq
 翻起来	3.5	0		wordfreq
 翻越	3.01	0		wordfreq
@@ -712557,6 +712834,7 @@ word	general	ours_count	ours_per_million	sources
 考核指标体系	2.19	0		wordfreq
 考核权重	2.26	0		wordfreq
 考核标准	3.42	0		wordfreq
+考核标志	3.33	0		wordfreq
 考核模式	3.4	0		wordfreq
 考核目标	3.43	0		wordfreq
 考核系统	3.45	0		wordfreq
@@ -713769,6 +714047,7 @@ word	general	ours_count	ours_per_million	sources
 耕耘着	2.07	0		wordfreq
 耕耘者	2.07	0		wordfreq
 耕莘医院	0.12	0		wordfreq
+耕虚	2.29	0		wordfreq
 耕读	2.42	0		wordfreq
 耕读传家	0.41	0		wordfreq
 耕赋	2.24	1	12.9	wordfreq+ours
@@ -719246,6 +719525,7 @@ word	general	ours_count	ours_per_million	sources
 胆颤心寒	0.02	0		wordfreq
 胆飞魂丧	0.14	0		wordfreq
 胆魄	1.53	1	12.9	wordfreq+ours
+胆魄与	0.53	0		wordfreq
 背一段	3.43	0		wordfreq
 背一点	3.53	0		wordfreq
 背一背	2.27	0		wordfreq
@@ -733585,6 +733865,7 @@ word	general	ours_count	ours_per_million	sources
 节省钱	3.15	0		wordfreq
 节省预算	3.08	0		wordfreq
 节省饲料	2.78	0		wordfreq
+节真	3.82	0		wordfreq
 节礼	3.12	0		wordfreq
 节礼日	2.11	0		wordfreq
 节税	3.43	0		wordfreq
@@ -745229,6 +745510,7 @@ word	general	ours_count	ours_per_million	sources
 营落	3.29	0		wordfreq
 营蝇斐锦	0.09	0		wordfreq
 营街道	3.41	0		wordfreq
+营贪	2.84	0		wordfreq
 营转非	2.5	0		wordfreq
 营运	4.33	0		wordfreq
 营运商	3.13	0		wordfreq
@@ -747827,6 +748109,7 @@ word	general	ours_count	ours_per_million	sources
 葱香羊肉煲	0.0	0		none
 葱黄	2.54	0		wordfreq
 葱黄寡毛跳甲	0.0	0		none
+葳扬	0.77	0		wordfreq
 葳蕤	0.35	0		wordfreq
 葳蕤繁祉	0.0	0		none
 葳蕤自生光	0.0	0		none
@@ -750091,7 +750374,9 @@ word	general	ours_count	ours_per_million	sources
 蔽芾	1.1	0		wordfreq
 蔽身处	1.74	0		wordfreq
 蔽障	1.66	0		wordfreq
+蕃坊	2.36	0		wordfreq
 蕃学	2.47	1	12.9	wordfreq+ours
+蕃市	2.47	0		wordfreq
 蕃息	2.34	0		wordfreq
 蕃茄	3.05	0		wordfreq
 蕃草席铺枫叶岸	0.0	0		none
@@ -750291,6 +750576,7 @@ word	general	ours_count	ours_per_million	sources
 薅草	1.41	0		wordfreq
 薅锄	1.33	0		wordfreq
 薇丽塔	1.84	0		wordfreq
+薇信	3.17	0		wordfreq
 薇克巴顿	1.39	0		wordfreq
 薇古丝	1.94	0		wordfreq
 薇姿	2.34	0		wordfreq
@@ -761227,6 +761513,7 @@ word	general	ours_count	ours_per_million	sources
 被杀后	3.32	0		wordfreq
 被杀害	3.56	0		wordfreq
 被杀死	3.51	0		wordfreq
+被杖	2.4	0		wordfreq
 被束缚	3.13	0		wordfreq
 被枪击	3.05	0		wordfreq
 被枪击中	2.05	0		wordfreq
@@ -762859,6 +763146,7 @@ word	general	ours_count	ours_per_million	sources
 裸指针	2.37	0		wordfreq
 裸捐	2.49	0		wordfreq
 裸掌盾牌蟹	0.16	0		wordfreq
+裸旗	2.55	0		wordfreq
 裸机	2.64	0		wordfreq
 裸机开发	1.63	0		wordfreq
 裸机程序	1.63	0		wordfreq
@@ -772560,6 +772848,7 @@ word	general	ours_count	ours_per_million	sources
 计费系统	2.28	0		wordfreq
 计费调度	2.18	0		wordfreq
 计费重量	2.24	0		wordfreq
+计跻	0.98	0		wordfreq
 计较	3.75	0		wordfreq
 计较什么	2.75	0		wordfreq
 计较俗礼	1.32	0		wordfreq
@@ -773180,6 +773469,7 @@ word	general	ours_count	ours_per_million	sources
 认识过程	4.18	0		wordfreq
 认识问题	4.39	0		wordfreq
 认识高度	3.79	0		wordfreq
+认诚往	1.93	0		wordfreq
 认读	3.39	0		wordfreq
 认负	3.29	0		wordfreq
 认账	2.91	0		wordfreq
@@ -781732,6 +782022,7 @@ word	general	ours_count	ours_per_million	sources
 诸国会议同盟	1.52	0		wordfreq
 诸国议会	2.59	0		wordfreq
 诸国议会同盟	1.5	0		wordfreq
+诸地	3.29	0		wordfreq
 诸城	3.06	0		wordfreq
 诸城县	2.06	0		wordfreq
 诸城市	3.28	0		wordfreq
@@ -782290,6 +782581,7 @@ word	general	ours_count	ours_per_million	sources
 读出来	3.96	1	12.9	wordfreq+ours
 读出电路	2.12	0		wordfreq
 读到	4.03	1	12.9	wordfreq+ours
+读力	3.66	0		wordfreq
 读医	3.05	0		wordfreq
 读卖新闻	2.74	0		wordfreq
 读博	3.21	0		wordfreq
@@ -782636,6 +782928,7 @@ word	general	ours_count	ours_per_million	sources
 诿罪	1.43	0		wordfreq
 诿罪于人	0.0	0		none
 诿责	1.42	0		wordfreq
+诿躲	1.43	0		wordfreq
 诿过	1.43	0		wordfreq
 诿过于人	0.43	0		wordfreq
 谀辞	1.23	0		wordfreq
@@ -783148,6 +783441,7 @@ word	general	ours_count	ours_per_million	sources
 调参	3.4	0		wordfreq
 调参侠	1.94	0		wordfreq
 调参数	3.31	0		wordfreq
+调反正	3.4	0		wordfreq
 调发	3.75	1	12.9	wordfreq+ours
 调取	3.57	0		wordfreq
 调取录像	2.14	0		wordfreq
@@ -786858,6 +787152,7 @@ word	general	ours_count	ours_per_million	sources
 豪康比	1.73	0		wordfreq
 豪强	2.91	41	529.7	wordfreq+ours
 豪强地主	1.73	0		wordfreq
+豪强藏人	1.34	0		wordfreq
 豪恩	2.83	0		wordfreq
 豪情	3.15	0		wordfreq
 豪情万丈	0.81	0		wordfreq
@@ -787935,6 +788230,7 @@ word	general	ours_count	ours_per_million	sources
 负疚	0.82	0		wordfreq
 负百万	3.31	0		wordfreq
 负的	3.7	0		wordfreq
+负益	2.5	0		wordfreq
 负直接	3.63	0		wordfreq
 负相关	3.64	0		wordfreq
 负相关关系	2.61	0		wordfreq
@@ -787986,6 +788282,7 @@ word	general	ours_count	ours_per_million	sources
 负角	3.25	0		wordfreq
 负角度	3.46	0		wordfreq
 负诟忍尤	0.0	0		none
+负语	3.52	0		wordfreq
 负负得正	1.36	0		wordfreq
 负责	5.4	7	90.4	wordfreq+ours
 负责不负责	3.09	0		wordfreq
@@ -788247,6 +788544,7 @@ word	general	ours_count	ours_per_million	sources
 财产转让	3.18	0		wordfreq
 财产转让所得	1.98	0		wordfreq
 财产险	3.19	0		wordfreq
+财人	3.3	0		wordfreq
 财从天降	1.1	0		wordfreq
 财付通	2.01	0		wordfreq
 财会	3.3	1	12.9	wordfreq+ours
@@ -788992,12 +789290,14 @@ word	general	ours_count	ours_per_million	sources
 账号查找	2.65	0		wordfreq
 账号登录了	2.02	0		wordfreq
 账号系统	3.48	0		wordfreq
+账填母	1.69	0		wordfreq
 账外	3.03	0		wordfreq
 账外物资	1.92	0		wordfreq
 账外经营	1.99	0		wordfreq
 账外账	1.73	0		wordfreq
 账外资金	1.99	0		wordfreq
 账实核对	1.47	0		wordfreq
+账年	3.04	0		wordfreq
 账户	4.47	0		wordfreq
 账户上	3.47	0		wordfreq
 账户体系	3.38	0		wordfreq
@@ -789023,6 +789323,7 @@ word	general	ours_count	ours_per_million	sources
 账目表	2.63	0		wordfreq
 账算不明白	0.98	0		wordfreq
 账簿	2.55	0		wordfreq
+账粮何时	1.75	0		wordfreq
 账给结了	0.93	0		wordfreq
 账表	2.98	0		wordfreq
 账面	3.26	0		wordfreq
@@ -792854,6 +793155,7 @@ word	general	ours_count	ours_per_million	sources
 赋性	2.69	0		wordfreq
 赋敛	1.52	0		wordfreq
 赋敛无度	0.0	0		none
+赋更赋	1.4	0		wordfreq
 赋有	2.7	0		wordfreq
 赋权	2.68	0		wordfreq
 赋格	2.68	0		wordfreq
@@ -792868,6 +793170,7 @@ word	general	ours_count	ours_per_million	sources
 赋给你们	1.7	0		wordfreq
 赋绿码	1.61	0		wordfreq
 赋而国用	0.69	1	12.9	wordfreq+ours
+赋耕赋	1.11	0		wordfreq
 赋能	2.7	1	12.9	wordfreq+ours
 赋能传统产业	0.68	0		wordfreq
 赋能传统行业	0.68	0		wordfreq
@@ -793615,6 +793918,7 @@ word	general	ours_count	ours_per_million	sources
 赛克丽塔波维奇	0.0	0		none
 赛克斯	2.98	0		wordfreq
 赛克斯长毛猎犬	0.0	0		none
+赛公使	2.58	0		wordfreq
 赛兰尼	2.1	0		wordfreq
 赛况	2.75	0		wordfreq
 赛出	3.65	0		wordfreq
@@ -796159,6 +796463,7 @@ word	general	ours_count	ours_per_million	sources
 赵村村	2.31	0		wordfreq
 赵松庭	1.67	0		wordfreq
 赵构	2.8	1	12.9	wordfreq+ours
+赵构南渡	0.54	0		wordfreq
 赵某	3.41	0		wordfreq
 赵某人	3.09	0		wordfreq
 赵某某	2.78	0		wordfreq
@@ -797016,6 +797321,7 @@ word	general	ours_count	ours_per_million	sources
 起眼	3.43	0		wordfreq
 起眼儿	2.29	0		wordfreq
 起着	4.57	0		wordfreq
+起睡	3.88	0		wordfreq
 起码	4.23	0		wordfreq
 起码会	3.23	0		wordfreq
 起码是	3.23	0		wordfreq
@@ -800430,6 +800736,7 @@ word	general	ours_count	ours_per_million	sources
 足总杯	2.26	0		wordfreq
 足感	3.33	0		wordfreq
 足慰平生	0.98	0		wordfreq
+足拥	2.76	0		wordfreq
 足控	3.18	0		wordfreq
 足攀木而失茎	0.0	0		none
 足敷所需	0.63	0		wordfreq
@@ -800707,6 +801014,7 @@ word	general	ours_count	ours_per_million	sources
 跆拳道馆	2.23	0		wordfreq
 跋前疐后	0.0	0		none
 跋前踬后	0.0	0		none
+跋宏	2.11	0		wordfreq
 跋尾	2.21	0		wordfreq
 跋履山川	0.84	0		wordfreq
 跋山涉川	0.13	0		wordfreq
@@ -800724,6 +801032,7 @@ word	general	ours_count	ours_per_million	sources
 跋涉山川	1.99	0		wordfreq
 跋涉者	2.24	0		wordfreq
 跋涉长途	2.14	0		wordfreq
+跋澄	2.01	0		wordfreq
 跋胡疐尾	0.0	0		none
 跋语	2.24	0		wordfreq
 跌下	3.18	0		wordfreq
@@ -801229,6 +801538,7 @@ word	general	ours_count	ours_per_million	sources
 跛足	1.89	0		wordfreq
 跛鳖千里	0.76	0		wordfreq
 距上海	3.33	0		wordfreq
+距不	3.36	0		wordfreq
 距人千里	1.83	0		wordfreq
 距今	3.03	0		wordfreq
 距今大约	2.03	0		wordfreq
@@ -806152,6 +806462,7 @@ word	general	ours_count	ours_per_million	sources
 转岗	2.88	0		wordfreq
 转差率	2.48	0		wordfreq
 转帆	2.18	0		wordfreq
+转帐	3.19	0		wordfreq
 转帖	2.91	0		wordfreq
 转幕后	3.25	0		wordfreq
 转干	4.02	0		wordfreq
@@ -807959,6 +808270,7 @@ word	general	ours_count	ours_per_million	sources
 轻描淡写	3.35	0		wordfreq
 轻摇	2.87	0		wordfreq
 轻摇着	1.87	0		wordfreq
+轻摇薄赋	0.41	0		wordfreq
 轻擦	3.23	0		wordfreq
 轻放	3.62	0		wordfreq
 轻敌	3.27	0		wordfreq
@@ -808850,6 +809162,7 @@ word	general	ours_count	ours_per_million	sources
 辅币	2.77	0		wordfreq
 辅弼	1.68	0		wordfreq
 辅弼之勋	0.0	0		none
+辅成	2.83	0		wordfreq
 辅政	2.73	1	12.9	wordfreq+ours
 辅料	2.75	0		wordfreq
 辅星路	1.77	0		wordfreq
@@ -809358,6 +809671,7 @@ word	general	ours_count	ours_per_million	sources
 输尿管结石	0.27	0		wordfreq
 输尿管肿瘤	0.87	0		wordfreq
 输尿管镜碎石术	0.0	0		none
+输平	3.47	0		wordfreq
 输往	3.57	0		wordfreq
 输得	3.74	1	12.9	wordfreq+ours
 输得一塌糊涂	1.4	0		wordfreq
@@ -809860,6 +810174,7 @@ word	general	ours_count	ours_per_million	sources
 辞以情发	0.89	0		wordfreq
 辞任	2.93	0		wordfreq
 辞任董事长	1.8	0		wordfreq
+辞使	2.95	0		wordfreq
 辞典	3.6	0		wordfreq
 辞典编纂	2.42	0		wordfreq
 辞典编纂法	1.42	0		wordfreq
@@ -810261,6 +810576,7 @@ word	general	ours_count	ours_per_million	sources
 边上	3.9	1	12.9	wordfreq+ours
 边下边	2.36	0		wordfreq
 边个啊	2.74	0		wordfreq
+边中	3.77	0		wordfreq
 边九石	2.18	0		wordfreq
 边买边	2.45	0		wordfreq
 边了解	3.69	0		wordfreq
@@ -814755,6 +815071,7 @@ word	general	ours_count	ours_per_million	sources
 近了一步	2.72	0		wordfreq
 近于	4.17	0		wordfreq
 近于零	2.53	0		wordfreq
+近云	3.79	0		wordfreq
 近五年	3.6	0		wordfreq
 近些	3.92	0		wordfreq
 近些年	3.1	0		wordfreq
@@ -827345,6 +827662,7 @@ word	general	ours_count	ours_per_million	sources
 逋欠	1.61	0		wordfreq
 逋欠贷款	0.61	0		wordfreq
 逋留	1.62	0		wordfreq
+逋赋	1.59	0		wordfreq
 逋逃	1.62	0		wordfreq
 逋逃之臣	0.0	0		none
 逋逃之薮	0.0	0		none
@@ -827520,6 +827838,7 @@ word	general	ours_count	ours_per_million	sources
 透析粉	1.99	0		wordfreq
 透析膜	1.97	0		wordfreq
 透析袋	1.97	0		wordfreq
+透氏	2.9	0		wordfreq
 透气	3.35	0		wordfreq
 透气度	2.34	0		wordfreq
 透气性	2.35	0		wordfreq
@@ -830458,6 +830777,7 @@ word	general	ours_count	ours_per_million	sources
 遁形远世	0.0	0		none
 遁形长臂蟹	0.0	0		none
 遁术	2.01	0		wordfreq
+遁漠	1.72	0		wordfreq
 遁藏	2.01	0		wordfreq
 遁词	2.01	0		wordfreq
 遁走	2.02	0		wordfreq
@@ -830773,6 +831093,7 @@ word	general	ours_count	ours_per_million	sources
 遍插茱萸少一人	0.0	0		none
 遍数	3.12	0		wordfreq
 遍海角天涯	0.6	0		wordfreq
+遍经	3.15	0		wordfreq
 遍绕篱边日渐斜	0.0	0		none
 遍览	2.3	0		wordfreq
 遍览群籍	0.25	0		wordfreq
@@ -835420,6 +835741,7 @@ word	general	ours_count	ours_per_million	sources
 邺架之藏	0.11	0		wordfreq
 邺水朱华	0.09	0		wordfreq
 邻二甲苯	0.42	0		wordfreq
+邻五邻	1.8	0		wordfreq
 邻人	3.12	0		wordfreq
 邻人有美酒	0.33	0		wordfreq
 邻位	3.1	0		wordfreq
@@ -838689,6 +839011,7 @@ word	general	ours_count	ours_per_million	sources
 都懂了吧	1.99	0		wordfreq
 都懂哦	2.82	0		wordfreq
 都懂得	3.63	0		wordfreq
+都懒得	2.68	0		wordfreq
 都成	4.57	0		wordfreq
 都成为	4.84	0		wordfreq
 都成了奢望	0.32	0		wordfreq
@@ -838702,6 +839025,7 @@ word	general	ours_count	ours_per_million	sources
 都戒不掉	0.94	0		wordfreq
 都戴着	2.59	0		wordfreq
 都戴着口罩	1.44	0		wordfreq
+都户	3.7	0		wordfreq
 都打	4.56	0		wordfreq
 都打不到	3.1	0		wordfreq
 都打不过	3.33	0		wordfreq
@@ -840536,6 +840860,7 @@ word	general	ours_count	ours_per_million	sources
 配乐朗诵	2.27	0		wordfreq
 配乐诗朗诵	1.26	0		wordfreq
 配书	3.51	2	25.8	wordfreq+ours
+配书模式	2.43	0		wordfreq
 配了	3.57	0		wordfreq
 配了药	2.34	0		wordfreq
 配享从汜	0.0	0		none
@@ -840903,8 +841228,10 @@ word	general	ours_count	ours_per_million	sources
 配货网	2.23	0		wordfreq
 配购	3.25	0		wordfreq
 配资	3.24	0		wordfreq
+配起	3.54	0		wordfreq
 配起来	3.54	0		wordfreq
 配载	3.32	0		wordfreq
+配输模式	2.3	0		wordfreq
 配过	3.56	0		wordfreq
 配这个	3.56	0		wordfreq
 配送	3.59	7	90.4	wordfreq+ours
@@ -841607,6 +841934,7 @@ word	general	ours_count	ours_per_million	sources
 酰胺态	0.7	0		wordfreq
 酰胺态氮	0.0	0		none
 酰胺态氮肥	0.0	0		none
+酱友	2.83	0		wordfreq
 酱园	2.94	0		wordfreq
 酱坊	2.77	0		wordfreq
 酱坯	1.34	0		wordfreq
@@ -842943,6 +843271,7 @@ word	general	ours_count	ours_per_million	sources
 里不出	3.66	0		wordfreq
 里不出外不进	0.0	0		none
 里丑捧心	0.78	0		wordfreq
+里五里	2.04	0		wordfreq
 里亚	3.98	0		wordfreq
 里亚塔	2.5	0		wordfreq
 里亚尔	2.17	0		wordfreq
@@ -843155,6 +843484,7 @@ word	general	ours_count	ours_per_million	sources
 里民大会	2.45	0		wordfreq
 里水金丝虾	0.0	0		none
 里水霸王鸭	0.49	0		wordfreq
+里沃兹	1.66	0		wordfreq
 里沃塞德	0.7	0		wordfreq
 里沟村	1.84	0		wordfreq
 里没有	4.91	0		wordfreq
@@ -843177,6 +843507,7 @@ word	general	ours_count	ours_per_million	sources
 里港乡	2.51	0		wordfreq
 里炮村	2.18	0		wordfreq
 里热	3.96	0		wordfreq
+里物资	3.57	0		wordfreq
 里特	3.11	0		wordfreq
 里特·冯·格莱姆	0.0	0		none
 里特帝	2.09	0		wordfreq
@@ -851354,6 +851685,7 @@ word	general	ours_count	ours_per_million	sources
 金算盘	2.29	0		wordfreq
 金管会	2.85	0		wordfreq
 金管玉箫	0.0	0		none
+金箱	3.07	0		wordfreq
 金篦刮目	0.0	0		none
 金簇胁山鹩哥	0.0	0		none
 金簪	1.43	0		wordfreq
@@ -851368,6 +851700,7 @@ word	general	ours_count	ours_per_million	sources
 金粉豪华	1.94	0		wordfreq
 金粟兰	0.82	0		wordfreq
 金粟庵	0.77	0		wordfreq
+金粮	3.23	0		wordfreq
 金精玉液	0.61	0		wordfreq
 金精石	2.14	0		wordfreq
 金精雪浪	0.71	0		wordfreq
@@ -852457,6 +852790,7 @@ word	general	ours_count	ours_per_million	sources
 釜山市	2.54	0		wordfreq
 釜山广域市	0.39	0		wordfreq
 釜山行	2.53	0		wordfreq
+釜底	2.27	0		wordfreq
 釜底之鱼	0.26	0		wordfreq
 釜底抽薪	0.1	1	12.9	wordfreq+ours
 釜底抽薪之计	0.0	0		none
@@ -853893,6 +854227,7 @@ word	general	ours_count	ours_per_million	sources
 钱信伊	2.47	0		wordfreq
 钱修路	2.16	0		wordfreq
 钱儿	3.77	0		wordfreq
+钱先	4.23	0		wordfreq
 钱先欠着	1.31	0		wordfreq
 钱先生	4.15	0		wordfreq
 钱全花	2.86	0		wordfreq
@@ -854130,6 +854465,7 @@ word	general	ours_count	ours_per_million	sources
 钱财如粪土	0.4	0		wordfreq
 钱货两清	1.35	0		wordfreq
 钱货两讫	0.0	0		none
+钱贷	3.0	0		wordfreq
 钱赚够了	1.51	0		wordfreq
 钱起	4.4	0		wordfreq
 钱载	3.63	0		wordfreq
@@ -854558,6 +854894,7 @@ word	general	ours_count	ours_per_million	sources
 铁夹	3.12	0		wordfreq
 铁女人	3.64	0		wordfreq
 铁如意	2.51	0		wordfreq
+铁姆	3.21	0		wordfreq
 铁姑娘	3.41	0		wordfreq
 铁娘子	2.21	0		wordfreq
 铁子	3.58	0		wordfreq
@@ -854668,6 +855005,7 @@ word	general	ours_count	ours_per_million	sources
 铁映	2.5	0		wordfreq
 铁木	3.21	0		wordfreq
 铁木伦	1.85	0		wordfreq
+铁木失实	1.08	0		wordfreq
 铁木尔	2.14	0		wordfreq
 铁木山洞	1.47	0		wordfreq
 铁木森林	2.12	0		wordfreq
@@ -854749,6 +855087,7 @@ word	general	ours_count	ours_per_million	sources
 铁槽	3.06	0		wordfreq
 铁模	2.98	0		wordfreq
 铁武	3.04	0		wordfreq
+铁母	3.23	0		wordfreq
 铁比金	2.56	0		wordfreq
 铁氟龙	1.46	0		wordfreq
 铁氧体	1.79	0		wordfreq
@@ -856109,6 +856448,7 @@ word	general	ours_count	ours_per_million	sources
 银承	3.07	0		wordfreq
 银护	3.1	0		wordfreq
 银报应	2.67	0		wordfreq
+银摊	2.7	0		wordfreq
 银收宝	2.19	0		wordfreq
 银斑露胸天牛	0.0	0		none
 银斧头	2.49	0		wordfreq
@@ -858458,6 +858798,7 @@ word	general	ours_count	ours_per_million	sources
 锡泰	2.91	0		wordfreq
 锡港路	2.07	0		wordfreq
 锡溪乡	1.66	0		wordfreq
+锡爵	2.34	0		wordfreq
 锡球	3.12	0		wordfreq
 锡的	3.22	0		wordfreq
 锡的熔点	1.06	0		wordfreq
@@ -859425,6 +859766,7 @@ word	general	ours_count	ours_per_million	sources
 镜子	4.2	4	51.7	wordfreq+ours
 镜子森林	3.11	0		wordfreq
 镜子里	3.19	0		wordfreq
+镜字	3.08	0		wordfreq
 镜心	3.1	0		wordfreq
 镜心魔	1.96	0		wordfreq
 镜报	3.09	0		wordfreq
@@ -863552,6 +863894,7 @@ word	general	ours_count	ours_per_million	sources
 长肩棘䲢	0.0	0		none
 长肩棘缘蝽	0.0	0		none
 长肿瘤	3.14	0		wordfreq
+长胆	3.07	0		wordfreq
 长背鳍骨纹唇鱼	0.0	0		none
 长胎不长肉	0.0	0		none
 长胎记	1.59	0		wordfreq
@@ -866752,6 +867095,7 @@ word	general	ours_count	ours_per_million	sources
 闾阎扑地	0.0	0		none
 阀体	2.46	0		wordfreq
 阀座	2.45	0		wordfreq
+阀把持	2.25	0		wordfreq
 阀杆	2.35	0		wordfreq
 阀组	2.46	0		wordfreq
 阀门	3.24	2	25.8	wordfreq+ours
@@ -867076,6 +867420,7 @@ word	general	ours_count	ours_per_million	sources
 阔边帽	1.31	0		wordfreq
 阔野	2.39	0		wordfreq
 阔阔的	1.19	0		wordfreq
+阔鞋	2.43	0		wordfreq
 阔鼻小目	0.32	0		wordfreq
 阖家	1.97	0		wordfreq
 阖家团圆	0.87	0		wordfreq
@@ -868542,6 +868887,7 @@ word	general	ours_count	ours_per_million	sources
 阳衰	2.61	0		wordfreq
 阳西	3.2	0		wordfreq
 阳西县	2.18	0		wordfreq
+阳言	3.17	0		wordfreq
 阳证	3.08	0		wordfreq
 阳证似阴	0.68	0		wordfreq
 阳谋	2.94	0		wordfreq
@@ -874159,6 +874505,7 @@ word	general	ours_count	ours_per_million	sources
 降智打击	1.96	0		wordfreq
 降暑	1.33	0		wordfreq
 降服	3.16	0		wordfreq
+降服决口	0.96	0		wordfreq
 降服孙悟空	1.3	0		wordfreq
 降本	3.55	0		wordfreq
 降本减负	1.06	0		wordfreq
@@ -874425,6 +874772,7 @@ word	general	ours_count	ours_per_million	sources
 降降温了	1.68	0		wordfreq
 降降火	2.14	0		wordfreq
 降降降	2.12	0		wordfreq
+降难	3.5	0		wordfreq
 降雨	3.72	0		wordfreq
 降雨偏少	1.6	0		wordfreq
 降雨充沛	2.27	0		wordfreq
@@ -876979,6 +877327,7 @@ word	general	ours_count	ours_per_million	sources
 随群逐队	0.6	0		wordfreq
 随老婆	3.69	0		wordfreq
 随船工作证	1.26	0		wordfreq
+随莫	3.4	0		wordfreq
 随营学校	2.48	0		wordfreq
 随葬	2.87	0		wordfreq
 随葬品	1.77	0		wordfreq
@@ -878001,6 +878350,7 @@ word	general	ours_count	ours_per_million	sources
 难乎为继	0.82	0		wordfreq
 难乎其难	0.9	0		wordfreq
 难乎有恒矣	0.0	0		none
+难乏	2.35	0		wordfreq
 难买	4.04	0		wordfreq
 难了	4.18	0		wordfreq
 难了解	4.0	0		wordfreq
@@ -881298,6 +881648,7 @@ word	general	ours_count	ours_per_million	sources
 零次	3.58	0		wordfreq
 零次幂	1.49	0		wordfreq
 零次方	2.41	0		wordfreq
+零武林	2.69	0		wordfreq
 零比三	2.59	0		wordfreq
 零比二	2.54	0		wordfreq
 零比零	2.32	0		wordfreq
@@ -883438,6 +883789,7 @@ word	general	ours_count	ours_per_million	sources
 霸主赛	2.51	0		wordfreq
 霸位	2.54	0		wordfreq
 霸体	2.53	0		wordfreq
+霸先	2.53	0		wordfreq
 霸凌	3.31	0		wordfreq
 霸凌主义	2.3	0		wordfreq
 霸凌事件	2.31	0		wordfreq
@@ -884663,6 +885015,7 @@ word	general	ours_count	ours_per_million	sources
 青衣小帽	1.04	0		wordfreq
 青衣江	2.1	0		wordfreq
 青衣行酒	1.11	0		wordfreq
+青补	3.16	0		wordfreq
 青衫	2.55	0		wordfreq
 青衫人	1.55	0		wordfreq
 青衫凉笠	0.0	0		none
@@ -887552,6 +887905,7 @@ word	general	ours_count	ours_per_million	sources
 靠湖边	2.54	0		wordfreq
 靠父母	3.84	0		wordfreq
 靠猜	3.65	0		wordfreq
+靠电	3.82	0		wordfreq
 靠电子传感器探	0.7	0		wordfreq
 靠的	4.23	0		wordfreq
 靠的是	3.22	0		wordfreq
@@ -898595,6 +898949,7 @@ word	general	ours_count	ours_per_million	sources
 香娇玉嫩	0.28	0		wordfreq
 香娇玉软	0.31	0		wordfreq
 香娜	3.06	0		wordfreq
+香嫌	2.94	0		wordfreq
 香嫩	2.96	0		wordfreq
 香子	3.4	0		wordfreq
 香子兰	2.12	0		wordfreq
@@ -901856,6 +902211,7 @@ word	general	ours_count	ours_per_million	sources
 驱散	3.52	0		wordfreq
 驱散射击	2.47	0		wordfreq
 驱散术	2.49	0		wordfreq
+驱没	2.57	0		wordfreq
 驱火巫	1.27	0		wordfreq
 驱白巴布期片	0.0	0		none
 驱离	3.03	0		wordfreq
@@ -903456,6 +903812,7 @@ word	general	ours_count	ours_per_million	sources
 骨刺消痛液	0.0	0		none
 骨刺消痛胶囊	0.0	0		none
 骨刻	2.78	0		wordfreq
+骨剑	3.01	0		wordfreq
 骨力	3.06	0		wordfreq
 骨力胶囊	1.51	0		wordfreq
 骨化	3.07	0		wordfreq
@@ -908293,6 +908650,8 @@ word	general	ours_count	ours_per_million	sources
 魏永康	2.23	0		wordfreq
 魏泰林	1.76	0		wordfreq
 魏淑芬	1.22	0		wordfreq
+魏清	2.97	0		wordfreq
+魏清获取	1.89	0		wordfreq
 魏潇逸	0.0	0		none
 魏灵格	1.77	0		wordfreq
 魏特摩	1.71	0		wordfreq
@@ -909176,6 +909535,7 @@ word	general	ours_count	ours_per_million	sources
 鱼香菜心	1.12	0		wordfreq
 鱼香蹄花	0.07	0		wordfreq
 鱼香酥青豆	0.0	0		none
+鱼马	3.72	0		wordfreq
 鱼骨	3.05	0		wordfreq
 鱼骨头	3.06	0		wordfreq
 鱼骨沙洲	1.12	0		wordfreq
@@ -909472,6 +909832,7 @@ word	general	ours_count	ours_per_million	sources
 鲁男子	3.43	0		wordfreq
 鲁甸县	1.17	0		wordfreq
 鲁甸地震	1.16	0		wordfreq
+鲁皮壁	1.65	0		wordfreq
 鲁皮尼	2.08	0		wordfreq
 鲁直	3.31	0		wordfreq
 鲁石化	2.83	0		wordfreq
@@ -912207,6 +912568,7 @@ word	general	ours_count	ours_per_million	sources
 鹿特丹公约	0.65	0		wordfreq
 鹿瓜多肽注射液	0.0	0		none
 鹿皮	2.83	3	38.8	wordfreq+ours
+鹿皮币	1.76	0		wordfreq
 鹿皮战铠	0.0	0		none
 鹿皮苍璧	0.0	0		none
 鹿皮靴	1.34	0		wordfreq
@@ -919319,6 +919681,7 @@ word	general	ours_count	ours_per_million	sources
 齐歌空复情	0.0	0		none
 齐步	3.16	0		wordfreq
 齐步走	2.15	0		wordfreq
+齐比	3.35	0		wordfreq
 齐民要术	1.03	0		wordfreq
 齐河县	2.19	0		wordfreq
 齐河路	2.19	0		wordfreq
@@ -919350,6 +919713,7 @@ word	general	ours_count	ours_per_million	sources
 齐祖	2.66	0		wordfreq
 齐秋	2.9	0		wordfreq
 齐秦	2.87	0		wordfreq
+齐税	3.17	0		wordfreq
 齐简公	2.01	0		wordfreq
 齐米卡斯	1.84	0		wordfreq
 齐纨鲁缟	0.0	0		none
@@ -919414,6 +919778,7 @@ word	general	ours_count	ours_per_million	sources
 齐驱并进	1.17	0		wordfreq
 齐驱并驾	0.37	0		wordfreq
 齐驱并骤	0.06	0		wordfreq
+齐驾	2.8	0		wordfreq
 齐高	3.35	0		wordfreq
 齐鲁	3.24	0		wordfreq
 齐鲁保	2.22	0		wordfreq

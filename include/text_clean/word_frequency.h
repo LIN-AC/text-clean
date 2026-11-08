@@ -27,13 +27,19 @@ public:
 
     std::size_t size() const { return zipf_mode_ ? zipfs_.size() : counts_.size(); }
     bool empty() const { return zipf_mode_ ? zipfs_.empty() : counts_.empty(); }
-    void clear() { counts_.clear(); zipfs_.clear(); zipf_mode_=false; }
+    void clear() { counts_.clear(); zipfs_.clear(); char_zipfs_.clear(); zipf_mode_=false; }
     // Zipf=log10(occurrences per billion tokens). Missing is not zero.
     // This mode does not consume domain counts or character-independence counts.
     void use_zipf() { clear(); zipf_mode_=true; }
     bool is_zipf() const { return zipf_mode_; }
     void add_zipf(std::u32string word, double value);
     std::optional<double> zipf(const std::u32string& word) const;
+
+    // 单字 Zipf 证据：只在 MissingEvidence::CharEstimate 下用来补原文缺口。
+    // 与词级证据同尺度（每十亿词次的 log10），不参与旧次数口径。
+    void add_char_zipf(char32_t ch, double value);
+    std::optional<double> char_zipf(char32_t ch) const;
+    std::size_t char_size() const { return char_zipfs_.size(); }
 
     const std::unordered_map<std::u32string, std::uint64_t>& entries() const {
         return counts_;
@@ -42,6 +48,7 @@ public:
 private:
     std::unordered_map<std::u32string, std::uint64_t> counts_;
     std::unordered_map<std::u32string, double> zipfs_;
+    std::unordered_map<char32_t, double> char_zipfs_;
     bool zipf_mode_ = false;
 };
 

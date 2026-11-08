@@ -1,0 +1,107 @@
+[
+  {
+    "a": 980,
+    "b": 982,
+    "source": "以同",
+    "target": "一同",
+    "label": "FP"
+  },
+  {
+    "a": 990,
+    "b": 992,
+    "source": "以始",
+    "target": "一时",
+    "label": "wrong"
+  },
+  {
+    "a": 1002,
+    "b": 1004,
+    "source": "为敬",
+    "target": "魏晋",
+    "label": "wrong"
+  },
+  {
+    "a": 3346,
+    "b": 3348,
+    "source": "时事",
+    "target": "逝世",
+    "label": "wrong"
+  },
+  {
+    "a": 3378,
+    "b": 3380,
+    "source": "一指",
+    "target": "一时",
+    "label": "wrong"
+  },
+  {
+    "a": 3515,
+    "b": 3517,
+    "source": "势的",
+    "target": "事例",
+    "label": "wrong"
+  },
+  {
+    "a": 3620,
+    "b": 3622,
+    "source": "手句",
+    "target": "首句",
+    "label": "TP"
+  },
+  {
+    "a": 3662,
+    "b": 3664,
+    "source": "手句",
+    "target": "首句",
+    "label": "TP"
+  },
+  {
+    "a": 3804,
+    "b": 3806,
+    "source": "手句",
+    "target": "首句",
+    "label": "TP"
+  },
+  {
+    "a": 3849,
+    "b": 3851,
+    "source": "手句",
+    "target": "首句",
+    "label": "TP"
+  },
+  {
+    "a": 3906,
+    "b": 3908,
+    "source": "手句",
+    "target": "首句",
+    "label": "TP"
+  },
+  {
+    "a": 4021,
+    "b": 4023,
+    "source": "手句",
+    "target": "首句",
+    "label": "TP"
+  },
+  {
+    "a": 4180,
+    "b": 4182,
+    "source": "一纸",
+    "target": "一时",
+    "label": "FP"
+  },
+  {
+    "a": 4375,
+    "b": 4377,
+    "source": "事事",
+    "target": "逝世",
+    "label": "FP"
+  },
+  {
+    "a": 4625,
+    "b": 4627,
+    "source": "事事",
+    "target": "逝世",
+    "label": "FP"
+  }
+]

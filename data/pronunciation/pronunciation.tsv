@@ -4,7 +4,7 @@
 # columns: entry	readings
 # note: 方括号内逗号分隔的多读音拆成 | 分隔，不再拼成一串；只保留简体侧
 # generated_by: tools/normalize_dicts.py
-# generated_at: 2026-11-06T03:11:20
+# generated_at: 2026-11-08T01:40:51
 entry	readings
 110	yao1yao1ling2
 119	yao1yao1jiu3

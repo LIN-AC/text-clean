@@ -1,0 +1,15 @@
+{
+ "single_total": 1080,
+ "single_fixed": 40,
+ "tone_same": 670,
+ "tone_diff": 218,
+ "base_diff": 182,
+ "no_reading": 10,
+ "longer_window_rescuable": 99,
+ "longer_by_n": {
+  "2": 90,
+  "4": 4,
+  "3": 5
+ },
+ "rare_truth": 0
+}

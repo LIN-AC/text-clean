@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "branch": "exp/m1-m2-missing-evidence",
+  "commit": "877b6a2ef489b1b3a7dcd7b4ef0a7f7028193689",
+  "worktree": "23 个已跟踪文件有未提交改动（M1/M2/M3/消融开关）",
+  "binary": {
+    "path": "build/e025/text_clean.exe",
+    "sha256_16": "6493c6f829fd7f58"
+  },
+  "default_output_equals_e024_binary": "7/7 视频 stdout 逐字节相同",
+  "ctest": "24/24 通过（需把 TEMP/TMP 指到工程内目录，否则 7 项因 Low-IL 写不了系统 TEMP 假红）",
+  "frozen_inputs": {
+    "asr_gt": {
+      "BV163xB6zEwF.gt.jsonl": "74cb200aa188500e",
+      "BV18mxx64Es3.gt.jsonl": "c3b7dd0527b85e03",
+      "BV19T4P6MEWp.gt.jsonl": "918276a87c371c8b",
+      "BV1LBxq6AEVn.gt.jsonl": "a400121a5cb952fd",
+      "BV1sxxX64E4E.gt.jsonl": "7fdd8ce4791d59b5",
+      "BV1uUak6pEdK.gt.jsonl": "3758e782761820ae",
+      "BV1XgxE6BEqn.gt.jsonl": "91fb6c9dc6b27644"
+    },
+    "data": {
+      "data/ac/ac_lock.tsv": "e6ac096b7f90e9a6",
+      "data/correction/candidates.tsv": "4b3485ca2a34d7a9",
+      "data/frequency/char_freq.tsv": "64c2732f35b4ec5e",
+      "data/frequency/word_freq.tsv": "1c6807b5bfea8411",
+      "data/old/dict.txt": "7197c3211ddd9896",
+      "data/old/lexicon.txt": "8b114342e87b906f",
+      "data/old/pinyin_dict.txt": "513c558690e71ab1",
+      "data/old/sample_document.txt": "dac55d344ab7fdfd",
+      "data/old/SUBTLEX-CH-WF": "086536450b1f77d0",
+      "data/old/SUBTLEX-CH-WF.xlsx": "4b0c91f11dd5b419",
+      "data/old/THUOCL_chengyu.txt": "c339d5d6e37d4f8e",
+      "data/old/THUOCL_diming.txt": "ca5574399da5750a",
+      "data/old/word.txt.seed.bak": "0866fe4904746129",
+      "data/old/word_freq.txt": "d6198ce837a803ac",
+      "data/pronunciation/pronunciation.tsv": "407fbf533f562423",
+      "data/pronunciation/pronunciation_char.tsv": "a0dc67e8d5a511e5",
+      "data/PROVENANCE.tsv": "2b178a77a913bb11",
+      "data/vocabulary/extvocabulary.tsv": "d345d7fa87aae8b0",
+      "data/vocabulary/vocabulary.tsv": "c962719a9fdc10d1"
+    },
+    "derived_counts": {
+      "path": "build/e025_data/derived_from_zipf.txt",
+      "sha256_16": "fe6102c8263a93c0",
+      "rows": 854614
+    }
+  },
+  "sources": {
+    "src/text_cleaner.cpp": "3eac8195ecec9d3e",
+    "src/main.cpp": "33b73ee6b94a364a",
+    "include/text_clean/text_cleaner.h": "56b745042d60b9bd",
+    "src/word_frequency.cpp": "3701fa95d83ad2e3",
+    "src/dictionary_bundle.cpp": "ddfafac678838044"
+  },
+  "scripts": {
+    "attribute.py": "46c8b2822f98647c",
+    "classify_vanish.py": "d1b058525186a46c",
+    "make_derived_counts.py": "a23f77676e7ad035"
+  },
+  "align_lib": {
+    "path": "experiments/E024/scripts/align_lib.py",
+    "sha256_16": "825e9a69385a1dd8",
+    "provenance": "arms.py 第16-81行逐字复制"
+  },
+  "noop_reference": {
+    "总编辑距离": 2024,
+    "说明": "第一版把 noop 臂接成了默认运行(得 2047)，已改为不调二进制的解析计算；其余臂不受影响"
+  },
+  "result_files": [
+    "experiments/E025/results/attribute.json",
+    "experiments/E025/results/vanish_classified.txt",
+    "experiments/E025/results/run.log"
+  ]
+}

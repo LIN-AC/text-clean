@@ -1,0 +1,89 @@
+Test project D:/text_clean/build/current
+      Start  1: test_utf8
+ 1/19 Test  #1: test_utf8 ........................   Passed    0.07 sec
+      Start  2: test_ac_automaton
+ 2/19 Test  #2: test_ac_automaton ................   Passed    0.06 sec
+      Start  3: test_pinyin_index
+ 3/19 Test  #3: test_pinyin_index ................   Passed    0.06 sec
+      Start  4: test_edit_distance
+ 4/19 Test  #4: test_edit_distance ...............   Passed    0.06 sec
+      Start  5: test_pinyin_dict
+ 5/19 Test  #5: test_pinyin_dict .................   Passed    0.11 sec
+      Start  6: test_lexicon
+ 6/19 Test  #6: test_lexicon .....................   Passed    0.06 sec
+      Start  7: test_word_maintaining
+ 7/19 Test  #7: test_word_maintaining ............   Passed    0.07 sec
+      Start  8: test_word_frequency
+ 8/19 Test  #8: test_word_frequency ..............   Passed    0.07 sec
+      Start  9: test_char_frequency
+ 9/19 Test  #9: test_char_frequency ..............   Passed    0.07 sec
+      Start 10: test_text_split
+10/19 Test #10: test_text_split ..................   Passed    0.05 sec
+      Start 11: test_word_review
+11/19 Test #11: test_word_review .................   Passed    0.06 sec
+      Start 12: test_text_cleaner
+12/19 Test #12: test_text_cleaner ................***Exception: SegFault  3.00 sec
+D:\text_clean\tests\test_text_cleaner.cpp:127: CHECK failed: result.matches.size() == std::size_t{1} (expected 1, got 0)
+
+      Start 13: test_legitimacy
+13/19 Test #13: test_legitimacy ..................   Passed    0.22 sec
+      Start 14: test_tone_correction
+14/19 Test #14: test_tone_correction .............***Exception: SegFault  2.90 sec
+D:\text_clean\tests\test_tone_correction.cpp:153: CHECK failed: power.matches.size() == std::size_t{1} (expected 1, got 0)
+
+      Start 15: test_video_context
+15/19 Test #15: test_video_context ...............***Failed    0.41 sec
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我买了微星主板, got 我买了微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 请在微信里讨论微星主板, got 请在微信里讨论微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我在微信群里讨论微星显卡, got 我在微信群里讨论微信显卡)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 微星笔记本用于开发, got 微信笔记本用于开发)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 在微信里比较微星和华为的产品, got 在微信里比较微信和华为的产品)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我买了微星主板, got 我买了微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 请在微信里讨论微星主板, got 请在微信里讨论微信主板)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 我在微信群里讨论微星显卡, got 我在微信群里讨论微信显卡)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 微星笔记本用于开发, got 微信笔记本用于开发)
+D:\text_clean\tests\test_video_context.cpp:30: CHECK failed: cleaner.clean(correct, misleading).text == correct (expected 在微信里比较微星和华为的产品, got 在微信里比较微信和华为的产品)
+test_video_context: 10 of 103 checks failed
+
+      Start 16: test_ngram_veto
+16/19 Test #16: test_ngram_veto ..................   Passed    0.06 sec
+      Start 17: test_cli_context
+17/19 Test #17: test_cli_context .................***Failed    1.94 sec
+Traceback (most recent call last):
+  File "D:/text_clean/tests/test_cli_context.py", line 9, in <module>
+    assert clean_subtitles(exe, "微信", "微信教程", "薇星") == "微信\n"
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\text_clean\tools\bili2md_text_clean.py", line 19, in clean_subtitles
+    result = subprocess.run(
+        [executable, "--title-file", str(title_file),
+    ...<2 lines>...
+        stderr=subprocess.PIPE, check=True,
+    )
+  File "D:\msys64\mingw64\lib\python3.14\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['D:\\text_clean\\build\\current\\text_clean.exe', '--title-file', 'D:\\text_clean\\build\\current\\text_clean_gylrqn4e\\title.txt', '--description-file', 'D:\\text_clean\\build\\current\\text_clean_gylrqn4e\\description.txt']' returned non-zero exit status 2.
+
+      Start 18: test_priority
+18/19 Test #18: test_priority ....................***Failed    0.25 sec
+D:\text_clean\tests\test_priority.cpp:23: CHECK failed: safe.clean(utf8::encode(pair.first),context).text == utf8::encode(pair.first) (expected 微星, got 微信)
+D:\text_clean\tests\test_priority.cpp:23: CHECK failed: safe.clean(utf8::encode(pair.first),context).text == utf8::encode(pair.first) (expected 李白, got 李柏)
+D:\text_clean\tests\test_priority.cpp:23: CHECK failed: safe.clean(utf8::encode(pair.first),context).text == utf8::encode(pair.first) (expected 陈晨, got 陈辰)
+D:\text_clean\tests\test_priority.cpp:23: CHECK failed: safe.clean(utf8::encode(pair.first),context).text == utf8::encode(pair.first) (expected 熵增, got 商增)
+D:\text_clean\tests\test_priority.cpp:65: CHECK failed: boundary.clean("在位信群").text == std::string("在位信群") (expected 在位信群, got 在微信群)
+D:\text_clean\tests\test_priority.cpp:66: CHECK failed: boundary.clean("支付保证金").text == std::string("支付保证金") (expected 支付保证金, got 支付宝证金)
+test_priority: 6 of 29 checks failed
+
+      Start 19: test_word_pronunciation
+19/19 Test #19: test_word_pronunciation ..........   Passed    0.09 sec
+
+74% tests passed, 5 tests failed out of 19
+
+Total Test time (real) =   9.64 sec
+
+The following tests FAILED:
+	 12 - test_text_cleaner (SEGFAULT)
+	 14 - test_tone_correction (SEGFAULT)
+	 15 - test_video_context (Failed)
+	 17 - test_cli_context (Failed)
+	 18 - test_priority (Failed)

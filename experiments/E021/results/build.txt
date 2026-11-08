@@ -1,0 +1,44 @@
+[  3%] Built target tc_ac
+[  6%] Built target tc_pinyin_index
+[  9%] Built target tc_pinyin_dict
+[ 12%] Built target tc_lexicon
+[ 15%] Built target tc_word_maintaining
+[ 18%] Built target tc_word_frequency
+[ 21%] Built target tc_text_split
+[ 24%] Built target tc_video_context
+[ 27%] Built target tc_char_frequency
+[ 30%] Built target tc_vocabulary
+[ 33%] Built target test_utf8
+[ 36%] Built target test_ac_automaton
+[ 39%] Built target test_pinyin_index
+[ 42%] Built target test_edit_distance
+[ 45%] Built target test_pinyin_dict
+[ 48%] Built target test_lexicon
+[ 51%] Built target test_word_maintaining
+[ 54%] Built target test_word_frequency
+[ 57%] Built target test_char_frequency
+[ 60%] Built target test_text_split
+[ 63%] Built target tc_word_review
+[ 68%] Built target tc_dictionary_bundle
+[ 71%] Built target test_word_review
+[ 74%] Built target test_dictionary_bundle
+[ 65%] Building CXX object CMakeFiles/tc_pipeline.dir/src/text_cleaner.cpp.obj
+[ 75%] Linking CXX static library libtc_pipeline.a
+[ 75%] Built target tc_pipeline
+[ 77%] Linking CXX executable test_text_cleaner.exe
+[ 81%] Linking CXX executable test_legitimacy.exe
+[ 83%] Built target test_text_cleaner
+[ 80%] Linking CXX executable text_clean.exe
+[ 84%] Built target test_legitimacy
+[ 86%] Built target text_clean
+[ 87%] Linking CXX executable test_tone_correction.exe
+[ 89%] Linking CXX executable test_video_context.exe
+[ 92%] Built target test_tone_correction
+[ 90%] Linking CXX executable test_priority.exe
+[ 93%] Built target test_video_context
+[ 95%] Built target test_priority
+[ 96%] Linking CXX executable test_word_pronunciation.exe
+[ 98%] Built target test_word_pronunciation
+[ 78%] Building CXX object CMakeFiles/test_decision_safety.dir/tests/test_decision_safety.cpp.obj
+[100%] Linking CXX executable test_decision_safety.exe
+[100%] Built target test_decision_safety

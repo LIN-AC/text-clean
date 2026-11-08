@@ -149,4 +149,14 @@ std::optional<double> WordFrequency::zipf(const std::u32string& word) const {
     auto it=zipfs_.find(word);
     return it==zipfs_.end()?std::nullopt:std::optional<double>(it->second);
 }
+void WordFrequency::add_char_zipf(char32_t ch, double value) {
+    if(!zipf_mode_) throw std::logic_error("select Zipf mode before adding evidence");
+    if(ch == 0 || !std::isfinite(value) || value<=0 || value>10)
+        throw std::invalid_argument("character Zipf evidence must be finite and positive");
+    char_zipfs_[ch]=value;
+}
+std::optional<double> WordFrequency::char_zipf(char32_t ch) const {
+    auto it=char_zipfs_.find(ch);
+    return it==char_zipfs_.end()?std::nullopt:std::optional<double>(it->second);
+}
 }  // namespace text_clean

@@ -1,0 +1,147 @@
+Test project D:/text_clean/build/baseline
+      Start  1: test_utf8
+ 1/19 Test  #1: test_utf8 ........................   Passed    0.20 sec
+      Start  2: test_ac_automaton
+ 2/19 Test  #2: test_ac_automaton ................   Passed    0.06 sec
+      Start  3: test_pinyin_index
+ 3/19 Test  #3: test_pinyin_index ................   Passed    0.07 sec
+      Start  4: test_edit_distance
+ 4/19 Test  #4: test_edit_distance ...............   Passed    0.06 sec
+      Start  5: test_pinyin_dict
+ 5/19 Test  #5: test_pinyin_dict .................***Failed    4.51 sec
+terminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
+  what():  filesystem error: temp_directory_path: No such file or directory [C:\Users\Lin\AppData\Local\Packages\sandbox.{ac4a660f-1ec9-4e01-a69f-a90f366ae882}\AC\Temp\Low\]
+
+      Start  6: test_lexicon
+ 6/19 Test  #6: test_lexicon .....................***Failed    3.38 sec
+terminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
+  what():  filesystem error: temp_directory_path: No such file or directory [C:\Users\Lin\AppData\Local\Packages\sandbox.{ac4a660f-1ec9-4e01-a69f-a90f366ae882}\AC\Temp\Low\]
+
+      Start  7: test_word_maintaining
+ 7/19 Test  #7: test_word_maintaining ............***Failed    4.09 sec
+terminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
+  what():  filesystem error: temp_directory_path: No such file or directory [C:\Users\Lin\AppData\Local\Packages\sandbox.{ac4a660f-1ec9-4e01-a69f-a90f366ae882}\AC\Temp\Low\]
+
+      Start  8: test_word_frequency
+ 8/19 Test  #8: test_word_frequency ..............***Failed    3.40 sec
+terminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
+  what():  filesystem error: temp_directory_path: No such file or directory [C:\Users\Lin\AppData\Local\Packages\sandbox.{ac4a660f-1ec9-4e01-a69f-a90f366ae882}\AC\Temp\Low\]
+
+      Start  9: test_char_frequency
+ 9/19 Test  #9: test_char_frequency ..............   Passed    0.06 sec
+      Start 10: test_text_split
+10/19 Test #10: test_text_split ..................   Passed    0.06 sec
+      Start 11: test_word_review
+11/19 Test #11: test_word_review .................***Failed    3.11 sec
+terminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
+  what():  filesystem error: temp_directory_path: No such file or directory [C:\Users\Lin\AppData\Local\Packages\sandbox.{ac4a660f-1ec9-4e01-a69f-a90f366ae882}\AC\Temp\Low\]
+
+      Start 12: test_text_cleaner
+12/19 Test #12: test_text_cleaner ................   Passed    0.08 sec
+      Start 13: test_legitimacy
+13/19 Test #13: test_legitimacy ..................***Exception: SegFault  2.85 sec
+D:\text_clean\tests\test_legitimacy.cpp:74: CHECK failed: dict.load_file(path, &error)
+  cannot open pinyin dictionary: D:/text_clean/data/pinyin_dict.txt
+D:\text_clean\tests\test_legitimacy.cpp:74: CHECK failed: dict.load_file(path, &error)
+  cannot open pinyin dictionary: D:/text_clean/data/pinyin_dict.txt
+D:\text_clean\tests\test_legitimacy.cpp:98: CHECK failed: result.text == std::string(u8"第一") (expected 第一, got 的一)
+D:\text_clean\tests\test_legitimacy.cpp:99: CHECK failed: result.matches.size() == std::size_t{1} (expected 1, got 0)
+D:\text_clean\tests\test_legitimacy.cpp:74: CHECK failed: dict.load_file(path, &error)
+  cannot open pinyin dictionary: D:/text_clean/data/pinyin_dict.txt
+D:\text_clean\tests\test_legitimacy.cpp:108: CHECK failed: result.text == std::string(u8"颈椎") (expected 颈椎, got 颈锥)
+D:\text_clean\tests\test_legitimacy.cpp:109: CHECK failed: result.matches.size() == std::size_t{1} (expected 1, got 0)
+
+      Start 14: test_tone_correction
+14/19 Test #14: test_tone_correction .............***Exception: SegFault  4.84 sec
+D:\text_clean\tests\test_tone_correction.cpp:92: CHECK failed: dict.load_file(path, &error)
+  cannot open pinyin dictionary: D:/text_clean/data/pinyin_dict.txt
+D:\text_clean\tests\test_tone_correction.cpp:106: CHECK failed: PinyinDict::toned_distance(damage, remains, 3) == std::size_t{1} (expected 1, got 4)
+D:\text_clean\tests\test_tone_correction.cpp:110: CHECK failed: PinyinDict::toned_distance(right, power, 3) == std::size_t{0} (expected 0, got 4)
+D:\text_clean\tests\test_tone_correction.cpp:114: CHECK failed: PinyinDict::toned_distance(bank, bank_typo, 3) == std::size_t{0} (expected 0, got 4)
+D:\text_clean\tests\test_tone_correction.cpp:118: CHECK failed: PinyinDict::toned_distance(his, his_typo, 3) == std::size_t{1} (expected 1, got 4)
+D:\text_clean\tests\test_tone_correction.cpp:123: CHECK failed: PinyinDict::toned_distance(payment, alipay, 3) == std::size_t{2} (expected 2, got 6)
+D:\text_clean\tests\test_tone_correction.cpp:126: CHECK failed: PinyinDict::toned_distance(wei_xing, wechat, 3) == std::size_t{3} (expected 3, got 4)
+D:\text_clean\tests\test_tone_correction.cpp:92: CHECK failed: dict.load_file(path, &error)
+  cannot open pinyin dictionary: D:/text_clean/data/pinyin_dict.txt
+D:\text_clean\tests\test_tone_correction.cpp:92: CHECK failed: dict.load_file(path, &error)
+  cannot open pinyin dictionary: D:/text_clean/data/pinyin_dict.txt
+D:\text_clean\tests\test_tone_correction.cpp:167: CHECK failed: wechat.text == std::string(u8"微信") (expected 微信, got 薇信)
+D:\text_clean\tests\test_tone_correction.cpp:168: CHECK failed: wechat.matches.size() == std::size_t{1} (expected 1, got 0)
+
+      Start 15: test_video_context
+15/19 Test #15: test_video_context ...............***Failed    0.08 sec
+D:\text_clean\tests\test_video_context.cpp:10: CHECK failed: dict.load_file(std::string(TC_DATA_DIR) + "/pinyin_dict.txt", &error)
+D:\text_clean\tests\test_video_context.cpp:12: CHECK failed: Lexicon::load_file(std::string(TC_DATA_DIR) + "/lexicon.txt", [&](const std::u32string& w) { return dict.to_pinyin(w); }, lex, &error)
+D:\text_clean\tests\test_video_context.cpp:15: CHECK failed: freq.load_file(std::string(TC_DATA_DIR) + "/word_freq.txt", &error)
+D:\text_clean\tests\test_video_context.cpp:17: CHECK failed: vocabulary.load_file(std::string(TC_DATA_DIR) + "/dict.txt", &error)
+D:\text_clean\tests\test_video_context.cpp:36: CHECK failed: cleaner.clean("薇星", ctx).text == std::string("微信") (expected 微信, got 薇星)
+D:\text_clean\tests\test_video_context.cpp:40: CHECK failed: cleaner.clean("薇星", corroborated).text == std::string("微信") (expected 微信, got 薇星)
+D:\text_clean\tests\test_video_context.cpp:54: CHECK failed: cleaner.clean("他在位信群里说").text == std::string("他在微信群里说") (expected 他在微信群里说, got 他在位信群里说)
+D:\text_clean\tests\test_video_context.cpp:55: CHECK failed: cleaner.clean("支付保").text == std::string("支付宝") (expected 支付宝, got 支付保)
+D:\text_clean\tests\test_video_context.cpp:59: CHECK failed: result.text == std::string("微信、支付宝、他在微信群里说") (expected 微信、支付宝、他在微信群里说, got 位信、支付保、他在位信群里说)
+test_video_context: 9 of 101 checks failed
+
+      Start 16: test_ngram_veto
+16/19 Test #16: test_ngram_veto ..................   Passed    0.21 sec
+      Start 17: test_cli_context
+17/19 Test #17: test_cli_context .................***Failed    0.66 sec
+Traceback (most recent call last):
+  File "D:/text_clean/tests/test_cli_context.py", line 9, in <module>
+    assert clean_subtitles(exe, "΢��", "΢�Ž̳�", "ޱ��") == "΢��\n"
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\text_clean\tools\bili2md_text_clean.py", line 19, in clean_subtitles
+    result = subprocess.run(
+        [executable, "--title-file", str(title_file),
+    ...<2 lines>...
+        stderr=subprocess.PIPE, check=True,
+    )
+  File "D:\msys64\mingw64\lib\python3.14\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['D:\\text_clean\\build\\baseline\\text_clean.exe', '--title-file', 'D:\\text_clean\\build\\baseline\\text_clean_gte0meec\\title.txt', '--description-file', 'D:\\text_clean\\build\\baseline\\text_clean_gte0meec\\description.txt']' returned non-zero exit status 2.
+
+      Start 18: test_priority
+18/19 Test #18: test_priority ....................***Failed    0.06 sec
+D:\text_clean\tests\test_priority.cpp:14: CHECK failed: d.load_file(std::string(TC_DATA_DIR)+"/pinyin_dict.txt", &error)
+D:\text_clean\tests\test_priority.cpp:19: CHECK failed: unsafe.clean(pair.first).text != utf8::encode(pair.first)
+D:\text_clean\tests\test_priority.cpp:19: CHECK failed: unsafe.clean(pair.first).text != utf8::encode(pair.first)
+D:\text_clean\tests\test_priority.cpp:19: CHECK failed: unsafe.clean(pair.first).text != utf8::encode(pair.first)
+D:\text_clean\tests\test_priority.cpp:19: CHECK failed: unsafe.clean(pair.first).text != utf8::encode(pair.first)
+D:\text_clean\tests\test_priority.cpp:35: CHECK failed: loaded.load_file(std::string(TC_DATA_DIR)+"/dict.txt", &error)
+D:\text_clean\tests\test_priority.cpp:36: CHECK failed: loaded.contains(U"微星")
+D:\text_clean\tests\test_priority.cpp:42: CHECK failed: poly.clean("行芒").text == std::string("航芒") (expected 航芒, got 行芒)
+D:\text_clean\tests\test_priority.cpp:44: CHECK failed: PinyinDict::toned_distance(a,b,5) == std::size_t{2} (expected 2, got 4)
+D:\text_clean\tests\test_priority.cpp:59: CHECK failed: later.clean("薇信包").text == std::string("薇信宝") (expected 薇信宝, got 薇信包)
+D:\text_clean\tests\test_priority.cpp:69: CHECK failed: edges.clean("在位信").text == std::string("在微信") (expected 在微信, got 在位信)
+D:\text_clean\tests\test_priority.cpp:70: CHECK failed: edges.clean("薇信件").text == std::string("微信件") (expected 微信件, got 薇信件)
+test_priority: 12 of 29 checks failed
+
+      Start 19: test_word_pronunciation
+19/19 Test #19: test_word_pronunciation ..........***Failed    0.07 sec
+D:\text_clean\tests\test_word_pronunciation.cpp:18: CHECK failed: d.load_file(std::string(TC_DATA_DIR)+"/pinyin_dict.txt",&error)
+D:\text_clean\tests\test_word_pronunciation.cpp:20: CHECK failed: PinyinDict::aligned_distance(d.to_toned_syllables(U"微深"), d.to_toned_syllables(U"微信"),2) == std::size_t{0} (expected 0, got 3)
+D:\text_clean\tests\test_word_pronunciation.cpp:29: CHECK failed: c.clean("薇信").text == std::string("微信") (expected 微信, got 薇信)
+D:\text_clean\tests\test_word_pronunciation.cpp:30: CHECK failed: c.clean("位信").text == std::string("微信") (expected 微信, got 位信)
+D:\text_clean\tests\test_word_pronunciation.cpp:29: CHECK failed: c.clean("薇信").text == std::string("微信") (expected 微信, got 薇信)
+D:\text_clean\tests\test_word_pronunciation.cpp:30: CHECK failed: c.clean("位信").text == std::string("微信") (expected 微信, got 位信)
+D:\text_clean\tests\test_word_pronunciation.cpp:35: CHECK failed: bank.clean("银航").text == std::string("银行") (expected 银行, got 银航)
+D:\text_clean\tests\test_word_pronunciation.cpp:39: CHECK failed: source_poly.clean("行芒").text == std::string("航芒") (expected 航芒, got 行芒)
+test_word_pronunciation: 8 of 40 checks failed
+
+
+42% tests passed, 11 tests failed out of 19
+
+Total Test time (real) =  27.88 sec
+
+The following tests FAILED:
+	  5 - test_pinyin_dict (Failed)
+	  6 - test_lexicon (Failed)
+	  7 - test_word_maintaining (Failed)
+	  8 - test_word_frequency (Failed)
+	 11 - test_word_review (Failed)
+	 13 - test_legitimacy (SEGFAULT)
+	 14 - test_tone_correction (SEGFAULT)
+	 15 - test_video_context (Failed)
+	 17 - test_cli_context (Failed)
+	 18 - test_priority (Failed)
+	 19 - test_word_pronunciation (Failed)

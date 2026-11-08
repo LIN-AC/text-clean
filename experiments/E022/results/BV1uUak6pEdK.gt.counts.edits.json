@@ -1,0 +1,1199 @@
+[
+  {
+    "a": 587,
+    "b": 589,
+    "source": "甲州",
+    "target": "甲胄",
+    "label": "TP"
+  },
+  {
+    "a": 692,
+    "b": 694,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 1325,
+    "b": 1327,
+    "source": "辅恤",
+    "target": "俯伏",
+    "label": "wrong"
+  },
+  {
+    "a": 1491,
+    "b": 1493,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 1509,
+    "b": 1511,
+    "source": "后事",
+    "target": "后世",
+    "label": "TP"
+  },
+  {
+    "a": 1555,
+    "b": 1557,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 1582,
+    "b": 1584,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 1601,
+    "b": 1603,
+    "source": "人证",
+    "target": "仁政",
+    "label": "TP"
+  },
+  {
+    "a": 1713,
+    "b": 1717,
+    "source": "清姚伯父",
+    "target": "轻徭薄赋",
+    "label": "TP"
+  },
+  {
+    "a": 1898,
+    "b": 1900,
+    "source": "现关",
+    "target": "县官",
+    "label": "TP"
+  },
+  {
+    "a": 1997,
+    "b": 2001,
+    "source": "卖关于绝",
+    "target": "卖官鬻爵",
+    "label": "TP"
+  },
+  {
+    "a": 2281,
+    "b": 2283,
+    "source": "把盐",
+    "target": "伯颜",
+    "label": "FP"
+  },
+  {
+    "a": 2470,
+    "b": 2473,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 2649,
+    "b": 2651,
+    "source": "盐价",
+    "target": "盐铁",
+    "label": "FP"
+  },
+  {
+    "a": 2675,
+    "b": 2677,
+    "source": "光武",
+    "target": "光绪",
+    "label": "wrong"
+  },
+  {
+    "a": 2718,
+    "b": 2720,
+    "source": "齐驾",
+    "target": "起价",
+    "label": "TP"
+  },
+  {
+    "a": 3344,
+    "b": 3346,
+    "source": "填富",
+    "target": "田赋",
+    "label": "TP"
+  },
+  {
+    "a": 3661,
+    "b": 3664,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 3729,
+    "b": 3732,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 3882,
+    "b": 3885,
+    "source": "丧红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 3888,
+    "b": 3890,
+    "source": "近视",
+    "target": "进士",
+    "label": "TP"
+  },
+  {
+    "a": 3981,
+    "b": 3983,
+    "source": "时局",
+    "target": "实际",
+    "label": "FP"
+  },
+  {
+    "a": 4022,
+    "b": 4025,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 4090,
+    "b": 4093,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 4182,
+    "b": 4184,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "TP"
+  },
+  {
+    "a": 4216,
+    "b": 4218,
+    "source": "威阳",
+    "target": "未央",
+    "label": "TP"
+  },
+  {
+    "a": 4229,
+    "b": 4231,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "FP"
+  },
+  {
+    "a": 4303,
+    "b": 4305,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "TP"
+  },
+  {
+    "a": 4311,
+    "b": 4313,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "TP"
+  },
+  {
+    "a": 4432,
+    "b": 4434,
+    "source": "自生",
+    "target": "滋生",
+    "label": "TP"
+  },
+  {
+    "a": 5001,
+    "b": 5004,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 5107,
+    "b": 5110,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 5162,
+    "b": 5165,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 5172,
+    "b": 5174,
+    "source": "一统",
+    "target": "一同",
+    "label": "FP"
+  },
+  {
+    "a": 5258,
+    "b": 5260,
+    "source": "民争",
+    "target": "民政",
+    "label": "FP"
+  },
+  {
+    "a": 5263,
+    "b": 5266,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 5346,
+    "b": 5349,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 5433,
+    "b": 5435,
+    "source": "民争",
+    "target": "民政",
+    "label": "FP"
+  },
+  {
+    "a": 5443,
+    "b": 5446,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 5902,
+    "b": 5905,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 6007,
+    "b": 6009,
+    "source": "人政",
+    "target": "仁政",
+    "label": "TP"
+  },
+  {
+    "a": 6023,
+    "b": 6026,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 6039,
+    "b": 6041,
+    "source": "如生",
+    "target": "儒生",
+    "label": "TP"
+  },
+  {
+    "a": 6134,
+    "b": 6138,
+    "source": "轻咬伯父",
+    "target": "轻徭薄赋",
+    "label": "TP"
+  },
+  {
+    "a": 6618,
+    "b": 6620,
+    "source": "藩政",
+    "target": "藩镇",
+    "label": "TP"
+  },
+  {
+    "a": 6663,
+    "b": 6665,
+    "source": "葳扬",
+    "target": "未央",
+    "label": "wrong"
+  },
+  {
+    "a": 6778,
+    "b": 6780,
+    "source": "葳扬",
+    "target": "未央",
+    "label": "wrong"
+  },
+  {
+    "a": 7524,
+    "b": 7526,
+    "source": "独流",
+    "target": "毒瘤",
+    "label": "TP"
+  },
+  {
+    "a": 8093,
+    "b": 8095,
+    "source": "填付",
+    "target": "田赋",
+    "label": "TP"
+  },
+  {
+    "a": 8223,
+    "b": 8225,
+    "source": "豪墙",
+    "target": "豪强",
+    "label": "TP"
+  },
+  {
+    "a": 8776,
+    "b": 8778,
+    "source": "豪墙",
+    "target": "豪强",
+    "label": "TP"
+  },
+  {
+    "a": 8969,
+    "b": 8971,
+    "source": "光武",
+    "target": "光绪",
+    "label": "FP"
+  },
+  {
+    "a": 9151,
+    "b": 9154,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 9315,
+    "b": 9317,
+    "source": "堆治",
+    "target": "对峙",
+    "label": "TP"
+  },
+  {
+    "a": 9898,
+    "b": 9900,
+    "source": "言说",
+    "target": "岩石",
+    "label": "wrong"
+  },
+  {
+    "a": 9948,
+    "b": 9950,
+    "source": "巴布",
+    "target": "八部",
+    "label": "TP"
+  },
+  {
+    "a": 9976,
+    "b": 9978,
+    "source": "明镇",
+    "target": "名臣",
+    "label": "wrong"
+  },
+  {
+    "a": 10013,
+    "b": 10015,
+    "source": "倒向",
+    "target": "导向",
+    "label": "FP"
+  },
+  {
+    "a": 10104,
+    "b": 10106,
+    "source": "亦是",
+    "target": "一时",
+    "label": "TP"
+  },
+  {
+    "a": 10134,
+    "b": 10136,
+    "source": "禁言",
+    "target": "金银",
+    "label": "FP"
+  },
+  {
+    "a": 10448,
+    "b": 10450,
+    "source": "立身",
+    "target": "厉声",
+    "label": "TP"
+  },
+  {
+    "a": 10982,
+    "b": 10984,
+    "source": "如生",
+    "target": "儒生",
+    "label": "TP"
+  },
+  {
+    "a": 11089,
+    "b": 11091,
+    "source": "豪墙",
+    "target": "豪强",
+    "label": "TP"
+  },
+  {
+    "a": 11710,
+    "b": 11712,
+    "source": "建坑",
+    "target": "建康",
+    "label": "TP"
+  },
+  {
+    "a": 11890,
+    "b": 11892,
+    "source": "建坑",
+    "target": "建康",
+    "label": "TP"
+  },
+  {
+    "a": 12163,
+    "b": 12165,
+    "source": "建杠",
+    "target": "建康",
+    "label": "TP"
+  },
+  {
+    "a": 12248,
+    "b": 12250,
+    "source": "裸旗",
+    "target": "罗绮",
+    "label": "TP"
+  },
+  {
+    "a": 13321,
+    "b": 13323,
+    "source": "一统",
+    "target": "一同",
+    "label": "FP"
+  },
+  {
+    "a": 14473,
+    "b": 14475,
+    "source": "威劲",
+    "target": "魏晋",
+    "label": "TP"
+  },
+  {
+    "a": 14789,
+    "b": 14791,
+    "source": "真关",
+    "target": "贞观",
+    "label": "TP"
+  },
+  {
+    "a": 15180,
+    "b": 15182,
+    "source": "摇役",
+    "target": "徭役",
+    "label": "TP"
+  },
+  {
+    "a": 15353,
+    "b": 15355,
+    "source": "打蛋",
+    "target": "打倒",
+    "label": "wrong"
+  },
+  {
+    "a": 15654,
+    "b": 15656,
+    "source": "豪墙",
+    "target": "豪强",
+    "label": "TP"
+  },
+  {
+    "a": 15808,
+    "b": 15810,
+    "source": "打包",
+    "target": "打倒",
+    "label": "FP"
+  },
+  {
+    "a": 16045,
+    "b": 16047,
+    "source": "藩政",
+    "target": "藩镇",
+    "label": "TP"
+  },
+  {
+    "a": 16098,
+    "b": 16100,
+    "source": "阳言",
+    "target": "扬言",
+    "label": "wrong"
+  },
+  {
+    "a": 16127,
+    "b": 16129,
+    "source": "阳言",
+    "target": "扬言",
+    "label": "wrong"
+  },
+  {
+    "a": 16147,
+    "b": 16149,
+    "source": "阳言",
+    "target": "扬言",
+    "label": "wrong"
+  },
+  {
+    "a": 16190,
+    "b": 16192,
+    "source": "窑西",
+    "target": "徭役",
+    "label": "FP"
+  },
+  {
+    "a": 16432,
+    "b": 16434,
+    "source": "廷仗",
+    "target": "廷杖",
+    "label": "wrong"
+  },
+  {
+    "a": 17114,
+    "b": 17116,
+    "source": "翻证",
+    "target": "藩镇",
+    "label": "TP"
+  },
+  {
+    "a": 17675,
+    "b": 17677,
+    "source": "遍经",
+    "target": "汴京",
+    "label": "TP"
+  },
+  {
+    "a": 17758,
+    "b": 17760,
+    "source": "殷勋",
+    "target": "因循",
+    "label": "TP"
+  },
+  {
+    "a": 17784,
+    "b": 17786,
+    "source": "兼兵",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 18318,
+    "b": 18320,
+    "source": "兼命",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 18329,
+    "b": 18331,
+    "source": "兼命",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 18632,
+    "b": 18634,
+    "source": "失实",
+    "target": "逝世",
+    "label": "FP"
+  },
+  {
+    "a": 19068,
+    "b": 19070,
+    "source": "煎柄",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 19076,
+    "b": 19078,
+    "source": "清淼",
+    "target": "青苗",
+    "label": "TP"
+  },
+  {
+    "a": 19245,
+    "b": 19248,
+    "source": "军税法",
+    "target": "均输法",
+    "label": "wrong"
+  },
+  {
+    "a": 19274,
+    "b": 19276,
+    "source": "帐策",
+    "target": "账册",
+    "label": "TP"
+  },
+  {
+    "a": 19289,
+    "b": 19291,
+    "source": "食的",
+    "target": "实际",
+    "label": "FP"
+  },
+  {
+    "a": 19298,
+    "b": 19301,
+    "source": "军属法",
+    "target": "均输法",
+    "label": "TP"
+  },
+  {
+    "a": 19376,
+    "b": 19378,
+    "source": "兼命",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 19428,
+    "b": 19430,
+    "source": "兼命",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 19751,
+    "b": 19753,
+    "source": "轻描",
+    "target": "青苗",
+    "label": "TP"
+  },
+  {
+    "a": 19915,
+    "b": 19917,
+    "source": "轻描",
+    "target": "青苗",
+    "label": "TP"
+  },
+  {
+    "a": 20261,
+    "b": 20263,
+    "source": "江神",
+    "target": "缰绳",
+    "label": "TP"
+  },
+  {
+    "a": 20275,
+    "b": 20277,
+    "source": "江神",
+    "target": "缰绳",
+    "label": "TP"
+  },
+  {
+    "a": 21292,
+    "b": 21294,
+    "source": "惠子",
+    "target": "惠及",
+    "label": "FP"
+  },
+  {
+    "a": 21411,
+    "b": 21413,
+    "source": "益之",
+    "target": "移植",
+    "label": "wrong"
+  },
+  {
+    "a": 21432,
+    "b": 21434,
+    "source": "益之",
+    "target": "移植",
+    "label": "wrong"
+  },
+  {
+    "a": 21466,
+    "b": 21468,
+    "source": "盐税",
+    "target": "岩石",
+    "label": "FP"
+  },
+  {
+    "a": 21558,
+    "b": 21560,
+    "source": "负语",
+    "target": "富裕",
+    "label": "TP"
+  },
+  {
+    "a": 21664,
+    "b": 21666,
+    "source": "绘子",
+    "target": "惠及",
+    "label": "wrong"
+  },
+  {
+    "a": 21808,
+    "b": 21810,
+    "source": "兼命",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 22009,
+    "b": 22011,
+    "source": "时机",
+    "target": "实际",
+    "label": "FP"
+  },
+  {
+    "a": 22561,
+    "b": 22563,
+    "source": "倒向",
+    "target": "导向",
+    "label": "TP"
+  },
+  {
+    "a": 22587,
+    "b": 22589,
+    "source": "惠子",
+    "target": "惠及",
+    "label": "FP"
+  },
+  {
+    "a": 22596,
+    "b": 22598,
+    "source": "富的",
+    "target": "赋役",
+    "label": "FP"
+  },
+  {
+    "a": 22677,
+    "b": 22679,
+    "source": "惠子",
+    "target": "惠及",
+    "label": "FP"
+  },
+  {
+    "a": 23594,
+    "b": 23596,
+    "source": "惠子",
+    "target": "惠及",
+    "label": "FP"
+  },
+  {
+    "a": 23604,
+    "b": 23606,
+    "source": "惠子",
+    "target": "惠及",
+    "label": "FP"
+  },
+  {
+    "a": 23619,
+    "b": 23621,
+    "source": "关闲",
+    "target": "官衔",
+    "label": "TP"
+  },
+  {
+    "a": 23627,
+    "b": 23629,
+    "source": "杜碟",
+    "target": "度牒",
+    "label": "TP"
+  },
+  {
+    "a": 23631,
+    "b": 23633,
+    "source": "一纸",
+    "target": "一时",
+    "label": "FP"
+  },
+  {
+    "a": 23808,
+    "b": 23810,
+    "source": "前仙",
+    "target": "前线",
+    "label": "TP"
+  },
+  {
+    "a": 24005,
+    "b": 24007,
+    "source": "兼兵",
+    "target": "兼并",
+    "label": "TP"
+  },
+  {
+    "a": 24237,
+    "b": 24239,
+    "source": "一栋",
+    "target": "一同",
+    "label": "TP"
+  },
+  {
+    "a": 24288,
+    "b": 24290,
+    "source": "碑碳",
+    "target": "悲叹",
+    "label": "TP"
+  },
+  {
+    "a": 24651,
+    "b": 24653,
+    "source": "驿战",
+    "target": "驿站",
+    "label": "TP"
+  },
+  {
+    "a": 25126,
+    "b": 25128,
+    "source": "倒向",
+    "target": "导向",
+    "label": "FP"
+  },
+  {
+    "a": 25301,
+    "b": 25303,
+    "source": "政服",
+    "target": "政务",
+    "label": "FP"
+  },
+  {
+    "a": 25324,
+    "b": 25326,
+    "source": "政服",
+    "target": "政务",
+    "label": "FP"
+  },
+  {
+    "a": 25427,
+    "b": 25429,
+    "source": "政服",
+    "target": "政务",
+    "label": "FP"
+  },
+  {
+    "a": 25500,
+    "b": 25502,
+    "source": "截略",
+    "target": "劫掠",
+    "label": "TP"
+  },
+  {
+    "a": 25516,
+    "b": 25518,
+    "source": "截略",
+    "target": "劫掠",
+    "label": "TP"
+  },
+  {
+    "a": 25534,
+    "b": 25536,
+    "source": "截略",
+    "target": "劫掠",
+    "label": "TP"
+  },
+  {
+    "a": 26094,
+    "b": 26096,
+    "source": "申根",
+    "target": "深耕",
+    "label": "TP"
+  },
+  {
+    "a": 26765,
+    "b": 26767,
+    "source": "执币",
+    "target": "纸币",
+    "label": "TP"
+  },
+  {
+    "a": 26772,
+    "b": 26774,
+    "source": "执币",
+    "target": "纸币",
+    "label": "TP"
+  },
+  {
+    "a": 26841,
+    "b": 26843,
+    "source": "奸令",
+    "target": "兼并",
+    "label": "wrong"
+  },
+  {
+    "a": 26855,
+    "b": 26857,
+    "source": "红金",
+    "target": "攻坚",
+    "label": "wrong"
+  },
+  {
+    "a": 27337,
+    "b": 27339,
+    "source": "是税",
+    "target": "逝世",
+    "label": "FP"
+  },
+  {
+    "a": 27640,
+    "b": 27642,
+    "source": "对纸",
+    "target": "对峙",
+    "label": "FP"
+  },
+  {
+    "a": 27767,
+    "b": 27769,
+    "source": "后市",
+    "target": "后世",
+    "label": "TP"
+  },
+  {
+    "a": 28287,
+    "b": 28289,
+    "source": "卖相",
+    "target": "脉象",
+    "label": "TP"
+  },
+  {
+    "a": 28305,
+    "b": 28307,
+    "source": "是避",
+    "target": "事例",
+    "label": "FP"
+  },
+  {
+    "a": 28337,
+    "b": 28339,
+    "source": "腹的",
+    "target": "赋役",
+    "label": "wrong"
+  },
+  {
+    "a": 28339,
+    "b": 28341,
+    "source": "甜母",
+    "target": "田亩",
+    "label": "TP"
+  },
+  {
+    "a": 28393,
+    "b": 28395,
+    "source": "豪墙",
+    "target": "豪强",
+    "label": "TP"
+  },
+  {
+    "a": 28420,
+    "b": 28422,
+    "source": "墨烧",
+    "target": "末梢",
+    "label": "TP"
+  },
+  {
+    "a": 28767,
+    "b": 28769,
+    "source": "填母",
+    "target": "田亩",
+    "label": "TP"
+  },
+  {
+    "a": 28858,
+    "b": 28860,
+    "source": "义账",
+    "target": "驿站",
+    "label": "FP"
+  },
+  {
+    "a": 28878,
+    "b": 28880,
+    "source": "填富",
+    "target": "田赋",
+    "label": "TP"
+  },
+  {
+    "a": 29524,
+    "b": 29526,
+    "source": "停仗",
+    "target": "廷杖",
+    "label": "TP"
+  },
+  {
+    "a": 29986,
+    "b": 29988,
+    "source": "世号",
+    "target": "谥号",
+    "label": "TP"
+  },
+  {
+    "a": 30823,
+    "b": 30825,
+    "source": "一死",
+    "target": "一时",
+    "label": "FP"
+  },
+  {
+    "a": 30906,
+    "b": 30908,
+    "source": "堵出",
+    "target": "堵住",
+    "label": "TP"
+  },
+  {
+    "a": 30981,
+    "b": 30984,
+    "source": "桑红阳",
+    "target": "桑弘羊",
+    "label": "TP"
+  },
+  {
+    "a": 31286,
+    "b": 31288,
+    "source": "田免",
+    "target": "田间",
+    "label": "FP"
+  },
+  {
+    "a": 31455,
+    "b": 31457,
+    "source": "凯探",
+    "target": "慨叹",
+    "label": "TP"
+  },
+  {
+    "a": 31658,
+    "b": 31660,
+    "source": "打到",
+    "target": "打倒",
+    "label": "FP"
+  },
+  {
+    "a": 31904,
+    "b": 31906,
+    "source": "富的",
+    "target": "赋役",
+    "label": "wrong"
+  },
+  {
+    "a": 32297,
+    "b": 32299,
+    "source": "后市",
+    "target": "后世",
+    "label": "TP"
+  },
+  {
+    "a": 32309,
+    "b": 32311,
+    "source": "富的",
+    "target": "赋役",
+    "label": "FP"
+  },
+  {
+    "a": 32406,
+    "b": 32408,
+    "source": "田姆",
+    "target": "田亩",
+    "label": "TP"
+  },
+  {
+    "a": 32417,
+    "b": 32419,
+    "source": "田姆",
+    "target": "田亩",
+    "label": "TP"
+  },
+  {
+    "a": 32509,
+    "b": 32511,
+    "source": "富的",
+    "target": "赋役",
+    "label": "wrong"
+  },
+  {
+    "a": 32609,
+    "b": 32611,
+    "source": "时机",
+    "target": "实际",
+    "label": "TP"
+  },
+  {
+    "a": 33481,
+    "b": 33483,
+    "source": "账策",
+    "target": "账册",
+    "label": "TP"
+  },
+  {
+    "a": 33917,
+    "b": 33919,
+    "source": "负息",
+    "target": "赋役",
+    "label": "wrong"
+  },
+  {
+    "a": 33966,
+    "b": 33968,
+    "source": "是举",
+    "target": "试图",
+    "label": "FP"
+  },
+  {
+    "a": 34279,
+    "b": 34281,
+    "source": "降难",
+    "target": "江南",
+    "label": "TP"
+  },
+  {
+    "a": 34402,
+    "b": 34404,
+    "source": "礼助",
+    "target": "礼制",
+    "label": "FP"
+  },
+  {
+    "a": 34818,
+    "b": 34820,
+    "source": "盐税",
+    "target": "岩石",
+    "label": "FP"
+  },
+  {
+    "a": 35478,
+    "b": 35480,
+    "source": "时的",
+    "target": "实际",
+    "label": "wrong"
+  },
+  {
+    "a": 35510,
+    "b": 35512,
+    "source": "字位",
+    "target": "滋味",
+    "label": "TP"
+  },
+  {
+    "a": 35535,
+    "b": 35537,
+    "source": "杨炎",
+    "target": "扬言",
+    "label": "FP"
+  },
+  {
+    "a": 35547,
+    "b": 35549,
+    "source": "清苗",
+    "target": "青苗",
+    "label": "TP"
+  },
+  {
+    "a": 35606,
+    "b": 35608,
+    "source": "数族",
+    "target": "戍卒",
+    "label": "TP"
+  }
+]

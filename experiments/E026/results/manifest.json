@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-08",
+  "branch": "exp/m1-m2-missing-evidence",
+  "commit_base": "877b6a2ef489b1b3a7dcd7b4ef0a7f7028193689",
+  "worktree": "未提交；本轮 src 只删了 M3（园长批准），诊断阶段未再改生产码",
+  "binary": {
+    "path": "build/e025/text_clean.exe",
+    "sha256_16": "b849f0b7b5ef9b94",
+    "行为中性校验": "默认输出与 E024 二进制 7/7 逐字节相同；Z2 臂复现 147/100/27/1977；ctest 24/24（TEMP 需指到工程内）"
+  },
+  "arm_config_unification": {
+    "Z1": [],
+    "Z2(控制臂)": [
+      "--missing-evidence",
+      "char",
+      "--missing-cap",
+      "0.6"
+    ],
+    "C2": [
+      "--word-freq",
+      "data/old/word_freq.txt",
+      "--char-freq",
+      "data/old/dict.txt"
+    ],
+    "断言": "三臂总数字必须等于 E025 记录 (64/87/2047)(147/100/1977)(196/97/1925)，不等即中止；本轮全部通过"
+  },
+  "frozen_inputs": {
+    "word_freq": "1c6807b5bfea8411",
+    "char_freq": "64c2732f35b4ec5e",
+    "candidates": "4b3485ca2a34d7a9",
+    "ac_lock": "e6ac096b7f90e9a6",
+    "pronunciation": "407fbf533f562423",
+    "pronunciation_char": "a0dc67e8d5a511e5",
+    "vocabulary": "c962719a9fdc10d1",
+    "extvocabulary": "d345d7fa87aae8b0",
+    "asr_gt": {
+      "BV163xB6zEwF.gt.jsonl": "74cb200aa188500e",
+      "BV18mxx64Es3.gt.jsonl": "c3b7dd0527b85e03",
+      "BV19T4P6MEWp.gt.jsonl": "918276a87c371c8b",
+      "BV1LBxq6AEVn.gt.jsonl": "a400121a5cb952fd",
+      "BV1sxxX64E4E.gt.jsonl": "7fdd8ce4791d59b5",
+      "BV1uUak6pEdK.gt.jsonl": "3758e782761820ae",
+      "BV1XgxE6BEqn.gt.jsonl": "91fb6c9dc6b27644"
+    }
+  },
+  "scripts": {
+    "funnel.py": "01a2f8c40d0dfd4e",
+    "funnel_detail.py": "74267ed76fea52ee",
+    "inventory.py": "68a9c09cfe4f098c",
+    "replica.py": "d8d7da8ce4ba566f",
+    "single_char.py": "cf721a70ee7e6a4d"
+  },
+  "replica_validation": {
+    "Z1": "拼音编辑 37/37 距离与分数逐条一致",
+    "Z2": "拼音编辑 89/89 距离与分数逐条一致",
+    "范围": "仅用于 Zipf 两臂；旧次数臂 C2 只作集合对照，不做判因"
+  },
+  "known_limits": [
+    "窗口边界/分词许可未单独建模，句子级丢失靠隔离探针区分，若有实例既未被枚举又分数≤0 会被记为 S5 而非 S2",
+    "S1a 的判定依据是启用目标词最短长度为 2（候选池实测无 1 字目标），未改动生产码去验证单字窗口收益",
+    "全部开卷"
+  ],
+  "outputs": [
+    "errors.json(1474 实例)",
+    "funnel_Z1.json",
+    "funnel_Z2.json",
+    "c2_only.json",
+    "detail_summary.json",
+    "single_char_summary.json",
+    "funnel_summary.json",
+    "inventory_summary.json",
+    "run_cache.json"
+  ]
+}

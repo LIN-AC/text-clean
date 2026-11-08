@@ -61,12 +61,15 @@ target_link_libraries(tc_vocabulary PUBLIC tc_utf8)
 tc_library(tc_char_frequency src/char_frequency.cpp)
 target_link_libraries(tc_char_frequency PUBLIC tc_utf8)
 
+tc_library(tc_domain_evidence src/domain_evidence.cpp)
+target_link_libraries(tc_domain_evidence PUBLIC tc_utf8)
+
 tc_library(tc_pipeline src/text_cleaner.cpp)
 tc_library(tc_dictionary_bundle src/dictionary_bundle.cpp)
 target_link_libraries(tc_dictionary_bundle PUBLIC tc_lexicon tc_pinyin_dict tc_vocabulary tc_word_maintaining)
 target_link_libraries(tc_pipeline
   PUBLIC tc_vocabulary tc_video_context tc_ac tc_pinyin_index tc_edit_distance tc_pinyin_dict tc_lexicon
-         tc_word_frequency tc_char_frequency tc_word_maintaining tc_utf8)
+         tc_word_frequency tc_char_frequency tc_word_maintaining tc_domain_evidence tc_utf8)
 
 add_executable(text_clean src/main.cpp)
 target_link_libraries(text_clean
@@ -90,6 +93,7 @@ tc_test(test_dictionary_bundle tc_dictionary_bundle)
 target_compile_definitions(test_dictionary_bundle PRIVATE TC_NEW_DATA_DIR="${TC_DATA_DIR}")
 tc_test(test_decision_safety tc_pipeline)
 tc_test(test_zipf_scoring tc_pipeline)
+tc_test(test_missing_evidence tc_pipeline)
 tc_test(test_ac_automaton tc_ac)
 tc_test(test_pinyin_index tc_pinyin_index)
 tc_test(test_edit_distance tc_edit_distance)

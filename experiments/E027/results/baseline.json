@@ -1,0 +1,276 @@
+{
+  "date": "2026-11-08",
+  "purpose": "首音节保护确认 + 七篇对照基准冻结",
+  "binary_sha256_16": "b849f0b7b5ef9b94",
+  "data_sha256_16": {
+    "data/frequency/word_freq.tsv": "1c6807b5bfea8411",
+    "data/frequency/char_freq.tsv": "64c2732f35b4ec5e",
+    "data/correction/candidates.tsv": "4b3485ca2a34d7a9",
+    "data/ac/ac_lock.tsv": "e6ac096b7f90e9a6",
+    "data/vocabulary/vocabulary.tsv": "c962719a9fdc10d1",
+    "data/vocabulary/extvocabulary.tsv": "d345d7fa87aae8b0",
+    "data/pronunciation/pronunciation.tsv": "407fbf533f562423",
+    "data/pronunciation/pronunciation_char.tsv": "a0dc67e8d5a511e5"
+  },
+  "enforcement_points": [
+    "src/text_cleaner.cpp:303 窗口起点门（受 --no-first-syllable-gate 控制，默认开）",
+    "src/text_cleaner.cpp:311 索引首音节过滤 require_first（同一开关控制，默认开）",
+    "src/text_cleaner.cpp:283 边缘窗口起点门（**不受开关控制，始终生效**）"
+  ],
+  "gate_reach": {
+    "first_bases": 150,
+    "positions": 51344,
+    "passed": 36565,
+    "blocked": 14779
+  },
+  "arms": {
+    "Z1 默认(生产口径)": {
+      "tp": 64,
+      "fp": 87,
+      "wrong": 19,
+      "distance": 2047,
+      "e_tp": 36,
+      "e_fp": 44,
+      "e_wrong": 15
+    },
+    "Z1+关首音节保护": {
+      "tp": 66,
+      "fp": 117,
+      "wrong": 21,
+      "distance": 2075,
+      "e_tp": 37,
+      "e_fp": 59,
+      "e_wrong": 17
+    },
+    "Z2 控制臂 M1M2 K=0.6": {
+      "tp": 147,
+      "fp": 100,
+      "wrong": 27,
+      "distance": 1977,
+      "e_tp": 93,
+      "e_fp": 54,
+      "e_wrong": 23
+    },
+    "Z2+关首音节保护": {
+      "tp": 149,
+      "fp": 130,
+      "wrong": 29,
+      "distance": 2005,
+      "e_tp": 94,
+      "e_fp": 69,
+      "e_wrong": 25
+    }
+  },
+  "per_video": {
+    "Z1 默认(生产口径)": {
+      "BV163xB6zEwF.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 35
+      },
+      "BV18mxx64Es3.gt": {
+        "chars": {
+          "FP": 4,
+          "TP": 5
+        },
+        "distance": 96
+      },
+      "BV19T4P6MEWp.gt": {
+        "chars": {},
+        "distance": 57
+      },
+      "BV1LBxq6AEVn.gt": {
+        "chars": {
+          "TP": 2,
+          "FP": 3
+        },
+        "distance": 79
+      },
+      "BV1sxxX64E4E.gt": {
+        "chars": {
+          "FP": 4
+        },
+        "distance": 145
+      },
+      "BV1uUak6pEdK.gt": {
+        "chars": {
+          "FP": 72,
+          "wrong": 19,
+          "TP": 57
+        },
+        "distance": 1591
+      },
+      "BV1XgxE6BEqn.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 44
+      }
+    },
+    "Z1+关首音节保护": {
+      "BV163xB6zEwF.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 35
+      },
+      "BV18mxx64Es3.gt": {
+        "chars": {
+          "FP": 4,
+          "TP": 5
+        },
+        "distance": 96
+      },
+      "BV19T4P6MEWp.gt": {
+        "chars": {},
+        "distance": 57
+      },
+      "BV1LBxq6AEVn.gt": {
+        "chars": {
+          "TP": 2,
+          "FP": 2
+        },
+        "distance": 78
+      },
+      "BV1sxxX64E4E.gt": {
+        "chars": {
+          "FP": 11
+        },
+        "distance": 152
+      },
+      "BV1uUak6pEdK.gt": {
+        "chars": {
+          "FP": 96,
+          "wrong": 21,
+          "TP": 59
+        },
+        "distance": 1613
+      },
+      "BV1XgxE6BEqn.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 44
+      }
+    },
+    "Z2 控制臂 M1M2 K=0.6": {
+      "BV163xB6zEwF.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 35
+      },
+      "BV18mxx64Es3.gt": {
+        "chars": {
+          "FP": 4,
+          "TP": 9
+        },
+        "distance": 92
+      },
+      "BV19T4P6MEWp.gt": {
+        "chars": {
+          "FP": 1,
+          "TP": 2
+        },
+        "distance": 56
+      },
+      "BV1LBxq6AEVn.gt": {
+        "chars": {
+          "TP": 2,
+          "FP": 4,
+          "wrong": 1
+        },
+        "distance": 80
+      },
+      "BV1sxxX64E4E.gt": {
+        "chars": {
+          "FP": 5,
+          "wrong": 1,
+          "TP": 7
+        },
+        "distance": 139
+      },
+      "BV1uUak6pEdK.gt": {
+        "chars": {
+          "FP": 82,
+          "wrong": 25,
+          "TP": 127
+        },
+        "distance": 1531
+      },
+      "BV1XgxE6BEqn.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 44
+      }
+    },
+    "Z2+关首音节保护": {
+      "BV163xB6zEwF.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 35
+      },
+      "BV18mxx64Es3.gt": {
+        "chars": {
+          "FP": 4,
+          "TP": 9
+        },
+        "distance": 92
+      },
+      "BV19T4P6MEWp.gt": {
+        "chars": {
+          "FP": 1,
+          "TP": 2
+        },
+        "distance": 56
+      },
+      "BV1LBxq6AEVn.gt": {
+        "chars": {
+          "TP": 2,
+          "FP": 3,
+          "wrong": 1
+        },
+        "distance": 79
+      },
+      "BV1sxxX64E4E.gt": {
+        "chars": {
+          "FP": 12,
+          "wrong": 1,
+          "TP": 7
+        },
+        "distance": 146
+      },
+      "BV1uUak6pEdK.gt": {
+        "chars": {
+          "FP": 106,
+          "wrong": 27,
+          "TP": 129
+        },
+        "distance": 1553
+      },
+      "BV1XgxE6BEqn.gt": {
+        "chars": {
+          "FP": 2
+        },
+        "distance": 44
+      }
+    }
+  },
+  "blocked_by_gate": {
+    "Z1 默认(生产口径)": {
+      "FP": 16,
+      "wrong": 2,
+      "TP": 1
+    },
+    "Z2 控制臂 M1M2 K=0.6": {
+      "FP": 16,
+      "wrong": 2,
+      "TP": 1
+    }
+  },
+  "command": "build/e025/text_clean.exe --no-index-cache [-v] {见 arms 参数}",
+  "metric": "experiments/E024/scripts/align_lib.py（E022 起口径，未改动）"
+}

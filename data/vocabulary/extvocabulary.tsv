@@ -4,7 +4,7 @@
 # columns: word	weight
 # note: 读音一律由 pronunciation*.tsv 提供，这里不重复存放 rime 的无声调拼音；同名取最大 weight，合并 1000 条
 # generated_by: tools/normalize_dicts.py
-# generated_at: 2026-11-06T03:11:20
+# generated_at: 2026-11-08T01:40:50
 word	weight
 〇〇后们	100
 㧟一勺	100

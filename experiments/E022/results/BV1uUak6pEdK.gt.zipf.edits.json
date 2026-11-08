@@ -1,0 +1,380 @@
+[
+  {
+    "a": 604,
+    "b": 606,
+    "source": "士族",
+    "target": "试图",
+    "label": "wrong"
+  },
+  {
+    "a": 692,
+    "b": 694,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 1491,
+    "b": 1493,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 1555,
+    "b": 1557,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 1582,
+    "b": 1584,
+    "source": "文景",
+    "target": "闻名",
+    "label": "FP"
+  },
+  {
+    "a": 2675,
+    "b": 2677,
+    "source": "光武",
+    "target": "光绪",
+    "label": "wrong"
+  },
+  {
+    "a": 3888,
+    "b": 3890,
+    "source": "近视",
+    "target": "进士",
+    "label": "TP"
+  },
+  {
+    "a": 3981,
+    "b": 3983,
+    "source": "时局",
+    "target": "实际",
+    "label": "FP"
+  },
+  {
+    "a": 4182,
+    "b": 4184,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "TP"
+  },
+  {
+    "a": 4229,
+    "b": 4231,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "FP"
+  },
+  {
+    "a": 4303,
+    "b": 4305,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "TP"
+  },
+  {
+    "a": 4311,
+    "b": 4313,
+    "source": "掩铁",
+    "target": "盐铁",
+    "label": "TP"
+  },
+  {
+    "a": 5172,
+    "b": 5174,
+    "source": "一统",
+    "target": "一同",
+    "label": "FP"
+  },
+  {
+    "a": 7136,
+    "b": 7138,
+    "source": "正是",
+    "target": "政治",
+    "label": "FP"
+  },
+  {
+    "a": 8969,
+    "b": 8971,
+    "source": "光武",
+    "target": "光绪",
+    "label": "FP"
+  },
+  {
+    "a": 9898,
+    "b": 9900,
+    "source": "言说",
+    "target": "岩石",
+    "label": "wrong"
+  },
+  {
+    "a": 9948,
+    "b": 9950,
+    "source": "巴布",
+    "target": "八部",
+    "label": "TP"
+  },
+  {
+    "a": 9981,
+    "b": 9983,
+    "source": "士族",
+    "target": "试图",
+    "label": "FP"
+  },
+  {
+    "a": 11983,
+    "b": 11985,
+    "source": "士族",
+    "target": "试图",
+    "label": "wrong"
+  },
+  {
+    "a": 12577,
+    "b": 12579,
+    "source": "士族",
+    "target": "试图",
+    "label": "FP"
+  },
+  {
+    "a": 12614,
+    "b": 12616,
+    "source": "士族",
+    "target": "试图",
+    "label": "FP"
+  },
+  {
+    "a": 12897,
+    "b": 12899,
+    "source": "士族",
+    "target": "试图",
+    "label": "wrong"
+  },
+  {
+    "a": 13061,
+    "b": 13063,
+    "source": "士族",
+    "target": "试图",
+    "label": "FP"
+  },
+  {
+    "a": 13155,
+    "b": 13157,
+    "source": "士族",
+    "target": "试图",
+    "label": "FP"
+  },
+  {
+    "a": 13321,
+    "b": 13323,
+    "source": "一统",
+    "target": "一同",
+    "label": "FP"
+  },
+  {
+    "a": 13555,
+    "b": 13557,
+    "source": "士族",
+    "target": "试图",
+    "label": "FP"
+  },
+  {
+    "a": 17654,
+    "b": 17656,
+    "source": "正是",
+    "target": "政治",
+    "label": "FP"
+  },
+  {
+    "a": 18632,
+    "b": 18634,
+    "source": "失实",
+    "target": "逝世",
+    "label": "FP"
+  },
+  {
+    "a": 21466,
+    "b": 21468,
+    "source": "盐税",
+    "target": "岩石",
+    "label": "FP"
+  },
+  {
+    "a": 22009,
+    "b": 22011,
+    "source": "时机",
+    "target": "实际",
+    "label": "FP"
+  },
+  {
+    "a": 23332,
+    "b": 23334,
+    "source": "截留",
+    "target": "节流",
+    "label": "FP"
+  },
+  {
+    "a": 23494,
+    "b": 23496,
+    "source": "截留",
+    "target": "节流",
+    "label": "FP"
+  },
+  {
+    "a": 24804,
+    "b": 24806,
+    "source": "疆域",
+    "target": "将有",
+    "label": "FP"
+  },
+  {
+    "a": 25810,
+    "b": 25812,
+    "source": "疆域",
+    "target": "将有",
+    "label": "FP"
+  },
+  {
+    "a": 26751,
+    "b": 26753,
+    "source": "朱棣",
+    "target": "诸帝",
+    "label": "FP"
+  },
+  {
+    "a": 27061,
+    "b": 27063,
+    "source": "富户",
+    "target": "富裕",
+    "label": "FP"
+  },
+  {
+    "a": 27220,
+    "b": 27222,
+    "source": "疆域",
+    "target": "将有",
+    "label": "FP"
+  },
+  {
+    "a": 27767,
+    "b": 27769,
+    "source": "后市",
+    "target": "后世",
+    "label": "TP"
+  },
+  {
+    "a": 28850,
+    "b": 28852,
+    "source": "欠的",
+    "target": "前的",
+    "label": "FP"
+  },
+  {
+    "a": 30823,
+    "b": 30825,
+    "source": "一死",
+    "target": "一时",
+    "label": "FP"
+  },
+  {
+    "a": 31011,
+    "b": 31013,
+    "source": "截留",
+    "target": "节流",
+    "label": "FP"
+  },
+  {
+    "a": 31069,
+    "b": 31071,
+    "source": "截留",
+    "target": "节流",
+    "label": "TP"
+  },
+  {
+    "a": 31105,
+    "b": 31107,
+    "source": "截留",
+    "target": "节流",
+    "label": "FP"
+  },
+  {
+    "a": 31488,
+    "b": 31490,
+    "source": "冥王",
+    "target": "明亡",
+    "label": "TP"
+  },
+  {
+    "a": 32173,
+    "b": 32175,
+    "source": "正是",
+    "target": "政治",
+    "label": "FP"
+  },
+  {
+    "a": 32297,
+    "b": 32299,
+    "source": "后市",
+    "target": "后世",
+    "label": "TP"
+  },
+  {
+    "a": 32609,
+    "b": 32611,
+    "source": "时机",
+    "target": "实际",
+    "label": "TP"
+  },
+  {
+    "a": 32623,
+    "b": 32625,
+    "source": "正是",
+    "target": "政治",
+    "label": "wrong"
+  },
+  {
+    "a": 32966,
+    "b": 32968,
+    "source": "截留",
+    "target": "节流",
+    "label": "FP"
+  },
+  {
+    "a": 32974,
+    "b": 32976,
+    "source": "截留",
+    "target": "节流",
+    "label": "FP"
+  },
+  {
+    "a": 34472,
+    "b": 34474,
+    "source": "蜻蜓",
+    "target": "清醒",
+    "label": "wrong"
+  },
+  {
+    "a": 34818,
+    "b": 34820,
+    "source": "盐税",
+    "target": "岩石",
+    "label": "FP"
+  },
+  {
+    "a": 34848,
+    "b": 34850,
+    "source": "清廷",
+    "target": "清醒",
+    "label": "FP"
+  },
+  {
+    "a": 35535,
+    "b": 35537,
+    "source": "杨炎",
+    "target": "扬言",
+    "label": "FP"
+  }
+]

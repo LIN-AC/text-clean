@@ -4,7 +4,7 @@
 # columns: canonical	pinyin	alias	source	status
 # note: 来源可信度：人工确认 > 真实语料挖掘 > LLM 提议（园长大决定：人工判定的与 LLM 确认的都补进来）。status 1 启用 0 停用——只有人工确认且目标词长度≥2 才自动启用；LLM 提议与真实语料挖掘一律先停用，等你点头再批量启用。收录范围：两侧均为汉字、长度相等、目标词不超过 6 字（拼音对齐要求等长，漏字/多字型修正与整句级自填走不了这条通道，已按统计剔除）。本次抽取统计：跳过_含非汉字 96，跳过_整句级 36，跳过_长度不等 210，配对总数 1020。mask 类条目暂无去处，保持停用。
 # generated_by: tools/normalize_dicts.py
-# generated_at: 2026-11-06T03:11:42
+# generated_at: 2026-11-08T01:40:55
 canonical	pinyin	alias	source	status
 一	yi1	以	人工确认	0
 一	yi1	意	人工确认	0
@@ -113,7 +113,7 @@ canonical	pinyin	alias	source	status
 借	jie4	戒	人工确认	0
 借	jie4	接	人工确认	0
 偌	ruo4	弱	人工确认	0
-严而有度	4yan2er2you3du4	言而有度	人工确认	1
+做到严而有度	zuo4dao4yan2er2you3du4	做到言而有度	人工确认	1
 偿	chang2	长	人工确认	0
 像	xiang4	想	人工确认	0
 儒	ru2	如	人工确认	0
@@ -203,6 +203,7 @@ canonical	pinyin	alias	source	status
 南渡	nan2du4	难度	人工确认	1
 卦象	gua4xiang4	挂上	人工确认	1
 卫青	wei4qing1	魏清	人工确认	1
+卫青霍去	wei4qing1huo4qu4	魏清获取	人工确认	1
 印	yin4	迎	人工确认	0
 即	ji2	及	人工确认	0
 却	que4	需	人工确认	0
@@ -251,7 +252,7 @@ canonical	pinyin	alias	source	status
 国	guo2	果	人工确认	0
 圆	yuan2	远	人工确认	0
 圈	juan1	卷	人工确认	0
-祥符	xiang2fu2	降服	人工确认	1
+在祥符决口	zai4xiang2fu2jue2kou3	在降服决口	人工确认	1
 地	de5	敌	人工确认	0
 地	de5	的	人工确认	0
 地丁	de5ding1	地亭	人工确认	1
@@ -278,6 +279,7 @@ canonical	pinyin	alias	source	status
 基	ji1	计	人工确认	0
 堵	du3	读	人工确认	0
 堵住	du3zhu4	读出	人工确认	1
+堵口赈济修复	du3kou3zhen4ji3xiu1fu4	独口政绩修复	人工确认	1
 塞	sai1	赛	人工确认	0
 塞光是	sai1guang1shi4	赛公使	人工确认	1
 填	tian2	甜	人工确认	0
@@ -300,7 +302,7 @@ canonical	pinyin	alias	source	status
 奇	ji1	齐	人工确认	0
 契	qi4	气	人工确认	0
 妒	du4	误	人工确认	0
-清醒	qing1xing3	轻信	人工确认	1
+妥协和清醒	tuo3xie2he2qing1xing3	妥协和轻信	人工确认	1
 威	wei1	为	人工确认	0
 婢	bi4	币	人工确认	0
 嫁	jia4	扎	人工确认	0
@@ -449,6 +451,7 @@ canonical	pinyin	alias	source	status
 愁盼	chou2pan4	筹判	人工确认	1
 愁盼事	chou2pan4shi4	筹判是	人工确认	1
 感	gan3	干	人工确认	0
+慎独慎	shen4du2shen4	甚毒甚	人工确认	1
 慨叹	kai3tan4	凯探	人工确认	1
 戍卒	shu4zu2	数族	人工确认	1
 成	cheng2	橙	人工确认	0
@@ -661,6 +664,7 @@ canonical	pinyin	alias	source	status
 理	li3	李	人工确认	0
 甘	gan1	干	人工确认	0
 生	sheng1	剩	人工确认	0
+用下划线标注	yong4xia4hua2xian4biao1zhu4	用下滑线标注	人工确认	1
 田亩	tian2mu3	铁姆	人工确认	1
 田亩	tian2mu3	铁木	人工确认	1
 田亩	tian2mu3	铁母	人工确认	1

@@ -1,0 +1,90 @@
+[  1%] Building CXX object CMakeFiles/tc_ac.dir/src/ac_automaton.cpp.obj
+[  8%] Linking CXX static library libtc_ac.a
+[  8%] Built target tc_ac
+[  6%] Building CXX object CMakeFiles/tc_lexicon.dir/src/lexicon.cpp.obj
+[  5%] Building CXX object CMakeFiles/tc_pinyin_index.dir/src/pinyin_index.cpp.obj
+[ 13%] Linking CXX static library libtc_pinyin_index.a
+[ 11%] Linking CXX static library libtc_lexicon.a
+[ 13%] Built target tc_pinyin_index
+[ 13%] Built target tc_lexicon
+[  5%] Building CXX object CMakeFiles/tc_pinyin_dict.dir/src/pinyin_dict.cpp.obj
+[ 18%] Linking CXX static library libtc_pinyin_dict.a
+[ 18%] Built target tc_pinyin_dict
+[ 15%] Building CXX object CMakeFiles/tc_text_split.dir/src/text_split.cpp.obj
+[ 10%] Building CXX object CMakeFiles/tc_word_maintaining.dir/src/word_maintaining.cpp.obj
+[ 21%] Linking CXX static library libtc_text_split.a
+[ 23%] Built target tc_text_split
+[ 23%] Linking CXX static library libtc_word_maintaining.a
+[ 23%] Built target tc_word_maintaining
+[ 16%] Building CXX object CMakeFiles/tc_word_frequency.dir/src/word_frequency.cpp.obj
+[ 26%] Linking CXX static library libtc_word_frequency.a
+[ 28%] Built target tc_word_frequency
+[ 20%] Building CXX object CMakeFiles/tc_video_context.dir/src/video_context.cpp.obj
+[ 31%] Linking CXX static library libtc_video_context.a
+[ 31%] Built target tc_video_context
+[ 28%] Building CXX object CMakeFiles/tc_char_frequency.dir/src/char_frequency.cpp.obj
+[ 35%] Linking CXX static library libtc_char_frequency.a
+[ 35%] Built target tc_char_frequency
+[ 25%] Building CXX object CMakeFiles/tc_vocabulary.dir/src/vocabulary.cpp.obj
+[ 38%] Linking CXX static library libtc_vocabulary.a
+[ 38%] Built target tc_vocabulary
+[ 30%] Building CXX object CMakeFiles/test_utf8.dir/tests/test_utf8.cpp.obj
+[ 41%] Linking CXX executable test_utf8.exe
+[ 41%] Built target test_utf8
+[ 36%] Building CXX object CMakeFiles/test_pinyin_index.dir/tests/test_pinyin_index.cpp.obj
+[ 33%] Building CXX object CMakeFiles/test_ac_automaton.dir/tests/test_ac_automaton.cpp.obj
+[ 40%] Building CXX object CMakeFiles/test_edit_distance.dir/tests/test_edit_distance.cpp.obj
+[ 45%] Linking CXX executable test_pinyin_index.exe
+[ 48%] Built target test_pinyin_index
+[ 48%] Linking CXX executable test_edit_distance.exe
+[ 46%] Linking CXX executable test_ac_automaton.exe
+[ 50%] Built target test_edit_distance
+[ 50%] Built target test_ac_automaton
+[ 43%] Building CXX object CMakeFiles/test_pinyin_dict.dir/tests/test_pinyin_dict.cpp.obj
+[ 55%] Linking CXX executable test_pinyin_dict.exe
+[ 55%] Built target test_pinyin_dict
+[ 53%] Building CXX object CMakeFiles/test_word_frequency.dir/tests/test_word_frequency.cpp.obj
+[ 58%] Linking CXX executable test_word_frequency.exe
+[ 58%] Built target test_word_frequency
+[ 50%] Building CXX object CMakeFiles/test_lexicon.dir/tests/test_lexicon.cpp.obj
+[ 56%] Building CXX object CMakeFiles/test_char_frequency.dir/tests/test_char_frequency.cpp.obj
+[ 61%] Linking CXX executable test_lexicon.exe
+[ 51%] Building CXX object CMakeFiles/test_word_maintaining.dir/tests/test_word_maintaining.cpp.obj
+[ 63%] Built target test_lexicon
+[ 63%] Linking CXX executable test_char_frequency.exe
+[ 66%] Built target test_char_frequency
+[ 65%] Linking CXX executable test_word_maintaining.exe
+[ 66%] Built target test_word_maintaining
+[ 60%] Building CXX object CMakeFiles/test_text_split.dir/tests/test_text_split.cpp.obj
+[ 66%] Building CXX object CMakeFiles/tc_word_review.dir/src/word_review.cpp.obj
+[ 70%] Linking CXX executable test_text_split.exe
+[ 71%] Built target test_text_split
+[ 71%] Linking CXX static library libtc_word_review.a
+[ 71%] Built target tc_word_review
+[ 73%] Building CXX object CMakeFiles/test_word_review.dir/tests/test_word_review.cpp.obj
+[ 68%] Building CXX object CMakeFiles/tc_pipeline.dir/src/text_cleaner.cpp.obj
+[ 75%] Linking CXX executable test_word_review.exe
+[ 76%] Built target test_word_review
+[ 76%] Linking CXX static library libtc_pipeline.a
+[ 76%] Built target tc_pipeline
+[ 81%] Building CXX object CMakeFiles/test_legitimacy.dir/tests/test_legitimacy.cpp.obj
+[ 85%] Linking CXX executable test_legitimacy.exe
+[ 85%] Built target test_legitimacy
+[ 83%] Building CXX object CMakeFiles/test_tone_correction.dir/tests/test_tone_correction.cpp.obj
+[ 80%] Building CXX object CMakeFiles/test_text_cleaner.dir/tests/test_text_cleaner.cpp.obj
+[ 88%] Linking CXX executable test_tone_correction.exe
+[ 90%] Built target test_tone_correction
+[ 90%] Linking CXX executable test_text_cleaner.exe
+[ 91%] Built target test_text_cleaner
+[ 86%] Building CXX object CMakeFiles/test_video_context.dir/tests/test_video_context.cpp.obj
+[ 95%] Linking CXX executable test_video_context.exe
+[ 78%] Building CXX object CMakeFiles/text_clean.dir/src/main.cpp.obj
+[ 95%] Built target test_video_context
+[ 93%] Building CXX object CMakeFiles/test_word_pronunciation.dir/tests/test_word_pronunciation.cpp.obj
+[ 96%] Linking CXX executable text_clean.exe
+[ 98%] Built target text_clean
+[ 98%] Linking CXX executable test_word_pronunciation.exe
+[ 98%] Built target test_word_pronunciation
+[ 91%] Building CXX object CMakeFiles/test_priority.dir/tests/test_priority.cpp.obj
+[100%] Linking CXX executable test_priority.exe
+[100%] Built target test_priority

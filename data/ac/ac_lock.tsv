@@ -4,7 +4,7 @@
 # columns: word	group
 # note: 源里的 ##分组标记 保留为 group 列；重复词只留一条
 # generated_by: tools/normalize_dicts.py
-# generated_at: 2026-11-06T03:11:19
+# generated_at: 2026-11-08T01:40:49
 word	group
 OpenAI	公司名称
 Anthropic	公司名称

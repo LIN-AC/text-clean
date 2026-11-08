@@ -11,6 +11,7 @@
 #include "text_clean/char_frequency.h"
 #include "text_clean/lexicon.h"
 #include "text_clean/video_context.h"
+#include "text_clean/domain_evidence.h"
 #include "text_clean/vocabulary.h"
 #include "text_clean/word_frequency.h"
 
@@ -33,10 +34,33 @@ struct CleanerConfig {
 
     // Entries shorter than this are not searched by pinyin at all.
     std::size_t min_syllables_for_exact_pinyin = 2;
+    // 单字目标词缺词级证据时，是否允许改用单字频率表作证据（--target-char-freq，默认关）。
+    bool target_char_frequency = false;
+
+    // 枚举窗口的最短长度；默认 2。--min-window 1 用来试单字窗口。
+    std::size_t min_window_syllables = 2;
 
     // Fuzzy matches must keep the first syllable base identical. This blocks
     // unrelated words that happen to share a later syllable.
     bool require_first_syllable_match = true;
+
+    // E030 可选领域证据（默认全关，生产行为逐字节不变）。
+    bool use_domain_frequency = false;   // 频率来源换成历史语料 n-gram
+    double domain_unknown_gap = 1.5;     // 原文在历史语料查不到时记 ZipfC-gap
+    bool use_context_evidence = false;   // 加入邻接上下文证据（条件在邻字上）
+    double context_weight = 1.0;
+    // 上下文锚点跨度：1=单个邻字（E030），2=两个邻字（E031，需 ngrams.tsv）。
+    std::size_t context_span = 1;
+    std::uint64_t context_min_anchor = 3;  // 锚点在语料里少于该次数就弃权，不硬猜
+    // 单边上下文：上下文只允许扣分（否决），不允许把候选抬过门槛。
+    bool context_one_sided = false;
+
+    // 原文缺词级证据时的三种处理策略（E024 消融；默认 Veto = 现基线行为）。
+    enum class MissingEvidence {
+        Veto,         // 弃权：原文没有词级 Zipf 证据就不改（当前基线）
+        CharEstimate, // M1：用字频独立估计补原文档，ZipfO = ΣZipf(字) - 9*(n-1)
+        FixedCap,     // M2：不查字频，直接给原文 ZipfO = ZipfC - missing_cap
+    };
 
     // Differential score:
     //   Zipf mode: ΔS = 2.302585*(ZipfC-ZipfO) - λ*D(O,C) - μ
@@ -48,6 +72,14 @@ struct CleanerConfig {
     // independence (see CharFrequency). Neither side is floored.
     double distance_penalty = 0.65;        // λ
     double modification_threshold = 0.70;  // μ
+
+    MissingEvidence missing_evidence = MissingEvidence::Veto;
+    // E021 保护规则：原文是合法词且静态分≤0 时，不得只靠标题/简介加分获得修改许可。
+    // E025 消融可关闭；默认 true = 保持该保护。
+    bool enable_admission_guard = true;
+    // CharEstimate 模式下 >0 时再把原文档位限制在 ZipfC-missing_cap 以下（M1+M2）；
+    // FixedCap 模式下必填 >0。0 表示不设上限。
+    double missing_cap = 0.0;
 
     std::size_t max_candidates_per_window = 64;
     char32_t mask_char = U'*';
@@ -99,7 +131,7 @@ public:
     TextCleaner(Lexicon lexicon, const PinyinDict& dict, CleanerConfig config = {},
                 std::optional<std::vector<std::u32string>> ac_words = std::nullopt,
                 WordFrequency frequencies = {}, Vocabulary vocabulary = {},
-                CharFrequency char_frequency = {});
+                CharFrequency char_frequency = {}, DomainEvidence domain = {});
     ~TextCleaner();
 
     TextCleaner(TextCleaner&&) noexcept;
