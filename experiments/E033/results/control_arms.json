@@ -1,0 +1,11832 @@
+[
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "一室",
+    "alias": "以事",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      3,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "乡贤",
+    "alias": "相闲",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "乡贤",
+    "alias": "香嫌",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "屋活",
+    "alias": "乌活",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "屋活",
+    "alias": "书活",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "惠及",
+    "alias": "汇集",
+    "terms": 114,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "提炼",
+    "alias": "体练",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "政务",
+    "alias": "证物",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      1,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "梳理",
+    "alias": "书里",
+    "terms": 118,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "段首",
+    "alias": "断手",
+    "terms": 114,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "紧锁上",
+    "alias": "筋缩伤",
+    "terms": 114,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "缩影",
+    "alias": "作用",
+    "terms": 115,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "考核标准",
+    "alias": "考核标志",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "评效",
+    "alias": "评项",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "返乡",
+    "alias": "反向",
+    "terms": 113,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "错时",
+    "alias": "措时",
+    "terms": 121,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "非遗",
+    "alias": "飞翼",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "首句",
+    "alias": "手剧",
+    "terms": 120,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV18mxx64Es3",
+    "domain": "现代",
+    "target": "魏雨",
+    "alias": "卫宇",
+    "terms": 115,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV19T4P6MEWp",
+    "domain": "现代",
+    "target": "事例",
+    "alias": "势力",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV19T4P6MEWp",
+    "domain": "现代",
+    "target": "度里",
+    "alias": "读力",
+    "terms": 88,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV19T4P6MEWp",
+    "domain": "现代",
+    "target": "滴灌",
+    "alias": "低贯",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV19T4P6MEWp",
+    "domain": "现代",
+    "target": "田间",
+    "alias": "天牵",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV19T4P6MEWp",
+    "domain": "现代",
+    "target": "绪连着",
+    "alias": "续连阵",
+    "terms": 86,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "守纪",
+    "alias": "手记",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "攻坚",
+    "alias": "空间",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "政治",
+    "alias": "正直",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      2,
+      0,
+      true
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "文采",
+    "alias": "本才",
+    "terms": 111,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "用下划线标注",
+    "alias": "用下滑线标注",
+    "terms": 119,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "维艰",
+    "alias": "为奸",
+    "terms": 116,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "胆魄与",
+    "alias": "担破于",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "胜于",
+    "alias": "圣语",
+    "terms": 120,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      1,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1LBxq6AEVn",
+    "domain": "现代",
+    "target": "齐比",
+    "alias": "奇笔",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "件件",
+    "alias": "渐渐",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "兴替",
+    "alias": "星体",
+    "terms": 123,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "医养",
+    "alias": "一样",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        2,
+        false
+      ],
+      [
+        0,
+        2,
+        false
+      ],
+      [
+        0,
+        3,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "常掸",
+    "alias": "长胆",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "愁盼",
+    "alias": "筹判",
+    "terms": 90,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "愁盼事",
+    "alias": "筹判是",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "慎独慎",
+    "alias": "甚毒甚",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "敢扛事",
+    "alias": "感康市",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "段首",
+    "alias": "断手",
+    "terms": 92,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      2,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "民心向",
+    "alias": "明星相",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "筑牢",
+    "alias": "助劳",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "考点",
+    "alias": "靠电",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "衣冠",
+    "alias": "一观",
+    "terms": 123,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      2,
+      0,
+      true
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "语码",
+    "alias": "鱼马",
+    "terms": 123,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "诿躲",
+    "alias": "尾多",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1sxxX64E4E",
+    "domain": "现代",
+    "target": "配齐",
+    "alias": "配起",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "一同",
+    "alias": "一栋",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "一时",
+    "alias": "亦是",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      7,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        4,
+        0,
+        true
+      ],
+      [
+        3,
+        0,
+        true
+      ],
+      [
+        6,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "丈田亩",
+    "alias": "账填母",
+    "terms": 82,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "丈绵",
+    "alias": "账年",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "丈量核实",
+    "alias": "账粮何时",
+    "terms": 80,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "下旨",
+    "alias": "吓着",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "严刑",
+    "alias": "言行",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "中兴之望",
+    "alias": "中心之望",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "临戎",
+    "alias": "玲戎",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "临行",
+    "alias": "平城",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        2,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "丽交趾",
+    "alias": "利胶纸",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "之道",
+    "alias": "指导",
+    "terms": 117,
+    "segs": 300,
+    "正确领域": [
+      4,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        9,
+        0,
+        true
+      ],
+      [
+        6,
+        0,
+        true
+      ],
+      [
+        6,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "事频仍",
+    "alias": "士平仁",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "产出粮赋",
+    "alias": "产出粮腹",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "亩数",
+    "alias": "母树",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "仁政",
+    "alias": "人证",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "仰马翻",
+    "alias": "养麻烦",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "任城王",
+    "alias": "认诚往",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "会要辑",
+    "alias": "慧耀及",
+    "terms": 87,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "伯颜",
+    "alias": "薄言",
+    "terms": 121,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "余姚",
+    "alias": "于要",
+    "terms": 90,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "依附",
+    "alias": "一副",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "依附",
+    "alias": "衣服",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      1,
+      6,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        4,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "俯伏",
+    "alias": "浮浮",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "儒生",
+    "alias": "如称",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        3,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "元廷征",
+    "alias": "原亭蒸",
+    "terms": 90,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "光绪",
+    "alias": "工序",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "兑信",
+    "alias": "对兴",
+    "terms": 92,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "八部",
+    "alias": "巴布",
+    "terms": 116,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "公田",
+    "alias": "供填",
+    "terms": 81,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "兴修",
+    "alias": "新宿",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "兴废",
+    "alias": "心肺",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "兼并",
+    "alias": "煎柄",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "册做",
+    "alias": "策做",
+    "terms": 82,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "冰河期",
+    "alias": "兵和鸡",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "减冗",
+    "alias": "剪容",
+    "terms": 113,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "凭空",
+    "alias": "贫困",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "利贷",
+    "alias": "历代",
+    "terms": 120,
+    "segs": 300,
+    "正确领域": [
+      0,
+      2,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "前代",
+    "alias": "钱贷",
+    "terms": 77,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        4,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "前的",
+    "alias": "起了",
+    "terms": 114,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      1,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "前线",
+    "alias": "钱先",
+    "terms": 85,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "加赋",
+    "alias": "加富",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "劫掠",
+    "alias": "截略",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "励精",
+    "alias": "历经",
+    "terms": 113,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "匈漠",
+    "alias": "兄末",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "十几亩",
+    "alias": "实际墓",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "半数",
+    "alias": "搬出",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "卖官鬻爵",
+    "alias": "卖关于绝",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "南伐",
+    "alias": "难乏",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "南渡",
+    "alias": "难度",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "卦象",
+    "alias": "挂上",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      3,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "卫青",
+    "alias": "魏清",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      3,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "卫青霍去",
+    "alias": "魏清获取",
+    "terms": 90,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "卿卜",
+    "alias": "青补",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "厉声",
+    "alias": "立身",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        2,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "县官",
+    "alias": "现关",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      6,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        4,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "句丽",
+    "alias": "沟黎",
+    "terms": 113,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "只抢",
+    "alias": "直枪",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "只讲仁义",
+    "alias": "直降人意",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "史之",
+    "alias": "石治",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "合计",
+    "alias": "可及",
+    "terms": 93,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "吉思",
+    "alias": "绩四",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "名义",
+    "alias": "民意",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "名臣",
+    "alias": "民陈",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "后世",
+    "alias": "后时",
+    "terms": 113,
+    "segs": 300,
+    "正确领域": [
+      10,
+      5,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        5,
+        2,
+        true
+      ],
+      [
+        6,
+        1,
+        true
+      ],
+      [
+        5,
+        1,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "呜咽",
+    "alias": "无言",
+    "terms": 117,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        2,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "因循",
+    "alias": "殷勋",
+    "terms": 121,
+    "segs": 300,
+    "正确领域": [
+      3,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        3,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "固陵",
+    "alias": "故林",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "地丁",
+    "alias": "地亭",
+    "terms": 86,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "地加剧",
+    "alias": "的家具",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "均输",
+    "alias": "军属",
+    "terms": 93,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "均输平",
+    "alias": "军书凭",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "均输平准",
+    "alias": "军书凭准",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "均输法",
+    "alias": "军属法",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "垄断",
+    "alias": "勒乱",
+    "terms": 113,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "垄断",
+    "alias": "浓乱",
+    "terms": 111,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "城勋",
+    "alias": "成熏",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "堵住",
+    "alias": "读出",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "堵口赈济修复",
+    "alias": "独口政绩修复",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "塞光是",
+    "alias": "赛公使",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "士绅富户",
+    "alias": "师生付货",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "孝廉茂才",
+    "alias": "笑脸冒财",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "它霉",
+    "alias": "他煤",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "宋朝",
+    "alias": "纵巢",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "宋末",
+    "alias": "松墨",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "宗室各",
+    "alias": "总是狗",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "官衔",
+    "alias": "关闲",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "实际",
+    "alias": "时机",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "审计官",
+    "alias": "省机官",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "富裕",
+    "alias": "负语",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "对峙",
+    "alias": "堆治",
+    "terms": 121,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "导向",
+    "alias": "导致",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "将有",
+    "alias": "酱友",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "崩塌",
+    "alias": "供他",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "州县",
+    "alias": "周线",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        7,
+        0,
+        true
+      ],
+      [
+        6,
+        0,
+        true
+      ],
+      [
+        3,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "市易法",
+    "alias": "制议法",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "布帛",
+    "alias": "不薄",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "幼帝",
+    "alias": "右地",
+    "terms": 111,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "庚戌",
+    "alias": "耕虚",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      4,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        4,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "府设",
+    "alias": "辐射",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "度牒",
+    "alias": "杜碟",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "廷杖",
+    "alias": "停仗",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      8,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        2,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "建康",
+    "alias": "建杠",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "弘羊",
+    "alias": "红阳",
+    "terms": 111,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "弘羊",
+    "alias": "葳扬",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "强像",
+    "alias": "墙像",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "当卖爵",
+    "alias": "当卖绝",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "役共",
+    "alias": "益公",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "征收",
+    "alias": "承受",
+    "terms": 90,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "御膳",
+    "alias": "玉山",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "徭役",
+    "alias": "摇曳",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        3,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "徽钦",
+    "alias": "灰清",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "性劣势",
+    "alias": "心理事",
+    "terms": 114,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "悲叹",
+    "alias": "碑碳",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "慨叹",
+    "alias": "凯探",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "戍卒",
+    "alias": "数族",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "成灾",
+    "alias": "承载",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "打倒",
+    "alias": "达到",
+    "terms": 79,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "执掌",
+    "alias": "这张",
+    "terms": 93,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "扩写",
+    "alias": "阔鞋",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "抑之",
+    "alias": "益之",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      12,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        2,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        1,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "抑商",
+    "alias": "一伤",
+    "terms": 123,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "抑商",
+    "alias": "易伤",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "据估",
+    "alias": "距不",
+    "terms": 122,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "掉藩镇",
+    "alias": "调反正",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "掣肘",
+    "alias": "撤走",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "接时",
+    "alias": "皆是",
+    "terms": 89,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "接时",
+    "alias": "结实",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "旧币",
+    "alias": "就必",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      9,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "明亡",
+    "alias": "冥王",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "明令",
+    "alias": "民营",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "明夷待",
+    "alias": "民一代",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "明抢",
+    "alias": "民墙",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "昏庸",
+    "alias": "婚姻",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "昭帝始",
+    "alias": "礁第十",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "是它很难",
+    "alias": "是他海南",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "晋兴",
+    "alias": "京新",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "景定四",
+    "alias": "景丁四",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "暴敛",
+    "alias": "爆裂",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "更是",
+    "alias": "各式",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "最称",
+    "alias": "罪称",
+    "terms": 89,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "未央",
+    "alias": "威阳",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      6,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "末梢",
+    "alias": "墨烧",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "杨炎",
+    "alias": "阳言",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      1,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "极尽",
+    "alias": "激进",
+    "terms": 117,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "桑弘羊",
+    "alias": "丧红阳",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      4,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "桑弘羊",
+    "alias": "桑葳扬",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "楚材",
+    "alias": "储才",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "欲抑",
+    "alias": "于益",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "此始",
+    "alias": "辞使",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        3,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "死生以之",
+    "alias": "死生已知",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "毒瘤",
+    "alias": "独流",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "民变",
+    "alias": "明辩",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "民政",
+    "alias": "明镇",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "汉廷",
+    "alias": "汉帝",
+    "terms": 122,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "江南",
+    "alias": "降难",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      3,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        3,
+        0,
+        true
+      ],
+      [
+        6,
+        0,
+        true
+      ],
+      [
+        7,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "汴京",
+    "alias": "边境",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        2,
+        false
+      ],
+      [
+        0,
+        4,
+        false
+      ],
+      [
+        0,
+        2,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "汴京",
+    "alias": "遍经",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "泊梁",
+    "alias": "破凉",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "深耕",
+    "alias": "申根",
+    "terms": 104,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "清廷",
+    "alias": "蜻蜓",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "清账",
+    "alias": "倾障",
+    "terms": 87,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "渔利",
+    "alias": "余力",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "滋味",
+    "alias": "字位",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "滋生",
+    "alias": "资深",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "满门性命",
+    "alias": "满门心灵",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "猎猎",
+    "alias": "烈烈",
+    "terms": 111,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "王莽",
+    "alias": "往往",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      6,
+      5,
+      false
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        5,
+        6,
+        false
+      ],
+      [
+        7,
+        2,
+        true
+      ],
+      [
+        8,
+        4,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "田亩",
+    "alias": "铁姆",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "田亩",
+    "alias": "铁木",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "田亩",
+    "alias": "铁母",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "田亩失实",
+    "alias": "铁木失实",
+    "terms": 92,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "田亩竟",
+    "alias": "甜母尽",
+    "terms": 93,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "田赋",
+    "alias": "填付",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        3,
+        0,
+        true
+      ],
+      [
+        3,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "田赋",
+    "alias": "填富",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        3,
+        0,
+        true
+      ],
+      [
+        3,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "由盛",
+    "alias": "游送",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "甲胄",
+    "alias": "甲州",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "益州",
+    "alias": "一周",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      3,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "盐铁",
+    "alias": "沿递",
+    "terms": 117,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "相杨",
+    "alias": "上阳",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "督护",
+    "alias": "都户",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "知时",
+    "alias": "治十",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        2,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        2,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "石始",
+    "alias": "实施",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "硬生",
+    "alias": "隐身",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "礼制",
+    "alias": "理值",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "祈福",
+    "alias": "起伏",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "祖祖",
+    "alias": "族族",
+    "terms": 93,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "私仇",
+    "alias": "丝绸",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "租庸",
+    "alias": "足拥",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "积银",
+    "alias": "寄营",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "移植",
+    "alias": "一直",
+    "terms": 120,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      2,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "税商",
+    "alias": "睡伤",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "税商败",
+    "alias": "睡伤半",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "税基",
+    "alias": "税机",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "竞相",
+    "alias": "金箱",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "管每",
+    "alias": "拐没",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "粮长",
+    "alias": "梁长",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "精力",
+    "alias": "经历",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        3,
+        false
+      ],
+      [
+        1,
+        4,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "精良",
+    "alias": "金粮",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "精骑",
+    "alias": "惊奇",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "索刀",
+    "alias": "所到",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "纳粟二石",
+    "alias": "纳苏二十",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "纸币",
+    "alias": "只必",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "经营",
+    "alias": "近云",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "缕飘忽",
+    "alias": "屡漂浮",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "编钟",
+    "alias": "边中",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "缰绳",
+    "alias": "江神",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "罗绮",
+    "alias": "裸旗",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "胥吏",
+    "alias": "虚拟",
+    "terms": 89,
+    "segs": 300,
+    "正确领域": [
+      3,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "脉象",
+    "alias": "卖相",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "臂助",
+    "alias": "必住",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "至荣",
+    "alias": "智容",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "致命",
+    "alias": "知名",
+    "terms": 122,
+    "segs": 300,
+    "正确领域": [
+      1,
+      2,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        2,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        2,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "节流",
+    "alias": "截留",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "苟利社稷",
+    "alias": "狗利设计",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "荒地",
+    "alias": "皇帝",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      0,
+      20,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        13,
+        false
+      ],
+      [
+        0,
+        14,
+        false
+      ],
+      [
+        0,
+        15,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "萧衍",
+    "alias": "消炎",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "萧衍",
+    "alias": "硝烟",
+    "terms": 118,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "蕃坊",
+    "alias": "翻访",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "蕃学",
+    "alias": "翻学",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "蕃市",
+    "alias": "翻试",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "藩镇",
+    "alias": "翻证",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "衍是",
+    "alias": "掩饰",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "衣冠",
+    "alias": "一关",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      3,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        2,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "衣冠南渡",
+    "alias": "一关难度",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "被杖",
+    "alias": "备杖",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "计跻",
+    "alias": "籍寄",
+    "terms": 93,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "试图",
+    "alias": "制度",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      1,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        3,
+        false
+      ],
+      [
+        0,
+        4,
+        false
+      ],
+      [
+        0,
+        3,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "诸帝",
+    "alias": "诸地",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "谥号",
+    "alias": "世号",
+    "terms": 111,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        1,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "谦恭",
+    "alias": "千功",
+    "terms": 110,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "谷贱",
+    "alias": "骨剑",
+    "terms": 89,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "豪强",
+    "alias": "刨墙",
+    "terms": 81,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "豪强",
+    "alias": "好想",
+    "terms": 93,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        2,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "豪强藏人",
+    "alias": "桃墙藏人",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "贞观",
+    "alias": "真关",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      4,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "财人",
+    "alias": "猜人",
+    "terms": 95,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "账册",
+    "alias": "仗策",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "账册",
+    "alias": "帐策",
+    "terms": 86,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "账册",
+    "alias": "战策",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "赈济",
+    "alias": "政绩",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "赋役",
+    "alias": "负益",
+    "terms": 91,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "赋更赋",
+    "alias": "付庚付",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "赋耕赋",
+    "alias": "付更付",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "走完",
+    "alias": "此晚",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "赵构南渡",
+    "alias": "照够难度",
+    "terms": 117,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "起价",
+    "alias": "齐驾",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "趋末",
+    "alias": "驱没",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "跋宏",
+    "alias": "拔红",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "跋澄",
+    "alias": "拔城",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      1,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "跨地",
+    "alias": "夸底",
+    "terms": 92,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "轻徭薄赋",
+    "alias": "清姚伯父",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "辅成",
+    "alias": "府城",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "输平",
+    "alias": "书凭",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "边患",
+    "alias": "变换",
+    "terms": 117,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "达旦",
+    "alias": "打蛋",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "迁都",
+    "alias": "千多",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "进士",
+    "alias": "近视",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      10,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        19,
+        0,
+        true
+      ],
+      [
+        33,
+        0,
+        true
+      ],
+      [
+        21,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "远远",
+    "alias": "人员",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      1,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "逋赋",
+    "alias": "不腹",
+    "terms": 82,
+    "segs": 300,
+    "正确领域": [
+      6,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        3,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "透氏",
+    "alias": "到士",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "逝世",
+    "alias": "失事",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        3,
+        false
+      ],
+      [
+        0,
+        2,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "遁漠",
+    "alias": "敦墨",
+    "terms": 124,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "那点",
+    "alias": "纳典",
+    "terms": 108,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "邻五邻",
+    "alias": "零武林",
+    "terms": 96,
+    "segs": 300,
+    "正确领域": [
+      2,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "都懒得",
+    "alias": "德兰的",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "酒肆",
+    "alias": "九四",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "里五里",
+    "alias": "李武李",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "里物资",
+    "alias": "里沃兹",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "金银",
+    "alias": "经营",
+    "terms": 101,
+    "segs": 300,
+    "正确领域": [
+      1,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        1,
+        1,
+        false
+      ],
+      [
+        5,
+        0,
+        true
+      ],
+      [
+        3,
+        1,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "釜底",
+    "alias": "府邸",
+    "terms": 111,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "银摊",
+    "alias": "营贪",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "锡爵",
+    "alias": "熙觉",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      19,
+      0,
+      true
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        3,
+        0,
+        true
+      ],
+      [
+        1,
+        0,
+        false
+      ],
+      [
+        4,
+        0,
+        true
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "闻名",
+    "alias": "文明",
+    "terms": 102,
+    "segs": 300,
+    "正确领域": [
+      0,
+      2,
+      false
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "阀把持",
+    "alias": "法法是",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "阴雨",
+    "alias": "英语",
+    "terms": 105,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      1,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "陋规",
+    "alias": "漏归",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "隋末",
+    "alias": "随莫",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "霸先",
+    "alias": "八仙",
+    "terms": 103,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "青苗",
+    "alias": "清淼",
+    "terms": 107,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "青苗",
+    "alias": "轻描",
+    "terms": 109,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "青黄",
+    "alias": "清皇",
+    "terms": 100,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "驿站",
+    "alias": "一战",
+    "terms": 98,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        1,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "魏晋",
+    "alias": "危及",
+    "terms": 99,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "魏晋",
+    "alias": "威劲",
+    "terms": 94,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        1,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "鱼鳞",
+    "alias": "于领",
+    "terms": 97,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "鱼鳞",
+    "alias": "榆林",
+    "terms": 106,
+    "segs": 300,
+    "正确领域": [
+      2,
+      15,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        1,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        2,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "鹿皮币",
+    "alias": "鲁皮壁",
+    "terms": 114,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  },
+  {
+    "stem": "BV1uUak6pEdK",
+    "domain": "历史",
+    "target": "齐税",
+    "alias": "起睡",
+    "terms": 112,
+    "segs": 300,
+    "正确领域": [
+      0,
+      0,
+      false
+    ],
+    "错领域": [
+      0,
+      0,
+      false
+    ],
+    "随机": [
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ],
+      [
+        0,
+        0,
+        false
+      ]
+    ]
+  }
+]

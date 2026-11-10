@@ -22,6 +22,7 @@ DB = R / 'build/e033_kb/kb.sqlite'
 CASES = [('BV1uUak6pEdK', '魏清', '卫青'), ('BV1uUak6pEdK', '桑红阳', '桑弘羊'),
          ('BV1uUak6pEdK', '填富', '田赋'), ('BV1uUak6pEdK', '现关', '县官')]
 K = 300                 # 取回多少段同主题资料
+USE_ALIAS = '--no-alias' not in sys.argv      # 异写归一可整体关掉做消融
 MIN_DOCS = 2            # 少于这个独立文档数不成立
 BAND = (3, 5000)        # 查询串的文档频率带：太稀有当噪声，太常见无区分力
 
@@ -76,20 +77,40 @@ def terms(runs, df):
     return out
 
 
+def alias_map():
+    f = R / 'build/e033_kb/alias_forms.tsv'
+    out = {}
+    if not f.exists():
+        return out
+    for line in f.read_text(encoding='utf-8').splitlines():
+        if not line.strip() or line.startswith('#') or line.startswith('target'):
+            continue
+        t, v = line.split('	')[0], line.split('	')[1]
+        out.setdefault(t, []).append(v)
+    return out
+
+
 def main():
     db = sqlite3.connect(DB)
+    AM = alias_map()
 
     def df(g):
         q = '"%s"' % (' '.join(g) if len(g) > 2 else g)
         return db.execute('select count(*) from kb where kb match ?', (q,)).fetchone()[0]
 
-    def docs_of(gram, seg_ids):
+    def docs_of(gram, seg_ids, expand=True):
+        """取回段里出现该词形（含已审定的异写/简称）的独立文档数。"""
         if not seg_ids:
-            return 0
-        q = ' '.join(gram) if len(gram) > 2 else gram
-        ph = ','.join(str(s) for s in seg_ids)
-        return db.execute('select count(distinct doc_id) from segs join kb on kb.rowid=segs.seg_id '
-                          'where kb match ? and segs.seg_id in (%s)' % ph, ('"%s"' % q,)).fetchone()[0]
+            return 0, []
+        forms = [gram] + (AM.get(gram, []) if (expand and USE_ALIAS) else [])
+        ph = ','.join(str(x) for x in seg_ids)
+        got = set()
+        for g in forms:
+            q = ' '.join(g) if len(g) > 2 else g
+            got |= {r[0] for r in db.execute(
+                'select distinct doc_id from segs join kb on kb.rowid=segs.seg_id '
+                'where kb match ? and segs.seg_id in (%s)' % ph, ('"%s"' % q,))}
+        return len(got), [g for g in forms if g != gram]
 
     report = []
     for stem, alias, target in CASES:
@@ -118,9 +139,11 @@ def main():
             print('  取回资料段 %d 条 < 20 → 判定：未知（资料不足，弃权）\n' % len(segs))
             report.append(dict(case=alias, verdict='未知(资料不足)', segs=len(segs)))
             continue
-        dt, da = docs_of(target, segs), docs_of(alias, segs)
+        dt, used = docs_of(target, segs)
+        da, _ = docs_of(alias, segs, expand=False)
         verdict = '支持改' if dt >= MIN_DOCS and dt >= 2 * max(1, da) else ('反对改（别名更常见）' if da > dt else '未知（差距太小）')
-        print('  取回资料段 %d 条；其中出现目标词「%s」的独立文档 %d 份，出现别名「%s」的 %d 份' % (len(segs), target, dt, alias, da))
+        print('  取回资料段 %d 条；出现目标词「%s」的独立文档 %d 份%s，出现别名「%s」的 %d 份' % (
+            len(segs), target, dt, ('（已计入异写/简称 %s）' % '、'.join(used)) if used else '', alias, da))
         print('  判定：%s' % verdict)
         for r in db.execute('select docs.work, substr(segs.text_norm,1,52) from segs join docs on docs.doc_id=segs.doc_id '
                             'join kb on kb.rowid=segs.seg_id where kb match ? and segs.seg_id in (%s) order by bm25(kb) limit 2'

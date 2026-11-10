@@ -15,9 +15,9 @@
     "target": "桑弘羊",
     "terms": 110,
     "segs": 300,
-    "docs_target": 0,
+    "docs_target": 2,
     "docs_alias": 0,
-    "verdict": "未知（差距太小）",
+    "verdict": "支持改",
     "self_hit": 0,
     "ctrl_hit": 225
   },
