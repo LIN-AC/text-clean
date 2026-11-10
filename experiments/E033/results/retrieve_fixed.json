@@ -1,0 +1,46 @@
+[
+  {
+    "case": "魏清",
+    "target": "卫青",
+    "terms": 104,
+    "segs": 300,
+    "docs_target": 3,
+    "docs_alias": 0,
+    "verdict": "支持改",
+    "self_hit": 0,
+    "ctrl_hit": 225
+  },
+  {
+    "case": "桑红阳",
+    "target": "桑弘羊",
+    "terms": 110,
+    "segs": 300,
+    "docs_target": 0,
+    "docs_alias": 0,
+    "verdict": "未知（差距太小）",
+    "self_hit": 0,
+    "ctrl_hit": 225
+  },
+  {
+    "case": "填富",
+    "target": "田赋",
+    "terms": 109,
+    "segs": 300,
+    "docs_target": 1,
+    "docs_alias": 0,
+    "verdict": "未知（差距太小）",
+    "self_hit": 0,
+    "ctrl_hit": 225
+  },
+  {
+    "case": "现关",
+    "target": "县官",
+    "terms": 109,
+    "segs": 300,
+    "docs_target": 6,
+    "docs_alias": 0,
+    "verdict": "支持改",
+    "self_hit": 0,
+    "ctrl_hit": 225
+  }
+]

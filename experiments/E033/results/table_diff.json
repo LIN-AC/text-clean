@@ -1,0 +1,10 @@
+{
+  "sentences": 89289,
+  "repro_rows": 213271,
+  "bounded_rows": 202263,
+  "lost_by_boundary": 11008,
+  "lost_occurrences": 27288,
+  "shipped_rows": 213271,
+  "shipped_vs_repro_common": 213271,
+  "count_mismatch": 0
+}
