@@ -1,0 +1,15 @@
+{
+  "current_file": {
+    "counts": {
+      "TP": 152,
+      "FP": 79,
+      "wrong": 23
+    },
+    "distance": 1951,
+    "table_sha": "dab7d80a6497271fb6c67d52d82f9c6a14972a61da18c8785689c43b92ffdf78",
+    "rows": 972,
+    "enabled_rows": 964
+  },
+  "reference_head": "145/83/25/1962（E038 冻结，旧表）",
+  "reference_step1": "151/79/23/1952（删耕赋前、部分停用）"
+}

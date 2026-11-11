@@ -1,0 +1,33 @@
+{
+  "head": {
+    "counts": {
+      "TP": 145,
+      "FP": 83,
+      "wrong": 25
+    },
+    "distance": 1962
+  },
+  "final": {
+    "counts": {
+      "TP": 151,
+      "FP": 79,
+      "wrong": 23
+    },
+    "distance": 1952
+  },
+  "all_enabled": {
+    "counts": {
+      "TP": 152,
+      "FP": 79,
+      "wrong": 23
+    },
+    "distance": 1951
+  },
+  "length_dist": {
+    "1": 655,
+    "2": 266,
+    "3": 20,
+    "4": 23
+  },
+  "added_bad": []
+}
