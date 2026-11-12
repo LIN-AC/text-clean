@@ -1,0 +1,6103 @@
+{
+  "summary": {
+    "sites_TP": 301,
+    "changed_query_terms": 338,
+    "old_support_TP": 34,
+    "fixed_support_TP": 34,
+    "sites_FP": 28,
+    "old_support_FP": 0,
+    "fixed_support_FP": 2,
+    "sites_unjudged": 7,
+    "old_support_unjudged": 2,
+    "fixed_support_unjudged": 2,
+    "sites_wrong": 2,
+    "old_support_wrong": 0,
+    "fixed_support_wrong": 0
+  },
+  "sites": [
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "以事",
+      "target": "一室",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "相闲",
+      "target": "乡贤",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "香嫌",
+      "target": "乡贤",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 103,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "乌活",
+      "target": "屋活",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 92,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "书活",
+      "target": "屋活",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 106,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "汇集",
+      "target": "惠及",
+      "label": "TP",
+      "old_terms": 114,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "体练",
+      "target": "提炼",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 95,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "证物",
+      "target": "政务",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "书里",
+      "target": "梳理",
+      "label": "TP",
+      "old_terms": 118,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "断手",
+      "target": "段首",
+      "label": "TP",
+      "old_terms": 114,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "筋缩伤",
+      "target": "紧锁上",
+      "label": "TP",
+      "old_terms": 114,
+      "fixed_terms": 114,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "作用",
+      "target": "缩影",
+      "label": "TP",
+      "old_terms": 115,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "考核标志",
+      "target": "考核标准",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "评项",
+      "target": "评效",
+      "label": "FP",
+      "old_terms": 102,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "反向",
+      "target": "返乡",
+      "label": "TP",
+      "old_terms": 113,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "措时",
+      "target": "错时",
+      "label": "TP",
+      "old_terms": 121,
+      "fixed_terms": 120,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "飞翼",
+      "target": "非遗",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "手剧",
+      "target": "首句",
+      "label": "TP",
+      "old_terms": 120,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV18mxx64Es3",
+      "alias": "卫宇",
+      "target": "魏雨",
+      "label": "TP",
+      "old_terms": 115,
+      "fixed_terms": 114,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV19T4P6MEWp",
+      "alias": "势力",
+      "target": "事例",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 106,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV19T4P6MEWp",
+      "alias": "读力",
+      "target": "度里",
+      "label": "TP",
+      "old_terms": 88,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV19T4P6MEWp",
+      "alias": "低贯",
+      "target": "滴灌",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 118,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV19T4P6MEWp",
+      "alias": "天牵",
+      "target": "田间",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 106,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV19T4P6MEWp",
+      "alias": "续连阵",
+      "target": "绪连着",
+      "label": "TP",
+      "old_terms": 86,
+      "fixed_terms": 79,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "手记",
+      "target": "守纪",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "空间",
+      "target": "攻坚",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 95,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "正直",
+      "target": "政治",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "本才",
+      "target": "文采",
+      "label": "TP",
+      "old_terms": 111,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "用下滑线标注",
+      "target": "用下划线标注",
+      "label": "TP",
+      "old_terms": 119,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "为奸",
+      "target": "维艰",
+      "label": "TP",
+      "old_terms": 116,
+      "fixed_terms": 117,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "担破于",
+      "target": "胆魄与",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 91,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "圣语",
+      "target": "胜于",
+      "label": "TP",
+      "old_terms": 120,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1LBxq6AEVn",
+      "alias": "奇笔",
+      "target": "齐比",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 105,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "渐渐",
+      "target": "件件",
+      "label": "FP",
+      "old_terms": 95,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "星体",
+      "target": "兴替",
+      "label": "TP",
+      "old_terms": 123,
+      "fixed_terms": 123,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "一样",
+      "target": "医养",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 116,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        0,
+        2,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "长胆",
+      "target": "常掸",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "筹判",
+      "target": "愁盼",
+      "label": "TP",
+      "old_terms": 90,
+      "fixed_terms": 89,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "筹判是",
+      "target": "愁盼事",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "甚毒甚",
+      "target": "慎独慎",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "感康市",
+      "target": "敢扛事",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 103,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "断手",
+      "target": "段首",
+      "label": "TP",
+      "old_terms": 92,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "明星相",
+      "target": "民心向",
+      "label": "TP",
+      "old_terms": 97,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "助劳",
+      "target": "筑牢",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 112,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "靠电",
+      "target": "考点",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "一观",
+      "target": "衣冠",
+      "label": "TP",
+      "old_terms": 123,
+      "fixed_terms": 122,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "鱼马",
+      "target": "语码",
+      "label": "TP",
+      "old_terms": 123,
+      "fixed_terms": 123,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "尾多",
+      "target": "诿躲",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1sxxX64E4E",
+      "alias": "配起",
+      "target": "配齐",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 106,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一栋",
+      "target": "一同",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "亦是",
+      "target": "一时",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 101,
+      "old": [
+        7,
+        0,
+        true
+      ],
+      "fixed": [
+        6,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "账填母",
+      "target": "丈田亩",
+      "label": "TP",
+      "old_terms": 82,
+      "fixed_terms": 74,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "账年",
+      "target": "丈绵",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 90,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "账粮何时",
+      "target": "丈量核实",
+      "label": "TP",
+      "old_terms": 80,
+      "fixed_terms": 76,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "吓着",
+      "target": "下旨",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 106,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "言行",
+      "target": "严刑",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "中心之望",
+      "target": "中兴之望",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "玲戎",
+      "target": "临戎",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "平城",
+      "target": "临行",
+      "label": "FP",
+      "old_terms": 102,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "利胶纸",
+      "target": "丽交趾",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "指导",
+      "target": "之道",
+      "label": "TP",
+      "old_terms": 117,
+      "fixed_terms": 120,
+      "old": [
+        4,
+        0,
+        true
+      ],
+      "fixed": [
+        4,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "士平仁",
+      "target": "事频仍",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "产出粮腹",
+      "target": "产出粮赋",
+      "label": "TP",
+      "old_terms": 97,
+      "fixed_terms": 83,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "母树",
+      "target": "亩数",
+      "label": "TP",
+      "old_terms": 97,
+      "fixed_terms": 90,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "人证",
+      "target": "仁政",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "养麻烦",
+      "target": "仰马翻",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 102,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "认诚往",
+      "target": "任城王",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "慧耀及",
+      "target": "会要辑",
+      "label": "TP",
+      "old_terms": 87,
+      "fixed_terms": 85,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "薄言",
+      "target": "伯颜",
+      "label": "TP",
+      "old_terms": 121,
+      "fixed_terms": 121,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "于要",
+      "target": "余姚",
+      "label": "TP",
+      "old_terms": 90,
+      "fixed_terms": 91,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        3,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一副",
+      "target": "依附",
+      "label": "FP",
+      "old_terms": 95,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "衣服",
+      "target": "依附",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 100,
+      "old": [
+        1,
+        6,
+        false
+      ],
+      "fixed": [
+        0,
+        6,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "浮浮",
+      "target": "俯伏",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 92,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "如称",
+      "target": "儒生",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 113,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "原亭蒸",
+      "target": "元廷征",
+      "label": "TP",
+      "old_terms": 90,
+      "fixed_terms": 83,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "工序",
+      "target": "光绪",
+      "label": "TP",
+      "old_terms": 97,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "对兴",
+      "target": "兑信",
+      "label": "TP",
+      "old_terms": 92,
+      "fixed_terms": 90,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "巴布",
+      "target": "八部",
+      "label": "TP",
+      "old_terms": 116,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "供填",
+      "target": "公田",
+      "label": "TP",
+      "old_terms": 81,
+      "fixed_terms": 70,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "新宿",
+      "target": "兴修",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "心肺",
+      "target": "兴废",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 105,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "煎柄",
+      "target": "兼并",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 95,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "策做",
+      "target": "册做",
+      "label": "TP",
+      "old_terms": 82,
+      "fixed_terms": 70,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "兵和鸡",
+      "target": "冰河期",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "剪容",
+      "target": "减冗",
+      "label": "TP",
+      "old_terms": 113,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "贫困",
+      "target": "凭空",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "历代",
+      "target": "利贷",
+      "label": "FP",
+      "old_terms": 120,
+      "fixed_terms": 121,
+      "old": [
+        0,
+        2,
+        false
+      ],
+      "fixed": [
+        0,
+        2,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "钱贷",
+      "target": "前代",
+      "label": "TP",
+      "old_terms": 77,
+      "fixed_terms": 87,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        4,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "起了",
+      "target": "前的",
+      "label": "TP",
+      "old_terms": 114,
+      "fixed_terms": 102,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "钱先",
+      "target": "前线",
+      "label": "TP",
+      "old_terms": 85,
+      "fixed_terms": 85,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "加富",
+      "target": "加赋",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "截略",
+      "target": "劫掠",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "历经",
+      "target": "励精",
+      "label": "TP",
+      "old_terms": 113,
+      "fixed_terms": 107,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "兄末",
+      "target": "匈漠",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 116,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "实际墓",
+      "target": "十几亩",
+      "label": "unjudged",
+      "old_terms": 100,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "搬出",
+      "target": "半数",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 122,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "卖关于绝",
+      "target": "卖官鬻爵",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "难乏",
+      "target": "南伐",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "难度",
+      "target": "南渡",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 94,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "挂上",
+      "target": "卦象",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 101,
+      "old": [
+        3,
+        0,
+        true
+      ],
+      "fixed": [
+        3,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "魏清",
+      "target": "卫青",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 114,
+      "old": [
+        3,
+        0,
+        true
+      ],
+      "fixed": [
+        3,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "魏清获取",
+      "target": "卫青霍去",
+      "label": "TP",
+      "old_terms": 90,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "青补",
+      "target": "卿卜",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "立身",
+      "target": "厉声",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "现关",
+      "target": "县官",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 111,
+      "old": [
+        6,
+        0,
+        true
+      ],
+      "fixed": [
+        8,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "沟黎",
+      "target": "句丽",
+      "label": "TP",
+      "old_terms": 113,
+      "fixed_terms": 98,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "直枪",
+      "target": "只抢",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "直降人意",
+      "target": "只讲仁义",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "石治",
+      "target": "史之",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "可及",
+      "target": "合计",
+      "label": "TP",
+      "old_terms": 93,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "绩四",
+      "target": "吉思",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "民意",
+      "target": "名义",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 114,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "民陈",
+      "target": "名臣",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 107,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "后时",
+      "target": "后世",
+      "label": "TP",
+      "old_terms": 113,
+      "fixed_terms": 120,
+      "old": [
+        10,
+        5,
+        true
+      ],
+      "fixed": [
+        9,
+        5,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "无言",
+      "target": "呜咽",
+      "label": "FP",
+      "old_terms": 117,
+      "fixed_terms": 121,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        0,
+        1,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "殷勋",
+      "target": "因循",
+      "label": "TP",
+      "old_terms": 121,
+      "fixed_terms": 109,
+      "old": [
+        3,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "故林",
+      "target": "固陵",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "地亭",
+      "target": "地丁",
+      "label": "TP",
+      "old_terms": 86,
+      "fixed_terms": 91,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "的家具",
+      "target": "地加剧",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "军属",
+      "target": "均输",
+      "label": "TP",
+      "old_terms": 93,
+      "fixed_terms": 92,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "军书凭",
+      "target": "均输平",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 117,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "军书凭准",
+      "target": "均输平准",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 116,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "军属法",
+      "target": "均输法",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "勒乱",
+      "target": "垄断",
+      "label": "TP",
+      "old_terms": 113,
+      "fixed_terms": 117,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "浓乱",
+      "target": "垄断",
+      "label": "TP",
+      "old_terms": 111,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "成熏",
+      "target": "城勋",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "读出",
+      "target": "堵住",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "独口政绩修复",
+      "target": "堵口赈济修复",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "赛公使",
+      "target": "塞光是",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 103,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "师生付货",
+      "target": "士绅富户",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "笑脸冒财",
+      "target": "孝廉茂才",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "他煤",
+      "target": "它霉",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 105,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "纵巢",
+      "target": "宋朝",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 83,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "松墨",
+      "target": "宋末",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 87,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "总是狗",
+      "target": "宗室各",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "关闲",
+      "target": "官衔",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 77,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "时机",
+      "target": "实际",
+      "label": "FP",
+      "old_terms": 97,
+      "fixed_terms": 98,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "省机官",
+      "target": "审计官",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "负语",
+      "target": "富裕",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "堆治",
+      "target": "对峙",
+      "label": "TP",
+      "old_terms": 121,
+      "fixed_terms": 133,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "导致",
+      "target": "导向",
+      "label": "FP",
+      "old_terms": 100,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "酱友",
+      "target": "将有",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "供他",
+      "target": "崩塌",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "周线",
+      "target": "州县",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 103,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "制议法",
+      "target": "市易法",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "不薄",
+      "target": "布帛",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 99,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "右地",
+      "target": "幼帝",
+      "label": "TP",
+      "old_terms": 111,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "耕虚",
+      "target": "庚戌",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 94,
+      "old": [
+        4,
+        0,
+        true
+      ],
+      "fixed": [
+        3,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "辐射",
+      "target": "府设",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "杜碟",
+      "target": "度牒",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 76,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "停仗",
+      "target": "廷杖",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 106,
+      "old": [
+        8,
+        0,
+        true
+      ],
+      "fixed": [
+        13,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "建杠",
+      "target": "建康",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 91,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        3,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "红阳",
+      "target": "弘羊",
+      "label": "TP",
+      "old_terms": 111,
+      "fixed_terms": 117,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "葳扬",
+      "target": "弘羊",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "墙像",
+      "target": "强像",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 89,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "当卖绝",
+      "target": "当卖爵",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "益公",
+      "target": "役共",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "承受",
+      "target": "征收",
+      "label": "TP",
+      "old_terms": 90,
+      "fixed_terms": 88,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "玉山",
+      "target": "御膳",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "摇曳",
+      "target": "徭役",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 116,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "灰清",
+      "target": "徽钦",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "心理事",
+      "target": "性劣势",
+      "label": "TP",
+      "old_terms": 114,
+      "fixed_terms": 120,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "碑碳",
+      "target": "悲叹",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 118,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "凯探",
+      "target": "慨叹",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "数族",
+      "target": "戍卒",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 88,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "承载",
+      "target": "成灾",
+      "label": "FP",
+      "old_terms": 106,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "达到",
+      "target": "打倒",
+      "label": "FP",
+      "old_terms": 79,
+      "fixed_terms": 89,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "这张",
+      "target": "执掌",
+      "label": "FP",
+      "old_terms": 93,
+      "fixed_terms": 92,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "阔鞋",
+      "target": "扩写",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 106,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "益之",
+      "target": "抑之",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 90,
+      "old": [
+        0,
+        12,
+        false
+      ],
+      "fixed": [
+        1,
+        1,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一伤",
+      "target": "抑商",
+      "label": "TP",
+      "old_terms": 123,
+      "fixed_terms": 119,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "易伤",
+      "target": "抑商",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "距不",
+      "target": "据估",
+      "label": "TP",
+      "old_terms": 122,
+      "fixed_terms": 134,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "调反正",
+      "target": "掉藩镇",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "撤走",
+      "target": "掣肘",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 92,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "皆是",
+      "target": "接时",
+      "label": "TP",
+      "old_terms": 89,
+      "fixed_terms": 83,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "结实",
+      "target": "接时",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 98,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "就必",
+      "target": "旧币",
+      "label": "FP",
+      "old_terms": 105,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "冥王",
+      "target": "明亡",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 91,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "民营",
+      "target": "明令",
+      "label": "FP",
+      "old_terms": 106,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "民一代",
+      "target": "明夷待",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 73,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "民墙",
+      "target": "明抢",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 82,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "婚姻",
+      "target": "昏庸",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "礁第十",
+      "target": "昭帝始",
+      "label": "unjudged",
+      "old_terms": 98,
+      "fixed_terms": 106,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "是他海南",
+      "target": "是它很难",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "京新",
+      "target": "晋兴",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "景丁四",
+      "target": "景定四",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "爆裂",
+      "target": "暴敛",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 91,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "各式",
+      "target": "更是",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 98,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "罪称",
+      "target": "最称",
+      "label": "TP",
+      "old_terms": 89,
+      "fixed_terms": 75,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "威阳",
+      "target": "未央",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 118,
+      "old": [
+        6,
+        0,
+        true
+      ],
+      "fixed": [
+        5,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "墨烧",
+      "target": "末梢",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 89,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "阳言",
+      "target": "杨炎",
+      "label": "wrong",
+      "old_terms": 98,
+      "fixed_terms": 92,
+      "old": [
+        1,
+        1,
+        false
+      ],
+      "fixed": [
+        1,
+        1,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "激进",
+      "target": "极尽",
+      "label": "FP",
+      "old_terms": 117,
+      "fixed_terms": 114,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "丧红阳",
+      "target": "桑弘羊",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 105,
+      "old": [
+        4,
+        0,
+        true
+      ],
+      "fixed": [
+        4,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "桑葳扬",
+      "target": "桑弘羊",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "储才",
+      "target": "楚材",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 85,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "于益",
+      "target": "欲抑",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 89,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "辞使",
+      "target": "此始",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 81,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "死生已知",
+      "target": "死生以之",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "独流",
+      "target": "毒瘤",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "明辩",
+      "target": "民变",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 91,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "明镇",
+      "target": "民政",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 102,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "汉帝",
+      "target": "汉廷",
+      "label": "FP",
+      "old_terms": 122,
+      "fixed_terms": 129,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "降难",
+      "target": "江南",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 110,
+      "old": [
+        3,
+        0,
+        true
+      ],
+      "fixed": [
+        4,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "边境",
+      "target": "汴京",
+      "label": "FP",
+      "old_terms": 101,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "遍经",
+      "target": "汴京",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 82,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "破凉",
+      "target": "泊梁",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "申根",
+      "target": "深耕",
+      "label": "TP",
+      "old_terms": 104,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "蜻蜓",
+      "target": "清廷",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 103,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "倾障",
+      "target": "清账",
+      "label": "TP",
+      "old_terms": 87,
+      "fixed_terms": 87,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "余力",
+      "target": "渔利",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 91,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "字位",
+      "target": "滋味",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "资深",
+      "target": "滋生",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 105,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "满门心灵",
+      "target": "满门性命",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 103,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "烈烈",
+      "target": "猎猎",
+      "label": "TP",
+      "old_terms": 111,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "往往",
+      "target": "王莽",
+      "label": "FP",
+      "old_terms": 108,
+      "fixed_terms": 117,
+      "old": [
+        6,
+        5,
+        false
+      ],
+      "fixed": [
+        13,
+        2,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "铁姆",
+      "target": "田亩",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "铁木",
+      "target": "田亩",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "铁母",
+      "target": "田亩",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 95,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "铁木失实",
+      "target": "田亩失实",
+      "label": "TP",
+      "old_terms": 92,
+      "fixed_terms": 85,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "甜母尽",
+      "target": "田亩竟",
+      "label": "TP",
+      "old_terms": 93,
+      "fixed_terms": 83,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "填付",
+      "target": "田赋",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 94,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "填富",
+      "target": "田赋",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 110,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "游送",
+      "target": "由盛",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "甲州",
+      "target": "甲胄",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一周",
+      "target": "益州",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 100,
+      "old": [
+        3,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "沿递",
+      "target": "盐铁",
+      "label": "TP",
+      "old_terms": 117,
+      "fixed_terms": 128,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "上阳",
+      "target": "相杨",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 92,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "都户",
+      "target": "督护",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "治十",
+      "target": "知时",
+      "label": "unjudged",
+      "old_terms": 101,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "实施",
+      "target": "石始",
+      "label": "FP",
+      "old_terms": 112,
+      "fixed_terms": 112,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "隐身",
+      "target": "硬生",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "理值",
+      "target": "礼制",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "起伏",
+      "target": "祈福",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "族族",
+      "target": "祖祖",
+      "label": "TP",
+      "old_terms": 93,
+      "fixed_terms": 77,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "丝绸",
+      "target": "私仇",
+      "label": "FP",
+      "old_terms": 95,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "足拥",
+      "target": "租庸",
+      "label": "TP",
+      "old_terms": 97,
+      "fixed_terms": 103,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "寄营",
+      "target": "积银",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一直",
+      "target": "移植",
+      "label": "FP",
+      "old_terms": 120,
+      "fixed_terms": 128,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "睡伤",
+      "target": "税商",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 116,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "睡伤半",
+      "target": "税商败",
+      "label": "TP",
+      "old_terms": 110,
+      "fixed_terms": 117,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "税机",
+      "target": "税基",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "金箱",
+      "target": "竞相",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 110,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "拐没",
+      "target": "管每",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "梁长",
+      "target": "粮长",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 84,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "经历",
+      "target": "精力",
+      "label": "FP",
+      "old_terms": 106,
+      "fixed_terms": 109,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        2,
+        1,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "金粮",
+      "target": "精良",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "惊奇",
+      "target": "精骑",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "所到",
+      "target": "索刀",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 114,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "纳苏二十",
+      "target": "纳粟二石",
+      "label": "unjudged",
+      "old_terms": 106,
+      "fixed_terms": 86,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "只必",
+      "target": "纸币",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 89,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "近云",
+      "target": "经营",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "屡漂浮",
+      "target": "缕飘忽",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 98,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "边中",
+      "target": "编钟",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "江神",
+      "target": "缰绳",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "裸旗",
+      "target": "罗绮",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 90,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "虚拟",
+      "target": "胥吏",
+      "label": "TP",
+      "old_terms": 89,
+      "fixed_terms": 96,
+      "old": [
+        3,
+        0,
+        true
+      ],
+      "fixed": [
+        3,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "卖相",
+      "target": "脉象",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 92,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "必住",
+      "target": "臂助",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "智容",
+      "target": "至荣",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "知名",
+      "target": "致命",
+      "label": "TP",
+      "old_terms": 122,
+      "fixed_terms": 120,
+      "old": [
+        1,
+        2,
+        false
+      ],
+      "fixed": [
+        1,
+        2,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "截留",
+      "target": "节流",
+      "label": "FP",
+      "old_terms": 105,
+      "fixed_terms": 107,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "狗利设计",
+      "target": "苟利社稷",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "皇帝",
+      "target": "荒地",
+      "label": "FP",
+      "old_terms": 110,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        20,
+        false
+      ],
+      "fixed": [
+        0,
+        16,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "消炎",
+      "target": "萧衍",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 95,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "硝烟",
+      "target": "萧衍",
+      "label": "TP",
+      "old_terms": 118,
+      "fixed_terms": 126,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "翻访",
+      "target": "蕃坊",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "翻学",
+      "target": "蕃学",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 95,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "翻试",
+      "target": "蕃市",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "翻证",
+      "target": "藩镇",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 120,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "掩饰",
+      "target": "衍是",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 119,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一关",
+      "target": "衣冠",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 94,
+      "old": [
+        3,
+        0,
+        true
+      ],
+      "fixed": [
+        4,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一关难度",
+      "target": "衣冠南渡",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "备杖",
+      "target": "被杖",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        5,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "籍寄",
+      "target": "计跻",
+      "label": "TP",
+      "old_terms": 93,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "制度",
+      "target": "试图",
+      "label": "FP",
+      "old_terms": 107,
+      "fixed_terms": 102,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        0,
+        2,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "诸地",
+      "target": "诸帝",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "世号",
+      "target": "谥号",
+      "label": "TP",
+      "old_terms": 111,
+      "fixed_terms": 109,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "千功",
+      "target": "谦恭",
+      "label": "unjudged",
+      "old_terms": 110,
+      "fixed_terms": 122,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "骨剑",
+      "target": "谷贱",
+      "label": "TP",
+      "old_terms": 89,
+      "fixed_terms": 80,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "刨墙",
+      "target": "豪强",
+      "label": "TP",
+      "old_terms": 81,
+      "fixed_terms": 76,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "好想",
+      "target": "豪强",
+      "label": "TP",
+      "old_terms": 93,
+      "fixed_terms": 93,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "桃墙藏人",
+      "target": "豪强藏人",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 83,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "真关",
+      "target": "贞观",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 81,
+      "old": [
+        4,
+        0,
+        true
+      ],
+      "fixed": [
+        4,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "猜人",
+      "target": "财人",
+      "label": "TP",
+      "old_terms": 95,
+      "fixed_terms": 111,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "仗策",
+      "target": "账册",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "帐策",
+      "target": "账册",
+      "label": "TP",
+      "old_terms": 86,
+      "fixed_terms": 92,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "战策",
+      "target": "账册",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "政绩",
+      "target": "赈济",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "负益",
+      "target": "赋役",
+      "label": "TP",
+      "old_terms": 91,
+      "fixed_terms": 97,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "付庚付",
+      "target": "赋更赋",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "付更付",
+      "target": "赋耕赋",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "此晚",
+      "target": "走完",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "照够难度",
+      "target": "赵构南渡",
+      "label": "TP",
+      "old_terms": 117,
+      "fixed_terms": 119,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "齐驾",
+      "target": "起价",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "驱没",
+      "target": "趋末",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 90,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "拔红",
+      "target": "跋宏",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 92,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "拔城",
+      "target": "跋澄",
+      "label": "wrong",
+      "old_terms": 101,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        1,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "夸底",
+      "target": "跨地",
+      "label": "TP",
+      "old_terms": 92,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "清姚伯父",
+      "target": "轻徭薄赋",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 103,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "府城",
+      "target": "辅成",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 103,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "书凭",
+      "target": "输平",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 118,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "变换",
+      "target": "边患",
+      "label": "TP",
+      "old_terms": 117,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "打蛋",
+      "target": "达旦",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "千多",
+      "target": "迁都",
+      "label": "unjudged",
+      "old_terms": 108,
+      "fixed_terms": 98,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "近视",
+      "target": "进士",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 104,
+      "old": [
+        10,
+        0,
+        true
+      ],
+      "fixed": [
+        8,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "人员",
+      "target": "远远",
+      "label": "FP",
+      "old_terms": 101,
+      "fixed_terms": 106,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "不腹",
+      "target": "逋赋",
+      "label": "TP",
+      "old_terms": 82,
+      "fixed_terms": 75,
+      "old": [
+        6,
+        0,
+        true
+      ],
+      "fixed": [
+        6,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "到士",
+      "target": "透氏",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 104,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "失事",
+      "target": "逝世",
+      "label": "TP",
+      "old_terms": 101,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "敦墨",
+      "target": "遁漠",
+      "label": "TP",
+      "old_terms": 124,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "纳典",
+      "target": "那点",
+      "label": "TP",
+      "old_terms": 108,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "零武林",
+      "target": "邻五邻",
+      "label": "TP",
+      "old_terms": 96,
+      "fixed_terms": 90,
+      "old": [
+        2,
+        0,
+        true
+      ],
+      "fixed": [
+        2,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "德兰的",
+      "target": "都懒得",
+      "label": "TP",
+      "old_terms": 102,
+      "fixed_terms": 86,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "九四",
+      "target": "酒肆",
+      "label": "unjudged",
+      "old_terms": 112,
+      "fixed_terms": 93,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "李武李",
+      "target": "里五里",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 88,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "里沃兹",
+      "target": "里物资",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 74,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "经营",
+      "target": "金银",
+      "label": "FP",
+      "old_terms": 101,
+      "fixed_terms": 105,
+      "old": [
+        1,
+        0,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "府邸",
+      "target": "釜底",
+      "label": "TP",
+      "old_terms": 111,
+      "fixed_terms": 115,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "营贪",
+      "target": "银摊",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 113,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "熙觉",
+      "target": "锡爵",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 113,
+      "old": [
+        19,
+        0,
+        true
+      ],
+      "fixed": [
+        19,
+        0,
+        true
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "文明",
+      "target": "闻名",
+      "label": "FP",
+      "old_terms": 102,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        2,
+        false
+      ],
+      "fixed": [
+        0,
+        1,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "法法是",
+      "target": "阀把持",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 112,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "英语",
+      "target": "阴雨",
+      "label": "TP",
+      "old_terms": 105,
+      "fixed_terms": 105,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "漏归",
+      "target": "陋规",
+      "label": "FP",
+      "old_terms": 97,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "随莫",
+      "target": "隋末",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 99,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "八仙",
+      "target": "霸先",
+      "label": "TP",
+      "old_terms": 103,
+      "fixed_terms": 100,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "清淼",
+      "target": "青苗",
+      "label": "TP",
+      "old_terms": 107,
+      "fixed_terms": 101,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "轻描",
+      "target": "青苗",
+      "label": "TP",
+      "old_terms": 109,
+      "fixed_terms": 96,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "清皇",
+      "target": "青黄",
+      "label": "TP",
+      "old_terms": 100,
+      "fixed_terms": 102,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "一战",
+      "target": "驿站",
+      "label": "TP",
+      "old_terms": 98,
+      "fixed_terms": 81,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "危及",
+      "target": "魏晋",
+      "label": "TP",
+      "old_terms": 99,
+      "fixed_terms": 108,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "威劲",
+      "target": "魏晋",
+      "label": "TP",
+      "old_terms": 94,
+      "fixed_terms": 89,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "于领",
+      "target": "鱼鳞",
+      "label": "TP",
+      "old_terms": 97,
+      "fixed_terms": 94,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "榆林",
+      "target": "鱼鳞",
+      "label": "TP",
+      "old_terms": 106,
+      "fixed_terms": 101,
+      "old": [
+        2,
+        15,
+        false
+      ],
+      "fixed": [
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "鲁皮壁",
+      "target": "鹿皮币",
+      "label": "TP",
+      "old_terms": 114,
+      "fixed_terms": 97,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    },
+    {
+      "stem": "BV1uUak6pEdK",
+      "alias": "起睡",
+      "target": "齐税",
+      "label": "TP",
+      "old_terms": 112,
+      "fixed_terms": 103,
+      "old": [
+        0,
+        0,
+        false
+      ],
+      "fixed": [
+        0,
+        0,
+        false
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sample": "BV1uN4y1y7Fb",
+  "ref_han": 902,
+  "whisper_han": 1002,
+  "cues": 78,
+  "accept_line": 0.55,
+  "auto_cues": 67,
+  "pending_cues": 11,
+  "error_run_lengths": {
+    "1": 124,
+    "2": 52,
+    "3": 16,
+    "4": 15,
+    "5": 2,
+    "6": 3
+  },
+  "homophone_only_run_lengths": {
+    "1": 121,
+    "2": 51,
+    "3": 12,
+    "4": 15,
+    "6": 3
+  },
+  "err_chars_total": 364,
+  "err_chars_in_runs_over_4": 28,
+  "share_over_4": 0.0769,
+  "unaligned_chars": 117,
+  "ref_covered_chars": 880,
+  "ref_total_chars": 902,
+  "label_key": {
+    "0": "对",
+    "1": "同音不同字",
+    "2": "不同音/多字",
+    "4": "漏字",
+    "3": "整段未对齐"
+  }
+}

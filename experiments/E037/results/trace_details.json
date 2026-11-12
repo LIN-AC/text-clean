@@ -1,0 +1,55 @@
+{
+  "counts": {
+    "windows": 1174,
+    "newline_context_mismatch": 285,
+    "applied_with_context_mismatch": 2
+  },
+  "newline_examples": [
+    {
+      "video": "BV163xB6zEwF.gt",
+      "begin": 379,
+      "source": "只是",
+      "actual_left": "把不是而是进了结果你又写成这个方向没错",
+      "expected_left": ""
+    },
+    {
+      "video": "BV163xB6zEwF.gt",
+      "begin": 388,
+      "source": "其实",
+      "actual_left": "只是换张皮又回来",
+      "expected_left": ""
+    },
+    {
+      "video": "BV163xB6zEwF.gt",
+      "begin": 636,
+      "source": "光不",
+      "actual_left": "第三章更进一步绿茶味",
+      "expected_left": ""
+    },
+    {
+      "video": "BV163xB6zEwF.gt",
+      "begin": 995,
+      "source": "夸得",
+      "actual_left": "第四夸他但别每次都夸",
+      "expected_left": ""
+    },
+    {
+      "video": "BV18mxx64Es3.gt",
+      "begin": 279,
+      "source": "更需",
+      "actual_left": "不能简单做家法",
+      "expected_left": ""
+    }
+  ],
+  "extra_repair_suffix_support": [
+    {
+      "cluster": "bded8cb0ec72ef01",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷90",
+      "source_family": "後漢書",
+      "excerpt": "及武帝遣骠骑将军霍去病击破匈奴左地"
+    }
+  ],
+  "consumer_sha256": "1aea7899c35dea57d68a68c6559a29b30748c10827029d9e8c215d067807267d",
+  "script_sha256": "adda04e8a98b5c1fdede2f612f1be72a5217aa586f785c52fb10ad1e0b0e2523",
+  "note": "Independent literal backward scan vs current consumer regex; no algorithm or parameters changed."
+}

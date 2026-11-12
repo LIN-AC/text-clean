@@ -1,0 +1,17 @@
+{
+  "commit": "72796cad1f5a7a2317b0bae79fbe335e79f7c153",
+  "inputs": {
+    "asr\\BV1uUak6pEdK.gt.jsonl": "3758e782761820ae0873fe597305ec28868f62f741f8f0c940db1f78a0302584",
+    "experiments\\E037\\scripts\\gain_probe.py": "9f87c78f52a71c01360b83fff035b5eba096ce56d938094c6094d5c0eaae76a9",
+    "tools\\rag_clean.py": "1aea7899c35dea57d68a68c6559a29b30748c10827029d9e8c215d067807267d",
+    "experiments\\E024\\scripts\\align_lib.py": "825e9a69385a1dd87616e9baacfcd4c27b93606032351ab85b7024bde818ed31",
+    "data\\correction\\candidates.tsv": "2313abc037a99117054ae8ddcced6492e7f137ffca4af899fdaa9b9b793b37a6",
+    "build\\e037_package_train\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e037_package_train\\evidence.sqlite": "42208425d5fe4c1a1b3113822b0618d3d1a53ffb55ce4386c46f5e8589c30299",
+    "build\\e037_package_train\\manifest.json": "e48d892549257b0072ddec5aecd8ec9dade4113f8e8dae452845da1eae17a7ea",
+    "build\\e037_package_train\\model.json": "b0dd25bb436398a1066b2a142e8c8dee850a7a26b660515ed340787fddda8d53",
+    "build\\e037_package_train\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+  },
+  "all_inputs_unchanged": true,
+  "command": "python experiments/E037/scripts/gain_probe.py"
+}

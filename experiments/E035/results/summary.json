@@ -1,0 +1,30 @@
+{
+  "noop": {
+    "counts": {},
+    "distance": 2024,
+    "remaining_original_errors": 1921
+  },
+  "V1": {
+    "counts": {
+      "FP": 83,
+      "TP": 145,
+      "wrong": 25
+    },
+    "distance": 1962,
+    "remaining_original_errors": 1776
+  },
+  "new_research": {
+    "counts": {
+      "TP": 8
+    },
+    "distance": 2016,
+    "remaining_original_errors": 1913
+  },
+  "ngram_only": {
+    "counts": {
+      "TP": 8
+    },
+    "distance": 2016,
+    "remaining_original_errors": 1913
+  }
+}

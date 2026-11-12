@@ -1,0 +1,330 @@
+{
+  "isolation": {
+    "train_docs": 81177,
+    "train_clusters": 80198,
+    "holdout_clusters": 9011,
+    "cluster_intersection": 0,
+    "unexpected_docs": 0,
+    "missing_docs": 0,
+    "unknown_holdout_clusters": 0,
+    "changed_doc_rows": 0,
+    "changed_seg_rows": 0,
+    "training_orphan_segments": 0,
+    "missing_train_segments": 0
+  },
+  "structural_errors": {
+    "normalization": 0,
+    "mapping": 0,
+    "offset": 0,
+    "edge_character": 0,
+    "stop_flags": 0
+  },
+  "units": {
+    "历史": {
+      "docs": 1020,
+      "han_chars": 7133866,
+      "clusters": 1020,
+      "segments": 641838
+    },
+    "现代": {
+      "docs": 89284,
+      "han_chars": 915996,
+      "clusters": 88189,
+      "segments": 114202
+    }
+  },
+  "punctuation_by_family": {
+    "史記集解": {
+      "docs": 125,
+      "no_Chinese_sentence_stop_docs": 125,
+      "declared_no_punctuation_docs": 125
+    },
+    "後漢書": {
+      "docs": 260,
+      "no_Chinese_sentence_stop_docs": 130,
+      "declared_no_punctuation_docs": 130
+    },
+    "後漢書補逸": {
+      "docs": 21,
+      "no_Chinese_sentence_stop_docs": 21,
+      "declared_no_punctuation_docs": 21
+    },
+    "明史": {
+      "docs": 509,
+      "no_Chinese_sentence_stop_docs": 331,
+      "declared_no_punctuation_docs": 331
+    },
+    "明史紀事本末": {
+      "docs": 15,
+      "no_Chinese_sentence_stop_docs": 0,
+      "declared_no_punctuation_docs": 0
+    },
+    "漢書": {
+      "docs": 68,
+      "no_Chinese_sentence_stop_docs": 1,
+      "declared_no_punctuation_docs": 1
+    },
+    "漢書顏師古註": {
+      "docs": 22,
+      "no_Chinese_sentence_stop_docs": 0,
+      "declared_no_punctuation_docs": 0
+    },
+    "tatoeba_cmn": {
+      "docs": 89284,
+      "no_Chinese_sentence_stop_docs": 2191,
+      "declared_no_punctuation_docs": 0,
+      "raw_contains_reserved_sentinel": 2
+    }
+  },
+  "boundary_counts": {
+    "历史/换行或空白": 105386,
+    "历史/句内停顿": 360004,
+    "历史/句末标点": 176444,
+    "历史/文档尾": 4,
+    "现代/句末标点": 90213,
+    "现代/句内停顿": 19181,
+    "现代/换行或空白": 4217,
+    "现代/文档尾": 591
+  },
+  "class_flag_conflicts": {
+    "历史/right": 19,
+    "历史/left": 13
+  },
+  "non_whitespace_classed_as_whitespace": {
+    "}": 7637,
+    "{": 3975,
+    "○": 2179,
+    "": 5,
+    "c": 74,
+    "&": 417,
+    "□": 602,
+    "": 4,
+    "": 1,
+    "": 2,
+    "": 1,
+    "": 1,
+    "﨣": 2,
+    "》": 7955,
+    "|": 872,
+    "《": 5359,
+    "=": 2149,
+    "「": 6550,
+    "」": 7069,
+    "０": 973,
+    "（": 555,
+    "）": 663,
+    "〕": 970,
+    "〔": 127,
+    "[": 1954,
+    "]": 4851,
+    "·": 95,
+    "〇": 129,
+    "〈": 50,
+    "〉": 66,
+    "『": 739,
+    "』": 807,
+    "】": 48,
+    "〗": 695,
+    "-": 2590,
+    "“": 244,
+    "”": 295,
+    "—": 46,
+    "*": 922,
+    ")": 881,
+    "﹑": 422,
+    "0": 18,
+    "1": 376,
+    "］": 10,
+    "［": 1,
+    "(": 180,
+    "_": 5,
+    "​": 115,
+    "B": 30,
+    "F": 33,
+    "々": 4,
+    "C": 37,
+    "E": 7,
+    "‘": 9,
+    "’": 15,
+    "'": 2,
+    "D": 15,
+    "�": 1,
+    "﨑": 1,
+    "Ｃ": 1,
+    "": 1,
+    "⒎": 1,
+    "/": 11,
+    "2": 159,
+    "﹒": 1,
+    "Ｂ": 7,
+    "Ａ": 1,
+    "︰": 1,
+    ".": 262,
+    "‧": 2,
+    "…": 55,
+    "•": 4,
+    "﹐": 3,
+    "5": 88,
+    "L": 21,
+    "p": 3,
+    "8": 45,
+    "i": 7,
+    "3": 117,
+    "T": 147,
+    "⋯": 17,
+    "Q": 4,
+    "\"": 69,
+    "J": 34,
+    "9": 32,
+    "U": 6,
+    "X": 7,
+    "I": 10,
+    "~": 3,
+    "S": 22,
+    "A": 30,
+    " ": 2,
+    "M": 62,
+    "R": 8,
+    "4": 50,
+    "W": 8,
+    "・": 6,
+    "7": 47,
+    "🤣": 1,
+    "～": 5,
+    "ㄒ": 1,
+    "K": 10,
+    "b": 5,
+    "を": 1,
+    "Y": 3,
+    "O": 11,
+    "6": 52,
+    "t": 2,
+    "e": 4,
+    "l": 2,
+    "H": 9,
+    "d": 2,
+    "G": 5,
+    "u": 2,
+    "+": 1,
+    "P": 18,
+    "@": 1,
+    "k": 2,
+    "．": 1,
+    "N": 5,
+    "＂": 11,
+    "o": 1,
+    "h": 1,
+    "f": 1,
+    "Ｑ": 2,
+    "x": 2,
+    "６": 1,
+    "１": 1,
+    "－": 4,
+    "８": 1,
+    "─": 2,
+    "α": 1,
+    "β": 1,
+    "«": 1,
+    "﹗": 1,
+    "﹖": 1,
+    "２": 1
+  },
+  "edge_examples": [
+    {
+      "seg": 14,
+      "edge": "}",
+      "context": "置左右史故云史記}}\n　　{{S"
+    },
+    {
+      "seg": 15,
+      "edge": "}",
+      "context": "禪亭亭亭亭在牟隂}}少典之子{{"
+    },
+    {
+      "seg": 16,
+      "edge": "{",
+      "context": "牟隂}}少典之子{{SK not"
+    },
+    {
+      "seg": 17,
+      "edge": "}",
+      "context": "其所作帝王世紀也}}姓公孫名曰軒"
+    },
+    {
+      "seg": 18,
+      "edge": "{",
+      "context": "弱而能言幼而徇齊{{SK not"
+    },
+    {
+      "seg": 19,
+      "edge": "}",
+      "context": "不聰明何得云十五}}長而敦敏成而"
+    },
+    {
+      "seg": 20,
+      "edge": "{",
+      "context": "蚩尤最為暴莫能伐{{SK not"
+    },
+    {
+      "seg": 21,
+      "edge": "}",
+      "context": "九黎君號蚩尤是也}}炎帝欲侵陵諸"
+    }
+  ],
+  "packages": {
+    "train": {
+      "files_hash_valid": true,
+      "source_db_hash_valid": true,
+      "extra_clusters": 0,
+      "missing_clusters": 0,
+      "holdout_overlap": 0,
+      "model_exactly_reproduced": true,
+      "model_sentences": 101726,
+      "vocab_size": 3426,
+      "targets": 335,
+      "targets_all_chars_known": 294,
+      "mass_error": 4.218847493575595e-15,
+      "source_family_mismatch_clusters": 79429,
+      "runtime_segment_columns": [
+        "id",
+        "cluster_id",
+        "ordinal",
+        "text"
+      ],
+      "heldout_modern_docs": 8760,
+      "heldout_han_chars": 90965,
+      "heldout_unknown_chars": 144,
+      "heldout_unknown_rate": 0.0015830264387401748,
+      "heldout_NLL_per_event": 3.6717168274183276,
+      "heldout_note": "train: within-source held-out language-model diagnostic; full: contaminated reference, not independent validation"
+    },
+    "full": {
+      "files_hash_valid": true,
+      "source_db_hash_valid": true,
+      "extra_clusters": 0,
+      "missing_clusters": 0,
+      "holdout_overlap": 9011,
+      "model_exactly_reproduced": true,
+      "model_sentences": 113068,
+      "vocab_size": 3485,
+      "targets": 335,
+      "targets_all_chars_known": 299,
+      "mass_error": 2.220446049250313e-15,
+      "source_family_mismatch_clusters": 88189,
+      "runtime_segment_columns": [
+        "id",
+        "cluster_id",
+        "ordinal",
+        "text"
+      ],
+      "heldout_modern_docs": 8760,
+      "heldout_han_chars": 90965,
+      "heldout_unknown_chars": 65,
+      "heldout_unknown_rate": 0.0007145605452646622,
+      "heldout_NLL_per_event": 2.2505649079483705,
+      "heldout_note": "train: within-source held-out language-model diagnostic; full: contaminated reference, not independent validation"
+    }
+  },
+  "elapsed": 22.378188400001818,
+  "scope": "structure/model input acceptance; not ASR generalization"
+}

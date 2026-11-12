@@ -1,0 +1,70 @@
+{
+  "BV163xB6zEwF.gt": {
+    "equal_text": true,
+    "edits": [],
+    "seconds": 2.5535361999991437,
+    "truth_sha256": "74cb200aa188500e06378412abaceafe3f30645bd7feb7d87a37184b5c87c9cd",
+    "trace_sha256": "a04a6fe9dc77e42d00e8492aac2d1bca248a71e47bf9a62a914ee2b51e305b5c"
+  },
+  "BV18mxx64Es3.gt": {
+    "equal_text": true,
+    "edits": [],
+    "seconds": 2.792972600000212,
+    "truth_sha256": "c3b7dd0527b85e0354f1a5ef09318f715d4d7743335fcb4be650adbab16bf712",
+    "trace_sha256": "0e879cb03a56a30ea50384711a1cba0ffd5e5e7879739d3cfc0bfb0003022601"
+  },
+  "BV19T4P6MEWp.gt": {
+    "equal_text": true,
+    "edits": [],
+    "seconds": 2.7323761000006925,
+    "truth_sha256": "918276a87c371c8b282d68e04407cf87058c95eedf0fe87e2361de6b3acb8a63",
+    "trace_sha256": "08a91b67c41d55a29218d62a3b3de6f088487368fbe6d2959ff6e6bd0f0dec90"
+  },
+  "BV1LBxq6AEVn.gt": {
+    "equal_text": true,
+    "edits": [],
+    "seconds": 2.668014500000936,
+    "truth_sha256": "a400121a5cb952fd737fb91050da4bfa4a8ff1c3005b180697aa4976f5ee88d3",
+    "trace_sha256": "6b8dbe0a5ef54700db2a6110c1931ce847becd137260846233914c9461c88074"
+  },
+  "BV1sxxX64E4E.gt": {
+    "equal_text": true,
+    "edits": [],
+    "seconds": 2.8281944999998814,
+    "truth_sha256": "7fdd8ce4791d59b5151a9960d9f70d00c6e061ebedf6ab16c7d7215dc87bfd78",
+    "trace_sha256": "bd226618753981c9c18e29dcc76b556bf31cbab835dbcb90eab28d0966d83238"
+  },
+  "BV1uUak6pEdK.gt": {
+    "equal_text": true,
+    "edits": [
+      {
+        "begin": 5500,
+        "end": 5504,
+        "target": "只讲仁义",
+        "p": 0.9998341622035537
+      },
+      {
+        "begin": 5895,
+        "end": 5897,
+        "target": "致命",
+        "p": 0.999055084902764
+      },
+      {
+        "begin": 20119,
+        "end": 20121,
+        "target": "成灾",
+        "p": 0.9960260688069577
+      }
+    ],
+    "seconds": 5.862909100000252,
+    "truth_sha256": "3758e782761820ae0873fe597305ec28868f62f741f8f0c940db1f78a0302584",
+    "trace_sha256": "35cb15258c718f121f5f388e6506c5c892d2f6a43c3b78e6ec789d22058d9aac"
+  },
+  "BV1XgxE6BEqn.gt": {
+    "equal_text": true,
+    "edits": [],
+    "seconds": 2.5970828000008623,
+    "truth_sha256": "91fb6c9dc6b27644e33df2e4f889f65948fd863b070940defcca8d0c19b4f04e",
+    "trace_sha256": "b1c2376dd7dd4afbd87562fa801debe7fa80125fbc46b87d62f8ca475e15e5d6"
+  }
+}

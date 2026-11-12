@@ -1,0 +1,69 @@
+{
+  "commit": "72796cad1f5a7a2317b0bae79fbe335e79f7c153",
+  "inputs": {
+    "data\\PROVENANCE.tsv": "17ed29799efdf959aedef462015642c3f91b2776b4b5e46a28aea1a5104d445f",
+    "data\\ac\\ac_lock.tsv": "e6ac096b7f90e9a6423e65e86b975ebd5c0613eed14bec7a7027019c676ecedd",
+    "data\\correction\\candidates.tsv": "2313abc037a99117054ae8ddcced6492e7f137ffca4af899fdaa9b9b793b37a6",
+    "data\\frequency\\char_freq.tsv": "64c2732f35b4ec5e82a8ab5168ec37d6f7c2bf9740c324a3cb283ab69cead598",
+    "data\\frequency\\word_freq.tsv": "1c6807b5bfea8411bd1540d3cbefc485c9a8cc2cf3e3b82a27e6cb98e05253e4",
+    "data\\pronunciation\\pronunciation.tsv": "407fbf533f5624233ff7f989c68f8731c431e1630b65a7132563370ff1643eae",
+    "data\\pronunciation\\pronunciation_char.tsv": "a0dc67e8d5a511e59755f42860787d7828c37983e70a84fde864200d2797b29f",
+    "data\\vocabulary\\extvocabulary.tsv": "d345d7fa87aae8b0313b1e7a5964927cce901ee08c71bcc03bc645f7bbd74c06",
+    "data\\vocabulary\\vocabulary.tsv": "c962719a9fdc10d1a9f0fee27d6984e02d25c73dcac8401ef08fda62adc597cf",
+    "data\\context\\modern\\ngrams.tsv": "93bc10aea7e70103b0ce53c3e3f47d0b1667e87e91e9fc8770c68a6b7c5b64e8",
+    "data\\context\\modern\\pairs.tsv": "ed3be68e25d54538e5684d2fb2e03aa4c0678053571d2e62d0fcdbaf6da79510",
+    "data\\context\\modern\\unis.tsv": "a57112eea198556c1b8ac7bdfbd69f84341b84997f46caf6acbf2b9499661c3a",
+    "asr\\BV163xB6zEwF.gt.jsonl": "74cb200aa188500e06378412abaceafe3f30645bd7feb7d87a37184b5c87c9cd",
+    "asr\\BV18mxx64Es3.gt.jsonl": "c3b7dd0527b85e0354f1a5ef09318f715d4d7743335fcb4be650adbab16bf712",
+    "asr\\BV19T4P6MEWp.gt.jsonl": "918276a87c371c8b282d68e04407cf87058c95eedf0fe87e2361de6b3acb8a63",
+    "asr\\BV1LBxq6AEVn.gt.jsonl": "a400121a5cb952fd737fb91050da4bfa4a8ff1c3005b180697aa4976f5ee88d3",
+    "asr\\BV1sxxX64E4E.gt.jsonl": "7fdd8ce4791d59b5151a9960d9f70d00c6e061ebedf6ab16c7d7215dc87bfd78",
+    "asr\\BV1uUak6pEdK.gt.jsonl": "3758e782761820ae0873fe597305ec28868f62f741f8f0c940db1f78a0302584",
+    "asr\\BV1XgxE6BEqn.gt.jsonl": "91fb6c9dc6b27644e33df2e4f889f65948fd863b070940defcca8d0c19b4f04e",
+    "tools\\rag_clean.py": "1aea7899c35dea57d68a68c6559a29b30748c10827029d9e8c215d067807267d",
+    "tools\\prepare_rag_package.py": "c4618378e4be2d6f11200259dd4014fb2865283135b423578fe7666714475e94",
+    "experiments\\E024\\scripts\\align_lib.py": "825e9a69385a1dd87616e9baacfcd4c27b93606032351ab85b7024bde818ed31",
+    "experiments\\E037\\scripts\\regression.py": "13daff399d4b2d00066d0db309daa4720512190761bebddd25f2a23184584ea2",
+    "build\\e035\\text_clean.exe": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+    "build\\e037_package_train\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e037_package_train\\evidence.sqlite": "42208425d5fe4c1a1b3113822b0618d3d1a53ffb55ce4386c46f5e8589c30299",
+    "build\\e037_package_train\\manifest.json": "e48d892549257b0072ddec5aecd8ec9dade4113f8e8dae452845da1eae17a7ea",
+    "build\\e037_package_train\\model.json": "b0dd25bb436398a1066b2a142e8c8dee850a7a26b660515ed340787fddda8d53",
+    "build\\e037_package_train\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a",
+    "build\\e037_package_full\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e037_package_full\\evidence.sqlite": "0971fcf5929f99d3ff3add82643c7758e2f639c95fbd12518bf8ec0e6f061a52",
+    "build\\e037_package_full\\manifest.json": "08acec1a02fb01474129395011ec42545211108421529e2e7b22063aa8cd967d",
+    "build\\e037_package_full\\model.json": "a972cabd6e1e6e85c15c2fe6f34f0f8af1548add3a7c8ef32b2cf3bf2e1856c5",
+    "build\\e037_package_full\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+  },
+  "all_inputs_unchanged": true,
+  "load_seconds": {
+    "train": 2.2780505000009725,
+    "full": 2.3245286000019405
+  },
+  "parameters": {
+    "calibrated": false,
+    "classes": {
+      "same": [
+        0.0,
+        1.0
+      ],
+      "tone": [
+        0.0,
+        1.0
+      ],
+      "near": [
+        0.0,
+        1.0
+      ]
+    },
+    "alpha": 0.01,
+    "kappa": 10.0,
+    "rho": 1.0,
+    "top_h": 30,
+    "retrieval_limit": 50,
+    "note": "Engineering initial values, not fitted or validated risk parameters."
+  },
+  "command": "python experiments/E037/scripts/regression.py",
+  "scope": "seven open-book ASR videos; uncalibrated parameters; no title/description; identical candidate table"
+}

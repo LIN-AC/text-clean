@@ -1,0 +1,25 @@
+{
+  "commit": "72796cad1f5a7a2317b0bae79fbe335e79f7c153",
+  "files": {
+    "tools\\rag_clean.py": "4569fa1d05f6b43fb4c75e7c6b6f440bd782ba21288e6c5da4fdc875f11b0a0f",
+    "tools\\prepare_rag_package.py": "9e71355edcfa62778249cad52c514f6b59e7aefdda2d346d13332da1a291da66",
+    "tests\\test_rag_clean.py": "4f39c0204f25179302ec22a6f371106050ae6b2273329cd8c627feab9b7eb4b1",
+    "docs\\RAG_DATA_CONTRACT.md": "e8081e0fd9a0da2ac450d009027f944088a1c01cf665c80c4fbdb4b5c082f059",
+    "README.md": "138a495956bbf7e66d0d2bcd6a0a2e546f49bc581ad6582a5fd37ef70ee8ad6e",
+    "experiments\\E038\\README.md": "31176cacac893419af87f325b342f64bd0521146f2b48164ce9351d19d775592",
+    "experiments\\E038\\scripts\\cross_domain.py": "c7db43ccd17e6d370fce3a99bb27f77330da8aff276c973c5f80298e2e582082",
+    "experiments\\E038\\scripts\\regression.py": "47a636d4648b863850a46d10d212f45025adf5492719b061a38da37e20aec7cd",
+    "experiments\\E038\\scripts\\summarize.py": "0d4cb32bac8ff10bb5bb2e16935c454ad65b827a2a9d37c807200e08e5d13bc8",
+    "experiments\\E038\\scripts\\verify_packages.py": "f186bab0f715e573d06418da5865dab0cbf0bdd1504d28c8e8a6c2a45997fb3c",
+    "experiments\\E038\\frozen\\prepare_e037.py": "c4618378e4be2d6f11200259dd4014fb2865283135b423578fe7666714475e94",
+    "experiments\\E038\\frozen\\rag_clean_e037.py": "1aea7899c35dea57d68a68c6559a29b30748c10827029d9e8c215d067807267d",
+    "experiments\\E038\\results\\control_manifest.json": "7f8e0fdee520262e0d6e8da7bdeec5c3a7a6fc2471b92ac1f9482d68588109a8",
+    "experiments\\E038\\results\\cross_domain_manifest.json": "d60e6c622c88cf28b661258797fdb50a2bd9d661a77d65f4c0212ce986d094cb",
+    "experiments\\E038\\results\\final_manifest.json": "e10da3ba5d68f9ad96863b3dcb7bce22d8a73050c2b84067d28abc1d53730424",
+    "experiments\\E038\\results\\new_manifest.json": "d3de34efab8f62754fce73c3b4ccb60277f99c36f4e710eac578bce444d5ad23",
+    "experiments\\E038\\results\\package_manifest.json": "84d022bf7b15dabcf46142dbcdeeb2c15d44c9e8604069a137f7ee4ecacf17c6",
+    "experiments\\E038\\results\\ctest.log": "94a301647a41caa32386fca5456651269eaf459c1535b6bf466e8925c94c714f",
+    "experiments\\E038\\results\\summary.json": "7bcd8c69124f1c7121c3c058cb8e7fe681cc4f93774f4caccbdaf33c0e51d25e"
+  },
+  "all_recorded_inputs_unchanged": true
+}

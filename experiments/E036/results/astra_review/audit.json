@@ -1,0 +1,182 @@
+{
+  "commit": "72796cad1f5a7a2317b0bae79fbe335e79f7c153",
+  "coverage_before": {
+    "enabled_rows": 366,
+    "targets": 340,
+    "min1": 316,
+    "min2": 304,
+    "missing_even_at_min1": [
+      "临戎",
+      "卖官鬻爵",
+      "堵口赈济修复",
+      "常掸",
+      "庚戌",
+      "度牒",
+      "徭役",
+      "戍卒",
+      "掣肘",
+      "汴京",
+      "甲胄",
+      "纳粟二石",
+      "缰绳",
+      "罗绮",
+      "胥吏",
+      "苟利社稷",
+      "覆亡",
+      "计跻",
+      "诿躲",
+      "谥号",
+      "赈济",
+      "轻徭薄赋",
+      "逋赋",
+      "遁漠"
+    ]
+  },
+  "coverage_current": {
+    "enabled_rows": 361,
+    "targets": 335,
+    "min1": 311,
+    "min2": 299,
+    "missing_even_at_min1": [
+      "临戎",
+      "卖官鬻爵",
+      "堵口赈济修复",
+      "常掸",
+      "庚戌",
+      "度牒",
+      "徭役",
+      "戍卒",
+      "掣肘",
+      "汴京",
+      "甲胄",
+      "纳粟二石",
+      "缰绳",
+      "罗绮",
+      "胥吏",
+      "苟利社稷",
+      "覆亡",
+      "计跻",
+      "诿躲",
+      "谥号",
+      "赈济",
+      "轻徭薄赋",
+      "逋赋",
+      "遁漠"
+    ]
+  },
+  "modern_char_types": 4046,
+  "modern_dedup_char_types": 4046,
+  "modern_train_only_char_types": 3982,
+  "split_crossing_clusters": 184,
+  "heldout_clusters_in_package": 9164,
+  "modern_heldout_clusters_in_package": 8913,
+  "heldout_clusters_total": 9164,
+  "runtime_vocab_size_with_specials": 3485,
+  "runtime_vocab_han_only": 3483,
+  "model_sentence_count": 113068,
+  "all_modern_dedup_runs": 113068,
+  "excluding_holdout_dedup_runs": 101643,
+  "retained_modern_holdout_docs": 8823,
+  "source_groups_raw": [
+    [
+      "历史",
+      7
+    ],
+    [
+      "现代",
+      1
+    ]
+  ],
+  "source_groups_runtime": [
+    [
+      "历史",
+      7
+    ],
+    [
+      "现代",
+      1
+    ]
+  ],
+  "work_family_examples": [
+    [
+      "Tatoeba 中文句库 cmn_sentences.tsv",
+      "tatoeba_cmn",
+      89284
+    ],
+    [
+      "史記集解",
+      "史記集解",
+      125
+    ],
+    [
+      "後漢書",
+      "後漢書",
+      260
+    ],
+    [
+      "後漢書補逸",
+      "後漢書補逸",
+      21
+    ],
+    [
+      "明史",
+      "明史",
+      509
+    ],
+    [
+      "明史紀事本末",
+      "明史紀事本末",
+      15
+    ],
+    [
+      "漢書",
+      "漢書",
+      68
+    ],
+    [
+      "漢書顏師古註",
+      "漢書顏師古註",
+      22
+    ]
+  ],
+  "runtime_source_family_mismatches": 89284,
+  "tones_current": {
+    "0": [],
+    "5": [
+      "前的",
+      "地丁",
+      "地加剧",
+      "宋末",
+      "趋末",
+      "跨地",
+      "釜底"
+    ]
+  },
+  "runtime_target_multiple_variants": [],
+  "runtime_long_segments": [
+    195,
+    5293
+  ],
+  "raw_map_identity_failures": 0,
+  "inputs_sha256": {
+    "build\\e036_corpus\\corpus.sqlite": "5ec94270b0fad0fe8444ae5158bea65725313ad0ca230ea25911286de019537d",
+    "build\\e036_corpus\\holdout.json": "2afab479065f37573b2b5e8cd45046c65c776dea15fb53647b09a2eff396d110",
+    "build\\e036_corpus\\verify_report.json": "3904521bfde3518666c8e98067ab3c49eff5f469df47123e77e5b8c12016a032",
+    "build\\e036_corpus\\candidates.tsv.before_E036": "4b3485ca2a34d7a9cbcf577de9ed9fcbe160d127b2ae776529a6f9917515ad4f",
+    "data\\correction\\candidates.tsv": "2313abc037a99117054ae8ddcced6492e7f137ffca4af899fdaa9b9b793b37a6",
+    "data\\pronunciation\\pronunciation.tsv": "407fbf533f5624233ff7f989c68f8731c431e1630b65a7132563370ff1643eae",
+    "include\\text_clean\\pinyin_dict.h": "db795564d2bc533a801760e46d25722f288141d622f4b9ce6c5d6b828aba1169",
+    "src\\dictionary_bundle.cpp": "ddfafac6788380443c9711c95ddb5d6057229eb9fa278db6c5f626bc7ae7e5fc",
+    "tools\\prepare_rag_package.py": "c4618378e4be2d6f11200259dd4014fb2865283135b423578fe7666714475e94",
+    "tools\\rag_clean.py": "1aea7899c35dea57d68a68c6559a29b30748c10827029d9e8c215d067807267d",
+    "docs\\LEXICON_BUILD_REPORT_E036.md": "e096f8cc94c5da0a6c036adbf5dcae91f54baa55a0a4b661c607a71d2850330f",
+    "experiments\\E036\\scripts\\astra_review.py": "b5eeffa0a835dc1f878a72db8f052ce1ffc3bd405bf8b573ec885fa22a7c5c0d",
+    "build\\e036_package_v2\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e036_package_v2\\evidence.sqlite": "2b215b1a0fc56f466f3ba6ac0bd8df329cb1ae3d0a5a5161415ec2b7678870d0",
+    "build\\e036_package_v2\\manifest.json": "ad9b36ae0e26c7e0163f2c623dd0f28f94ee5ba6b7b4e2ed18515589eb186b6a",
+    "build\\e036_package_v2\\model.json": "a972cabd6e1e6e85c15c2fe6f34f0f8af1548add3a7c8ef32b2cf3bf2e1856c5",
+    "build\\e036_package_v2\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+  },
+  "scope": "read-only structural audit; no TP/FP rerun, no truth modification",
+  "command": "python experiments/E036/scripts/astra_review.py"
+}

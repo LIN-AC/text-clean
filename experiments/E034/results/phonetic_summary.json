@@ -1,0 +1,18 @@
+{
+  "index_returns": 1029,
+  "hard_returns": 330,
+  "hard_and_distance_returns": 284,
+  "extra_without_distance": 46,
+  "index_TP": 247,
+  "index_FP": 22,
+  "index_unjudged": 6,
+  "index_wrong": 2,
+  "hard_TP": 235,
+  "hard_FP": 18,
+  "hard_unjudged": 6,
+  "hard_wrong": 2,
+  "distance_TP": 221,
+  "distance_FP": 17,
+  "distance_unjudged": 6,
+  "distance_wrong": 2
+}

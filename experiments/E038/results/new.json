@@ -1,0 +1,374 @@
+{
+  "train_RAG": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 6.087600200000452,
+      "edits": 0,
+      "windows": 17,
+      "max_evidence_chars": 500
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 15.013965699999972,
+      "edits": 0,
+      "windows": 79,
+      "max_evidence_chars": 507
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 13.28529769999659,
+      "edits": 0,
+      "windows": 62,
+      "max_evidence_chars": 526
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 7.901878699998633,
+      "edits": 0,
+      "windows": 33,
+      "max_evidence_chars": 510
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 15.168038799998612,
+      "edits": 0,
+      "windows": 81,
+      "max_evidence_chars": 531
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 10,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1566,
+      "remaining_original_errors": 1511,
+      "seconds": 155.30996709999818,
+      "edits": 3,
+      "windows": 881,
+      "max_evidence_chars": 637
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 6.09774169999946,
+      "edits": 0,
+      "windows": 21,
+      "max_evidence_chars": 503
+    }
+  },
+  "train_no_retrieval": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 2.7544027999974787,
+      "edits": 0,
+      "windows": 17,
+      "max_evidence_chars": 0
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 2.9321119999985967,
+      "edits": 0,
+      "windows": 79,
+      "max_evidence_chars": 0
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 2.836830199998076,
+      "edits": 0,
+      "windows": 62,
+      "max_evidence_chars": 0
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 2.76981479999813,
+      "edits": 0,
+      "windows": 33,
+      "max_evidence_chars": 0
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 3.0209704999979294,
+      "edits": 0,
+      "windows": 81,
+      "max_evidence_chars": 0
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 6,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1570,
+      "remaining_original_errors": 1515,
+      "seconds": 5.908690000000206,
+      "edits": 2,
+      "windows": 881,
+      "max_evidence_chars": 0
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 2.670377099999314,
+      "edits": 0,
+      "windows": 21,
+      "max_evidence_chars": 0
+    }
+  },
+  "full_RAG": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 6.419847099998151,
+      "edits": 0,
+      "windows": 17,
+      "max_evidence_chars": 497
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 16.80260350000026,
+      "edits": 0,
+      "windows": 79,
+      "max_evidence_chars": 497
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 14.899222000000009,
+      "edits": 0,
+      "windows": 62,
+      "max_evidence_chars": 516
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 8.800357000000076,
+      "edits": 0,
+      "windows": 33,
+      "max_evidence_chars": 549
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 17.382150599998567,
+      "edits": 0,
+      "windows": 81,
+      "max_evidence_chars": 524
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 12,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1564,
+      "remaining_original_errors": 1509,
+      "seconds": 176.607349599999,
+      "edits": 4,
+      "windows": 881,
+      "max_evidence_chars": 627
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 6.797409000002517,
+      "edits": 0,
+      "windows": 21,
+      "max_evidence_chars": 505
+    }
+  },
+  "full_no_retrieval": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 2.711499500001082,
+      "edits": 0,
+      "windows": 17,
+      "max_evidence_chars": 0
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 2.998752700001205,
+      "edits": 0,
+      "windows": 79,
+      "max_evidence_chars": 0
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 2.9108040999999503,
+      "edits": 0,
+      "windows": 62,
+      "max_evidence_chars": 0
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 2.8367404000018723,
+      "edits": 0,
+      "windows": 33,
+      "max_evidence_chars": 0
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 3.0008582999980717,
+      "edits": 0,
+      "windows": 81,
+      "max_evidence_chars": 0
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 8,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1568,
+      "remaining_original_errors": 1513,
+      "seconds": 6.319111599997996,
+      "edits": 3,
+      "windows": 881,
+      "max_evidence_chars": 0
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 2.77293439999994,
+      "edits": 0,
+      "windows": 21,
+      "max_evidence_chars": 0
+    }
+  }
+}

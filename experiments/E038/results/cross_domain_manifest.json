@@ -1,0 +1,16 @@
+{
+  "commit": "72796cad1f5a7a2317b0bae79fbe335e79f7c153",
+  "inputs": {
+    "build\\e038_train_v2\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e038_train_v2\\evidence.sqlite": "3ffbdd9553cf14df73f9473523a353dbd398396e148eef1081df1d8f95b985cb",
+    "build\\e038_train_v2\\manifest.json": "2570efee80f381cf730b7f4eb6b8830c272b438c0e1887c278b27b42c5fe9e4e",
+    "build\\e038_train_v2\\model.json": "16c5f2928b81948b3dd47682808953eb9d3e89298eaf459f2baca1ac109fa306",
+    "build\\e038_train_v2\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a",
+    "asr\\BV1uUak6pEdK.gt.jsonl": "3758e782761820ae0873fe597305ec28868f62f741f8f0c940db1f78a0302584",
+    "tools\\rag_clean.py": "4569fa1d05f6b43fb4c75e7c6b6f440bd782ba21288e6c5da4fdc875f11b0a0f",
+    "experiments\\E038\\scripts\\cross_domain.py": "c7db43ccd17e6d370fce3a99bb27f77330da8aff276c973c5f80298e2e582082",
+    "data\\correction\\candidates.tsv": "d7e1225632e6e93148861da9a7d62fe72082e8f9d140d144691450cbcf34d2fd"
+  },
+  "command": "python experiments/E038/scripts/cross_domain.py",
+  "all_inputs_unchanged": true
+}

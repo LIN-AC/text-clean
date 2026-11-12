@@ -1,0 +1,139 @@
+[
+  {
+    "begin": 8367,
+    "end": 8371,
+    "source": "魏清获取",
+    "target": "卫青霍去",
+    "context": "\n大量都是以货币形式征收的\n据史书记载\n魏清获取病击破匈奴之后\n汉武帝直接中赏黄金二十多",
+    "events": {
+      "original": [
+        {
+          "history": "书记载",
+          "char": "魏",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 3.7884179513042454e-06,
+          "p_mixed": 3.7884179513042458e-06
+        },
+        {
+          "history": "记载魏",
+          "char": "清",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.0005979828413547583,
+          "p_mixed": 0.0005979828413547583
+        },
+        {
+          "history": "载魏清",
+          "char": "获",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.000145675673722758,
+          "p_mixed": 0.000145675673722758
+        },
+        {
+          "history": "魏清获",
+          "char": "取",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.010915111378064717,
+          "p_mixed": 0.010915111378064717
+        },
+        {
+          "history": "清获取",
+          "char": "病",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.0001653048801261667,
+          "p_mixed": 0.0001653048801261667
+        },
+        {
+          "history": "获取病",
+          "char": "击",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 8.442257408826411e-05,
+          "p_mixed": 8.442257408826411e-05
+        },
+        {
+          "history": "取病击",
+          "char": "破",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.0002349650233400358,
+          "p_mixed": 0.0002349650233400358
+        }
+      ],
+      "target": [
+        {
+          "history": "书记载",
+          "char": "卫",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.00017426722575999526,
+          "p_mixed": 0.00017426722575999526
+        },
+        {
+          "history": "记载卫",
+          "char": "青",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.00016930116483562742,
+          "p_mixed": 0.00016930116483562742
+        },
+        {
+          "history": "载卫青",
+          "char": "霍",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 1.2679304976846837e-05,
+          "p_mixed": 1.2679304976846837e-05
+        },
+        {
+          "history": "卫青霍",
+          "char": "去",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.0020502268846448856,
+          "p_mixed": 0.0020502268846448856
+        },
+        {
+          "history": "青霍去",
+          "char": "病",
+          "document_support": 0,
+          "continuation_sum": 0,
+          "p_general": 0.00015518006325317067,
+          "p_mixed": 0.00015518006325317067
+        },
+        {
+          "history": "霍去病",
+          "char": "击",
+          "document_support": 1,
+          "continuation_sum": 1,
+          "p_general": 8.442257408826411e-05,
+          "p_mixed": 0.09098583870371661
+        },
+        {
+          "history": "去病击",
+          "char": "破",
+          "document_support": 1,
+          "continuation_sum": 1,
+          "p_general": 0.0002349650233400358,
+          "p_mixed": 0.09112269547576367
+        }
+      ]
+    },
+    "document_matches": [],
+    "trace_score": {
+      "word": "卫青霍去",
+      "cls": "tone",
+      "G": -1.6100562149143443,
+      "D": 12.943149836480195,
+      "S": 11.333093621565851,
+      "mix": -48.367620483475726,
+      "executable": true,
+      "hot": false,
+      "p": 0.9999760602519242
+    }
+  }
+]

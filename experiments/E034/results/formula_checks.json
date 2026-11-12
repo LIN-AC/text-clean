@@ -1,0 +1,10 @@
+{
+  "normalized_mix": 1.0,
+  "wrong_unique_history_denominator_mass": 1.2857142857142856,
+  "zero_domain_D": 0,
+  "identity": "beta*G+D=M+(beta-1)*G",
+  "inconsistent_class_rho_total": 1.5,
+  "correct_shared_normalizer_total": 1.0,
+  "threshold_99pct_single_candidate_log_odds": 4.59511985013459,
+  "threshold_99pct_with_rho9": 6.897704943128636
+}

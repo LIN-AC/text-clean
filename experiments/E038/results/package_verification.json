@@ -1,0 +1,71 @@
+{
+  "train": {
+    "errors": {
+      "source_identity": 0,
+      "source_segment": 0,
+      "offset": 0,
+      "left_context": 0,
+      "oversize": 0,
+      "unpunctuated_eos": 0,
+      "bos_class": 0,
+      "eos_class": 0,
+      "block_bos": 0,
+      "block_eos": 0,
+      "missing_or_extra_core": 0
+    },
+    "counts": {
+      "blocks": 607006,
+      "core_chars": 6514883,
+      "bos": 181525,
+      "eos": 214824
+    },
+    "holdout_intersection": 0,
+    "vocab_size": 3420,
+    "targets_covered": 294,
+    "no_continuation_characters": [
+      "恤",
+      "拚",
+      "瘪",
+      "腆",
+      "虞",
+      "蛤"
+    ],
+    "mass_error": 2.7755575615628914e-15,
+    "formula_parameters_unchanged": true,
+    "hashes_match": true
+  },
+  "full": {
+    "errors": {
+      "source_identity": 0,
+      "source_segment": 0,
+      "offset": 0,
+      "left_context": 0,
+      "oversize": 0,
+      "unpunctuated_eos": 0,
+      "bos_class": 0,
+      "eos_class": 0,
+      "block_bos": 0,
+      "block_eos": 0,
+      "missing_or_extra_core": 0
+    },
+    "counts": {
+      "blocks": 778826,
+      "core_chars": 8043691,
+      "bos": 217077,
+      "eos": 266087
+    },
+    "holdout_intersection": 9011,
+    "vocab_size": 3481,
+    "targets_covered": 299,
+    "no_continuation_characters": [
+      "恤",
+      "汞",
+      "腆",
+      "虞"
+    ],
+    "mass_error": 2.4424906541753444e-15,
+    "formula_parameters_unchanged": true,
+    "hashes_match": true
+  },
+  "candidate_LF_repair_only_since_E037": true
+}

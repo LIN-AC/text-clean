@@ -1,0 +1,23 @@
+{
+  "commit": "72796cad1f5a7a2317b0bae79fbe335e79f7c153",
+  "inputs": {
+    "experiments\\E038\\scripts\\verify_packages.py": "f186bab0f715e573d06418da5865dab0cbf0bdd1504d28c8e8a6c2a45997fb3c",
+    "tools\\rag_clean.py": "4569fa1d05f6b43fb4c75e7c6b6f440bd782ba21288e6c5da4fdc875f11b0a0f",
+    "tools\\prepare_rag_package.py": "9e71355edcfa62778249cad52c514f6b59e7aefdda2d346d13332da1a291da66",
+    "build\\e036_corpus\\holdout.json": "9abffe2936d78badb6d09189b228efe77ec1f36e33e71cdde5d3cca4552b254c",
+    "data\\correction\\candidates.tsv": "d7e1225632e6e93148861da9a7d62fe72082e8f9d140d144691450cbcf34d2fd",
+    "build\\e036_corpus\\corpus_train.sqlite": "28b53af9a5601755c930241df8790451be7833f7e509827386e8ab7c7e015245",
+    "build\\e038_train_v2\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e038_train_v2\\evidence.sqlite": "3ffbdd9553cf14df73f9473523a353dbd398396e148eef1081df1d8f95b985cb",
+    "build\\e038_train_v2\\manifest.json": "2570efee80f381cf730b7f4eb6b8830c272b438c0e1887c278b27b42c5fe9e4e",
+    "build\\e038_train_v2\\model.json": "16c5f2928b81948b3dd47682808953eb9d3e89298eaf459f2baca1ac109fa306",
+    "build\\e038_train_v2\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a",
+    "build\\e036_corpus\\corpus.sqlite": "6df8486abecb2a7451300269c680a940ccd4a0330e51d051787664a1fce789a0",
+    "build\\e038_full_v2\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e038_full_v2\\evidence.sqlite": "dccf765c00a6c6079b4e91eadec64a7c3a0643c607e9eaf8a974888e362e1a26",
+    "build\\e038_full_v2\\manifest.json": "2c9a4b1d5d1f9a5ff8fdfd26f9a938878225b35bd1beafa00f236d32640a57f7",
+    "build\\e038_full_v2\\model.json": "6af0aea72b7c5b4e862e0a313fcbd84a2b07e4a121d0d24931da882cd5c8bbfd",
+    "build\\e038_full_v2\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+  },
+  "command": "python experiments/E038/scripts/verify_packages.py"
+}

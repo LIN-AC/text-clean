@@ -1,0 +1,42 @@
+{
+  "train_RAG": {
+    "counts": {
+      "TP": 10,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2014,
+    "remaining_original_errors": 1911,
+    "seconds": 218.8644898999919
+  },
+  "train_no_retrieval": {
+    "counts": {
+      "TP": 6,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2018,
+    "remaining_original_errors": 1915,
+    "seconds": 22.89319739998973
+  },
+  "full_RAG": {
+    "counts": {
+      "TP": 12,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2012,
+    "remaining_original_errors": 1909,
+    "seconds": 247.70893879999858
+  },
+  "full_no_retrieval": {
+    "counts": {
+      "TP": 8,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2016,
+    "remaining_original_errors": 1913,
+    "seconds": 23.550701000000117
+  }
+}

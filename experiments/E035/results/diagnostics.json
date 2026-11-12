@@ -1,0 +1,51 @@
+{
+  "counts": {
+    "windows": 1176,
+    "no_retrieved_documents": 0,
+    "empty_H": 28,
+    "source_has_unknown_character": 26,
+    "some_target_has_unknown_character": 147,
+    "no_executable_target_in_H": 290,
+    "evidence_insufficient": 1173,
+    "applied_edits": 3,
+    "applied": 3
+  },
+  "missing_target_character_occurrences": {
+    "鳞": 14,
+    "戌": 3,
+    "卒": 12,
+    "戍": 12,
+    "逋": 4,
+    "谥": 10,
+    "跻": 13,
+    "姚": 8,
+    "绮": 16,
+    "掸": 4,
+    "诿": 6,
+    "缰": 3,
+    "胄": 1,
+    "徭": 12,
+    "鬻": 1,
+    "遁": 1,
+    "藩": 3,
+    "跋": 11,
+    "胥": 2,
+    "吏": 2,
+    "赈": 2,
+    "掣": 2,
+    "釜": 7,
+    "汴": 5,
+    "牒": 1,
+    "掠": 3,
+    "苟": 1,
+    "稷": 1,
+    "缕": 1,
+    "覆": 1
+  },
+  "times": {
+    "seconds": 144.0179602999997,
+    "ngram_seconds": 22.55476020000242,
+    "v1_seconds": 18.88929289999942
+  },
+  "note": "Window counts overlap; not independent errors or mutually exclusive causes."
+}

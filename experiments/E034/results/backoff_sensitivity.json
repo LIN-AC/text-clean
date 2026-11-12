@@ -1,0 +1,57 @@
+[
+  {
+    "model": "modern",
+    "ranking": {
+      "E033_TP_target": 113,
+      "alpha_only_TP_target": 111,
+      "E033_TP_keep": 188,
+      "alpha_only_TP_keep": 190,
+      "E033_FP_keep": 23,
+      "alpha_only_FP_keep": 23,
+      "E033_unjudged_keep": 7,
+      "alpha_only_unjudged_keep": 6,
+      "rank_flips": 5,
+      "E033_FP_target": 5,
+      "alpha_only_FP_target": 5,
+      "E033_wrong_keep": 2,
+      "alpha_only_wrong_keep": 2,
+      "alpha_only_unjudged_target": 1
+    },
+    "used_order": {
+      "1": 2184,
+      "2": 1241,
+      "3": 110,
+      "4": 5
+    }
+  },
+  {
+    "model": "history",
+    "ranking": {
+      "E033_TP_keep": 88,
+      "alpha_only_TP_keep": 89,
+      "E033_TP_target": 212,
+      "alpha_only_TP_target": 211,
+      "E033_FP_target": 9,
+      "alpha_only_FP_target": 9,
+      "E033_TP_tie": 1,
+      "alpha_only_TP_tie": 1,
+      "rank_flips": 11,
+      "E033_FP_keep": 19,
+      "alpha_only_FP_keep": 19,
+      "E033_unjudged_target": 3,
+      "alpha_only_unjudged_target": 5,
+      "E033_wrong_keep": 1,
+      "alpha_only_wrong_keep": 1,
+      "E033_unjudged_keep": 4,
+      "alpha_only_unjudged_keep": 2,
+      "E033_wrong_target": 1,
+      "alpha_only_wrong_target": 1
+    },
+    "used_order": {
+      "2": 1832,
+      "1": 1603,
+      "3": 91,
+      "4": 14
+    }
+  }
+]

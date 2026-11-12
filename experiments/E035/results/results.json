@@ -1,0 +1,230 @@
+{
+  "BV163xB6zEwF.gt": {
+    "arms": {
+      "noop": {
+        "counts": {},
+        "distance": 33,
+        "remaining_original_errors": 30
+      },
+      "V1": {
+        "counts": {
+          "FP": 2
+        },
+        "distance": 35,
+        "remaining_original_errors": 30
+      },
+      "new_research": {
+        "counts": {},
+        "distance": 33,
+        "remaining_original_errors": 30
+      },
+      "ngram_only": {
+        "counts": {},
+        "distance": 33,
+        "remaining_original_errors": 30
+      }
+    },
+    "seconds": 4.773069500000929,
+    "ngram_seconds": 2.6268111999997927,
+    "v1_seconds": 2.683240599999408,
+    "windows": 17,
+    "edits": 0
+  },
+  "BV18mxx64Es3.gt": {
+    "arms": {
+      "noop": {
+        "counts": {},
+        "distance": 97,
+        "remaining_original_errors": 81
+      },
+      "V1": {
+        "counts": {
+          "TP": 9
+        },
+        "distance": 88,
+        "remaining_original_errors": 72
+      },
+      "new_research": {
+        "counts": {},
+        "distance": 97,
+        "remaining_original_errors": 81
+      },
+      "ngram_only": {
+        "counts": {},
+        "distance": 97,
+        "remaining_original_errors": 81
+      }
+    },
+    "seconds": 11.410100600000078,
+    "ngram_seconds": 2.8446008000009897,
+    "v1_seconds": 2.6787424000012834,
+    "windows": 79,
+    "edits": 0
+  },
+  "BV19T4P6MEWp.gt": {
+    "arms": {
+      "noop": {
+        "counts": {},
+        "distance": 57,
+        "remaining_original_errors": 46
+      },
+      "V1": {
+        "counts": {
+          "FP": 1,
+          "TP": 2
+        },
+        "distance": 56,
+        "remaining_original_errors": 44
+      },
+      "new_research": {
+        "counts": {},
+        "distance": 57,
+        "remaining_original_errors": 46
+      },
+      "ngram_only": {
+        "counts": {},
+        "distance": 57,
+        "remaining_original_errors": 46
+      }
+    },
+    "seconds": 10.108067799999844,
+    "ngram_seconds": 2.7582774000002246,
+    "v1_seconds": 2.668229099999735,
+    "windows": 62,
+    "edits": 0
+  },
+  "BV1LBxq6AEVn.gt": {
+    "arms": {
+      "noop": {
+        "counts": {},
+        "distance": 78,
+        "remaining_original_errors": 76
+      },
+      "V1": {
+        "counts": {
+          "TP": 2,
+          "FP": 4,
+          "wrong": 1
+        },
+        "distance": 80,
+        "remaining_original_errors": 74
+      },
+      "new_research": {
+        "counts": {},
+        "distance": 78,
+        "remaining_original_errors": 76
+      },
+      "ngram_only": {
+        "counts": {},
+        "distance": 78,
+        "remaining_original_errors": 76
+      }
+    },
+    "seconds": 6.410541399998692,
+    "ngram_seconds": 2.6464575000009063,
+    "v1_seconds": 2.672815299998547,
+    "windows": 33,
+    "edits": 0
+  },
+  "BV1sxxX64E4E.gt": {
+    "arms": {
+      "noop": {
+        "counts": {},
+        "distance": 141,
+        "remaining_original_errors": 128
+      },
+      "V1": {
+        "counts": {
+          "FP": 5,
+          "wrong": 1,
+          "TP": 7
+        },
+        "distance": 139,
+        "remaining_original_errors": 121
+      },
+      "new_research": {
+        "counts": {},
+        "distance": 141,
+        "remaining_original_errors": 128
+      },
+      "ngram_only": {
+        "counts": {},
+        "distance": 141,
+        "remaining_original_errors": 128
+      }
+    },
+    "seconds": 11.961688900000809,
+    "ngram_seconds": 3.1306910999992397,
+    "v1_seconds": 2.698668800001542,
+    "windows": 81,
+    "edits": 0
+  },
+  "BV1uUak6pEdK.gt": {
+    "arms": {
+      "noop": {
+        "counts": {},
+        "distance": 1576,
+        "remaining_original_errors": 1521
+      },
+      "V1": {
+        "counts": {
+          "FP": 69,
+          "wrong": 23,
+          "TP": 125
+        },
+        "distance": 1520,
+        "remaining_original_errors": 1396
+      },
+      "new_research": {
+        "counts": {
+          "TP": 8
+        },
+        "distance": 1568,
+        "remaining_original_errors": 1513
+      },
+      "ngram_only": {
+        "counts": {
+          "TP": 8
+        },
+        "distance": 1568,
+        "remaining_original_errors": 1513
+      }
+    },
+    "seconds": 94.34788210000079,
+    "ngram_seconds": 5.950071900000694,
+    "v1_seconds": 2.749901299999692,
+    "windows": 883,
+    "edits": 3
+  },
+  "BV1XgxE6BEqn.gt": {
+    "arms": {
+      "noop": {
+        "counts": {},
+        "distance": 42,
+        "remaining_original_errors": 39
+      },
+      "V1": {
+        "counts": {
+          "FP": 2
+        },
+        "distance": 44,
+        "remaining_original_errors": 39
+      },
+      "new_research": {
+        "counts": {},
+        "distance": 42,
+        "remaining_original_errors": 39
+      },
+      "ngram_only": {
+        "counts": {},
+        "distance": 42,
+        "remaining_original_errors": 39
+      }
+    },
+    "seconds": 5.006609999998545,
+    "ngram_seconds": 2.597850300000573,
+    "v1_seconds": 2.737695399999211,
+    "windows": 21,
+    "edits": 0
+  }
+}

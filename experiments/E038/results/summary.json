@@ -1,0 +1,802 @@
+{
+  "totals": {
+    "noop": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2024,
+      "remaining_original_errors": 1921,
+      "seconds": 0
+    },
+    "V1": {
+      "counts": {
+        "TP": 145,
+        "FP": 83,
+        "wrong": 25
+      },
+      "distance": 1962,
+      "remaining_original_errors": 1776,
+      "seconds": 21.355972199999087
+    },
+    "old_RAG": {
+      "counts": {
+        "TP": 10,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2014,
+      "remaining_original_errors": 1911,
+      "seconds": 174.9366147999972
+    },
+    "leftfix_RAG": {
+      "counts": {
+        "TP": 10,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2014,
+      "remaining_original_errors": 1911,
+      "seconds": 166.31780429999344
+    },
+    "train_RAG": {
+      "counts": {
+        "TP": 10,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2014,
+      "remaining_original_errors": 1911,
+      "seconds": 218.8644898999919
+    },
+    "train_no_retrieval": {
+      "counts": {
+        "TP": 6,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2018,
+      "remaining_original_errors": 1915,
+      "seconds": 22.89319739998973
+    },
+    "full_RAG": {
+      "counts": {
+        "TP": 12,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2012,
+      "remaining_original_errors": 1909,
+      "seconds": 247.70893879999858
+    },
+    "full_no_retrieval": {
+      "counts": {
+        "TP": 8,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2016,
+      "remaining_original_errors": 1913,
+      "seconds": 23.550701000000117
+    }
+  },
+  "checks": {
+    "old_leftfix_same_output_videos": 7,
+    "old_new_train_same_output_videos": 7,
+    "windows": 1174,
+    "old_cross_newline_windows": 285,
+    "new_cross_newline_windows": 0,
+    "max_payload_chars": 637,
+    "budget_cut_windows": 0
+  },
+  "cross_domain": {
+    "counts": {
+      "TP": 6,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 1570,
+    "seconds": 152.26024179999877,
+    "edits": [
+      {
+        "begin": 5500,
+        "end": 5504,
+        "target": "只讲仁义",
+        "p": 0.9996621494174436
+      },
+      {
+        "begin": 5895,
+        "end": 5897,
+        "target": "致命",
+        "p": 0.9986571791474309
+      }
+    ],
+    "same_as_no_retrieval": true,
+    "scope": "historical video only; retrieved segments restricted to modern domain; query statistics unchanged"
+  },
+  "gains": [
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "source": "魏清获取",
+      "target": "卫青霍去",
+      "begin": 8367,
+      "context": {
+        "left": "",
+        "right": "病击破",
+        "bos": false,
+        "eos": false
+      },
+      "score": {
+        "G": -1.5923607008536322,
+        "D": 12.858689583306123,
+        "S": 11.266328882452491,
+        "p": 0.9999744073995919
+      },
+      "retrieval": {
+        "segments": [
+          {
+            "id": 538880,
+            "cluster_id": "b31820babb5d890f",
+            "source_doc_id": 28356,
+            "off": 0,
+            "chars": 4,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 560961,
+            "cluster_id": "bb2b831975011e4a",
+            "source_doc_id": 47462,
+            "off": 12,
+            "chars": 8,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "句内停顿",
+            "right_class": "句末标点",
+            "bos": false,
+            "eos": true
+          },
+          {
+            "id": 180773,
+            "cluster_id": "bded8cb0ec72ef01",
+            "source_doc_id": 376,
+            "off": 722,
+            "chars": 17,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "句末标点",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 574626,
+            "cluster_id": "c5fec560f375bc94",
+            "source_doc_id": 59949,
+            "off": 0,
+            "chars": 10,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 585897,
+            "cluster_id": "0954ceff53c3f8a1",
+            "source_doc_id": 70265,
+            "off": 0,
+            "chars": 7,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 25282,
+            "cluster_id": "00df9fa3e2b45c7e",
+            "source_doc_id": 267,
+            "off": 2711,
+            "chars": 6,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "句内停顿",
+            "right_class": "句内停顿",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 131585,
+            "cluster_id": "1741d7945f297088",
+            "source_doc_id": 342,
+            "off": 11422,
+            "chars": 6,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "句内停顿",
+            "right_class": "句内停顿",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 528084,
+            "cluster_id": "364de5bc2b55907f",
+            "source_doc_id": 19942,
+            "off": 0,
+            "chars": 6,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 580392,
+            "cluster_id": "2296cbcd3259afca",
+            "source_doc_id": 65492,
+            "off": 0,
+            "chars": 12,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "空白或换行",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 514421,
+            "cluster_id": "57cf4abd68552f64",
+            "source_doc_id": 9329,
+            "off": 0,
+            "chars": 13,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 586887,
+            "cluster_id": "77e046b5d3d840d7",
+            "source_doc_id": 71175,
+            "off": 5,
+            "chars": 9,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "空白或换行",
+            "right_class": "句末标点",
+            "bos": false,
+            "eos": true
+          },
+          {
+            "id": 45132,
+            "cluster_id": "ff040bbb88f2f1e1",
+            "source_doc_id": 282,
+            "off": 654,
+            "chars": 5,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "句内停顿",
+            "right_class": "句内停顿",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 55394,
+            "cluster_id": "0cf8784f1cfea229",
+            "source_doc_id": 289,
+            "off": 6476,
+            "chars": 6,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "句末标点",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 600923,
+            "cluster_id": "f4850ba69853c913",
+            "source_doc_id": 84318,
+            "off": 0,
+            "chars": 7,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 70287,
+            "cluster_id": "b8d833affb2ae014",
+            "source_doc_id": 305,
+            "off": 2616,
+            "chars": 7,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "句内停顿",
+            "right_class": "句内停顿",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 539451,
+            "cluster_id": "ac98ea6767713d1e",
+            "source_doc_id": 28817,
+            "off": 10,
+            "chars": 22,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "空白或换行",
+            "right_class": "句末标点",
+            "bos": false,
+            "eos": true
+          },
+          {
+            "id": 535171,
+            "cluster_id": "235e22829e472ecb",
+            "source_doc_id": 25223,
+            "off": 0,
+            "chars": 7,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 575175,
+            "cluster_id": "c395bf22a4307c39",
+            "source_doc_id": 60474,
+            "off": 0,
+            "chars": 11,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 600164,
+            "cluster_id": "ed4c855031eea54e",
+            "source_doc_id": 83587,
+            "off": 0,
+            "chars": 8,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 603288,
+            "cluster_id": "7d6d59922ca84c90",
+            "source_doc_id": 86662,
+            "off": 0,
+            "chars": 14,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 587354,
+            "cluster_id": "8d603a44d18057c3",
+            "source_doc_id": 71582,
+            "off": 0,
+            "chars": 12,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 546310,
+            "cluster_id": "f72f17ec97e29476",
+            "source_doc_id": 34723,
+            "off": 0,
+            "chars": 18,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 538033,
+            "cluster_id": "0abf22e65d19ca93",
+            "source_doc_id": 27661,
+            "off": 36,
+            "chars": 8,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "句内停顿",
+            "right_class": "句内停顿",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 601880,
+            "cluster_id": "4fc9360a1d0697fd",
+            "source_doc_id": 85224,
+            "off": 0,
+            "chars": 12,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 548102,
+            "cluster_id": "af6f750d85050e7d",
+            "source_doc_id": 36293,
+            "off": 0,
+            "chars": 14,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 549679,
+            "cluster_id": "dc832b1e9b664484",
+            "source_doc_id": 37703,
+            "off": 0,
+            "chars": 14,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 588400,
+            "cluster_id": "29bd5e686c4024db",
+            "source_doc_id": 72598,
+            "off": 0,
+            "chars": 10,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 581993,
+            "cluster_id": "25b844dc064f91d1",
+            "source_doc_id": 66793,
+            "off": 20,
+            "chars": 8,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "句内停顿",
+            "right_class": "句末标点",
+            "bos": false,
+            "eos": true
+          },
+          {
+            "id": 554684,
+            "cluster_id": "25797d231fe0e209",
+            "source_doc_id": 42175,
+            "off": 0,
+            "chars": 9,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 582315,
+            "cluster_id": "50dff258f8508b6a",
+            "source_doc_id": 67075,
+            "off": 6,
+            "chars": 4,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "引号或括号",
+            "right_class": "引号或括号",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 586161,
+            "cluster_id": "dc3b162604e4b10d",
+            "source_doc_id": 70514,
+            "off": 0,
+            "chars": 10,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 534819,
+            "cluster_id": "08feb18695ec6597",
+            "source_doc_id": 24976,
+            "off": 10,
+            "chars": 5,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "句内停顿",
+            "right_class": "句末标点",
+            "bos": false,
+            "eos": true
+          },
+          {
+            "id": 553207,
+            "cluster_id": "c8d12de00b477eb9",
+            "source_doc_id": 40952,
+            "off": 39,
+            "chars": 13,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "句内停顿",
+            "right_class": "句末标点",
+            "bos": false,
+            "eos": true
+          },
+          {
+            "id": 490340,
+            "cluster_id": "8ba39cc0546667cd",
+            "source_doc_id": 911,
+            "off": 11895,
+            "chars": 6,
+            "context_chars": 0,
+            "source_family": "明史",
+            "left_class": "句内停顿",
+            "right_class": "句内停顿",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 518895,
+            "cluster_id": "a43f783293375d86",
+            "source_doc_id": 13241,
+            "off": 0,
+            "chars": 8,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "空白或换行",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 581499,
+            "cluster_id": "87ba67dd3fd57a90",
+            "source_doc_id": 66427,
+            "off": 0,
+            "chars": 8,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 603340,
+            "cluster_id": "7a166022268d61a9",
+            "source_doc_id": 86712,
+            "off": 0,
+            "chars": 7,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 596813,
+            "cluster_id": "cb6582962076ccab",
+            "source_doc_id": 80384,
+            "off": 0,
+            "chars": 6,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 131981,
+            "cluster_id": "1741d7945f297088",
+            "source_doc_id": 342,
+            "off": 13424,
+            "chars": 13,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "数字",
+            "right_class": "句内停顿",
+            "bos": false,
+            "eos": false
+          },
+          {
+            "id": 516352,
+            "cluster_id": "e260593768917203",
+            "source_doc_id": 10897,
+            "off": 0,
+            "chars": 11,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 25287,
+            "cluster_id": "00df9fa3e2b45c7e",
+            "source_doc_id": 267,
+            "off": 2748,
+            "chars": 4,
+            "context_chars": 0,
+            "source_family": "後漢書",
+            "left_class": "句内停顿",
+            "right_class": "句末标点",
+            "bos": false,
+            "eos": true
+          },
+          {
+            "id": 589749,
+            "cluster_id": "a32f0bea59ba549a",
+            "source_doc_id": 73817,
+            "off": 0,
+            "chars": 17,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 557351,
+            "cluster_id": "68096861d748cc67",
+            "source_doc_id": 44410,
+            "off": 0,
+            "chars": 9,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 564138,
+            "cluster_id": "2a8806416ba6029a",
+            "source_doc_id": 50088,
+            "off": 0,
+            "chars": 9,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 560905,
+            "cluster_id": "04d06a9f3f3e1902",
+            "source_doc_id": 47429,
+            "off": 0,
+            "chars": 11,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句内停顿",
+            "bos": true,
+            "eos": false
+          },
+          {
+            "id": 539513,
+            "cluster_id": "d869eda8220bf6bb",
+            "source_doc_id": 28871,
+            "off": 0,
+            "chars": 5,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 600926,
+            "cluster_id": "cb20e764f0d03758",
+            "source_doc_id": 84321,
+            "off": 0,
+            "chars": 11,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 576279,
+            "cluster_id": "7a6b485c84694cdb",
+            "source_doc_id": 61585,
+            "off": 0,
+            "chars": 15,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 553767,
+            "cluster_id": "cc8da48c007cfeae",
+            "source_doc_id": 41327,
+            "off": 0,
+            "chars": 9,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          },
+          {
+            "id": 582868,
+            "cluster_id": "cebae13aa349be15",
+            "source_doc_id": 67561,
+            "off": 0,
+            "chars": 9,
+            "context_chars": 0,
+            "source_family": "tatoeba_cmn",
+            "left_class": "文档头",
+            "right_class": "句末标点",
+            "bos": true,
+            "eos": true
+          }
+        ],
+        "evidence_chars": 480,
+        "char_budget": 8192,
+        "budget_cut": false
+      }
+    }
+  ],
+  "engineering": {
+    "ctest_passed": 25,
+    "ctest_total": 25,
+    "python_cases": 17,
+    "seconds": 12.48
+  },
+  "scope": "all correction quality figures are open-book, not calibrated generalization"
+}

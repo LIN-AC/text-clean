@@ -1,0 +1,74 @@
+{
+  "schemas": {
+    "docs": [
+      "doc_id",
+      "domain",
+      "work",
+      "title",
+      "url",
+      "license",
+      "fetched_at",
+      "src_sha",
+      "n_segs"
+    ],
+    "segs": [
+      "seg_id",
+      "doc_id",
+      "ord",
+      "off",
+      "text_norm",
+      "chars"
+    ],
+    "kb": [
+      "tokens"
+    ]
+  },
+  "duplicate_text_groups_across_docs": [
+    1027,
+    1121
+  ],
+  "selected_docs": 20,
+  "denominator_examples": [
+    {
+      "h": "^^^",
+      "unique_docs": 20,
+      "sum_continuation_docs": 502
+    },
+    {
+      "h": "大将军",
+      "unique_docs": 12,
+      "sum_continuation_docs": 49
+    },
+    {
+      "h": "二千石",
+      "unique_docs": 9,
+      "sum_continuation_docs": 43
+    },
+    {
+      "h": "中郎将",
+      "unique_docs": 7,
+      "sum_continuation_docs": 31
+    },
+    {
+      "h": "骑将军",
+      "unique_docs": 9,
+      "sum_continuation_docs": 28
+    },
+    {
+      "h": "十二月",
+      "unique_docs": 9,
+      "sum_continuation_docs": 27
+    },
+    {
+      "h": "各有差",
+      "unique_docs": 5,
+      "sum_continuation_docs": 25
+    },
+    {
+      "h": "徐广曰",
+      "unique_docs": 4,
+      "sum_continuation_docs": 22
+    }
+  ],
+  "note": "Reconstructed within selected segments/doc IDs; overlapping segment edges are not valid sentence boundaries. A full-document source map is needed."
+}

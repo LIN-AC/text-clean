@@ -1,0 +1,42 @@
+{
+  "commit": "72796cad1f5a7a2317b0bae79fbe335e79f7c153",
+  "inputs": {
+    "data\\PROVENANCE.tsv": "17ed29799efdf959aedef462015642c3f91b2776b4b5e46a28aea1a5104d445f",
+    "data\\ac\\ac_lock.tsv": "e6ac096b7f90e9a6423e65e86b975ebd5c0613eed14bec7a7027019c676ecedd",
+    "data\\correction\\candidates.tsv": "d7e1225632e6e93148861da9a7d62fe72082e8f9d140d144691450cbcf34d2fd",
+    "data\\frequency\\char_freq.tsv": "64c2732f35b4ec5e82a8ab5168ec37d6f7c2bf9740c324a3cb283ab69cead598",
+    "data\\frequency\\word_freq.tsv": "1c6807b5bfea8411bd1540d3cbefc485c9a8cc2cf3e3b82a27e6cb98e05253e4",
+    "data\\pronunciation\\pronunciation.tsv": "407fbf533f5624233ff7f989c68f8731c431e1630b65a7132563370ff1643eae",
+    "data\\pronunciation\\pronunciation_char.tsv": "a0dc67e8d5a511e59755f42860787d7828c37983e70a84fde864200d2797b29f",
+    "data\\vocabulary\\extvocabulary.tsv": "d345d7fa87aae8b0313b1e7a5964927cce901ee08c71bcc03bc645f7bbd74c06",
+    "data\\vocabulary\\vocabulary.tsv": "c962719a9fdc10d1a9f0fee27d6984e02d25c73dcac8401ef08fda62adc597cf",
+    "data\\context\\modern\\ngrams.tsv": "93bc10aea7e70103b0ce53c3e3f47d0b1667e87e91e9fc8770c68a6b7c5b64e8",
+    "data\\context\\modern\\pairs.tsv": "ed3be68e25d54538e5684d2fb2e03aa4c0678053571d2e62d0fcdbaf6da79510",
+    "data\\context\\modern\\unis.tsv": "a57112eea198556c1b8ac7bdfbd69f84341b84997f46caf6acbf2b9499661c3a",
+    "asr\\BV163xB6zEwF.gt.jsonl": "74cb200aa188500e06378412abaceafe3f30645bd7feb7d87a37184b5c87c9cd",
+    "asr\\BV18mxx64Es3.gt.jsonl": "c3b7dd0527b85e0354f1a5ef09318f715d4d7743335fcb4be650adbab16bf712",
+    "asr\\BV19T4P6MEWp.gt.jsonl": "918276a87c371c8b282d68e04407cf87058c95eedf0fe87e2361de6b3acb8a63",
+    "asr\\BV1LBxq6AEVn.gt.jsonl": "a400121a5cb952fd737fb91050da4bfa4a8ff1c3005b180697aa4976f5ee88d3",
+    "asr\\BV1sxxX64E4E.gt.jsonl": "7fdd8ce4791d59b5151a9960d9f70d00c6e061ebedf6ab16c7d7215dc87bfd78",
+    "asr\\BV1uUak6pEdK.gt.jsonl": "3758e782761820ae0873fe597305ec28868f62f741f8f0c940db1f78a0302584",
+    "asr\\BV1XgxE6BEqn.gt.jsonl": "91fb6c9dc6b27644e33df2e4f889f65948fd863b070940defcca8d0c19b4f04e",
+    "experiments\\E038\\frozen\\rag_clean_e037.py": "1aea7899c35dea57d68a68c6559a29b30748c10827029d9e8c215d067807267d",
+    "experiments\\E038\\scripts\\regression.py": "47a636d4648b863850a46d10d212f45025adf5492719b061a38da37e20aec7cd",
+    "tools\\rag_clean.py": "4569fa1d05f6b43fb4c75e7c6b6f440bd782ba21288e6c5da4fdc875f11b0a0f",
+    "tools\\prepare_rag_package.py": "9e71355edcfa62778249cad52c514f6b59e7aefdda2d346d13332da1a291da66",
+    "experiments\\E024\\scripts\\align_lib.py": "825e9a69385a1dd87616e9baacfcd4c27b93606032351ab85b7024bde818ed31",
+    "build\\e035\\text_clean.exe": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+    "build\\e038_legacy_train\\competitors.json": "4d00de32132e1bf7f039922080e1fecb376c8da8449a349bde6e3e34c7656833",
+    "build\\e038_legacy_train\\evidence.sqlite": "d1b814632a9df3fcb0d73b0c277f03c8f6dcf4c6eae2987763cbdebf443a6937",
+    "build\\e038_legacy_train\\manifest.json": "8957440e1363c232769985b046e2690433c8b73dcd82dfee97244e185861ca60",
+    "build\\e038_legacy_train\\model.json": "b0dd25bb436398a1066b2a142e8c8dee850a7a26b660515ed340787fddda8d53",
+    "build\\e038_legacy_train\\parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+  },
+  "command": "python experiments/E038/scripts/regression.py --group control",
+  "all_inputs_unchanged": true,
+  "load_seconds": {
+    "old_RAG": 2.203232100000605,
+    "leftfix_RAG": 2.2485936999983096
+  },
+  "scope": "seven open-book videos; full candidate selection; same parameters; no title or description"
+}

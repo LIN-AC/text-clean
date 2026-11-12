@@ -1,0 +1,497 @@
+{
+  "noop": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1576,
+      "remaining_original_errors": 1521
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39
+    }
+  },
+  "V1": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 2,
+        "wrong": 0
+      },
+      "distance": 35,
+      "remaining_original_errors": 30,
+      "seconds": 2.980079499997373
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 9,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 88,
+      "remaining_original_errors": 72,
+      "seconds": 2.933790699997189
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 2,
+        "FP": 1,
+        "wrong": 0
+      },
+      "distance": 56,
+      "remaining_original_errors": 44,
+      "seconds": 3.1620296000000963
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 2,
+        "FP": 4,
+        "wrong": 1
+      },
+      "distance": 80,
+      "remaining_original_errors": 74,
+      "seconds": 3.0291874000031385
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 7,
+        "FP": 5,
+        "wrong": 1
+      },
+      "distance": 139,
+      "remaining_original_errors": 121,
+      "seconds": 2.9828282999988005
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 125,
+        "FP": 69,
+        "wrong": 23
+      },
+      "distance": 1520,
+      "remaining_original_errors": 1396,
+      "seconds": 3.635472599999048
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 2,
+        "wrong": 0
+      },
+      "distance": 44,
+      "remaining_original_errors": 39,
+      "seconds": 3.0499965000017255
+    }
+  },
+  "train_RAG": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 4.964243100002932,
+      "windows": 17,
+      "edits": 0
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 11.462417300001107,
+      "windows": 79,
+      "edits": 0
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 10.503001900000527,
+      "windows": 62,
+      "edits": 0
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 6.588955699997314,
+      "windows": 33,
+      "edits": 0
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 12.437388900001679,
+      "windows": 81,
+      "edits": 0
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 10,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1566,
+      "remaining_original_errors": 1511,
+      "seconds": 134.7186544000033,
+      "windows": 881,
+      "edits": 3
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 5.0777075000005425,
+      "windows": 21,
+      "edits": 0
+    }
+  },
+  "train_no_retrieval": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 2.6649672999992617,
+      "windows": 17,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 2.9018945999996504,
+      "windows": 79,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 2.8593505999997433,
+      "windows": 62,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 2.778000800000882,
+      "windows": 33,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 3.1502584000008937,
+      "windows": 81,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 6,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1570,
+      "remaining_original_errors": 1515,
+      "seconds": 5.946545999999216,
+      "windows": 881,
+      "edits": 2,
+      "same_output_as_RAG": false
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 2.6195834999998624,
+      "windows": 21,
+      "edits": 0,
+      "same_output_as_RAG": true
+    }
+  },
+  "full_RAG": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 5.343719100001181,
+      "windows": 17,
+      "edits": 0
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 12.86643499999991,
+      "windows": 79,
+      "edits": 0
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 11.440597799999523,
+      "windows": 62,
+      "edits": 0
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 6.972122399998625,
+      "windows": 33,
+      "edits": 0
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 13.474861599999713,
+      "windows": 81,
+      "edits": 0
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 12,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1564,
+      "remaining_original_errors": 1509,
+      "seconds": 135.87031070000012,
+      "windows": 881,
+      "edits": 4
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 5.720541499998944,
+      "windows": 21,
+      "edits": 0
+    }
+  },
+  "full_no_retrieval": {
+    "BV163xB6zEwF.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 33,
+      "remaining_original_errors": 30,
+      "seconds": 2.709622700000182,
+      "windows": 17,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV18mxx64Es3.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 97,
+      "remaining_original_errors": 81,
+      "seconds": 2.805761200001143,
+      "windows": 79,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV19T4P6MEWp.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 57,
+      "remaining_original_errors": 46,
+      "seconds": 2.8361078000016278,
+      "windows": 62,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV1LBxq6AEVn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 78,
+      "remaining_original_errors": 76,
+      "seconds": 2.670370100000582,
+      "windows": 33,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV1sxxX64E4E.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 141,
+      "remaining_original_errors": 128,
+      "seconds": 2.8697879999999714,
+      "windows": 81,
+      "edits": 0,
+      "same_output_as_RAG": true
+    },
+    "BV1uUak6pEdK.gt": {
+      "counts": {
+        "TP": 8,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 1568,
+      "remaining_original_errors": 1513,
+      "seconds": 6.368661299999076,
+      "windows": 881,
+      "edits": 3,
+      "same_output_as_RAG": false
+    },
+    "BV1XgxE6BEqn.gt": {
+      "counts": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 42,
+      "remaining_original_errors": 39,
+      "seconds": 2.7411764999997104,
+      "windows": 21,
+      "edits": 0,
+      "same_output_as_RAG": true
+    }
+  }
+}

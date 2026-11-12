@@ -1,0 +1,382 @@
+{
+  "tag": "full",
+  "package": "build/e044_full",
+  "package_manifest": {
+    "format": "tc-evidence-package-2",
+    "files": {
+      "model.json": "6e14bfd389edeb628aacc8c57661049f83e717ccf7ba67259a489efe8d8349e6",
+      "evidence.sqlite": "7e1764e3f4498f5b140c603088b1597cfb9c3e7be40bd52b4f9fe87b24957339",
+      "competitors.json": "f88377c565eb7201161f0b760322b516ef62b4800581bbae754795f99268d3e7",
+      "parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+    },
+    "frontend_sha256": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+    "source_db_sha256": "ddfb2d98f9956017d449481a8297a38fd2ae3f4f668ec430c5391ef00afec71d",
+    "docs": 234189,
+    "segments": 7770473,
+    "duplicate_docs_removed": 9158,
+    "competitors": 109418,
+    "mass_error": 2.886579864025407e-15,
+    "boundary_counts": {
+      "bos": 1337471,
+      "eos": 1883904
+    },
+    "training": "modern fragments only; explicit observed edges; duplicate clusters clipped; no truth read",
+    "source_capabilities": {
+      "full_text": true,
+      "raw_mapping_validated": true,
+      "supplied_clusters": true,
+      "source_family": true,
+      "segment_edges": true
+    },
+    "source_limitations": [
+      "Unknown/layout/pause boundaries are not joined or treated as sentence stops",
+      "Only U+4E00-U+9FFF participates; unsupported characters split fragments",
+      "Supplied cluster identities are respected, not proof that all near copies are detected",
+      "Document start/end count as sentence boundaries only for modern sentence documents"
+    ],
+    "retrieval_policy": {
+      "block_chars": 256,
+      "char_budget": 8192,
+      "context_chars": 3
+    },
+    "source_files": {
+      "data/pronunciation/pronunciation.tsv": "407fbf533f5624233ff7f989c68f8731c431e1630b65a7132563370ff1643eae",
+      "data/pronunciation/pronunciation_char.tsv": "a0dc67e8d5a511e59755f42860787d7828c37983e70a84fde864200d2797b29f",
+      "data/correction/candidates.tsv": "dab7d80a6497271fb6c67d52d82f9c6a14972a61da18c8785689c43b92ffdf78",
+      "data/ac/ac_lock.tsv": "e6ac096b7f90e9a6423e65e86b975ebd5c0613eed14bec7a7027019c676ecedd"
+    }
+  },
+  "candidate_table_sha": "dab7d80a6497271fb6c67d52d82f9c6a14972a61da18c8785689c43b92ffdf78",
+  "frontend_sha": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+  "arms": {
+    "rag": {
+      "counts": {
+        "TP": 94,
+        "FP": 1,
+        "wrong": 0
+      },
+      "distance": 1931,
+      "remaining": 1827,
+      "seconds": 2013.5,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 33,
+          "remaining_original_errors": 30,
+          "edits": 0,
+          "windows": 18
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 95,
+          "remaining_original_errors": 79,
+          "edits": 1,
+          "windows": 62
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 57,
+          "remaining_original_errors": 46,
+          "edits": 0,
+          "windows": 52
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 76,
+          "remaining_original_errors": 74,
+          "edits": 1,
+          "windows": 26
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 141,
+          "remaining_original_errors": 128,
+          "edits": 0,
+          "windows": 66
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 90,
+            "FP": 1,
+            "wrong": 0
+          },
+          "distance": 1487,
+          "remaining_original_errors": 1431,
+          "edits": 44,
+          "windows": 780
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39,
+          "edits": 0,
+          "windows": 22
+        }
+      }
+    },
+    "rag_no_retrieval": {
+      "counts": {
+        "TP": 94,
+        "FP": 1,
+        "wrong": 0
+      },
+      "distance": 1931,
+      "remaining": 1827,
+      "seconds": 61.0,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 33,
+          "remaining_original_errors": 30,
+          "edits": 0,
+          "windows": 18
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 95,
+          "remaining_original_errors": 79,
+          "edits": 1,
+          "windows": 62
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 57,
+          "remaining_original_errors": 46,
+          "edits": 0,
+          "windows": 52
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 76,
+          "remaining_original_errors": 74,
+          "edits": 1,
+          "windows": 26
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 141,
+          "remaining_original_errors": 128,
+          "edits": 0,
+          "windows": 66
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 90,
+            "FP": 1,
+            "wrong": 0
+          },
+          "distance": 1487,
+          "remaining_original_errors": 1431,
+          "edits": 44,
+          "windows": 780
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39,
+          "edits": 0,
+          "windows": 22
+        }
+      }
+    },
+    "perfect": {
+      "counts": {
+        "TP": 319,
+        "FP": 2,
+        "wrong": 0
+      },
+      "distance": 1707,
+      "remaining": 1602,
+      "seconds": 82.6,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 4,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 29,
+          "remaining_original_errors": 26
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 14,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 83,
+          "remaining_original_errors": 67
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 6,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 51,
+          "remaining_original_errors": 40
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 76,
+          "remaining_original_errors": 74
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 21,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 120,
+          "remaining_original_errors": 107
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 272,
+            "FP": 2,
+            "wrong": 0
+          },
+          "distance": 1306,
+          "remaining_original_errors": 1249
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39
+        }
+      }
+    },
+    "openbook": {
+      "counts": {
+        "TP": 278,
+        "FP": 1,
+        "wrong": 0
+      },
+      "distance": 1747,
+      "remaining": 1643,
+      "seconds": 91.2,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 4,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 29,
+          "remaining_original_errors": 26
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 11,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 86,
+          "remaining_original_errors": 70
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 55,
+          "remaining_original_errors": 44
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 76,
+          "remaining_original_errors": 74
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 12,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 129,
+          "remaining_original_errors": 116
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 247,
+            "FP": 1,
+            "wrong": 0
+          },
+          "distance": 1330,
+          "remaining_original_errors": 1274
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39
+        }
+      }
+    }
+  },
+  "scope": "七篇全开卷；参数与 E038/E042 一致 a=0 β=1 κ=10 ρ=1 α=.01 H=30 检索50段；无标题简介"
+}

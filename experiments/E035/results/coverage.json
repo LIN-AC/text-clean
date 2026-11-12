@@ -1,0 +1,8 @@
+{
+  "vocab_size": 3483,
+  "targets": 340,
+  "targets_in_competitors": 340,
+  "targets_all_characters_known": 304,
+  "missing_target_readings": [],
+  "discount_fallback_orders": []
+}

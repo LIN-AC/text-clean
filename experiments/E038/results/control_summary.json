@@ -1,0 +1,42 @@
+{
+  "noop": {
+    "counts": {
+      "TP": 0,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2024,
+    "remaining_original_errors": 1921,
+    "seconds": 0
+  },
+  "V1": {
+    "counts": {
+      "TP": 145,
+      "FP": 83,
+      "wrong": 25
+    },
+    "distance": 1962,
+    "remaining_original_errors": 1776,
+    "seconds": 21.355972199999087
+  },
+  "old_RAG": {
+    "counts": {
+      "TP": 10,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2014,
+    "remaining_original_errors": 1911,
+    "seconds": 174.9366147999972
+  },
+  "leftfix_RAG": {
+    "counts": {
+      "TP": 10,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2014,
+    "remaining_original_errors": 1911,
+    "seconds": 166.31780429999344
+  }
+}

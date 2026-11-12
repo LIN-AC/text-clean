@@ -1,0 +1,15 @@
+{
+  "command": "ctest --test-dir build/e035 --output-on-failure",
+  "exit_code": 0,
+  "passed": 25,
+  "total": 25,
+  "seconds": 11.9,
+  "log_sha256": "262cdb272ce23f839d11c5218bd93a7ce1e9d6d3ae76049d68f6edf6c663d3bb",
+  "E035_artifact_matches": {
+    "src/main.cpp": true,
+    "src/text_cleaner.cpp": true,
+    "include/text_clean/text_cleaner.h": true,
+    "build/e035/text_clean.exe": true,
+    "tests/test_rag_clean.py": true
+  }
+}

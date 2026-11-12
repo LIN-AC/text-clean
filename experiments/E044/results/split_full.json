@@ -1,0 +1,11 @@
+{
+  "tp_rag": 94,
+  "tp_v1": 152,
+  "overlap": 48,
+  "rag_only": 46,
+  "v1_only": 104,
+  "identical_outputs": 7,
+  "identical_edits": 7,
+  "windows_with_D": 13,
+  "entries_with_D": 223
+}

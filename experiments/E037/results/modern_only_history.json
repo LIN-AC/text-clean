@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "TP": 6,
+    "FP": 0,
+    "wrong": 0
+  },
+  "distance": 1570,
+  "seconds": 129.05759620000026,
+  "edits": [
+    {
+      "begin": 5500,
+      "end": 5504,
+      "target": "只讲仁义",
+      "p": 0.999821135003444
+    },
+    {
+      "begin": 5895,
+      "end": 5897,
+      "target": "致命",
+      "p": 0.9991113695421268
+    }
+  ],
+  "same_output_as_no_retrieval": true,
+  "scope": "historical video only; modern-only retrieved documents; global query terms unchanged"
+}

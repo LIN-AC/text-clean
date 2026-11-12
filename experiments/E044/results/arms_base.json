@@ -1,0 +1,457 @@
+{
+  "tag": "base",
+  "package": "build/e044_base",
+  "package_manifest": {
+    "format": "tc-evidence-package-2",
+    "files": {
+      "model.json": "16c5f2928b81948b3dd47682808953eb9d3e89298eaf459f2baca1ac109fa306",
+      "evidence.sqlite": "1eb9ebeca1169123f0511ae4b480eb195d7ac154f65e0ba25b197e2c1b519035",
+      "competitors.json": "f88377c565eb7201161f0b760322b516ef62b4800581bbae754795f99268d3e7",
+      "parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+    },
+    "frontend_sha256": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+    "source_db_sha256": "28b53af9a5601755c930241df8790451be7833f7e509827386e8ab7c7e015245",
+    "docs": 80198,
+    "segments": 607006,
+    "duplicate_docs_removed": 979,
+    "competitors": 109418,
+    "mass_error": 2.55351295663786e-15,
+    "boundary_counts": {
+      "bos": 181525,
+      "eos": 214824
+    },
+    "training": "modern fragments only; explicit observed edges; duplicate clusters clipped; no truth read",
+    "source_capabilities": {
+      "full_text": true,
+      "raw_mapping_validated": true,
+      "supplied_clusters": true,
+      "source_family": true,
+      "segment_edges": true
+    },
+    "source_limitations": [
+      "Unknown/layout/pause boundaries are not joined or treated as sentence stops",
+      "Only U+4E00-U+9FFF participates; unsupported characters split fragments",
+      "Supplied cluster identities are respected, not proof that all near copies are detected",
+      "Document start/end count as sentence boundaries only for modern sentence documents"
+    ],
+    "retrieval_policy": {
+      "block_chars": 256,
+      "char_budget": 8192,
+      "context_chars": 3
+    },
+    "source_files": {
+      "data/pronunciation/pronunciation.tsv": "407fbf533f5624233ff7f989c68f8731c431e1630b65a7132563370ff1643eae",
+      "data/pronunciation/pronunciation_char.tsv": "a0dc67e8d5a511e59755f42860787d7828c37983e70a84fde864200d2797b29f",
+      "data/correction/candidates.tsv": "dab7d80a6497271fb6c67d52d82f9c6a14972a61da18c8785689c43b92ffdf78",
+      "data/ac/ac_lock.tsv": "e6ac096b7f90e9a6423e65e86b975ebd5c0613eed14bec7a7027019c676ecedd"
+    }
+  },
+  "candidate_table_sha": "dab7d80a6497271fb6c67d52d82f9c6a14972a61da18c8785689c43b92ffdf78",
+  "frontend_sha": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+  "arms": {
+    "v1": {
+      "counts": {
+        "TP": 152,
+        "FP": 79,
+        "wrong": 23
+      },
+      "distance": 1951,
+      "remaining": 1769,
+      "seconds": 18.7,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 1,
+            "FP": 2,
+            "wrong": 0
+          },
+          "distance": 34,
+          "remaining_original_errors": 29
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 7,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 90,
+          "remaining_original_errors": 74
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 57,
+          "remaining_original_errors": 46
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 4,
+            "FP": 4,
+            "wrong": 1
+          },
+          "distance": 78,
+          "remaining_original_errors": 72
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 7,
+            "FP": 5,
+            "wrong": 1
+          },
+          "distance": 139,
+          "remaining_original_errors": 121
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 133,
+            "FP": 66,
+            "wrong": 21
+          },
+          "distance": 1509,
+          "remaining_original_errors": 1388
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 2,
+            "wrong": 0
+          },
+          "distance": 44,
+          "remaining_original_errors": 39
+        }
+      }
+    },
+    "rag": {
+      "counts": {
+        "TP": 6,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2018,
+      "remaining": 1915,
+      "seconds": 196.8,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 33,
+          "remaining_original_errors": 30,
+          "edits": 0,
+          "windows": 18
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 97,
+          "remaining_original_errors": 81,
+          "edits": 0,
+          "windows": 62
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 57,
+          "remaining_original_errors": 46,
+          "edits": 0,
+          "windows": 52
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 78,
+          "remaining_original_errors": 76,
+          "edits": 0,
+          "windows": 26
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 141,
+          "remaining_original_errors": 128,
+          "edits": 0,
+          "windows": 66
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 6,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 1570,
+          "remaining_original_errors": 1515,
+          "edits": 2,
+          "windows": 780
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39,
+          "edits": 0,
+          "windows": 22
+        }
+      }
+    },
+    "rag_no_retrieval": {
+      "counts": {
+        "TP": 6,
+        "FP": 0,
+        "wrong": 0
+      },
+      "distance": 2018,
+      "remaining": 1915,
+      "seconds": 24.1,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 33,
+          "remaining_original_errors": 30,
+          "edits": 0,
+          "windows": 18
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 97,
+          "remaining_original_errors": 81,
+          "edits": 0,
+          "windows": 62
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 57,
+          "remaining_original_errors": 46,
+          "edits": 0,
+          "windows": 52
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 78,
+          "remaining_original_errors": 76,
+          "edits": 0,
+          "windows": 26
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 141,
+          "remaining_original_errors": 128,
+          "edits": 0,
+          "windows": 66
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 6,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 1570,
+          "remaining_original_errors": 1515,
+          "edits": 2,
+          "windows": 780
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39,
+          "edits": 0,
+          "windows": 22
+        }
+      }
+    },
+    "openbook": {
+      "counts": {
+        "TP": 162,
+        "FP": 2,
+        "wrong": 0
+      },
+      "distance": 1864,
+      "remaining": 1759,
+      "seconds": 36.6,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 3,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 30,
+          "remaining_original_errors": 27
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 9,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 88,
+          "remaining_original_errors": 72
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 2,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 55,
+          "remaining_original_errors": 44
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 78,
+          "remaining_original_errors": 76
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 12,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 129,
+          "remaining_original_errors": 116
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 136,
+            "FP": 2,
+            "wrong": 0
+          },
+          "distance": 1442,
+          "remaining_original_errors": 1385
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39
+        }
+      }
+    },
+    "perfect": {
+      "counts": {
+        "TP": 214,
+        "FP": 1,
+        "wrong": 0
+      },
+      "distance": 1811,
+      "remaining": 1707,
+      "seconds": 45.3,
+      "by_video": {
+        "BV163xB6zEwF.gt": {
+          "counts": {
+            "TP": 3,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 30,
+          "remaining_original_errors": 27
+        },
+        "BV18mxx64Es3.gt": {
+          "counts": {
+            "TP": 12,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 85,
+          "remaining_original_errors": 69
+        },
+        "BV19T4P6MEWp.gt": {
+          "counts": {
+            "TP": 4,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 53,
+          "remaining_original_errors": 42
+        },
+        "BV1LBxq6AEVn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 78,
+          "remaining_original_errors": 76
+        },
+        "BV1sxxX64E4E.gt": {
+          "counts": {
+            "TP": 21,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 120,
+          "remaining_original_errors": 107
+        },
+        "BV1uUak6pEdK.gt": {
+          "counts": {
+            "TP": 174,
+            "FP": 1,
+            "wrong": 0
+          },
+          "distance": 1403,
+          "remaining_original_errors": 1347
+        },
+        "BV1XgxE6BEqn.gt": {
+          "counts": {
+            "TP": 0,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 42,
+          "remaining_original_errors": 39
+        }
+      }
+    }
+  },
+  "scope": "七篇全开卷；参数与 E038/E042 一致 a=0 β=1 κ=10 ρ=1 α=.01 H=30 检索50段；无标题简介"
+}

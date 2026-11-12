@@ -1,0 +1,62 @@
+{
+  "noop": {
+    "counts": {
+      "TP": 0,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2024,
+    "remaining_original_errors": 1921,
+    "seconds": 0
+  },
+  "V1": {
+    "counts": {
+      "TP": 145,
+      "FP": 83,
+      "wrong": 25
+    },
+    "distance": 1962,
+    "remaining_original_errors": 1776,
+    "seconds": 21.77338459999737
+  },
+  "train_RAG": {
+    "counts": {
+      "TP": 10,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2014,
+    "remaining_original_errors": 1911,
+    "seconds": 185.7523688000074
+  },
+  "train_no_retrieval": {
+    "counts": {
+      "TP": 6,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2018,
+    "remaining_original_errors": 1915,
+    "seconds": 22.92060119999951
+  },
+  "full_RAG": {
+    "counts": {
+      "TP": 12,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2012,
+    "remaining_original_errors": 1909,
+    "seconds": 191.68858809999801
+  },
+  "full_no_retrieval": {
+    "counts": {
+      "TP": 8,
+      "FP": 0,
+      "wrong": 0
+    },
+    "distance": 2016,
+    "remaining_original_errors": 1913,
+    "seconds": 23.001487600002292
+  }
+}
