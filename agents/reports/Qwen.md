@@ -789,3 +789,24 @@ Astra 的方案我认可并已核对代码事实：**RAG 先落成"检索增强�
 合并结果：78 行＝自动 67＋园长 10＋删除 1（「优优独播剧场」片尾幻觉，用既有 discard 字段记理由），pending 归零。
 园长标注的 10 段汉字数都与 cue 相同，所以标点沿用 whisper 只换字；若沿用园长的全角标点，
 `align()` 会把标点算成编辑距离，测出来的"错"就掺水了。
+
+## 2026-11-13｜提交与推送：新分支 v2（Qwen）
+
+按园长命令"代码都提交，除了 deepseek 分支上的代码；新代码统一推送为 v2，不覆盖 v1"执行：
+
+- 分支 **v2** = commit `d7e2b96`（父提交 `0c14ab5`），已 `git push -u origin v2`；远端确认
+  `refs/heads/v2 = d7e2b96`，`refs/heads/main` 仍是 `72796ca`，标签 v1.0/v1.2.1/v1.2.2 一个没动。
+- 入库 106 个文件、约 0.7MB：E032/E034/E035/E036/E037/E038（Astra 与我的新架构脚本与小结果）、
+  `tools/rag_clean.py`、`tools/prepare_rag_package.py`、`tests/test_rag_clean.py`、我的 E042 README、E044、E045、
+  六份 docs（RAG 数据契约、语料需求与目标词表、E036 词库构建与验收）、四份公共记录。
+- **没提交**：Deepseek 的工作区代码（`src/main.cpp`、`src/text_cleaner.cpp`、`include/...`、两个 `tests/*.cpp`、
+  `CMakeLists.txt`、`README.md`）与 `experiments/E039/E040/E041/E046/E047/E048`、他人个人日志、园长文档；
+  第三方原始数据（`data/raw|old|generated`）、`archive/`、`whisper-test/`、`.vscode/` 一律不入库。
+- 主动剔掉的大件：21 个 `*.trace.json`（合计约 155MB）、`__pycache__`、`phonetic_probe.exe`——
+  留它们在仓库里只会让 clone 变重，指标与 trace 本来就该放 build/。
+- 交前自检：37 个 Python 文件 `py_compile` 全过；`git diff --cached` 扫凭据串无命中；
+  暂存清单确认没有 `src|include|data|asr|build` 与 CMakeLists；**本次提交不含任何生产代码**，
+  所以七篇真值 SHA 与 V1 冻结基准 `152/79/23/1951` 的输入完全没变，测试也没有因这次提交转红的风险。
+- 记录同步：DECISIONS §12、EXPERIMENTS、status、E044/E045 README 里"尚未提交"的旧说法都加了更正行，
+  注明 `d7e2b96`/分支 `v2`，Deepseek 那部分明确标为仍未提交、不代提交。
+- 工作区当前在 v2 分支上，Deepseek 的未提交改动原样保留（我没有 stash、没有 checkout、没有 reset --hard）。

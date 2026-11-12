@@ -4,6 +4,7 @@
 `rag_clean.Cleaner` 会校验包内绑定的 `data/correction/candidates.tsv` 哈希，**旧包一律拒绝加载**，
 所以本轮必须先重建包，再按 `experiments/E046/README.md`（Deepseek 的方法）原样复跑。
 未修改 `src/`、`include/`、`data/`、`asr/`、评分参数与默认值；未改动 Deepseek 的脚本（用 import 覆盖常量的方式复用）。
+基线 commit `0c14ab5`，本目录入库 commit `d7e2b96`（分支 `v2`）；包在 `build/e044_{base,full}`，trace 不入库。
 
 ## 1. 怎么测的
 

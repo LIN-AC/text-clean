@@ -290,7 +290,7 @@ RAG 证据实测：1,174 个窗口只有 17 个 H 有 D≠0；23,547 个 H 条�
 泄漏复查 3,232 个 12 字窗口 0 命中。P0 现代 6 词做到 4/6，P1 历史 14 词只做到 2/14（要求 ≥12/14），
 P2-context 4/4、P2-low 5/5、P3 11/11 达标。**P1 未达的主因不是语料不够，而是目标词形在史料里不用。**
 
-- 基础 Git `72796cad1f5a7a2317b0bae79fbe335e79f7c153`（本轮新增 `experiments/E042/`，尚未提交）。
+- 基础 Git `72796cad1f5a7a2317b0bae79fbe335e79f7c153`（本轮新增 `experiments/E042/`，尚未提交 → 更正：脚本已进 `0c14ab5`，README 与交付记录已进 `d7e2b96`，分支 `v2`）。
 - 产物：`build/e042_corpus/corpus_supplement.sqlite` SHA256 前缀 `8adbc5919aadcf37`，1,478MB；
   逐文件 SHA、来源清单、检查结果见同目录 `manifest.json`、`source_list.tsv`、`hard_checks.json`。
 - 字段沿用 `docs/RAG_DATA_CONTRACT.md`，docs 只增列 `register / period / source_batch / rev_timestamp`，
@@ -480,7 +480,7 @@ P0 现代 6 词：**4/6 真达标**（政务 568、返乡 66、配齐 55、错�
 
 **已知问题**：① `asr/BV1uN4y1y7Fb.gt.jsonl` 是**草稿**，11 段（开头 4 段讲解、`命中53%` 边界段、
 多/漏字导致标点对不上的段）需园长标注后才能算正式真值；② 0.55 命中线是本 Agent 自定口径，未报批；
-③ 只在这一篇上成立，不做泛化声明。脚本与证据在 `experiments/E045/`（未提交），方法见 `experiments/E045/README.md`。
+③ 只在这一篇上成立，不做泛化声明。脚本与证据在 `experiments/E045/`（未提交 → 更正：已提交 `d7e2b96`，分支 `v2`），方法见 `experiments/E045/README.md`。
 
 ### E045 补记（同日）：园长标注已并入真值，洛神赋只做窗长验证，不进七篇评测
 

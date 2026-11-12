@@ -198,5 +198,12 @@ data/
 本轮结束时代码状态：`experiments/E044/` 与三份公共记录**尚未提交**；
 包在 `build/e044_{base,full}`，含真值的临时开卷包已删除，只保留指标与 trace（trace 在 build/ 不入库）。
 
+> 更正（2026-11-13，Qwen）：`experiments/E042/README.md`、`E044/`、`E045/` 与三份公共记录已提交为
+> commit `d7e2b96`，推送在新分支 **`v2`**（园长命令：新代码统一进 v2，不覆盖 v1；v1.0/v1.2.1/v1.2.2 标签与 main 未动）。
+> 按同一命令**未提交**的 Deepseek 分支代码：`src/main.cpp`、`src/text_cleaner.cpp`、
+> `include/text_clean/text_cleaner.h`、`tests/test_zipf_scoring.cpp`、`tests/test_decision_safety.cpp`、
+> `CMakeLists.txt`、`README.md`，以及 `experiments/E039/E040/E041/E046/E047/E048`。
+> 因此 v2 分支上的新架构臂可复现（含 `tools/rag_clean.py`），但 E048 的窗口上限护栏不在 v2 里，仍是工作区改动。
+
 > 数字更正（同日，Qwen）：上面第 3 条的"503 个单字启用行"应为**单字启用行 655 行、去重后 503 个单字目标**
 > （启用行合计 964 行 / 790 个启用目标）。结论不变：这些行在窗口下限 2 下结构不可达。
