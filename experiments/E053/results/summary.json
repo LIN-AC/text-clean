@@ -1,0 +1,89 @@
+{
+  "commit": "96c7778de5b374ae4fcdcb9866d8ae4c3b8883b5",
+  "branch": "v2",
+  "totals": {
+    "ngram": {
+      "counts": {
+        "TP": 171,
+        "FP": 102,
+        "wrong": 23
+      },
+      "distance": 1950,
+      "remaining_original_errors": 1750,
+      "seconds": 187.99131540000235,
+      "candidate_reachable_errors": 936,
+      "candidate_count": 768935,
+      "rag_only_candidates": 0,
+      "nonzero_D": 0
+    },
+    "rag": {
+      "counts": {
+        "TP": 218,
+        "FP": 199,
+        "wrong": 30
+      },
+      "distance": 2003,
+      "remaining_original_errors": 1703,
+      "seconds": 934.8006651000032,
+      "candidate_reachable_errors": 984,
+      "candidate_count": 779331,
+      "rag_only_candidates": 10396,
+      "nonzero_D": 501141
+    },
+    "rag_proposals": {
+      "counts": {
+        "TP": 186,
+        "FP": 109,
+        "wrong": 22
+      },
+      "distance": 1942,
+      "remaining_original_errors": 1735,
+      "seconds": 239.26380199999767,
+      "candidate_reachable_errors": 984,
+      "candidate_count": 779331,
+      "rag_only_candidates": 10396,
+      "nonzero_D": 0
+    }
+  },
+  "ctc": {
+    "ngram": {
+      "counts": {
+        "TP": 11,
+        "FP": 5,
+        "wrong": 0
+      },
+      "distance": 48,
+      "remaining": 39
+    },
+    "rag": {
+      "counts": {
+        "TP": 12,
+        "FP": 7,
+        "wrong": 0
+      },
+      "distance": 49,
+      "remaining": 38
+    }
+  },
+  "truth_unchanged": true,
+  "measured_source_preserved": true,
+  "aligned_correct_characters": 49057,
+  "aligned_substitution_errors": 1921,
+  "python": "3.14.8",
+  "code_sha256": {
+    "CMakeLists.txt": "aa879dd10b383888382a4a67be73ed6bf308aeb1b67333dbb477c87cd31e2376",
+    "include/text_clean/retrieval.h": "1d58e119ad47c6f12052898f36006f0ed07b154fb1b8b392958a40aa737a945b",
+    "src/retrieval.cpp": "f8b1c76c261cbf573d21085631318f521460de77f33d84aac975ea06a7166e13",
+    "src/retrieval_main.cpp": "60c4ca2ba859b0b5a06b921c34c6d4a3c2d5002fe869687cbb4aade445497b77",
+    "tools/proposal_clean.py": "e481c926ba8eb01151d0f53120bd02fe79f3666dd5b597a28ae167518ce211c2",
+    "tools/native_retrieval.py": "163e4c24606e8d29ef50c452cc0fe31cf53b345b1f6b562557b372b7add11b56",
+    "tests/test_proposal_clean.py": "2e55a69a505006ef6a0a60a03364153028af081e9d8df7348cada154e8f32db9"
+  },
+  "script_sha256": {
+    "experiments\\E053\\scripts\\audit_candidates.py": "6d3603247d2684b51e3e384ae8b8c2a869852a025b52c91bd8f66c12718c0db5",
+    "experiments\\E053\\scripts\\run.py": "02aa458fcfda7d2994e760d615d358e17894053897af8256170695bcce3f4ae1",
+    "experiments\\E053\\scripts\\summarize.py": "b9ba5468a794b5f13b358b15f7044cb5b545b2f36b2a32f5ae97b445f1eb00a1",
+    "experiments\\E053\\scripts\\supplement.py": "4d8b055f13c629d1e00701edcb577497a75aeb98fd37b4efdee19869f5274369",
+    "experiments\\E053\\scripts\\verify.py": "0d9e7f0521190170bc6ec90bc708723d7c245e432a4182aa9146ebe4d4a03f9e"
+  }
+}

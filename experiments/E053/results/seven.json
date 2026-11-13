@@ -1,0 +1,450 @@
+{
+  "commit": "96c7778de5b374ae4fcdcb9866d8ae4c3b8883b5",
+  "branch": "v2",
+  "command": [
+    "experiments/E053/scripts/run.py",
+    "--tag",
+    "seven"
+  ],
+  "data": {
+    "asr\\BV163xB6zEwF.gt.jsonl": "74cb200aa188500e06378412abaceafe3f30645bd7feb7d87a37184b5c87c9cd",
+    "asr\\BV18mxx64Es3.gt.jsonl": "c3b7dd0527b85e0354f1a5ef09318f715d4d7743335fcb4be650adbab16bf712",
+    "asr\\BV19T4P6MEWp.gt.jsonl": "918276a87c371c8b282d68e04407cf87058c95eedf0fe87e2361de6b3acb8a63",
+    "asr\\BV1LBxq6AEVn.gt.jsonl": "a400121a5cb952fd737fb91050da4bfa4a8ff1c3005b180697aa4976f5ee88d3",
+    "asr\\BV1sxxX64E4E.gt.jsonl": "7fdd8ce4791d59b5151a9960d9f70d00c6e061ebedf6ab16c7d7215dc87bfd78",
+    "asr\\BV1uUak6pEdK.gt.jsonl": "3758e782761820ae0873fe597305ec28868f62f741f8f0c940db1f78a0302584",
+    "asr\\BV1XgxE6BEqn.gt.jsonl": "91fb6c9dc6b27644e33df2e4f889f65948fd863b070940defcca8d0c19b4f04e"
+  },
+  "source": {
+    "data\\pronunciation\\pronunciation_char.tsv": "a0dc67e8d5a511e59755f42860787d7828c37983e70a84fde864200d2797b29f",
+    "data\\ac\\ac_lock.tsv": "e6ac096b7f90e9a6423e65e86b975ebd5c0613eed14bec7a7027019c676ecedd",
+    "data\\correction\\candidates.tsv": "dab7d80a6497271fb6c67d52d82f9c6a14972a61da18c8785689c43b92ffdf78",
+    "tools\\proposal_clean.py": "3df2c4c3bb019ea4de8dcc45b57bb8ad5742a21458a3fe7e311b91c5a619527e",
+    "tools\\native_retrieval.py": "163e4c24606e8d29ef50c452cc0fe31cf53b345b1f6b562557b372b7add11b56",
+    "tools\\rag_clean.py": "4569fa1d05f6b43fb4c75e7c6b6f440bd782ba21288e6c5da4fdc875f11b0a0f",
+    "src\\retrieval.cpp": "f8b1c76c261cbf573d21085631318f521460de77f33d84aac975ea06a7166e13",
+    "src\\retrieval_main.cpp": "60c4ca2ba859b0b5a06b921c34c6d4a3c2d5002fe869687cbb4aade445497b77"
+  },
+  "package": {
+    "format": "tc-evidence-package-2",
+    "files": {
+      "model.json": "6e14bfd389edeb628aacc8c57661049f83e717ccf7ba67259a489efe8d8349e6",
+      "evidence.sqlite": "7e1764e3f4498f5b140c603088b1597cfb9c3e7be40bd52b4f9fe87b24957339",
+      "competitors.json": "f88377c565eb7201161f0b760322b516ef62b4800581bbae754795f99268d3e7",
+      "parameters.json": "b15d63b2731c9f9a4d8cefd2d63de1f5fd6e3bcf3ef153a5c077957248cf908a"
+    },
+    "frontend_sha256": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+    "source_db_sha256": "ddfb2d98f9956017d449481a8297a38fd2ae3f4f668ec430c5391ef00afec71d",
+    "docs": 234189,
+    "segments": 7770473,
+    "duplicate_docs_removed": 9158,
+    "competitors": 109418,
+    "mass_error": 2.886579864025407e-15,
+    "boundary_counts": {
+      "bos": 1337471,
+      "eos": 1883904
+    },
+    "training": "modern fragments only; explicit observed edges; duplicate clusters clipped; no truth read",
+    "source_capabilities": {
+      "full_text": true,
+      "raw_mapping_validated": true,
+      "supplied_clusters": true,
+      "source_family": true,
+      "segment_edges": true
+    },
+    "source_limitations": [
+      "Unknown/layout/pause boundaries are not joined or treated as sentence stops",
+      "Only U+4E00-U+9FFF participates; unsupported characters split fragments",
+      "Supplied cluster identities are respected, not proof that all near copies are detected",
+      "Document start/end count as sentence boundaries only for modern sentence documents"
+    ],
+    "retrieval_policy": {
+      "block_chars": 256,
+      "char_budget": 8192,
+      "context_chars": 3
+    },
+    "source_files": {
+      "data/pronunciation/pronunciation.tsv": "407fbf533f5624233ff7f989c68f8731c431e1630b65a7132563370ff1643eae",
+      "data/pronunciation/pronunciation_char.tsv": "a0dc67e8d5a511e59755f42860787d7828c37983e70a84fde864200d2797b29f",
+      "data/correction/candidates.tsv": "dab7d80a6497271fb6c67d52d82f9c6a14972a61da18c8785689c43b92ffdf78",
+      "data/ac/ac_lock.tsv": "e6ac096b7f90e9a6423e65e86b975ebd5c0613eed14bec7a7027019c676ecedd"
+    }
+  },
+  "native_sha": "a423dce4adc41505cbf1a61329c3dec216a1ca0ed86ee5f55ede503fa194bf57",
+  "results": {
+    "BV163xB6zEwF.gt": {
+      "ngram": {
+        "counts": {
+          "TP": 0,
+          "FP": 4,
+          "wrong": 0
+        },
+        "distance": 37,
+        "remaining_original_errors": 30,
+        "candidate_reachable_errors": 16,
+        "candidate_count": 18598,
+        "seconds": 3.494402700001956,
+        "edits": 8,
+        "windows": 2708,
+        "rag_only_candidates": 0,
+        "nonzero_D": 0
+      },
+      "rag": {
+        "counts": {
+          "TP": 0,
+          "FP": 10,
+          "wrong": 1
+        },
+        "distance": 43,
+        "remaining_original_errors": 30,
+        "candidate_reachable_errors": 17,
+        "candidate_count": 18772,
+        "seconds": 10.736677600001713,
+        "edits": 20,
+        "windows": 2709,
+        "rag_only_candidates": 174,
+        "nonzero_D": 11291
+      },
+      "rag_proposals": {
+        "counts": {
+          "TP": 0,
+          "FP": 4,
+          "wrong": 0
+        },
+        "distance": 37,
+        "remaining_original_errors": 30,
+        "candidate_reachable_errors": 17,
+        "candidate_count": 18772,
+        "seconds": 2.145033999997395,
+        "edits": 8,
+        "windows": 2709,
+        "rag_only_candidates": 174,
+        "nonzero_D": 0
+      }
+    },
+    "BV18mxx64Es3.gt": {
+      "ngram": {
+        "counts": {
+          "TP": 10,
+          "FP": 5,
+          "wrong": 2
+        },
+        "distance": 92,
+        "remaining_original_errors": 71,
+        "candidate_reachable_errors": 49,
+        "candidate_count": 70255,
+        "seconds": 14.527318000000378,
+        "edits": 60,
+        "windows": 10193,
+        "rag_only_candidates": 0,
+        "nonzero_D": 0
+      },
+      "rag": {
+        "counts": {
+          "TP": 13,
+          "FP": 13,
+          "wrong": 2
+        },
+        "distance": 97,
+        "remaining_original_errors": 68,
+        "candidate_reachable_errors": 50,
+        "candidate_count": 71121,
+        "seconds": 84.35222489999796,
+        "edits": 101,
+        "windows": 10195,
+        "rag_only_candidates": 866,
+        "nonzero_D": 48909
+      },
+      "rag_proposals": {
+        "counts": {
+          "TP": 10,
+          "FP": 5,
+          "wrong": 2
+        },
+        "distance": 92,
+        "remaining_original_errors": 71,
+        "candidate_reachable_errors": 50,
+        "candidate_count": 71121,
+        "seconds": 25.181790300001012,
+        "edits": 60,
+        "windows": 10195,
+        "rag_only_candidates": 866,
+        "nonzero_D": 0
+      }
+    },
+    "BV19T4P6MEWp.gt": {
+      "ngram": {
+        "counts": {
+          "TP": 6,
+          "FP": 11,
+          "wrong": 0
+        },
+        "distance": 62,
+        "remaining_original_errors": 40,
+        "candidate_reachable_errors": 30,
+        "candidate_count": 70038,
+        "seconds": 13.690344900001946,
+        "edits": 58,
+        "windows": 10119,
+        "rag_only_candidates": 0,
+        "nonzero_D": 0
+      },
+      "rag": {
+        "counts": {
+          "TP": 6,
+          "FP": 23,
+          "wrong": 1
+        },
+        "distance": 74,
+        "remaining_original_errors": 40,
+        "candidate_reachable_errors": 30,
+        "candidate_count": 70940,
+        "seconds": 58.77940250000029,
+        "edits": 110,
+        "windows": 10120,
+        "rag_only_candidates": 902,
+        "nonzero_D": 48551
+      },
+      "rag_proposals": {
+        "counts": {
+          "TP": 6,
+          "FP": 11,
+          "wrong": 0
+        },
+        "distance": 62,
+        "remaining_original_errors": 40,
+        "candidate_reachable_errors": 30,
+        "candidate_count": 70940,
+        "seconds": 25.140660600001866,
+        "edits": 57,
+        "windows": 10120,
+        "rag_only_candidates": 902,
+        "nonzero_D": 0
+      }
+    },
+    "BV1LBxq6AEVn.gt": {
+      "ngram": {
+        "counts": {
+          "TP": 16,
+          "FP": 7,
+          "wrong": 0
+        },
+        "distance": 69,
+        "remaining_original_errors": 60,
+        "candidate_reachable_errors": 55,
+        "candidate_count": 52122,
+        "seconds": 12.416101300001174,
+        "edits": 55,
+        "windows": 7544,
+        "rag_only_candidates": 0,
+        "nonzero_D": 0
+      },
+      "rag": {
+        "counts": {
+          "TP": 18,
+          "FP": 7,
+          "wrong": 0
+        },
+        "distance": 67,
+        "remaining_original_errors": 58,
+        "candidate_reachable_errors": 58,
+        "candidate_count": 52867,
+        "seconds": 217.69241810000312,
+        "edits": 86,
+        "windows": 7544,
+        "rag_only_candidates": 745,
+        "nonzero_D": 38234
+      },
+      "rag_proposals": {
+        "counts": {
+          "TP": 18,
+          "FP": 7,
+          "wrong": 0
+        },
+        "distance": 67,
+        "remaining_original_errors": 58,
+        "candidate_reachable_errors": 58,
+        "candidate_count": 52867,
+        "seconds": 17.39865529999952,
+        "edits": 63,
+        "windows": 7544,
+        "rag_only_candidates": 745,
+        "nonzero_D": 0
+      }
+    },
+    "BV1sxxX64E4E.gt": {
+      "ngram": {
+        "counts": {
+          "TP": 19,
+          "FP": 9,
+          "wrong": 3
+        },
+        "distance": 131,
+        "remaining_original_errors": 109,
+        "candidate_reachable_errors": 75,
+        "candidate_count": 60802,
+        "seconds": 13.318519299999025,
+        "edits": 92,
+        "windows": 8794,
+        "rag_only_candidates": 0,
+        "nonzero_D": 0
+      },
+      "rag": {
+        "counts": {
+          "TP": 20,
+          "FP": 16,
+          "wrong": 4
+        },
+        "distance": 137,
+        "remaining_original_errors": 108,
+        "candidate_reachable_errors": 78,
+        "candidate_count": 61567,
+        "seconds": 81.74702570000227,
+        "edits": 102,
+        "windows": 8796,
+        "rag_only_candidates": 765,
+        "nonzero_D": 39100
+      },
+      "rag_proposals": {
+        "counts": {
+          "TP": 19,
+          "FP": 9,
+          "wrong": 3
+        },
+        "distance": 131,
+        "remaining_original_errors": 109,
+        "candidate_reachable_errors": 78,
+        "candidate_count": 61567,
+        "seconds": 20.722173599999223,
+        "edits": 87,
+        "windows": 8796,
+        "rag_only_candidates": 765,
+        "nonzero_D": 0
+      }
+    },
+    "BV1uUak6pEdK.gt": {
+      "ngram": {
+        "counts": {
+          "TP": 119,
+          "FP": 65,
+          "wrong": 18
+        },
+        "distance": 1517,
+        "remaining_original_errors": 1402,
+        "candidate_reachable_errors": 698,
+        "candidate_count": 472014,
+        "seconds": 124.44296829999803,
+        "edits": 481,
+        "windows": 67900,
+        "rag_only_candidates": 0,
+        "nonzero_D": 0
+      },
+      "rag": {
+        "counts": {
+          "TP": 159,
+          "FP": 122,
+          "wrong": 22
+        },
+        "distance": 1537,
+        "remaining_original_errors": 1362,
+        "candidate_reachable_errors": 738,
+        "candidate_count": 478621,
+        "seconds": 454.7137498999982,
+        "edits": 745,
+        "windows": 67926,
+        "rag_only_candidates": 6607,
+        "nonzero_D": 299418
+      },
+      "rag_proposals": {
+        "counts": {
+          "TP": 132,
+          "FP": 72,
+          "wrong": 17
+        },
+        "distance": 1511,
+        "remaining_original_errors": 1389,
+        "candidate_reachable_errors": 738,
+        "candidate_count": 478621,
+        "seconds": 144.50797729999977,
+        "edits": 528,
+        "windows": 67926,
+        "rag_only_candidates": 6607,
+        "nonzero_D": 0
+      }
+    },
+    "BV1XgxE6BEqn.gt": {
+      "ngram": {
+        "counts": {
+          "TP": 1,
+          "FP": 1,
+          "wrong": 0
+        },
+        "distance": 42,
+        "remaining_original_errors": 38,
+        "candidate_reachable_errors": 13,
+        "candidate_count": 25106,
+        "seconds": 6.1016608999998425,
+        "edits": 9,
+        "windows": 3622,
+        "rag_only_candidates": 0,
+        "nonzero_D": 0
+      },
+      "rag": {
+        "counts": {
+          "TP": 2,
+          "FP": 8,
+          "wrong": 0
+        },
+        "distance": 48,
+        "remaining_original_errors": 37,
+        "candidate_reachable_errors": 13,
+        "candidate_count": 25443,
+        "seconds": 26.779166399999667,
+        "edits": 14,
+        "windows": 3624,
+        "rag_only_candidates": 337,
+        "nonzero_D": 15638
+      },
+      "rag_proposals": {
+        "counts": {
+          "TP": 1,
+          "FP": 1,
+          "wrong": 0
+        },
+        "distance": 42,
+        "remaining_original_errors": 38,
+        "candidate_reachable_errors": 13,
+        "candidate_count": 25443,
+        "seconds": 4.167510899998888,
+        "edits": 11,
+        "windows": 3624,
+        "rag_only_candidates": 337,
+        "nonzero_D": 0
+      }
+    }
+  },
+  "load_seconds": 45.009855599997536,
+  "parameters": {
+    "calibrated": false,
+    "classes": {
+      "same": [
+        0.0,
+        1.0
+      ],
+      "tone": [
+        0.0,
+        1.0
+      ],
+      "near": [
+        0.0,
+        1.0
+      ]
+    },
+    "alpha": 0.01,
+    "kappa": 10.0,
+    "rho": 1.0,
+    "top_h": 30,
+    "retrieval_limit": 50,
+    "note": "Engineering initial values, not fitted or validated risk parameters."
+  }
+}

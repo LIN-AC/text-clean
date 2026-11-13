@@ -1,0 +1,357 @@
+{
+  "v1": {
+    "BV163xB6zEwF.gt": {
+      "score": {
+        "counts": {
+          "TP": 1,
+          "FP": 2,
+          "wrong": 0
+        },
+        "distance": 34,
+        "remaining_original_errors": 29
+      },
+      "seconds": [
+        2.9949921000006725,
+        2.9378467999995337
+      ],
+      "identical": true
+    },
+    "BV18mxx64Es3.gt": {
+      "score": {
+        "counts": {
+          "TP": 7,
+          "FP": 0,
+          "wrong": 0
+        },
+        "distance": 90,
+        "remaining_original_errors": 74
+      },
+      "seconds": [
+        2.980129899999156,
+        3.25724750000154
+      ],
+      "identical": true
+    },
+    "BV19T4P6MEWp.gt": {
+      "score": {
+        "counts": {
+          "TP": 0,
+          "FP": 0,
+          "wrong": 0
+        },
+        "distance": 57,
+        "remaining_original_errors": 46
+      },
+      "seconds": [
+        3.291196400001354,
+        3.116744300001301
+      ],
+      "identical": true
+    },
+    "BV1LBxq6AEVn.gt": {
+      "score": {
+        "counts": {
+          "TP": 4,
+          "FP": 4,
+          "wrong": 1
+        },
+        "distance": 78,
+        "remaining_original_errors": 72
+      },
+      "seconds": [
+        3.086492800000997,
+        2.9472406999993837
+      ],
+      "identical": true
+    },
+    "BV1sxxX64E4E.gt": {
+      "score": {
+        "counts": {
+          "TP": 7,
+          "FP": 5,
+          "wrong": 1
+        },
+        "distance": 139,
+        "remaining_original_errors": 121
+      },
+      "seconds": [
+        3.2862918999999238,
+        4.145554200000333
+      ],
+      "identical": true
+    },
+    "BV1uUak6pEdK.gt": {
+      "score": {
+        "counts": {
+          "TP": 133,
+          "FP": 66,
+          "wrong": 21
+        },
+        "distance": 1509,
+        "remaining_original_errors": 1388
+      },
+      "seconds": [
+        3.150249600003008,
+        3.231388500000321
+      ],
+      "identical": true
+    },
+    "BV1XgxE6BEqn.gt": {
+      "score": {
+        "counts": {
+          "TP": 0,
+          "FP": 2,
+          "wrong": 0
+        },
+        "distance": 44,
+        "remaining_original_errors": 39
+      },
+      "seconds": [
+        2.989055500001996,
+        2.9785011999993003
+      ],
+      "identical": true
+    }
+  },
+  "retrieval": [
+    {
+      "video": "BV163xB6zEwF.gt",
+      "query": "本视频请先阅读字幕轨道为ZH",
+      "python_seconds": 0.09497279999777675,
+      "cpp_seconds": 0.06444540000302368,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV163xB6zEwF.gt",
+      "query": "从来没想过我要说什么",
+      "python_seconds": 0.10218689999965136,
+      "cpp_seconds": 0.08273209999970277,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV163xB6zEwF.gt",
+      "query": "我也不知道",
+      "python_seconds": 0.15304520000063349,
+      "cpp_seconds": 0.21521729999949457,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV163xB6zEwF.gt",
+      "query": "第四夸他但别每次都夸",
+      "python_seconds": 0.07549410000137868,
+      "cpp_seconds": 0.08132210000258056,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV18mxx64Es3.gt",
+      "query": "每天一篇申论范文",
+      "python_seconds": 0.04107719999956316,
+      "cpp_seconds": 0.03549430000202847,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV18mxx64Es3.gt",
+      "query": "少儿读物按需供给",
+      "python_seconds": 0.02730840000003809,
+      "cpp_seconds": 0.019395900002564304,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV18mxx64Es3.gt",
+      "query": "它是校外成长课堂",
+      "python_seconds": 0.049266300000454066,
+      "cpp_seconds": 0.042816899996978464,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV18mxx64Es3.gt",
+      "query": "你看这篇文章",
+      "python_seconds": 0.04296750000139582,
+      "cpp_seconds": 0.04557170000043698,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV19T4P6MEWp.gt",
+      "query": "每天一篇深论范文",
+      "python_seconds": 0.03338670000084676,
+      "cpp_seconds": 0.035296799997013295,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV19T4P6MEWp.gt",
+      "query": "好第二段中心论点段",
+      "python_seconds": 0.17202809999798774,
+      "cpp_seconds": 0.1650645000008808,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV19T4P6MEWp.gt",
+      "query": "特意专门给大家设计了人民立场这个模块",
+      "python_seconds": 0.2466348999987531,
+      "cpp_seconds": 0.2631744999998773,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV19T4P6MEWp.gt",
+      "query": "是治理有力的根本保障",
+      "python_seconds": 0.11888969999927212,
+      "cpp_seconds": 0.12764039999819943,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1LBxq6AEVn.gt",
+      "query": "每天一篇申论范文",
+      "python_seconds": 0.043370100000174716,
+      "cpp_seconds": 0.03297229999952833,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1LBxq6AEVn.gt",
+      "query": "而是秉持实事求是的态度",
+      "python_seconds": 0.10974010000063572,
+      "cpp_seconds": 0.08929980000175419,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1LBxq6AEVn.gt",
+      "query": "可以分为三个部分来理解",
+      "python_seconds": 0.5290714999973716,
+      "cpp_seconds": 0.38674469999750727,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1LBxq6AEVn.gt",
+      "query": "第二",
+      "python_seconds": 0.15389499999946565,
+      "cpp_seconds": 0.11610579999978654,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "query": "每天一篇深论范文",
+      "python_seconds": 0.0644968999986304,
+      "cpp_seconds": 0.0357436999984202,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "query": "摸清村情民情",
+      "python_seconds": 0.009357599999930244,
+      "cpp_seconds": 0.010514100002183113,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "query": "敢担当",
+      "python_seconds": 0.008236899997427827,
+      "cpp_seconds": 0.007912799999758136,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1sxxX64E4E.gt",
+      "query": "这三句话从句式结构上来分析",
+      "python_seconds": 0.1439667999984522,
+      "cpp_seconds": 0.1080136999989918,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "query": "4万字一小时38分钟",
+      "python_seconds": 0.12188180000157445,
+      "cpp_seconds": 0.07931610000014189,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "query": "谁得天下",
+      "python_seconds": 0.14418599999771686,
+      "cpp_seconds": 0.1662929999984044,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "query": "都打着立国立民的旗号",
+      "python_seconds": 0.08000380000157747,
+      "cpp_seconds": 0.07318450000093435,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1uUak6pEdK.gt",
+      "query": "民间交易只能用钞",
+      "python_seconds": 0.13954419999936363,
+      "cpp_seconds": 0.11565020000125514,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1XgxE6BEqn.gt",
+      "query": "Agent你好这是一期专为你的观看体验设计的视频",
+      "python_seconds": 0.3655958000017563,
+      "cpp_seconds": 0.31322540000110166,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1XgxE6BEqn.gt",
+      "query": "人类听诚强调",
+      "python_seconds": 0.07949910000024829,
+      "cpp_seconds": 0.07450560000143014,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1XgxE6BEqn.gt",
+      "query": "每一步的产出",
+      "python_seconds": 0.12424900000041816,
+      "cpp_seconds": 0.1644229000012274,
+      "segments": 50,
+      "identical": true
+    },
+    {
+      "video": "BV1XgxE6BEqn.gt",
+      "query": "结论前置是",
+      "python_seconds": 0.01743720000013127,
+      "cpp_seconds": 0.02077360000112094,
+      "segments": 50,
+      "identical": true
+    }
+  ],
+  "counts": {
+    "TP": 152,
+    "FP": 79,
+    "wrong": 23
+  },
+  "distance": 1951,
+  "python_seconds": 3.291789599992626,
+  "cpp_seconds": 2.972850100006326,
+  "scope": "28 identical queries, warm/read-order affected; not whole-pipeline throughput",
+  "hashes": {
+    "build\\e044_full\\evidence.sqlite": "7e1764e3f4498f5b140c603088b1597cfb9c3e7be40bd52b4f9fe87b24957339",
+    "build\\e035\\text_clean.exe": "c6ceee7463aad27a101ac34e9f49e40c147ac1a8bbd40eff5a8334766a5b7eb6",
+    "build\\astra_v2\\text_clean.exe": "91ebf0a8ad71ae822e6f9812b1ac4dc940bb77f8f88bf6b8ef3f263b6a436048",
+    "build\\astra_v2\\tc_retrieve.exe": "a423dce4adc41505cbf1a61329c3dec216a1ca0ed86ee5f55ede503fa194bf57"
+  }
+}

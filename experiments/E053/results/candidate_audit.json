@@ -1,0 +1,243 @@
+{
+  "scope": "selected-edit attribution only; cannot infer the result of removing candidates",
+  "model_sha": "6e14bfd389edeb628aacc8c57661049f83e717ccf7ba67259a489efe8d8349e6",
+  "records": {
+    "BV163xB6zEwF.gt": {
+      "involved_unobserved_string": {
+        "TP": 0,
+        "FP": 3,
+        "wrong": 0
+      },
+      "differing_first_reading": {
+        "TP": 0,
+        "FP": 1,
+        "wrong": 0
+      },
+      "examples": [
+        {
+          "source": "给点小奖",
+          "target": "奇点效奖",
+          "begin": 1043
+        },
+        {
+          "source": "小小地期",
+          "target": "小小的期",
+          "begin": 1152
+        },
+        {
+          "source": "小地期",
+          "target": "小的期",
+          "begin": 1153
+        }
+      ]
+    },
+    "BV18mxx64Es3.gt": {
+      "involved_unobserved_string": {
+        "TP": 5,
+        "FP": 2,
+        "wrong": 2
+      },
+      "differing_first_reading": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "examples": [
+        {
+          "source": "乌改革提",
+          "target": "屋改革提",
+          "begin": 265
+        },
+        {
+          "source": "的文化汇",
+          "target": "的文化惠",
+          "begin": 599
+        },
+        {
+          "source": "厚毒的氛",
+          "target": "厚度的氛",
+          "begin": 1361
+        },
+        {
+          "source": "毒的氛",
+          "target": "度的氛",
+          "begin": 1362
+        },
+        {
+          "source": "能只看建",
+          "target": "能只看见",
+          "begin": 1871
+        }
+      ]
+    },
+    "BV19T4P6MEWp.gt": {
+      "involved_unobserved_string": {
+        "TP": 2,
+        "FP": 3,
+        "wrong": 0
+      },
+      "differing_first_reading": {
+        "TP": 0,
+        "FP": 3,
+        "wrong": 0
+      },
+      "examples": [
+        {
+          "source": "写政务",
+          "target": "些政务",
+          "begin": 866
+        },
+        {
+          "source": "写政务服",
+          "target": "些政务服",
+          "begin": 866
+        },
+        {
+          "source": "接着再往",
+          "target": "接着在往",
+          "begin": 1567
+        },
+        {
+          "source": "头巷围走",
+          "target": "头巷尾走",
+          "begin": 2888
+        },
+        {
+          "source": "巷围走",
+          "target": "巷尾走",
+          "begin": 2889
+        }
+      ]
+    },
+    "BV1LBxq6AEVn.gt": {
+      "involved_unobserved_string": {
+        "TP": 2,
+        "FP": 3,
+        "wrong": 0
+      },
+      "differing_first_reading": {
+        "TP": 3,
+        "FP": 1,
+        "wrong": 0
+      },
+      "examples": [
+        {
+          "source": "实不是刻",
+          "target": "师不是刻",
+          "begin": 1030
+        },
+        {
+          "source": "于谈求",
+          "target": "于探求",
+          "begin": 1142
+        },
+        {
+          "source": "于谈求真",
+          "target": "于探求真",
+          "begin": 1142
+        },
+        {
+          "source": "了老实这",
+          "target": "了老师这",
+          "begin": 1313
+        },
+        {
+          "source": "实这个概",
+          "target": "师这个概",
+          "begin": 1315
+        }
+      ]
+    },
+    "BV1sxxX64E4E.gt": {
+      "involved_unobserved_string": {
+        "TP": 6,
+        "FP": 4,
+        "wrong": 0
+      },
+      "differing_first_reading": {
+        "TP": 2,
+        "FP": 3,
+        "wrong": 1
+      },
+      "examples": [
+        {
+          "source": "见极难筹",
+          "target": "见急难愁",
+          "begin": 441
+        },
+        {
+          "source": "人为敬可",
+          "target": "人为镜可",
+          "begin": 1001
+        },
+        {
+          "source": "为敬可",
+          "target": "为镜可",
+          "begin": 1002
+        },
+        {
+          "source": "为敬可以",
+          "target": "为镜可以",
+          "begin": 1002
+        },
+        {
+          "source": "敬可以明",
+          "target": "镜可以明",
+          "begin": 1003
+        }
+      ]
+    },
+    "BV1uUak6pEdK.gt": {
+      "involved_unobserved_string": {
+        "TP": 39,
+        "FP": 37,
+        "wrong": 12
+      },
+      "differing_first_reading": {
+        "TP": 9,
+        "FP": 14,
+        "wrong": 3
+      },
+      "examples": [
+        {
+          "source": "革明明",
+          "target": "革命名",
+          "begin": 252
+        },
+        {
+          "source": "革明明声",
+          "target": "革命名声",
+          "begin": 252
+        },
+        {
+          "source": "明明声",
+          "target": "命名声",
+          "begin": 253
+        },
+        {
+          "source": "明明声势",
+          "target": "命名声势",
+          "begin": 253
+        },
+        {
+          "source": "反而越难",
+          "target": "反而越南",
+          "begin": 284
+        }
+      ]
+    },
+    "BV1XgxE6BEqn.gt": {
+      "involved_unobserved_string": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "differing_first_reading": {
+        "TP": 0,
+        "FP": 0,
+        "wrong": 0
+      },
+      "examples": []
+    }
+  }
+}

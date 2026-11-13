@@ -81,6 +81,20 @@ endif()
 
 enable_testing()
 
+# V2 research retrieval is optional; the V1 executable has no SQLite dependency.
+option(TC_BUILD_RETRIEVAL "Build the native V2 evidence retriever" OFF)
+if(TC_BUILD_RETRIEVAL)
+  find_package(SQLite3 REQUIRED)
+  tc_library(tc_retrieval src/retrieval.cpp)
+  if(TARGET SQLite3::SQLite3)
+    target_link_libraries(tc_retrieval PUBLIC tc_utf8 SQLite3::SQLite3)
+  else()
+    target_link_libraries(tc_retrieval PUBLIC tc_utf8 SQLite::SQLite3)
+  endif()
+  add_executable(tc_retrieve src/retrieval_main.cpp)
+  target_link_libraries(tc_retrieve PRIVATE tc_retrieval)
+endif()
+
 function(tc_test name)
   add_executable(${name} tests/${name}.cpp)
   target_link_libraries(${name} PRIVATE ${ARGN})
@@ -116,6 +130,11 @@ target_compile_definitions(test_video_context PRIVATE TC_DATA_DIR="${TC_DATA_DIR
 
 find_package(Python3 COMPONENTS Interpreter QUIET)
 if(Python3_Interpreter_FOUND)
+  if(TC_BUILD_RETRIEVAL)
+    add_test(NAME test_proposal_clean COMMAND ${Python3_EXECUTABLE}
+      ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_proposal_clean.py $<TARGET_FILE:tc_retrieve>)
+  endif()
+  add_test(NAME test_rag_clean COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_rag_clean.py)
   add_test(NAME test_cli_bundle COMMAND ${Python3_EXECUTABLE}
     ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_cli_bundle.py $<TARGET_FILE:text_clean>)
   add_test(NAME test_ngram_veto COMMAND ${Python3_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_ngram_veto.py)

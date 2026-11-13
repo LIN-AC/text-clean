@@ -1,0 +1,106 @@
+{
+  "data": {
+    "datasets\\CTCDataset\\sighan\\sighan14_test.jsonl": "b5e54536ea33ad4d34a39ef5feb05f7ac32e1d3f1edcab5f24ff0757517fa5b3",
+    "datasets\\CTCDataset\\cscd-ns\\test.jsonl": "abc08120f761e23577fbf2ba4068b7ca564056c525100fa5d5e4fa4c9efd2b70",
+    "datasets\\CTCDataset\\lemon\\new.jsonl": "3ee9c73ed92191ad76a62d814f2ac99e8b0da58d60fad92a5da73fa831231b05"
+  },
+  "results": {
+    "datasets\\CTCDataset\\sighan\\sighan14_test.jsonl": {
+      "ngram": {
+        "score": {
+          "counts": {
+            "TP": 4,
+            "FP": 2,
+            "wrong": 0
+          },
+          "distance": 15,
+          "remaining_original_errors": 13
+        },
+        "seconds": 3.2764186000022164,
+        "edits": 34
+      },
+      "rag": {
+        "score": {
+          "counts": {
+            "TP": 4,
+            "FP": 2,
+            "wrong": 0
+          },
+          "distance": 15,
+          "remaining_original_errors": 13
+        },
+        "seconds": 18.072658299999603,
+        "edits": 30
+      }
+    },
+    "datasets\\CTCDataset\\cscd-ns\\test.jsonl": {
+      "ngram": {
+        "score": {
+          "counts": {
+            "TP": 4,
+            "FP": 3,
+            "wrong": 0
+          },
+          "distance": 16,
+          "remaining_original_errors": 13
+        },
+        "seconds": 6.370894300001964,
+        "edits": 40
+      },
+      "rag": {
+        "score": {
+          "counts": {
+            "TP": 5,
+            "FP": 3,
+            "wrong": 0
+          },
+          "distance": 15,
+          "remaining_original_errors": 12
+        },
+        "seconds": 13.368000599999505,
+        "edits": 42
+      }
+    },
+    "datasets\\CTCDataset\\lemon\\new.jsonl": {
+      "ngram": {
+        "score": {
+          "counts": {
+            "TP": 3,
+            "FP": 0,
+            "wrong": 0
+          },
+          "distance": 17,
+          "remaining_original_errors": 13
+        },
+        "seconds": 2.634847699999227,
+        "edits": 8
+      },
+      "rag": {
+        "score": {
+          "counts": {
+            "TP": 3,
+            "FP": 2,
+            "wrong": 0
+          },
+          "distance": 19,
+          "remaining_original_errors": 13
+        },
+        "seconds": 14.222186599999986,
+        "edits": 9
+      }
+    }
+  },
+  "known_negative": {
+    "source": "这个颜色要略微深一点。\n谈话核实。\n谈话人员。\n微星电脑使用英伟达显卡。\n",
+    "output": "这个颜色要略微深一点。\n谈话核实。\n谈话人员。\n微型电脑使用英伟达显卡。\n",
+    "changed_chars": 1
+  },
+  "real_asr": {
+    "path": "datasets\\whisper_txt\\BV1ghec66Eau.txt",
+    "sha256": "bae76e27d36cc2252884db55e430919916dc056096cd61c54ca8a3e856d614e7",
+    "known_phrase": "这个颜色要略微深一点",
+    "phrase_output": "这个颜色要略微深一点",
+    "total_changed_chars_unlabeled": 32
+  },
+  "default_keep": true
+}
