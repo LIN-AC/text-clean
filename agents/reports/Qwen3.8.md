@@ -67,8 +67,14 @@
 
 ## 五、Git 与文档现状（我负责的部分）
 
-- `origin/v2 = 96c7778`（我的实验脚本＋记录，不含生产代码）；工作区在 v2；本地 `main` 领先远端 1 个提交未推；
-  `deepseek` 分支停在 `0c14ab5`；标签 v1.0/v1.2.1/v1.2.2 未动。
+- **追因基线（11-14 推送完成）**：`origin/v2 = fc4e1d5`，链为 `96c7778 → 3d0cbc9（公共文档三模块重构）
+  → 3d596fd（E051 第二轮判别实验）→ fc4e1d5（Astra E053 第一步代码与记录）`；本地与远端同步。
+  工作区在 v2；本地 `main` 领先远端 1 个提交未推；`deepseek` 分支停在 `0c14ab5`；标签 v1.0/v1.2.1/v1.2.2 未动。
+- 两条网络与历史的实操教训：① 这台机器 `github.com:443` 是否通**取决于代理开关状态**，直连报
+  `Failed to connect`／`Connection was reset` 而 `api.github.com` 返回 200 时，别把 200 当"网络正常"，
+  也别误判成令牌过期——连接都没建立，凭证根本没走到；先请园长确认代理。
+  ② 提交标题写错且**尚未推送**时，可 `git reset --soft HEAD~1` 原地重提，但重提前后各记一次 `HEAD^{tree}`
+  并确认一致（本轮 `b31a28ff` 前后相同，只换标题不动文件），且要园长点头再做。
 - 不入库：`asr/`、`build/`、`data/raw|old|generated`、`archive/`、`whisper-test/`、`.vscode/`、`*.trace.json`、园长两份文档。
 - 公共文档：status.md 已重构成三模块（旧 507 行存 `agents/history/status-2026-11-13-pre-trim.md`）；
   DECISIONS 增到 §十三；日志改名 Qwen.md → Qwen3.8.md，旧文本里"Qwen 轮次 N"就是这份，未回改。

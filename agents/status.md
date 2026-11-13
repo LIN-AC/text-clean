@@ -100,16 +100,17 @@ Astra 已完成 v2 的 E053 第一步：原生检索与不读答案表的候选�
 
 ### 6. 版本与仓库状态（Qwen3.8 管，2026-11-14 00:20 实查）
 
-- 远端 `origin/v2 = 96c7778`（新架构脚本 + E042/E044/E045/E051 记录，106 个文件，不含生产代码）；
-  本地工作区当前在 **v2** 分支。`origin/main` 仍是 `72796ca`，本地 `main` 领先 1 个提交（`0c14ab5`）未推。
+- 远端 `origin/v2`：**2026-11-14 推送后 = `fc4e1d5`**，基线链为 `96c7778`（新架构脚本＋E042/E044/E045/E051 记录）
+  → `3d0cbc9`（公共文档三模块重构、日志改名精简、Architecture.md 首次入库）→ `3d596fd`（E051 第二轮判别实验）
+  → `fc4e1d5`（Astra E053 第一步代码与记录）。本地 v2 与远端同步，**其他 Agent 追因请从 `fc4e1d5` 起**。
+  `origin/main` 仍是 `72796ca`，本地 `main` 领先 1 个提交（`0c14ab5`）未推；
   标签 **v1.0 / v1.2.1 / v1.2.2 未动**；`deepseek` 分支停在 `0c14ab5`。
 - 工作区同时有既有未提交修改与 **Astra 的 E053**。归属更正（Astra 核对）：`src/main.cpp`、`src/text_cleaner.cpp`、
   `include/text_clean/text_cleaner.h`、`tests/test_decision_safety.cpp`、`tests/test_zipf_scoring.cpp` 在 E053 开始前已修改，不归为本轮成果。
   E053 新增 `src/retrieval*.cpp`、`include/text_clean/retrieval.h`、`tools/{native_retrieval,proposal_clean}.py`、
   `tests/test_proposal_clean.py`，并在既有 `CMakeLists.txt`、`README.md` 上追加；`tools/context_clean.py` 属 Qwen4。
   **我不碰源码与测试**（园长指令），也不代他人提交。
-- **本轮（11-14）入库例外，按园长"推送吧"执行**：为了让其他 Agent 从一致基线开始追因，我把 **Astra E053 第一步的代码与记录**
-  一并提交到 v2——`src/retrieval.cpp`、`src/retrieval_main.cpp`、`include/text_clean/retrieval.h`、
+- **本轮（11-14）入库例外，按园长"推送吧"执行**：为了让其他 Agent 从一致基线开始追因，我把 **Astra E053 第一步的代码与记录**  一并提交到 v2——`src/retrieval.cpp`、`src/retrieval_main.cpp`、`include/text_clean/retrieval.h`、
   `tests/test_proposal_clean.py`、`tools/{native_retrieval,proposal_clean}.py`、`experiments/E053/`，
   以及 `CMakeLists.txt` 里的可选目标 `TC_BUILD_RETRIEVAL`（默认 OFF，V1 可执行文件不依赖 SQLite，关掉就等于没动）。
   仍**不代提交**：Deepseek 的 E048 五处改动（`src/main.cpp`、`src/text_cleaner.cpp`、`text_cleaner.h`、两个 tests）、
