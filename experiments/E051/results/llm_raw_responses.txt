@@ -1,0 +1,11 @@
+[{"id":0,"verdict":"改"},{"id":1,"verdict":"保留"},{"id":2,"verdict":"改"},{"id":3,"verdict":"改"},{"id":4,"verdict":"改"},{"id":5,"verdict":"改"}]
+-----
+[{"id":0,"verdict":"改"},{"id":1,"verdict":"保留"},{"id":2,"verdict":"保留"},{"id":3,"verdict":"改"},{"id":4,"verdict":"保留"},{"id":5,"verdict":"保留"}]
+-----
+[{"id":0,"verdict":"保留"},{"id":1,"verdict":"保留"},{"id":2,"verdict":"改"},{"id":3,"verdict":"改"},{"id":4,"verdict":"改"},{"id":5,"verdict":"改"}]
+-----
+[{"id":0,"verdict":"改"},{"id":1,"verdict":"改"},{"id":2,"verdict":"改"},{"id":3,"verdict":"保留"},{"id":4,"verdict":"保留"},{"id":5,"verdict":"保留"}]
+-----
+[{"id":0,"verdict":"保留"},{"id":1,"verdict":"保留"},{"id":2,"verdict":"保留"},{"id":3,"verdict":"保留"},{"id":4,"verdict":"保留"},{"id":5,"verdict":"保留"}]
+-----
+[{"id":0,"verdict":"保留"},{"id":1,"verdict":"保留"},{"id":2,"verdict":"保留"},{"id":3,"verdict":"保留"},{"id":4,"verdict":"保留"},{"id":5,"verdict":"保留"}]
